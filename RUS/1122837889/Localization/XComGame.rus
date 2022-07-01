@@ -1,0 +1,267 @@
+[HunterOfVipers X2TraitTemplate]
+TraitFriendlyName="Охотник на змей"
+TraitDescription="Этот Боец будет наносить дополнительный урон при столкновении с вражеским вайпером."
+
+[HunterOfArchons X2TraitTemplate]
+TraitFriendlyName="Охотник на архонтов"
+TraitDescription="Этот Боец будет наносить дополнительный урон при столкновении с вражеским архонтом."
+
+[HunterOfStunLancers X2TraitTemplate]
+TraitFriendlyName="Охотник на копейщиков"
+TraitDescription="Этот Боец будет наносить дополнительный урон при столкновении с вражеским копейщиком."
+
+[HunterOfMutons X2TraitTemplate]
+TraitFriendlyName="Охотник на мутонов"
+TraitDescription="Этот Боец будет наносить дополнительный урон при столкновении с вражеским мутоном."
+
+[HunterOfTheLost X2TraitTemplate]
+TraitFriendlyName="Охотник на странников"
+TraitDescription="Этот Боец будет наносить дополнительный урон при столкновении со странниками."
+
+[HunterOfMecs X2TraitTemplate]
+TraitFriendlyName="Охотник на MEC"
+TraitDescription="Этот Боец будет наносить дополнительный урон при столкновении с вражеским MEC."
+
+[HunterOfFaceless X2TraitTemplate]
+TraitFriendlyName="Охотник на безликих"
+TraitDescription="Этот Боец будет наносить дополнительный урон при столкновении с вражеским безликим."
+
+[HunterOfSectoids X2TraitTemplate]
+TraitFriendlyName="Охотник на сектоидов"
+TraitDescription="Этот Боец будет наносить дополнительный урон при столкновении с вражеским сектоидом."
+
+[HunterOfChosen X2TraitTemplate]
+TraitFriendlyName="Охотник на избранных"
+TraitDescription="Этот Боец будет наносить дополнительный урон при столкновении с Избранным."
+
+[HunterOfSectoidsPassive X2AbilityTemplate]
+LocFriendlyName="Охотник на сектоидов"
+LocLongDescription="Этот Боец будет наносить дополнительный урон при столкновении с вражеским сектоидом."
+
+[HunterOfChosenPassive X2AbilityTemplate]
+LocFriendlyName="Охотник на избранных"
+LocLongDescription="Этот Боец будет наносить дополнительный урон при столкновении с Избранным."
+
+
+[FearOfVertigo X2TraitTemplate]
+TraitFriendlyName="Боязнь высоты"
+TraitScientificName="Альтофобия"
+TraitDescription="Вероятность паники при начале поворота на возвышенности."
+TraitQuotes[0]="\"Каждый раз, когда я смотрю вниз, все, о чем я могу думать, - это падение.\""
+TraitQuotes[1]="\"У тебя когда-нибудь раньше была сломана половина костей из-за одного пропущенного выстрела?\""
+TraitQuotes[2]="\"Просто больше нет места для ошибок.\""
+TraitQuotes[3]="\"Я видел, что происходит с парнями, которые пропускают удары там.\""
+TraitQuotes[4]="\"Я должен превзойти себя, я не могу быть тем, из-за кого нас там убьют.\""
+
+[FearOfSquadmateMissedShots X2TraitTemplate]
+TraitFriendlyName="Боязнь промахов"
+TraitScientificName="Атихифобия"
+TraitDescription="Шанс запаниковать, когда товарищ по команде промахивается."
+TraitQuotes[0]="\"Один пропущенный выстрел может стоить нам всего!\""
+TraitQuotes[1]="\"От этого зависит так много... один неверный выстрел, и мы все умрем.\""
+TraitQuotes[2]="\"Просто больше нет места для ошибок.\""
+TraitQuotes[3]="\"Один промах и ты мертв... это все, что нужно.\""
+TraitQuotes[4]="\"Шансы против нас! Шансы всегда против нас!\""
+
+[Trait_Critic X2TraitTemplate]
+TraitFriendlyName ="Перфекционист"
+TraitScientificName="Невротизм"
+TraitDescription ="="Шанс вызвать панику среди команды, когда команда пропускает удары"
+TraitQuotes[0]="\"Что, черт возьми, это было? Из-за них нас всех убьют!\""
+TraitQuotes[1]="\"Возможно, нам нужно повысить наши стандарты обучения...\""
+TraitQuotes[2]="\"Винить некого, кроме себя.\""
+TraitQuotes[3]="\"У нас не должно быть много рекрутов на выбор.\""
+TraitQuotes[4]="\"Мы все должны придерживаться более высоких стандартов.\""
+
+[Trait_Insubordinate X2TraitTemplate]
+TraitFriendlyName ="Боязнь потерь"
+TraitScientificName="Диспозиционное неподчинение"
+TraitDescription ="Шанс вызвать панику среди отряда, столкнувшись со смертельным исходом."
+TraitQuotes[0]="\"Мы никогда не должны были входить здесь...это все было одной большой ошибкой.\""
+TraitQuotes[1]="\"Какой в этом смысл?! Что это нам дало?\""
+TraitQuotes[2]="\"Все так быстро пошло под откос.\""
+TraitQuotes[3]="\"Конечно, Командир некомпетентен, ОНИ СКАЗАЛИ МНЕ, ЧТОБЫ Я ОБОШЕЛ СЕБЯ С ФЛАНГА!\""
+TraitQuotes[4]="\"Мы все в конечном итоге умрем или еще хуже.\"" 
+
+[BadWilderness X2TraitTemplate]
+TraitFriendlyName="Неопытный в дикой природе"
+TraitScientificName="Недостаток подготовки"
+TraitDescription="-2 мобильности в сельской местности."
+TraitQuotes[0]="\"Кто, черт возьми, захочет здесь жить?\""
+TraitQuotes[1]="\"Здесь слишком мало прикрытия.\""
+TraitQuotes[2]="\"Такое окружение идеально подходит для того, чтобы попасть в засаду.\""
+
+[BadUrban X2TraitTemplate]
+TraitFriendlyName="Неопытный в городских районах"
+TraitScientificName="Недостаток подготовки"
+TraitDescription="-2 мобильности в городских районах."
+TraitQuotes[0]="\"Кто, черт возьми, захочет здесь жить?\""
+TraitQuotes[1]="\"Слишком много потенциальных точек ограничения.\""
+TraitQuotes[2]="\"Такое окружение идеально подходит для того, чтобы попасть в засаду.\""
+
+[TraitAbility_BadWilderness X2AbilityTemplate]
+LocFriendlyName="Неопытность в дикой природе"
+LocLongDescription="Это подразделение будет иметь мобильность -2 в сельской местности."
+
+[TraitAbility_BadUrban X2AbilityTemplate]
+LocFriendlyName="Городская неопытность"
+LocLongDescription="Это устройство будет иметь мобильность -2 в городских районах."
+
+
+[GoodWilderness X2TraitTemplate]
+TraitFriendlyName="Обучение выживанию в дикой природе"
+TraitDescription="Это подразделение будет иметь мобильность +2 в сельской местности."
+
+[GoodUrban X2TraitTemplate]
+TraitFriendlyName="Боевая подготовка в городских условиях"
+TraitDescription="Это подразделение будет иметь мобильность +2 в городских районах."
+
+[TraitAbility_GoodWilderness X2AbilityTemplate]
+LocFriendlyName="Обучение выживанию в дикой природе"
+LocLongDescription="Это подразделение будет иметь мобильность +2 в сельской местности."
+
+[TraitAbility_GoodUrban X2AbilityTemplate]
+LocFriendlyName="Боевая подготовка в городских условиях"
+LocLongDescription="Это подразделение будет иметь мобильность +2 в городских районах."
+
+
+
+[NeedSafety X2TraitTemplate]
+TraitFriendlyName="Одержимость полного прикрытия"
+TraitScientificName="Эктезифобия"
+TraitDescription="-5 к меткости, когда находитесь вне полного укрытия"
+TraitQuotes[0]="\"Мне нужно все, что находится между мной и плазмой, пытающейся убить меня.\""
+TraitQuotes[1]="\"Прости, я просто хочу *не* умирать.\""
+
+[RiskTaker X2TraitTemplate]
+TraitFriendlyName="Склонный к риску"
+TraitScientificName="Склонность к оптимизму"
+TraitDescription="-5 к меткости, когда выходит из не полного прикрытия"
+TraitQuotes[0]="\"Полное покрытие для анютиных глазок\""
+TraitQuotes[1]="\"Эй, мне все равно нужно пространство, чтобы увидеть врага.\""
+TraitQuotes[2]="\"Я просто очень устаю от необходимости постоянно наклоняться в стороны.\""
+
+[TraitAbility_NeedSafety X2AbilityTemplate]
+LocFriendlyName="Одержимость полного прикрытия"
+LocLongDescription="У этого Бойца будет -5 к меткости вне полного укрытия."
+
+[TraitAbility_RiskTaker X2AbilityTemplate]
+LocFriendlyName="Терпимый к риску"
+LocLongDescription="У этого Бойца будет -5 к меткости вне не полного укрытия."
+
+
+[GoodProfile X2TraitTemplate]
+TraitFriendlyName="Хороший профиль"
+TraitDescription="Боец получает +10 к защите в укрытии."
+
+[SteadiedAim X2TraitTemplate]
+TraitFriendlyName="Устойчивый прицел"
+TraitDescription="Боец получает +5 к меткости в укрытии."
+
+
+[TraitAbility_GoodProfile X2AbilityTemplate]
+LocFriendlyName="Хороший профиль"
+LocLongDescription="Боец получает +10 к защите в укрытии."
+
+[TraitAbility_SteadiedAim X2AbilityTemplate]
+LocFriendlyName="Устойчивый прицел"
+LocLongDescription="Боец получает +5 к меткости в укрытии."
+
+
+[BornKiller X2TraitTemplate]
+TraitFriendlyName="Рожденнный убивать"
+TraitDescription="Боец восстанавливает волю при убийстве врагов."
+
+[BornKiller X2AbilityTemplate]
+LocFriendlyName="Рожденнный убивать"
+LocLongDescription="Боец восстанавливает волю при убийстве врагов."
+
+
+; start of second wave of traits and abilities
+[Unshakable X2TraitTemplate]
+TraitFriendlyName="Непоколебимый"
+TraitDescription="У этого Бойца железная воля, и они не будет потрясен своим опытом во время миссий."
+
+[TraitAbility_Unshakable X2AbilityTemplate]
+LocFriendlyName="Непоколебимый"
+LocLongDescription="У этого Бойца железная воля, и они не будет потрясен своим опытом во время миссий."
+
+[Pounce X2TraitTemplate]
+TraitFriendlyName="Наскок"
+TraitDescription="Этот Боец является мастеров засад, и сделает свободный выстрел, когда вражеская группа впервые обнаружится во время хода."
+
+[TraitAbility_Pounce X2AbilityTemplate]
+LocFriendlyName="Наскок"
+LocLongDescription="Когда вражеская группа обнаруживается в первый раз за ход, этот Боец сделает один свободный выстрел против них."
+
+[Firefighter X2TraitTemplate]
+TraitFriendlyName="Пожарный"
+TraitDescription="Этот Боец имеет опыт работы в условиях, заполненных пламенем, и знает, как быстро потушить себя."
+
+[TraitAbility_Firefighter X2AbilityTemplate]
+LocFriendlyName="Пожарный"
+LocLongDescription="В конце хода XCOM's этот Боец потушит себя, если загорится."
+
+
+[Poisonmaster X2TraitTemplate]
+TraitFriendlyName="Сопротивление ядам"
+TraitDescription="Этот Боец развил устойчивость к ядам, что позволяет ему не получать урона при отравлении."
+
+[TraitAbility_Poisonmaster X2AbilityTemplate]
+LocFriendlyName="Сопротивление ядам"
+LocLongDescription="Этот Боец развил устойчивость к ядам, что позволяет ему не получать урона при отравлении."
+
+[Pitcher X2TraitTemplate]
+TraitFriendlyName="Питчер Лиги"
+TraitDescription="У этого Бойца сильная рука для метания, позволяющая им метать гранаты дальше."
+
+[TraitAbility_Pitcher X2AbilityTemplate]
+LocFriendlyName="Питчер Лиги"
+LocLongDescription="У этого Бойца сильная рука для метания, позволяющая им метать гранаты на +<Ability:PitcherRange/>% дальше."
+
+[Bakarina X2TraitTemplate]
+TraitFriendlyName="Дремучая голова"
+TraitDescription="Этот Боец обладает сильной защитой от ментальных атак, заставляя их терять сознание, когда против него успешно используется контроль разума. Может проснутся после того, как их вырубят во всех случаях."
+
+[TraitAbility_Bakarina X2AbilityTemplate]
+LocFriendlyName="Дремучая голова"
+LocLongDescription="Теряйте сознание, когда контролируете разум. Может также автоматически просыпаться от бессознательного состояния, причем для этого требуется два хода, если источник вырубки произошел из-за контроля сознания."
+
+[ComebackKid X2TraitTemplate]
+TraitFriendlyName="Ответка ребенка"
+TraitDescription="Этот Боец может заставить его считаться, когда все выглядит мрачно. Боец получает увеличенную меткость для своей следующей атаки, если он либо был ранен в предыдущий ход, либо пропустил атаку с высоким процентом вероятности."
+
+[TraitAbility_ComebackKid X2AbilityTemplate]
+LocFriendlyName="Ответка ребенка"
+LocLongDescription="Боец получает дополнительную меткость в случае ранения в предыдущем ходе или при промахе в цель с высоким процентом вероятности попадания."
+
+[Inspirational X2TraitTemplate]
+TraitFriendlyName="Вдохновляющий"
+TraitDescription="Этот Боец может испытывать внезапные вспышки тактического вдохновения, которые случайным образом дают ему очко способности на поле боя."
+
+[Inspirational_Passive X2AbilityTemplate]
+LocFriendlyName="Вдохновляющий"
+LocLongDescription="Этот Боец может испытывать внезапные вспышки тактического вдохновения, которые случайным образом дают ему очко способности на поле боя."
+
+[MoreTraits_Inspirational X2AbilityPointTemplate]
+ActionFriendlyName="по их вдохновляющей черте!"
+
+[Overseer X2TraitTemplate]
+TraitFriendlyName="Надзиратель"
+TraitDescription="Этот Боец лучше всего работает, наблюдая за другими, автоматически переходя в режим наблюдения, когда кто-либо из товарищей по команде делает выстрел из режима наблюдения."
+
+[Overseer_Passive X2AbilityTemplate]
+LocFriendlyName="Надзиратель"
+LocLongDescription="Этот Боец лучше всего работает, наблюдая за другими, автоматически переходя в режим наблюдения, когда кто-либо из товарищей по команде делает выстрел из режима наблюдения."
+
+[Ferocious X2TraitTemplate]
+TraitFriendlyName="Свирепый"
+TraitDescription="Этот Боец слишком зол, чтобы умереть. Получив один смертельный удар в миссии - переживет и станет неистовым и невосприимчивым к входящему урону до конца своего хода."
+
+[TraitAbility_Ferocious X2AbilityTemplate]
+LocFriendlyName="Свирепый"
+LocLongDescription="Этот Боец слишком зол, чтобы умереть. Получив один смертельный удар в миссии - переживет и станет неистовым и невосприимчивым к входящему урону до конца своего хода."
+
+[FerociousTriggeredAbility X2AbilityTemplate]
+LocFriendlyName="Свирепый"
+LocLongDescription="Этот Боец слишком зол, чтобы умереть. Получив один смертельный удар в миссии - переживет и станет неистовым и невосприимчивым к входящему урону до конца своего хода."

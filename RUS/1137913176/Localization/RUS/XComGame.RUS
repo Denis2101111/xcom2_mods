@@ -1,0 +1,251 @@
+[NecromancerClassWOTC X2SoldierClassTemplate]
++DisplayName="Necromancer"
++ClassSummary="Демонстрация псионики некоторыми агентами X-Com во время первого инопланетного вторжения убедила некоторых людей в том, что сверхъестественные способности действительно существуют. Это привело к возрождению веры в древние магические исследования Земли. Благодаря сочетанию древних знаний и Пси-усилителей, использовавшихся оригинальным XCom 20 лет назад, некроманты развили некоторые очень реальные магические способности."
+AbilityTreeTitles[0]="Колдовство"
+AbilityTreeTitles[1]="Некромантия"
+AbilityTreeTitles[2]="Шаманизм"
+AbilityTreeTitles[3]="XCOM"
++RandomNickNames[0]="Волшебник"
++RandomNickNames[1]="Ведьмак"
++RandomNickNames[2]="Чернокнижник"
++RandomNickNames[3]="Психо"
++RandomNickNames[4]="Dirge"
++RandomNickNames[5]="Echo"
++RandomNickNames[6]="Ecto"
++RandomNickNames[7]="Дымка"
++RandomNickNames[8]="Hex"
++RandomNickNames[9]="Дзен"
++RandomNickNames[10]="Омега"
++RandomNickNames[11]="Сумерки"
++RandomNickNames[12]="Вуду"
++RandomNickNames[13]="Хеллион"
++RandomNickNames[14]="Судья"
++RandomNickNames[15]="Урод"
++RandomNickNames[16]="Конвульсия"
++RandomNickNames[17]="Ужас"
++RandomNickNames[18]="Гуль"
++RandomNickNames[19]="Оз"
++RandomNickNames[20]="NULL"
++RandomNickNames[21]="Зеро"
++RandomNickNames[22]="Спирит"
++RandomNickNames[23]="Пророк"
++RandomNickNames[24]="Кошмар"
++RandomNickNames[25]="Гадюка"
++RandomNickNames[26]="Призрак"
++RandomNickNames[27]="Демон"
++RandomNickNames[28]="Ворон"
++RandomNickNames[29]="Вейдер"
++RandomNickNames[30]="Синдром"
++RandomNickNames[31]="Друид"
++RandomNickNames[32]="Триллер"
++RandomNickNames[33]="Феникс"
++RandomNickNames[34]="Полноч"
++RandomNickNames[35]="Ворона"
++RandomNickNames[36]="Пугало"
++RandomNickNames[37]="Вампир"
++RandomNickNames[38]="Оборотень"
++RandomNickNames[39]="Зомби"
++RandomNickNames[40]="Светлячок"
++RandomNickNames[41]="Омен"
++RandomNickNames[42]="Ворон"
++RandomNickNames[43]="Ксено"
++RandomNickNames[44]="Грим"
++RandomNickNames[45]="Шрэк"
++RandomNickNames_Male[0]="Локи"
++RandomNickNames_Male[1]="Фараон"
++RandomNicknames_Male[2]="Мерлин"
++RandomNicknames_Male[3]="Проповедник"
++RandomNickNames_Female[0]="Леди Грей"
++RandomNicknames_Female[1]="Sorceress"
++RandomNicknames_Female[2]="Баньши"
++RandomNicknames_Female[3]="Аврора"
++RandomNicknames_Female[4]="Оракл"
++RandomNicknames_Female[5]="Misery"
++RandomNicknames_Female[6]="Морриган"
++RandomNicknames_Female[7]="Некро"
+
+[NecroSpiritArmorAbility X2AbilityTemplate]
++LocFriendlyName="Костяная броня"
++LocLongDescription="Добавляет 3 брони к дружественной цели. Имеет два заряда, но действует до конца миссии и может быть сложен. 4 хода отката."
++LocHelpText="Добавляет 3 брони к дружественной цели. Имеет два заряда, но действует до конца миссии и может быть сложен. 4 хода отката."
++LocFlyOverText="Костяная броня"
+
+[NecroRaiseDead X2AbilityTemplate]
++LocFriendlyName="Поднять зомби"
++LocLongDescription="Поднимите мертвого человека или зомби с 8 HP. ПРЕДУПРЕЖДЕНИЕ: Не используйте зомби во время сюжетных миссий с сильно продуманным сценарием. Игра считает его солдатом x-com и ведет себя непредсказуемо."
++LocHelpText="Воскресите мертвого человека или станьте зомби. ПРЕДУПРЕЖДЕНИЕ: Не используйте зомби во время сюжетных миссий с сильно продуманным сценарием. Игра считает его солдатом x-com и ведет себя непредсказуемо."
++LocFlyOverText="Поднять зомби"
+
+[NecroMassRaiseDead X2AbilityTemplate]
++LocFriendlyName="Армия мертвых"
++LocLongDescription="Превращает всех мертвых людей в большом радиусе в зомби."
++LocHelpText="Превращает всех мертвых людей в большом радиусе в зомби (не наносит урона)."
++LocFlyOverText="Армия мертвых"
+
+[NecroFireballAbility X2AbilityTemplate]
++LocFriendlyName="Огненный шар"
++LocLongDescription="Запускайте огненный шар, нанося взрывной урон всем в радиусе взрыва и поджигая все вокруг."
++LocHelpText="Запускайте огненный шар, нанося взрывной урон всем в радиусе взрыва и поджигая все вокруг."
++LocFlyOverText="Огненный шар"
+
+[NecroPoison X2AbilityTemplate]
++LocFriendlyName="Яд"
++LocLongDescription="Отравляет любое живое органическое существо. Наносит 1 урон за ход, -30 для прицеливания и -4 для перемещения. Заклинание не завершает ваш ход и не имеет перезарядки."
++LocHelpText="Отравляет любое живое органическое существо. Наносит 1 урон за ход, -30 для прицеливания и -4 для перемещения. Заклинание не завершает ваш ход и не имеет перезарядки."
++LocFlyOverText="Яд"
+
+[NecroCombustion X2AbilityTemplate]
++LocFriendlyName="Горение"
++LocLongDescription="Заставьте кровь существа закипеть. Наносит 1-2 гарантированных пси-урона и поджигает их."
++LocHelpText="Заставьте кровь существа закипеть. Наносит 1-2 гарантированных пси-урона и поджигает их."
++LocFlyOverText="Горение"
+
+[NecroLightning X2AbilityTemplate]
++LocFriendlyName="Молния"
++LocLongDescription="Стреляет молнией в целевое местоположение. Наносит урон всем, попавшим в радиус действия, оглушает органических юнитов и заставляет роботов перезагружаться. Стоит 2 очка действия."
++LocHelpText="Стреляет молнией в целевое местоположение. Наносит урон всем, попавшим в радиус действия, оглушает органических юнитов и заставляет роботов перезагружаться. Стоит 2 очка действия."
++LocFlyOverText="Молния"
+
+[NecroDrainLife X2AbilityTemplate]
++LocFriendlyName="Утечка жизни"
++LocLongDescription="Стреляет в целевого врага и передает половину нанесенного урона обратно Некроманту в виде здоровья."
++LocHelpText="Истощение жизни возвращает Некроманту половину нанесенного урона в виде здоровья."
++LocFlyOverText="Утечка жизни"
+
+[NecroEldritchStorm X2AbilityTemplate]
++LocFriendlyName="Жуткий шторм"
++LocLongDescription="Некромант стал аватаром смерти. Сосредоточьте всю свою силу в одном заклинании, которое подожжет, отравит и вызовет кислотный ожог у всех врагов в большом радиусе. Не наносит прямого ущерба."
++LocHelpText="Поджигать, отравлять и вызывать кислотный ожог в большом радиусе. Не наносит прямого ущерба."
++LocFlyOverText="Жуткий шторм"
+
+[NecroZombieSuicide X2AbilityTemplate]
++LocFriendlyName="Освободить зомби"
++LocLongDescription="Некромант разрывает пси-связь с этим зомби, позволяя ему снова умереть."
++LocHelpText="Некромант разрывает пси-связь с этим зомби, позволяя ему снова умереть."
++LocFlyOverText="Освободить зомби"
+
+[NecroHallucination X2AbilityTemplate]
++LocFriendlyName="Проклятие галлюцинаций"
++LocLongDescription="Некромант проклинает существо, заставляя его видеть свою собственную команду врагами, а затем перегружает его разум надвигающейся гибелью. Окруженные со всех сторон, они гарантированно впадут в панику, если только у них нет полного иммунитета к панике. Есть хороший шанс, что они расстреляют свою собственную команду."
++LocHelpText="Гарантированно вызовет панику, если только у существа нет полного иммунитета к панике. Есть хороший шанс, что они расстреляют свою собственную команду."
++LocFlyOverText="Проклятие галлюцинаций"
+
+[NecroSoulSpear X2AbilityTemplate]
++LocFriendlyName="Копье души"
++LocLongDescription="Колдовство, которое сжигает души, сформированные в форме копья. Пронзает врагов, нанося большой урон. Говорили, что это заклинание было изобретено мастером-колдуном, но его имя давно забыто."
++LocHelpText="FСтреляйте большим и мощным копьем души, которое пронзит нескольких врагов, нанося тяжелый урон."
++LocFlyOverText="Копье души"
+
+[NecroDeathTouch X2AbilityTemplate]
++LocFriendlyName="Смертельное прикосновение"
++LocLongDescription="Некромант обрел сверхчеловеческое понимание жизни и смерти. Прикоснитесь к живому существу, чтобы схватить его душу и вытащить ее из тела. Он умирает мгновенно. Его можно использовать один раз за бой, только с дистанции ближнего боя. Не действует на Избранных и Правителей."
++LocHelpText="Прикоснитесь к живому существу, чтобы схватить его душу и вытащить ее из тела. Он умирает мгновенно. Не действует на Избранных и Правителей. Его можно использовать один раз за бой, только с дистанции ближнего боя. Не действует на Избранных и Правителей."
++LocFlyOverText="Смертельное прикосновение"
+
+[NecroZombieClaws X2AbilityTemplate]
++LocFriendlyName="Удар зомби"
++LocLongDescription="Зомби атакует свою цель и атакует ее с расстояния ближнего боя."
++LocHelpText="Зомби атакует свою цель и атакует ее с дистанции ближнего боя."
++LocFlyOverText="Удар зомби"
+
+[NecroCorpseExplosion X2AbilityTemplate]
++LocFriendlyName="Взрыв трупа"
++LocLongDescription="Заставьте целевой труп или поднятого зомби взорваться ливнем кишок и крови. Наносит 3 урона и оставляет после себя лужу кислоты."
++LocHelpText="Заставьте целевой труп или поднятого зомби взорваться ливнем кишок и крови. Оставляет после себя лужу кислоты."
++LocFlyOverText="Взрыв трупа"
+
+
+[NecroStrenghtenUndead X2AbilityTemplate]
++LocFriendlyName="Усиление нежити"
++LocLongDescription="Усиливает связь между Некромантом и одним из его зомби, значительно увеличивая все его жизненные характеристики."
++LocHelpText="Некромант может поднимать более сильных зомби с большим уроном, жизнью и броней."
++LocFlyOverText="Усиление нежити"
+
+[ZombieCorpseExplosion X2AbilityTemplate]
++LocFriendlyName="Взрыв трупа"
++LocLongDescription="Этот зомби взрывается ливнем кишок и крови. Оставляет после себя лужу кислоты."
++LocHelpText="Этот зомби взрывается ливнем кишок и крови. Оставляет после себя лужу кислоты."
++LocFlyOverText="Взрыв трупа"
+
+[X2Effect_NecroRaiseDead]
++ZombieFlyoverText="Реанимирован!"
+
+[NecromancerZombie X2CharacterTemplate]
++strCharacterName="Зомби некроманта"
+
+[NecromancerZombieHuman X2CharacterTemplate]
++strCharacterName="Зомби некроманта"
+
+
+
+[Necro_Staff_WPN X2WeaponTemplate]
++FriendlyName="Посох послушника некроманта"
++FriendlyNamePlural="Посохи некроманта"
++BriefSummary="Некроманты создают свое собственное оружие в тайных ритуалах. Результат во многом зависит от силы душ, используемых в ритуале. Этот базовый посох наносит 2-5 фунтов на квадратный дюйм урона и игнорирует 1 броню."
++TacticalText="<Bullet/> Использование посоха завершает ход солдата.\n<Bullet/> Посох некроманта наносит урон от духа (пси).\n<Bullet/> Игнорирует 1 броню."
++AbilityDescName="Посох послушника некроманта"
+
+[Necro_Staff_L2_WPN X2WeaponTemplate]
++FriendlyName="Посох ученика некроманта"
++FriendlyNamePlural="Посохи некроманта"
++BriefSummary="Некроманты создают свое собственное оружие в тайном ритуале. Результат во многом зависит от силы душ, используемых в ритуале. Эта обновленная версия наносит урон в 4-7 фунтов на квадратный дюйм и игнорирует 2 брони."
++TacticalText="<Bullet/> Использование посоха завершает ход солдата.\n<Bullet/> Посох некроманта наносит урон от духа (пси).\n<Bullet/> Игнорирует 2 брони."
++AbilityDescName="Посох ученика некроманта"
+
+[Necro_Staff_L3_WPN X2WeaponTemplate]
++FriendlyName="Посох адепта некроманта"
++FriendlyNamePlural="Посохи некроманта"
++BriefSummary="Некроманты создают свое собственное оружие в тайном ритуале. Результат во многом зависит от силы душ, используемых в ритуале. Эта обновленная версия наносит урон в 6-9 фунтов на квадратный дюйм и игнорирует 3 брони."
++TacticalText="<Bullet/> Использование посоха завершает ход солдата.\n<Bullet/> Посох некроманта наносит урон от духа (пси).\n<Bullet/> Игнорирует 3 брони."
++AbilityDescName="Посох адепта некроманта"
+
+[Necro_Staff_Poison_WPN X2WeaponTemplate]
++FriendlyName="Ядовитый посох некроманта"
++FriendlyNamePlural="Посохи некроманта"
++BriefSummary="Некроманты создают свое собственное оружие в тайном ритуале. Свойства посоха зависят от силы душ, используемых в ритуале. Эта обновленная версия наносит 3-7 урона и отравляет свою цель."
++TacticalText="<Bullet/> Использование посоха завершает ход солдата.\n<Bullet/> Посох некроманта наносит урон от духа (пси).\n<Bullet/> Игнорирует 3 брони."
++AbilityDescName="Ядовитый посох некроманта"
+
+
+[NecroRestoration X2AbilityTemplate]
++LocFriendlyName="Восстановление"
++LocLongDescription="Восстанавливайте 1 HP за ход, в течение 3 ходов, любому союзнику. Говорят, что шаманы лечат недуги / болезни, исцеляя душу. Облегчение травм, затрагивающих душу/дух, восстанавливает физическое тело индивидуума до равновесия и целостности."
++LocHelpText="Восстанавливайте 1 HP за ход, в течение 3 ходов."
++LocFlyOverText="Восстановление"
+
+[NecroConceal X2AbilityTemplate]
++LocFriendlyName="Туман"
++LocLongDescription="Шаман создает густой туман вокруг объекта и эффективно заставляет его исчезнуть. Обеспечивает маскировку цели. Перезарядка на 6 ходов."
++LocHelpText="Обеспечивает скрытие цели. Перезарядка на 6 ходов."
++LocFlyOverText="Туман"
+
+[Necro_Shaman_GuardianSpirit X2AbilityTemplate]
++LocFriendlyName="Духовный наставник"
++LocLongDescription="Шаман призывает духа на помощь в битве. Он способен точно определить, когда враг может выскочить из-за укрытия, или куда нужно целиться, чтобы использовать слабое место. Дает 25 прицельных и 50 критических шансов на 2 хода."
++LocHelpText="Дает 25 прицелов и 50 критических шансов на 2 хода."
++LocFlyOverText="Духовный наставник"
+
+[NecroVigor X2AbilityTemplate]
++LocFriendlyName="Энергия"
++LocLongDescription="Наполните дружественную цель новой энергией. Дает Очко действия."
++LocHelpText="Предоставляет целевому объекту точку действия."
++LocFlyOverText="Энергия"
+
+[NecroHeal X2AbilityTemplate]
++LocFriendlyName="Исцеление"
++LocLongDescription="Исцеляет цель на 4 HP."
++LocHelpText="Исцеляет цель на 4 HP."
++LocFlyOverText="Исцеление"
+
+[NecroInsectSwarm X2AbilityTemplate]
++LocFriendlyName="Рой насекомых"
++LocLongDescription="Шаман вызывает злобный рой насекомых, чтобы жалить и кусать цель. Они нацеливаются на глаза или любое отверстие в броне и впиваются в плоть. Наносит 2 урона за ход и отвлекает цель, так что она едва может прицелиться."
++LocHelpText="Вызывает злобный рой насекомых. Наносит 2 урона за ход и -50 прицела."
++LocFlyOverText="Рой насекомых"
+
+
+[NecroAstralProjection X2AbilityTemplate]
++LocFriendlyName="Астральная проекция"
++LocLongDescription="Благодаря обширному изучению духовной сферы Шаман способен ощущать души всех живых существ вокруг него. В результате все живые враги на поле станут видны Шаману."
++LocHelpText="Все враги, не являющиеся роботами, на поле станут видны шаману."
++LocFlyOverText="Астральная проекция"

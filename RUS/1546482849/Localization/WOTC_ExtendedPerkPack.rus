@@ -1,0 +1,18 @@
+[X2Ability_ExtendedPerkPack]
+LocCombatDrugsEffect="Боевые наркотики"
+LocCombatDrugsEffectDescription="Этот дым был создан бойцом со способностью Боевые наркотики и дает <Ability:COMBATDRUGS_AIM/> меткости и +<Ability:COMBATDRUGS_CRIT/> шансу критического урона."
+
+LocBolsteredWallEffect="Укрепленная стена"
+LocBolsteredWallEffectDescription="Когда активирована Защитная стена, получите бонус +<Ability:BOLSTEREDWALL_DODGE_BONUS/> к уклонению."
+
+LocFaultlessDefenseEffect="Безупречная защита"
+LocFaultlessDefenseEffectDescription="Когда активна Защитная стена вы не можете быть критически ранены."
+
+LocRegenerativeMistEffect="Регенеративный туман"
+LocRegenerativeMistEffectDescription="Этот дым был создан бойцом со способностью Регенеративный туман и восстанавливаает здоровье."
+
+LocStayCoveredEffect="Оставайся укрытым"
+LocStayCoveredEffectDescription="Убирает штраф к защите у Защитной стены."
+
+LocPerfectGuardEffect="Идеальный страж"
+LocPerfectGuardEffectDescription="Пока действует Защитная стена, получите +<Ability:PERFECTGUARD_ARMOR_BONUS/> бонусной брони."
