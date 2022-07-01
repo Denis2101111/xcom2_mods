@@ -1,0 +1,120 @@
+[X2Action_ApplyWeaponDamageToUnit_HITCHANCE]
+HIT_CHANCE ="HIT";
+CRIT_CHANCE ="CRIT";
+DODGE_CHANCE ="DODGE";
+MISS_CHANCE ="MISS";
+
+SHORT_GUARANTEED_HIT="G.H.";
+SHORT_HIT_CHANCE="H";
+SHORT_MISS_CHANCE="M";
+SHORT_CRIT_CHANCE="C";
+SHORT_DODGE_CHANCE="D";
+
+GUARANTEED_HIT ="GUARANTEED HIT";
+GUARANTEED_MISS ="GUARANTEED MISS";
+
+REPEATER_KILL ="Repeater";
+
+FAILED_TEXT = "Failed!"
+
+[WOTC_DisplayHitChance_MCMScreen]
+sSettingsPage_MCMText = "Extended Information";
+sPageTitle_MCMText = "Extended Information";
+sGroupGeneralSettings_MCMText = "General Settings";
+sGroupFlyoverSettings_MCMText = "Damages Flyovers Settings";
+sShowHitChance_MCMText = "Show Hit Chance in Flyovers";
+sVerboseText_MCMText = "Verbose Text in Flyovers";
+sDisplayMissChance_MCMText = "Display Miss Chance instead of Hit Chance";
+sShowTemplarMessages_MCMText = "Show Hit Chance within special Parry/Deflect/Reflect Templar's Messages Flyovers";
+sShowAimAssist_MCMText = "Show Aim Assist";
+; sFlyoverDuration_MCMText = "Flyovers Duration";
+sShowGuaranteedHit_MCMText = "Show 'Guaranteed Hit' String";
+
+sGroupShotBar_MCMText = "Shotbar Settings";
+sBarHeight_MCMText = "Bar Height";
+;sBarOffsetX_MCMText = "Bar Offset X";
+;sBarOffsetY_MCMText = "Bar Offset Y";
+sBarAlpha_MCMText = "Bar Alpha";
+;sBarWidthMult_MCMText = "Bar Width Multiplier";
+;sGeneralOffsetY_MCMText = "General Offset Y";
+;sDodgeOffsetX_MCMText = "Dodge Offset X";
+;sCritOFfsetX_MCMText = "Crit Offset X";
+;sCritOffsetY_MCMText = "Crit Offset Y";
+sHitHexColor_MCMText = "Bar Hit Color";
+sCritHexColor_MCMText = "Bar Crit Color";
+sDodgeHexColor_MCMText = "Bar Dodge Color";
+sMissHexColor_MCMText = "Bar Miss Color";
+sGroupShotHUD_MCMText = "ShotHUD Settings";
+sGroupBarColors_MCMText = "Bar Colors Settings";
+sShowGrazed_MCMText = "Show Grazed in ShotHUD";
+sShowCrit_MCMText = "Show Crit in ShotHUD";
+sAimLeftOfCrit_MCMText = "Aim Left Of Crit";
+sAssistBesideHit_MCMText = "Aim Assist Beside Hit";
+sPreviewMinimum_MCMText = "Preview Minimum Damage";
+sPreviewHacking_MCMText = "Preview Hacking";
+sWarningMessage_MCMText = "Please note any change to Offset might result in bad display!";
+sGrazeCritLayout_MCMText = "Graze Chance and Crit Damage Display Layout"
+sAssistHexColor_MCMText = "Aim Assist Chance Color";
+
+
+;DEBUG
+sDodgeOffsetY_MCMText = "Dodge Offset Y";
+;DEBUG
+
+
+sBlack = "Black";
+sWhite = "White";
+sCyan = "Cyan";
+sFadedCyan = "Faded Cyan";
+sFadedYellow = "Faded Yellow";
+sGray = "Gray";
+sGreen = "Green";
+sRed = "Red";
+sYellow = "Yellow";
+sPerkYellow = "Perk Yellow";
+sCashGreen = "Resources Green";
+sPurple = "Purple";
+sOrange = "Orange";
+sOrangeEngineering = "Orange Engineering";
+sBlueScience = "Blue Science";
+sObjIconBackground = "Objective Icon Background";
+
+sLayoutLeft = "Graze and Crit D. to the left";
+sLayoutBalanced = "Graze and Crit D. on each side";
+sLayoutRight = "Graze and Crit D. to the right";
+
+sShowAlwaysShotBreakdownHUD_MCMText = "Always Show Shot Breakdown";
+sGroupShotWings_MCMText = "Shot Wings Settings";
+
+sGroupToolTips_MCMTtext = "ToolTips Settings";
+sToolTipAlpha_MCMText = "ToolTip Background Transparency";
+sShowEnemyToolTip_MCMText = "Show Enemy ToolTip";
+sShowExtraWeaponStats_MCMText = "Enable/Disable Weaponstats";
+
+
+[WOTC_DisplayHitChance_UITacticalHUD_ShotWings]
+LOWER_DIFFICULTY_MSG = "Lower Difficulty";
+MISS_STREAK_MSG = "Miss Streak";
+SOLDIER_LOST_BONUS = "Soldier Lost Bonus";
+CRIT_DAMAGE_LABEL =  "CRITICAL DAMAGE";
+
+
+[WOTC_DisplayHitChance_UITacticalHUD_ShotHUD]
+CRIT_DAMAGE_LABEL="C.DMG";
+GRAZE_CHANCE_LABEL="GRAZED";
+
+
+[UITacticalHUD_EnemyTooltip_HitChance]
+PrimaryBase = "Damage Base";
+PrimarySpread = "Damage Spread";
+PrimaryPlusOne = "Damage +1";
+EnemyStatsTitle = "Enemy Stats";
+
+
+[UITacticalHUD_SoldierInfoTooltip_HitChance]
+KILLS_LABEL = "Kills";
+ASSIST_LABEL = "Assist";
+FLANKING_CRIT_LABEL = "Flanking Crit";
+
+[StatListLib]
+HackDefenseLabel = "Hack Defense";

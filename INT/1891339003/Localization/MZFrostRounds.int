@@ -1,0 +1,11 @@
+[MZ_Item_FrostRounds]
+ChillEffectName="Chilled"
+ChillEffectDesc="Mobility and Dodge reduced."
+BitterChillEffectName="Bitter Chilled"
+BitterChillEffectDesc="Mobility reduced and unable to dodge. Vulnerable to freezing."
+
+[BitterfrostHelper]
+ChillEffectName="Chilled"
+ChillEffectDesc="Mobility and Dodge reduced."
+BitterChillEffectName="Bitter Chilled"
+BitterChillEffectDesc="Mobility reduced and unable to dodge. Vulnerable to freezing."

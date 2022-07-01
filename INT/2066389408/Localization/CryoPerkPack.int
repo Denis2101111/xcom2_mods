@@ -1,0 +1,43 @@
+[BitterfrostHelper]
+ChillEffectName="Chilled"
+ChillEffectDesc="Mobility and Dodge reduced."
+BitterChillEffectName="Bitter Chilled"
+BitterChillEffectDesc="Mobility reduced and unable to dodge. Vulnerable to freezing."
+
+[MZ_Effect_Zombify]
+ZombifyEffectName = "Zombified"
+ZombifyEffectDesc = "Vulnerable to effects that would normally only work on undead targets."
+
+[MZ_Effect_Hypothermia]
+HypothermiaEffectName = "Hypothermia"
+HypothermiaEffectDesc = "Cold damage at the begining of each turn depending on degree of chill."
+
+[MZBloodCryomancy_AbilitySet]
+ChilblainsChillName = "Chilblains (Chilled)"
+ChilblainsBChillName = "Chilblains (Bitter Chilled)"
+ChilblainsFreezeName = "Chilblains (Frozen)"
+HeatDrainBurningName = "Heat Drain (Burning)"
+
+[MZCryomancy_AbilitySet]
+BoilChillName = "Boil (Chilled)"
+BoilBChillName = "Boil (Bitter Chilled)"
+BoilFreezeName = "Boil (Frozen)"
+
+[MZGeomancer_AbilitySet]
+MistStormEffectName = "Foggy Mind"
+MistStormEffectDesc = "Will and Hack Defense reduced."
+
+;despite the variable names, these are not descriptions but change the name of the ability.
+NEAridDesc = "Desert Flame"
+NETundraDesc = "Snowball"
+NEXenoDesc = "Hell's Ivy"
+NETemperateDesc = "Mist Shot"
+NEUrbanDesc = "Gusty Wind"
+NECaveDesc = "Stalagmite"
+
+ACAridDesc = "Prominence"
+ACTundraDesc = "Freezeblink"
+ACXenoDesc = "Venom Deluge"
+ACTemperateDesc = "Stardust"
+ACUrbanDesc = "Tempest"
+ACCaveDesc = "Earthquake"

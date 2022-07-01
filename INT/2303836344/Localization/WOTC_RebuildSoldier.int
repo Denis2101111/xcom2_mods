@@ -1,0 +1,13 @@
+[UIFacility_RebuildSoldierSlot]
+m_TR_strRebuildSoldierDialogTitle="REBUILD SOLDIER"
+m_TR_strRebuildSoldierDialogText="<XGParam:StrValue0/!UnitName/> can undergo specialized training, studying to become a <XGParam:StrValue1/!RankName/> of a specific class, but they will be unavailable for combat for <XGParam:StrValue2/!Days/> days during the training process. Do you want to proceed?"
+m_TR_strStopRebuildSoldierDialogTitle="STOP REBUILD SOLDIER?"
+;m_TR_strStopRebuildSoldierDialogText="Do you want to stop %UNITNAME from training as a %CLASSNAME?\n\nWARNING: All training progress will be lost."
+m_TR_strStopRebuildSoldierDialogText="Do you want to stop %UNITNAME from rebuild?\n\nWARNING: All training progress will be lost."
+m_TR_strNoSoldiersTooltip="There are no soldiers available to be rebuilt."
+m_TR_strSoldiersAvailableTooltip="Assign a soldier to be rebuilt."
+
+[UIChooseClass_RebuildSoldier]
+m_strTitle=Choose Soldier Class
+m_strInventoryLabel=Available Classes:
+m_strBuy=BEGIN RECLASS

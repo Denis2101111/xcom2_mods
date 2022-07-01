@@ -1,0 +1,52 @@
+[IRI_ThrowChosenKnife X2AbilityTemplate]
+LocFriendlyName="Бросок кинжала"
+LocLongDescription="Бросить кинжал Избранной-Убийцы во врага неподалеку."
+LocHelpText="Бросить кинжал Избранной-Убийцы во врага неподалеку."
+LocFlyOverText="Бросок кинжала"
+
+[IRI_ThrowChosenKnife_Armory X2AbilityTemplate]
+LocFriendlyName="Бросок кинжала"
+LocLongDescription="Бросить кинжал Избранной-Убийцы во врага неподалеку."
+LocHelpText="Бросить кинжал Избранной-Убийцы во врага неподалеку."
+LocFlyOverText="Бросок кинжала"
+
+
+[IRI_HunterMark X2AbilityTemplate]
+LocFriendlyName="Метка Охотника"
+LocLongDescription="Отметить цель, чтобы получить бонусы к выстрелу на следующем ходу."
+LocHelpText="Отметить цель, чтобы получить бонусы к выстрелу на следующем ходу."
+LocFlyOverText="Метка Охотника"
+
+[IRI_HunterMarkHit X2AbilityTemplate]
+LocFriendlyName="Метка Охотника"
+LocLongDescription="Этот юнит был отмечен для выстрела."
+LocHelpText="Этот юнит был отмечен для выстрела."
+LocFlyOverText="Метка Охотника: Исполнение"
+
+[IRI_RemoveHunterMark X2AbilityTemplate]
+LocFriendlyName="Убрать Метку Охотника"
+LocLongDescription="Убирает Метку Охотника с цели."
+LocHelpText="Убирает Метку Охотника с цели."
+
+[IRI_HunterKillZone X2AbilityTemplate]
+LocFriendlyName="Засада"
+LocLongDescription="Режим наблюдения в определенной зоне без штрафов к меткости."
+LocHelpText="Режим наблюдения в определенной зоне без штрафов к меткости."
+LocFlyOverText="Засада"
+
+[IRI_HunterKillZoneShot X2AbilityTemplate]
+LocFriendlyName="Засада"
+LocLongDescription="Режим наблюдения в определенной зоне без штрафов к меткости."
+LocHelpText="Режим наблюдения в определенной зоне без штрафов к меткости."
+LocFlyOverText="Засада"
+
+[IRI_HarborWave X2AbilityTemplate]
+LocFriendlyName="Цунами"
+LocLongDescription="Использовать катану Избранной-Убийцы для призыва разрушительной волны пси-энергии. "
+LocHelpText="Использовать катану Избранной-Убийцы для призыва разрушительной волны пси-энергии."
+LocFlyOverText="Цунами"
+
+[IRI_ExplodePsionic_Armory X2AbilityTemplate]
+LocFriendlyName="Пси-Аннигиляция"
+LocLongDescription="Винтовка Избранного-Чародея особенно эффективна против пси-юнитов врага, и даже может вызвать взрыв при их смерти."
+LocHelpText="Винтовка Избранного-Чародея особенно эффективна против пси-юнитов врага, и даже может вызвать взрыв при их смерти."

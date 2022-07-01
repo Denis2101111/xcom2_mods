@@ -1,0 +1,57 @@
+;-----------------------
+;Slot UI popups
+;-----------------------
+
+[UIFacility_Storage_SparkSlot_NODD]
+m_strRepairTitle=REPAIR UNIT
+m_strRepairText=<XGParam:StrValue0/!UnitName/> can be repaired in this Engineering Repair Bay, they will still be available for combat. Getting deployed on a mission will pause the repair process.\nThey will need to be placed into a Bay to continue repairs after the combat mission.\nDo you want to proceed?
+m_strRepairTitleStop=STOP REPAIRING UNIT?
+m_strRepairTextStop=Do you want to stop %UNITNAME from repairing?\n\nWARNING: The unit will need to be placed into a Bay to continue repairs.
+m_strNoSoldiersTooltip=There are no units available for this Engineering Repair Bay. 
+m_strSoldiersAvailableTooltip=Assign a unit to start repairs. 
+
+;-----------------------
+; STAFF SLOTS
+;-----------------------
+
+[SparkStaffSlot X2StaffSlotTemplate]
+EmptyText="OPEN: ROBOT REQUIRED"
+BonusEmptyText="Begin ROBOTIC repairs."
+BonusText="REPAIRING ROBOT"
+FilledText="Repairing %UNITNAME !"
+LockedText="LOCKED: BUILD ROBOT"
+
+[SparkStaffSlot1 X2StaffSlotTemplate]
+EmptyText="OPEN: ROBOT REQUIRED"
+BonusEmptyText="Begin ROBOTIC repairs."
+BonusText="REPAIRING ROBOT"
+FilledText="Repairing %UNITNAME !"
+LockedText="LOCKED: EXPAND BAYS"
+
+[SparkStaffSlot2 X2StaffSlotTemplate]
+EmptyText="OPEN: ROBOT REQUIRED"
+BonusEmptyText="Begin ROBOTIC repairs."
+BonusText="REPAIRING ROBOT"
+FilledText="Repairing %UNITNAME !"
+LockedText="LOCKED: EXPAND BAYS"
+
+[SparkStaffSlot3 X2StaffSlotTemplate]
+EmptyText="OPEN: ROBOT REQUIRED"
+BonusEmptyText="Begin ROBOTIC repairs."
+BonusText="REPAIRING ROBOT"
+FilledText="Repairing %UNITNAME !"
+LockedText="LOCKED: EXPAND BAYS"
+
+[SparkStaffSlot4 X2StaffSlotTemplate]
+EmptyText="OPEN: ROBOT REQUIRED"
+BonusEmptyText="Begin ROBOTIC repairs."
+BonusText="REPAIRING ROBOT"
+FilledText="Repairing %UNITNAME !"
+LockedText="LOCKED: EXPAND BAYS"
+
+;-----------------------
+; DETAILED SOLDIER LISTS
+;-----------------------
+
+[X2EventListener_StatusOfRepair]
+m_strInRepair = "BEING REPAIRED"

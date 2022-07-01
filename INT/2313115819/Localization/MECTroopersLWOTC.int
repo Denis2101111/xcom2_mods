@@ -1,0 +1,35 @@
+[X2Effect_MecOverheat]
+BurningFriendlyName="Overheating"
+BurningFriendlyDesc="Overheating units will be unable to act as they vent heat from their actions."
+BurningEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is overheating."
+BurningEffectTickedString="<XGParam:StrValue0/!UnitName/> is still overheating."
+BurningEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer overheating."
+
+[UIPersonnel_MECTraining]
+EmptyListMessage="NO AUGMENTATION CANDIDATES"
+MecsUnavailable="NO MEC FOUNDRY UPGRADE"
+NotEnoughResources="NOT ENOUGH RESOURCES FOR AUGMENTATION"
+BuildFoundry="BUILD MEC FOUNDRY"
+MeetTechRequirement="RESEARCH MEC TECH"
+MeetStoryRequirement="COMPLETE LOST TOWERS/RESEARCH MECHANIZED WARFARE"
+
+
+m_strTitle="CANDIDATES"
+m_strEmptyListLabels[eUIPersonnel_Soldiers]="NO AUGMENTATION CANDIDATES"
+
+[UIFacility_MecAugmentationSlot]
+m_strAugmentSoldierDialogTitle="AUGMENT SOLDIER"
+m_strAugmentSoldierDialogText="<XGParam:StrValue0/!UnitName/> can undergo specialized surgery to become a MEC Trooper, replacing their previous class at the cost of <XGParam:IntValue0/> supplies and <XGParam:IntValue1/> elerium core(s). This process is irreversible once started. Do you wish to proceed?"
+m_strNoSoldiersTooltip="There are no soldiers available for MEC Trooper Augmentation"
+m_strSoldiersAvailableTooltip="Augment a soldier to become a MEC Trooper"
+
+[UIAlert_MecAugmentationComplete]
+m_strAugmentationCompleteLabel="AUGMENTATION COMPLETE"
+
+[UIChooseMEC]
+m_strTitle=MEC Augmentation Specialization
+m_strInventoryLabel=Available Specializations:
+m_strBuy=BEGIN SURGERY
+
+[X2Effect_RepairProtocol]
+HealedMessage="+<Heal/> HP Repaired"

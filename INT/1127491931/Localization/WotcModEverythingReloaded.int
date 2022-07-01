@@ -1,0 +1,5 @@
+[UISL_Armory_WeaponUpgrade]
+m_strCustomizeWeaponName="Weapon Name"
+
+[UIArmory_EquipmentSelect]
+m_strListTitle="UPGRADE EQUIPMENT"

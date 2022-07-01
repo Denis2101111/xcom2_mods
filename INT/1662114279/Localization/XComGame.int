@@ -1,0 +1,51 @@
+[IRI_PhaseWalk X2AbilityTemplate]
+LocFriendlyName="Phase Walk"
+LocLongDescription="Temporarily phase out of existence to teleport to a nearby location."
+LocHelpText="Temporarily phase out of existence to teleport to a nearby location."
+LocFlyOverText="Phase Walk"
+
+[IRI_NullWard X2AbilityTemplate]
+LocFriendlyName="Null Ward"
+LocLongDescription="Project psionic shields around the soldier and nearby allies. The shields will collapse if this soldier is killed."
+LocHelpText="Project psionic shields around nearby allies and yourself."
+LocFlyOverText="Null Ward"
+
+[IRI_PsiReanimation X2AbilityTemplate]
+LocFriendlyName="Psi Reanimation"
+LocLongDescription="Flood the nervous system of recently deceased humanoid with Psionic energy, causing them to move and fight as a 'psi zombie'."
+LocHelpText="Raise a dead soldier, civilian, or ADVENT soldier as a Psionic zombie."
+LocFlyOverText="Psi Reanimation"
+LocPromotionPopupText="<Bullet/> A soldier cannot use Psi Reanimation while using Mind Control or Soul Merge.<br/><Bullet/> If the soldier dies or becomes incapacitated, the raised zombie will die.<br/><Bullet/> You can control several zombies at the same time."
+
+[IRI_SoulMerge X2AbilityTemplate]
+LocFriendlyName="Soul Merge"
+LocHelpText="Perform a mind merge with an allied soldier. That unit immediately gains a bonus action and a persistent stat boost while the merge exists. If the soldier is killed while mind-merged, the unit is killed as well."
+LocLongDescription="Perform a mind merge with an allied soldier. That unit immediately gains a bonus action and a persistent stat boost while the merge exists. If the soldier is killed while mind-merged, the unit is killed as well."
+LocFlyOverText="Soul Merge"
+LocPromotionPopupText="This ability replaces Inspire, but doesn't require it."
+
+[IRI_SoulStorm X2AbilityTemplate]
+LocFriendlyName="Soul Storm"
+LocLongDescription="Summon meteors of psionic energy to deal damage to enemies inside a target area, and destroy their cover."
+LocHelpText="Summon meteors of psionic energy to deal damage to enemies inside a target area, and destroy their cover."
+LocFlyOverText="Soul Storm"
+LocPromotionPopupText="Cannot destroy floors or ceilings."
+
+[IRI_ReleaseZombie X2AbilityTemplate]
+LocFriendlyName="Release Zombie"
+LocLongDescription="Release the psionic control of this zombie, killing it in the process."
+LocHelpText="Release the psionic control of this zombie, killing it in the process."
+LocFlyOverText="Zombie Released"
+
+[IRI_ReleaseSoulMerge X2AbilityTemplate]
+LocFriendlyName="Release Soul Merge"
+LocLongDescription="Harmlessly sever the psionic link between Soul Merged units."
+LocHelpText="Harmlessly sever the psionic link between Soul Merged units."
+LocFlyOverText="Soul Merge Released"
+
+[IRI_ReleaseMindControl X2AbilityTemplate]
+LocFriendlyName="Release Mind Control"
+LocLongDescription="Sever the psionic link with the mind controlled unit."
+LocHelpText="Sever the psionic link with the mind controlled unit."
+LocFlyOverText="Mind Control Released"
+

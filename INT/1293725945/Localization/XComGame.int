@@ -1,0 +1,765 @@
+[XComGame.UIArmory_Loadout]
+[UIArmory_Loadout]
+
+m_strInventoryLabels[eInvSlot_AugmentationHead]=HEAD
+m_strInventoryLabels[eInvSlot_AugmentationTorso]=TORSO
+m_strInventoryLabels[eInvSlot_AugmentationArms]=ARMS
+m_strInventoryLabels[eInvSlot_AugmentationLegs]=LEGS
+
+;--------------------------------------------------
+;----------------- Item Templates -----------------
+;--------------------------------------------------
+[AugmentationHead_Base_CV X2EquipmentTemplate]
+FriendlyName="<font color='#00e0d5'><b>Cybernetic Skull</b></font>"
+FriendlyNamePlural="<font color='#00e0d5'><b>Cybernetic Skull</b></font>"
+BriefSummary="Standard issue Cybernetic Skull"
+TacticalText="Enhanced protection against critical wounds."
+
+[AugmentationTorso_Base_CV X2EquipmentTemplate]
+FriendlyName="<font color='#00e0d5'><b>Cybernetic Torso</b></font>"
+FriendlyNamePlural="<font color='#00e0d5'><b>Cybernetic Torsos</b></font>"
+BriefSummary="Standard issue Cybernetic Torso"
+TacticalText="Grants enhaced armor and free vest slot."
+
+[AugmentationArms_Base_CV X2WeaponTemplate]
+FriendlyName="<font color='#00e0d5'><b>Cybernetic Arms</b></font>"
+FriendlyNamePlural="<font color='#00e0d5'><b>Cybernetic Arms</b></font>"
+BriefSummary="Standard issue Cybernetic Arms"
+TacticalText="Increases damage resillience and gives soldiers a fighting chance in melee fights due to increased strength."
+
+[AugmentationLegs_Base_CV X2EquipmentTemplate]
+FriendlyName="<font color='#00e0d5'><b>Cybernetic Legs</b></font>"
+FriendlyNamePlural="<font color='#00e0d5'><b>Cybernetic Legs</b></font>"
+BriefSummary="Standard issue Cybernetic Legs"
+TacticalText="Run with superhumand speed for short periods."
+
+[AugmentationArms_Grapple_MG X2WeaponTemplate]
+FriendlyName="<font color='#0064e0'><b>Cybernetic Grapple Module</b></font>"
+FriendlyNamePlural="<font color='#0064e0'><b>Cybernetic Grapple Module</b></font>"
+BriefSummary="Cybernetic arm with integrated grapple module"
+TacticalText="A standard cyberarm with an integrated grapple module."
+
+[AugmentationArms_Claws_MG X2PairedWeaponTemplate]
+FriendlyName="<font color='#0064e0'><b>Cyberclaws</b></font>"
+FriendlyNamePlural="<font color='#0064e0'><b>Cyberclaws</b></font>"
+BriefSummary="Cybernetic arm with integrated extractable blades"
+TacticalText="A standard cyberarm with three integrated extractable elerium blades."
+AbilityDescName="Cyberclaws"
+
+[AugmentationTorso_NanoCoating_MG X2EquipmentTemplate]
+FriendlyName="<font color='#0064e0'><b>Nano-coated Torso MKI</b></font>"
+FriendlyNamePlural="<font color='#0064e0'><b>Nano-coated Torso MKI</b></font>"
+BriefSummary="Experimental Nano-coated cyber torso"
+TacticalText="This standard issue cyber torso is coated with bleeding-edge nanites that immediately begin to repair structural damage."
+
+;[AugmentationTorso_BodyCompartment_MG X2ArmorTemplate]
+;FriendlyName="<font color='#0064e0'><b>Body Compartment</b></font>"
+;FriendlyNamePlural="<font color='#0064e0'><b>Body Compartment</b></font>"
+;BriefSummary="Unlocks the second utility slot"
+;TacticalText=" "
+
+[AugmentationLegs_JumpModule_MG X2EquipmentTemplate]
+FriendlyName="<font color='#0064e0'><b>Jump Module MKI</b></font>"
+FriendlyNamePlural="<font color='#0064e0'><b>Jump Module MKI</b></font>"
+BriefSummary="Experimental cyber legs with integrated jump module"
+TacticalText="Cyber legs with an integrated kinetic jump module and vatgrown myomer fibers for increased mobility."
+
+[AugmentationHead_NeuralGunlink_MG X2EquipmentTemplate]
+FriendlyName="<font color='#0064e0'><b>Neural Gunlink</b></font>"
+FriendlyNamePlural="<font color='#0064e0'><b>Neural Gunlink</b></font>"
+BriefSummary="Cyber skull with neural gunlink"
+TacticalText="Projects target and weapon data directly on the retina display."
+
+[AugmentationHead_WeakpointAnalyzer_MG X2EquipmentTemplate]
+FriendlyName="<font color='#0064e0'><b>Weakpoint Analyzer MKI</b></font>"
+FriendlyNamePlural="<font color='#0064e0'><b>Weakpoint Analyzer MKI</b></font>"
+BriefSummary="Cyber skull with an integrated expert system"
+TacticalText="An self learning expert system for alien anatomy and armor projects weak points directly to the retina display."
+
+[AugmentationLegs_Muscles_MG X2EquipmentTemplate]
+FriendlyName="<font color='#0064e0'><b>Cybernetic Muscles</b></font>"
+FriendlyNamePlural="<font color='#0064e0'><b>Cybernetic Muscles</b></font>"
+BriefSummary="Vatgrown myomer fibers grafted into the subject's legs allow for greater overall strength"
+TacticalText="Allows to carry more and heavier gear on missions. Reduces the heavy weapob mobility penalties by 15%."
+
+[AugmentationLegs_JumpModule_BM X2EquipmentTemplate]
+FriendlyName="<font color='#d142f4'><b>Jump Module MKII</b></font>"
+FriendlyNamePlural="<font color='#d142f4'><b>Jump Module MKII</b></font>"
+BriefSummary="The next generation of the jump module legs with the flaws of its experimental predecessor"
+TacticalText="Cyber legs with an integrated kinetic jump module and vatgrown myomer fibers for increased mobility."
+
+[AugmentationLegs_SilentRunners_BM X2EquipmentTemplate]
+FriendlyName="<font color='#d142f4'><b>Silent Runners</b></font>"
+FriendlyNamePlural="<font color='#d142f4'><b>Silent Runners</b></font>"
+BriefSummary="A combimation of optic camouflage emissions and mechanical sound dampening."
+TacticalText="Cyberlegs that bring stealth to a new level."
+
+[AugmentationHead_NeuralTacticalProcessor_BM X2EquipmentTemplate]
+FriendlyName="<font color='#d142f4'><b>Tactical Processor</b></font>"
+FriendlyNamePlural="<font color='#d142f4'><b>Tactical Processor</b></font>"
+BriefSummary="The bleeding edge technology in tactical ai integrated our proven cyber skull."
+TacticalText="Target information from the complete team network combined with real-time data processing expert system will make your soldier barely miss a shot."
+
+[AugmentationArms_Launcher_BM X2WeaponTemplate]
+FriendlyName="<font color='#d142f4'><b>Wrist Launcher</b></font>"
+FriendlyNamePlural="<font color='#d142f4'><b>Wrist Launcher</b></font>"
+BriefSummary="A reinforced cyberarm with a heavy weapon module."
+TacticalText="Grants a heavy weapon platform without the need of a clumsy power armor."
+
+[AugmentationTorso_NanoCoating_BM X2EquipmentTemplate]
+FriendlyName="<font color='#d142f4'><b>Nano-coated Torso MKII</b></font>"
+FriendlyNamePlural="<font color='#d142f4'><b>Nano-coated Torso MKII</b></font>"
+BriefSummary="Revised and improved nano-coated cyber torso"
+TacticalText="This reinforced cyber torso model build with the latest alloy material is coated with bleeding-edge nanites that immediately begin to repair structural damage."
+
+[AugmentationHead_WeakpointAnalyzer_BM X2EquipmentTemplate]
+FriendlyName="<font color='#d142f4'><b>Weakpoint Analyzer MKII</b></font>"
+FriendlyNamePlural="<font color='#d142f4'><b>Weakpoint Analyzer MKII</b></font>"
+BriefSummary="Improved weakpoint analyzer with a complete soft- and firmware update and faster nano processors"
+TacticalText="An self learning expert system for alien anatomy and armor projects weak points directly to the retina display."
+
+
+;--------------------------------------------------
+;----------------- Abilities ----------------------
+;--------------------------------------------------
+
+[CyberJumpMKOne X2AbilityTemplate]
+LocFriendlyName="Jump Module MKI"
+LocLongDescription="Jump Modules grant +2 mobility, +15 dodge and the ability to jump on buildings."
+LocHelpText="Jump Modules enhance the mobility of out troops in the field"
+LocFlyOverText="Jump Module MKI" 
+
+[CyberJumpMKTwo X2AbilityTemplate]
+LocFriendlyName="Jump Module MKII"
+LocLongDescription="Jump Modules grant +3 mobility, +25 dodge and the ability to jump on buildings."
+LocHelpText="Jump Modules enhance the mobility of out troops in the field"
+LocFlyOverText="Jump Module MKI" 
+
+[ClawsSlash X2AbilityTemplate]
+LocFriendlyName="Claw Slash"
+LocLongDescription="Melee slash that does not end turn if you have action points left."
+LocHelpText="Melee slash that does not end turn if you have action points left."
+LocFlyOverText="Claw Slash" 
+
+[CyberPunch X2AbilityTemplate]
+LocFriendlyName="Augmented Strike"
+LocLongDescription="Cybernetically enhanced strike that disorients and knocks back targets."
+LocHelpText="Cybernetically enhanced strike"
+LocFlyOverText="Augmented Strike" 
+
+[AugmentedSpeed X2AbilityTemplate]
+LocFriendlyName="Augmented Speed"
+LocLongDescription="Cybernetic legs allow your soldiers to temporarily enhance your movement speed. On activation gain an additional action point that can be spent on movement. <Ability:SelfCooldown> Cooldown."
+LocHelpText="Temporarily enhance your movement speed."
+LocFlyOverText="Augmented Speed" 
+
+[AugmentedHead X2AbilityTemplate]
+LocFriendlyName="Hard headed"
+LocFlyOverText="Hard headed"
+LocLongDescription="Enemies have a -50 to their critical chances against you."
+LocHelpText="Enemies have a -50 to their critical chances against you."
+
+[AugmentedShield X2AbilityTemplate]
+LocFriendlyName="Ablative Armmor"
+LocFlyOverText="Ablative Armmor"
+LocLongDescription="Ablative Armmor provides 2 shield hp."
+LocHelpText="Ablative Armmor provides 2 shield hp."
+
+[NanoCoatingMK1 X2AbilityTemplate]
+LocFriendlyName="Self-repairing nano coating"
+LocFlyOverText="Self-repairing nano coating"
+LocLongDescription="Provides 3 shield hp that regenerates 1 hp per turn to a maximum of 3 hp."
+LocHelpText="Provides 3 shield hp that regenerates 1 hp per turn to a maximum of 3 hp."
+
+[NanoCoatingMK2 X2AbilityTemplate]
+LocFriendlyName="Self-repairing nano coating"
+LocFlyOverText="Self-repairing nano coating"
+LocLongDescription="Provides 6 shield hp that regenerates 2 hp per turn to a maximum of 6 hp."
+LocHelpText="Provides 6 shield hp that regenerates 2 hp per turn to a maximum of 6 hp."
+
+[WeakpointAnalyzerMK1 X2AbilityTemplate]
+LocFriendlyName="Weakpoint Analyzer"
+LocFlyOverText="Weakpoint Analyzer"
+LocLongDescription="Augmented headup display with autopsy data grant +1 armor pierce, +1 crit damage and +10% crit chance against autopsied targets"
+LocHelpText="Augmented headup display with autopsy data grant +1 armor pierce, +1 crit damage and +10% crit chance against autopsied targets"
+
+[WeakpointAnalyzerMK2 X2AbilityTemplate]
+LocFriendlyName="Enhanced Weakpoint Analyzer"
+LocFlyOverText="Enhanced Weakpoint Analyzer"
+LocLongDescription="Augmented headup display with autopsy data grant +2 armor pierce, +2 crit damage and +20% crit chance against autopsied targets"
+LocHelpText="Augmented headup display with autopsy data grant +2 armor pierce, +2 crit damage and +20% crit chance against autopsied targets"
+
+[ExMachina X2AbilityTemplate]
+LocFriendlyName="Deus Ex Machina"
+LocFlyOverText="Deus Ex Machina"
+LocLongDescription="When fully augmented the soldier becomes immune to fire, explosion, poison and acid and incoming damage is reduced by 33%. The downside is they tend to fall into a berserk rage when being wounded due to the mental instability."
+LocHelpText="When fully augmented the soldier becomes immune to fire, explosion, poison and acid and incoming damage is reduced by 33%. The downside is they tend to fall into a berserk rage when being wounded due to the mental instability."
+
+[NeuralGunLink X2AbilityTemplate]
+LocFriendlyName="Cybernetic Neural Gunink"
+LocFlyOverText="Cybernetic Neural Gunink"
+LocLongDescription="Neural Gunlinks provide +10 to hit chance."
+LocHelpText="Neural Gunlinks provide +10 to hit chance."
+
+[NeuralTacticalProcessor X2AbilityTemplate]
+LocFriendlyName="Tactical Processor"
+LocFlyOverText="Tactical Processor"
+LocLongDescription="Tactical Processor provide +10 to hit chance and +3 hit chance for every squadmate that sees the target."
+LocHelpText="Tactical Processor provide +10 to hit chance and +3 hit chance for every squadmate that sees the target."
+
+[AugmentationHeavyWeapon X2AbilityTemplate]
+LocFriendlyName="Heavy Weapon Modul"
+LocFlyOverText="Heavy Weapon Modul"
+LocLongDescription="Unlocks the heavy weapon item slot."
+LocHelpText="Unlocks the heavy weapon item slot."
+
+[SyntheticArmMuscles X2AbilityTemplate]
+LocFriendlyName="Cybernetic Muscles"
+LocFlyOverText="Cybernetic Muscles"
+LocLongDescription="Cybernetic Muscles add +2 melee damage."
+LocHelpText="Cybernetic Muscles add +2 melee damage."
+
+;--------------------------------------------------
+;----------------- Tech Templates -----------------
+;--------------------------------------------------
+[Augmentations X2TechTemplate]
+DisplayName="Cybernetic"
+Summary="Autopsies of Advent personnel recovered from the field indicate extensive surgical modification. We believe that given time and enough material to study we can come to understand their functions and perhaps replicate them for use in our own agents."
+CodeName="Leonardo"
+LongDescription="Every Advent soldier we recover and autopsy has undergone significant modification. Some of it is biological, some of it involves implantation of mechanical devices. The end result is that most Advent troopers often have a variety of useful combat enhancements. Thankfully at this point we've figured out a variety of avenues that will allow us to continue research without having to butcher more Advent corpses. Still, we're going to need volunteers who are willing to undergo elective surgery or people who have had limbs or sensory organs amputated for the initial run. From there we should be able to produce tangible improvements on human anatomy. The late Dr. Shen managed to encrypt and store some files in the mainframe that I believe will prove to be of use when it comes to making sure our soldiers can be all they can be. R. Tygan."
+
+[AugmentationTorso X2TechTemplate]
+DisplayName="Cybernetic Torso"
+Summary="Complete Thoracic modification, organs moved and modified where required. Storage compartments added, armor plating applied. Should be easy to conceal with a decent shirt barring serious modification or original design."
+LongDescription="Complete Thoracic modification, organs moved and modified where required. Storage compartments added, armor plating applied. Should be easy to conceal with a decent shirt barring serious modification or original design. L. Shen."
+
+[AugmentationArms X2TechTemplate]
+DisplayName="Cybernetic Arms"
+Summary="Full replacement of a given manipulator limb. All joints and digits are upgraded with the intent of improving fine motor control and application of force."
+LongDescription="Full replacement of a given manipulator limb. All joints and digits are upgraded with the intent of improving fine motor control and application of force. L. Shen."
+
+[AugmentationLegs X2TechTemplate]
+DisplayName="Cybernetic Legs"
+Summary="Blunt amputation and replacement of the leg. Run faster, jump farther, move better. Unsurprisingly the augmentation is obvious and might make the subject stand out in a given social environment."
+LongDescription="Blunt amputation and replacement of the leg. Run faster, jump farther, move better. Unsurprisingly the augmentation is obvious and might make the subject stand out in a given social environment. L. Shen."
+
+[AugmentationHead X2TechTemplate]
+DisplayName="Cybernetic Head"
+Summary="Complete or as close to possible replacement of the skull. Serious improvement in the subject's ability to withstand head trauma. Eyes are usually replaced with superior prosthetics."
+LongDescription="Complete or as close to possible replacement of the skull. Serious improvement in the subject's ability to withstand head trauma. Eyes are usually replaced with superior prosthetics. L. Shen."
+
+[AugmentationArmsClaw X2TechTemplate]
+DisplayName="Cyberclaws"
+Summary="The given weaponry varies in design but the end result is the same, portable, easy to use sharp implements that can be deployed and used for violence at short notice."
+LongDescription="The given weaponry varies in design but the end result is the same, portable, easy to use sharp implements that can be deployed and used for violence at short notice. L. Shen."
+
+[AugmentationArmsGrapple X2TechTemplate]
+DisplayName="Cybernetic Grapple Module"
+Summary="A blunt term for a complex series of artificial muscles and control systems designed to grant the user serious advantages in close quarters combat."
+LongDescription="A blunt term for a complex series of artificial muscles and control systems designed to grant the user serious advantages in close quarters combat. L. Shen."
+
+[AugmentationLegsJumpModuleMK1 X2TechTemplate]
+DisplayName="Cybernetic Jump Module"
+Summary="Extremely specialized servomotors placed at critical points in locomotor anatomy allow the subject greater speed and tactical capability."
+LongDescription="Extremely specialized servomotors placed at critical points in locomotor anatomy allow the subject greater speed and tactical capability. L. Shen."
+
+[AugmentationLegsMuscles X2TechTemplate]
+DisplayName="Cybernetic Muscles"
+Summary="Vatgrown myomer fibers grafted into the subject's legs allow for greater overall strength without much impact on an agent's ability to infiltrate into advent dominated society."
+LongDescription="Vatgrown myomer fibers grafted into the subject's legs allow for greater overall strength without much impact on an agent's ability to infiltrate into advent dominated society. L. Shen."
+
+[AugmentationTorsoNanoCoatingMK1 X2TechTemplate]
+DisplayName="Cybernetic Nano-coated Torso MKI"
+Summary="A complex system of internal self repair systems that can, in theory, bring a given subject back from the edge of death."
+LongDescription="A complex system of internal self repair systems that can, in theory, bring a given subject back from the edge of death. L. Shen."
+
+[AugmentationTorsoNanoCoatingMK2 X2TechTemplate]
+DisplayName="Cybernetic Nano-coated Torso MKII"
+Summary="Improvements on delivery system and on the fly improvisation from the AI in control of the repair system grant the subject greater resilience in the field."
+LongDescription="Improvements on delivery system and on the fly improvisation from the AI in control of the repair system grant the subject greater resilience in the field. L. Shen."
+
+[AugmentationLegsJumpModuleMK2 X2TechTemplate]
+DisplayName="Cybernetic Jump Module MKII"
+Summary="Extremely specialized servomotors placed at critical points in locomotor anatomy allow the subject greater speed and tactical capability."
+LongDescription="Extremely specialized servomotors placed at critical points in locomotor anatomy allow the subject greater speed and tactical capability. L. Shen."
+
+[AugmentationHeadNeuralGunlink X2TechTemplate]
+DisplayName="Cybernetic Neural Gunlink"
+Summary="Implantation of artificial neural cluster programmed with ballistic calculations allowing the user to account for factors like weapon weight, windspeed, gravity and so on. Updates can be delivered via injection."
+LongDescription="Implantation of artificial neural cluster programmed with ballistic calculations allowing the user to account for factors like weapon weight, windspeed, gravity and so on. Updates can be delivered via injection. L. Shen."
+
+[AugmentationHeadNeuralTacticalProcessor X2TechTemplate]
+DisplayName="Cybernetic Tactical Processor"
+Summary="Implantation of artificial nervous system tissues that account for various battlefield factors. Commonly called the 'triggernometry' implant by field agents it uses not just its user's data but squad networking for greater effectiveness."
+LongDescription="Implantation of artificial nervous system tissues that account for various battlefield factors. Commonly called the 'triggernometry' implant by field agents it uses not just its user's data but squad networking for greater effectiveness. L. Shen."
+
+[AugmentationLegsSilentRunners X2TechTemplate]
+DisplayName="Cybernetic Silent Runners"
+Summary="A complex interweave of biological and mechanical advancements worked into a subjects locomotor structures allowing complete silence during movement. With training they should be impossible to locate until it is too late."
+LongDescription="A complex interweave of biological and mechanical advancements worked into a subjects locomotor structures allowing complete silence during movement. With training they should be impossible to locate until it is too late. L. Shen."
+
+[AugmentationArmsWristLauncher X2TechTemplate]
+DisplayName="Cybernetic Wrist Launcher"
+Summary="Serious augmentation of the subject's arm creates a mount for weaponry usually rated for vehicles or combat drones. Particular attention has been paid to the shoulder to minimize thoracic damage from recoil."
+LongDescription="Serious augmentation of the subject's arm creates a mount for weaponry usually rated for vehicles or combat drones. Particular attention has been paid to the shoulder to minimize thoracic damage from recoil. L. Shen."
+
+[AugmentationHeadWeakpointAnalyzerMK1 X2TechTemplate]
+DisplayName="Cybernetic Weakpoint Analyzer MKI"
+Summary="A significant portion of the user's frontal lobe is modified and given artificial neurons that allow them to detect and act on perceived weaknesses."
+LongDescription="A significant portion of the user's frontal lobe is modified and given artificial neurons that allow them to detect and act on perceived weaknesses. L. Shen."
+
+[AugmentationHeadWeakpointAnalyzerMK2 X2TechTemplate]
+DisplayName="Cybernetic Weakpoint Analyzer MKII"
+Summary="Improvements to the initial system include regular updates to known weaknesses uploaded by field agents who survive engagements, as well as data from autopsies and system analysis by a dedicated team."
+LongDescription="Improvements to the initial system include regular updates to known weaknesses uploaded by field agents who survive engagements, as well as data from autopsies and system analysis by a dedicated team. L. Shen."
+
+[AugmentationTorsoBodyCompartment X2TechTemplate]
+DisplayName="Cybernetic Body Compartment"
+Summary=""
+LongDescription=" L. Shen."
+
+
+;--------------------------------------------------
+;----------------- Cosmetic Parts -----------------
+;--------------------------------------------------
+[Augmentations_Head_AFR X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_AFR_F X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_ASN X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_ASN_F X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_CAU X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_CAU_F X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_LAT X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_LAT_F X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_SkirmAFR X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_SkirmAFR_F X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_SkirmASN X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_SkirmASN_F X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_SkirmCAU X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_SkirmCAU_F X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_SkirmLAT X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Head_SkirmLAT_F X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[MA_InvisHead_AFR X2BodyPartTemplate]
+DisplayName="Invisible"
+
+[MA_InvisHead_AFR_F X2BodyPartTemplate]
+DisplayName="Invisible"
+
+[MA_InvisHead_ASN X2BodyPartTemplate]
+DisplayName="Invisible"
+
+[MA_InvisHead_ASN_F X2BodyPartTemplate]
+DisplayName="Invisible"
+
+[MA_InvisHead_CAU X2BodyPartTemplate]
+DisplayName="Invisible"
+
+[MA_InvisHead_CAU_F X2BodyPartTemplate]
+DisplayName="Invisible"
+
+[MA_InvisHead_LAT X2BodyPartTemplate]
+DisplayName="Invisible"
+
+[MA_InvisHead_LAT_F X2BodyPartTemplate]
+DisplayName="Invisible"
+
+[Augmentations_Eyes_Prop X2BodyPartTemplate]
+DisplayName="Cybernetic Eyes"
+
+[Augmentations_EyeR_Prop X2BodyPartTemplate]
+DisplayName="Cybernetic Eye Right"
+
+[Augmentations_EyeL_Prop X2BodyPartTemplate]
+DisplayName="Cybernetic Eye Left"
+
+[Augmentations_Eyes_Prop_F X2BodyPartTemplate]
+DisplayName="Cybernetic Eyes"
+
+[Augmentations_EyeR_Prop_F X2BodyPartTemplate]
+DisplayName="Cybernetic Eye Right"
+
+[Augmentations_EyeL_Prop_F X2BodyPartTemplate]
+DisplayName="Cybernetic Eye Left"
+
+[Augmentations_Helmet X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Helmet_F X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Helmet_LF X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Helmet_UF X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Helmet_LF_F X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+[Augmentations_Helmet_UF_F X2BodyPartTemplate]
+DisplayName="Cybernetic Skull"
+
+;--------------------------------------------------
+;--------------------- Reaper ---------------------
+;--------------------------------------------------
+[Augmentations_Torso_RP X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_RP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_P_RP X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_P_RP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_PW_RP X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_PW_RP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Arms_RP X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_Arms_RP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_ArmR_RP X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmR_RP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmL_RP X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_ArmL_RP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_Legs_RP X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+[Augmentations_Legs_RP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+;--------------------------------------------------
+;--------------------- Templar---------------------
+;--------------------------------------------------
+[Augmentations_Torso_TP X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_TP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_P_TP X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_P_TP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_PW_TP X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_PW_TP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Arms_TP X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_Arms_TP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_ArmR_TP X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmR_TP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmL_TP X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_ArmL_TP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_Legs_TP X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+[Augmentations_Legs_TP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+;--------------------------------------------------
+;--------------------- Skirmisher------------------
+;--------------------------------------------------
+[Augmentations_Torso_SK X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_SK_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_P_SK X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_P_SK_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_PW_SK X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_PW_SK_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Arms_SK X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_Arms_SK_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_ArmR_SK X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmR_SK_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmL_SK X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_ArmL_SK_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_Legs_SK X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+[Augmentations_Legs_SK_F X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+;--------------------------------------------------
+;--------------------- Kevlar ---------------------
+;--------------------------------------------------
+[Augmentations_Torso_KV X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_KV_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Arms_KV X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_Arms_KV_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_ArmR_KV X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmR_KV_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmL_KV X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_ArmL_KV_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_Legs_KV X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+[Augmentations_Legs_KV_F X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+;--------------------------------------------------
+;--------------------- Light Plated ---------------
+;--------------------------------------------------
+[Augmentations_Torso_LP X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_LP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Arms_LP X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_Arms_LP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_ArmR_LP X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmR_LP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmL_LP X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_ArmL_LP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_Legs_LP X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+[Augmentations_Legs_LP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+;--------------------------------------------------
+;--------------------- Medium Plated --------------
+;--------------------------------------------------
+[Augmentations_Torso_MP X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_MP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Arms_MP X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_Arms_MP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_ArmR_MP X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmR_MP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmL_MP X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_ArmL_MP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_Legs_MP X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+[Augmentations_Legs_MP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+;--------------------------------------------------
+;--------------------- Heavy Plated --------------
+;--------------------------------------------------
+[Augmentations_Torso_HP X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_HP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Arms_HP X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_Arms_HP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_ArmR_HP X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmR_HP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmL_HP X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_ArmL_HP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_Legs_HP X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+[Augmentations_Legs_HP_F X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+
+;--------------------------------------------------
+;--------------------- Light Powered --------------
+;--------------------------------------------------
+[Augmentations_Torso_LPWD X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_LPWD_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Arms_LPWD X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_Arms_LPWD_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_ArmR_LPWD X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmR_LPWD_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmL_LPWD X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_ArmL_LPWD_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_Legs_LPWD X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+[Augmentations_Legs_LPWD_F X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+;--------------------------------------------------
+;-------------------- Medium Powered --------------
+;--------------------------------------------------
+[Augmentations_Torso_MPWD X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Torso_MPWD_F X2BodyPartTemplate]
+DisplayName="Cybernetic Torso"
+
+[Augmentations_Arms_MPWD X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_Arms_MPWD_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arms"
+
+[Augmentations_ArmR_MPWD X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmR_MPWD_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Right"
+
+[Augmentations_ArmL_MPWD X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_ArmL_MPWD_F X2BodyPartTemplate]
+DisplayName="Cybernetic Arm Left"
+
+[Augmentations_Legs_MPWD X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"
+
+[Augmentations_Legs_MPWD_F X2BodyPartTemplate]
+DisplayName="Cybernetic Legs"

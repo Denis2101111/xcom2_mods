@@ -1,0 +1,28 @@
+[X2DownloadableContentInfo_AddedPartNames]
+
+.TorsoTemplate="CX_PsiArmor_MaleTorso"
+.TorsoName="EW PsiArmor Torso"
+
+.TorsoTemplate="CX_EU_PsiArmor_FemaleTorso"
+.TorsoName="EU PsiArmor Torso"
+
+.TorsoTemplate="CX_EW_PsiArmor_FemaleTorso"
+.TorsoName="EW PsiArmor Torso"
+
+.LegsTemplate="CX_PsiArmor_MaleLegs"
+.LegsName="EU PsiArmor Legs"
+
+.LegsTemplate="CX_EW_PsiArmor_FemaleLegs"
+.LegsName="EW PsiArmor Legs"
+
+.LegsTemplate="CX_EU_PsiArmor_FemaleLegs"
+.LegsName="EU PsiArmor Legs"
+
+.ArmsTemplate="CX_PsiArmor_MaleArms"
+.ArmsName="EU PsiArmor Arms"
+
+.ArmsTemplate="CX_EW_PsiArmor_FemaleArms"
+.ArmsName="EW PsiArmor Arms"
+
+.ArmsTemplate="CX_EU_PsiArmor_FemaleArms"
+.ArmsName="EU PsiArmor Arms"

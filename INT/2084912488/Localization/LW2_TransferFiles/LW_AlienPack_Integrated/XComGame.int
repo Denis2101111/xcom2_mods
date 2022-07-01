@@ -1,0 +1,9 @@
+
+[CorpseDrone X2ItemTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_AdventDrone' width='24' height='24' vspace='-2'> Drone Wreck"
+FriendlyNamePlural="<img src='img:///qUIck_LW2_UILibrary.Tug_AdventDrone' width='24' height='24' vspace='-2'> Drone Wrecks"
+
+
+[CorpseMutonElite X2ItemTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_MutonElite' width='24' height='24' vspace='-2'> Muton Elite †"
+FriendlyNamePlural="<img src='img:///qUIck_LW2_UILibrary.Tug_MutonElite' width='24' height='24' vspace='-2'> Muton Elite †"

@@ -1,0 +1,14 @@
+[UISL_WeaponUpgradeListener]
+m_strStripUpgrades=MAKE UPGRADES AVAILABLE
+m_strStripUpgradesTooltip=Remove all weapon upgrades from primary weapons NOT equipped by soldiers selected for current mission duty.
+m_strStripUpgradesConfirm=CONFIRM WEAPON UPGRADES AVAILABLE
+m_strStripUpgradesConfirmDesc=Confirm removal of all weapon upgrades from all primary weapons NOT equipped by soldiers for current mission duty. These weapon upgrades will become available immediately.
+
+[NewWeapUpgradeItem]
+m_strDropUpgrade=Remove Upgrade
+m_strCannotDropUpgrade=Interchangable upgrade research required to remove weapon upgrades.
+m_strError=ERROR
+
+[UISL_ImplantsRemoval]
+mStr_RemoveImplantLabel=Remove PCS
+mStr_NeedBreakthrough=Adaptive Personal Combat Sims research required.

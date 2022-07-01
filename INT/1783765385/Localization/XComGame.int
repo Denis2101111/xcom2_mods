@@ -1,0 +1,60 @@
+[AnaRu X2BodyPartTemplate]
+DisplayName="Ana"
+[AsheRu X2BodyPartTemplate]
+DisplayName="Ashe"
+[BaptisteRu X2BodyPartTemplate]
+DisplayName="Baptiste"
+[BrigitteRu X2BodyPartTemplate]
+DisplayName="Brigitte"
+[DoomfistRu X2BodyPartTemplate]
+DisplayName="Doomfist"
+[GenjiRu X2BodyPartTemplate]
+DisplayName="Genji"
+[GenjiRuTemplar X2BodyPartTemplate]
+DisplayName="Genji"
+[GenjiRuSPARK X2BodyPartTemplate]
+DisplayName="Genji"
+[JunkratRu X2BodyPartTemplate]
+DisplayName="Junkrat"
+[McCreeRu X2BodyPartTemplate]
+DisplayName="McCree"
+[McCreeRuReaper X2BodyPartTemplate]
+DisplayName="McCree"
+[MercyRu X2BodyPartTemplate]
+DisplayName="Mercy"
+[MercyRuTemplar X2BodyPartTemplate]
+DisplayName="Mercy"
+[MoiraRu X2BodyPartTemplate]
+DisplayName="Moira"
+[MoiraRuTemplar X2BodyPartTemplate]
+DisplayName="Moira"
+[OrisaRuSPARK X2BodyPartTemplate]
+DisplayName="Orisa"
+[PharahRu X2BodyPartTemplate]
+DisplayName="Pharah"
+[ReaperRu X2BodyPartTemplate]
+DisplayName="Reaper"
+[TrueReaperRu X2BodyPartTemplate]
+DisplayName="Reaper"
+[RoadhogRu X2BodyPartTemplate]
+DisplayName="Roadhog"
+[RoadhogRuSkirmisher X2BodyPartTemplate]
+DisplayName="Roadhog"
+[Soldier76Ru X2BodyPartTemplate]
+DisplayName="Soldier: 76"
+[Soldier76RuReaper X2BodyPartTemplate]
+DisplayName="Soldier: 76"
+[SombraRu X2BodyPartTemplate]
+DisplayName="Sombra"
+[SymmetraRu X2BodyPartTemplate]
+DisplayName="Symmetra"
+[TorbjornRu X2BodyPartTemplate]
+DisplayName="Torbjorn"
+[WMRu X2BodyPartTemplate]
+DisplayName="Widowmaker"
+[WMRuReaper X2BodyPartTemplate]
+DisplayName="Widowmaker"
+[WBRuSpark X2BodyPartTemplate]
+DisplayName="Wrecking Ball"
+[ZaryaRu X2BodyPartTemplate]
+DisplayName="Zarya"

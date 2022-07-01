@@ -1,0 +1,13 @@
+[PsiChamberScientistStaffSlot X2StaffSlotTemplate]
+EmptyText="OPEN: SCIENTIST REQUIRED"
+BonusEmptyText="Increases Training Speed."
+BonusText="TRAINING SPEED +%AVENGERBONUS%"
+FilledText="%UNITNAME's Psionic training program is increasing the rate soldiers train as Psi Operatives!"
+LockedText="LOCKED: PURCHASE UPGRADE"
+
+[AWCScientistStaffSlot X2StaffSlotTemplate]
+EmptyText="OPEN: SCIENTIST REQUIRED"
+BonusEmptyText="Increases Soldier Healing Rate."
+BonusText="HEALING RATE +%AVENGERBONUS%"
+FilledText="%UNITNAME's advanced medical equipment is increasing the rate soldiers recover from injuries!"
+LockedText="LOCKED: PURCHASE UPGRADE"

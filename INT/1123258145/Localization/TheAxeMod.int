@@ -1,0 +1,9 @@
+[Musashi_Effect_Freeze]
+FreezeName="Frozen"
+FreezeDesc="Frozen units cannot move or take any actions, and are easier to hit."
+RulerFreezeTickFlyover="Frozen: <Ability:TurnsRemaining/>"
+FreezeEffectAddedString="<XGParam:StrValue0/!UnitName/> is Frozen."
+FreezeEffectPersistsString="<XGParam:StrValue0/!UnitName/> is still Frozen."
+FreezeEffectRemovedString="<XGParam:StrValue0/!UnitName/> is no longer Frozen."
+FreezeLostFlyover="Thawed"
+LargeUnitFreezeLostFlyover="Thawed: Lost One Action Point"

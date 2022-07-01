@@ -1,0 +1,52 @@
+[IRI_ThrowChosenKnife X2AbilityTemplate]
+LocFriendlyName="Dagger Throw"
+LocLongDescription="Throw the Chosen Assassin's dagger at a nearby enemy."
+LocHelpText="Throw the Chosen Assassin's dagger at a nearby enemy."
+LocFlyOverText="Dagger Throw"
+
+[IRI_ThrowChosenKnife_Armory X2AbilityTemplate]
+LocFriendlyName="Dagger Throw"
+LocLongDescription="Throw the Chosen Assassin's dagger at a nearby enemy."
+LocHelpText="Throw the Chosen Assassin's dagger at a nearby enemy."
+LocFlyOverText="Dagger Throw"
+
+
+[IRI_HunterMark X2AbilityTemplate]
+LocFriendlyName="Hunter's Mark"
+LocLongDescription="Mark an enemy to gain hit bonuses next turn."
+LocHelpText="Mark an enemy to gain hit bonuses next turn."
+LocFlyOverText="Hunter's Mark"
+
+[IRI_HunterMarkHit X2AbilityTemplate]
+LocFriendlyName="Hunter's Mark"
+LocLongDescription="This unit has been marked."
+LocHelpText="This unit has been marked."
+LocFlyOverText="Hunter's Mark Executed"
+
+[IRI_RemoveHunterMark X2AbilityTemplate]
+LocFriendlyName="Remove Hunter's Mark"
+LocLongDescription="Removes Hunter's Mark from affected units."
+LocHelpText="Removes Hunter's Mark from affected units."
+
+[IRI_HunterKillZone X2AbilityTemplate]
+LocFriendlyName="Ambush"
+LocLongDescription="Overwatch an area without reaction fire penalties."
+LocHelpText="Overwatch an area without reaction fire penalties."
+LocFlyOverText="Ambush"
+
+[IRI_HunterKillZoneShot X2AbilityTemplate]
+LocFriendlyName="Ambush"
+LocLongDescription="Overwatch an area without reaction fire penalties."
+LocHelpText="Overwatch an area without reaction fire penalties."
+LocFlyOverText="Ambush"
+
+[IRI_HarborWave X2AbilityTemplate]
+LocFriendlyName="Harbor Wave"
+LocLongDescription="Use the Chosen Assassin's Katana to summon a destructive wave of psionic energy."
+LocHelpText="Use the Chosen Assassin's Katana to summon a destructive wave of psionic energy."
+LocFlyOverText="Harbor Wave"
+
+[IRI_ExplodePsionic_Armory X2AbilityTemplate]
+LocFriendlyName="Psionic Overkill"
+LocLongDescription="Chosen Warlock's Disruptor Rifle is especially deadly against psionic units, and can even make them explode upon death."
+LocHelpText="Chosen Warlock's Disruptor Rifle is especially deadly against psionic units, and can even make them explode upon death."

@@ -1,0 +1,11 @@
+[BattleScanner X2GrenadeTemplate]
+FriendlyName="Battle Scanner"
+FriendlyNamePlural="Battle Scanners"
+BriefSummary="The Battle Scanner provides extra vision on the battlefield. Soldiers deploy it like a grenade, throwing it to a hidden area of the map that they want to reveal. Any hidden or disguised enemies will be revealed as well."
+TacticalText="<Bullet/> Battle Scanners reveal an area hidden by the \"fog of war\" for multiple turns.\n<Bullet/> Battle Scanners also reveal hidden or disguised enemies."
+
+[MimicBeacon X2GrenadeTemplate]
+FriendlyName="Mimic Beacon"
+FriendlyNamePlural="Mimic Beacons"
+BriefSummary="The mimic beacon generates a holographic decoy to draw enemy attacks for one turn. It is deployed like a grenade, thrown to the site where the decoy will appear."
+TacticalText="<Bullet/> Mimic Beacons generate a holographic decoy that will draw enemy attacks.\n<Bullet/> Mimic Beacons last for one turn, unless their HP is depleted by enemy attacks.\n<Bullet/> Some exceptionally powerful enemies will ignore the decoy."

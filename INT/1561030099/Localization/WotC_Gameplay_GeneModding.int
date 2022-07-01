@@ -1,0 +1,56 @@
+
+[MZ_AdaptiveBoneMarrow X2GeneModTemplate]
+DisplayName="Adaptive Bone Marrow"
+Summary="Wound recovery time is reduced by 66%. Soldier regenerates HP every turn."
+
+[MZ_AdrenalNeurosympathy X2GeneModTemplate]
+DisplayName="Adrenal Neurosympathy"
+Summary="Grants a Combat Pheromones boost that increases Aim, Crit Chance, and mobility of nearby soldiers when killing an enemy."
+
+[MZ_NeuralDamping X2GeneModTemplate]
+DisplayName="Neural Damping"
+Summary="Grants immunity to mental afflictions and resistance to damage from psionic attacks."
+
+[MZ_NeuralFeedback X2GeneModTemplate]
+DisplayName="Neural Feedback"
+Summary="Causes damage to psi attackers and puts all of their psi abilities on cooldown. Does not reduce the attacker's chance of success."
+
+[MZ_NictitatingMembranes X2GeneModTemplate]
+DisplayName="Nictitating Membranes"
+Summary="Transparent inner eyelids counteract the aim penalties of poison, disorient and smoke. Cleanse blind at turn start."
+
+[MZ_PsyberInterface X2GeneModTemplate]
+DisplayName="Implanted Psyber Lens"
+Summary="A tiny implanted psybernetic lens calculates information that assists with hacking and targeting robotic foes."
+
+[MZ_RegenPheremones X2GeneModTemplate]
+DisplayName="Regen Pheremones"
+Summary="Grants a Combat Pheromones boost that cleanses damaging statuses and regenerates the health of nearby soldiers when killing an enemy."
+
+[MZ_ViperBlood X2GeneModTemplate]
+DisplayName="Viper Blood"
+Summary="Immunity to poison and bleed poison when damaged. Gain aim, crit and dodge while standing in poison clouds."
+
+[MZ_DepthPerception X2GeneModTemplate]
+DisplayName="Depth Perception"
+Summary="Gives bonus aim and crit when the soldier has height advantage."
+
+[MZ_HyperreactivePupils X2GeneModTemplate]
+DisplayName="Hyperreactive Pupils"
+Summary="Grants an aim bonus after missing a shot."
+
+[GM_BioelectricSkin X2GeneModTemplate]
+DisplayName="Bioelectric Skin"
+Summary="Detect the presence of hidden enemies within a moderate distance."
+
+[GM_WallClimb X2GeneModTemplate]
+DisplayName="Spider Climb"
+Summary="Enables a soldier to climb on walls, enabling them to seamlessly travel to rooftops and the ground below."
+
+[GM_MimeticSkin X2GeneModTemplate]
+DisplayName="Mimetic Skin"
+Summary="Confers the ability to change skin pattern to match cover. When a soldier moves to high cover, they become concealed. Does not work if any enemies have line of sight to the soldier."
+
+[MZ_Wiredreflexes X2GeneModTemplate]
+DisplayName="Synaptic Booster"
+Summary="Grants the soldier superior capability in all reaction situations, changing hit rolls to be more favourable by one stage."

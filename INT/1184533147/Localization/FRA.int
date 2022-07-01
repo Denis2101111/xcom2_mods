@@ -1,0 +1,139 @@
+[CelatidGrub X2CharacterTemplate]
+strCharacterName="Larve Célatid"
+
+[CelatidPupa X2CharacterTemplate]
+strCharacterName="Chrysalide Célatid"
+
+[CelatidAdult X2CharacterTemplate]
+strCharacterName="Célatid Adulte"
+
+[CelatidTurret X2CharacterTemplate]
+strCharacterName="Tourelle Célatid"
+
+[CelatidTurretMk2 X2CharacterTemplate]
+strCharacterName="Tourelle Célatid MK2"
+
+[CelatidTurretMk3 X2CharacterTemplate]
+strCharacterName="Tourelle Célatid MK3"
+
+[CorpseCelatid X2ItemTemplate]
+FriendlyName="Cadavre de Célatid"
+FriendlyNamePlural="Cadavres de Célatid"
+BriefSummary="Une créature relativement nouvelle sur le champ de bataille, le Célatid n'était pas parmi les espèces vues dans les forces de combat initiales de l'Envahisseur. À première vue, il ressemble à une sorte de poche de gaz et semble avoir un rôle au combat similaire à la sous-espèce «planeur». Le Célatid est une fusion de pièces organiques et mécaniques. Les rapports suggèrent qu'il est capable de régénération et ne semble pas être utilisé comme une arme biologique. Nous croyons que cette créature pourrait mener à une technologie d'armement utile."
+ 
+[AutopsyCelatid X2TechTemplate]
+DisplayName="Autopsie de Célatid"
+Summary="Le Célatid est une poche de gaz flottante qui a une étonnante capacité de régénération cellulaire."
+CodeName="Poche de gaz"
+LongDescription="Le Célatid est un organisme simple, semblable aux premières formes de vie terrestres telles que les Echinodermes. Le poison et l'acide qu'il projette sur le champ de bataille sont en réalité ses propres organes, réadaptés pour servir d'armes. On pourrait penser que c'est un inconvénient, mais les Célatids ont, étonnamment, une capacité régénératrice qui n'est pas naturelle et peuvent survivre à une quantité surprenante de traumatisme. Le corps de la créature est rempli d'organes en surnombre et, autant que nous le sachions, ils traverse plusieurs étapes de développement et gagnent en complexité interne. Nous avons notamment détecté des «nodules psioniques» asymétriques. Voyant que le Celatid n'a aucune forme identifiable d'organe sensoriel naturel, nous croyons que la créature les utilise pour détecter des formes de vie hostiles. Enfin, nous avons le système antigravité que le Célatid utilise comme principale forme de locomotion. À l'origine, il était supposé être simplement une augmentation pour rendre la créature plus viable au combat, mais nous avons découvert des systèmes de communication similaires à ceux des CEMs d'ADVENT. En combinant ces informations avec la biologie primitive du Célatid, nous émettons l'hypothèse que ces créatures ne sont rien de plus que des drones avec une composante biologique significative. R. Tygan."
+ 
+[HybridAlienTurret X2TechTemplate]
+DisplayName="Technologie de tourelle alien hybride"
+Summary="Maintenant que nous comprenons leur origine et comment les Célatids agissent sur le terrain, nous pouvons travailler sur la production de nos propres versions de tourelles hybride grâce à la technologie de ces bio-drones."
+CodeName="Luciole"
+LongDescription="Nous semblons avoir sous-estimé la capacité de calcul des nodules cérébraux Célatid. Bien qu'il soit douteux que ces créatures soient vraiment douées, un nodule cérébral préservé peut surpasser n'importe quel ordinateur fabriqué au début du XXIe siècle. En raison des risques inhérents à l'utilisation de la technologie psionique autour du réseau d'ADVENT, nous avons décidé de reformuler entièrement les nodules cérébraux du Célatid et avons activement retardé leur potentiel psionique latent. Cela nous oblige à monter un équipement sensoriel sur le châssis de la tourelle, mais permet d'économiser sur les coûts élevés de l'électronique qui sont nécessaires pour produire un drone d'attaque autonome. En plus de repositionner la biologie de la créature, nous avons décidé d'utiliser les pièces mécaniques des cadavres de Celatid récupérés pour donner à l'unité son propre système anti-gravité. Jusqu'à présent, toutes les tourelles Célatid sont livrées en standard avec un armement conventionnel. R. Tygan."
+
+[HybridAlienSword X2TechTemplate]
+DisplayName="Technologie d'épée alien hybride"
+Summary="Avec l'information obtenue grâce à un examen approfondi de la biologie Célatid, nous croyons que nous pouvons donner à nos soldats un avantage sérieux dans le combat. Cela nécessitera une expérimentation approfondie, mais la miniaturisation de l'équipement de survie sera à elle seule un obstacle plutôt nouveau."
+CodeName="Cimeterre"
+LongDescription="Nous avons réussi à produire une poignée qui contient une seule glande à toxines Célatid. La matière biologique est maintenue vivante par un petit système automatisé et produit un approvisionnement constant de poison mortel. Cela nous permettra de produire des lames, en utilisant notre technologie actuelle, qui devraient permettre à nos soldats de livrer une frappe de mêlée dévastatrice ayant un effet sérieux et durable. R. Tygan."
+
+[Ability_CelatidAlien_PoisonSpitM1 X2AbilityTemplate]
+LocFriendlyName="Crachat acide de Célatid"
+LocLongDescription="Crache un globe d'acide sur une cible."
+LocHelpText="Crache un globe d'acide sur une cible."
+LocFlyOverText="Crachat acide de Célatid"
+
+[Ability_CelatidAlien_PoisonSpitM2 X2AbilityTemplate]
+LocFriendlyName="Crachat acide de Célatid"
+LocLongDescription="Crache un globe d'acide sur une cible."
+LocHelpText="Crache un globe d'acide sur une cible."
+LocFlyOverText="Crachat acide de Célatid"
+
+[Ability_CelatidAlien_PoisonSpitM3 X2AbilityTemplate]
+LocFriendlyName="Crachat acide de Célatid"
+LocLongDescription="Crache un globe d'acide sur une cible."
+LocHelpText="Crache un globe d'acide sur une cible."
+LocFlyOverText="Crachat acide de Célatid"
+
+[Ability_CelatidAlien_PoisonCloud X2AbilityTemplate]
+LocFriendlyName="Nuage empoisonné"
+LocLongDescription="Répand un nuage empoisonné."
+LocHelpText="Répand un nuage empoisonné."
+LocFlyOverText="Nuage empoisonné de Célatid"
+
+[Celatidportal X2AbilityTemplate]
+LocFriendlyName="Portail Célatid"
+LocLongDescription="Ouvre un portail à partir duquel plus de Célatids et / ou d'Anonyme peuvent être appelés en renfort."
+LocHelpText="Portail Célatid ouvert "
+LocFlyOverText="Portail Célatid ouvert"
+
+[Scimitar_CV X2WeaponTemplate]
+FriendlyName="Cimeterre"
+FriendlyNamePlural="Cimeterres"
+BriefSummary="Cette lame est conçue pour infliger des effets toxiques. Elle fait un peu plus de dégâts que l'épée de base"
+TacticalText="Cette lame est conçue pour infliger des effets toxiques. Elle fait un peu plus de dégâts que l'épée de base"
+AbilityDescName="Cimeterre"
+
+[Scimitar_MG X2WeaponTemplate]
+FriendlyName="Cimeterre électrique"
+FriendlyNamePlural="Cimeterres électrique"
+BriefSummary="Cette version avancée augmente son efficacité avec la capacité d'étourdir aussi bien que d'empoisonner. Elle fait un peu plus de dégâts que la lame électrique"
+TacticalText="Cette version avancée augmente son efficacité avec la capacité d'étourdir aussi bien que d'empoisonner. Elle fait un peu plus de dégâts que la lame électrique"
+AbilityDescName="Cimeterre électrique"
+
+[Scimitar_BM X2WeaponTemplate]
+FriendlyName="Cimeterre plasmique"
+FriendlyNamePlural="Cimeterres plasmique"
+BriefSummary="Cette version avancée augmente son efficacité avec la capacité d'étourdir aussi bien que d'empoisonner. Elle fait un peu plus de dégâts que la lame à fusion"
+TacticalText="Cette version avancée augmente son efficacité avec la capacité d'étourdir aussi bien que d'empoisonner. Elle fait un peu plus de dégâts que la lame à fusion"
+AbilityDescName="Cimeterre plasmique"
+
+[DeployableCelatidTurret X2AbilityTemplate]
+LocFriendlyName="Tourelle Célatid déployable"
+LocLongDescription="Déploie une tourelle Célatid d'XCOM à l'emplacement spécifié."
+LocHelpText="Déploie une tourelle Célatid d'XCOM à l'emplacement spécifié."
+LocFlyOverText="Déployer la tourelle Célatid"
+
+[DeployableCelatidTurretMk2 X2AbilityTemplate]
+LocFriendlyName="Tourelle Célatid MK2 déployable"
+LocLongDescription="Déploie une tourelle Célatid MK2 d'XCOM à l'emplacement spécifié."
+LocHelpText="Déploie une tourelle Célatid MK2 d'XCOM à l'emplacement spécifié."
+LocFlyOverText="Déployer la tourelle Célatid MK2"
+
+[DeployableCelatidTurretMk3 X2AbilityTemplate]
+LocFriendlyName="Tourelle Célatid MK3 déployable"
+LocLongDescription="Déploie une tourelle Célatid MK3 d'XCOM à l'emplacement spécifié."
+LocHelpText="Déploie une tourelle Célatid MK3 d'XCOM à l'emplacement spécifié."
+LocFlyOverText="Déployer la tourelle Célatid MK2"
+
+[DeployableCelatidTurret X2WeaponTemplate]
+FriendlyName="Tourelle Célatid déployable"
+BriefSummary="La tourelle Célatid fournit un appui feu additionnel à nos soldats. Elle est déployé comme une grenade, projetée à l'endroit où la tourelle apparaîtra."
+TacticalText="<Bullet/> Déploie une tourelle Célatid d'XCOM à l'emplacement spécifié.\n<Bullet/> N'expire pas avant d'être détruite."
+
+[DeployableCelatidTurretMk2 X2WeaponTemplate]
+FriendlyName="Tourelle Célatid MK2 déployable"
+BriefSummary="La tourelle Célatid MK2 fournit un appui feu additionnel à nos soldats. Elle est déployé comme une grenade, projetée à l'endroit où la tourelle apparaîtra."
+TacticalText="<Bullet/> Déploie une tourelle Célatid MK2 d'XCOM à l'emplacement spécifié.\n<Bullet/> N'expire pas avant d'être détruite."
+
+[DeployableCelatidTurretMk3 X2WeaponTemplate]
+FriendlyName="Tourelle Célatid MK3 déployable"
+BriefSummary="La tourelle Célatid MK3 fournit un appui feu additionnel à nos soldats. Elle est déployé comme une grenade, projetée à l'endroit où la tourelle apparaîtra."
+TacticalText="<Bullet/> Déploie une tourelle Célatid MK3 d'XCOM à l'emplacement spécifié.\n<Bullet/> N'expire pas avant d'être détruite."
+
+[CelatidImmunities X2AbilityTemplate]
+LocFriendlyName="Immunités Célatid"
+LocLongDescription="Immunisé contre le poison, le poison des Chrysalis, l'étourdissement, l'inconscience et la panique. Cependant, peut encore être désorienté, contrôlé par l'esprit, dominé et blessé par l'acide."
+LocHelpText="Immunités"
+LocFlyOverText="Immunisé"
+
+[CelatidTurret_WPN X2WeaponTemplate]
+FriendlyName="Tourelle Célatid"
+
+[CelatidTurretMk2_WPN X2WeaponTemplate]
+FriendlyName="Tourelle magnétique Célatid"
+
+[CelatidTurretMk3_WPN X2WeaponTemplate]
+FriendlyName="Tourelle plasmique Célatid"

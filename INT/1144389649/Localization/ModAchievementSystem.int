@@ -1,0 +1,17 @@
+[MAS_GrimyLootCommonPCS MAS_X2AchievementTemplate]
+strTitle="Thoughtsteal"
+strShortDesc="Skullmine a Common PCS."
+strLongDesc="Skullmine a Common PCS."
+strCategory="Grimy Loot Achievements"
+
+[MAS_GrimyLootRarePCS MAS_X2AchievementTemplate]
+strTitle="Grey Matter"
+strShortDesc="Skullmine a Rare PCS."
+strLongDesc="Skullmine a Rare PCS."
+strCategory="Grimy Loot Achievements"
+
+[MAS_GrimyLootEpicPCS MAS_X2AchievementTemplate]
+strTitle="Know Thy Enemy"
+strShortDesc="Skullmine an Epic PCS."
+strLongDesc="Skullmine an Epic PCS."
+strCategory="Grimy Loot Achievements"

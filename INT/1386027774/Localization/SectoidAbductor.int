@@ -1,0 +1,4 @@
+[X2Ability_AbductorAbility]
+KidnapHeader="Abducted"
+KidnapTargetHeader="<XGParam:StrValue0!ChosenName/>"
+KidnapMessageBody="<XGParam:StrValue0/!ChosenName/> has taken <XGParam:StrValue1/!UnitName/>."

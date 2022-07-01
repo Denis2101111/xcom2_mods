@@ -1,0 +1,267 @@
+[HunterOfVipers X2TraitTemplate]
+TraitFriendlyName="Hunter of Vipers"
+TraitDescription="This unit will deal additional damage when encountering an enemy Viper."
+
+[HunterOfArchons X2TraitTemplate]
+TraitFriendlyName="Hunter of Archons"
+TraitDescription="This unit will deal additional damage when encountering an enemy Archon."
+
+[HunterOfStunLancers X2TraitTemplate]
+TraitFriendlyName="Hunter of Stun Lancers"
+TraitDescription="This unit will deal additional damage when encountering an enemy Stun Lancer."
+
+[HunterOfMutons X2TraitTemplate]
+TraitFriendlyName="Hunter of Mutons"
+TraitDescription="This unit will deal additional damage when encountering an enemy Muton or Berserker."
+
+[HunterOfTheLost X2TraitTemplate]
+TraitFriendlyName="Hunter of The Lost"
+TraitDescription="This unit will deal additional damage when encountering the Lost."
+
+[HunterOfMecs X2TraitTemplate]
+TraitFriendlyName="Hunter of MECs"
+TraitDescription="This unit will deal additional damage when encountering an enemy MEC."
+
+[HunterOfFaceless X2TraitTemplate]
+TraitFriendlyName="Hunter of Faceless"
+TraitDescription="This unit will deal additional damage when encountering an enemy Faceless."
+
+[HunterOfSectoids X2TraitTemplate]
+TraitFriendlyName="Hunter of Sectoids"
+TraitDescription="This unit will deal additional damage when encountering an enemy Sectoid."
+
+[HunterOfChosen X2TraitTemplate]
+TraitFriendlyName="Hunter of Chosen"
+TraitDescription="This unit will deal additional damage when encountering an enemy Chosen."
+
+[HunterOfSectoidsPassive X2AbilityTemplate]
+LocFriendlyName="Hunter of Sectoids"
+LocLongDescription="This unit will deal additional damage when encountering an enemy Sectoid."
+
+[HunterOfChosenPassive X2AbilityTemplate]
+LocFriendlyName="Hunter of Chosen"
+LocLongDescription="This unit will deal additional damage when encountering an enemy Chosen."
+
+
+[FearOfVertigo X2TraitTemplate]
+TraitFriendlyName="Fear of Heights"
+TraitScientificName="Altophobia"
+TraitDescription="Chance to panic when starting a turn on high ground."
+TraitQuotes[0]="\"Every time I look down, all I can think of is the fall.\""
+TraitQuotes[1]="\"You ever had half of your bones broken from one missed shot before?\""
+TraitQuotes[2]="\"There's just no room for mistakes anymore.\""
+TraitQuotes[3]="\"I've seen what happens to the guys that miss shots out there.\""
+TraitQuotes[4]="\"I have to beat the odds, I can't be the one who gets us killed out there.\""
+
+[FearOfSquadmateMissedShots X2TraitTemplate]
+TraitFriendlyName="Fear of Others Missing Shots"
+TraitScientificName="Atychiphobia"
+TraitDescription="Chance to panic when a squadmate misses a shot."
+TraitQuotes[0]="\"One missed shot could cost us everything!\""
+TraitQuotes[1]="\"There's so much riding on this...one wrong shot and we all die.\""
+TraitQuotes[2]="\"There's just no room for mistakes anymore.\""
+TraitQuotes[3]="\"One missed shot and you're dead...that's all it takes.\""
+TraitQuotes[4]="\"The odds are against us! The odds are always against us!\""
+
+[Trait_Critic X2TraitTemplate]
+TraitFriendlyName ="Perfectionist"
+TraitScientificName="Neuroticism"
+TraitDescription ="Chance to cause panic among squad when the squad misses shots"
+TraitQuotes[0]="\"What the hell was that? They're gonna get us all killed!\""
+TraitQuotes[1]="\"Maybe we need to step up our training standards...\""
+TraitQuotes[2]="\"There's no one to blame but yourself.\""
+TraitQuotes[3]="\"We must not have many recruits to choose from.\""
+TraitQuotes[4]="\"We should all hold ourselves to a higher standard.\""
+
+[Trait_Insubordinate X2TraitTemplate]
+TraitFriendlyName ="Insurordinate"
+TraitScientificName="Dispositional Insubordination"
+TraitDescription ="Chance to cause panic among squad when up against deadly odds."
+TraitQuotes[0]="\"We should have never gone in there...it was all one big mistake.\""
+TraitQuotes[1]="\"What's the point of this?! What did it get us?\""
+TraitQuotes[2]="\"It all started going downhill so fast.\""
+TraitQuotes[3]="\"Of course the Commander's incompetent, THEY TOLD ME TO GET MYSELF FLANKED!\""
+TraitQuotes[4]="\"We're all gonna end up dead or worse.\"" 
+
+[BadWilderness X2TraitTemplate]
+TraitFriendlyName="Inexperienced in Wilderness"
+TraitScientificName="Lack of Training"
+TraitDescription="-2 mobility in rural areas."
+TraitQuotes[0]="\"Who the hell would want to live here?\""
+TraitQuotes[1]="\"Way too little cover out here.\""
+TraitQuotes[2]="\"This kind of environment is perfect for being ambushed.\""
+
+[BadUrban X2TraitTemplate]
+TraitFriendlyName="Inexperienced in Urban Areas"
+TraitScientificName="Lack of Training"
+TraitDescription="-2 mobility in urban areas."
+TraitQuotes[0]="\"Who the hell would want to live here?\""
+TraitQuotes[1]="\"Way too many potential choke points.\""
+TraitQuotes[2]="\"This kind of environment is perfect for being ambushed.\""
+
+[TraitAbility_BadWilderness X2AbilityTemplate]
+LocFriendlyName="Wilderness Inexperience"
+LocLongDescription="This unit will have -2 mobility in rural areas."
+
+[TraitAbility_BadUrban X2AbilityTemplate]
+LocFriendlyName="Urban Inexperience"
+LocLongDescription="This unit will have -2 mobility in urban areas."
+
+
+[GoodWilderness X2TraitTemplate]
+TraitFriendlyName="Wilderness Survival Training"
+TraitDescription="This unit will have +2 mobility in rural areas."
+
+[GoodUrban X2TraitTemplate]
+TraitFriendlyName="Urban Combat Training"
+TraitDescription="This unit will have +2 mobility in urban areas."
+
+[TraitAbility_GoodWilderness X2AbilityTemplate]
+LocFriendlyName="Wilderness Survival Training"
+LocLongDescription="This unit will have +2 mobility in rural areas."
+
+[TraitAbility_GoodUrban X2AbilityTemplate]
+LocFriendlyName="Urban Combat Training"
+LocLongDescription="This unit will have +2 mobility in urban areas."
+
+
+
+[NeedSafety X2TraitTemplate]
+TraitFriendlyName="Full Cover Obsession"
+TraitScientificName="Ekthesiphobia"
+TraitDescription="-5 aim when out of full cover"
+TraitQuotes[0]="\"I need everything between me and the plasma trying to kill me.\""
+TraitQuotes[1]="\"I'm sorry, I just have a want to *not* die.\""
+
+[RiskTaker X2TraitTemplate]
+TraitFriendlyName="Risk Taker"
+TraitScientificName="Optimism Bias"
+TraitDescription="-5 aim when out of half cover"
+TraitQuotes[0]="\"Full cover's for pansies\""
+TraitQuotes[1]="\"Hey, I need the space to see the enemy anyway.\""
+TraitQuotes[2]="\"I just get really tired of having to constantly lean to the sides.\""
+
+[TraitAbility_NeedSafety X2AbilityTemplate]
+LocFriendlyName="Full Cover Obsession"
+LocLongDescription="This unit will have -5 aim out of full cover."
+
+[TraitAbility_RiskTaker X2AbilityTemplate]
+LocFriendlyName="Risk Tolerant"
+LocLongDescription="This unit will have -5 aim out of half cover."
+
+
+[GoodProfile X2TraitTemplate]
+TraitFriendlyName="Good Profile"
+TraitDescription="This unit will have +10 defence in cover."
+
+[SteadiedAim X2TraitTemplate]
+TraitFriendlyName="Steadied Aim"
+TraitDescription="This unit will have +5 aim when in cover."
+
+
+[TraitAbility_GoodProfile X2AbilityTemplate]
+LocFriendlyName="Good Profile"
+LocLongDescription="This unit gets +10 defence when in cover."
+
+[TraitAbility_SteadiedAim X2AbilityTemplate]
+LocFriendlyName="Steadied Aim"
+LocLongDescription="This unit will have +5 aim when in cover."
+
+
+[BornKiller X2TraitTemplate]
+TraitFriendlyName="Born to Kill"
+TraitDescription="This unit regains will from killing enemies."
+
+[BornKiller X2AbilityTemplate]
+LocFriendlyName="Born to Kill"
+LocLongDescription="This unit will regain will from killing enemies."
+
+
+; start of second wave of traits and abilities
+[Unshakable X2TraitTemplate]
+TraitFriendlyName="Unshakable"
+TraitDescription="This unit has an iron will, and won't become shaken from their experiences on missions."
+
+[TraitAbility_Unshakable X2AbilityTemplate]
+LocFriendlyName="Unshakable"
+LocLongDescription="This unit has an iron will, and won't become shaken from their experiences on missions."
+
+[Pounce X2TraitTemplate]
+TraitFriendlyName="Pounce"
+TraitDescription="This unit is an apex ambusher, and will take a free shot when an enemy group is first revealed in a turn."
+
+[TraitAbility_Pounce X2AbilityTemplate]
+LocFriendlyName="Pounce"
+LocLongDescription="When an enemy group is revealed for the first time in a turn, this unit will take one free shot against them."
+
+[Firefighter X2TraitTemplate]
+TraitFriendlyName="Firefighter"
+TraitDescription="This unit has had experience operating in flame filled environments, and knows how to put themselves out quick."
+
+[TraitAbility_Firefighter X2AbilityTemplate]
+LocFriendlyName="Firefighter"
+LocLongDescription="At the end of XCOM's turn, this unit will put themselves out if burning."
+
+
+[Poisonmaster X2TraitTemplate]
+TraitFriendlyName="Poison Tolerant"
+TraitDescription="This unit has developed a resistance against poisons, enabling them to not take damage when poisoned."
+
+[TraitAbility_Poisonmaster X2AbilityTemplate]
+LocFriendlyName="Poison Tolerant"
+LocLongDescription="This unit has developed a resistance against poisons, enabling them to not take damage when poisoned."
+
+[Pitcher X2TraitTemplate]
+TraitFriendlyName="League Pitcher"
+TraitDescription="This unit has a strong throwing arm, enabling them to throw grenades further."
+
+[TraitAbility_Pitcher X2AbilityTemplate]
+LocFriendlyName="League Pitcher"
+LocLongDescription="This unit has a strong throwing arm, enabling them to throw grenades +<Ability:PitcherRange/>% more tiles."
+
+[Bakarina X2TraitTemplate]
+TraitFriendlyName="Dense Head"
+TraitDescription="This unit has a strong head against mental attacks, causing them to fall unconscious when mind control is successfully used against them. They will also wake up from being knocked out in all cases."
+
+[TraitAbility_Bakarina X2AbilityTemplate]
+LocFriendlyName="Dense Head"
+LocLongDescription="Go unconscious when mind controlled. Can also automatically wake up from being unconscious, with it taking two turns to happen if the source of being knocked out came from mind control."
+
+[ComebackKid X2TraitTemplate]
+TraitFriendlyName="Comeback Kid"
+TraitDescription="This unit can make it count when everything's looking bleak. The unit gets increased aim to their next attack, if they either been shot the previous turn or missed a high percentage chance attack."
+
+[TraitAbility_ComebackKid X2AbilityTemplate]
+LocFriendlyName="Comeback Kid"
+LocLongDescription="This unit can make it count when everything's looking bleak. The unit gets increased aim to their next attack, if they either been shot the previous turn or missed a high percentage chance attack."
+
+[Inspirational X2TraitTemplate]
+TraitFriendlyName="Inspirational"
+TraitDescription="This unit can experience sudden flashes of tactical inspiration, giving them an ability point by random chance on the battlefield."
+
+[Inspirational_Passive X2AbilityTemplate]
+LocFriendlyName="Inspirational"
+LocLongDescription="This unit can experience sudden flashes of tactical inspiration, giving them an ability point by random chance on the battlefield."
+
+[MoreTraits_Inspirational X2AbilityPointTemplate]
+ActionFriendlyName="by their Inspirational trait!"
+
+[Overseer X2TraitTemplate]
+TraitFriendlyName="Overseer"
+TraitDescription="This unit works best overseeing others, entering Overwatch automatically when any teammates take an overwatch shot."
+
+[Overseer_Passive X2AbilityTemplate]
+LocFriendlyName="Overseer"
+LocLongDescription="This unit works best overseeing others, entering Overwatch automatically when any teammates take an overwatch shot."
+
+[Ferocious X2TraitTemplate]
+TraitFriendlyName="Ferocious"
+TraitDescription="This unit's too angry to die. Upon experiencing one lethal blow in a mission, they'll survive the damage, become berserk and immune to incoming damage for the rest of their turn."
+
+[TraitAbility_Ferocious X2AbilityTemplate]
+LocFriendlyName="Ferocious"
+LocLongDescription="This unit's too angry to die. Upon experiencing one lethal blow in a mission, they'll survive the damage, become berserk and immune to incoming damage for the rest of their turn."
+
+[FerociousTriggeredAbility X2AbilityTemplate]
+LocFriendlyName="Ferocious"
+LocLongDescription="This unit's too angry to die. Upon experiencing one lethal blow in a mission, they'll survive the damage, become berserk and immune to incoming damage for the rest of their turn."

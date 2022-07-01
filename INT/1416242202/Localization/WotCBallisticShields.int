@@ -1,0 +1,21 @@
+[XGLocalizedData_BallisticShields]
+m_strCategoryRestricted="WEAPON CANT BE USED WITH SHIELDS"
+m_strAimPenalty="AIM PENALTY"
+
+m_strShieldCategory = "BALLISTIC SHIELD"
+m_strSparkShieldCategory = "SPARK BALLISTIC SHIELD"
+
+[X2DownloadableContentInfo_WotCBallisticShields]
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD ByTheBook")
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD Bracing")
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD Guardian")
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD Intimidate")
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD Resting")
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD Gun Down")
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD Wall")
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD Gun Up")
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD Hunkered Fire")
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD Sword 1")
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD Sword 2")
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD Rifle 1")
++m_arrAnimationPoses=(AnimationDisplayName="SHIELD Rifle 2")

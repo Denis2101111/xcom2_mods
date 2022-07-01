@@ -1,0 +1,177 @@
+
+[MZGeneMods_AbilitySet]
+AdrenalNeurosympathyEffectName = "Combat Rush"
+NeuralFeedbackEffectName = "Psi Abilities Disabled"
+RegenPheremonesEffectName = "Regen Pheremones"
+
+[Grimy_Effect_Healing]
+HealedMessage="+<Heal/> HP Healed"
+
+[MZ_Effect_PsiHeal]
+HealedMessage="+<Heal/> HP Healed"
+
+[MZ_Effect_CKHeal]
+HealedMessage="+<Heal/> HP Healed"
+
+[Isms_Effect_AdrenalineHeal]
+HealedMessage="+<Heal/> HP Healed"
+
+[MZ_Effect_Shield]
+HealedMessage="+<Heal/> HP Healed (Coagulation)"
+
+[MZ_Effect_HealMissingHealth]
+HealedMessage="+<Heal/> HP Regenerated"
+
+[MZ_Effect_FixArmour]
+HealedMessage="+<Heal/> Armour Repaired"
+
+[MZ_Effect_AutoMendShield]
+HealedMessage="+<Heal/> Shield Recharged"
+
+[MZ_Effect_AutoMendArmour]
+DeShredMessage="+<Heal/> Armour Repaired"
+
+[MZ_Effect_LifeSteal]
+HealedMessage="+<Heal/> HP Stolen"
+AbyssalMessage="+<Heal/> HP Devoured"
+
+[MZ_Effect_ShieldSteal]
+HealedMessage="+<Heal/> Shield Leeched"
+AbyssalMessage="+<Heal/> Shield Devoured"
+
+[MZ_Effect_LifeBalancer]
+HPGainLabel="+<Heal/> HP Gained"
+HPLossLabel="-<Heal/> HP Lost"
+
+[MZ_Effect_VoidPrison]
+FailedText= "Disbelieved!"
+FailedImmune= "Immune!"
+
+[MZGrimyBruiser_AbilitySet]
+TaserShotBonusName = "Taser Shot"
+GrapeShotBonusName = "Grape Shot"
+CausticSlugBonusName = "Caustic Slug"
+
+DrawFireAllyEffectName = "Draw Fire (Defended)"
+DrawFireAllyEffectDesc = "Ally is drawing fire away. Increased defense."
+DrawFireSelfEffectName = "Draw Fire"
+DrawFireSelfEffectDesc = "Drawing fire from allies. Reduced defense, increased armour."
+
+[MZGrimyFury_AbilitySet]
+StrafeBonusName = "Strafing Shot"
+SprayAndPrayBonusName = "Spray And Pray"
+ReaveBonusName = "Reave"
+
+[MZGrimyHeadHunter_AbilitySet]
+PointBlankBonusName = "Point Blank"
+ThunderclapBonusName = "Thunderclap"
+HexHunterBonusName = "Hex Hunter"
+PiercingShotBonusName = "Piercing Shot"
+BuckshotBonusName = "Buckshot"
+
+[MZBulletArt_AbilitySet]
+RustEffectName="Rusting"
+RustEffectDesc="Damage output decreased temporarily"
+MeleeBulletVsSectoidEffectName="Melee Vulnerability"
+
+[MZGremlin_AbilitySet]
+ArmorSystemEffectName = "Armour System"
+ArmorSystemEffectDesc = "Aid Protocol is providing +<Ability:MZARMORSYSTEMARMORGAIN/> armour until the start of the next turn."
+
+[MZGrenade_AbilitySet]
+DeadlyHazeEffectName="Deadly Haze"
+DeadlyHazeEffectDesc="Damage output decreased temporarily"
+
+AntiCritSmokeEffectName="Resilient Incense"
+AntiCritSmokeEffectDesc="Smoke protects against critical hits."
+DodgeSmokeEffectName="Swirling Fog"
+DodgeSmokeEffectDesc="Smoke makes it more likely attacks will miss or merely graze."
+FogWallEffectName="Fog Wall"
+FogWallEffectDesc="Smoke provides some defense against flanking attacks."
+MindSmokeEffectName="Sacred Incense"
+MindSmokeEffectDesc="Smoke provides protection from mental effects."
+FortSmokeEffectName="Fortifying Incense"
+FortSmokeEffectDesc="Smoke provides protection from fire, poison, acid, and explosive damage."
+
+[MZHolotargeter_AbilitySet]
+HoloWillDebuffEffectName="Unnerved"
+HoloWillDebuffEffectDesc="Reduces will by <Ability:MZHoloWillDebuff/>."
+
+[MZKnife_AbilitySet]
+StingLikeABeeBonusName = "Combo Bonus"
+KnifeFlurryBonusName = "Flurry Attack"
+DancingDeathBonusName = "Flurry Attack"
+StrafeKnifeBonusName = "Strafing"
+FinishingStrokeBonusName = "Missing Health"
+
+[MZMelee_AbilitySet]
+HellcryEffectName="Hellcry Weapon Break"
+HellcryEffectDesc="Damage output decreased temporarily"
+KillingStrokeBonusName="Killing Stroke"
+BlastWaveDebuffBonusName="Tenacity"
+
+[MZPsiAmp_AbilitySet]
+ManuFortiEffectDesc="Damage output increased temporarily"
+AmorFatiEffectDesc="Damage taken is reduced, but is also easier to hit."
+ThunderousRoarSilenceEffectName="Silenced!"
+
+[MZShield_AbilitySet]
+MindCrushEffectName="Mind Crush"
+MindCrushEffectDesc="Will and Hack Defense sharply reduced."
+
+MentalBulwarkEffectName="Mental Bulwark"
+MentalBulwarkEffectDesc="Temporary protection from mental effects."
+FortifiedWallEffectName="Fortified Wall"
+FortifiedWallEffectDesc="Temporary protection from fire, poison, acid, and explosive damage."
+
+[MZTrickshot_AbilitySet]
+BloodShotBonusName="Red Mist"
+BloodKillZoneBonusName="Guts and Gory"
+VitalsShotPsiCoolEffectName="Silenced!"
+
+[MZIsmsRogue_AbilitySet]
+Recon_Scouted = "Scouted"
+Recon_ScoutedDesc = "Marked enemies take 10-20% more damage and lose 5 defense."
+Relocate_Invisible = "Invisible"
+Riposte_Parried = "Parried"
+Riposte_Taunt = "Taunting"
+
+ScoutingReport_Intel = "Intelligence"
+ScoutingReport_IntelDesc = "Gather one intelligence per turn. Increases Aim and Defense of the whole squad."
+NBK_Focus = "Focus"
+NBK_FocusDesc = "Gain one focus per turn. Increases Mobility."
+RushOfBattle_Adrenaline = "Adrenaline"
+RushOfBattle_AdrenalineDesc = "Gain 3 Adrenaline on kill, and 1 when an ally kills. Increases Dodge."
+
+[MZUnspecific_AbilitySet]
+TransposeDefenseEffectName="Switch Gaurd"
+TransposeDefenseEffectDesc="Gain <Ability:MZTransposeDefenseBonus/> Defense until the start of the next turn."
+SocialDynamoEffectName="Social Dynamo"
+
+[MZZFocus_AbilitySet]
+FlameFocus_Label = "Flame Mana"
+FlameFocus_Tooltip = "Gained by killing foes with abilities that do not cost Mana."
+WaterFocus_Label = "Water Mana"
+WaterFocus_Tooltip = "Gained at the start of each turn. Recovery reduced as mana level rises."
+EarthFocus_Label = "Earth Mana"
+EarthFocus_Tooltip = "Gained by hunkering down."
+WindFocus_Label = "Wind Mana"
+WindFocus_Tooltip = "Gained by dashing with abilities that do not cast mana. Standard Move dashes have improved recovery."
+NecroFocus_Label = "Death Mana"
+NecroFocus_Tooltip = "A small amount is gained whenever anything dies."
+VoidFocus_Label = "Void Mana"
+VoidFocus_Tooltip = "Does not naturaly recover."
+PhantomFocus_Label = "Phantom Mana"
+PhantomFocus_Tooltip = "Gained at the start of each turn while concealed."
+
+[MZ_Effect_BloodCurse]
+BloodCurseTitle="Blood Curse"
+BloodCurseFriendlyName="Blood Curse"
+BloodCurseFriendlyDesc="An ancient curse that erodes body and mind."
+BloodCurseEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is cursed."
+BloodCurseEffectTickedString="<XGParam:StrValue0/!UnitName/> is still cursed."
+BloodCurseEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer cursed."
+
+[MZ_Effect_Zombify]
+ZombifyEffectName="Zombified"
+ZombifyEffectDesc="Vulnerable to effects that would normally only work on undead targets."

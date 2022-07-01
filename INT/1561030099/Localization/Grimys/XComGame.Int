@@ -1,0 +1,293 @@
+;================================================================================================
+;      GRIMY'S ANARCHIST
+;================================================================================================
+
+[GrimyFlamethrower X2WeaponTemplate]
+FriendlyName="Flamethrower"
+FriendlyNamePlural="Flamethrowers"
+BriefSummary="This wrist-mounted flamethrower relies on a super-pressurized fuel canister and a very focused nozzle to unleash a deadly cone of fire on multiple enemies."
+TacticalText="<Bullet/> The Flamethrower is an area-of-effect weapon that can lay waste to part of the battlefield.\n<Bullet/> It is useful against multiple enemies, and at close quarters. Robotic enemies will be resistant or immune to its effects, however."
+
+[GrimyShredderGun X2WeaponTemplate]
+FriendlyName="Shredder Gun"
+FriendlyNamePlural="Shredder Guns"
+BriefSummary="This wrist-mounted slugthrower sprays a cone of razor-sharp particles, damaging multiple enemies and shredding their armor."
+TacticalText="<Bullet/>The Shredder Gun is useful against multiple enemies, and at close quarters.\n<Bullet/> Its ammo is limited, so use it only when it will be decisive."
+
+[GrimyShellShock X2AbilityTemplate]
+LocFriendlyName="Shellshock"
+LocHelpText="Grenades have a 15% chance to stun both organic and robotic enemies."
+LocLongDescription="Grenades have a 15% chance to stun both organic and robotic enemies."
+
+[GrimyLightOrdnance X2AbilityTemplate]
+LocFriendlyName="Light Ordnance"
+LocHelpText="Increase grenade capacity by 2 in each slot, but decrease grenade damage by 50%."
+LocLongDescription="Increase grenade capacity by 2 in each slot, but decrease grenade damage by 50%."
+
+[GrimyGrenadeShredder X2AbilityTemplate]
+LocFriendlyName="Grenade Shredder"
+LocHelpText="Increase grenade shredding and armor piercing by 2."
+LocLongDescription="Increase grenade shredding and armor piercing by 2."
+
+[GrimySabotage X2AbilityTemplate]
+LocFriendlyName="Sabotage"
+LocHelpText="Provides combat protocol ability, if not yet available. Upgrades combat protocol to disarm enemy weapons."
+LocLongDescription="Provides combat protocol ability, if not yet available.\nUpgrades combat protocol to disarm enemy weapons."
+
+[GrimyDeadlyHaze X2AbilityTemplate]
+LocFriendlyName="Deadly Haze"
+LocHelpText="Increase tile coverage of fire, acid, and poison from grenades to 100%. Enemies hit by grenades deal 2 less damage for 1 turn."
+LocLongDescription="Increase tile coverage of fire, acid, and poison from grenades to 100%. Enemies hit by grenades deal 2 less damage for 1 turn."
+
+[GrimyCauterize X2AbilityTemplate]
+LocFriendlyName="Cauterize"
+LocHelpText="Deal 2 damage to a unit, if it survives, heal it for 3-9 life."
+LocLongDescription="Deal 2 damage to a unit, if it survives, heal it for 3-9 life.\nCan target both allies and enemies.\n2 uses per mission.\nProvides the revival protocol ability."
+
+[GrimyVileConcoctions X2AbilityTemplate]
+LocFriendlyName="Vile Concoctions"
+LocHelpText="Increase DoT damage from grenades by 2."
+LocLongDescription="Increase DoT damage from grenades by 2."
+
+[GrimySadist X2AbilityTemplate]
+LocFriendlyName="Sadist"
+LocHelpText="Gain two additional skullmining charges when a skulljack is equipped."
+LocLongDescription="Gain two additional skullmining charges when a skulljack is equipped."
+
+[GrimyHostageProtocol X2AbilityTemplate]
+LocFriendlyName="Hostage Protocol"
+LocHelpText="Provides combat protocol ability, if not yet available. Upgrades combat protocol to stun an enemy and turn it into high cover for a turn."
+LocLongDescription="Provides combat protocol ability, if not yet available.\nUpgrades combat protocol to stun an enemy and turn it into high cover for a turn."
+
+[GrimyFireWall X2AbilityTemplate]
+LocFriendlyName="Firewall"
+LocHelpText="Gain a single use flamethrower that creates a wall of fire that can't be crossed without being burned."
+LocLongDescription="Gain a single use flamethrower that creates a wall of fire that can't be crossed without being burned."
+
+[FireGrimyFireWall X2AbilityTemplate]
+LocFriendlyName="Firewall"
+LocLongDescription="Spray flames in a cone-shaped area. Creates a wall of fire that can't be crossed without being burned."
+LocHelpText="Spray flames in a cone-shaped area. Creates a wall of fire that can't be crossed without being burned."
+LocFlyOverText="Firewall"
+
+[GrimyShredderGun X2AbilityTemplate]
+LocFriendlyName="Shredder Gun"
+LocHelpText="Gain a single use shredder gun."
+LocLongDescription="Gain a single use shredder gun."
+
+[FireGrimyShredderGun X2AbilityTemplate]
+LocFriendlyName="Fire Shredder Gun"
+LocLongDescription="Fire your Shredder Gun at a cone-shaped area."
+LocHelpText="Fire your Shredder Gun at a cone-shaped area."
+LocFlyOverText="Fire Shredder Gun"
+
+[GrimyAirBurst X2AbilityTemplate]
+LocFriendlyName="Air Burst"
+LocHelpText="Increase grenade launcher radius by 2."
+LocLongDescription="Increase grenade launcher radius by 2."
+
+[GrimyLongShot X2AbilityTemplate]
+LocFriendlyName="Longshot"
+LocHelpText="Increase grenade launcher range by 50%."
+LocLongDescription="Increase grenade launcher range by 50%."
+
+;========================================================================================================
+; GRIMY's BRUISER
+;========================================================================================================
+
+[GrimyIntimidationPassive X2AbilityTemplate]
+LocFriendlyName="Intimidation"
+LocLongDescription="Return fire attacks from the bruiser reduce enemy aim by 15%."
+LocHelpText="Return fire attacks from the bruiser reduce enemy aim by 15%."
+
+[GrimyGunPoint X2AbilityTemplate]
+LocFriendlyName="Gunpoint"
+LocHelpText="Stun a flankable enemy and use it as high cover."
+LocLongDescription="Deals 2 damage to a flankable enemy and stuns it for 1 full turn.\nThat enemy can now be used as high cover.\nYou may take a pistol shot or throw a grenade after using this ability.\n2 turn cooldown."
+
+[GrimySurvival X2AbilityTemplate]
+LocFriendlyName="Survival Instinct"
+LocHelpText="This soldier returns fire with a pistol up to once per enemy per turn, and gains 1 armor for 2 turns when doing so."
+LocLongDescription="This soldier returns fire with a pistol up to once per enemy per turn, and gains 1 armor for 2 turns when doing so."
+
+[GrimySpotter X2AbilityTemplate]
+LocFriendlyName="Spotter"
+LocHelpText="This soldier returns fire with a pistol up to once per enemy per turn when attacked and marks the target."
+LocLongDescription="This soldier returns fire with a pistol up to once per enemy per turn when attacked and marks the target."
+
+[GrimyBolsterPassive X2AbilityTemplate]
+LocFriendlyName="Bolster"
+LocHelpText="Gunpoint provides 2 armor for 2 turns."
+LocLongDescription="Gunpoint provides 2 armor for 2 turns."
+
+[GrimyNeedlePointPassive X2AbilityTemplate]
+LocFriendlyName="Lethal Sedative"
+LocHelpText="Gunpoint and pistol attacks now poison the target."
+LocLongDescription="Gunpoint now poisons the target for 2 per turn and pistol attacks poison targets for 1 per turn."
+
+[GrimyDrawFire X2AbilityTemplate]
+LocFriendlyName="Draw Fire"
+LocHelpText="Decrease defense by 10 and increase armor by 2 on self for 2 turns. Increase defense of allies within 25 tile radius by 10."
+LocLongDescription="Decrease defense by 10 and increase armor by 2 on self for 2 turns. Increase defense of allies within 25 tile radius by 10. 3 turn cooldown."
+
+[GrimyFlashpoint X2AbilityTemplate]
+LocFriendlyName="Flashpoint"
+LocHelpText="Gain 1 additional flashbang capacity, and flashbangs now deal 2 more damage."
+LocLongDescription="Gain 1 additional flashbang capacity, and flashbangs now deal 2 more damage."
+
+[GrimyEnrage X2AbilityTemplate]
+LocFriendlyName="Enrage"
+LocHelpText="Start a turn with run and gun automatically activated while injured."
+LocLongDescription="Start a turn with run and gun automatically activated while injured."
+
+[GrimyTaserShot X2AbilityTemplate]
+LocFriendlyName="Taser Shot"
+LocHelpText="Fire an electrical pistol shot that stuns organic enemies, deals triple damage to robotic enemies, and ignores armor."
+LocLongDescription="Fire an electrical pistol shot that stuns organic enemies, deals triple damage to robotic enemies, and ignores armor. 2 uses per mission."
+
+[GrimyCausticSlug X2AbilityTemplate]
+LocFriendlyName="Caustic Slug"
+LocHelpText="Fire a caustic shotgun slug that shreds armor and deals double damage."
+LocLongDescription="Fire a caustic shotgun slug that shreds armor and deals double damage. 2 uses per mission."
+
+[GrimyGrapeShot X2AbilityTemplate]
+LocFriendlyName="Grapeshot"
+LocHelpText="Fire your shotgun in a short range cone dealing fire damage. Cannot miss. Deals 30% less damage."
+LocLongDescription="Fire your shotgun in a short range cone dealing fire damage. Cannot miss. Deals 30% less damage. 2 uses per mission."
+
+;=========================================================================================================
+;     GRIMY's FURY
+;=========================================================================================================
+
+[GrimyStrafe X2AbilityTemplate]
+LocFriendlyName="Strafing Fire"
+LocHelpText="Fire a shot that deals 50% less damage, but can be used for free after moving"
+LocLongDescription="Strafing fire can be used for free after moving\nStrafing fire deals 50% less damage"
+
+[GrimySustainedFire X2AbilityTemplate]
+LocFriendlyName="Sustained Fire"
+LocHelpText="Can reload and overwatch using strafing action points."
+LocLongDescription="Can reload and overwatch using strafing action points."
+
+[GrimyPyrokinesis X2AbilityTemplate]
+LocFriendlyName="Pyrokinesis"
+LocHelpText="An imperfect version of soulfire that burns for 1 damage per turn"
+LocLongDescription="An imperfect version of soulfire that burns for 1 damage per turn\nCosts <Ability:SelfHealthCost/> HP\n2 turn cooldown\nCan be used with strafing action points"
+
+[GrimyReave X2AbilityTemplate]
+LocFriendlyName="Reave"
+LocHelpText="An imperfect version of null lance that deals half damage"
+LocLongDescription="An imperfect version of null lance that deals half damage\nCosts <Ability:SelfHealthCost/> HP\n3 turn cooldown\nCan be used with strafing action points"
+
+[GrimyMadness X2AbilityTemplate]
+LocFriendlyName="Betrayal"
+LocHelpText="An imperfect version of domination that only controls an alien for 1 turn but lets it act immediately"
+LocLongDescription="An imperfect version of domination that only controls an alien for 1 turn but lets it act immediately\nCosts <Ability:SelfHealthCost/> HP\n2 turn cooldown\n2 additional uses\nCan be used with strafing action points"
+
+[GrimySoulTap X2AbilityTemplate]
+LocFriendlyName="Soul Tap"
+LocHelpText="Sacrifice <Ability:SelfHealthCost/> HP for 1 action point"
+LocLongDescription="Sacrifice <Ability:SelfHealthCost/> HP for 1 action point\n1 turn cooldown"
+
+[GrimyReinvigorate X2AbilityTemplate]
+LocFriendlyName="Reinvigorate"
+LocHelpText="Heals from medikits and gremlins provide an extra action point"
+LocLongDescription="Heals from medikits and gremlins provide an extra action point"
+
+[GrimyBulletRoulette X2AbilityTemplate]
+LocFriendlyName="Ammo Roulette"
+LocHelpText="Gain a random ammo upgrade at the start of each mission"
+LocLongDescription="Gain a random ammo upgrade at the start of each mission\nReplaces any equipped ammo"
+
+[GrimyWillToSurvive X2AbilityTemplate]
+LocFriendlyName="Will To Survive"
+LocHelpText="Increase HP by 10% of willpower"
+LocLongDescription="Increase HP by 10% of willpower"
+
+[GrimySprayAndPray X2AbilityTemplate]
+LocFriendlyName="Spray and Pray"
+LocHelpText="Fire at up to 3 different enemies, dealing 25% less damage, Can be used with strafing action points"
+LocLongDescription="Fire at up to 3 different enemies, dealing 25% less damage\nCan be used with strafing action points\nAlways costs 3 ammo"
+
+[GrimyAnomaly X2AbilityTemplate]
+LocFriendlyName="Dimensional Anomaly"
+LocHelpText="Rip a dimensional hole, dealing massive damage in a wide radius, but summon random pod of alien reinforcements in doing so, costs <Ability:SelfHealthCost/> HP"
+LocLongDescription="Rip a dimensional hole, dealing massive damage in a wide radius, but summon random pod of alien reinforcements in doing so\nCosts <Ability:SelfHealthCost/> HP\nDeals 20-30 damage depending on psi amp tier"
+
+[GrimySpeedster X2AbilityTemplate]
+LocFriendlyName="Speedster"
+LocHelpText="Gain an extra action point but decrease mobility by 30%."
+LocLongDescription="Gain an extra action point but decrease mobility by 30%."
+
+;============================================================================================================
+;     GRIMY'S HEADHUNTER
+;============================================================================================================
+[GrimyPiercingShot X2AbilityTemplate]
+LocFriendlyName="Piercing Shot"
+LocHelpText="Fire a shot that penetrates multiple enemies, shreds armor, and destroys cover. Deals 25% less damage."
+LocLongDescription="Fire a shot that penetrates multiple enemies and destroys cover\nDeals 25% less damage\nCan be used after moving\nShreds armor\n2 uses per mission\n4 turn cooldown\n"
+
+[GrimyMultiHook X2AbilityTemplate]
+LocFriendlyName="Multi-Hook"
+LocHelpText="Deploy a free aiming grappling hook to move quickly to an new position."
+LocLongDescription="The headhunter carries a grappling hook and cable allowing rapid movement to a new position.\nCosts 1 action point."
+
+[GrimyRushedShot X2AbilityTemplate]
+LocFriendlyName="Rushed Shot"
+LocHelpText="Fire a shot at a random enemy. Can be used after moving."
+LocLongDescription="Fire a shot at a random visible enemy. Can be used after moving."
+
+[GrimyThunderclap X2AbilityTemplate]
+LocFriendlyName="Thunderclap"
+LocHelpText="Fire an electrical round at a random enemy dealing +50% damage to organic enemies and +100% to robotic ones."
+LocLongDescription="Fire a special electric round at a random enemy\nDeals +50% to organic enemies\nDeals+100% damage to robotic enemies\nCan be used after moving\n2 uses per mission\n6 turn cooldown"
+
+[GrimyPointBlank X2AbilityTemplate]
+LocFriendlyName="Point Blank"
+LocHelpText="Fire a shot with +50% aim, crit, and damage at point blank range. Can be used after moving."
+LocLongDescription="Fire a shot with +50% aim, crit, and damage at point blank range. Can be used after moving"
+
+[GrimyIncendiaryShot X2AbilityTemplate]
+LocFriendlyName="Incendiary Shot"
+LocHelpText="Fire an explosive free aiming fire round that deals fire damage and burns."
+LocLongDescription="Fire an explosive free aiming fire round that deals fire damage and burns.\nCan be used after moving\n2 uses per mission\n6 turn cooldown
+
+[GrimyTwinFangs X2AbilityTemplate]
+LocFriendlyName="Twin Fangs"
+LocHelpText="Fire poisonous rounds randomly at up to two different enemies."
+LocLongDescription="Fire poisonous rounds randomly at up to two different enemies.\nCan be used after moving\n2 uses per mission\n6 turn cooldown"
+
+[GrimyBuckshot X2AbilityTemplate]
+LocFriendlyName="Buckshot"
+LocHelpText="Fire a buckshot round that can hit targets in a cone. Deals 25% less damage."
+LocLongDescription="Fire a buckshot round that can hit targets in a cone.\nDeals 25% less damage\nCan be used after moving\n2 uses per mission\n6 turn cooldown"
+
+[GrimyDoubleTap X2AbilityTemplate]
+LocFriendlyName="Double Tap"
+LocHelpText="Fire a standard sniper rifle shot and refund an action point afterwards."
+LocLongDescription="Fire a standard sniper rifle shot and refund an action point afterwards.\n4 turn cooldown"
+
+[GrimyHexHunter X2AbilityTemplate]
+LocFriendlyName="Hexhunter"
+LocHelpText="Fire a special Hexhunter round that deals bonus damage proportional to the target's psionic power."
+LocLongDescription="Fire a special Hexhunter round that deals bonus damage proportional to the target's psionic power\n1 use per mission"
+
+[GrimyBladeOil X2AbilityTemplate]
+LocFriendlyName="Blade Oil"
+LocHelpText="Slash an enemy with a poisoned blade, dealing an additional 100% weapon damage as poison."
+LocLongDescription="Slash an enemy with a poisoned blade, dealing an additional 100% weapon damage as poison\n2 uses per mission\n4 turn cooldown"
+
+[GrimyRapidSlashHH X2AbilityTemplate]
+LocFriendlyName="Rapid Slash"
+LocHelpText="Slash an enemy and refund an action point afterwards."
+LocLongDescription="Slash an enemy and refund an action point afterwards\n3 turn cooldown"
+
+[GrimyExecuteBonus X2AbilityTemplate]
+LocFriendlyName="Execute"
+LocHelpText="Your melee attacks deal triple damage against marked or holotargeted enemies."
+LocLongDescription="Your melee attacks deal triple damage against marked or holotargeted enemies."
+
+[GrimyPreparation X2AbilityTemplate]
+LocFriendlyName="Preparation"
+LocHelpText="Gain a standard action point at the start of your next turn."
+LocLongDescription="Gain a standard action point at the start of your next turn\nDoes not cost action points\n3 turn cooldown"

@@ -1,0 +1,9 @@
+[Musashi_Effect_Freeze]
+FreezeName="Замёрзший"
+FreezeDesc="Замороженные не могут двигаться или совершать какие-либо действия, а также представляют собой лёгкую мишень."
+RulerFreezeTickFlyover="Заморозка: <Ability:TurnsRemaining/>"
+FreezeEffectAddedString="<XGParam:StrValue0/!UnitName/> заморожен."
+FreezeEffectPersistsString="<XGParam:StrValue0/!UnitName/> всё ещё заморожен."
+FreezeEffectRemovedString="<XGParam:StrValue0/!UnitName/> больше не заморожен."
+FreezeLostFlyover="Оттаявший"
+LargeUnitFreezeLostFlyover="Оттаивание: потеря одного действия"

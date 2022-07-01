@@ -1,0 +1,13 @@
+[X2Effect_AutoMendArmour]
+DeShredMessage="+<Heal/> Armour Repaired"
+
+[X2Effect_AutoMendShield]
+HealedMessage="+<Heal/> Shield Recharged"
+
+[X2Item_WeaveVests]
+MaxShieldRegenLabel = "Max Shield Recharge"
+ShieldRegenLabel = "Recharge Rate"
+ShieldLabel = "Shield"
+
+MaxArmourRepairLabel = "Max Automend"
+ArmourRepairLabel = "Automend Rate"

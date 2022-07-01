@@ -1,0 +1,78 @@
+[X2DownloadableContentInfo_AddedPartNames]
+
+
+.TorsoTemplate="CX_TitanArmor_Torso_1_F"
+.TorsoName="CX Titan Armor Torso 1"
+
+.TorsoTemplate="CX_TitanArmor_Torso_2_F"
+.TorsoName="CX Titan Armor Torso 2"
+
+.TorsoTemplate="CX_TitanArmor_Torso_3_F"
+.TorsoName="CX Titan Armor Torso 3"
+
+.TorsoTemplate="CX_GrandTitanArmor_Torso_1_F"
+.TorsoName="CX Grand Titan Armor Torso 1"
+
+.TorsoTemplate="CX_GrandTitanArmor_Torso_2_F"
+.TorsoName="CX Grand Titan Armor Torso 2"
+
+.TorsoTemplate="CX_GrandTitanArmor_Torso_3_F"
+.TorsoName="CX Grand Titan Armor Torso 3"
+
+
+.LegsTemplate="CX_TitanArmor_Legs_F"
+.LegsName="CX Titan Armor Legs"
+
+.LegsTemplate="CX_TitanArmor_Legs2_F"
+.LegsName="CX Titan Armor Legs 2"
+
+.LegsTemplate="CX_TitanArmor_Legs3_F"
+.LegsName="CX Titan Armor Legs 3"
+
+.LegsTemplate="CX_GrandTitanArmor_Legs_F"
+.LegsName="CX Grand Titan Armor Legs"
+
+.LegsTemplate="CX_GrandTitanArmor_Legs2_F"
+.LegsName="CX Grand Titan Armor Legs 2"
+
+.LegsTemplate="CX_GrandTitanArmor_Legs3_F"
+.LegsName="CX Grand Titan Armor Legs 3"
+
+
+
+.TorsoTemplate="CX_TitanArmor_Torso_1_M"
+.TorsoName="CX Titan Armor Torso 1"
+
+.TorsoTemplate="CX_TitanArmor_Torso_2_M"
+.TorsoName="CX Titan Armor Torso 2"
+
+.TorsoTemplate="CX_TitanArmor_Torso_3_M"
+.TorsoName="CX Titan Armor Torso 3"
+
+.TorsoTemplate="CX_GrandTitanArmor_Torso_1_M"
+.TorsoName="CX Grand Titan Armor Torso 1"
+
+.TorsoTemplate="CX_GrandTitanArmor_Torso_2_M"
+.TorsoName="CX Grand Titan Armor Torso 2"
+
+.TorsoTemplate="CX_GrandTitanArmor_Torso_3_M"
+.TorsoName="CX Grand Titan Armor Torso 3"
+
+
+.LegsTemplate="CX_TitanArmor_Legs_M"
+.LegsName="CX Titan Armor Legs"
+
+.LegsTemplate="CX_TitanArmor_Legs2_M"
+.LegsName="CX Titan Armor Legs 2"
+
+.LegsTemplate="CX_TitanArmor_Legs3_M"
+.LegsName="CX Titan Armor Legs 3"
+
+.LegsTemplate="CX_GrandTitanArmor_Legs_M"
+.LegsName="CX Grand Titan Armor Legs"
+
+.LegsTemplate="CX_GrandTitanArmor_Legs2_M"
+.LegsName="CX Grand Titan Armor Legs 2"
+
+.LegsTemplate="CX_GrandTitanArmor_Legs3_M"
+.LegsName="CX Grand Titan Armor Legs 3"

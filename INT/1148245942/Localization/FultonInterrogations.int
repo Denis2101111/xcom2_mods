@@ -1,0 +1,6 @@
+[X2EventListener_Fulton]
+CapturedTitle="Fulton Success"
+Captured="<XGParam:StrValue0/!ItemName/> was gained from the capture."
+
+LootTitle="Loot Captured"
+Loot="Extra loot was gained from the capture."

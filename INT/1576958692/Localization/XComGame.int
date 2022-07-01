@@ -1,0 +1,131 @@
+[IRI_RocketPunch X2AbilityTemplate]
+LocFriendlyName="Rocket Punch"
+LocLongDescription="Attack an enemy within movement range with a rocket-boosted punch. Only for Heavy Armor."
+LocHelpText="Attack an enemy within movement range with a rocket-boosted punch."
+LocFlyOverText="Rocket Punch"
+
+[IRI_RocketPunch_MK2 X2AbilityTemplate]
+LocFriendlyName="Elerium Punch"
+LocLongDescription="Attack an enemy within movement range with an elerium-boosted punch. Only for Heavy Armor."
+LocHelpText="Attack an enemy within movement range with an elerium-boosted punch."
+LocFlyOverText="Elerium Punch"
+
+[IRI_RocketPound X2AbilityTemplate]
+LocFriendlyName="Rocket Slam"
+LocLongDescription="Attack and disorient enemies within movement range with a devastating rocket-boosted ground slam. Only for Heavy Armor."
+LocHelpText="Attack and disorient enemies within movement range with a devastating rocket-boosted ground slam."
+LocFlyOverText="Rocket Slam"
+
+[IRI_IcarusJump X2AbilityTemplate]
+LocFriendlyName="Flight"
+LocLongDescription="Fly to a new location. Bypasses all overwatch and reaction fire. Cannot be used with Heavy Armor."
+LocHelpText="Activate elerium jets to fly to a different position."
+LocFlyOverText="Flight"
+
+[IRI_CallReinforcements X2AbilityTemplate]
+LocFriendlyName="Dynamic Deployment"
+LocLongDescription="Signal the Skyranger to deploy soldiers equipped with Booster Jets straight from Avenger's barracks."
+LocHelpText="Signal the Skyranger to deploy soldiers equipped with Booster Jets straight from Avenger's barracks."
+LocFlyOverText="Dynamic Deployment"
+
+[IRI_EmergencyEvac X2AbilityTemplate]
+LocFriendlyName="Emergency Evac"
+LocLongDescription="Activate booster jets to evacuate from any open location. Cannot be used with Heavy Armor."
+LocHelpText="Activate booster jets to evacuate from any open location."
+LocFlyOverText="Emergency Evac"
+
+[IRI_IcarusSlam X2AbilityTemplate]
+LocFriendlyName="Crater"
+LocLongDescription="Drop from the sky like a meteor, disorienting and damaging enemies, and destroying their cover. Only for Heavy Armor."
+LocHelpText="Drop from the sky like a meteor, disorienting and damaging enemies, and destroying their cover."
+LocFlyOverText="Crater"
+
+[IRI_JetShot X2AbilityTemplate]
+LocFriendlyName="Jet Shot"
+LocLongDescription="Gain ability to engage enemies while flying on booster jets until the end of turn. Provides height advantage. Cannot be used with Heavy Armor."
+LocHelpText="Gain ability to engage enemies while flying on booster jets until the end of turn. Provides height advantage."
+LocFlyOverText="Jet Shot"
+
+[IRI_JetShot_Cancel X2AbilityTemplate]
+LocFriendlyName="Cancel Jet Shot"
+LocLongDescription="Disengage booster jets to regain access to ground-based abilities."
+LocHelpText="Disengage booster jets to regain access to ground-based abilities."
+LocFlyOverText="Jet Shot Cancelled"
+
+[IRI_JetBoosters_MK1 X2EquipmentTemplate]
+FriendlyName="Booster Jets"
+FriendlyNamePlural="Booster Jets"
+BriefSummary="Employs scavenged ADVENT MEC booster jets to improve soldier's mobility and provide additional tactical options based on their equipped armor type."
+TacticalText=" "
+
+[IRI_JetBoosters_MK2 X2EquipmentTemplate]
+FriendlyName="Elerium Jets"
+FriendlyNamePlural="Elerium Jets"
+BriefSummary="Combines repurposed Archon hover jets augmented with an elerium energy source to further improve soldier's mobility and provide even more tactical options based on their equipped armor type."
+TacticalText=" "
+
+[JetBoosters_MK1_Tech X2TechTemplate]
+DisplayName="Booster Jets"
+Summary="We may be able to use ADVENT MEC's booster jets to improve the mobility of our sodliers, as well as provide additional tactical options based on their equipped armor type. Some alloy shielding will be necessary to protect the soldier from exhaust heat." 
+
+[JetBoosters_MK2_Tech X2TechTemplate]
+DisplayName="Elerium Jets"
+Summary="We may be able to repurpose Archon's hover jets and combine them with an Elerium energy bypass to further boost soldier's mobility and provide even more tactical options based on their equipped armor type."
+
+[X2Effect_IRI_WeaponSpecificAnimSet]
+DamnGoodGround_String="Damn Good Ground"
+Raptor_String="Raptor"
+
+[X2TargetingMethod_ConfirmEvac]
+AcceptMessage="Evac"
+CancelMessage="Cancel"
+
+[IRI_UnlockDynamicDeployment X2SoldierAbilityUnlockTemplate]
+DisplayName="Dynamic Deployment"
+Summary="Provides the ability to dynamically deploy soldiers equipped with Booster Jets via high altitude Skyranger drops directly from Avenger's barracks. Tactical limitations:<br/><Bullet/> Total number of soldiers on mission cannot exceed maximum squad size. This means that to be able to dynamically deploy soldiers, the mission must be started without a full squad.<br/><Bullet/> Limited to deploying 3 soldiers per turn.<br/><Bullet/> Dynamic Deployment breaks concealment.<br/><Bullet/> Deployment location must be within squad's visual range."
+
+;	MALE Jet Packs localization
+
+[IRI_JetPack_Shins01_M X2BodyPartTemplate]
+DisplayName="Shin Boosters"
+
+[IRI_JetPack_Pack01 X2BodyPartTemplate]
+DisplayName="Jet Pack"
+
+[IRI_JetPack_Pack02 X2BodyPartTemplate]
+DisplayName="Jet Wings"
+
+[IRI_JetPack_Pack03 X2BodyPartTemplate]
+DisplayName="Archangel Jets"
+
+[IRI_JetPack_Pack04 X2BodyPartTemplate]
+DisplayName="Elerium Jets"
+
+[IRI_JetPack_Pack05 X2BodyPartTemplate]
+DisplayName="Pilot Jumpkit"
+
+[IRI_JetPack_Forearm01 X2BodyPartTemplate]
+DisplayName="Arm Booster"
+
+;	FEMALE
+
+[IRI_JetPack_Shins01_F X2BodyPartTemplate]
+DisplayName="Shin Boosters"
+
+[IRI_JetPack_Pack01_F X2BodyPartTemplate]
+DisplayName="Jet Pack"
+
+[IRI_JetPack_Pack02_F X2BodyPartTemplate]
+DisplayName="Jet Wings"
+
+[IRI_JetPack_Pack03_F X2BodyPartTemplate]
+DisplayName="Archangel Jets"
+
+[IRI_JetPack_Pack04_F X2BodyPartTemplate]
+DisplayName="Elerium Jets"
+
+[IRI_JetPack_Pack05_F X2BodyPartTemplate]
+DisplayName="Pilot Jumpkit"
+
+[IRI_JetPack_Forearm01_F X2BodyPartTemplate]
+DisplayName="Arm Booster"

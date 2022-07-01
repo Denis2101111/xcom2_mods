@@ -1,0 +1,15 @@
+[X2Effect_AdrenalRush]
+strAdrenalRushFriendlyDesc="Was stimulated by a Hive Warrior's Adrenal Rush. Granted +10 Offense and +2 Mobility. Lasts 2 turns."
+
+[X2Effect_HyperReactiveSenses]
+strHyperReactiveSensesFriendlyDesc="Hive Warrior has activated its Hyper Reactive Senses. Granted +10 Dodge and +20 Will. Lasts 2 turns."
+strXCOMHyperReactiveSensesFriendlyDesc="The Soldier has activated Hyper Reactive Senses. Granted +10 Dodge +20 Will +10 Offense and +3 Mobility. Lasts 2 turns."
+
+[X2EventListener_TacticalUI]
+TheHiveTurn="FERAL HIVE ACTIVITY"
+
+[X2Effect_RipperMobilityDamage]
+RipperMobilityDamageMessage="Movement Crippled"
+
+[X2StrategyElement_HiveArmorSlot]
+SlotName="HIVE ARMOR"

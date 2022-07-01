@@ -1,0 +1,43 @@
+[IRI_RPG_CV X2DisposableLauncherTemplate]
+FriendlyName="RPG"
+FriendlyNamePlural="RPGs"
+ThrownAbilityName="Fire RPG"
+ThrownAbilityHelpText="Fire the RPG. The shot can scatter."
+BriefSummary="We managed to secure a large supply of these single use RPGs from one of the munitions depots leftover from the original XCOM project. They are highly effective against armored targets and groups of enemies, but can be unwieldy to use."
+TacticalText="We managed to secure a large supply of these single use RPGs from one of the munitions depots leftover from the original XCOM project. They are highly effective against armored targets and groups of enemies, but can be unwieldy to use. <br/><Bullet/> Unlike grenades, rockets can scatter and miss their target. Scatter gets worse if the rocket is fired while the soldier has only one action remaining or when taking long-distance shots. \n<Bullet/> Heavier than most other utility items."
+
+[IRI_RPG_MG X2DisposableLauncherTemplate]
+FriendlyName="CRAG"
+FriendlyNamePlural="CRAGs"
+ThrownAbilityName="Fire CRAG"
+ThrownAbilityHelpText="Fire the CRAG. The shot can scatter."
+BriefSummary="CRAG uses overclocked magnetic coils to rapidly accelerate a modified Alien Grenade, launching it at supersonic speeds. Unfortunately, without a heavy and bulky compensation and cooling unit, the coil lining invariably fries during the shot, making this launcher unfit for reuse."
+TacticalText="CRAG uses overclocked magnetic coils to rapidly accelerate a modified Alien Grenade, launching it at supersonic speeds. Unfortunately, without a heavy and bulky compensation and cooling unit, the coil lining invariably fries during the shot, making this launcher unfit for reuse. <br/><Bullet/> Unlike grenades, rockets can scatter and miss their target. Scatter gets worse if the rocket is fired while the soldier has only one action remaining or when taking long-distance shots. \n<Bullet/> Heavier than most other utility items."
+
+[IRI_RPG_BM X2DisposableLauncherTemplate]
+FriendlyName="BFG"
+FriendlyNamePlural="BFGs"
+ThrownAbilityName="Fire BFG"
+ThrownAbilityHelpText="Fire the BFG. The shot can scatter."
+BriefSummary="Binary Fusion Grenade uses a conventional explosive charge to implode an Elerium Core, giving it a significant potential as an explosive. BFG uses condensed atmosphere air to supercool the Core to delay the chain reaction. The core is then immediately launched via no-contact gravitation fields."
+TacticalText="Binary Fusion Grenade uses a conventional explosive charge to implode an Elerium Core, giving it a significant potential as an explosive. BFG uses condensed atmosphere air to supercool the Core to delay the chain reaction. The core is then immediately launched via no-contact gravitation fields. <br/><Bullet/> Unlike grenades, rockets can scatter and miss their target. Scatter gets worse if the rocket is fired while the soldier has only one action remaining or when taking long-distance shots. \n<Bullet/> Heavier than most other utility items."
+
+[IRI_RPG_CV_Utility X2UtilityDisposableLauncherTemplate]
+FriendlyName="RPG"
+FriendlyNamePlural="RPGs"
+BriefSummary="We managed to secure a large supply of these single use RPGs from one of the munitions depots leftover from the original XCOM project. They are highly effective against armored targets and groups of enemies, but can be unwieldy to use."
+TacticalText="We managed to secure a large supply of these single use RPGs from one of the munitions depots leftover from the original XCOM project. They are highly effective against armored targets and groups of enemies, but can be unwieldy to use. <br/><Bullet/> Unlike grenades, rockets can scatter and miss their target. Scatter gets worse if the rocket is fired while the soldier has only one action remaining or when taking long-distance shots. \n<Bullet/> Heavier than most other utility items."
+
+
+[IRI_RPG_MG_Utility X2UtilityDisposableLauncherTemplate]
+FriendlyName="CRAG"
+FriendlyNamePlural="CRAGs"
+BriefSummary="CRAG uses overclocked magnetic coils to rapidly accelerate a modified Alien Grenade, launching it at supersonic speeds. Unfortunately, without a heavy and bulky compensation and cooling unit, the coil lining invariably fries during the shot, making this launcher unfit for reuse."
+TacticalText="CRAG uses overclocked magnetic coils to rapidly accelerate a modified Alien Grenade, launching it at supersonic speeds. Unfortunately, without a heavy and bulky compensation and cooling unit, the coil lining invariably fries during the shot, making this launcher unfit for reuse. <br/><Bullet/> Unlike grenades, rockets can scatter and miss their target. Scatter gets worse if the rocket is fired while the soldier has only one action remaining or when taking long-distance shots. \n<Bullet/> Heavier than most other utility items."
+
+
+[IRI_RPG_BM_Utility X2UtilityDisposableLauncherTemplate]
+FriendlyName="BFG"
+FriendlyNamePlural="BFGs"
+BriefSummary="Binary Fusion Grenade uses a conventional explosive charge to implode an Elerium Core, giving it a significant potential as an explosive. BFG uses condensed atmosphere air to supercool the Core to delay the chain reaction. The core is then immediately launched via no-contact gravitation fields."
+TacticalText="Binary Fusion Grenade uses a conventional explosive charge to implode an Elerium Core, giving it a significant potential as an explosive. BFG uses condensed atmosphere air to supercool the Core to delay the chain reaction. The core is then immediately launched via no-contact gravitation fields. <br/><Bullet/> Unlike grenades, rockets can scatter and miss their target. Scatter gets worse if the rocket is fired while the soldier has only one action remaining or when taking long-distance shots. \n<Bullet/> Heavier than most other utility items."

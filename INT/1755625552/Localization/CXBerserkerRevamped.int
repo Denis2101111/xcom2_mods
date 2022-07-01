@@ -1,0 +1,7 @@
+[X2Ability_Berserker]
+RageTriggeredFriendlyName="Enraged"
+RageTriggeredFriendlyDesc="Gain bonus mobility."
+; can't embed in the ability, must be part of template
+LocRageFlyover="Enraged"
+; Flyover when an enraged Berserker attacks its own ally.
+BlindRageFlyover="Blind Rage"

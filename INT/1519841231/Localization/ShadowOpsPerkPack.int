@@ -1,0 +1,35 @@
+; === Upgrade info ===
+
+[X2DownloadableContentInfo_ShadowOpsPerkPack]
+ModUpgradeLabel="Shadow Ops Class Pack beta v0.7"
+ModUpgradeSummary="Shadow Ops Class Pack has been updated to beta version 0.7. Important changes: <br/><br/><Bullet/> The Combat Engineer and Infantry ability trees have been revamped, and the Hunter ability tree has had smaller changes. <br/><Bullet/> All soldiers converted from previous mod versions get a free respec. Go to the Armory to use it.<br/><Bullet/> The Infantry-Support has two new abilities focused on using Medikits.<br/><Bullet/> Moving Target, Entrench, Fracture, Packmaster, First Strike, and Flush have had large changes made.<br/><Bullet/> Four more new AWC-only abilities are available in the AWC. You may need to start a new game for them to appear. <br/><br/>For more complete change notes, see readme.txt."
+ModUpgradeAcceptLabel="Got it"
+
+[UIScreenListener_UIArmory_Promotion]
+LocFreeRespec="Free Respec"
+RespecWarning="Your soldiers have been granted free respecs due to changes in the Shadow Ops Class Pack class ability trees. If you rank up a soldier before using their free respec, you will lose that free respec permanently."
+RespecWarningTitle="Free Respec Expiration"
+
+; === Engineer abilities ===
+
+[UIScreenListener_UIArmory]
+m_strKills="KILLS"
+m_strKillsTitle="#1's Kills"
+m_strUnknown="Unknown"
+
+[X2Ability_EngineerAbilitySet]
+CombatDrugsName="Combat Drugs"
+CombatDrugsDescription="A fast-acting stimulant is granting bonuses to Aim and Will."
+
+; === Hunter abilities ===
+
+[X2Ability_HunterAbilitySet]
+FadePenaltyText="This unit's concealment will be broken if it moves."
+SnapShotPenaltyText="This unit has an aim penalty for overwatching with a single action."
+BullseyePenaltyName="Rattled"
+BullseyePenaltyText="This unit has -20 penalties to Aim, Defense and Will."
+DisabledFriendlyName="Disabled"
+DisabledFriendlyDesc="Unable to use most abilities."
+DisabledEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is disabled."
+DisabledEffectTickedString="<XGParam:StrValue0/!UnitName/> is still disabled."
+DisabledEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer disabled."

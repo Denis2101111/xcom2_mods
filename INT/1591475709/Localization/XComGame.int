@@ -1,0 +1,14 @@
+[IRI_RagingBall X2AbilityTemplate]
+LocFriendlyName="Wrecking Ball"
+LocLongDescription="Break through walls and cover when moving."
+LocHelpText="Break through walls and cover when moving."
+LocFlyOverText="Wrecking Ball"
+
+[IRI_RagingBall_Cancel X2AbilityTemplate]
+LocFriendlyName="Cancel Wrecking Ball"
+LocLongDescription="Stop breaking walls and cover while moving."
+LocHelpText="Stop breaking walls and cover while moving."
+LocFlyOverText="Wrecking Ball Cancelled"
+
+[X2Photobooth]
++m_arrAnimationPoses=(AnimationDisplayName="Wrecking Ball")

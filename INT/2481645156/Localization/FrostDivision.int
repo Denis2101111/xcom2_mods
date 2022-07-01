@@ -1,0 +1,12 @@
+[BitterfrostHelper]
+ChillEffectName="Chilled"
+ChillEffectDesc="Mobility and Dodge reduced."
+BitterChillEffectName="Bitter Chilled"
+BitterChillEffectDesc="Mobility reduced and unable to dodge. Vulnerable to freezing."
+
+[X2Effect_RechargingShield]
+HealedMessage="+<Heal/> Shield Recharged"
+
+[X2Ability_FrostDivisionSpecialActive]
+ShieldAreaEffectName="Frost Overshield"
+ShieldAreaEffectDesc="Recharging shielding. Removed if the Frost Legion Bruiser is killed."

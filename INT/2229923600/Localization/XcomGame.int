@@ -1,0 +1,71 @@
+[IncendiaryBombUpgrade X2TechTemplate]
+DisplayName="Upgrade Incendiary Grenade"
+Summary="Upgrade an existing Incendiary Grenade to an Incendiary Bomb."
+
+[GasBombUpgrade X2TechTemplate]
+DisplayName="Upgrade Gas Grenade"
+Summary="Upgrade an existing Gas Grenade to a Gas Bomb."
+
+[AcidBombUpgrade X2TechTemplate]
+DisplayName="Upgrade Acid Grenade"
+Summary="Upgrade an existing Acid Grenade to an Acid Bomb."
+
+[EMPBombUpgrade X2TechTemplate]
+DisplayName="Upgrade EMP Grenade"
+Summary="Upgrade an existing EMP Grenade to an EMP Bomb."
+
+[AdvancedScopeUpgrade X2TechTemplate]
+DisplayName="Upgrade Scope"
+Summary="Upgrade an existing Scope to an Advanced Scope."
+
+[SuperiorScopeUpgrade X2TechTemplate]
+DisplayName="Upgrade Advanced Scope"
+Summary="Upgrade an existing Advanced Scope to an Elite Scope."
+
+[AdvancedLaserSightUpgrade X2TechTemplate]
+DisplayName="Upgrade Laser Sight"
+Summary="Upgrade an existing Laser Sight to an Advanced Laser Sight."
+
+[SuperiorLaserSightUpgrade X2TechTemplate]
+DisplayName="Upgrade Advanced Laser Sight"
+Summary="Upgrade an existing Advanced Laser Sight to an Elite Laser Sight."
+
+[AdvancedStockUpgrade X2TechTemplate]
+DisplayName="Upgrade Stock"
+Summary="Upgrade an existing Stock to an Advanced Stock."
+
+[SuperiorStockUpgrade X2TechTemplate]
+DisplayName="Upgrade Advanced Scope"
+Summary="Upgrade an existing Advanced Stock to an Elite Stock."
+
+[AdvancedClipSizeUpgrade X2TechTemplate]
+DisplayName="Upgrade Expanded Magazine"
+Summary="Upgrade an existing Expanded Magazine to an Advanced Expanded Magazine."
+
+[SuperiorClipSizeUpgrade X2TechTemplate]
+DisplayName="Upgrade Advanced Scope"
+Summary="Upgrade an existing Advanced Expanded Magazine to an Elite Expanded Magazine."
+
+[AdvancedHairTriggerUpgrade X2TechTemplate]
+DisplayName="Upgrade Hair Trigger"
+Summary="Upgrade an existing Hair Trigger to an Advanced Hair Trigger."
+
+[SuperiorHairTriggerUpgrade X2TechTemplate]
+DisplayName="Upgrade Advanced Hair Trigger"
+Summary="Upgrade an existing Advanced Hair Trigger to an Elite Hair Trigger."
+
+[AdvancedAutoMagUpgrade X2TechTemplate]
+DisplayName="Upgrade Auto Loader"
+Summary="Upgrade an existing Auto Loader to an Advanced Auto Loader."
+
+[SuperiorAutoMagUpgrade X2TechTemplate]
+DisplayName="Upgrade Advanced Auto Loader"
+Summary="Upgrade an existing Advanced Auto Loader to an Elite Auto Loader."
+
+[AdvancedSuppressorUpgrade X2TechTemplate]
+DisplayName="Upgrade Suppressor"
+Summary="Upgrade an existing Suppressor to an Advanced Suppressor."
+
+[SuperiorSuppressorUpgrade X2TechTemplate]
+DisplayName="Upgrade Advanced Suppressor"
+Summary="Upgrade an existing Advanced Suppressor to an Elite Suppressor."

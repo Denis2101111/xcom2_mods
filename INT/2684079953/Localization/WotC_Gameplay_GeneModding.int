@@ -1,0 +1,106 @@
+[GM_IRI_ChaoticMind X2GeneModTemplate]
+DisplayName="Chaotic Mind"
+Summary="This soldier receives a large bonus to Psi Offense, but cannot contain the power, and at the end of turn will damage all units within 2 tiles, including allies. The Mind Shield item or Solace Aura area-of-effect passive ability will suppress this effect. The Solace single-target active ability will NOT suppress this effect."
+
+[MZ_AdaptiveBoneMarrow X2GeneModTemplate]
+DisplayName="Adaptive Bone Marrow"
+Summary="The Advent Bio Assault Trooper's ability to passively heal its own wounds brought about this leg enhancement. Wound recovery time is reduced by 66% for this soldier, and they regenerate some HP every turn."
+
+[MZ_AdrenalNeurosympathy X2GeneModTemplate]
+DisplayName="Adrenal Neurosympathy"
+Summary="The pheromones of the Muton are what inspire their war cries, as well as this skin modification. Grants a Combat Pheromones boost that increases Aim, Crit Chance, and Mobility of nearby soldiers when killing an enemy."
+
+[MZ_NeuralDamping X2GeneModTemplate]
+DisplayName="Neural Damping"
+Summary="The Advent Priest's impressive willpower, allowing them to resist Psionic attacks, is put to use for this brain modification. This soldier takes less damage from Psionic attacks and is immune to all mental afflictions."
+
+[MZ_NeuralFeedback X2GeneModTemplate]
+DisplayName="Neural Feedback"
+Summary="The Advent Sorcerer's aggressive Psionic prowess is the foundation of this brain modification. Psionic abilities used against this soldier will result in feedback damage to the attacker, as well as putting all of their Psionic abilities on cooldown. Does not reduce the attacker's chance of success."
+
+[MZ_NictitatingMembranes X2GeneModTemplate]
+DisplayName="Nictitating Membranes"
+Summary="An enhancement for a soldier's eyes, based on the eyelids of a Sectoid. These transparent inner eyelids counteract the aim penalties of poison, disorient and smoke. They also remove blind from this soldier at the start of their turn."
+
+[MZ_PsyberInterface X2GeneModTemplate]
+DisplayName="Implanted Cyber Lens"
+Summary="An eye enhancement consisting of a tiny implanted cybernetic lens based on the Phase Drone's optics. It detects and displays information to the soldier that assists them with hacking and targeting robotic foes."
+
+[MZ_RegenPheremones X2GeneModTemplate]
+DisplayName="Regen Pheremones"
+Summary="An infusion of Faceless pheromones underneath the skin. Grants a Regen Pheromones boost that cleanses damaging statuses and regenerates the health of nearby soldiers when this soldier kills an enemy."
+
+[MZ_ViperBlood X2GeneModTemplate]
+DisplayName="Viper Blood"
+Summary= "A chest augmentation that allows the soldier's heart to produce Viper blood alongside their own. Grants immunity to poison. The soldier will bleed poison when damaged, and will gain Aim, Critical Chance and Dodge while standing in poison clouds."
+
+[MZ_DepthPerception X2GeneModTemplate]
+DisplayName="Depth Perception"
+Summary="A modification for a soldier's eyes, based on the unrivaled long-distance vision of the Advent Sniper. Gives bonus Aim and Critical Chance when the soldier has a height advantage over their target."
+
+[MZ_HyperreactivePupils X2GeneModTemplate]
+DisplayName="Hyperreactive Pupils"
+Summary="The Advent Trooper's reliable eyesight led to the birth of this eye enhancement. Grants this soldier an aim bonus after they miss a shot."
+
+[GM_WallClimb X2GeneModTemplate]
+DisplayName="Spider Climb"
+Summary="A Chryssalid's speed and climbing abilities rolled into one leg augmentation. Enables a soldier to climb on walls, letting them seamlessly travel to rooftops and the ground below. Also grants a passive Mobility bonus of 1."
+
+[GM_MimeticSkin X2GeneModTemplate]
+DisplayName="Mimetic Skin"
+Summary="By combining aspects of the Spectre and the Bio Faceless, we have created this cutting edge stealth augmentation for a soldier's skin. Confers the ability to change skin pattern to match cover. When a soldier moves to high cover, they become concealed. Does not work if any enemies have line of sight to the soldier. Unfortunately, the stealth ability granted by the Mimetic Skin has unintended mental side effects such as increased paranoia, permanently reducing this soldier's Will by 10."
+
+[MZ_Wiredreflexes X2GeneModTemplate]
+DisplayName="Synaptic Booster"
+Summary="The technological superiority of the Sectopod and the mysterious physiology of the Spectre is put to work in this cybernetic leg enhancement. Grants the soldier superior capability in all reaction situations, changing hit rolls to be more favorable by one stage."
+
+[GM_MarathonRunner_MJ X2GeneModTemplate]
+DisplayName="Reinforced Leg Muscles"
+Summary="The Advent Pathfinder's powerful leg muscles inspired this leg modification geared toward long-distance running. It allows this soldier to spend 2 standard actions to get 3 movement-only actions."
+
+[GM_ShadowOps_AbsolutelyCritical_MJ X2GeneModTemplate]
+DisplayName="Refined Visual Cortex"
+Summary="The Advent Pathfinder Hunter's impressive ability to hit their targets' weak points consistently brought about this brain modification. It grants this soldier a passive bonus of +25% Critical Chance against flanked targets."
+
+[GM_CelatidImmunities_MJ X2GeneModTemplate]
+DisplayName="Celatid Biomass Infusion"
+Summary="An infusion of Celatid biomass underneath the skin that enhances the soldier's immune system and nerves. This grants the soldier immunity to poison, Chryssalid poison and stun."
+
+[GM_GrimyFireWall_MJ X2GeneModTemplate]
+DisplayName="Flame Viper Gland"
+Summary="A flame gland implanted in the soldier's chest, based on that of the Flame Viper. The gland carries a flammable mixture that is pushed through a sub-dermal tube before being expelled through an arm-mounted flamethrower. The resulting attack is so intense that it will ignite every tile of terrain it hits. The flame gland is hard for the soldier to control, and it takes a lot of time to replenish its biological mixture, which limits its use to once per mission."
+
+[GM_GrimyEnrage_MJ X2GeneModTemplate]
+DisplayName="Frenzied Adrenal Mendullas"
+Summary="A chest modification inspired by the Archon, enabling the soldier to produce unrivaled amounts of adrenaline. This allows the soldier to start their turn with Run And Gun activated whenever they're injured. Unfortunately, the increased production of adrenaline reduces the soldier's ability to fight over an extended period of time as they have trouble ever getting a good rest, permanently reducing this soldier's Will by 10."
+
+[GM_BioGeneralImmunities_MJ X2GeneModTemplate]
+DisplayName="Bio Neuroimmunity"
+Summary="An infusion of a Bio General's superior antibodies underneath the soldier's skin. This grants the soldier immunity to acid, poison, Chryssalid poison, and mental afflictions."
+
+[GM_BS_Unstable_MJ X2GeneModTemplate]
+DisplayName="Mindbreaker"
+Summary="A brain implant based on the Gatekeeper, not unlike the Neurowhip in terms of the technology used in spite of its much smaller size. However, being connected directly to the soldier's brain allows it to be used to its fullest potential, for better or worse. The soldier deals 50% increased damage with damaging Psionic abilities, but has a 25% chance to panic whenever they use one. In addition, the Neurobreaker's toll on the soldier's mental health reduces their Will by 10 permanently."
+
+[GM_ShadowOps_Charge_M1_MJ X2GeneModTemplate]
+DisplayName="Assault Charger Alpha"
+Summary="A leg implant based on the Advent Assault Trooper, which boosts a soldier's sprinting capabilities. Grants the soldier the ability to perform a non-movement action after a dash, one time per mission."
+
+[GM_ShadowOps_Charge_M2_MJ X2GeneModTemplate]
+DisplayName="Assault Charger Beta"
+Summary="A leg implant based on the Advanced Advent Assault Trooper, which boosts a soldier's sprinting capabilities. Grants the soldier the ability to perform a non-movement action after a dash, two times per mission with a two turn cooldown between uses."
+
+[GM_ShadowOps_Charge_M3_MJ X2GeneModTemplate]
+DisplayName="Assault Charger Delta"
+Summary="A leg implant based on the Elite Advent Assault Trooper, which boosts a soldier's sprinting capabilities. Grants the soldier the ability to perform a non-movement action after a dash, three times per mission with a three turn cooldown between uses."
+
+[GM_ShadowOps_Charge_M4_MJ X2GeneModTemplate]
+DisplayName="Assault Charger Gamma"
+Summary="A leg implant based on the Advent Assault Trooper Captain, which boosts a soldier's sprinting capabilities. Grants the soldier the ability to perform a non-movement action after a dash, four times per mission with a four turn cooldown between uses."
+
+[GM_MZPocketShredder_MJ X2GeneModTemplate]
+DisplayName="Demolition Cannon"
+Summary="An arm implant based on the incredible firepower of the Advent Assault MECs. Grants the soldier the Demolition Cannon ability, which deals low damage but massive shred and environmental damage that can be used regardless of equipped armor or weapons, once per mission."
+
+[UIFacility_GeneModChamberSlot]
+m_strWarnFirstTimeGeneModDialogText=Congrats, Commander! You are about to cross the line of unethical medical practices known as GENEtic MODding. Before going under the knife, there a few rules to follow:<ul><li><b>GENE MODS ARE PERMANENT!</b></li><li>You can cancel the project anytime, but the resources that went into this project will be wasted.</li><li>Some Gene mods require prerequisites.</li><li>Not all Gene Mods can be installed at once. Some types are incompatible with others.</li><li>Some Gene Mods lower the soldier's maximum Will.</li></ul>\n\nHave fun opening Pandora's Box!

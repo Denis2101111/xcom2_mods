@@ -1,0 +1,6 @@
+[X2DownloadableContentInfo_MarkZeroAugments]
+strFleshWound_Description = "Only A Flesh Wound: gravely wounded soldiers only have a chance of requiring augmentations."
+strFleshWound_Tooltip = "Applicable soldiers now roll a 25% chance to require an augmentation after being gravely wounded, instead of always needing it."
+
+strMindHatesMatter_Description = "Mind Hates Matter: full augmentations precludes psi-operative training, and vice versa."
+strMindHatesMatter_Tooltip = "This option makes it so psi operatives are limited to mark zero augments only."

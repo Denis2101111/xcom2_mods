@@ -1,0 +1,34 @@
+[X2DownloadableContentInfo_DarkXCOMRedux]
+m_arrBackgroundOptions[0]=(BackgroundDisplayName="MOCX")
+
+[X2Photobooth_MOCXStrategyAutoGen]
+UnitWithKillsStrings[0]="Killed %KILLS Terrorists"
+UnitWithKillsStrings[1]="Stopped %KILLS Insurgents"
+
+GenericUnitSurvivor[0]="Guardian of the Cities"
+GenericUnitSurvivor[1]="Defender of the Innocent!"
+GenericUnitSurvivor[2]="No Terrorist Can Beat Them"
+GenericUnitSurvivor[3]="They fight for your security!"
+
+SquadDefeatedStrings1[0]="Victims of the 'Resistance'"
+SquadDefeatedStrings1[1]="XCOM's cruelty knows no limits"
+SquadDefeatedStrings2[0]="We will always remember them"
+SquadDefeatedStrings2[1]="Honor their sacrifice"
+
+SquadVictoriousStrings1[0]="Resist the 'Resistance'!"
+SquadVictoriousStrings1[1]="An impenetrable defense!"
+SquadVictoriousStrings2[0]="The Initiative protects us"
+SquadVictoriousStrings2[1]="The Initiative keeps us safe"
+
+SoldierCapturedStrings[0]="Lost but not forgotten"
+SoldierCapturedStrings[1]="They fought for you!"
+
+[X2EventListener_MOCX_AbilityPoints]
+UnitDiedTitle="Capture Failed"
+UnitDied="<XGParam:StrValue0/!UnitName/> did not survive the capture."
+
+UnitCapturedTitle="Capture Success"
+UnitCaptured="<XGParam:StrValue0/!UnitName/> survived the capture."
+
+LootTitle="Loot Captured"
+Loot="Extra loot was gained from the capture."

@@ -1,0 +1,82 @@
+[Bayonet_Classic X2WeaponUpgradeTemplate]
+FriendlyName="Bayonet"
+FriendlyNamePlural="Bayonets"
+BriefSummary="Allows to engage enemies in melee. Deals bonus damage based on travel distance."
+TinySummary="Melee Attack"
+
+[Bayonet_Ripper X2WeaponUpgradeTemplate]
+FriendlyName="Powered Bayonet"
+FriendlyNamePlural="Powered Bayonets"
+BriefSummary="Allows to engage enemies in melee. Shreds armor and makes enemies bleed."
+TinySummary="Melee Attack"
+
+
+[Bayonet_Stab_Conv X2AbilityTemplate]
+LocFriendlyName="Bayonet Charge"
+LocHelpText="Attack an enemy with your bayonet. Deals bonus damage based on travel distance."
+LocLongDescription="Attack an enemy with your bayonet."
+LocFlyOverText="Bayonet Charge"
+
+[Bayonet_Stab_Mag X2AbilityTemplate]
+LocFriendlyName="Bayonet Charge"
+LocHelpText="Attack an enemy with your bayonet. Deals bonus damage based on travel distance."
+LocLongDescription="Attack an enemy with your bayonet."
+LocFlyOverText="Bayonet Charge"
+
+[Bayonet_Stab_Beam X2AbilityTemplate]
+LocFriendlyName="Bayonet Charge"
+LocHelpText="Attack an enemy with your bayonet. Deals bonus damage based on travel distance."
+LocLongDescription="Attack an enemy with your bayonet."
+LocFlyOverText="Bayonet Charge"
+
+
+[Bayonet_Ripper_Stab_Conv X2AbilityTemplate]
+LocFriendlyName="Bayonet Strike"
+LocHelpText="Attack an enemy with your bayonet. Can cause heavy bleeding."
+LocLongDescription="Attack an enemy with your bayonet."
+LocFlyOverText="Powered Bayonet Strike"
+
+[Bayonet_Ripper_Stab_Mag X2AbilityTemplate]
+LocFriendlyName="Bayonet Strike"
+LocHelpText="Attack an enemy with your bayonet. Can cause heavy bleeding."
+LocLongDescription="Attack an enemy with your bayonet."
+LocFlyOverText="Powered Bayonet Strike"
+
+[Bayonet_Ripper_Stab_Beam X2AbilityTemplate]
+LocFriendlyName="Bayonet Strike"
+LocHelpText="Attack an enemy with your bayonet. Can cause heavy bleeding."
+LocLongDescription="Attack an enemy with your bayonet."
+LocFlyOverText="Powered Bayonet Strike"
+
+
+[Bayonet_Stab_Psi X2AbilityTemplate]
+LocFriendlyName="Psi Strike"
+LocHelpText="Attack an enemy with a projected psi bayonet. Guaranteed hit, bonus damage to psionic units."
+LocLongDescription="Attack an enemy with a psi bayonet."
+LocFlyOverText="Psi Strike"
+
+[Bayonet_Psi_Passive X2AbilityTemplate]
+LocFriendlyName="Psi Strike"
+LocHelpText="Attack an enemy with a projected psi bayonet. Guaranteed hit, bonus damage to psionic units."
+LocLongDescription="Attack an enemy with a psi bayonet."
+LocFlyOverText="Psi Strike"
+
+
+
+[Bayonet_Blademaster X2AbilityTemplate]
+LocFriendlyName="Blademaster"
+LocLongDescription="Extra damage and aim on all bayonet attacks."
+LocHelpText="Extra damage and aim on all bayonet attacks."
+LocFlyOverText="Blademaster"
+
+[Bayonet_Bladestorm X2AbilityTemplate]
+LocFriendlyName="Bladestorm"
+LocLongDescription="Free bayonet attacks on any enemies that enter or attack from melee range."
+LocHelpText="Free bayonet attacks on any enemies that enter or attack from melee range."
+LocFlyOverText="Bladestorm"
+
+[Bayonet_Reaper X2AbilityTemplate]
+LocFriendlyName="Reaper"
+LocLongDescription="A devastating chain melee attack where the first melee attack cannot miss. Each melee kill in Reaper mode grants an extra action, but further melee attacks have reduced damage."
+LocHelpText="A devastating chain melee attack where the first melee attack cannot miss. Each melee kill in Reaper mode grants an extra action, but further melee attacks have reduced damage."
+LocFlyOverText="Reaper"

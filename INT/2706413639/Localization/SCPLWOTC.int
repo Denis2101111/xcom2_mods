@@ -1,0 +1,12 @@
+[X2EventListener_TacticalUI]
+;MTFTurn="FOUNDATION OPERATIVES IN THE Field"
+MTFTurn="MOBILE TASK FORCE ACTIVITY"
+GOCTurn="Global Occult Coalition Movement"
+ChaosTurn="Chaos Insurgency Activity"
+
+
+[ResCard_SameTeam X2MTFStrategyCardTemplate]
+DisplayName="Same Team"
+SummaryText="All of the MTF Squads encountered in the Field will now be friendly to XCOM."
+QuoteText="We trust you enough to make sure our Mobile Task Forces won't open fire at you, even if you suppousedly were to get in their way."
+QuoteTextAuthor="05-[REDACTED]"

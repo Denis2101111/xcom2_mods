@@ -1,0 +1,113 @@
+[Vanilla]
+Vest Black = "Vest Black"
+;//TODO other names
+
+[UnrestrictedCustomization]
+None = "None"
+
+
+FilterPanelTooltip = "Filter parts in the list, or that can be used for randomization."
+
+;=== Randomize ===
+RandomizeButtonLabel = ">> RANDOMIZE AGAIN &lt;&lt;"
+Randomize = "Randomize"
+Randomized = "Randomized"
+; options
+ArmorTypeDeltaMax = "Max armor type difference"
+ArmorTypeDeltaMaxDescr = "The allowed difference between ArmorType(s) set in filtering panel and body part's ArmorType."
+TechLevelDeltaMax = "Max tech level difference"
+TechLevelDeltaMaxDescr = "The allowed difference between TechLevel(s) set in filtering panel and body part's TechLevel."
+ArmorTypeTolerance = "ArmorTypeTolerance"
+ArmorTypeToleranceDescr = "Chance to select a part even if it doesn't match filters set in filtering panel.\n(Assuming the difference is less or equal to Max armor type difference)"
+TechLevelTolerance = "TechLevelTolerance"
+TechLevelToleranceDescr = "Chance to select a part even if it doesn't match filters set in filtering panel.\n(Assuming the difference is less or equal to Max tech level difference)"
+HelmetDrawChance = "HelmetDrawChance"
+HelmetDrawChanceDescr = "Chance to add a part of this type"
+FacePropUpperDrawChance = "FacePropUpperDrawChance"
+FacePropUpperDrawChanceDescr = "Chance to add a part of this type"
+FacePropLowerDrawChance = "FacePropLowerDrawChance"
+FacePropLowerDrawChanceDescr = "Chance to add a part of this type"
+ShoulderDrawChance = "ShoulderDrawChance"
+ShoulderDrawChanceDescr = "Chance to add a part of this type"
+ForearmDrawChance = "ForearmDrawChance"
+ForearmDrawChanceDescr = "Chance to add a part of this type"
+TorsoDecoDrawChance = "TorsoDecoDrawChance"
+TorsoDecoDrawChanceDescr = "Chance to add a part of this type"
+ThighsDrawChance = "ThighsDrawChance"
+ThighsDrawChanceDescr = "Chance to add a part of this type"
+ShinsDrawChance = "ShinsDrawChance"
+ShinsDrawChanceDescr = "Chance to add a part of this type"
+LimitRandomizationToOneDlc = "LimitRandomizationToOneDlc"
+LimitRandomizationToOneDlcDescr = "If checked, force randomization to use the same package/DLC for every parts of an outfit."
+UseCustomColorPalette = "UseCustomColorPalette"
+UseCustomColorPaletteDescr = "If checked, use the color palette defined in XCom_UnrestrictedCustomization.ini ; By default the palette contains every non-flashy colors."
+
+;=== Armor types ===
+Armor = "Armor"
+Light = "Light"
+Medium = "Medium"
+Heavy = "Heavy"
+Spark = "Spark"
+
+;=== Tech Levels ===
+Tech = "Tech"
+Padded = "Padded"
+Plated = "Plated"
+Powered = "Powered"
+Alien = "Alien"
+
+;=== Styles ===
+Style = "Style"
+Civilian = "Civilian"
+XCom = "XCom"
+Advent = "Advent""
+Other = "Other"
+
+;=== Gender ===
+Gender = "Gender"
+Male = "Male"
+Female = "Female"
+MaleSuffix = "(M)"
+FemaleSuffix = "(F)"
+
+;=== msgbox ===
+ConfirmationTitle = "Alert"
+DoNotAskAgain = "Don't ask again"
+
+;=== Template editor ===
+Edit = "Edit"
+Rename = "Rename"
+Hide/Delete = "Hide/Delete"
+
+;=== Outfit tools menu ===
+CopyOutfit = "Outfit: Copy"
+CopyOutfitDescr = "Copy this character's outfit to clipboard."
+PasteOutfit = "Outfit: Paste"
+PasteOutfitDescr = "Paste previously copied outfit to this character. This character's face/race/name/etc. won't be modified."
+RandomizeOutfit = "Outfit: Randomize"
+RandomizeOutfitDescr = "(Cancellable) Randomize this character's outfit; his face/race/name/etc. won't be modified."
+ImportOutfit = "Outfit: Import from char. pool"
+ImportOutfitDescr = "(Cancellable) Import an outfit from character pool. This character's face/race/name/etc. won't be modified.
+PasteConfirmationText = "Replace this character's appearance by the previously copied one ?"
+
+;=== Outfit tools panel ===
+Outfit = "Outfit"
+ImportFromCharacterPool = "From char. pool"
+UnavailableWithinCharacterPool = "Unavailable within character pool"
+Copy = "Copy"
+Paste = "Paste"
+
+;=== Generic ===
+Preview = "Preview"
+Confirm = "Confirm"
+Options = "Options"
+
+;=== MCM ===
+ShowBlacklistedOnly = "ShowBlacklistedOnly"
+ShowBlacklistedOnlyDescr = "Is checked, only blacklisted part will show up (so you can remove them form the blacklist using the 'edit' button)"
+ConfirmWholeAppearanceModification = "ConfirmAppearanceModification"
+ConfirmWholeAppearanceModificationDescr = "Ask for confirmation before pasting appearance"
+ShowToolPanel = "ShowToolPanel"
+ShowToolPanelDescr = "Top-right panel containing copy/paste/randomize/import buttons."
+GlobalAppearance = "GlobalAppearance"
+GlobalAppearanceDescr = "If checked, soldiers will have a single appearance, instead of one per armor."

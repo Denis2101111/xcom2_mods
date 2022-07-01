@@ -1,0 +1,10 @@
+[X2Effect_ShieldRegen]
+HealedMessage="+<Heal/> Shield Recharged"
+
+[X2Item_ShieldGenerator]
+MaxShieldRegenLabel = "Max Shield Recharge"
+ShieldRegenLabel = "Recharge Rate"
+ShieldLabel = "Shield"
+
+;MaxArmourRepairLabel = "Max Automend"
+;ArmourRepairLabel = "Automend Rate"

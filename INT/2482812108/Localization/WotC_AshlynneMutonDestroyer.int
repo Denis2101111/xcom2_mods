@@ -1,0 +1,7 @@
+[X2Effect_AshDamperField]
+
+locAshDamperFieldAquiredFlyOverText = "Damper Field"
+locAshDamperFieldRemovedFlyOverText = "Damper Field Faded"
+locAshDamperFieldBannerTitle = "Damper Field"
+locAshDamperFieldAcquiredBannerString = "<XGParam:StrValue0/!UnitName/> is protected by a Damper Field."
+locAshDamperFieldRemovedBannerString = "<XGParam:StrValue0/!UnitName/>'s Damper Field faded."

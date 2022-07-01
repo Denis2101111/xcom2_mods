@@ -1,0 +1,251 @@
+[NecromancerClassWOTC X2SoldierClassTemplate]
++DisplayName="Necromancer"
++ClassSummary="The demonstration of Psionics by some X-Com agents during the first alien invasion has convinced some people that supernatural abilities do exist. This resulted in renewed faith in the ancient magical studies of Earth. With the combination of ancient lore and the PsiAmps used by the original X-Com 20 years ago, the Necromancers have developed some very real magical abilities."
+AbilityTreeTitles[0]="Sorcery"
+AbilityTreeTitles[1]="Necromancy"
+AbilityTreeTitles[2]="Shamanism"
+AbilityTreeTitles[3]="XCOM"
++RandomNickNames[0]="Wiz"
++RandomNickNames[1]="Witchy"
++RandomNickNames[2]="Warlock"
++RandomNickNames[3]="Psycho"
++RandomNickNames[4]="Dirge"
++RandomNickNames[5]="Echo"
++RandomNickNames[6]="Ecto"
++RandomNickNames[7]="Haze"
++RandomNickNames[8]="Hex"
++RandomNickNames[9]="Zen"
++RandomNickNames[10]="Omega"
++RandomNickNames[11]="Dusk"
++RandomNickNames[12]="Voodoo"
++RandomNickNames[13]="Hellion"
++RandomNickNames[14]="Judge"
++RandomNickNames[15]="Freak"
++RandomNickNames[16]="Twitch"
++RandomNickNames[17]="Dread"
++RandomNickNames[18]="Ghoul"
++RandomNickNames[19]="Oz"
++RandomNickNames[20]="Null"
++RandomNickNames[21]="Zero"
++RandomNickNames[22]="Ouija"
++RandomNickNames[23]="Prophet"
++RandomNickNames[24]="Nightmare"
++RandomNickNames[25]="Viper"
++RandomNickNames[26]="Spook"
++RandomNickNames[27]="Demon"
++RandomNickNames[28]="Raven"
++RandomNickNames[29]="Vader"
++RandomNickNames[30]="Syndrome"
++RandomNickNames[31]="Druid"
++RandomNickNames[32]="Thriller"
++RandomNickNames[33]="Phoenix"
++RandomNickNames[34]="Midnight"
++RandomNickNames[35]="Crow"
++RandomNickNames[36]="Scarecrow"
++RandomNickNames[37]="Vampire"
++RandomNickNames[38]="Werewolf"
++RandomNickNames[39]="Zombie"
++RandomNickNames[40]="Firefly"
++RandomNickNames[41]="Omen"
++RandomNickNames[42]="Raven"
++RandomNickNames[43]="Xeno"
++RandomNickNames[44]="Grim"
++RandomNickNames[45]="Shriek"
++RandomNickNames_Male[0]="Loki"
++RandomNickNames_Male[1]="Pharoah"
++RandomNicknames_Male[2]="Merlin"
++RandomNicknames_Male[3]="Preacher"
++RandomNickNames_Female[0]="Lady Grey"
++RandomNicknames_Female[1]="Sorceress"
++RandomNicknames_Female[2]="Banshee"
++RandomNicknames_Female[3]="Aurora"
++RandomNicknames_Female[4]="Oracle"
++RandomNicknames_Female[5]="Misery"
++RandomNicknames_Female[6]="Morrigan"
++RandomNicknames_Female[7]="Necro"
+
+[NecroSpiritArmorAbility X2AbilityTemplate]
++LocFriendlyName="Bone Armor"
++LocLongDescription="Adds 3 armor to a friendly target. Has two charges but lasts until the end of the mission and can be stacked. 4 turns cool down."
++LocHelpText="Adds 3 armor to a friendly target. This bonus lasts until the end of the mission and can be stacked. 4 turns cool down."
++LocFlyOverText="Bone Armor"
+
+[NecroRaiseDead X2AbilityTemplate]
++LocFriendlyName="Raise Zombie"
++LocLongDescription="Raise a dead human or Advent as a zombie with 8 HP. WARNING: Don't use zombies during heavily scripted story missions. The game counts it as an x-com soldier and behaves unpredictably."
++LocHelpText="Raise a dead human or Advent as a zombie. WARNING: Don't use zombies during heavily scripted story missions. The game counts it as an x-com soldier and behaves unpredictably."
++LocFlyOverText="Raise Zombie"
+
+[NecroMassRaiseDead X2AbilityTemplate]
++LocFriendlyName="Army of the dead"
++LocLongDescription="Raises all dead humans in a large radius as zombies."
++LocHelpText="Raises all dead humans in a large radius as zombies (Does no damage)."
++LocFlyOverText="Army of the dead"
+
+[NecroFireballAbility X2AbilityTemplate]
++LocFriendlyName="Fireball"
++LocLongDescription="Launch a Fireball, dealing explosive damage to everyone in the blast radius and setting everything on fire."
++LocHelpText="Launch a Fireball, dealing explosive damage to everyone in the blast radius and setting everything on fire."
++LocFlyOverText="Fireball"
+
+[NecroPoison X2AbilityTemplate]
++LocFriendlyName="Poison"
++LocLongDescription="Poison any living, organic creature. Does 1 damage per turn, -30 to aim and -4 to move. The spell doesn't end your turn and has no cooldown."
++LocHelpText="Poison any living, organic creature. Does 1 damage per turn, -30 to aim and -4 to move. The spell doesn't end your turn and has no cooldown."
++LocFlyOverText="Poison"
+
+[NecroCombustion X2AbilityTemplate]
++LocFriendlyName="Combustion"
++LocLongDescription="Cause a creature's blood to boil. Does 1-2 guaranteed psi damage and sets them on fire."
++LocHelpText="Cause a creature's blood to boil. Does 1-2 guaranteed psi damage and sets them on fire."
++LocFlyOverText="Combustion"
+
+[NecroLightning X2AbilityTemplate]
++LocFriendlyName="Lightning"
++LocLongDescription="Shoots a lightning bolt at a target location. Damages everyone caught in the radius, stuns organic units and causes robotic ones to reboot. Costs 2 action points."
++LocHelpText="Damages everyone in the radius, stuns organic units and causes robotic ones to reboot. Costs 2 AP."
++LocFlyOverText="Lightning"
+
+[NecroDrainLife X2AbilityTemplate]
++LocFriendlyName="Drain Life"
++LocLongDescription="Shoots a target enemy and transfers half of the damage done back to the Necromancer as health."
++LocHelpText="Drain Life transfers half of the damage done back to the Necromancer as health."
++LocFlyOverText="Drain Life"
+
+[NecroEldritchStorm X2AbilityTemplate]
++LocFriendlyName="Eldritch Storm"
++LocLongDescription="The necromancer has become an avatar of death. Focus all your power into one spell that will Set on Fire, Poison,and cause Acid Burn to all enemies in a large radius. Does no direct damage."
++LocHelpText="Set on Fire, Poison,and cause Acid Burn in a large radius. Does no direct damage."
++LocFlyOverText="Eldritch Storm"
+
+[NecroZombieSuicide X2AbilityTemplate]
++LocFriendlyName="Release zombie"
++LocLongDescription="The necromancer severs the psi link with this zombie, allowing it to die again."
++LocHelpText="The necromancer severs the psi link with this zombie, allowing it to die again."
++LocFlyOverText="Release zombie"
+
+[NecroHallucination X2AbilityTemplate]
++LocFriendlyName="Hallucinations curse"
++LocLongDescription="The necromancer curses a creature, causing them to see their own team as enemies, and then overloads its mind with impending doom. Surrounded from all sides, they are guaranteed to panic, unless they have full immunity to panic. There is a good chance they will shoot their own team."
++LocHelpText="Guaranteed to cause panic, unless the creature has full immunity to panic. There is a good chance they will shoot their own team."
++LocFlyOverText="Hallucinations curse"
+
+[NecroSoulSpear X2AbilityTemplate]
++LocFriendlyName="Soul Spear"
++LocLongDescription="Sorcery that fires souls shaped into a spear. Pierces enemies, causing heavy damage. This spell was said to have been devised by a master sorcerer, but his name is long forgotten."
++LocHelpText="Fire a large and powerful soul spear that will pierce through multiple enemies dealing heavy damage."
++LocFlyOverText="Soul Spear"
+
+[NecroDeathTouch X2AbilityTemplate]
++LocFriendlyName="Death Touch"
++LocLongDescription="The Necromancer has gained a superhuman understanding of life and death. Touch a living creature to grab its soul and pull it out of its body. It dies instantly. It can be used once per battle, from melee range only. Does not work on Chosen and Rulers."
++LocHelpText="Touch a living creature to grab its soul and pull it out of its body. It dies instantly. Does not work on Chosen and Rulers. It can be used once per battle, from melee range only. Does not work on Chosen and Rulers."
++LocFlyOverText="Death Touch"
+
+[NecroZombieClaws X2AbilityTemplate]
++LocFriendlyName="Zombie punch"
++LocLongDescription="The zombie charges at its target and attacks it from melee range."
++LocHelpText="The zombie charges at its target and attacks it from melee range."
++LocFlyOverText="Zombie punch"
+
+[NecroCorpseExplosion X2AbilityTemplate]
++LocFriendlyName="Corpse Explosion"
++LocLongDescription="Cause a target corpse or raised zombie to explode in a shower of guts and gore. Does 3 damage and leaves behind a pool of acid."
++LocHelpText="Cause a target corpse or raised zombie to explode in a shower of guts and gore. Leaves behind a pool of acid."
++LocFlyOverText="Corpse Explosion"
+
+
+[NecroStrenghtenUndead X2AbilityTemplate]
++LocFriendlyName="Undead Link"
++LocLongDescription="Enhance the link between the Necromancer and one of his zombies, significantly increasing all of its life stats."
++LocHelpText="The Necromancer can raise stronger zombies with more damage, life and armor."
++LocFlyOverText="Undead Link"
+
+[ZombieCorpseExplosion X2AbilityTemplate]
++LocFriendlyName="Corpse Explosion"
++LocLongDescription="This zombie explodes in a shower of guts and gore. Leaves behind a pool of acid."
++LocHelpText="This zombie explodes in a shower of guts and gore. Leaves behind a pool of acid."
++LocFlyOverText="Corpse Explosion"
+
+[X2Effect_NecroRaiseDead]
++ZombieFlyoverText="Reanimated!"
+
+[NecromancerZombie X2CharacterTemplate]
++strCharacterName="Necromancer Zombie"
+
+[NecromancerZombieHuman X2CharacterTemplate]
++strCharacterName="Necromancer Zombie"
+
+
+
+[Necro_Staff_WPN X2WeaponTemplate]
++FriendlyName="Necromancer Acolyte Staff"
++FriendlyNamePlural="Necromancer Staves"
++BriefSummary="The Necromancers construct their own weapons in secret rituals. The result depends largely on the strength of the souls used in the ritual. This base staff does 2-5 psi damage and ignores 1 armor."
++TacticalText="<Bullet/> Using the staff ends the soldier's turn.\n<Bullet/> The necromancer staff does spirit (psi) damage.\n<Bullet/> Ignores 1 armor."
++AbilityDescName="Necromancer Acolyte Staff"
+
+[Necro_Staff_L2_WPN X2WeaponTemplate]
++FriendlyName="Necromancer Apprentice Staff"
++FriendlyNamePlural="Necromancer Staves"
++BriefSummary="The Necromancers construct their own weapons in a secret ritual. The result depends largely on the strength of the souls used in the ritual. This upgraded version does 4-7 psi damage and ignores 2 armor."
++TacticalText="<Bullet/> Using the staff ends the soldier's turn.\n<Bullet/> The necromancer staff does spirit (psi) damage.\n<Bullet/> Ignores 2 armor."
++AbilityDescName="Necromancer Apprentice Staff"
+
+[Necro_Staff_L3_WPN X2WeaponTemplate]
++FriendlyName="Necromancer Adept Staff"
++FriendlyNamePlural="Necromancer Staves"
++BriefSummary="The Necromancers construct their own weapons in a secret ritual. The result depends largely on the strength of the souls used in the ritual. This upgraded version does 6-9 psi damage and ignores 3 armor."
++TacticalText="<Bullet/> Using the staff ends the soldier's turn.\n<Bullet/> The necromancer staff does spirit (psi) damage.\n<Bullet/> Ignores 3 armor."
++AbilityDescName="Necromancer Adept Staff"
+
+[Necro_Staff_Poison_WPN X2WeaponTemplate]
++FriendlyName="Necromancer Poison Staff"
++FriendlyNamePlural="Necromancer Staves"
++BriefSummary="The Necromancers construct their own weapons in a secret ritual. The properties of the staff depend of the strength of the souls used in the ritual. This upgraded version does 3-7 damage and poisons its target."
++TacticalText="<Bullet/> Using the staff ends the soldier's turn.\n<Bullet/> The necromancer staff does spirit (psi) damage.\n<Bullet/> Ignores 3 armor."
++AbilityDescName="Necromancer Poison Staff"
+
+
+[NecroRestoration X2AbilityTemplate]
++LocFriendlyName="Restoration"
++LocLongDescription="Regenerate 1 HP per turn, for 3 turns, to any ally. Shamans are said to treat ailments/illness by mending the soul. Alleviating traumas affecting the soul/spirit restores the physical body of the individual to balance and wholeness."
++LocHelpText="Regenerate 1 HP per turn, for 3 turns."
++LocFlyOverText="Restoration"
+
+[NecroConceal X2AbilityTemplate]
++LocFriendlyName="Mist"
++LocLongDescription="The Shaman conjures a thick mist around an object and effectively makes it disappear. Grants concealment to a target. 6 turns cooldown."
++LocHelpText="Grants concealment to a target. 6 turns cooldown."
++LocFlyOverText="Mist"
+
+[Necro_Shaman_GuardianSpirit X2AbilityTemplate]
++LocFriendlyName="Spirit Guide"
++LocLongDescription="The Shaman calls a spirit to help out in battle. He is able to call out exactly when an enemy might peak over a cover, or where to aim to exploit a weak point. Grants 25 aim and 50 critical chance for 2 turns."
++LocHelpText="Grants 25 aim and 50 critical chance for 2 turns."
++LocFlyOverText="Spirit Guide"
+
+[NecroVigor X2AbilityTemplate]
++LocFriendlyName="Vigor"
++LocLongDescription="Imbue a friendly target with renewed vigor. Grants an Action Point."
++LocHelpText="Grants an Action Point to a target."
++LocFlyOverText="Vigor"
+
+[NecroHeal X2AbilityTemplate]
++LocFriendlyName="Healing"
++LocLongDescription="Heals the target for 4 HP."
++LocHelpText="Heals the target for 4 HP."
++LocFlyOverText="Healing"
+
+[NecroInsectSwarm X2AbilityTemplate]
++LocFriendlyName="Insect Swarm"
++LocLongDescription="The Shaman summons a vicious swarm of insects to sting and bite the target. They go for the eyes or any opening in the armor and burrow into the flesh. Deals 2HP damage per turn and distracts the target so they can barely aim."
++LocHelpText="Summons a vicious swarm of insects. Does 2HP damage per turn and -50 Aim."
++LocFlyOverText="Insect Swarm"
+
+
+[NecroAstralProjection X2AbilityTemplate]
++LocFriendlyName="Astral Projection"
++LocLongDescription="Through extensive study of the spiritual realm, the Shaman is able to sense the souls of all living creatures around him. As a result, all living enemies on the field will become visible to the Shaman."
++LocHelpText="All non-robotic enemies on the field will become visible to the Shaman."
++LocFlyOverText="Astral Projection"

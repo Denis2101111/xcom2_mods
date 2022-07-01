@@ -1,0 +1,5 @@
+; Misc Custom FIX
+
+[X2StrategyElement_DefaultStaffSlots_LW]
+;m_strLiaisonLocation="Haven Adviser: <XGParam:StrValue0>"
+m_strLiaisonLocation="HA: <XGParam:StrValue0>"

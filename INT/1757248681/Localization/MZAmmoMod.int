@@ -1,0 +1,25 @@
+[X2DownloadableContentInfo_MZAmmoMod]
+TooSmallClipSize = "Clip Size Too Small"
+
+[MZ_Effect_EnervativeRounds]
+DisabledWeapon="Enervated!"
+
+[MZ_Effect_PutPsiOnCooldown]
+EffectAppliedName="Psionic Disruption"
+
+[MZ_Item_Ammo]
+ScrambleRoundsEffectName="Scrambled"
+ScrambleRoundsEffectDesc="Aim and critical chance reduced due to being hit by scramble rounds."
+EnervativeRoundsEffectName="Enervated"
+EnervativeRoundsEffectDesc="Damage output reduced due to being hit by enervative rounds"
+
+MaxShredLabel="MAX SHRED"
+AimDebuffLabel="AIM DEBUFF" 
+CCDebuffLabel="CRITICAL CHANCE DEBUFF"
+LifestealLabel="LIFESTEAL"
+DamageReductionLabel="DAMAGE REDUCTION"
+MalfunctionChanceLabel="MALFUNCTION CHANCE"
+ClipSizeDownLabel="CLIP SIZE REDUCTION"
+SplashDamageLabel="SPLASH DAMAGE"
+EnviroDamageLabel="ENVIROMENTAL DAMAGE"
+AntiVioletDivisorLabel="PSI DIVISOR"

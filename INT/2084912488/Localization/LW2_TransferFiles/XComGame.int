@@ -1,0 +1,331 @@
+; Misc Custom FIX
+
+[X2ExperienceConfig]
+;RankNames[0]="Rookie"
+;RankNames[1]="Squaddie"
+RankNames[2]="Lance CPL"
+;RankNames[3]="Corporal"
+;RankNames[4]="Sergeant"
+RankNames[5]="Staff Sgt"
+RankNames[6]="Tech Sgt"
+RankNames[7]="Gunnery Sgt"
+RankNames[8]="Master Sgt"
+
+; QUICK(s)
+[FreeFireUpgrade_Bsc X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP1g' width='24' height='24' vspace='-4'> Hair Trigger"
+FriendlyNamePlural="Hair Triggers"
+
+[FreeFireUpgrade_Adv X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP2b' width='24' height='24' vspace='-4'> Adv. Hair Trigger"
+FriendlyNamePlural="Advanced Hair Triggers"
+
+[FreeFireUpgrade_Sup X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP3r' width='24' height='24' vspace='-4'> Elite Hair Trigger"
+FriendlyNamePlural="Elite Hair Triggers"
+
+[AimUpgrade_Bsc X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP1g' width='24' height='24' vspace='-4'> Scope"
+FriendlyNamePlural="Scopes"
+
+[AimUpgrade_Adv X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP2b' width='24' height='24' vspace='-4'> Adv. Scope"
+FriendlyNamePlural="Advanced Scopes"
+
+[AimUpgrade_Sup X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP3r' width='24' height='24' vspace='-4'> Elite Scope"
+FriendlyNamePlural="Elite Scopes"
+
+[MissDamageUpgrade_Bsc X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP1g' width='24' height='24' vspace='-4'> Stock"
+FriendlyNamePlural="Stocks"
+
+[MissDamageUpgrade_Adv X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP2b' width='24' height='24' vspace='-4'> Adv. Stock"
+FriendlyNamePlural="Advanced Stocks"
+
+[MissDamageUpgrade_Sup X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP3r' width='24' height='24' vspace='-4'> Elite Stock"
+FriendlyNamePlural="Elite Stocks"
+
+[FreeKillUpgrade_Bsc X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP1g' width='24' height='24' vspace='-4'> Suppressor"
+FriendlyNamePlural="Suppressors"
+
+[FreeKillUpgrade_Adv X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP2b' width='24' height='24' vspace='-4'> Adv. Suppressor"
+FriendlyNamePlural="Advanced Suppressors"
+
+[FreeKillUpgrade_Sup X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP3r' width='24' height='24' vspace='-4'> Elite Suppressor"
+FriendlyNamePlural="Elite Suppressors"
+
+[CritUpgrade_Sup X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP3r' width='24' height='24' vspace='-4'> Elite Laser Sight"
+FriendlyNamePlural="Elite Laser Sights"
+
+[ClipSizeUpgrade_Sup X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP3r' width='24' height='24' vspace='-4'> Elite Expanded Magazine"
+FriendlyNamePlural="Elite Expanded Magazines"
+
+[ReloadUpgrade_Sup X2WeaponUpgradeTemplate]
+FriendlyName="<img src='img:///qUIck_LW2_UILibrary.Tug_WUP3r' width='24' height='24' vspace='-4'> Elite Auto-Loader"
+FriendlyNamePlural="Elite Auto-Loaders"
+
+;...
+
+[FireControl25PCS X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS1g' width='24' height='24' vspace='-4'> Fire Control (25)"
+FriendlyNamePlural="PCS: Fire Control (25)"
+
+[FireControl50PCS X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS2b' width='24' height='24' vspace='-4'> Fire Control (50)"
+FriendlyNamePlural="PCS: Fire Control (50)"
+
+[FireControl75PCS X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS3r' width='24' height='24' vspace='-4'> Fire Control (75)"
+FriendlyNamePlural="PCS: Fire Control (75)"
+
+[CommonPCSHacking X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS1g' width='24' height='24' vspace='-4'> Hacking"
+FriendlyNamePlural="PCS: Hacking"
+
+[RarePCSHacking X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS2b' width='24' height='24' vspace='-4'> Adv. Hacking"
+FriendlyNamePlural="PCS: Advanced Hacking"
+
+[EpicPCSHacking X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS3r' width='24' height='24' vspace='-4'> Super Hacking"
+FriendlyNamePlural="PCS: Superior Hacking"
+
+[CommonPCSDefense X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS1g' width='24' height='24' vspace='-4'> Defense"
+FriendlyNamePlural="PCS: Defense"
+
+[RarePCSDefense X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS2b' width='24' height='24' vspace='-4'> Adv. Defense"
+FriendlyNamePlural="PCS: Advanced Defense"
+
+[EpicPCSDefense X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS3r' width='24' height='24' vspace='-4'> Super Defense"
+FriendlyNamePlural="PCS: Superior Defense"
+
+[CommonPCSPsi X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS1g' width='24' height='24' vspace='-4'> Psi"
+FriendlyNamePlural="PCS: Psi"
+
+[RarePCSPsi X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS2b' width='24' height='24' vspace='-4'> Adv. Psi"
+FriendlyNamePlural="PCS: Advanced Psi"
+
+[EpicPCSPsi X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS3r' width='24' height='24' vspace='-4'> Super Psi"
+FriendlyNamePlural="PCS: Superior Psi"
+
+[CommonPCSFocus X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS1g' width='24' height='24' vspace='-4'> Focus"
+FriendlyNamePlural="PCS: Focus"
+
+[RarePCSFocus X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS2b' width='24' height='24' vspace='-4'> Adv. Focus"
+FriendlyNamePlural="PCS: Advanced Focus"
+
+[EpicPCSFocus X2EquipmentTemplate]
+FriendlyName="<img src='img:///LABy_UILibrary.Tug_PCS3r' width='24' height='24' vspace='-4'> Super Focus"
+FriendlyNamePlural="PCS: Superior Focus"
+
+;...
+[Reward_Dummy_POI X2RewardTemplate]
+DisplayName="Liberation Chain"		;="Intel Package"
+
+[Reward_FacilityLead X2RewardTemplate]
+DisplayName="Facility Lead"		;="Intel Package"
+;...
+
+;[X2StrategyGameRulesetDataStructures]
+;MissionDifficultyLabels[0]="Unknown"
+;MissionDifficultyLabels[1]="Extremely Light ~10"
+;MissionDifficultyLabels[2]="Very Light ~13"
+;MissionDifficultyLabels[3]="Light ~16"
+;MissionDifficultyLabels[4]="Light-Moderate ~19"
+;MissionDifficultyLabels[5]="Moderate ~22"
+;MissionDifficultyLabels[6]="Moderate-Heavy ~25"
+;MissionDifficultyLabels[7]="Heavy ~28"
+;MissionDifficultyLabels[8]="Very Heavy ~31"
+;MissionDifficultyLabels[9]="Extremely Heavy ~34"
+;MissionDifficultyLabels[10]="Swarming ~37.."
+;MissionDifficultyLabels[11]="Swarming ..+1"
+;MissionDifficultyLabels[12]="Swarming ..+2"
+;MissionDifficultyLabels[13]="Swarming ..+3"
+;MissionDifficultyLabels[14]="Swarming ..+4"
+;MissionDifficultyLabels[15]="Swarming ..+5"
+;MissionDifficultyLabels[16]="Swarming ..+6"
+;MissionDifficultyLabels[17]="Swarming ..+7"
+;MissionDifficultyLabels[18]="Swarming ..+8"
+;MissionDifficultyLabels[19]="Ludicrous!!"
+
+;...
+[ContinentBonus_Wired X2GameplayMutatorTemplate]
+DisplayName="<img src='img:///qUIck_LW2_UILibrary.04_LockAndLoad(80ds)' width='48' height='48' vspace='-24'> Wired"
+SummaryText="\nYou may remove PCS units from your soldiers without destroying the items, enabling them to be swapped to other soldiers."
+;...
+
+[BasicResearchProject X2TechTemplate]
+DisplayName="<font color='#0099FF'>[20]</font> Basic Research"
+
+[BasicEngineeringProject X2TechTemplate]
+DisplayName="<font color='#FF9900'>[20]</font> Engineering Research"
+
+[LaserWeapons X2TechTemplate]
+DisplayName="<font color='#0099FF'>[22]</font> Laser Weapons"
+
+[AdvancedLasers X2TechTemplate]
+DisplayName="<font color='#0099FF'>[23]</font> Advanced Laser Weapons"
+
+[Coilguns X2TechTemplate]
+DisplayName="<font color='#0099FF'>[24]</font> Coilguns"
+
+[AdvancedCoilguns X2TechTemplate]
+DisplayName="<font color='#0099FF'>[25]</font> Advanced Coilguns"
+
+[AutopsyDrone X2TechTemplate]
+DisplayName="<font color='#0099FF'>[21]</font> ADVENT Robotics"
+
+[AutopsyMutonElite X2TechTemplate]
+DisplayName="<font color='#99CC66'>[19]</font> Muton Elite Autopsy"
+
+[GaussWeapons X2TechTemplate]
+DisplayName="<font color='#0099FF'>[05]</font> Advanced Magnetic Weaponry"
+
+;...
+
+[RenderEleriumCore X2TechTemplate]
+DisplayName="<font color='#FF9933'>[30]</font> Render Elerium Core"
+
+[RenderSectoidCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render Sectoid Corpse"
+
+[RenderViperCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render Viper Corpse"
+
+[RenderMutonCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render Muton Corpse"
+
+[RenderArchonCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render Archon Corpse"
+
+[RenderAndromedonCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render Andromedon Corpse"
+
+[RenderBerserkerCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render Berserker Corpse"
+
+[RenderFacelessCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render Faceless Corpse"
+
+[RenderGatekeeperCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render Gatekeeper Shell"
+
+[RenderChryssalidCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render Chryssalid Corpse"
+
+[RenderAdventTrooperCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render ADVENT Trooper Corpse"
+
+[RenderAdventOfficerCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render ADVENT Officer Corpse"
+
+[RenderAdventShieldbearerCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render ADVENT Shieldbearer Corpse"
+
+[RenderAdventStunLancerCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render ADVENT Stun Lancer Corpse"
+
+[RenderMECWreck X2TechTemplate]
+DisplayName="<font color='#FF9933'>[30]</font> Disassemble ADVENT MEC Wreck"
+
+[RenderTurretWreck X2TechTemplate]
+DisplayName="<font color='#FF9933'>[30]</font> Disassemble Turret Wreck"
+
+[RenderSectopodWreck X2TechTemplate]
+DisplayName="<font color='#FF9933'>[30]</font> Disassemble Sectopod Wreck"
+
+[RenderAdventDroneWreck X2TechTemplate]
+DisplayName="<font color='#FF9933'>[30]</font> Disassemble Drone Wreck"
+
+[RenderBlutonCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render Muton Elite Corpse"
+
+[RenderAdventPriestCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render ADVENT Priest Corpse"
+
+[RenderAdventPurifierCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render ADVENT Purifier Corpse"
+
+[RenderSpectreCorpse X2TechTemplate]
+DisplayName="<font color='#FF9933'>[31]</font> Render Spectre Corpse"
+
+; Class Names...
+
+[LWS_Technical X2SoldierClassTemplate]
+DisplayName="<font color='#5EEE00'>Technical</font>"
+
+[LWS_Specialist X2SoldierClassTemplate]
+DisplayName="<font color='#009700'>Specialist</font>"
+
+[LWS_Grenadier X2SoldierClassTemplate]
+DisplayName="<font color='#FFB218'>Grenadier</font>"
+
+[LWS_Gunner X2SoldierClassTemplate]
+DisplayName="<font color='#DECC39'>Gunner</font>"
+
+[LWS_Ranger X2SoldierClassTemplate]
+DisplayName="<font color='#0596FB'>Ranger</font>"
+
+[LWS_Sharpshooter X2SoldierClassTemplate]
+DisplayName="<font color='#AD0E0E'>Sharpshooter</font>"
+
+[LWS_Assault X2SoldierClassTemplate]
+DisplayName="<font color='#67A6B3'>Assault</font>"
+
+[LWS_Shinobi X2SoldierClassTemplate]
+DisplayName="<font color='#FB3406'>Shinobi</font>"
+
+[Reaper X2SoldierClassTemplate]
+DisplayName="<font color='#A18651'>Reaper</font>"
+
+[Skirmisher X2SoldierClassTemplate]
+DisplayName="<font color='#BE1D2D'>Skirmisher</font>"
+
+[Templar X2SoldierClassTemplate]
+DisplayName="<font color='#AB8EC2'>Templar</font>"
+
+;...
+
+[ResistanceRadio X2TechTemplate]
+DisplayName="<font color='#00CCFF'>[13]</font> Resistance Radio"
+
+[PlatedArmor X2TechTemplate]
+DisplayName="<font color='#0099FF'>[03]</font> Combat Armor"
+
+[EXOSuit X2TechTemplate]
+DisplayName="<font color='#CCCC66'>[02]</font> Battle Armor"
+
+[SpiderSuit X2TechTemplate]
+DisplayName="<font color='#CCCC66'>[03]</font> Mobile Armor"
+
+[PoweredArmor X2TechTemplate]
+DisplayName="<font color='#0099FF'>[08]</font> Powered Armor"
+
+[WraithSuit X2TechTemplate]
+DisplayName="<font color='#CCCC66'>[05]</font> Shadow Armor"
+
+[WARSuit X2TechTemplate]
+DisplayName="<font color='#CCCC66'>[04]</font> Battlesuits"
+
+;...
+; Simply pulled directly from XC2... LOC swap restriction by LW2 -- again!!
+[PsiOperative X2SoldierClassTemplate]
+DisplayName="<font color='#B5B2E4'>Psi Operative</font>"
+;...
+

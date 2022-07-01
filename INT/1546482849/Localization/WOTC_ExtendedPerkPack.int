@@ -1,0 +1,18 @@
+[X2Ability_ExtendedPerkPack]
+LocCombatDrugsEffect="Combat Drugs"
+LocCombatDrugsEffectDescription="This smoke effect was created by a unit with Combat Drugs, and grants +<Ability:COMBATDRUGS_AIM/> aim and +<Ability:COMBATDRUGS_CRIT/> critical chance."
+
+LocBolsteredWallEffect="Bolstered Wall"
+LocBolsteredWallEffectDescription="While Shield Wall is in effect, gain +<Ability:BOLSTEREDWALL_DODGE_BONUS/> bonus Dodge."
+
+LocFaultlessDefenseEffect="Faultless Defense"
+LocFaultlessDefenseEffectDescription="While Shield Wall is active, you cannot be critically hit."
+
+LocRegenerativeMistEffect="Regenerative Mist"
+LocRegenerativeMistEffectDescription="This smoke effect was created by a unit with Regenerative Mist, granting health restoration."
+
+LocStayCoveredEffect="Stay Covered"
+LocStayCoveredEffectDescription="Removes the Defense penalty from Shield Wall."
+
+LocPerfectGuardEffect="Perfect Guard"
+LocPerfectGuardEffectDescription="While Shield Wall is in effect, gain +<Ability:PERFECTGUARD_ARMOR_BONUS/> bonus Armor."

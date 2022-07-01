@@ -1,0 +1,76 @@
+; This file has to have the same name as the Mod Project with the appropriate country code as the file type
+; It also seems to have to live under a folder named the same as the country code
+
+[UIShowEnemies]
+localized_m_strShadowChamberTitle=SHADOW CHAMBER
+localized_m_strEnemiesDetected=ENEMIES DETECTED:
+localized_PlotType=PLOT TYPE:
+localized_BiomeType=BIOME TYPE:
+localized_Time=TIME ON ARRIVAL:
+
+; Plot Localization
+localized_Abandoned=Abandoned
+localized_Abandoned_Indoors=Abandoned Indoor
+localized_Abandoned_Occluded=Abandoned Occluded
+localized_CityCenter=City Center
+localized_DerelictFacility=Dr. Vahlen's Facility
+localized_LostTower=Lost Towers
+localized_Facility=ADVENT Facility
+localized_Rooftops=Rooftops
+localized_SarcophagusRoom=Chosen Room
+localized_Slums=Slums
+localized_Shanty=Shanty
+localized_SmallTown=Small Town
+localized_Stronghold=Chosen Stronghold
+localized_Wilderness=Wilderness
+localized_Tunnels_Reverb=Tunnels
+localized_Tunnels_Sewer=Sewer
+localized_Tunnels_Subway=Subway
+
+; Biome localization
+localized_Arid=Arid
+localized_Tundra=Tundra
+localized_Temperate=Temperate
+localized_Xenoform=Xenoform
+
+; Localized Strings for Mod Config Menu Items
+[UIShowEnemies_MCMScreen]
+sSettingsPage_MCMText=Show Enemies on Mission Planning
+sPageTitle_MCMText=Show Enemies and Terrain on Mission Planning
+sGroupGeneralSettings_MCMText=General Settings
+sShowBackground_MCMText=Show Background Panel
+sShadowChamberStyle_MCMText=Use Shadow Chamber Style
+sPanelSettings_MCMText=Panel Settings
+sBackgroundType_MCMText=Background Panel Type
+sEnemiesCountPanelSizeX_MCMText=Enemies Count Panel Size X
+sEnemiesCountPanelSizeY_MCMText=Enemies Count Panel Size Y
+sEnemiesListPanelSizeX_MCMText=Enemies List Panel Size X
+sEnemiesListPanelSizeY_MCMText=Enemies List Panel Size Y
+sPanelTerrainSizeX_MCMText=Terrain Panel Size X
+sPanelTerrainSizeY_MCMText=Terrain Panel Size Y
+sAlphaBackground_MCMText=Panels Transparency
+sGroupEnemiesListSettings_MCMText=Enemies List Settings
+sShowWithoutShadowChamber_MCMText=Show Enemies List Without Shadow Chamber
+sEnemiesListPositionX_MCMText=Enemies list X position from topleft
+sEnemiesListPositionY_MCMText=Enemies list Y position from topleft
+sEnemiesListSitrepOffset_MCMText=Enemies List Y Offset when SitRep
+sGroupTerrainSettings_MCMText=Terrain Settings
+sShowTerrain_MCMText=Show Terrain Information
+sShowPlotText_MCMText=Show Plot Text
+sShowBiomeText_MCMText=Show Biome Text
+sShowIcons_MCMText=Show Plot/Biome Icons
+sShowEnemyIcons_MCMText=Show Enemy icons
+sTerrainTitleColor_MCMText=Terrain Titles Color
+sTerrainColor_MCMText=Terrain Text Color
+sTimeColor_MCMText=Time Text Color
+sTerrainPosX_MCMText=Terrain info X position from topright
+sTerrainPosY_MCMText=Terrain info Y position from topright
+sIconSize_MCMText=Plot/Biome Icon Size
+sEnemyIconSize_MCMText=Enemy Icon Size
+sIconVSpace_MCMText=Plot/Biome Icon Vertical Spacing
+sEnemyIconVSpace_MCMText=Enemy Icon Vertical Spacing
+sShowChosen_MCMText=Show Chosen on Mission Planning
+sShowTime_MCMText=Show 'Estimated Time of Arrival' on Terrain Information
+sEnemiesListAnchor_MCMText=Enemies List Screen Anchor (can be TopLeft or TopRight)
+sTerrainAnchor_MCMText=Terrain Screen Anchor (can be TopLeft or TopRight)
+sShowEnemiesList_MCMText=Show Enemies List Text and Panel

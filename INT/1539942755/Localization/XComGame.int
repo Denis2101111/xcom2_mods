@@ -1,0 +1,187 @@
+[UBS_Conv X2WeaponUpgradeTemplate]
+FriendlyName="Underbarrel Shotgun"
+FriendlyNamePlural="Underbarrel Shotguns"
+BriefSummary="Provides extra firepower for close range engagements at a cost to mobility and reaction fire accuracy."
+TinySummary="Additional Weapon"
+;LootTooltip="UBS loot tooltip."
+
+[UBS_Mag X2WeaponUpgradeTemplate]
+FriendlyName="Underbarrel Shard Gun"
+FriendlyNamePlural="Underbarrel Shard Guns"
+BriefSummary="Provides extra firepower for close range engagements at a cost to mobility and reaction fire accuracy."
+TinySummary="Additional Weapon"
+
+[UBS_Beam X2WeaponUpgradeTemplate]
+FriendlyName="Underbarrel Storm Gun"
+FriendlyNamePlural="Underbarrel Storm Guns"
+BriefSummary="Provides extra firepower for close range engagements at a cost to mobility and reaction fire accuracy."
+TinySummary="Additional Weapon"
+
+[Fire_UBS_Conv X2AbilityTemplate]
+LocFriendlyName="Fire Underbarrel Shotgun"
+LocHelpText="Fire underbarrel shotgun at a single enemy."
+LocLongDescription="Fire underbarrel shotgun at a single enemy."
+LocFlyOverText="Underbarrel Shotgun"
+
+[Fire_UBS_Mag X2AbilityTemplate]
+LocFriendlyName="Fire Underbarrel Shard Gun"
+LocHelpText="Fire underbarrel Shard Gun at a single enemy."
+LocLongDescription="Fire underbarrel Shard Gun at a single enemy."
+LocFlyOverText="Underbarrel Shard Gun"
+
+[Fire_UBS_Beam X2AbilityTemplate]
+LocFriendlyName="Fire Underbarrel Storm Gun"
+LocHelpText="Fire underbarrel Storm Gun at a single enemy."
+LocLongDescription="Fire underbarrel Storm Gun at a single enemy."
+LocFlyOverText="Underbarrel Storm Gun"
+
+[Reload_UBS X2AbilityTemplate]
+LocFriendlyName="Reload Underbarrel Shotgun"
+LocHelpText="Reload your Underbarrel Shotgun."
+LocLongDescription="This unit is carrying extra shotgun ammunition and can reload their Underbarrel Shotgun at will."
+LocFlyOverText="Underbarrel Shotgun Reload"
+
+[Reload_UBGL X2AbilityTemplate]
+LocFriendlyName="Reload Underbarrel Launcher"
+LocHelpText="Reload your Underbarrel Grenade Launcher."
+LocLongDescription="This unit is carrying extra 40mm grenades and can reload their Underbarrel Grenade Launcher."
+LocFlyOverText="Underbarrel Launcher Reload"
+
+[UBS_Passive X2AbilityTemplate]
+LocFriendlyName="Underbarrel Attachment"
+LocHelpText="Underbarrel attachment increases bulk of the weapon, reducing soldier's mobility by 1 and reaction fire accuracy by 10."
+LocLongDescription="Underbarrel attachment increases bulk of the weapon, reducing soldier's mobility by 1 and reaction fire accuracy by 10."
+
+[UBGL_Passive X2AbilityTemplate]
+LocFriendlyName="Underbarrel Attachment"
+LocHelpText="Underbarrel attachment increases bulk of the weapon, reducing soldier's mobility by 1 and reaction fire accuracy by 10."
+LocLongDescription="Underbarrel attachment increases bulk of the weapon, reducing soldier's mobility by 1 and reaction fire accuracy by 10."
+
+[UnderbarrelWeapons X2TechTemplate]
+DisplayName="Underbarrel Weapons"
+Summary="By investing additional effort to further our advances in the field of modular weapon systems, we could potentially gain the ability to bolster the utility and firepower of our Assault Rifles by mounting additional weapons under the barrel, which is a technique commonly employed by military forces of the past."
+CodeName="Masterkey"
+LongDescription="With the aid of Chief Engineer L. Shen, we were able to formulate schematics for underbarrel weapons that would take advantage of our universal rail mounting system. C.O. Bradford commented that while attaching such a weapon to a rifle would no doubt significantly boost its firepower, the increased weight and bulk of the weapon would ruin otherwise finely tuned balance, and would slow down our soldiers, as well as make it harder to fire the rifle on reaction. Additionally, carrying ammunition for an extra weapon would require the soldier to sacrifice some of their carrying capacity. R. Tygan."
+AlertString="Underbarrel Weapons"
+
+
+[UBGL_Conv X2WeaponUpgradeTemplate]
+FriendlyName="Underbarrel Launcher"
+FriendlyNamePlural="Underbarrel Launchers"
+BriefSummary="Provides the ability to launch special 40mm .HE grenades at a cost to mobility and reaction fire accuracy."
+TinySummary="Additional Weapon"
+
+[UBGL_Mag X2WeaponUpgradeTemplate]
+FriendlyName="Underbarrel Mag Launcher"
+FriendlyNamePlural="Underbarrel Mag Launchers"
+BriefSummary="Provides the ability to launch special alloy .HE grenades at a cost to mobility and reaction fire accuracy."
+TinySummary="Additional Weapon"
+
+[UBGL_Beam X2WeaponUpgradeTemplate]
+FriendlyName="Underbarrel Beam Launcher"
+FriendlyNamePlural="Underbarrel Beam Launchers"
+BriefSummary="Provides the ability to launch special elerium .HE grenades at a cost to mobility and reaction fire accuracy."
+TinySummary="Additional Weapon"
+
+[Fire_UBGL_Conv X2AbilityTemplate]
+LocFriendlyName="Fire Underbarrel Launcher"
+LocHelpText="Fire underbarrel grenade launcher at a targeted area."
+LocLongDescription="Fire underbarrel grenade launcher at a targeted area."
+LocFlyOverText="Underbarrel Launcher"
+
+[Fire_UBGL_Mag X2AbilityTemplate]
+LocFriendlyName="Fire Underbarrel Mag Launcher"
+LocHelpText="Fire underbarrel mag launcher at a targeted area."
+LocLongDescription="Fire underbarrel mag launcher at a targeted area."
+LocFlyOverText="Underbarrel Launcher"
+
+[Fire_UBGL_Beam X2AbilityTemplate]
+LocFriendlyName="Fire Underbarrel Beam Launcher"
+LocHelpText="Fire underbarrel beam launcher at a targeted area."
+LocLongDescription="Fire underbarrel beam launcher at a targeted area."
+LocFlyOverText="Underbarrel Launcher"
+
+[Extra_UBGL_Grenade X2AbilityTemplate]
+LocFriendlyName="Reload Underbarrel Launcher"
+LocHelpText="Reload your Underbarrel Grenade Launcher."
+LocLongDescription="This unit is carrying extra 40mm grenades and can reload their Underbarrel Grenade Launcher."
+LocFlyOverText="Underbarrel Launcher Reload"
+
+[Extra_UBGL_Grenadier X2AbilityTemplate]
+LocFriendlyName="Reload Underbarrel Launcher"
+LocHelpText="Reload your Underbarrel Grenade Launcher."
+LocLongDescription="This unit is carrying extra 40mm grenades and can reload their Underbarrel Grenade Launcher."
+LocFlyOverText="Underbarrel Launcher Reload"
+
+
+[UBS_Ammo X2EquipmentTemplate]
+FriendlyName="Underbarrel Shotgun Ammo"
+FriendlyNamePlural="Underbarrel Shotgun Ammo"
+BriefSummary="Carrying extra ammunition allows the soldier to reload their underbarrel shotgun in the field."
+TacticalText="<Bullet/> Can be used indefinitely."
+
+[UBS_Ammo_Secondary X2WeaponTemplate]
+FriendlyName="Underbarrel Shotgun Ammo (S)"
+FriendlyNamePlural="Underbarrel Shotgun Ammo (S)"
+BriefSummary="Carrying extra ammunition instead of a secondary weapon allows the soldier to reload their underbarrel shotgun in the field."
+TacticalText="<Bullet/> Can be used indefinitely."
+
+[UBGL_Ammo_Grenadier X2WeaponTemplate]
+FriendlyName="Extra UBGL Grenade Pack"
+FriendlyNamePlural="Extra UBGL Grenade Packs"
+BriefSummary="Carrying a utility belt with extra 40mm grenades instead of the standard issue XCOM Grenade Launcher allows our heavy weapons specialists to reload their Underbarrel Grenade Launcher in the field two additional times."
+TacticalText="<Bullet/> Counts as Grenade Launcher replacement."
+
+[UBGL_Ammo X2GrenadeTemplate]
+FriendlyName="Extra UBGL Grenade"
+FriendlyNamePlural="Extra UBGL Grenades"
+BriefSummary="Carrying extra 40mm grenade allows the soldier to reload their Underbarrel Grenade Launcher in the field one additional time."
+TacticalText="<Bullet/> Counts as an offensive grenade."
+
+
+[UBFlame_Conv X2WeaponUpgradeTemplate]
+FriendlyName="Underbarrel Flamethrower"
+FriendlyNamePlural="Underbarrel Flamethrowers"
+BriefSummary="Provides extra firepower for close range engagements at a cost to mobility and reaction fire accuracy."
+TinySummary="Additional Weapon"
+
+[Fire_UBFlame_Conv X2AbilityTemplate]
+LocFriendlyName="Fire Underbarrel Flamethower"
+LocHelpText="Fire underbarrel flamethrower at a targeted area."
+LocLongDescription="Fire underbarrel flamethrower at a targeted area."
+LocFlyOverText="Underbarrel Flamethower"
+
+[UBFlame_Mag X2WeaponUpgradeTemplate]
+FriendlyName="Underbarrel Elerium Thrower"
+FriendlyNamePlural="Underbarrel Elerium Throwers"
+BriefSummary="This improved version of the Underbarrel Flamethrower is fueled by jellied Elerium, which allows dealing more damage and damaging environment objects. Mobility and reaction fire accuracy are reduced."
+TinySummary="Additional Weapon"
+
+[Fire_UBFlame_Mag X2AbilityTemplate]
+LocFriendlyName="Fire Underbarrel Flamethower"
+LocHelpText="Fire underbarrel elerium thrower at a targeted area."
+LocLongDescription="Fire underbarrel elerium thrower at a targeted area."
+LocFlyOverText="Underbarrel Flamethower"
+
+[UBFlame_Beam X2WeaponUpgradeTemplate]
+FriendlyName="Underbarrel Elerium Acid Thrower"
+FriendlyNamePlural="Underbarrel Elerium Acid Throwers"
+BriefSummary="To improve our Underbarrel Flamethrowers further, we have added refined Elerium Acid into the fuel mix, which applies lasting acid burns to enemies and deals significant damage to the environment."
+TinySummary="Additional Weapon"
+
+[Fire_UBFlame_Beam X2AbilityTemplate]
+LocFriendlyName="Fire Underbarrel Flamethower"
+LocHelpText="Fire underbarrel elerium acid thrower at a targeted area."
+LocLongDescription="Fire underbarrel elerium acid thrower at a targeted area."
+LocFlyOverText="Underbarrel Flamethower"
+
+[UBFlame_Passive X2AbilityTemplate]
+LocFriendlyName="Underbarrel Attachment"
+LocHelpText="Underbarrel attachment increases bulk of the weapon, reducing soldier's mobility by 1 and reaction fire accuracy by 10."
+LocLongDescription="Underbarrel attachment increases bulk of the weapon, reducing soldier's mobility by 1 and reaction fire accuracy by 10."
+
+[UBFlame_Ammo X2EquipmentTemplate]
+FriendlyName="Underbarrel Flamethrower Tanks"
+FriendlyNamePlural="Underbarrel Flamethrower Tanks"
+BriefSummary="Allow to use Underbarrel Flamethrower two additional times."
+TacticalText="Allow to use Underbarrel Flamethrower two additional times."

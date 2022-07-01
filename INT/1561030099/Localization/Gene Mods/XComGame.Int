@@ -1,0 +1,117 @@
+;============================================================================================================
+;     GENE MODS
+;============================================================================================================
+[MZAdaptiveBoneMarrow X2AbilityTemplate]
+LocFriendlyName="Adaptive Bone Marrow"
+LocLongDescription="Wound recovery time is reduced by 66%. Soldier regenerates HP every turn."
+LocHelpText="Wound recovery time is reduced by 66%. Soldier regenerates HP every turn."
+LocFlyOverText="Adaptive Bone Marrow"
+
+[MZAdrenalNeurosympathy X2AbilityTemplate]
+LocFriendlyName="Adrenal Neurosympathy"
+LocLongDescription="Grants a Combat Pheromones boost that increases Aim, Crit Chance, and mobility of nearby soldiers when killing an enemy."
+LocHelpText="Grants a Combat Pheromones boost that increases Aim, Crit Chance, and mobility of nearby soldiers when killing an enemy."
+LocFlyOverText="Adrenal Neurosympathy"
+
+[MZAdrenalNeurosympathyTrigger X2AbilityTemplate]
+LocFriendlyName="Adrenal Neurosympathy"
+LocLongDescription="Combat Pheromones boost increases Aim, Crit Chance, and mobility."
+LocHelpText="Combat Pheromones boost increases Aim, Crit Chance, and mobility."
+LocFlyOverText="Adrenal Neurosympathy"
+
+[MZNeuralDamping X2AbilityTemplate]
+LocFriendlyName="Neural Damping"
+LocLongDescription="Grants immunity to mental afflictions and resistance to damage from psionic attacks."
+LocHelpText="Grants immunity to mental afflictions and resistance to damage from psionic attacks."
+LocFlyOverText="Neural Damping"
+
+[MZNeuralFeedback X2AbilityTemplate]
+LocFriendlyName="Neural Feedback"
+LocLongDescription="Causes damage to psi attackers and puts all of their psi abilities on cooldown. Does not reduce the attacker's chance of success."
+LocHelpText="Causes damage to psi attackers and puts all of their psi abilities on cooldown. Does not reduce the attacker's chance of success."
+LocFlyOverText="Neural Feedback"
+
+[MZNeuralFeebackTrigger X2AbilityTemplate]
+LocFriendlyName="Neural Feedback"
+LocLongDescription="Causes damage to psi attackers and puts all of their psi abilities on cooldown. Does not reduce the attacker's chance of success."
+LocHelpText="Causes damage to psi attackers and puts all of their psi abilities on cooldown. Does not reduce the attacker's chance of success."
+LocFlyOverText="Neural Feedback"
+
+[MZNictitatingMembranes X2AbilityTemplate]
+LocFriendlyName="Nictitating Membranes"
+LocLongDescription="Transparent inner eyelids counteract the aim penalties of poison, disorient and smoke. Cleanse blind on turn start."
+LocHelpText="Transparent inner eyelids counteract the aim penalties of poison, disorient and smoke. Cleanse blind on turn start."
+LocFlyOverText="Nictitating Membranes"
+
+[MZPhantomFocus X2AbilityTemplate]
+LocFriendlyName="Path of Unheard Steps"
+LocLongDescription="Focus: Gain Phantom Mana at the start of each turn while concealed."
+LocHelpText="Focus: Gain Phantom Mana at the start of each turn while concealed."
+LocFlyOverText="Path of Unheard Steps"
+LocPromotionPopupText="<Bullet/> A soldier can only have one type of Focus at a time.<br/><Bullet/> Recovery rate slows as mana level rises."
+
+[MZPsyberInterface X2AbilityTemplate]
+LocFriendlyName="Implanted Psyber Lens"
+LocLongDescription="A tiny implanted psybernetic lens calculates information that assists with hacking and targeting robotic foes."
+LocHelpText="A tiny implanted psybernetic lens calculates information that assists with hacking and targeting robotic foes."
+LocFlyOverText="Implanted Psyber Lens"
+
+[MZRegenPheremones X2AbilityTemplate]
+LocFriendlyName="Regen Pheremones"
+LocLongDescription="Grants a Combat Pheromones boost that cleanses damaging statuses and regenerates the health of nearby soldiers when killing an enemy."
+LocHelpText="Grants a Combat Pheromones boost that cleanses damaging statuses and regenerates the health of nearby soldiers when killing an enemy."
+LocFlyOverText="Regen Pheremones"
+
+[MZRegenPheremonesTrigger X2AbilityTemplate]
+LocFriendlyName="Regen Pheremones"
+LocLongDescription="Health regenertes over time."
+LocHelpText="Health regenerates over time."
+LocFlyOverText="Regen Pheremones"
+
+[MZViperBlood X2AbilityTemplate]
+LocFriendlyName="Viper Blood"
+LocLongDescription="Immunity to poison and bleed poison when damaged. Gain aim, crit and dodge while standing in poison clouds."
+LocHelpText="Immunity to poison and bleed poison when damaged. Gain aim, crit and dodge while standing in poison clouds."
+LocFlyOverText="Viper Blood"
+
+[MZViperBloodTrigger X2AbilityTemplate]
+LocFriendlyName="Viper Blood"
+LocLongDescription=""
+LocHelpText=""
+LocFlyOverText="Viper Blood"
+
+[Musashi_BioelectricSkin X2AbilityTemplate]
+LocFriendlyName="Bioelectric Skin"
+LocLongDescription="Detect the presence of hidden enemies within a moderate distance."
+LocHelpText="Detect the presence of hidden enemies within a moderate distance."
+LocFlyOverText="Bioelectric Skin"
+
+[MZDepthPerception X2AbilityTemplate]
+LocFriendlyName="Depth Perception"
+LocLongDescription="Gives bonus aim and crit when the soldier has height advantage."
+LocHelpText="Gives bonus aim and crit when the soldier has height advantage."
+LocFlyOverText="Depth Perception"
+
+[MZHyperreactivePupils X2AbilityTemplate]
+LocFriendlyName="Hyperreactive Pupils"
+LocLongDescription="Grants an aim bonus after missing a shot."
+LocHelpText="Grants an aim bonus after missing a shot."
+LocFlyOverText="Hyperreactive Pupils"
+
+[RM_GeneWallClimb X2AbilityTemplate]
+LocFriendlyName="Spider Climb"
+LocLongDescription="Enables a soldier to climb on walls, enabling them to seamlessly travel to rooftops and the ground below."
+LocHelpText="Enables a soldier to climb on walls, enabling them to seamlessly travel to rooftops and the ground below."
+LocFlyOverText="Spider Climb"
+
+[RM_GeneMimeticSkin X2AbilityTemplate]
+LocFriendlyName="Mimetic Skin"
+LocLongDescription="Confers the ability to change skin pattern to match cover. When a soldier moves to high cover, they become concealed. Does not work if any enemies have line of sight to the soldier."
+LocHelpText="Confers the ability to change skin pattern to match cover. When a soldier moves to high cover, they become concealed. Does not work if any enemies have line of sight to the soldier."
+LocFlyOverText="Mimetic Skin"
+
+[MZWiredreflexes X2AbilityTemplate]
+LocFriendlyName="Synaptic Booster
+LocLongDescription="Grants the soldier superior capability in all reaction situations, changing hit rolls to be more favourable by one stage."
+LocHelpText="Grants the soldier superior capability in all reaction situations, changing hit rolls to be more favourable by one stage."
+LocFlyOverText="Synaptic Booster"

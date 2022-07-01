@@ -1,0 +1,28 @@
+[UIFacility_ConditionSoldierSlot]
+m_strConditionSoldierDialogTitle="CONDITION SOLDIER"
+m_strConditionSoldierDialogText="<XGParam:StrValue0/!UnitName/> can undergo conditioning training, increasing one the available stats based on the level of Combat Intelligence, but will be unavailable for combat for <XGParam:StrValue1/!Days/> days during the training process. <XGParam:StrValue0/!UnitName/> can only do this ONCE. Do you want to proceed?"
+m_strStopConditionSoldierDialogTitle="STOP SOLDIER CONDITIONING?"
+;m_TR_strStopRebuildSoldierDialogText="Do you want to stop %UNITNAME from training as a %CLASSNAME?\n\nWARNING: All training progress will be lost."
+m_strStopConditionSoldierDialogText="Do you want to stop %UNITNAME from conditioning?\n\nWARNING: All training progress will be lost."
+;m_strNoConditionSoldiersTooltip="There are no soldiers available to be conditioned."
+;m_strConditionSoldiersAvailableTooltip="Assign a soldier to be conditioned."
+m_strNoSoldiersTooltip=There are no soldiers available for Conditioning. 
+m_strSoldiersAvailableTooltip=Assign a soldier to be conditioned. 
+
+[UIChooseClass_ConditionSoldier]
+m_strTitle="Choose Training"
+m_strInventoryLabel="Available Training:"
+m_strBuy="BEGIN CONDITIONING"
+m_strStatTitle="Conditioning"
+;m_strStatDesc="Condition this soldier to make them have higher <XGParam:StrValue0/!Stat/>. <XGParam:StrValue1/!CombatIntelligence/> Combat Intelligence gives them additional +<XGParam:IntValue0/!PrcntBonus/>% chance for a better roll between +<XGParam:IntValue1/!MinBonus/> and +<XGParam:IntValue2/!MaxBonus/>. Additionally, soldier will gain NEW ABILITIE(S) and ability points!"
+m_strStatDesc="Specialized training focused on improving <XGParam:StrValue0/!Stat/> while granting Ability Points and new Abilities.\n\nCombat Intelligence: <XGParam:StrValue1/!CombatIntelligence/>\n<XGParam:StrValue0/!Stat/> Bonus: +<XGParam:IntValue1/!MinBonus/> to +<XGParam:IntValue2/!MaxBonus/> (+<XGParam:IntValue0/!PrcntBonus/>% better chance)"
+
+[XComGameState_HeadquartersProjectConditionSoldier]
+m_strAbilityPoints="Ability Points"
+m_strAbility="Ability"
+m_strAbilities="Abilities"
+
+[UIAlert_ConditionSoldier]
+m_strContinueCSTraining="Continue"
+m_strBonusCS="Stat Improvement, Abilities and AP"
+m_strColorCS="'#3ABD23'"

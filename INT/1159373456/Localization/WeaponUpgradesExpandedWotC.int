@@ -1,0 +1,31 @@
+[WUE_MCMListener]
++ModName="Weapon Upgrades Expanded"
++GroupName="Prototype Upgrade Settings"
++RestartLabelText="Warning: Changes here require a restart of XCOM 2 in order to take effect"
+
++CritDropdownName="Laser Sight Bonus"
++CritDropdownDesc="The increase to critical hit chance granted by a Prototype Laser Sight"
+
++AimDropdownName="Scope Cover Bonus"
++AimDropdownDesc="The aim bonus granted by a Prototype Scope"
+
++ClipSizeDropdownName="Expanded Mag. Bonus"
++ClipSizeDropdownDesc="The increase in clip size granted by a Prototype Expanded Magazine"
+
++FreeFireDropdownName="Hair Trigger Chance"
++FreeFireDropdownDesc="The chance for a Prototype Hair Trigger to make a shot not cost an action"
+
++FreeReloadsDropdownName="Auto-Loader Reloads"
++FreeReloadsDropdownDesc="The number of free reloads granted by a Prototype Auto-Loader, where 0 gives an unlimited amount"
+
++MissDamageDropdownName="Stock Miss Damage"
++MissDamageDropdownDesc="The amount of damage dealt to an enemy on a missed shot by a Prototype Stock"
+
++FreeKillDropdownName="Repeater Chance"
++FreeKillDropdownDesc="The chance for a Prototype Repeater to make a successful shot instantly kill the target"
+
++MarkTargetDropdownName="Mark Target Cooldown"
++MarkTargetDropdownDesc="The number of turns that must go by before Mark Target can be used again"
+
++HeadshotDropdownName="Headshot Cooldown"
++HeadshotDropdownDesc="The number of turns that must go by before Headshot can be used again"

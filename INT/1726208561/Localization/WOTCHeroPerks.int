@@ -1,0 +1,4 @@
+[X2Effect_EnergyPool_ByRank]
+
+EnergyDescription="Energy"
+EnergyLabel="The available energy of the Nanosuit"

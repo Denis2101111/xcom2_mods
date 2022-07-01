@@ -1,0 +1,13 @@
+[PsiChamberScientistStaffSlot X2StaffSlotTemplate]
+EmptyText="ВАКАНСИЯ: ТРЕБУЕТСЯ УЧЕНЫЙ"
+BonusEmptyText="Увеличивает скорость подготовки."
+BonusText="СКОРОСТЬ ПОДГОТОВКИ +%AVENGERBONUS%"
+FilledText="Программа обучения псионике от %UNITNAME повышает скорость подготовки пси-оперативников!"
+LockedText="НЕДОСТУПНО: ПРИОБРЕТИТЕ УЛУЧШЕНИЕ"
+
+[AWCScientistStaffSlot X2StaffSlotTemplate]
+EmptyText="ВАКАНСИЯ: ТРЕБУЕТСЯ УЧЕНЫЙ"
+BonusEmptyText="Ускоряет восстановление солдат."
+BonusText="ТЕМП ВОССТАНОВЛЕНИЯ +%AVENGERBONUS%"
+FilledText="%UNITNAME использует улучшенное медицинское оборудование, что позволяет ускорить восстановление солдат от полученных ран!"
+LockedText="НЕДОСТУПНО: ПРИОБРЕТИТЕ УЛУЧШЕНИЕ"
