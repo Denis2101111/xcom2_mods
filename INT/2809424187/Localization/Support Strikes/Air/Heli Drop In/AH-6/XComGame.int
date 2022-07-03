@@ -1,0 +1,20 @@
+[Support_Airborne_Defensive_HeliDropIn_T1 X2WeaponTemplate]
+FriendlyName="Air Support: Helicopter Drop In"
+FriendlyNamePlural="Air Support: Helicopter Drop Ins"
+BriefSummary="A radio with its frequency set to call in fire support at the designated area."
+TacticalText="<Bullet/>A radio set that's specifically tuned to call in a specific fire support.\n<Bullet/>HE Mortar Shells: An offensive Fire Support that drops 3 shells at a given area.\n<Bullet/>No guarentee for accuracy.\n<Bullet/>Cannot be used underground or inside massive buildings or building complexes."
+AbilityDescName="support strike"
+
+;
+; ABILITIES
+;
+
+[Ability_Support_Air_Def_HeliDropIn_Stage1 X2AbilityTemplate]
+LocFriendlyName="Air Support: MH-6 Drop In"
+LocLongDescription="<Ability:STRIKE_INTELCOST_USAGE_DYN/>\nRequests delayed reinforcements at the designated spot. An MH-6 Little Bird will drop 4 units at the LZ after several turns."
+LocHelpText="<Ability:STRIKE_INTELCOST_USAGE_DYN/>\nDelayed Reinforcments at the requested spot."
+LocFlyOverText="Support requested: Heli Drop In"
+
+[Ability_Support_Air_Def_HeliDropIn_Stage2 X2AbilityTemplate]
+LocLongDescription="Report this bug to E3 if you see this appear."
+LocHelpText="Report this bug to E3 if you see this appear."

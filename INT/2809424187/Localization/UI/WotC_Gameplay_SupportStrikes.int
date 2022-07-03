@@ -1,0 +1,3 @@
+[X2DownloadableContentInfo_WotC_SupportStrikes]
+ ; AbilityAvailabilityCodes="AA_NotEnoughResources_Intel"
++arrAAStrings[0]="Not Enough Intel"

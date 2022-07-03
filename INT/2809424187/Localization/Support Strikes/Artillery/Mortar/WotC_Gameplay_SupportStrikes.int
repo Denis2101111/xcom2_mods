@@ -1,0 +1,4 @@
+
+[X2Ability_MortarStrikes]
+MortarStrike_Stage2_SMK_EffectDisplayName="Thick Smoke"
+MortarStrike_Stage2_SMK_EffectDisplayDesc="Thick smoke from the mortar strike grants a +<Ability:MORTARSTRIKE_SMK_HITMOD/>% defensive bonus."
