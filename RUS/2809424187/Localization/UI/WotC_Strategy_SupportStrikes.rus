@@ -1,17 +1,17 @@
 [UIAlert_SupportStrikes]
 
-strTitle_Ready_StrikeAvaliable = "Support Strike Available"
-strDesc_Ready_StrikeAvaliable = "Commander, the support team is in place and awaiting your instructions. Paint a target area and our team will do the rest.\nGood hunting, Commander."
+strTitle_Ready_StrikeAvaliable = "Доступен удар поддержки"
+strDesc_Ready_StrikeAvaliable = "Шеф, группа поддержки на месте и ожидает ваших указаний. Нарисуйте целевую область, и наша команда сделает все остальное.\nУдачной охоты, коммандер.."
 
-strTitle_Ready_FirstTime = "Support Strike Tutorial"
-strDesc_Ready_FirstTime = "Commander, it looks like you're having trouble understanding Support Strikes. Would you like help?"
+strTitle_Ready_FirstTime = "Учебное пособие по ударам поддержки"
+strDesc_Ready_FirstTime = "Шеф, похоже, у вас возникли сложности с пониманием ударов поддержки. Вам нужна помощь?"
 
-strTitle_Error_MissionSiteInvalid = "Strikes Not Available: No Clearance"
-;strDesc_Reason_MissionSiteInvalid = "It's not possible to use the requested Support Strike in the Area of Operations as there is no clearance. The strike will be available to use in the next possible mission where there is clearance."
-strDesc_Reason_MissionSiteInvalid = "There is no clearance within the Area of Operations. Support Strikes are unavailable for this mission!"
+strTitle_Error_MissionSiteInvalid = "Удары Недоступны: Нет Разрешения"
+;strDesc_Reason_MissionSiteInvalid = "Невозможно использовать запрошенный удар в Районе Операций, поскольку нет разрешения. Удар будет доступен для использования в следующей возможной миссии, где будет получено разрешение."
+strDesc_Reason_MissionSiteInvalid = "В Районе операций нет разрешения. Удары поддержки недоступны для этой миссии!"
 
-strTitle_Error_NotEnoughIntel	= "Strikes Not Available: Not Enough Intel"
-strDesc_Reason_NotEnoughIntel	= "XCom does not have enough intel to perform any support strikes. Support Strikes are disabled for this mission!"
+strTitle_Error_NotEnoughIntel	= "Удары Недоступны: Недостаточно Разведданных"
+strDesc_Reason_NotEnoughIntel	= "XCom не имеет достаточного количества разведданных для любых ударов поддержки. Удары поддержки отключены для этой миссии!"
 
-strTitle_Warning_PartialResources	= "Low Intel Warning"
-strDesc_Reason_PartialResources		= "Certain strikes are not available due to low intel:\n"
+strTitle_Warning_PartialResources	= "Предупреждение о низком уровне разведданных"
+strDesc_Reason_PartialResources		= "Некоторые удары недоступны из-за низкого уровня разведданных:\n"
