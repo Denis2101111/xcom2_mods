@@ -1,0 +1,2450 @@
+; Welcome to the Localization Section!
+
+; Here, you can change the name of how an item will 
+; appear in the game. Simply change the contents of 
+; what's inside the Quotation Marks ("...").
+
+;============================================================================================================================================================================================================
+;                                                                                              HEAD & FACE PROPS
+;============================================================================================================================================================================================================
+
+;========================
+; BUNCH of EARRINGS BOTH
+;========================
+
+[Bunch_Earrings_Both X2BodyPartTemplate]
+DisplayName="Bunch of Earrings"
+
+[ARM_Bunch_Earrings_Both X2BodyPartTemplate]
+DisplayName="Bunch of Earrings"
+
+[ARM_Bunch_Earrings_Both_Reaper X2BodyPartTemplate]
+DisplayName="Bunch of Earrings"
+
+[ARM_Bunch_Earrings_Both_Templar X2BodyPartTemplate]
+DisplayName="Bunch of Earrings"
+
+[ARM_Bunch_Earrings_Both_Skirmisher X2BodyPartTemplate]
+DisplayName="Bunch of Earrings"
+
+;============================================================================================================================================================================================================
+;                                                                                        SCARVES & NECKLACE PROPS
+;============================================================================================================================================================================================================
+
+;====================
+; PHARAOH NECK GUARD
+;====================
+
+[Necklace_Egyptian X2BodyPartTemplate]
+DisplayName="Pharaoh Neck Guard"
+
+[Necklace_Egyptian_Reaper X2BodyPartTemplate]
+DisplayName="Pharaoh Neck Guard"
+
+[Necklace_Egyptian_Templar X2BodyPartTemplate]
+DisplayName="Pharaoh Neck Guard"
+
+[Necklace_Egyptian_Skirmisher X2BodyPartTemplate]
+DisplayName="Pharaoh Neck Guard"
+
+[ARM_Necklace_Egyptian X2BodyPartTemplate]
+DisplayName="Pharaoh Neck Guard"
+
+[ARM_Necklace_Egyptian_Reaper X2BodyPartTemplate]
+DisplayName="Pharaoh Neck Guard"
+
+[ARM_Necklace_Egyptian_Templar X2BodyPartTemplate]
+DisplayName="Pharaoh Neck Guard"
+
+[ARM_Necklace_Egyptian_Skirmisher X2BodyPartTemplate]
+DisplayName="Pharaoh Neck Guard"
+
+;=================
+; PEARL NECKLACE
+;=================
+
+[Necklace_Pearl X2BodyPartTemplate]
+DisplayName="Pearl Necklace"
+
+[Necklace_Pearl_Reaper X2BodyPartTemplate]
+DisplayName="Pearl Necklace"
+
+[Necklace_Pearl_Templar X2BodyPartTemplate]
+DisplayName="Pearl Necklace"
+
+[Necklace_Pearl_Skirmisher X2BodyPartTemplate]
+DisplayName="Pearl Necklace"
+
+[ARM_Necklace_Pearl X2BodyPartTemplate]
+DisplayName="Pearl Necklace"
+
+[ARM_Necklace_Pearl_Reaper X2BodyPartTemplate]
+DisplayName="Pearl Necklace"
+
+[ARM_Necklace_Pearl_Templar X2BodyPartTemplate]
+DisplayName="Pearl Necklace"
+
+[ARM_Necklace_Pearl_Skirmisher X2BodyPartTemplate]
+DisplayName="Pearl Necklace"
+
+;=================
+; ORIENTAL CHOKER
+;=================
+
+[Necklace_Oriental_Choker X2BodyPartTemplate]
+DisplayName="Oriental Choker"
+
+[Necklace_Oriental_Choker_Reaper X2BodyPartTemplate]
+DisplayName="Oriental Choker"
+
+[Necklace_Oriental_Choker_Templar X2BodyPartTemplate]
+DisplayName="Oriental Choker"
+
+[Necklace_Oriental_Choker_Skirmisher X2BodyPartTemplate]
+DisplayName="Oriental Choker"
+
+[ARM_Necklace_Oriental_Choker X2BodyPartTemplate]
+DisplayName="Oriental Choker"
+
+[ARM_Necklace_Oriental_Choker_Reaper X2BodyPartTemplate]
+DisplayName="Oriental Choker"
+
+[ARM_Necklace_Oriental_Choker_Templar X2BodyPartTemplate]
+DisplayName="Oriental Choker"
+
+[ARM_Necklace_Oriental_Choker_Skirmisher X2BodyPartTemplate]
+DisplayName="Oriental Choker"
+
+;=================
+; LONG NECKLACE
+;=================
+
+[Necklace_Long X2BodyPartTemplate]
+DisplayName="Long Necklace"
+
+[Necklace_Long_Reaper X2BodyPartTemplate]
+DisplayName="Long Necklace"
+
+[Necklace_Long_Templar X2BodyPartTemplate]
+DisplayName="Long Necklace"
+
+[Necklace_Long_Skirmisher X2BodyPartTemplate]
+DisplayName="Long Necklace"
+
+[ARM_Necklace_Long X2BodyPartTemplate]
+DisplayName="Long Necklace"
+
+[ARM_Necklace_Long_Reaper X2BodyPartTemplate]
+DisplayName="Long Necklace"
+
+[ARM_Necklace_Long_Templar X2BodyPartTemplate]
+DisplayName="Long Necklace"
+
+[ARM_Necklace_Long_Skirmisher X2BodyPartTemplate]
+DisplayName="Long Necklace"
+
+;============================================================================================================================================================================================================
+;                                                                                            COATS, JACKETS, SWEATERS & TORSO DECOS
+;============================================================================================================================================================================================================
+
+;=============================
+; BIOSHOCK TOP SECONDARY TINT
+;=============================
+
+[Bioshock_Top_2 X2BodyPartTemplate]
+DisplayName="Bioshock Top Secondary Tint"
+
+[ARM_Bioshock_Top_2 X2BodyPartTemplate]
+DisplayName="Bioshock Top Secondary Tint"
+
+[Bioshock_Top_2_Reaper X2BodyPartTemplate]
+DisplayName="Bioshock Top Secondary Tint"
+
+[Bioshock_Top_2_Templar X2BodyPartTemplate]
+DisplayName="Bioshock Top Secondary Tint"
+
+[Bioshock_Top_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Bioshock Top Secondary Tint"
+
+[ARM_Bioshock_Top_2_Reaper X2BodyPartTemplate]
+DisplayName="Bioshock Top Secondary Tint"
+
+[ARM_Bioshock_Top_2_Templar X2BodyPartTemplate]
+DisplayName="Bioshock Top Secondary Tint"
+
+[ARM_Bioshock_Top_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Bioshock Top Secondary Tint"
+
+;=====================
+; ASARI MAIDEN VEST A
+;=====================
+
+[Maiden_Vest_A X2BodyPartTemplate]
+DisplayName="Maiden Vest A"
+
+[ARM_Maiden_Vest_A X2BodyPartTemplate]
+DisplayName="Maiden Vest A"
+
+[Maiden_Vest_A_Reaper X2BodyPartTemplate]
+DisplayName="Maiden Vest A"
+
+[Maiden_Vest_A_Templar X2BodyPartTemplate]
+DisplayName="Maiden Vest A"
+
+[Maiden_Vest_A_Skirmisher X2BodyPartTemplate]
+DisplayName="Maiden Vest A"
+
+[ARM_Maiden_Vest_A_Reaper X2BodyPartTemplate]
+DisplayName="Maiden Vest A"
+
+[ARM_Maiden_Vest_A_Templar X2BodyPartTemplate]
+DisplayName="Maiden Vest A"
+
+[ARM_Maiden_Vest_A_Skirmisher X2BodyPartTemplate]
+DisplayName="Maiden Vest A"
+
+;====================================
+; ASARI MAIDEN VEST A SECONDARY TINT
+;====================================
+
+[Maiden_Vest_A_2 X2BodyPartTemplate]
+DisplayName="Maiden Vest A Secondary Tint"
+
+[ARM_Maiden_Vest_A_2 X2BodyPartTemplate]
+DisplayName="Maiden Vest A Secondary Tint"
+
+[Maiden_Vest_A_2_Reaper X2BodyPartTemplate]
+DisplayName="Maiden Vest A Secondary Tint"
+
+[Maiden_Vest_A_2_Templar X2BodyPartTemplate]
+DisplayName="Maiden Vest A Secondary Tint"
+
+[Maiden_Vest_A_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Maiden Vest A Secondary Tint"
+
+[ARM_Maiden_Vest_A_2_Reaper X2BodyPartTemplate]
+DisplayName="Maiden Vest A Secondary Tint"
+
+[ARM_Maiden_Vest_A_2_Templar X2BodyPartTemplate]
+DisplayName="Maiden Vest A Secondary Tint"
+
+[ARM_Maiden_Vest_A_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Maiden Vest A Secondary Tint"
+
+;=====================
+; ASARI MAIDEN VEST B
+;=====================
+
+[Maiden_Vest_B X2BodyPartTemplate]
+DisplayName="Maiden Vest B"
+
+[ARM_Maiden_Vest_B X2BodyPartTemplate]
+DisplayName="Maiden Vest B"
+
+[Maiden_Vest_B_Reaper X2BodyPartTemplate]
+DisplayName="Maiden Vest B"
+
+[Maiden_Vest_B_Templar X2BodyPartTemplate]
+DisplayName="Maiden Vest B"
+
+[Maiden_Vest_B_Skirmisher X2BodyPartTemplate]
+DisplayName="Maiden Vest B"
+
+[ARM_Maiden_Vest_B_Reaper X2BodyPartTemplate]
+DisplayName="Maiden Vest B"
+
+[ARM_Maiden_Vest_B_Templar X2BodyPartTemplate]
+DisplayName="Maiden Vest B"
+
+[ARM_Maiden_Vest_B_Skirmisher X2BodyPartTemplate]
+DisplayName="Maiden Vest B"
+
+;====================================
+; ASARI MAIDEN VEST B SECONDARY TINT
+;====================================
+
+[Maiden_Vest_B_2 X2BodyPartTemplate]
+DisplayName="Maiden Vest B Secondary Tint"
+
+[ARM_Maiden_Vest_B_2 X2BodyPartTemplate]
+DisplayName="Maiden Vest B Secondary Tint"
+
+[Maiden_Vest_B_2_Reaper X2BodyPartTemplate]
+DisplayName="Maiden Vest B Secondary Tint"
+
+[Maiden_Vest_B_2_Templar X2BodyPartTemplate]
+DisplayName="Maiden Vest B Secondary Tint"
+
+[Maiden_Vest_B_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Maiden Vest B Secondary Tint"
+
+[ARM_Maiden_Vest_B_2_Reaper X2BodyPartTemplate]
+DisplayName="Maiden Vest B Secondary Tint"
+
+[ARM_Maiden_Vest_B_2_Templar X2BodyPartTemplate]
+DisplayName="Maiden Vest B Secondary Tint"
+
+[ARM_Maiden_Vest_B_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Maiden Vest B Secondary Tint"
+
+;=================
+; ALLIANCE JACKET
+;=================
+
+[Alliance_Jacket X2BodyPartTemplate]
+DisplayName="Alliance Jacket"
+
+[ARM_Alliance_Jacket X2BodyPartTemplate]
+DisplayName="Alliance Jacket"
+
+[Alliance_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Alliance Jacket"
+
+[Alliance_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Alliance Jacket"
+
+[Alliance_Jacket_Skirmisher X2BodyPartTemplate]
+DisplayName="Alliance Jacket"
+
+[ARM_Alliance_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Alliance Jacket"
+
+[ARM_Alliance_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Alliance Jacket"
+
+[ARM_Alliance_Jacket_Skirmisher X2BodyPartTemplate]
+DisplayName="Alliance Jacket"
+
+;====================
+; EVIL WITHIN JACKET
+;====================
+
+[Evil_Within_Jacket X2BodyPartTemplate]
+DisplayName="Evil Within Jacket"
+
+[ARM_Evil_Within_Jacket X2BodyPartTemplate]
+DisplayName="Evil Within Jacket"
+
+[Evil_Within_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Evil Within Jacket"
+
+[Evil_Within_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Evil Within Jacket"
+
+[Evil_Within_Jacket_Skirmisher X2BodyPartTemplate]
+DisplayName="Evil Within Jacket"
+
+[ARM_Evil_Within_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Evil Within Jacket"
+
+[ARM_Evil_Within_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Evil Within Jacket"
+
+[ARM_Evil_Within_Jacket_Skirmisher X2BodyPartTemplate]
+DisplayName="Evil Within Jacket"
+
+;================
+; HOODIE SWEATER
+;================
+
+[Hoodie_Sweater X2BodyPartTemplate]
+DisplayName="Hoodie Sweater"
+
+[ARM_Hoodie_Sweater X2BodyPartTemplate]
+DisplayName="Hoodie Sweater"
+
+[Hoodie_Sweater_Reaper X2BodyPartTemplate]
+DisplayName="Hoodie Sweater"
+
+[Hoodie_Sweater_Templar X2BodyPartTemplate]
+DisplayName="Hoodie Sweater"
+
+[Hoodie_Sweater_Skirmisher X2BodyPartTemplate]
+DisplayName="Hoodie Sweater"
+
+[ARM_Hoodie_Sweater_Reaper X2BodyPartTemplate]
+DisplayName="Hoodie Sweater"
+
+[ARM_Hoodie_Sweater_Templar X2BodyPartTemplate]
+DisplayName="Hoodie Sweater"
+
+[ARM_Hoodie_Sweater_Skirmisher X2BodyPartTemplate]
+DisplayName="Hoodie Sweater"
+
+;================
+; GREASE MONKEY
+;================
+
+[Grease_Monkey X2BodyPartTemplate]
+DisplayName="Grease Monkey"
+
+[ARM_Grease_Monkey X2BodyPartTemplate]
+DisplayName="Grease Monkey"
+
+[Grease_Monkey_Reaper X2BodyPartTemplate]
+DisplayName="Grease Monkey"
+
+[Grease_Monkey_Templar X2BodyPartTemplate]
+DisplayName="Grease Monkey"
+
+[Grease_Monkey_Skirmisher X2BodyPartTemplate]
+DisplayName="Grease Monkey"
+
+[ARM_Grease_Monkey_Reaper X2BodyPartTemplate]
+DisplayName="Grease Monkey"
+
+[ARM_Grease_Monkey_Templar X2BodyPartTemplate]
+DisplayName="Grease Monkey"
+
+[ARM_Grease_Monkey_Skirmisher X2BodyPartTemplate]
+DisplayName="Grease Monkey"
+
+;================
+;  SHORT JACKET
+;================
+
+[Short_Jacket X2BodyPartTemplate]
+DisplayName="Short Jacket"
+
+[ARM_Short_Jacket X2BodyPartTemplate]
+DisplayName="Short Jacket"
+
+[Short_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Short Jacket"
+
+[Short_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Short Jacket"
+
+[Short_Jacket_Skirmisher X2BodyPartTemplate]
+DisplayName="Short Jacket"
+
+[ARM_Short_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Short Jacket"
+
+[ARM_Short_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Short Jacket"
+
+[ARM_Short_Jacket_Skirmisher X2BodyPartTemplate]
+DisplayName="Short Jacket"
+
+;==============================
+;  SHORT JACKET SECONDARY TINT
+;==============================
+
+[Short_Jacket_2 X2BodyPartTemplate]
+DisplayName="Short Jacket Secondary Tint"
+
+[Short_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="Short Jacket Secondary Tint"
+
+[Short_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="Short Jacket Secondary Tint"
+
+[Short_Jacket_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Short Jacket Secondary Tint"
+
+[ARM_Short_Jacket_2 X2BodyPartTemplate]
+DisplayName="Short Jacket Secondary Tint"
+
+[ARM_Short_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="Short Jacket Secondary Tint"
+
+[ARM_Short_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="Short Jacket Secondary Tint"
+
+[ARM_Short_Jacket_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Short Jacket Secondary Tint"
+
+;================
+; DRAGON JACKET
+;================
+
+[Dragon_Jacket X2BodyPartTemplate]
+DisplayName="Dragon Jacket"
+
+[Dragon_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Dragon Jacket"
+
+[Dragon_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Dragon Jacket"
+
+[Dragon_Jacket_Skirmisher X2BodyPartTemplate]
+DisplayName="Dragon Jacket"
+
+[ARM_Dragon_Jacket X2BodyPartTemplate]
+DisplayName="Dragon Jacket"
+
+[ARM_Dragon_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Dragon Jacket"
+
+[ARM_Dragon_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Dragon Jacket"
+
+[ARM_Dragon_Jacket_Skirmisher X2BodyPartTemplate]
+DisplayName="Dragon Jacket"
+
+;===================
+; WINTER PARKA VEST
+;===================
+
+[Winter_Vest X2BodyPartTemplate]
+DisplayName="Parka Vest"
+
+[Winter_Vest_Reaper X2BodyPartTemplate]
+DisplayName="Parka Vest"
+
+[Winter_Vest_Templar X2BodyPartTemplate]
+DisplayName="Parka Vest"
+
+[Winter_Vest_Skirmisher X2BodyPartTemplate]
+DisplayName="Parka Vest"
+
+[ARM_Winter_Vest X2BodyPartTemplate]
+DisplayName="Parka Vest"
+
+[ARM_Winter_Vest_Reaper X2BodyPartTemplate]
+DisplayName="Parka Vest"
+
+[ARM_Winter_Vest_Templar X2BodyPartTemplate]
+DisplayName="Parka Vest"
+
+[ARM_Winter_Vest_Skirmisher X2BodyPartTemplate]
+DisplayName="Parka Vest"
+
+;==================================
+; WINTER PARKA VEST SECONDARY TINT
+;==================================
+
+[Winter_Vest_2 X2BodyPartTemplate]
+DisplayName="Parka Vest Secondary Tint"
+
+[Winter_Vest_2_Reaper X2BodyPartTemplate]
+DisplayName="Parka Vest Secondary Tint"
+
+[Winter_Vest_2_Templar X2BodyPartTemplate]
+DisplayName="Parka Vest Secondary Tint"
+
+[Winter_Vest_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Parka Vest Secondary Tint"
+
+[ARM_Winter_Vest_2 X2BodyPartTemplate]
+DisplayName="Parka Vest Secondary Tint"
+
+[ARM_Winter_Vest_2_Reaper X2BodyPartTemplate]
+DisplayName="Parka Vest Secondary Tint"
+
+[ARM_Winter_Vest_2_Templar X2BodyPartTemplate]
+DisplayName="Parka Vest Secondary Tint"
+
+[ARM_Winter_Vest_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Parka Vest Secondary Tint"
+
+;===============
+; PADDED JACKET
+;===============
+
+[Padded_Jacket X2BodyPartTemplate]
+DisplayName="Padded Jacket"
+
+[Padded_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Padded Jacket"
+
+[Padded_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Padded Jacket"
+
+[Padded_Jacket_Skirmisher X2BodyPartTemplate]
+DisplayName="Padded Jacket"
+
+[ARM_Padded_Jacket X2BodyPartTemplate]
+DisplayName="Padded Jacket"
+
+[ARM_Padded_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Padded Jacket"
+
+[ARM_Padded_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Padded Jacket"
+
+[ARM_Padded_Jacket_Skirmisher X2BodyPartTemplate]
+DisplayName="Padded Jacket"
+
+;==============================
+; PADDED JACKET SECONDART TINT
+;==============================
+
+[Padded_Jacket_2 X2BodyPartTemplate]
+DisplayName="Padded Jacket Secondary Tint"
+
+[Padded_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="Padded Jacket Secondary Tint"
+
+[Padded_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="Padded Jacket Secondary Tint"
+
+[Padded_Jacket_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Padded Jacket Secondary Tint"
+
+[ARM_Padded_Jacket_2 X2BodyPartTemplate]
+DisplayName="Padded Jacket Secondary Tint"
+
+[ARM_Padded_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="Padded Jacket Secondary Tint"
+
+[ARM_Padded_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="Padded Jacket Secondary Tint"
+
+[ARM_Padded_Jacket_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Padded Jacket Secondary Tint"
+
+;============================================================================================================================================================================================================
+;                                                                                              BELTS
+;============================================================================================================================================================================================================
+
+;==================
+; RESISTANCE BELT
+;==================
+
+[Resistance_Belt X2BodyPartTemplate]
+DisplayName="Resistance Belt"
+
+[Resistance_Belt_Reaper X2BodyPartTemplate]
+DisplayName="Resistance Belt"
+
+[Resistance_Belt_Templar X2BodyPartTemplate]
+DisplayName="Resistance Belt"
+
+[Resistance_Belt_Skirmisher X2BodyPartTemplate]
+DisplayName="Resistance Belt"
+
+;====================
+; SPLATTERHOUSE BELT
+;====================
+
+[Splatterhouse_Belt X2BodyPartTemplate]
+DisplayName="Splatterhouse Belt"
+
+[Splatterhouse_Belt_Reaper X2BodyPartTemplate]
+DisplayName="Splatterhouse Belt"
+
+[Splatterhouse_Belt_Templar X2BodyPartTemplate]
+DisplayName="Splatterhouse Belt"
+
+[Splatterhouse_Belt_Skirmisher X2BodyPartTemplate]
+DisplayName="Splatterhouse Belt"
+
+;========================
+; DAMNATION YAKECAN BELT
+;========================
+
+[Yakecan_Belt X2BodyPartTemplate]
+DisplayName="Yakecan Belt"
+
+[Yakecan_Belt_Reaper X2BodyPartTemplate]
+DisplayName="Yakecan Belt"
+
+[Yakecan_Belt_Templar X2BodyPartTemplate]
+DisplayName="Yakecan Belt"
+
+[Yakecan_Belt_Skirmisher X2BodyPartTemplate]
+DisplayName="Yakecan Belt"
+
+;=========================
+; MARVEL GOTG GAMORA BELT
+;=========================
+
+[Gamora_Belt X2BodyPartTemplate]
+DisplayName="GOTG Gamora Belt"
+
+[Gamora_Belt_Reaper X2BodyPartTemplate]
+DisplayName="GOTG Gamora Belt"
+
+[Gamora_Belt_Templar X2BodyPartTemplate]
+DisplayName="GOTG Gamora Belt"
+
+[Gamora_Belt_Skirmisher X2BodyPartTemplate]
+DisplayName="GOTG Gamora Belt"
+
+;=========================
+; NINJA GAIDEN IRENE BELT
+;=========================
+
+[Gaiden_Belt X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Belt"
+
+[Gaiden_Belt_Reaper X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Belt"
+
+[Gaiden_Belt_Templar X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Belt"
+
+[Gaiden_Belt_Skirmisher X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Belt"
+
+;============================================================================================================================================================================================================
+;                                                                                           LEFT & RIGHT ARMS
+;============================================================================================================================================================================================================
+
+;===========================
+;THIN ARM KNUCKLE DUSTER L
+;===========================
+
+[CNV_Arm_L_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[LPL_Arm_L_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[MPL_Arm_L_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[HPL_Arm_L_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[LPW_Arm_L_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[MPW_Arm_L_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[HPW_Arm_L_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[CNV_Arm_L_Thin_Duster_Reaper X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[CNV_Arm_L_Thin_Duster_Templar X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[CNV_Arm_L_Thin_Duster_Skirmisher X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+;
+;===========================
+;THIN ARM KNUCKLE DUSTER R
+;===========================
+
+[CNV_Arm_R_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[LPL_Arm_R_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[MPL_Arm_R_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[HPL_Arm_R_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[LPW_Arm_R_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[MPW_Arm_R_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[HPW_Arm_R_Thin_Duster X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+;
+[CNV_Arm_R_Thin_Duster_Reaper X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[CNV_Arm_R_Thin_Duster_Templar X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+[CNV_Arm_R_Thin_Duster_Skirmisher X2BodyPartTemplate]
+DisplayName="Thin Arm Knuckle Duster"
+
+;============================================================================================================================================================================================================
+;                                                                                            GLOVES & FOREARM DECOS
+;============================================================================================================================================================================================================
+
+;===========================
+; FOREARMS ORIENTAL BRACERS
+;===========================
+
+[Forearm_Oriental_Bracer_Left X2BodyPartTemplate]
+DisplayName="Oriental Bracer"
+
+[Forearm_Oriental_Bracer_Left_Reaper X2BodyPartTemplate]
+DisplayName="Oriental Bracer"
+
+[Forearm_Oriental_Bracer_Left_Templar X2BodyPartTemplate]
+DisplayName="Oriental Bracer"
+
+[Forearm_Oriental_Bracer_Left_Skirmisher X2BodyPartTemplate]
+DisplayName="Oriental Bracer"
+
+[Forearm_Oriental_Bracer_Right X2BodyPartTemplate]
+DisplayName="Oriental Bracer"
+
+[Forearm_Oriental_Bracer_Right_Reaper X2BodyPartTemplate]
+DisplayName="Oriental Bracer"
+
+[Forearm_Oriental_Bracer_Right_Templar X2BodyPartTemplate]
+DisplayName="Oriental Bracer"
+
+[Forearm_Oriental_Bracer_Right_Skirmisher X2BodyPartTemplate]
+DisplayName="Oriental Bracer"
+
+;===================
+; FOREARMS BANDAGES
+;===================
+
+[Forearm_Bandages_Left X2BodyPartTemplate]
+DisplayName="Bandages"
+
+[Forearm_Bandages_Left_Reaper X2BodyPartTemplate]
+DisplayName="Bandages"
+
+[Forearm_Bandages_Left_Templar X2BodyPartTemplate]
+DisplayName="Bandages"
+
+[Forearm_Bandages_Left_Skirmisher X2BodyPartTemplate]
+DisplayName="Bandages"
+
+[Forearm_Bandages_Right X2BodyPartTemplate]
+DisplayName="Bandages"
+
+[Forearm_Bandages_Right_Reaper X2BodyPartTemplate]
+DisplayName="Bandages"
+
+[Forearm_Bandages_Right_Templar X2BodyPartTemplate]
+DisplayName="Bandages"
+
+[Forearm_Bandages_Right_Skirmisher X2BodyPartTemplate]
+DisplayName="Bandages"
+
+;================================
+; FOREARMS TERA BIKER GAUNTLETS
+;================================
+
+[Forearm_Tera_Biker_Gauntlets_Left X2BodyPartTemplate]
+DisplayName="Tera Biker Gauntlets"
+
+[Forearm_Tera_Biker_Gauntlets_Left_Reaper X2BodyPartTemplate]
+DisplayName="Tera Biker Gauntlets"
+
+[Forearm_Tera_Biker_Gauntlets_Left_Templar X2BodyPartTemplate]
+DisplayName="Tera Biker Gauntlets"
+
+[Forearm_Tera_Biker_Gauntlets_Left_Skirmisher X2BodyPartTemplate]
+DisplayName="Tera Biker Gauntlets"
+
+[Forearm_Tera_Biker_Gauntlets_Right X2BodyPartTemplate]
+DisplayName="Tera Biker Gauntlets"
+
+[Forearm_Tera_Biker_Gauntlets_Right_Reaper X2BodyPartTemplate]
+DisplayName="Tera Biker Gauntlets"
+
+[Forearm_Tera_Biker_Gauntlets_Right_Templar X2BodyPartTemplate]
+DisplayName="Tera Biker Gauntlets"
+
+[Forearm_Tera_Biker_Gauntlets_Right_Skirmisher X2BodyPartTemplate]
+DisplayName="Tera Biker Gauntlets"
+
+;================================
+; FOREARMS ARKHAM TALIA BRACERS
+;================================
+
+[Forearm_Talia_Bracers_Left X2BodyPartTemplate]
+DisplayName="Arkham Talia Bracers"
+
+[Forearm_Talia_Bracers_Left_Reaper X2BodyPartTemplate]
+DisplayName="Arkham Talia Bracers"
+
+[Forearm_Talia_Bracers_Left_Templar X2BodyPartTemplate]
+DisplayName="Arkham Talia Bracers"
+
+[Forearm_Talia_Bracers_Left_Skirmisher X2BodyPartTemplate]
+DisplayName="Arkham Talia Bracers"
+
+[Forearm_Talia_Bracers_Right X2BodyPartTemplate]
+DisplayName="Arkham Talia Bracers"
+
+[Forearm_Talia_Bracers_Right_Reaper X2BodyPartTemplate]
+DisplayName="Arkham Talia Bracers"
+
+[Forearm_Talia_Bracers_Right_Templar X2BodyPartTemplate]
+DisplayName="Arkham Talia Bracers"
+
+[Forearm_Talia_Bracers_Right_Skirmisher X2BodyPartTemplate]
+DisplayName="Arkham Talia Bracers"
+
+;============================================================================================================================================================================================================
+;                                                                                  SHOES, BOOTS, STOCKINGS, THIGHS & SHINS DECOS
+;============================================================================================================================================================================================================
+
+;=========================
+; LEG WARMERS 2NDARY TINT
+;=========================
+
+[Joy_Legwarmers_2 X2BodyPartTemplate]
+DisplayName="Leg Warmers Secondary Tint"
+
+[Joy_Legwarmers_2_Reaper X2BodyPartTemplate]
+DisplayName="Leg Warmers Secondary Tint"
+
+[Joy_Legwarmers_2_Templar X2BodyPartTemplate]
+DisplayName="Leg Warmers Secondary Tint"
+
+[Joy_Legwarmers_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Leg Warmers Secondary Tint"
+
+;==========================
+; MARVEL GOTG GAMORA BOOTS
+;==========================
+
+[Gamora_Boots X2BodyPartTemplate]
+DisplayName="GOTG Gamora Boots"
+
+[Gamora_Boots_Reaper X2BodyPartTemplate]
+DisplayName="GOTG Gamora Boots"
+
+[Gamora_Boots_Templar X2BodyPartTemplate]
+DisplayName="GOTG Gamora Boots"
+
+[Gamora_Boots_Skirmisher X2BodyPartTemplate]
+DisplayName="GOTG Gamora Boots"
+
+;========================
+; SPLATTERHOUSE SNEAKERS
+;========================
+
+[Splatterhouse_Sneakers X2BodyPartTemplate]
+DisplayName="Splatterhouse Sneakers"
+
+[Splatterhouse_Sneakers_Reaper X2BodyPartTemplate]
+DisplayName="Splatterhouse Sneakers"
+
+[Splatterhouse_Sneakers_Templar X2BodyPartTemplate]
+DisplayName="Splatterhouse Sneakers"
+
+[Splatterhouse_Sneakers_Skirmisher X2BodyPartTemplate]
+DisplayName="Splatterhouse Sneakers"
+
+;========================
+; L4D ZOEY SNEAKERS
+;========================
+
+[Zoey_Sneakers X2BodyPartTemplate]
+DisplayName="L4D Zoey Sneakers"
+
+[Zoey_Sneakers_Reaper X2BodyPartTemplate]
+DisplayName="L4D Zoey Sneakers"
+
+[Zoey_Sneakers_Templar X2BodyPartTemplate]
+DisplayName="L4D Zoey Sneakers"
+
+[Zoey_Sneakers_Skirmisher X2BodyPartTemplate]
+DisplayName="L4D Zoey Sneakers"
+
+;======================
+; CONVERSE SNEAKERS
+;======================
+
+[Converse_Sneakers X2BodyPartTemplate]
+DisplayName="Converse Sneakers"
+
+[Converse_Sneakers_Reaper X2BodyPartTemplate]
+DisplayName="Converse Sneakers"
+
+[Converse_Sneakers_Templar X2BodyPartTemplate]
+DisplayName="Converse Sneakers"
+
+[Converse_Sneakers_Skirmisher X2BodyPartTemplate]
+DisplayName="Converse Sneakers"
+
+;==========================
+; DARK STORM PADDED BOOTS
+;==========================
+
+[Padded_Boots X2BodyPartTemplate]
+DisplayName="Padded Boots"
+
+[Padded_Boots_Reaper X2BodyPartTemplate]
+DisplayName="Padded Boots"
+
+[Padded_Boots_Templar X2BodyPartTemplate]
+DisplayName="Padded Boots"
+
+[Padded_Boots_Skirmisher X2BodyPartTemplate]
+DisplayName="Padded Boots"
+
+;============================================================================================================================================================================================================
+;                                                                                           TORSOS
+;============================================================================================================================================================================================================
+
+;==========================
+; SUCCUBUS JACKET 2ND TINT
+;==========================
+
+[CNV_Torso_Succubus_Jacket_2 X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+[LPL_Torso_Succubus_Jacket_2 X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+[MPL_Torso_Succubus_Jacket_2 X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+[HPL_Torso_Succubus_Jacket_2 X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+[LPW_Torso_Succubus_Jacket_2 X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+[MPW_Torso_Succubus_Jacket_2 X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+[HPW_Torso_Succubus_Jacket_2 X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+[CNV_Torso_Succubus_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+[MPL_Torso_Succubus_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+[MPW_Torso_Succubus_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+[CNV_Torso_Succubus_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+[MPL_Torso_Succubus_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+[MPW_Torso_Succubus_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="Succubus Jacket Secondary Tint"
+
+;====================
+; TERA TACTICAL TOP
+;====================
+
+[CNV_Torso_Tera_Tactical_Top X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+[LPL_Torso_Tera_Tactical_Top X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+[MPL_Torso_Tera_Tactical_Top X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+[HPL_Torso_Tera_Tactical_Top X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+[LPW_Torso_Tera_Tactical_Top X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+[MPW_Torso_Tera_Tactical_Top X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+[HPW_Torso_Tera_Tactical_Top X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+[CNV_Torso_Tera_Tactical_Top_Reaper X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+[MPL_Torso_Tera_Tactical_Top_Reaper X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+[MPW_Torso_Tera_Tactical_Top_Reaper X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+[CNV_Torso_Tera_Tactical_Top_Templar X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+[MPL_Torso_Tera_Tactical_Top_Templar X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+[MPW_Torso_Tera_Tactical_Top_Templar X2BodyPartTemplate]
+DisplayName="TERA Tactical Top"
+
+;=====================
+; TERA TACTICAL VEST
+;=====================
+
+[CNV_Torso_Tera_Tactical_Vest X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+[LPL_Torso_Tera_Tactical_Vest X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+[MPL_Torso_Tera_Tactical_Vest X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+[HPL_Torso_Tera_Tactical_Vest X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+[LPW_Torso_Tera_Tactical_Vest X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+[MPW_Torso_Tera_Tactical_Vest X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+[HPW_Torso_Tera_Tactical_Vest X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+[CNV_Torso_Tera_Tactical_Vest_Reaper X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+[MPL_Torso_Tera_Tactical_Vest_Reaper X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+[MPW_Torso_Tera_Tactical_Vest_Reaper X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+[CNV_Torso_Tera_Tactical_Vest_Templar X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+[MPL_Torso_Tera_Tactical_Vest_Templar X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+[MPW_Torso_Tera_Tactical_Vest_Templar X2BodyPartTemplate]
+DisplayName="TERA Tactical Vest"
+
+;========================
+; BARE SHOULDER MIDRIFF
+;========================
+
+[CNV_Torso_Bare_Shoulder_Midriff X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+[LPL_Torso_Bare_Shoulder_Midriff X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+[MPL_Torso_Bare_Shoulder_Midriff X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+[HPL_Torso_Bare_Shoulder_Midriff X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+[LPW_Torso_Bare_Shoulder_Midriff X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+[MPW_Torso_Bare_Shoulder_Midriff X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+[HPW_Torso_Bare_Shoulder_Midriff X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+[CNV_Torso_Bare_Shoulder_Midriff_Reaper X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+[MPL_Torso_Bare_Shoulder_Midriff_Reaper X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+[MPW_Torso_Bare_Shoulder_Midriff_Reaper X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+[CNV_Torso_Bare_Shoulder_Midriff_Templar X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+[MPL_Torso_Bare_Shoulder_Midriff_Templar X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+[MPW_Torso_Bare_Shoulder_Midriff_Templar X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff"
+
+;================================
+; BARE SHOULDER MIDRIFF 2ND TINT
+;================================
+
+[CNV_Torso_Bare_Shoulder_Midriff_2 X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+[LPL_Torso_Bare_Shoulder_Midriff_2 X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+[MPL_Torso_Bare_Shoulder_Midriff_2 X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+[HPL_Torso_Bare_Shoulder_Midriff_2 X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+[LPW_Torso_Bare_Shoulder_Midriff_2 X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+[MPW_Torso_Bare_Shoulder_Midriff_2 X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+[HPW_Torso_Bare_Shoulder_Midriff_2 X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+[CNV_Torso_Bare_Shoulder_Midriff_2_Reaper X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+[MPL_Torso_Bare_Shoulder_Midriff_2_Reaper X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+[MPW_Torso_Bare_Shoulder_Midriff_2_Reaper X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+[CNV_Torso_Bare_Shoulder_Midriff_2_Templar X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+[MPL_Torso_Bare_Shoulder_Midriff_2_Templar X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+[MPW_Torso_Bare_Shoulder_Midriff_2_Templar X2BodyPartTemplate]
+DisplayName="Bare Shoulder Midriff Secondary Tint"
+
+;==================
+; L4D ZOEY SWEATER
+;==================
+
+[CNV_Torso_Zoey_Sweater X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+[LPL_Torso_Zoey_Sweater X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+[MPL_Torso_Zoey_Sweater X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+[HPL_Torso_Zoey_Sweater X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+[LPW_Torso_Zoey_Sweater X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+[MPW_Torso_Zoey_Sweater X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+[HPW_Torso_Zoey_Sweater X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+[CNV_Torso_Zoey_Sweater_Reaper X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+[MPL_Torso_Zoey_Sweater_Reaper X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+[MPW_Torso_Zoey_Sweater_Reaper X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+[CNV_Torso_Zoey_Sweater_Templar X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+[MPL_Torso_Zoey_Sweater_Templar X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+[MPW_Torso_Zoey_Sweater_Templar X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater"
+
+;===========================
+; L4D ZOEY SWEATER TINTABLE
+;===========================
+
+[CNV_Torso_Zoey_Sweater_2 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+[LPL_Torso_Zoey_Sweater_2 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+[MPL_Torso_Zoey_Sweater_2 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+[HPL_Torso_Zoey_Sweater_2 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+[LPW_Torso_Zoey_Sweater_2 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+[MPW_Torso_Zoey_Sweater_2 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+[HPW_Torso_Zoey_Sweater_2 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+[CNV_Torso_Zoey_Sweater_2_Reaper X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+[MPL_Torso_Zoey_Sweater_2_Reaper X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+[MPW_Torso_Zoey_Sweater_2_Reaper X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+[CNV_Torso_Zoey_Sweater_2_Templar X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+[MPL_Torso_Zoey_Sweater_2_Templar X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+[MPW_Torso_Zoey_Sweater_2_Templar X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Tintable"
+
+;================================
+; L4D ZOEY SWEATER TINTABLE BARE
+;================================
+
+[CNV_Torso_Zoey_Sweater_3 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+[LPL_Torso_Zoey_Sweater_3 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+[MPL_Torso_Zoey_Sweater_3 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+[HPL_Torso_Zoey_Sweater_3 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+[LPW_Torso_Zoey_Sweater_3 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+[MPW_Torso_Zoey_Sweater_3 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+[HPW_Torso_Zoey_Sweater_3 X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+[CNV_Torso_Zoey_Sweater_3_Reaper X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+[MPL_Torso_Zoey_Sweater_3_Reaper X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+[MPW_Torso_Zoey_Sweater_3_Reaper X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+[CNV_Torso_Zoey_Sweater_3_Templar X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+[MPL_Torso_Zoey_Sweater_3_Templar X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+[MPW_Torso_Zoey_Sweater_3_Templar X2BodyPartTemplate]
+DisplayName="L4D Zoey Sweater Bare"
+
+;==============
+; PILOT JACKET
+;==============
+
+[CNV_Torso_Pilot_Jacket X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+[LPL_Torso_Pilot_Jacket X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+[MPL_Torso_Pilot_Jacket X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+[HPL_Torso_Pilot_Jacket X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+[LPW_Torso_Pilot_Jacket X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+[MPW_Torso_Pilot_Jacket X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+[HPW_Torso_Pilot_Jacket X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+[CNV_Torso_Pilot_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+[MPL_Torso_Pilot_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+[MPW_Torso_Pilot_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+[CNV_Torso_Pilot_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+[MPL_Torso_Pilot_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+[MPW_Torso_Pilot_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Pilot Jacket"
+
+;=====================
+; DOA ORIENTAL CORSET
+;=====================
+
+[CNV_Torso_Oriental_Corset X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+[LPL_Torso_Oriental_Corset X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+[MPL_Torso_Oriental_Corset X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+[HPL_Torso_Oriental_Corset X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+[LPW_Torso_Oriental_Corset X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+[MPW_Torso_Oriental_Corset X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+[HPW_Torso_Oriental_Corset X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+[CNV_Torso_Oriental_Corset_Reaper X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+[MPL_Torso_Oriental_Corset_Reaper X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+[MPW_Torso_Oriental_Corset_Reaper X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+[CNV_Torso_Oriental_Corset_Templar X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+[MPL_Torso_Oriental_Corset_Templar X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+[MPW_Torso_Oriental_Corset_Templar X2BodyPartTemplate]
+DisplayName="Oriental Corset"
+
+;==============================
+; DOA ORIENTAL CORSET TINTABLE
+;==============================
+
+[CNV_Torso_Oriental_Corset_2 X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+[LPL_Torso_Oriental_Corset_2 X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+[MPL_Torso_Oriental_Corset_2 X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+[HPL_Torso_Oriental_Corset_2 X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+[LPW_Torso_Oriental_Corset_2 X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+[MPW_Torso_Oriental_Corset_2 X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+[HPW_Torso_Oriental_Corset_2 X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+[CNV_Torso_Oriental_Corset_2_Reaper X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+[MPL_Torso_Oriental_Corset_2_Reaper X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+[MPW_Torso_Oriental_Corset_2_Reaper X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+[CNV_Torso_Oriental_Corset_2_Templar X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+[MPL_Torso_Oriental_Corset_2_Templar X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+[MPW_Torso_Oriental_Corset_2_Templar X2BodyPartTemplate]
+DisplayName="Oriental Corset Tintable"
+
+;===============
+; BASEBALL TEE
+;===============
+
+[CNV_Torso_Baseball_Tee X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+[LPL_Torso_Baseball_Tee X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+[MPL_Torso_Baseball_Tee X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+[HPL_Torso_Baseball_Tee X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+[LPW_Torso_Baseball_Tee X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+[MPW_Torso_Baseball_Tee X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+[HPW_Torso_Baseball_Tee X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+[CNV_Torso_Baseball_Tee_Reaper X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+[MPL_Torso_Baseball_Tee_Reaper X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+[MPW_Torso_Baseball_Tee_Reaper X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+[CNV_Torso_Baseball_Tee_Templar X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+[MPL_Torso_Baseball_Tee_Templar X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+[MPW_Torso_Baseball_Tee_Templar X2BodyPartTemplate]
+DisplayName="Baseball Tee"
+
+;=========================
+; BASEBALL TEE SLEEVELESS
+;=========================
+
+[CNV_Torso_Baseball_Tee_Sleeveless X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+[LPL_Torso_Baseball_Tee_Sleeveless X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+[MPL_Torso_Baseball_Tee_Sleeveless X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+[HPL_Torso_Baseball_Tee_Sleeveless X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+[LPW_Torso_Baseball_Tee_Sleeveless X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+[MPW_Torso_Baseball_Tee_Sleeveless X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+[HPW_Torso_Baseball_Tee_Sleeveless X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+[CNV_Torso_Baseball_Tee_Sleeveless_Reaper X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+[MPL_Torso_Baseball_Tee_Sleeveless_Reaper X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+[MPW_Torso_Baseball_Tee_Sleeveless_Reaper X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+[CNV_Torso_Baseball_Tee_Sleeveless_Templar X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+[MPL_Torso_Baseball_Tee_Sleeveless_Templar X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+[MPW_Torso_Baseball_Tee_Sleeveless_Templar X2BodyPartTemplate]
+DisplayName="Baseball Tee Sleeveless"
+
+;==========================
+; BASEBALL TEE 2ND TINT
+;==========================
+
+[CNV_Torso_Baseball_Tee_2 X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+[LPL_Torso_Baseball_Tee_2 X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+[MPL_Torso_Baseball_Tee_2 X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+[HPL_Torso_Baseball_Tee_2 X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+[LPW_Torso_Baseball_Tee_2 X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+[MPW_Torso_Baseball_Tee_2 X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+[HPW_Torso_Baseball_Tee_2 X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+[CNV_Torso_Baseball_Tee_2_Reaper X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+[MPL_Torso_Baseball_Tee_2_Reaper X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+[MPW_Torso_Baseball_Tee_2_Reaper X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+[CNV_Torso_Baseball_Tee_2_Templar X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+[MPL_Torso_Baseball_Tee_2_Templar X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+[MPW_Torso_Baseball_Tee_2_Templar X2BodyPartTemplate]
+DisplayName="Baseball Tee Secondary Tint"
+
+;===============
+; HITMAN SUIT
+;===============
+
+[CNV_Torso_Hitman_Suit X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+[LPL_Torso_Hitman_Suit X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+[MPL_Torso_Hitman_Suit X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+[HPL_Torso_Hitman_Suit X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+[LPW_Torso_Hitman_Suit X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+[MPW_Torso_Hitman_Suit X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+[HPW_Torso_Hitman_Suit X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+[CNV_Torso_Hitman_Suit_Reaper X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+[MPL_Torso_Hitman_Suit_Reaper X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+[MPW_Torso_Hitman_Suit_Reaper X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+[CNV_Torso_Hitman_Suit_Templar X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+[MPL_Torso_Hitman_Suit_Templar X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+[MPW_Torso_Hitman_Suit_Templar X2BodyPartTemplate]
+DisplayName="Hitman Suit"
+
+;========================
+; NINJA GAIDEN IRENE TOP
+;========================
+
+[CNV_Torso_Gaiden_Top X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+[LPL_Torso_Gaiden_Top X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+[MPL_Torso_Gaiden_Top X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+[HPL_Torso_Gaiden_Top X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+[LPW_Torso_Gaiden_Top X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+[MPW_Torso_Gaiden_Top X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+[HPW_Torso_Gaiden_Top X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+[CNV_Torso_Gaiden_Top_Reaper X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+[MPL_Torso_Gaiden_Top_Reaper X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+[MPW_Torso_Gaiden_Top_Reaper X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+[CNV_Torso_Gaiden_Top_Templar X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+[MPL_Torso_Gaiden_Top_Templar X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+[MPW_Torso_Gaiden_Top_Templar X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Top"
+
+;===============================
+; NINJA GAIDEN TURTLENECK COMBO
+;===============================
+
+[CNV_Torso_Gaiden_Top_2 X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+[LPL_Torso_Gaiden_Top_2 X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+[MPL_Torso_Gaiden_Top_2 X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+[HPL_Torso_Gaiden_Top_2 X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+[LPW_Torso_Gaiden_Top_2 X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+[MPW_Torso_Gaiden_Top_2 X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+[HPW_Torso_Gaiden_Top_2 X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+[CNV_Torso_Gaiden_Top_2_Reaper X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+[MPL_Torso_Gaiden_Top_2_Reaper X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+[MPW_Torso_Gaiden_Top_2_Reaper X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+[CNV_Torso_Gaiden_Top_2_Templar X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+[MPL_Torso_Gaiden_Top_2_Templar X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+[MPW_Torso_Gaiden_Top_2_Templar X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Turtleneck Combo"
+
+;===============================
+; TERA BIKER JACKET BARE
+;===============================
+
+[CNV_Torso_Tera_Biker_Jacket X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+[LPL_Torso_Tera_Biker_Jacket X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+[MPL_Torso_Tera_Biker_Jacket X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+[HPL_Torso_Tera_Biker_Jacket X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+[LPW_Torso_Tera_Biker_Jacket X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+[MPW_Torso_Tera_Biker_Jacket X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+[HPW_Torso_Tera_Biker_Jacket X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+[CNV_Torso_Tera_Biker_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+[MPL_Torso_Tera_Biker_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+[MPW_Torso_Tera_Biker_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+[CNV_Torso_Tera_Biker_Jacket_Templar X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+[MPL_Torso_Tera_Biker_Jacket_Templar X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+[MPW_Torso_Tera_Biker_Jacket_Templar X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare"
+
+;=================================
+; TERA BIKER JACKET BARE ALT TINT
+;=================================
+
+[CNV_Torso_Tera_Biker_Jacket_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+[LPL_Torso_Tera_Biker_Jacket_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+[MPL_Torso_Tera_Biker_Jacket_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+[HPL_Torso_Tera_Biker_Jacket_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+[LPW_Torso_Tera_Biker_Jacket_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+[MPW_Torso_Tera_Biker_Jacket_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+[HPW_Torso_Tera_Biker_Jacket_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+[CNV_Torso_Tera_Biker_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+[MPL_Torso_Tera_Biker_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+[MPW_Torso_Tera_Biker_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+[CNV_Torso_Tera_Biker_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+[MPL_Torso_Tera_Biker_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+[MPW_Torso_Tera_Biker_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Bare Alternate Tint"
+
+;=================================
+; TERA BIKER JACKET UNDER SHIRT
+;=================================
+
+[CNV_Torso_Tera_Biker_Jacket_Modest X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+[LPL_Torso_Tera_Biker_Jacket_Modest X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+[MPL_Torso_Tera_Biker_Jacket_Modest X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+[HPL_Torso_Tera_Biker_Jacket_Modest X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+[LPW_Torso_Tera_Biker_Jacket_Modest X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+[MPW_Torso_Tera_Biker_Jacket_Modest X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+[HPW_Torso_Tera_Biker_Jacket_Modest X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+[CNV_Torso_Tera_Biker_Jacket_Modest_Reaper X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+[MPL_Torso_Tera_Biker_Jacket_Modest_Reaper X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+[MPW_Torso_Tera_Biker_Jacket_Modest_Reaper X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+[CNV_Torso_Tera_Biker_Jacket_Modest_Templar X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+[MPL_Torso_Tera_Biker_Jacket_Modest_Templar X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+[MPW_Torso_Tera_Biker_Jacket_Modest_Templar X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt"
+
+;=========================================
+; TERA BIKER JACKET UNDER SHIRT ALT. TINT
+;=========================================
+
+[CNV_Torso_Tera_Biker_Jacket_Modest_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+[LPL_Torso_Tera_Biker_Jacket_Modest_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+[MPL_Torso_Tera_Biker_Jacket_Modest_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+[HPL_Torso_Tera_Biker_Jacket_Modest_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+[LPW_Torso_Tera_Biker_Jacket_Modest_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+[MPW_Torso_Tera_Biker_Jacket_Modest_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+[HPW_Torso_Tera_Biker_Jacket_Modest_2 X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+[CNV_Torso_Tera_Biker_Jacket_Modest_2_Reaper X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+[MPL_Torso_Tera_Biker_Jacket_Modest_2_Reaper X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+[MPW_Torso_Tera_Biker_Jacket_Modest_2_Reaper X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+[CNV_Torso_Tera_Biker_Jacket_Modest_2_Templar X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+[MPL_Torso_Tera_Biker_Jacket_Modest_2_Templar X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+[MPW_Torso_Tera_Biker_Jacket_Modest_2_Templar X2BodyPartTemplate]
+DisplayName="TERA Biker Jacket Under Shirt Alt. Tint"
+
+;=========================
+; TALIA AL GHUL JACKET
+;=========================
+
+[CNV_Torso_Talia_Jacket X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+[LPL_Torso_Talia_Jacket X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+[MPL_Torso_Talia_Jacket X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+[HPL_Torso_Talia_Jacket X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+[LPW_Torso_Talia_Jacket X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+[MPW_Torso_Talia_Jacket X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+[HPW_Torso_Talia_Jacket X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+[CNV_Torso_Talia_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+[MPL_Torso_Talia_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+[MPW_Torso_Talia_Jacket_Reaper X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+[CNV_Torso_Talia_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+[MPL_Torso_Talia_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+[MPW_Torso_Talia_Jacket_Templar X2BodyPartTemplate]
+DisplayName="Talia Jacket"
+
+;===============================
+; TALIA AL GHUL JACKET TINTABLE
+;===============================
+
+[CNV_Torso_Talia_Jacket_2 X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+[LPL_Torso_Talia_Jacket_2 X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+[MPL_Torso_Talia_Jacket_2 X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+[HPL_Torso_Talia_Jacket_2 X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+[LPW_Torso_Talia_Jacket_2 X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+[MPW_Torso_Talia_Jacket_2 X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+[HPW_Torso_Talia_Jacket_2 X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+[CNV_Torso_Talia_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+[MPL_Torso_Talia_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+[MPW_Torso_Talia_Jacket_2_Reaper X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+[CNV_Torso_Talia_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+[MPL_Torso_Talia_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+[MPW_Torso_Talia_Jacket_2_Templar X2BodyPartTemplate]
+DisplayName="Talia Jacket Tintable"
+
+;============================================================================================================================================================================================================
+;                                                                                           LEGS
+;============================================================================================================================================================================================================
+
+;======================
+; TALIA PANTS ORIGINAL
+;======================
+
+[Legs_Talia_Pants_CNV X2BodyPartTemplate]
+DisplayName="Talia Pants"
+
+[Legs_Talia_Pants_LPL X2BodyPartTemplate]
+DisplayName="Talia Pants"
+
+[Legs_Talia_Pants_MPL X2BodyPartTemplate]
+DisplayName="Talia Pants"
+
+[Legs_Talia_Pants_HPL X2BodyPartTemplate]
+DisplayName="Talia Pants"
+
+[Legs_Talia_Pants_LPW X2BodyPartTemplate]
+DisplayName="Talia Pants"
+
+[Legs_Talia_Pants_MPW X2BodyPartTemplate]
+DisplayName="Talia Pants"
+
+[Legs_Talia_Pants_HPW X2BodyPartTemplate]
+DisplayName="Talia Pants"
+
+[Legs_Talia_Pants_Reaper X2BodyPartTemplate]
+DisplayName="Talia Pants"
+
+[Legs_Talia_Pants_Templar X2BodyPartTemplate]
+DisplayName="Talia Pants"
+
+[Legs_Talia_Pants_Skirmisher X2BodyPartTemplate]
+DisplayName="Talia Pants"
+
+;======================
+; TALIA PANTS TINT 1
+;======================
+
+[Legs_Talia_Pants_Tintable_CNV X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 1"
+
+[Legs_Talia_Pants_Tintable_LPL X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 1"
+
+[Legs_Talia_Pants_Tintable_MPL X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 1"
+
+[Legs_Talia_Pants_Tintable_HPL X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 1"
+
+[Legs_Talia_Pants_Tintable_LPW X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 1"
+
+[Legs_Talia_Pants_Tintable_MPW X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 1"
+
+[Legs_Talia_Pants_Tintable_HPW X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 1"
+
+[Legs_Talia_Pants_Tintable_Reaper X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 1"
+
+[Legs_Talia_Pants_Tintable_Templar X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 1"
+
+[Legs_Talia_Pants_Tintable_Skirmisher X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 1"
+
+;======================
+; TALIA PANTS TINT 2
+;======================
+
+[Legs_Talia_Pants_Tintable_2_CNV X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 2"
+
+[Legs_Talia_Pants_Tintable_2_LPL X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 2"
+
+[Legs_Talia_Pants_Tintable_2_MPL X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 2"
+
+[Legs_Talia_Pants_Tintable_2_HPL X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 2"
+
+[Legs_Talia_Pants_Tintable_2_LPW X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 2"
+
+[Legs_Talia_Pants_Tintable_2_MPW X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 2"
+
+[Legs_Talia_Pants_Tintable_2_HPW X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 2"
+
+[Legs_Talia_Pants_Tintable_2_Reaper X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 2"
+
+[Legs_Talia_Pants_Tintable_2_Templar X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 2"
+
+[Legs_Talia_Pants_Tintable_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 2"
+
+;======================
+; TALIA PANTS TINT 3
+;======================
+
+[Legs_Talia_Pants_Tintable_3_CNV X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 3"
+
+[Legs_Talia_Pants_Tintable_3_LPL X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 3"
+
+[Legs_Talia_Pants_Tintable_3_MPL X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 3"
+
+[Legs_Talia_Pants_Tintable_3_HPL X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 3"
+
+[Legs_Talia_Pants_Tintable_3_LPW X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 3"
+
+[Legs_Talia_Pants_Tintable_3_MPW X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 3"
+
+[Legs_Talia_Pants_Tintable_3_HPW X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 3"
+
+[Legs_Talia_Pants_Tintable_3_Reaper X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 3"
+
+[Legs_Talia_Pants_Tintable_3_Templar X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 3"
+
+[Legs_Talia_Pants_Tintable_3_Skirmisher X2BodyPartTemplate]
+DisplayName="Talia Pants Tint 3"
+
+;==========================
+; DOA LEATHER LACED PANTS
+;==========================
+
+[Legs_Leather_Laced_Pants_CNV X2BodyPartTemplate]
+DisplayName="Leather Laced Pants"
+
+[Legs_Leather_Laced_Pants_LPL X2BodyPartTemplate]
+DisplayName="Leather Laced Pants"
+
+[Legs_Leather_Laced_Pants_MPL X2BodyPartTemplate]
+DisplayName="Leather Laced Pants"
+
+[Legs_Leather_Laced_Pants_HPL X2BodyPartTemplate]
+DisplayName="Leather Laced Pants"
+
+[Legs_Leather_Laced_Pants_LPW X2BodyPartTemplate]
+DisplayName="Leather Laced Pants"
+
+[Legs_Leather_Laced_Pants_MPW X2BodyPartTemplate]
+DisplayName="Leather Laced Pants"
+
+[Legs_Leather_Laced_Pants_HPW X2BodyPartTemplate]
+DisplayName="Leather Laced Pants"
+
+[Legs_Leather_Laced_Pants_Reaper X2BodyPartTemplate]
+DisplayName="Leather Laced Pants"
+
+[Legs_Leather_Laced_Pants_Templar X2BodyPartTemplate]
+DisplayName="Leather Laced Pants"
+
+[Legs_Leather_Laced_Pants_Skirmisher X2BodyPartTemplate]
+DisplayName="Leather Laced Pants"
+
+;==========================
+; SPLATTERHOUSE JEANS
+;==========================
+
+[Legs_Splatterhouse_Jeans_CNV X2BodyPartTemplate]
+DisplayName="Splatterhouse Jeans"
+
+[Legs_Splatterhouse_Jeans_LPL X2BodyPartTemplate]
+DisplayName="Splatterhouse Jeans"
+
+[Legs_Splatterhouse_Jeans_MPL X2BodyPartTemplate]
+DisplayName="Splatterhouse Jeans"
+
+[Legs_Splatterhouse_Jeans_HPL X2BodyPartTemplate]
+DisplayName="Splatterhouse Jeans"
+
+[Legs_Splatterhouse_Jeans_LPW X2BodyPartTemplate]
+DisplayName="Splatterhouse Jeans"
+
+[Legs_Splatterhouse_Jeans_MPW X2BodyPartTemplate]
+DisplayName="Splatterhouse Jeans"
+
+[Legs_Splatterhouse_Jeans_HPW X2BodyPartTemplate]
+DisplayName="Splatterhouse Jeans"
+
+[Legs_Splatterhouse_Jeans_Reaper X2BodyPartTemplate]
+DisplayName="Splatterhouse Jeans"
+
+[Legs_Splatterhouse_Jeans_Templar X2BodyPartTemplate]
+DisplayName="Splatterhouse Jeans"
+
+[Legs_Splatterhouse_Jeans_Skirmisher X2BodyPartTemplate]
+DisplayName="Splatterhouse Jeans"
+
+;==========================
+; DAMNATION YAKECAN PANTS
+;==========================
+
+[Legs_Yakecan_Pants_CNV X2BodyPartTemplate]
+DisplayName="Yakecan Pants"
+
+[Legs_Yakecan_Pants_LPL X2BodyPartTemplate]
+DisplayName="Yakecan Pants"
+
+[Legs_Yakecan_Pants_MPL X2BodyPartTemplate]
+DisplayName="Yakecan Pants"
+
+[Legs_Yakecan_Pants_HPL X2BodyPartTemplate]
+DisplayName="Yakecan Pants"
+
+[Legs_Yakecan_Pants_LPW X2BodyPartTemplate]
+DisplayName="Yakecan Pants"
+
+[Legs_Yakecan_Pants_MPW X2BodyPartTemplate]
+DisplayName="Yakecan Pants"
+
+[Legs_Yakecan_Pants_HPW X2BodyPartTemplate]
+DisplayName="Yakecan Pants"
+
+[Legs_Yakecan_Pants_Reaper X2BodyPartTemplate]
+DisplayName="Yakecan Pants"
+
+[Legs_Yakecan_Pants_Templar X2BodyPartTemplate]
+DisplayName="Yakecan Pants"
+
+[Legs_Yakecan_Pants_Skirmisher X2BodyPartTemplate]
+DisplayName="Yakecan Pants"
+
+;=================
+; L4D ZOEY JEANS
+;=================
+
+[Legs_Zoey_Jeans_CNV X2BodyPartTemplate]
+DisplayName="L4D Zoey Jeans"
+
+[Legs_Zoey_Jeans_LPL X2BodyPartTemplate]
+DisplayName="L4D Zoey Jeans"
+
+[Legs_Zoey_Jeans_MPL X2BodyPartTemplate]
+DisplayName="L4D Zoey Jeans"
+
+[Legs_Zoey_Jeans_HPL X2BodyPartTemplate]
+DisplayName="L4D Zoey Jeans"
+
+[Legs_Zoey_Jeans_LPW X2BodyPartTemplate]
+DisplayName="L4D Zoey Jeans"
+
+[Legs_Zoey_Jeans_MPW X2BodyPartTemplate]
+DisplayName="L4D Zoey Jeans"
+
+[Legs_Zoey_Jeans_HPW X2BodyPartTemplate]
+DisplayName="L4D Zoey Jeans"
+
+[Legs_Zoey_Jeans_Reaper X2BodyPartTemplate]
+DisplayName="L4D Zoey Jeans"
+
+[Legs_Zoey_Jeans_Templar X2BodyPartTemplate]
+DisplayName="L4D Zoey Jeans"
+
+[Legs_Zoey_Jeans_Skirmisher X2BodyPartTemplate]
+DisplayName="L4D Zoey Jeans"
+
+;====================
+; GOTG GAMORA PANTS
+;====================
+
+[Legs_Gamora_Pants_CNV X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants"
+
+[Legs_Gamora_Pants_LPL X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants"
+
+[Legs_Gamora_Pants_MPL X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants"
+
+[Legs_Gamora_Pants_HPL X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants"
+
+[Legs_Gamora_Pants_LPW X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants"
+
+[Legs_Gamora_Pants_MPW X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants"
+
+[Legs_Gamora_Pants_HPW X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants"
+
+[Legs_Gamora_Pants_Reaper X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants"
+
+[Legs_Gamora_Pants_Templar X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants"
+
+[Legs_Gamora_Pants_Skirmisher X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants"
+
+;============================
+; GOTG GAMORA PANTS TINTABLE
+;============================
+
+[Legs_Gamora_Pants_Tintable_CNV X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants Tintable"
+
+[Legs_Gamora_Pants_Tintable_LPL X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants Tintable"
+
+[Legs_Gamora_Pants_Tintable_MPL X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants Tintable"
+
+[Legs_Gamora_Pants_Tintable_HPL X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants Tintable"
+
+[Legs_Gamora_Pants_Tintable_LPW X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants Tintable"
+
+[Legs_Gamora_Pants_Tintable_MPW X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants Tintable"
+
+[Legs_Gamora_Pants_Tintable_HPW X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants Tintable"
+
+[Legs_Gamora_Pants_Tintable_Reaper X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants Tintable"
+
+[Legs_Gamora_Pants_Tintable_Templar X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants Tintable"
+
+[Legs_Gamora_Pants_Tintable_Skirmisher X2BodyPartTemplate]
+DisplayName="GOTG Gamora Pants Tintable"
+
+;=====================
+; NINJA GAIDEN PANTS
+;=====================
+
+[Legs_Gaiden_Pants_CNV X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Pants"
+
+[Legs_Gaiden_Pants_LPL X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Pants"
+
+[Legs_Gaiden_Pants_MPL X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Pants"
+
+[Legs_Gaiden_Pants_HPL X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Pants"
+
+[Legs_Gaiden_Pants_LPW X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Pants"
+
+[Legs_Gaiden_Pants_MPW X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Pants"
+
+[Legs_Gaiden_Pants_HPW X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Pants"
+
+[Legs_Gaiden_Pants_Reaper X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Pants"
+
+[Legs_Gaiden_Pants_Templar X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Pants"
+
+[Legs_Gaiden_Pants_Skirmisher X2BodyPartTemplate]
+DisplayName="Ninja Gaiden Pants"
+
+;===============
+; PILOT PANTS
+;===============
+
+[Legs_Pilot_Pants_CNV X2BodyPartTemplate]
+DisplayName="Pilot Pants"
+
+[Legs_Pilot_Pants_LPL X2BodyPartTemplate]
+DisplayName="Pilot Pants"
+
+[Legs_Pilot_Pants_MPL X2BodyPartTemplate]
+DisplayName="Pilot Pants"
+
+[Legs_Pilot_Pants_HPL X2BodyPartTemplate]
+DisplayName="Pilot Pants"
+
+[Legs_Pilot_Pants_LPW X2BodyPartTemplate]
+DisplayName="Pilot Pants"
+
+[Legs_Pilot_Pants_MPW X2BodyPartTemplate]
+DisplayName="Pilot Pants"
+
+[Legs_Pilot_Pants_HPW X2BodyPartTemplate]
+DisplayName="Pilot Pants"
+
+[Legs_Pilot_Pants_Reaper X2BodyPartTemplate]
+DisplayName="Pilot Pants"
+
+[Legs_Pilot_Pants_Templar X2BodyPartTemplate]
+DisplayName="Pilot Pants"
+
+[Legs_Pilot_Pants_Skirmisher X2BodyPartTemplate]
+DisplayName="Pilot Pants"
+
+;======================
+; PILOT PANTS 2ND TINT
+;======================
+
+[Legs_Pilot_Pants_2_CNV X2BodyPartTemplate]
+DisplayName="Pilot Pants Secondary Tint"
+
+[Legs_Pilot_Pants_2_LPL X2BodyPartTemplate]
+DisplayName="Pilot Pants Secondary Tint"
+
+[Legs_Pilot_Pants_2_MPL X2BodyPartTemplate]
+DisplayName="Pilot Pants Secondary Tint"
+
+[Legs_Pilot_Pants_2_HPL X2BodyPartTemplate]
+DisplayName="Pilot Pants Secondary Tint"
+
+[Legs_Pilot_Pants_2_LPW X2BodyPartTemplate]
+DisplayName="Pilot Pants Secondary Tint"
+
+[Legs_Pilot_Pants_2_MPW X2BodyPartTemplate]
+DisplayName="Pilot Pants Secondary Tint"
+
+[Legs_Pilot_Pants_2_HPW X2BodyPartTemplate]
+DisplayName="Pilot Pants Secondary Tint"
+
+[Legs_Pilot_Pants_2_Reaper X2BodyPartTemplate]
+DisplayName="Pilot Pants Secondary Tint"
+
+[Legs_Pilot_Pants_2_Templar X2BodyPartTemplate]
+DisplayName="Pilot Pants Secondary Tint"
+
+[Legs_Pilot_Pants_2_Skirmisher X2BodyPartTemplate]
+DisplayName="Pilot Pants Secondary Tint"
+
+;=========================
+; DARK STORM PADDED PANTS
+;=========================
+
+[Legs_Padded_Pants_CNV X2BodyPartTemplate]
+DisplayName="Padded Pants"
+
+[Legs_Padded_Pants_LPL X2BodyPartTemplate]
+DisplayName="Padded Pants"
+
+[Legs_Padded_Pants_MPL X2BodyPartTemplate]
+DisplayName="Padded Pants"
+
+[Legs_Padded_Pants_HPL X2BodyPartTemplate]
+DisplayName="Padded Pants"
+
+[Legs_Padded_Pants_LPW X2BodyPartTemplate]
+DisplayName="Padded Pants"
+
+[Legs_Padded_Pants_MPW X2BodyPartTemplate]
+DisplayName="Padded Pants"
+
+[Legs_Padded_Pants_HPW X2BodyPartTemplate]
+DisplayName="Padded Pants"
+
+[Legs_Padded_Pants_Reaper X2BodyPartTemplate]
+DisplayName="Padded Pants"
+
+[Legs_Padded_Pants_Templar X2BodyPartTemplate]
+DisplayName="Padded Pants"
+
+[Legs_Padded_Pants_Skirmisher X2BodyPartTemplate]
+DisplayName="Padded Pants"
+
+
+
+
+
+
+
+
+

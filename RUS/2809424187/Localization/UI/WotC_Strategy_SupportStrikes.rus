@@ -1,0 +1,17 @@
+[UIAlert_SupportStrikes]
+
+strTitle_Ready_StrikeAvaliable = "Support Strike Available"
+strDesc_Ready_StrikeAvaliable = "Commander, the support team is in place and awaiting your instructions. Paint a target area and our team will do the rest.\nGood hunting, Commander."
+
+strTitle_Ready_FirstTime = "Support Strike Tutorial"
+strDesc_Ready_FirstTime = "Commander, it looks like you're having trouble understanding Support Strikes. Would you like help?"
+
+strTitle_Error_MissionSiteInvalid = "Strikes Not Available: No Clearance"
+;strDesc_Reason_MissionSiteInvalid = "It's not possible to use the requested Support Strike in the Area of Operations as there is no clearance. The strike will be available to use in the next possible mission where there is clearance."
+strDesc_Reason_MissionSiteInvalid = "There is no clearance within the Area of Operations. Support Strikes are unavailable for this mission!"
+
+strTitle_Error_NotEnoughIntel	= "Strikes Not Available: Not Enough Intel"
+strDesc_Reason_NotEnoughIntel	= "XCom does not have enough intel to perform any support strikes. Support Strikes are disabled for this mission!"
+
+strTitle_Warning_PartialResources	= "Low Intel Warning"
+strDesc_Reason_PartialResources		= "Certain strikes are not available due to low intel:\n"
