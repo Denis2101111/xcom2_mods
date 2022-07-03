@@ -1,4 +1,4 @@
 
-[X2Ability_MortarStrikes]
-MortarStrike_Stage2_SMK_EffectDisplayName="Р“СѓСЃС‚РѕР№ Р”С‹Рј"
-MortarStrike_Stage2_SMK_EffectDisplayDesc="Р“СѓСЃС‚РѕР№ Р”С‹Рј РѕС‚ РјРёРЅРѕРјРµС‚РЅРѕРіРѕ СѓРґР°СЂР° РґР°С‘С‚ +<Ability:MORTARSTRIKE_SMK_HITMOD/>% РїСЂРёР±Р°РІРєРё Р·Р°С‰РёС‚С‹."
+[[X2Ability_Mortar Strike s]
+Mortar Strike_Stage 2_SMK_Effect Display Name="Густой дым"
+Mortar Strike_Stage 2_SMK_Effect Display Desc="Густой дым от минометного удара дает +<Ability:MORTAR STRIKE_SMK_HITMOD/>% прибавки защиты."
