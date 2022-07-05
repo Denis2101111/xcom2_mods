@@ -1,0 +1,37 @@
+;Поместите локализованный текст в этот файл
+
+[alienssentrygun X2CharacterTemplate]
+strCharacterName="Сторожевая пушка"
+
+[sentryitem X2WeaponTemplate]
+FriendlyName="Развертываемая Сторожевая пушка"
+BriefSummary="UA 571-C Автоматическая  Сторожевая пушка, известная в просторечии как Робот-Страж, это установленная на треноге автоматизированная система защиты периметра, которая обеспечивает заданный автоматический огонь по любому врагу в пределах досягаемости. Этот предмет предназначен для одноразового использования и будет удален из инвентаря после развертывания."
+TacticalText="<Bullet/> UA 571-C Автоматическая Сторожевая пушка, известная в просторечии как Робот-Страж, это установленная на треноге автоматизированная система защиты периметра, которая обеспечивает заданный автоматический огонь по любому противнику в пределах досягаемости. Этот предмет предназначен для одноразового использования и будет удален из инвентаря после развертывания."
+
+[sentry_WPN X2WeaponTemplate]
+FriendlyName="Сторожевая пушка"
+BriefSummary="Сторожевая турель"
+TacticalText="<Bullet/> Сторожевая пушка."
+
+[laydownsentry X2AbilityTemplate]
+LocFriendlyName="Развернуть Сторожевую Пушку"
+LocLongDescription="Разверните сторожевую башню на поле боя."
+LocHelpText="Выберите Область развертывания"
+LocFlyOverText="Развертываемая турель"
+LocPromotionPopupText="<Bullet/> Автоматическая развертываемая сторожевая башня, которая фокусируется на врагах.<br/>"
+
+
+
+[sentrytalk1 X2AbilityTemplate]
+LocFriendlyName=""
+LocLongDescription=""
+LocHelpText=""
+LocFlyOverText="[КРИТИЧЕСКИЙ УРОВЕНЬ БОЕПРИПАСОВ]"
+LocPromotionPopupText="<Bullet/> <br/>"
+
+[sentrytalk2 X2AbilityTemplate]
+LocFriendlyName=""
+LocLongDescription=""
+LocHelpText=""
+LocFlyOverText="[КОНЧИЛИСЬ ПАТРОНЫ]"
+LocPromotionPopupText="<Bullet/> <br/>"
