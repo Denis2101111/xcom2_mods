@@ -1,0 +1,93 @@
+;============================================
+; AMMO UPGRADES - BASIC
+;============================================
+
+[TLMUpgrade_MZFrostRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Морозные патроны"
+FriendlyNamePlural="Морозные патроны"
+BriefSummary="Эти патроны при ударе выделяют криогенный пар, который ухудшает подвижность, а при достаточном применении замораживает врагов."
+TinySummary="Урон морозом, -Размер обоймы"
+
+[TLMUpgrade_RadRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Радиационные патроны"
+FriendlyNamePlural="Радиационные патроны"
+BriefSummary="Облученные патроны, способные оказывать радиационное воздействие на цели"
+TinySummary="Радиоактивность, -Размер обоймы"
+
+[TLMUpgrade_HallucinogenicRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Террор-патроны"
+FriendlyNamePlural="Террор-патроны"
+BriefSummary="Этот снаряд содержит чрезвычайно мощное химическое вещество, полученное из токсинов, используемых Опытными Охотниками-Следопытами, которое, несомненно, вызовет чувство ужаса, страха и паники у любого, кто попадет под него."
+TinySummary="+Урон, Паника, -Размер обоймы"
+
+[TLMUpgrade_MZScrambleRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Искажающие патроны"
+FriendlyNamePlural="Искажающие патроны"
+BriefSummary="Патроны при попадании создают разрушительное поле малой дальности действия, снижая точность стрельбы инопланетян."
+TinySummary="-Точность противников, -Размер обоймы"
+
+[TLMUpgrade_MZShredderRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Разрывные патроны"
+FriendlyNamePlural="Разрывные патроны"
+BriefSummary="Специальные патроны, предназначенные для разрушения брони АДВЕНТА, позволяя будущим атакам наносить больший урон."
+TinySummary="Разрыв брони, -Размер обоймы"
+
+[TLMUpgrade_MZVampireRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Вампир-патроны"
+FriendlyNamePlural="Вампир-патроны"
+BriefSummary="Наноботыы в этих высокотехнологичных раундах собирают жизнь у своих жертв, чтобы исцелить стрелка."
+TinySummary="Лечение стрелка, Урон ядом, -Размер обоймы"
+;============================================
+; AMMO UPGRADES - ADVANCED
+;============================================
+
+[TLMUpgrade_MZFrostRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Продвинутые морозные патроны"
+FriendlyNamePlural="Продвинутые морозные патроны"
+BriefSummary="Эти патроны при ударе выделяют криогенный пар, который ухудшает подвижность, а при достаточном применении замораживает врагов.."
+TinySummary="Урон морозом"
+
+[TLMUpgrade_RadRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Продвинутые радиоактивные патроны"
+FriendlyNamePlural="Продвинутые радиоактивные патроны"
+BriefSummary="Облученные патроны, способные поражать цели радиацией"
+TinySummary="Радиоактивность"
+
+[TLMUpgrade_HallucinogenicRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Продвинутые террор-патроны"
+FriendlyNamePlural="Продвинутые террор-патроны"
+BriefSummary="Этот снаряд содержит чрезвычайно мощное химическое вещество, полученное из токсинов, используемых Экзальтированными Охотниками-Следопытами, которое, несомненно, вызовет чувство ужаса, страха и страха у любого, кто попадет под него."
+TinySummary="+Урон, Паника"
+
+[TLMUpgrade_MZScrambleRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Продвинутые искажающие патроны"
+FriendlyNamePlural="Продвинутые искажающие патроны"
+BriefSummary="Патроны при попадании создают разрушительное поле малой дальности действия, снижая точность стрельбы инопланетян."
+TinySummary="-Точность противников"
+
+[TLMUpgrade_MZShredderRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Продвинутые разрывные патроны"
+FriendlyNamePlural="Продвинутые разрывные патроны"
+BriefSummary="Специальные патроны, предназначенные для разрушения брони АДВЕНТА, позволяя будущим атакам наносить больший урон."
+TinySummary="Разрыв брони"
+
+[TLMUpgrade_MZVampireRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Продвинутые вампир-патроны"
+FriendlyNamePlural="Продвинутые вампир-патроны"
+BriefSummary="Nanomachines in these high tech rounds harvest life from it's victims to heal the shooter."
+TinySummary="Лечение стрелка, Урон ядом"
+
+
+[X2DownloadableContentInfo_TeslaLootMod]
+
++RandomWeaponNickNames[199]="Темная печать"
++RandomWeaponNickNames[200]="Божественный Сандерер"
++RandomWeaponNickNames[201]="Вечный мороз"
++RandomWeaponNickNames[202]="Галефорс"
++RandomWeaponNickNames[203]="Goredrinker"
++RandomWeaponNickNames[204]="Небесный мандат"
++RandomWeaponNickNames[205]="Дневной комбайн"
++RandomWeaponNickNames[206]="Коготь сталкера"
++RandomWeaponNickNames[207]="Искатель разлома"
++RandomWeaponNickNames[208]="Стридбрейкер"
+

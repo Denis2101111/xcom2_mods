@@ -1,0 +1,242 @@
+;Place localized text in this file
+[TLMUpgrade_F_QuickPatch X2WeaponUpgradeTemplate]
+FriendlyName="Оборудование для быстрого ремонта"
+FriendlyNamePlural="Оборудование для быстрого ремонта"
+BriefSummary="Использование аптечки не требует каких-либо действий. Пассивный."
+TinySummary="Бесплатное использование медпакета"
+
+[TLMUpgrade_F_FieldMedic X2WeaponUpgradeTemplate]
+FriendlyName="Оборудование для полевых медиков"
+FriendlyNamePlural="Оборудование для полевых медиков"
+BriefSummary="Оборудованные аптечки предоставляются за дополнительную плату."
+TinySummary="+Заряды медпакета"
+
+[TLMUpgrade_NecroRestoration X2WeaponUpgradeTemplate]
+FriendlyName="Restoration Equipment"
+FriendlyNamePlural="Restoration Equipments"
+BriefSummary="Регенерирует 1 HP за ход, в течение 3 ходов, любому союзнику"
+TinySummary="+Регенерация"
+
+[TLMUpgrade_F_RegenerativeMist X2WeaponUpgradeTemplate]
+FriendlyName="Дым регенерации"
+FriendlyNamePlural="Дымы регенерации"
+BriefSummary="К вашим дымовым гранатам добавляются следы восстанавливающих химикатов, которые исцеляют всех юнитов в облаке.."
+TinySummary="Лечебный дым"
+
+[TLMUpgrade_F_Stimulate X2WeaponUpgradeTemplate]
+FriendlyName="Дефибриллятор"
+FriendlyNamePlural="Дефибрилляторы"
+BriefSummary="Один раз за ход вы можете удалить умственные нарушения у соседнего союзника."
+TinySummary="лечение психических расстройств"
+
+[TLMUpgrade_RecoveryPatch_I X2WeaponUpgradeTemplate]
+FriendlyName="Патч восстановления"
+FriendlyNamePlural="Патчи восстановления"
+BriefSummary="Предоставляет возможности медицинского протокола. Также дает 30% уменьшение урона исцеленному союзнику на 1 ход."
+TinySummary="Защита лечением"
+
+[TLMUpgrade_CriticalHealing X2WeaponUpgradeTemplate]
+FriendlyName="Усиленное восстановление"
+FriendlyNamePlural="Усиленные восстановления"
+BriefSummary="Некоторые исцеляющие способности имеют 50% шанс восстановить 4 дополнительных хита.."
+TinySummary="шанс излечить сильнее"
+
+[TLMUpgrade_MZArcBlueActions X2WeaponUpgradeTemplate]
+FriendlyName="Быстрый триггер"
+FriendlyNamePlural="Быстрые триггеры"
+BriefSummary="Применение дугомета не заканчивает ход."
+TinySummary="не требует затраты действия"
+
+[TLMUpgrade_MZArcElectrocute X2WeaponUpgradeTemplate]
+FriendlyName="Высоковольтная батарея"
+FriendlyNamePlural="Высоковольтные батареи"
+BriefSummary="Дугомет наносит еще электрический урон."
+TinySummary="электрический урон"
+
+[TLMUpgrade_MZArcHaywire X2WeaponUpgradeTemplate]
+FriendlyName="Электромагнитные помехи"
+FriendlyNamePlural="Электромагнитные помехи"
+BriefSummary="Специальный импульс дугомета заставляет робота-врага сражаться за вас, хотя и ненадолго."
+TinySummary="Контроль вражеских роботов"
+
+[TLMUpgrade_MZArcRepair X2WeaponUpgradeTemplate]
+FriendlyName="Утилиты для повторного подключения"
+FriendlyNamePlural="Утилиты для повторного подключения"
+BriefSummary="Используйте дугомет, чтобы починить робота-союзника."
+TinySummary="Лечение роботов"
+
+[TLMUpgrade_MZArcFuse X2WeaponUpgradeTemplate]
+FriendlyName="Утилиты искрогасителя"
+FriendlyNamePlural="Утилиты искрогасителя"
+BriefSummary="Запускает искрящийся заряд из дугомета, нанося электрический урон и детонируя переносимые взрывчатые вещества.."
+TinySummary="Детонация взрывчатки"
+
+[TLMUpgrade_BS_SpareBattery X2WeaponUpgradeTemplate]
+FriendlyName="Запасная батарея"
+FriendlyNamePlural="Запасные батарейки"
+BriefSummary="Быстро зарядите батарею вашего дугомета запасной, сократив время перезарядки до 3 ходов."
+TinySummary="перезарядка откатов"
+
+[TLMUpgrade_BS_SawnOffReload X2WeaponUpgradeTemplate]
+FriendlyName="Запасные снаряды"
+FriendlyNamePlural="Запасные снаряды"
+BriefSummary="Допускает ограниченную перезарядку обреза""
+TinySummary="Перезарядка обреза"
+
+[TLMUpgrade_BS_Brutality X2WeaponUpgradeTemplate]
+FriendlyName="Снаряды устрашения"
+FriendlyNamePlural="Снаряды устрашения"
+BriefSummary="Убийства органических врагов с помощью обреза дают шанс вызвать панику у других органических врагов."
+TinySummary="шанс паники при убийствах"
+
+[TLMUpgrade_MZSledgehammer X2WeaponUpgradeTemplate]
+FriendlyName="Кувалда"
+FriendlyNamePlural="Кувалда"
+BriefSummary="Мощная атака ближнего боя, которая отправляет своих жертв в полет."
+TinySummary="Отбой"
+
+[TLMUpgrade_MZShakeTheEarth X2WeaponUpgradeTemplate]
+FriendlyName="Землетрясение щита"
+FriendlyNamePlural="Землетрясение щита"
+BriefSummary="Активация защитной стены вызывает дрожь, которая уменьшает подвижность врагов поблизости"."
+TinySummary="Землетрясение щита"
+
+[TLMUpgrade_GrimyCauterize X2WeaponUpgradeTemplate]
+FriendlyName="Протокол прижигания"
+FriendlyNamePlural="Протоколы прижигания"
+BriefSummary="Модуль, позволяющий вашему Гремлину наносить 2 урона юниту, если он выживет, исцелите его на 3-9 HP."
+TinySummary="Урон и лечение юнитов"
+
+[TLMUpgrade_ShadowOps_PhalanxProtocol X2WeaponUpgradeTemplate]
+FriendlyName="Протокол Фаланги"
+FriendlyNamePlural="Протоколы Фаланги"
+BriefSummary="Ваш ГРЕМЛИН переходит к каждому союзнику, предоставляя всем им бонус к защите до начала вашего следующего хода."
+TinySummary="Протокол оказания помощи для всего отряда"
+
+[TLMUpgrade_ShadowOps_RestorationProtocol X2WeaponUpgradeTemplate]
+FriendlyName="Протокол восстановления"
+FriendlyNamePlural="Протоколы восстановления"
+BriefSummary="Предоставляет регенерацию юнита. Также стабилизирует и оживляет истекающих кровью или потерявших сознание юнитов и снимает некоторые дебафы."
+TinySummary="Стабилизация, оживление и регенерация"
+
+[TLMUpgrade_ShadowOps_ShieldProtocol X2WeaponUpgradeTemplate]
+FriendlyName="Протокол щита"
+FriendlyNamePlural="Протоколы щита"
+BriefSummary="Предоставьте дружественному юниту абляционные хит-пойнты. Щит также дает иммунитет к ядам до тех пор, пока не будут потеряны все абляционные хит-пойнт."
+TinySummary="Щиты союзнику"
+
+[TLMUpgrade_ShadowOps_StealthProtocol X2WeaponUpgradeTemplate]
+FriendlyName="Протокол маскировки"
+FriendlyNamePlural="Протоколы маскировки"
+BriefSummary="Дает маскировку дружественному подразделению"
+TinySummary="Скрыть союзника"
+
+[TLMUpgrade_ShadowOps_Supercharge X2WeaponUpgradeTemplate]
+FriendlyName="Протокол заряда"
+FriendlyNamePlural="Протоколы заряда"
+BriefSummary="Некоторые способности ГРЕМЛИНА получают дополнительный заряд."
+TinySummary="Дополнительные заряды на протоколы"
+
+[TLMUpgrade_MZFreezeProtocol X2WeaponUpgradeTemplate]
+FriendlyName="Протокол мгновенной заморозки"
+FriendlyNamePlural="Протоколы мгновенной заморозки"
+BriefSummary="Отправьте ГРЕМЛИНА сбросить концентрированный горький мороз на одного врага, немедленно заморозив его."
+TinySummary="заморозить противника"
+
+[TLMUpgrade_MZFrostProtocol X2WeaponUpgradeTemplate]
+FriendlyName="Протокол заморозки"
+FriendlyNamePlural="Протоколы заморозки"
+BriefSummary="Отправьте ГРЕМЛИНА, чтобы он нанес урон от холода с низкой степенью защиты и горького мороза."
+TinySummary="Урон морозом"
+
+[TLMUpgrade_GrimyLightOrdnance X2WeaponUpgradeTemplate]
+FriendlyName="Малые пакеты"
+FriendlyNamePlural="Малые пакеты"
+BriefSummary="Увеличьте мощность гранаты на 2 в каждом слоте, но уменьшите урон от гранаты на 50%."
+TinySummary="больше, но слабее гранаты"
+
+[TLMUpgrade_GrimyVileConcoctions X2WeaponUpgradeTemplate]
+FriendlyName="Подлая смесь"
+FriendlyNamePlural="Подлые смеси"
+BriefSummary="Увеличьте постепенный урон от гранат на 2."
+TinySummary="постепенный урон от гранат"
+
+[TLMUpgrade_MZBlindingSuppression X2WeaponUpgradeTemplate]
+FriendlyName="Вспыхивающие патроны"
+FriendlyNamePlural="Вспыхивающие патроны"
+BriefSummary="Способности подавления дополнительно ослепляют врагов. Ослепленным врагам придется подойти ближе, чтобы нацелиться на вас."
+TinySummary="Жалюзи подавления"
+
+[TLMUpgrade_MZConfusingSuppression X2WeaponUpgradeTemplate]
+FriendlyName="Калейдоскоп пуль"
+FriendlyNamePlural="Калейдоскоп пуль"
+BriefSummary="Способности подавления могут приводить к оглушению, блокируя использование многих способностей."
+TinySummary="Подавление может сбить с толку"
+
+[TLMUpgrade_MZDisablingSuppression X2WeaponUpgradeTemplate]
+FriendlyName="Портящие пули"
+FriendlyNamePlural="Калейдоскоп пуль"
+BriefSummary="Способности подавления дополнительно отключают вражеское оружие. Им нужно будет перезарядиться, прежде чем они смогут стрелять."
+TinySummary="Подавление может вывести из строя оружие"
+
+[TLMUpgrade_IsmsFlush X2WeaponUpgradeTemplate]
+FriendlyName="Скрытая оптика"
+FriendlyNamePlural="Скрытые оптики"
+BriefSummary="Сделайте выстрел, который побуждает врагов двигаться. +30 прицела. -50% урона от базового оружия. Использует 2 патрона."
+TinySummary="Вспышка"
+
+[TLMUpgrade_F_StationaryThreat X2WeaponUpgradeTemplate]
+FriendlyName="Импровизированный штатив"
+FriendlyNamePlural="Импровизированные штативы"
+BriefSummary="Получайте урон от атак вашего основного оружия за каждый ход, который вы не двигаете. Пассивный."
+TinySummary="+урон при стоянии"
+
+[TLMUpgrade_F_SaltInTheWound X2WeaponUpgradeTemplate]
+FriendlyName="Соленые пули"
+FriendlyNamePlural="Соленые пули"
+BriefSummary="Все атаки наносят дополнительный урон целям, страдающим от Яда, Ожога, Кислоты или кровотечения."
+TinySummary="+урон от кислоты, горения, яда"
+
+[TLMUpgrade_HighPowerShot_I X2WeaponUpgradeTemplate]
+FriendlyName="Модуль высокой мощности"
+FriendlyNamePlural="Модули высокой мощности"
+BriefSummary="Специальный выстрел, который наносит +50% урона и имеет время перезарядки 4 хода."
+TinySummary="+50 % урона от выстрела""
+
+[TLMUpgrade_Inspiration_I X2WeaponUpgradeTemplate]
+FriendlyName="Модуль вдохновения"
+FriendlyNamePlural="Модули вдохновения"
+BriefSummary="Выберите целевого союзника в укрытии. Цель получает +40% (+60%, если изучено Вдохновение II) Уклоняйтесь до начала следующего хода."
+TinySummary="+40% уклонение союзника"
+
+[TLMUpgrade_SingleReload X2WeaponUpgradeTemplate]
+FriendlyName="Запасные патроны"
+FriendlyNamePlural="Запасные патроны"
+BriefSummary="Перезарядите один патрон в свое оружие. 1 Действие, а не окончание хода"
+TinySummary="перезарядить 1 выстрел"
+
+[TLMUpgrade_ABBSpray X2WeaponUpgradeTemplate]
+FriendlyName="Модуль распыления"
+FriendlyNamePlural="Модули распыления"
+BriefSummary="Произведите выстрел по цели с низкой точностью. Не заканчивает ход. Нельзя стрелять в голову."
+TinySummary="выстрел с низкой точностью (без поворота)"
+
+[TLMUpgrade_AutoSniperSteadyWeapon X2WeaponUpgradeTemplate]
+FriendlyName="Сошка Кируки"
+FriendlyNamePlural="Сошки Кируки"
+BriefSummary="Держите свое основное оружие неподвижно, чтобы иметь шанс попасть в цель, несмотря на его дикую отдачу. Дает +120 прицеливания для вашего следующего выстрела из вашего основного оружия. Стоит два действия. Бонус теряется после того, как вы стреляете, совершаете другие действия, такие как перемещение, или получаете урон."
+TinySummary="увеличенная точность для следующего хода"
+
+[TLMUpgrade_EGT_CombatEngineer X2WeaponUpgradeTemplate]
+FriendlyName="Боевой инженерный модуль"
+FriendlyNamePlural="Боевые инженерные модули"
+BriefSummary="Предотвращает нанесение ущерба окружающей среде от падения из центра взрыва, что означает, что вы уничтожите объекты на большей площади."
+TinySummary="выпадение без ущерба для окружающей среды"
+
+[TLMUpgrade_EGT_TandemWarheads X2WeaponUpgradeTemplate]
+FriendlyName="Модуль тандемных боеголовок"
+FriendlyNamePlural="Модуль тандемных боеголовок"
+BriefSummary="Ваши гранаты и ракеты наносят полный урон юнитам в максимальной степени их зоны действия."
+TinySummary="нет снижения урона от снарядов"
+
+
