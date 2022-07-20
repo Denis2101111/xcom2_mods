@@ -1,0 +1,6 @@
+[X2EventListener_Fulton]
+CapturedTitle="Фултоновый захват"
+Captured="<XGParam:StrValue0/!ItemName/> было получено в результате захвата."
+
+LootTitle="Захваченная добыча"
+Loot="Дополнительная добыча была получена в результате захвата."

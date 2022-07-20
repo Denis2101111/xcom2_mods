@@ -1,0 +1,761 @@
+;Place localized text in this file
+;advent arsenal localisation
+
+[Dark_Pistol_BM X2WeaponTemplate]
+FriendlyName="Плазменный пистолет EXALT"
+FriendlyNamePlural="Плазменный пистолет EXALT"
+BriefSummary="Плазменный пистолет EXALT основан на той же технологии магнитного ускорения, что и его магнитный аналог, но он дополнительно перегревает боеприпасы из сплава с осколками красной плазмой, которая затем буквально прожигает цели."
+TacticalText="Плазменный пистолет EXALT основан на той же технологии магнитного ускорения, что и его магнитный аналог, но он дополнительно перегревает боеприпасы из сплава с осколками красной плазмой, которая затем буквально прожигает цели."
+AbilityDescName="пистолет"
+
+
+[Dark_Pistol_CG X2WeaponTemplate]
+FriendlyName="Катушечный пистолет EXALT"
+FriendlyNamePlural="Катушечный пистолет EXALT"
+BriefSummary="Этот пистолет, основанный на технологии катушки, обладает уникальной способностью игнорировать некоторые доспехи. Может быть полезно для наших собственных целей."
+TacticalText="<Bullet/> Катушка автоматически пробивает (игнорирует) 1 вражескую броню."
+AbilityDescName="пистолет"
+
+[Dark_Pistol_MG X2WeaponTemplate]
+FriendlyName="Магнитный пистолет EXALT"
+FriendlyNamePlural="Магнитный пистолет EXALT"
+BriefSummary="Этот пистолет, кажется, значительно более высокого качества по сравнению с оружием, которое носят солдаты Адвента. Может пригодиться нам, если мы не сможем производить достаточно для всех наших солдат."
+TacticalText="<Bullet/> Технология намагниченного оружия позволяет особенно эффективно улучшать револьверы XCOM."
+AbilityDescName="пистолет"
+
+
+[DarkEvent_PlasmaTier X2DarkEventTemplate]
+DisplayName="Исследование EXALT: Экспериментальное оружие"
+SummaryText="EXALT использует смесь экспериментальных плазменных и звуковых технологий для своих солдат."
+QuoteText="\"Похоже, инопланетяне наконец-то готовы предоставить слугам свои самые сильные технологии.\""
+QuoteTextAuthor="- Старший офицер Брэдфорд"
+PreMissionText="Предоставляет солдатам EXALT первоклассное снаряжение."
+PostMissionSuccessText="Темное событие нейтрализовано: экспериментальное оружие EXALT"
+PostMissionFailureText="Не удалось противостоять темному событию: экспериментальное оружие EXALT"
+
+
+[Dark_Shotgun_BM X2WeaponTemplate]
+FriendlyName="Плазменный дробовик EXALT"
+FriendlyNamePlural="Плазменный дробовик EXALT"
+BriefSummary="Плазменный дробовик EXALT основан на той же технологии магнитного ускорения, что и его магнитный аналог, но он дополнительно перегревает осколки сплава красной плазмой, которая затем буквально прожигает цели."
+TacticalText="Плазменный дробовик EXALT основан на той же технологии магнитного ускорения, что и его магнитный аналог, но он дополнительно перегревает осколки сплава красной плазмой, которая затем буквально прожигает цели."
+AbilityDescName="дробовик"
+
+
+[Dark_SMG_BM X2WeaponTemplate]
+FriendlyName="Звуковая винтовка EXALT"
+FriendlyNamePlural="Звуковая винтовка EXALT"
+BriefSummary="Кажется, что предполагаемая цель звуковой винтовки - умиротворение и истощение, но длительное воздействие ее максимальной мощности так же смертоносно, как и «обычные» снаряды огнестрельного оружия."
+TacticalText="Кажется, что предполагаемая цель звуковой винтовки - умиротворение и истощение, но длительное воздействие ее максимальной мощности так же смертоносно, как и «обычные» снаряды огнестрельного оружия."
+AbilityDescName="звуковая винтовка"
+
+
+[Dark_Cannon_BM X2WeaponTemplate]
+FriendlyName="Звуковая пушка EXALT"
+FriendlyNamePlural="Звуковая пушка EXALT"
+BriefSummary="Будучи более тяжелой версией Звуковой Винтовки, Звуковая Пушка имеет увеличенную производительность по всем направлениям и требует меньше времени для достижения своих эффектов, как смертельных, так и нелетальных."
+TacticalText="Будучи более тяжелой версией Звуковой Винтовки, Звуковая Пушка имеет увеличенную производительность по всем направлениям и требует меньше времени для достижения своих эффектов, как смертельных, так и нелетальных."
+AbilityDescName="звуковая пушка"
+
+
+[Dark_AssaultRifle_BM X2WeaponTemplate]
+FriendlyName="Плазменная винтовка EXALT"
+FriendlyNamePlural="Плазменная винтовка EXALT"
+BriefSummary="Винтовка на основе красной плазмы, она может наносить меньше урона, чем чертежи наших собственных плазменных винтовок, но тем не менее она наносит урон."
+TacticalText="<Bullet/> Плазменная винтовка — это чрезвычайно мощная основная система вооружения пехоты общего назначения.\n<Bullet/> Стрельба из основного оружия всегда завершает ход солдата.\n<Bullet/> Используйте улучшения, добытые у врагов, чтобы повысить тактическую эффективность плазменной винтовки."
+AbilityDescName="штурмовая винтовка"
+
+
+
+[Dark_SniperRifle_BM X2WeaponTemplate]
+FriendlyName="Плазменное копье EXALT"
+FriendlyNamePlural="Плазменное копье EXALT"
+BriefSummary="Снайперская винтовка на основе красной плазмы, она может наносить меньше урона, чем наши собственные чертежи плазменных снайперских винтовок, но она все равно наносит урон, несмотря ни на что."
+TacticalText="<Bullet/> Это вершина технологии снайперских винтовок.\n<Bullet/> Снайперские винтовки всегда требуют обоих действий для стрельбы.\n<Bullet/> Они менее точны на близком расстоянии, но смертельны на расстоянии.\n<Bullet/> Используйте улучшения, добытые у врагов, чтобы повысить тактическую эффективность плазменной снайперской винтовки."
+AbilityDescName="снайперская винтовка"
+
+
+
+
+;objectives
+[MOCX_QuestStart X2ObjectiveTemplate]
+Title="Выслеживайте зацепки по инициативе EXALT"
+LocLongDescription="Инициатива EXALT - это новейшая попытка Адвента уничтожить XCOM: нам нужно искать их основные операции, если мы хотим их нейтрализовать."
+SubObjectiveText="Выполнить скрытые действия против EXALT"
+
+[MOCX_QuestMidOne X2ObjectiveTemplate]
+Title="Продолжить борьбу с инициативой EXALT"
+LocLongDescription="Мы нанесли несколько ударов по инициативе EXALT, но нам нужно продолжать двигаться вперед. Продолжайте работать над этим."
+SubObjectiveText="Выполнить скрытые действия против EXALT"
+
+[MOCX_QuestMidTwo X2ObjectiveTemplate]
+Title="Продолжайте сражаться с инициативой EXALT"
+LocLongDescription="Мы нанесли еще больше ударов по инициативе EXALT, но нам нужно продолжать. Продолжайте работать над этим."
+SubObjectiveText="Выполнить скрытые действия против EXALT"
+
+
+[MOCX_OffsiteBackups X2ObjectiveTemplate]
+Title="Рейд за пределами объекта"
+LocLongDescription="Мы обнаружили внешнее средство резервного копирования, связанное с проектом «Аватар», и оно имеет специальную деталь у EXALT. У этого отряда может быть информация, которую мы можем использовать."
+SubObjectiveText="Выполните задание по резервному копированию аватара."
+
+[MOCX_TrainingRaid X2ObjectiveTemplate]
+Title="Рейд на тренировочные учения EXALT"
+LocLongDescription="EXALT проводит крупномасштабные учения под кодовым названием операция "Обсидиановый щит". Благодаря информации, которую мы получили ранее, мы знаем, что операция будет иметь прямую восходящую связь с сетью Exalts. Нам нужно получить все, что мы можем, от этой восходящей линии связи."
+SubObjectiveText="Завершите миссию Тренировочных учений"
+
+[MOCX_SabotageHQ X2ObjectiveTemplate]
+Title="Нейтрализовать инициативу EXALT"
+LocLongDescription="Лили Шень обнаружила критический недостаток в конструкции штаб-квартиры EXALT. С подходящим отрядом и достаточным количеством X4 мы можем вывести из строя псионическую транспортную сеть EXALT и закрыть ее навсегда."
+SubObjectiveText="Завершите миссию «Саботаж в штаб-квартире EXALT"
+
+
+;ability points
+[MOCXEvac X2AbilityPointTemplate]
+ActionFriendlyName="подразделение EXALT запрашивает эвакуацию"
+
+[MOCXKill X2AbilityPointTemplate]
+ActionFriendlyName="убит солдат EXALT"
+
+[MOCXCapture X2AbilityPointTemplate]
+ActionFriendlyName="Звхвачен солдат EXALT"
+
+;SITREPs
+
+[MOCX X2SitRepTemplate]
+FriendlyName="Отряд EXALT"
+Description="Сюда был переброшен отряд EXALT."
+
+[MOCXAssault X2SitRepTemplate]
+FriendlyName="Штурм штаб-квартиры EXALT"
+Description="Это штаб-квартира EXALT: здесь будут задействованы несколько отрядов."
+
+
+[MOCXRookies X2SitRepTemplate]
+FriendlyName="Тренировочные учения EXALT"
+Description="EXALT проводит здесь крупномасштабные учения: большинство войск, с которыми вы столкнетесь, будут новобранцами EXALT."
+
+[MOCXRookiesEffect X2SitRepEffect_ModifyDefaultEncounterLists]
+FriendlyName="Тренировочные учения EXALT"
+Description="EXALT проводит здесь крупномасштабные учения: большинство войск, с которыми вы столкнетесь, будут новобранцами EXALT."
+
+[FullMOCXEffect X2SitRepEffectTemplate]
+FriendlyName="Отряд EXALT"
+Description="Здесь развернут отряд EXALT. EXALT имеет доступ к технологиям глушения, так что теневая камера не покажет их."
+
+
+
+;weapons and items
+
+[Dark_Shotgun_MG X2WeaponTemplate]
+FriendlyName="Осколочное ружье EXALT"
+FriendlyNamePlural="Осколочное ружье EXALT"
+BriefSummary="Этот дробовик, по-видимому, значительно более высокого качества по сравнению с оружием, которое носят пехотинцы Адвента. Может пригодиться нам, если мы не сможем производить достаточно для всех наших солдат."
+TacticalText="<Bullet/> Технология намагниченного оружия позволяет особенно эффективно улучшить боевой дробовик XCOM.\n<Bullet/> Оружие в стиле дробовика чрезвычайно эффективно на ближней дистанции, но его точность быстро падает на дальней дистанции.\n<Bullet/> Используйте добытые улучшения от врагов, чтобы улучшить тактическую эффективность Осколочного ружья."
+AbilityDescName="дробовик"
+
+[Dark_Shotgun_CG X2WeaponTemplate]
+FriendlyName="Обрез EXALT"
+FriendlyNamePlural="Обрез EXALT"
+BriefSummary="Этот дробовик, основанный на технологии катушек, обладает уникальной способностью игнорировать некоторые виды брони. Может быть полезно для наших собственных целей."
+TacticalText="<Bullet/> Катушка автоматически пробивает (игнорирует) 1 вражескую броню.<br/><Bullet/> Оружие типа дробовика чрезвычайно эффективно на ближней дистанции, но его точность быстро падает на дальней дистанции.\n<Bullet/> Используйте улучшения, добытые из врагов, чтобы улучшить тактическую эффективность обреза."
+AbilityDescName="дробовик"
+
+
+
+
+[Dark_SMG_MG X2WeaponTemplate]
+FriendlyName="Магнитный Пистолет-Пулемёт EXALT"
+FriendlyNamePlural="Магнитный Пистолет-Пулемёт EXALT"
+BriefSummary="Этот пистолет-пулемет, по-видимому, значительно более высокого качества по сравнению с оружием, которое носят собственные пехотинцы АДВЕНТА. Может быть полезной заменой на случай, если мы не сможем изготовить достаточно Буллпапов для всех наших солдат."
+TacticalText="<Bullet/> Стрельба из основного оружия всегда завершает очередь солдата, при отсутствии специальной подготовки.\n<Bullet/> Используйте улучшения, полученные от врагов, чтобы повысить тактическую эффективность Магнитный Пистолет-Пулемёт. \ n<Bullet /> Оружие типа пистолет-пулемет обеспечивает дополнительную мобильность, точность ближнего боя и скрытность по сравнению со штурмовыми винтовками, но оно наносит меньший урон, имеет меньше боеприпасов и страдает от потери точности на дальних дистанциях."
+AbilityDescName="пистолет-пулемет"
+
+[Dark_SMG_CG X2WeaponTemplate]
+FriendlyName="Катушечный Пистолет-Пулемёт EXALT"
+FriendlyNamePlural="Катушечный Пистолет-Пулемёт EXALT"
+BriefSummary="Этот пистолет-пулемет, основанный на технологии катушек, обладает уникальной способностью игнорировать некоторые виды брони. Может быть полезно для наших собственных целей."
+TacticalText="<Bullet/> Катушка автоматически пробивает (игнорирует) 1 броню противника.<br/><Bullet/> Оружие типа пистолет-пулемет обеспечивает дополнительную мобильность, точность на ближней дистанции и маскировку по сравнению со штурмовыми винтовками, но наносит меньше урона, имеет меньше патронов и страдает штрафы за точность на большом расстоянии.<br/>"
+AbilityDescName="пистолет-пулемет"
+
+
+
+
+[Dark_Cannon_MG X2WeaponTemplate]
+FriendlyName="Магнитная пушка EXALT"
+FriendlyNamePlural="Магнитная пушка EXALT"
+BriefSummary="Эта пушка, кажется, значительно более высокого качества по сравнению с оружием, которое несут пехотинцы Адвента. Может пригодиться нам, если мы не сможем производить достаточно для всех наших солдат."
+TacticalText="<Bullet/> Магнитная пушка — гораздо более мощная версия обычной пушки, но с таким же удобством развертывания.\n<Bullet/> Используйте улучшения, добытые у врагов, чтобы повысить тактическую эффективность магнитной пушки."
+AbilityDescName="пушка"
+
+[Dark_Cannon_CG X2WeaponTemplate]
+FriendlyName="Пушка Гаусса EXALT"
+FriendlyNamePlural="Пушка Гаусса EXALT"
+BriefSummary="Эта пушка, основанная на технологии катушек, обладает уникальной способностью игнорировать некоторые виды брони. Может быть полезно для наших собственных целей."
+TacticalText="<Bullet/> Катушка автоматически пробивает (игнорирует) 1 вражескую броню.<br/><Bullet/> Пушка выполняет роль автоматического оружия отряда, имеет больше боеприпасов и наносит больше урона, чем винтовка, но ее неудобно носить с собой.<br /><Bullet/> Используйте улучшения, полученные от врагов Адвента, чтобы повысить тактическую эффективность Пушки Гаусса.<br/>"
+AbilityDescName="пушка"
+
+
+
+
+
+[Dark_AssaultRifle_MG X2WeaponTemplate]
+FriendlyName="Магнитная Винтовка EXALT"
+FriendlyNamePlural="Магнитная Винтовка EXALT"
+BriefSummary="Эта штурмовая винтовка, по-видимому, значительно более высокого качества по сравнению с оружием, которое носят собственные пехотинцы АДВЕНТА. Может пригодиться нам, если мы не сможем производить достаточно для всех наших солдат."
+TacticalText="<Bullet/> Стрельба из основного оружия всегда завершает очередь солдата, при отсутствии специальной подготовки.\n<Bullet/> Пользовательские улучшения, награбленные у врагов, повышают тактическую эффективность Магнитной винтовки."
+AbilityDescName="штурмовая винтовка"
+
+[Dark_AssaultRifle_CG X2WeaponTemplate]
+FriendlyName="Катушечная Винтовка EXALT"
+FriendlyNamePlural="Катушечная Винтовка EXALT"
+BriefSummary="Эта штурмовая винтовка, основанная на технологии катушек, обладает уникальной способностью игнорировать некоторые виды брони. Может быть полезна для наших собственных целей."
+TacticalText="<Bullet/> Катушка автоматически пробивает (игнорирует) 1 вражескую броню.<br/><Bullet/> Стрельба из основного оружия завершает ход солдата, при отсутствии специальной подготовки.\n<Bullet/> Используйте улучшения, извлеченные из врагов Адвента, чтобы улучшить Тактическая эффективность винтовок.<br/>"
+AbilityDescName="штурмовая винтовка"
+
+
+
+
+
+
+[Dark_SniperRifle_MG X2WeaponTemplate]
+FriendlyName="Длинное Копье EXALT"
+FriendlyNamePlural="Длинное Копье EXALT"
+BriefSummary="Эта снайперская винтовка, по-видимому, значительно более высокого качества по сравнению с оружием, которое несут пехотинцы Адвента. Может пригодиться нам, если мы не сможем производить достаточно для всех наших солдат."
+TacticalText="<Bullet/> Для стрельбы из снайперских винтовок обычно требуются оба действия.\n<Bullet/> Они менее точны на близком расстоянии, но смертоносны на расстоянии.\n<Bullet/> Используйте улучшения, добытые у врагов, чтобы повысить тактическую эффективность винтовки Магнитной Длинной Винтовки."
+AbilityDescName="снайперская винтовка"
+
+[Dark_SniperRifle_CG X2WeaponTemplate]
+FriendlyName="Винтовка Гаусса EXALT"
+FriendlyNamePlural="Винтовка Гаусса EXALT"
+BriefSummary="Эта снайперская винтовка, основанная на технологии катушки, обладает уникальной способностью игнорировать некоторую броню. Может быть полезно для наших собственных целей."
+TacticalText="<Bullet/> Катушка автоматически пробивает (игнорирует) 1 броню противника.<br/><Bullet/> Снайперские винтовки обычно требуют обоих действий для стрельбы без специальной подготовки.\n<Bullet/> Они менее точны на близком расстоянии, но смертоносны на расстоянии. .\n<Bullet/> Используйте улучшения, добытые у врагов, чтобы повысить тактическую эффективность длинной винтовки Гаусса."
+AbilityDescName="снайперская винтовка"
+
+
+
+[WeaponFragment X2ItemTemplate]
+FriendlyName="Фрагмент оружия"
+FriendlyNamePlural="Фрагмент оружия"
+BriefSummary="Остатки уничтоженного вражеского оружия. Мы можем спасти то, что сможем, и продать на черном рынке."
+LootTooltip="Это то, что время от времени остается от некоторых видов оружия врагов. Это не используется ни для чего ценного."
+
+
+;character names
+[AdvMec_MOCX X2CharacterTemplate]
+strCharacterName="МЭК EXALT"
+
+[MOCX_Leader X2CharacterTemplate]
+strCharacterName="Командир EXALT"
+
+[DarkSoldier X2CharacterTemplate]
+strCharacterName="Солдат EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkRookie X2CharacterTemplate]
+strCharacterName="Новобранец EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkRookie_M2 X2CharacterTemplate]
+strCharacterName="Грант EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkRookie_M3 X2CharacterTemplate]
+strCharacterName="Солдат EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+
+;start of normal units
+[DarkGrenadier X2CharacterTemplate]
+strCharacterName="EXALT Гренадер"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkSpecialist X2CharacterTemplate]
+strCharacterName="EXALT Специалист"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkRanger X2CharacterTemplate]
+strCharacterName="EXALT Рейнджер"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkSniper X2CharacterTemplate]
+strCharacterName="EXALT Снайпер"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkPsiAgent X2CharacterTemplate]
+strCharacterName="EXALT Пси-агент"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkReclaimed X2CharacterTemplate]
+strCharacterName="Застрельщик EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был застрельщиком, захваченным EXALT и «восстановленным» ими, изменив его воспоминания и внешний вид. Он благодарен за наше последующее освобождение от него и присоединился к XCOM."
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был застрельщиком, захваченным EXALT и «восстановленным» ими, изменив его воспоминания и внешний вид. Он благодарен за наше последующее освобождение от него и присоединился к XCOM."
+
+;advanced variants
+
+[DarkGrenadier_M2 X2CharacterTemplate]
+strCharacterName="Продвинутый EXALT Гренадер"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkSpecialist_M2 X2CharacterTemplate]
+strCharacterName="Продвинутый Специалист EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkRanger_M2 X2CharacterTemplate]
+strCharacterName="Продвинутый Рейнджер EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkSniper_M2 X2CharacterTemplate]
+strCharacterName="Продвинутый Снайпер EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkPsiAgent_M2 X2CharacterTemplate]
+strCharacterName="Продвинутый Пси-агент EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkReclaimed_M2 X2CharacterTemplate]
+strCharacterName="Продвинутый Застрельщик EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был застрельщиком, захваченным EXALT и «восстановленным» ими, изменив его воспоминания и внешний вид. Он благодарен за наше последующее освобождение от него и присоединился к XCOM."
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был застрельщиком, захваченным EXALT и «восстановленным» ими, изменив его воспоминания и внешний вид. Он благодарен за наше последующее освобождение от него и присоединился к XCOM."
+
+;elite variants
+
+[DarkGrenadier_M3 X2CharacterTemplate]
+strCharacterName="Элитный EXALT Гренадер"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkSpecialist_M3 X2CharacterTemplate]
+strCharacterName="Элитный специалист EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkRanger_M3 X2CharacterTemplate]
+strCharacterName="Элитный рейнджер EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkSniper_M3 X2CharacterTemplate]
+strCharacterName="Элитный снайпер EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkPsiAgent_M3 X2CharacterTemplate]
+strCharacterName="Элитный пси-агент EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был захвачен XCOM во время операции. После некоторого допроса и «убедительных» действий они теперь готовы работать на XCOM."  
+
+[DarkReclaimed_M3 X2CharacterTemplate]
+strCharacterName="Элитный Застрельщик EXALT"
+strCharacterBackgroundMale[0]="<XGParam:StrValue1/!FirstName/> был застрельщиком, захваченным EXALT и «восстановленным» ими, изменив его воспоминания и внешний вид. Он благодарен за наше последующее освобождение от него и присоединился к XCOM."
+strCharacterBackgroundFemale[0]="<XGParam:StrValue1/!FirstName/> был застрельщиком, захваченным EXALT и «восстановленным» ими, изменив его воспоминания и внешний вид. Он благодарен за наше последующее освобождение от него и присоединился к XCOM."
+
+;Techs
+
+[RM_BasicPCS X2TechTemplate]
+DisplayName="Создать базовые ПБМ"
+Summary="Используя боевые чипы, разработанные для EXALT, мы сможем превратить их в персональные боевые симуляторы, которые смогут использовать солдаты XCOM. Они будут включать только базовые ПБМ."
+
+[RM_AdvPCS X2TechTemplate]
+DisplayName="Создать продвинутые ПБМ"
+Summary="Используя боевые чипы, разработанные для EXALT, мы сможем перепрофилировать их в персональные боевые симуляторы, которые смогут использовать солдаты XCOM. Они будут включать в себя более продвинутые ПБМ, такие как Восхождение на стену."
+
+[RM_SupPCS X2TechTemplate]
+DisplayName="Создать превосходные ПБМ"
+Summary="Используя боевые чипы, разработанные для EXALT, мы сможем перепрофилировать их в персональные боевые симуляторы, которые смогут использовать солдаты XCOM. Они будут включать в себя окончательные ПБМ, которые мы можем сделать, такие как Мимекрическая кожа."
+
+[RM_ProduceChip X2TechTemplate]
+DisplayName="Создать Боевые чип-фишки"
+Summary="Часть прибыли, которую мы получили от исхода инженерной и исследовательской команды EXALT, — это чертежи боевых чипов EXALT. Это должно позволить нам производить ПБМ с расчетом на будущее."
+
+
+[RM_DecryptChip X2TechTemplate]
+DisplayName="Расшифровка чипа EXALT"
+Summary="EXALT снабдил своих солдат новой усовершенствованной системой чипов, о которой, помню, я только теоретизировал, когда покидал «Адвент». Это, безусловно, объясняет, почему у нас были проблемы со взломом их коммуникаций по сравнению с остальной частью Адвента. Мы можем многого добиться, если посмотрим, каких достижений они достигли."
+CodeName="Персона"
+LongDescription="Система боевых чипов, которую использует персонал EXALT, безусловно, является неожиданным улучшением, которое ADVENT сделала для своих элитных солдат. Возможно, наши предварительные действия заставили их поторопиться с исследованиями и разработками. Однако теперь, когда мы внимательно изучили, как это работает, я должен быть в состоянии адаптировать наш сбор информации для работы с методами шифрования EXALT. Кроме того, я считаю, что Шень может использовать эти чипы для создания персональных боевых симуляторов, которые могут использовать наши собственные войска. Я уверен, что у нее уже есть готовые предложения для вас, коммандир. Р. Тайган."
+AlertString="Боевой чип EXALT"
+
+
+;Dark Events
+[DarkEvent_HealthBoosters X2DarkEventTemplate]
+DisplayName="Генетическое усиление"
+SummaryText="Органические юниты EXALT получают еще три очка здоровья."
+QuoteText="\"Имея доступ ко всему, что инопланетяне могут приготовить, неудивительно, что они начинают создавать «лучшие» версии самих себя.\""
+QuoteTextAuthor="- Старший офицер Брэдфорд"
+PreMissionText="Органические юниты EXALT получают еще три очка здоровья."
+PostMissionSuccessText="Темное Событие нейтрализовано: Генетическое усиление"
+PostMissionFailureText="Не удалось противостоять темному событию: генетическое усиление"
+
+[DarkEvent_CoilTier X2DarkEventTemplate]
+DisplayName="Исследование EXALT:Катушечное оружие"
+SummaryText="EXALT использует передовые технологии на основе катушек для своих солдат."
+QuoteText="\"Даже не имея доступа к плазме, эти койлганы обладают адской мощью, судя по кадрам, которые мы видели.\""
+QuoteTextAuthor="- Шеф Шень"
+PreMissionText="Предоставляет солдатам EXALT более совершенное снаряжение."
+PostMissionSuccessText="Темное событие нейтрализовано: EXALT Катушечное оружие"
+PostMissionFailureText="Не удалось противостоять темному событию: EXALT Катушечное оружие"
+
+
+
+[DarkEvent_SquadSizeI X2DarkEventTemplate]
+DisplayName="Исследование EXALT: Увиличение размера отряда I"
+SummaryText="EXALT повышает грузоподъемность их транспортеров, давая им одного дополнительного солдата на миссии."
+QuoteText="\"Подождите, разве это не было нашей целью в прошлой войне?\""
+QuoteTextAuthor="- Старший офицер Брэдфорд"
+PreMissionText="Увеличивает размер отряда EXALT на 1 единицу."
+PostMissionSuccessText="Темное событие нейтрализовано:EXALT Увиличение размера отряда I"
+PostMissionFailureText="Не удалось противостоять темному событию: EXALT Увиличение размера отряда I"
+
+[DarkEvent_SquadSizeII X2DarkEventTemplate]
+DisplayName="Исследование EXALT: Увиличение размера отряда II"
+SummaryText="EXALT снова повышает грузоподъемность их транспортёров, давая им еще одного солдата на заданиях."
+QuoteText="\"Нет, серьезно, это была наша фишка, не так ли?\""
+QuoteTextAuthor="- Старший офицер Брэдфорд"
+PreMissionText="Увеличивает размер отряда EXALT на одного. Опять таки."
+PostMissionSuccessText="Темное событие нейтрализовано:EXALT Увиличение размера отряда II"
+PostMissionFailureText="Не удалось противостоять темному событию: EXALT Увиличение размера отряда II"
+
+[DarkEvent_ICU X2DarkEventTemplate]
+DisplayName="Исследование EXALT: Отделения интенсивной терапии"
+SummaryText="Адвент строит центры неотложной помощи для EXALT, позволяя солдатам EXALT быстрее вернуться в бой."
+QuoteText="\"Не впечатлило! Мы тоже можем это сделать!\""
+QuoteTextAuthor="- Сержант.Вегета"
+PreMissionText="Солдаты EXALT быстрее восстанавливаются после ран, полученных на поле боя."
+PostMissionSuccessText="Темное событие нейтрализовано: реанимационные отделения EXALT"
+PostMissionFailureText="Не удалось противостоять темному событию: реанимации EXALT"
+
+[DarkEvent_AdvancedMECs X2DarkEventTemplate]
+DisplayName="Исследование EXALT: Расширенная поддержка МЭК"
+SummaryText="EXALT строит МЭК типа SPARK для поддержки в полевых условиях, реквизируя эти МЭК для своих отрядов в полевых условиях."
+QuoteText="\"Похоже, АДВЕНТ наконец-то спас мое старое жилище..\""
+QuoteTextAuthor="- Джулиан"
+PreMissionText="EXALT теперь может размещать МЭК вместе с отрядами в полевых условиях."
+PostMissionSuccessText="Темное событие предотвращено: МЭК EXALT"
+PostMissionFailureText="Не удалось противостоять мрачному событию: EXALT МЭК"
+
+[DarkEvent_GeneticPCS X2DarkEventTemplate]
+DisplayName="Исследование EXALT: Генетические боевые Чипы"
+SummaryText="EXALT еще больше развивает свою технологию боевых чипов, предоставляя своим солдатам более радикальные возможности."
+QuoteText="\"Мне просто нравится использовать кислоту на EXALT парне, который, оказывается, невосприимчив к подобным вещам.\""
+QuoteTextAuthor="- Главный редактор."
+PreMissionText="Солдаты EXALT теперь могут получать более продвинутые боевые чипы для использования в полевых условиях."
+PostMissionSuccessText="Темное событие нейтрализовано: боевые чипы EXALT"
+PostMissionFailureText="Не удалось противостоять темному событию: боевые чипы EXALT"
+
+
+;MISSIONS
+[MOCXFirst X2MissionFlavorTextTemplate]
+FlavorText="MISSING FLAVOR TEXT"
+CouncilSpokesmanSuccessText="Ваш захват объекта пришельцев в <XGParam:StrValue0/!WorldRegionName/> дал нам важные сведения о проекте «Аватар», командир. Ваши сегодняшние действия не оставят сомнений в решимости человечества восстановить контроль над Землей." 
+CouncilSpokesmanFailureText="Командир, ваша неудавшаяся попытка захвата объекта пришельцев в <XGParam:StrValue0/!WorldRegionName/> привела нас к захвату пришельцев, и EXALT. Я все еще верю в ваши способности, но мы должны добиться большего, командир."
+
+[MOCXSecond X2MissionFlavorTextTemplate]
+FlavorText="MISSING FLAVOR TEXT"
+CouncilSpokesmanSuccessText="Изъятие ключевых документов, жизненно важных для EXALT, станет для них большим ударом, коммандир. Будем надеяться, что это означает, что конец проекта Адвента близок.." 
+CouncilSpokesmanFailureText="Командир, ваша неудавшаяся попытка захвата жизненно важных документов пришельцев в <XGParam:StrValue0/!WorldRegionName/> выдала нам их. В следующий раз мы должны сделать лучше."
+
+[MOCXThird X2MissionFlavorTextTemplate]
+FlavorText="MISSING FLAVOR TEXT"
+CouncilSpokesmanSuccessText="Этот успех устранил главный элемент в силовой структуре АДВЕНТА, Командир. Получение главного ученого и инженера EXALT должно дополнительно замедлить АДВЕНТ." 
+CouncilSpokesmanFailureText="Командир, эта неудача не конец, но EXALT будет знать, что произойдет в следующий раз."
+
+[MissionSource_MOCXOffsite X2MissionSourceTemplate]
+BattleOpName="Операция Темные секреты"
+MissionPinLabel="Выносной объект Аватара"
+MissionFlavorText="Этот удаленный инопланетный объект усиленно охраняется АДВЕНТОМ и прикрепленным отрядом EXALT. В то же время это лучшая возможность для захвата техники пришельцев."
+
+[MissionSource_MOCXTraining X2MissionSourceTemplate]
+BattleOpName="Операция "Теневой клинок""
+MissionPinLabel="Тренировочные рейдовые учения"
+MissionFlavorText="Крупномасштабные учения, как правило, не то место, куда мы хотели бы попасть. Однако информация, которую мы собрали, указывает на то, что ключевые документы, жизненно важные для любых будущих усилий против EXALT, будут храниться там в настоящее время."
+
+[MissionSource_MOCXAssault X2MissionSourceTemplate]
+BattleOpName="Операция «Разбитое зеркало»"
+MissionPinLabel="Саботаж Штаба EXALT"
+MissionFlavorText="Теперь у нас есть все шансы победить EXALT: давайте раз и навсегда покончим с этим издевательством над XCOM."
+
+
+
+[Dark_OffsiteStorage X2MissionTemplate]
+DisplayName="Атака на удаленное хранилище резервных копий"
+Briefing="Средство резервного копирования проекта Аватар"
+PostMissionType="Защищенный Объект Аватара"
+BriefingImage="img:///UILibrary_StrategyImages.X2StrategyMap.Alert_Advent_Facility"
+ObjectiveTextPools[0]="Нейтрализуйте все вражеские цели"
+
+[Dark_OffsiteStorage X2MissionNarrativeTemplate]
+ObjectiveTextPools[0]="Нейтрализуйте все вражеские цели, охраняющие объект"
+ObjectiveTextPools[1]="Защитите вражеский объект"
+ObjectiveTextPools[2]="Эвакуируйте всех солдат XCOM"
+
+
+[Dark_TrainingRaid X2MissionNarrativeTemplate]
+ObjectiveTextPools[0]="Нейтрализуйте все вражеские цели, если это возможно"
+ObjectiveTextPools[1]="Загрузите %QUESTITEM% с незащищенной точки доступа"
+ObjectiveTextPools[2]="Эвакуируйте всех солдат XCOM"
+
+[Dark_TrainingRaid X2MissionTemplate]
+DisplayName="Тренировочный рейд"
+Briefing="Взломать компьютер отмеченный в области"
+PostMissionType="Взломать рабочую станцию"
+BriefingImage="img:///UILibrary_StrategyImages.X2StrategyMap.Alert_Advent_Facility"
+ObjectiveTextPools[0]="Взломать компьютер, подключенный к сети EXALT."
+ObjectiveTextPools[1]="Эвакуация при необходимости: миссия будет считаться успешной, если будут получены чертежи."
+
+[Dark_RooftopsAssault X2MissionTemplate]
+DisplayName="Саботаж Штаба EXALT"
+Briefing="Саботаж Штаба EXALT"
+PostMissionType="Саботаж Штаба EXALT"
+BriefingImage="img:///UILibrary_StrategyImages.X2StrategyMap.Alert_Sky_Tower"
+ObjectiveTextPools[0]="Поместите заряды X4 в указанную комнату"
+ObjectiveTextPools[1]="Сбежать из района операций"
+
+[Dark_RooftopsAssault X2MissionNarrativeTemplate]
+ObjectiveTextPools[0]="Заложтье X4, чтобы уничтожить Штаб EXALT"
+ObjectiveTextPools[1]="Эвакуируйте всех солдат XCOM"
+ObjectiveTextPools[2]="Вызовите небесного рейнджера и вытащите всех солдат, чтобы завершить эту миссию."
+
+
+[RM_HQBluePrint X2QuestItemTemplate]
+FriendlyName="Чертежи штаба EXALT"
+FriendlyNamePlural="Чертежи штаба EXALT"
+LootTooltip="Подробные чертежи Штаба EXALT, взятые из их сетей.."
+
+;;;;;;;;;;;;;;;;;;;;  TACTICAL LOC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;PCSes and Abilities
+
+[LongJumpPCS X2EquipmentTemplate]
+FriendlyName="ПБМ: Восхождение на стену"
+FriendlyNamePlural="ПБМ: Восхождение на стену"
+BriefSummary="Этот генетический имплантат позволяет солдату карабкаться по стенам, что позволяет ему беспрепятственно перемещаться по крышам и по земле под ними."
+
+[MimeticSkinPCS X2EquipmentTemplate]
+FriendlyName="ПБМ: Мимикрическая Кожа"
+FriendlyNamePlural="ПБМ: Мимикрическая Кожа"
+BriefSummary="Этот генетический имплантат позволяет солдату слиться с окружающей средой, когда рядом нет врагов, чтобы повысить уровень адреналина, позволяя ему снова спрятаться, когда он находится в полном укрытии."
+
+
+[RM_ControlChip X2ItemTemplate]
+FriendlyName="Персональный боевой чип EXALT"
+FriendlyNamePlural="Персональный боевой чип EXALT"
+BriefSummary="То, что мы сохранили от человеческих трупов сотрудников EXALT: их имплантаты могут быть полезны XCOM."
+
+
+;abilities
+[OddNerfOne X2AbilityTemplate]
+LocFriendlyName="Необычная взрывозащита"
+LocLongDescription="20% снижение урона от взрывов автомобилей."
+LocHelpText="20% снижение урона от взрывов автомобилей."
+
+[OddNerfTwo X2AbilityTemplate]
+LocFriendlyName="Взрывозащита Оддера"
+LocLongDescription="Уменьшение урона от взрывов автомобилей на 40%."
+LocHelpText="Уменьшение урона от взрывов автомобилей на 40%."
+
+[OddNerfThree X2AbilityTemplate]
+LocFriendlyName="Странная защита от взрывов"
+LocLongDescription="50% снижение урона от взрывов автомобилей."
+LocHelpText="50% снижение урона от взрывов автомобилей."
+
+[ExecuteMOCX X2AbilityTemplate]
+LocFriendlyName="Добить"
+LocLongDescription="Добить истекающую кровью единицу."
+LocHelpText="Добить истекающую кровью единицу."
+LocFlyOverText="Добивание!"
+
+[DarkEventAbility_HealthBoost X2AbilityTemplate]
+LocFriendlyName="Темное событие: повышение здоровья"
+LocLongDescription="Боевые единицы EXALT получают три дополнительных очка здоровья.."
+LocHelpText="Боевые единицы EXALT получают три дополнительных очка здоровья."
+LocFlyOverText="Темное событие: повышение здоровья"
+
+
+[RM_DarkEvac X2AbilityTemplate]
+LocFriendlyName="Эвакуация!"
+LocLongDescription="Эвакуация с поля боя."
+LocHelpText="Эвакуация с поля боя."
+LocFlyOverText="Вызов эвакуации"
+
+[RM_DarkAutoEvac X2AbilityTemplate]
+LocFriendlyName="Эвакуация!"
+LocLongDescription="Эвакуация с поля боя."
+LocHelpText="Эвакуация с поля боя."
+LocFlyOverText="Вызов эвакуации"
+
+[RM_EvacTeleport X2AbilityTemplate]
+LocFriendlyName="Эвакуация!"
+LocLongDescription="Эвакуация с поля боя."
+LocHelpText="Эвакуация с поля боя."
+LocFlyOverText="Эвакуация!"
+
+[RM_FakeBleedout X2AbilityTemplate]
+LocFriendlyName="стойкость к спец-операциям"
+LocLongDescription="Есть шанс просто быть оглушенным до конца миссии вместо того, чтобы быть убитым."
+LocHelpText="Есть шанс просто быть оглушенным до конца миссии вместо того, чтобы быть убитым."
+LocFlyOverText="Истекает кровью!"
+
+[RM_FakeBleedoutTriggered X2AbilityTemplate]
+LocFriendlyName="стойкость к спец-операциям"
+LocLongDescription="Есть шанс просто быть оглушенным до конца миссии вместо того, чтобы быть убитым."
+LocHelpText="Есть шанс просто быть оглушенным до конца миссии вместо того, чтобы быть убитым."
+LocFlyOverText="Истекает кровью!"
+
+[RM_LongJump X2AbilityTemplate]
+LocFriendlyName="Восхождение на стену"
+LocFlyOverText="Восхождение на стену"
+LocLongDescription="Беспрепятственно перемещайтесь по крышам без лестниц, столбов и т. д., пока есть стена."
+LocHelpText="Беспрепятственно перемещайтесь по крышам без лестниц, столбов и т. д., пока есть стена."
+LocPromotionPopupText="<Bullet/> Беспрепятственно перемещайтесь по крышам без лестниц, столбов и т. д..<br/>"
+
+[RM_MimeticSkin X2AbilityTemplate]
+LocFriendlyName="Мимикрическая кожа"
+LocFlyOverText="Мимикрическая кожа"
+LocLongDescription="Повторно скрывайтесь при переходе в полное укрытие, когда вокруг нет врагов."
+LocHelpText="Повторно скрывайтесь при переходе в полное укрытие, когда вокруг нет врагов."
+LocPromotionPopupText="<Bullet/> Повторно скрывайтесь, когда переходите в полное укрытие, когда вокруг нет врагов..<br/>"
+
+[RM_Intimidate X2AbilityTemplate]
+LocFriendlyName="Запугать"
+LocLongDescription="При атаке противник имеет шанс запаниковать."
+LocHelpText="При атаке противник имеет шанс запаниковать."
+LocFlyOverText="запугать"
+LocPromotionPopupText="<Bullet/> Шанс запугивания напугать атакующего увеличивается с использованием SPARK доспехов более высокого уровня.<br/><Bullet/> Запугивание может быть вызвано атаками ближнего боя и атаками по области.<br/><Bullet/> Запугивание не сработает, если цель находится под огнем НАБЛЮДЕНИЯ.<br/>"
+
+[RM_IntimidateTrigger X2AbilityTemplate]
+LocFriendlyName="Запугать"
+LocLongDescription="При атаке у всех видимых противников есть шанс запаниковать."
+LocHelpText="При атаке у всех видимых противников есть шанс запаниковать."
+LocFlyOverText="Запугать"
+LocPromotionPopupText=""
+LocMissMessage="Не удалось Запугать"
+
+[Reward_MOCXCancelProject X2RewardTemplate]
+DisplayName="Остановить Иследрования EXALT"
+RewardDetails="Помешать EXALT завершить проект по обновлению себя"
+
+[Reward_MOCXOffsite X2RewardTemplate]
+DisplayName="Разведать удаленное предприятие проэкта Аватар"
+RewardDetails="Разблокируйте миссию по рейду на удаленное предприятие, связанное с проектом "Аватар"."
+
+[Reward_MOCXTraining X2RewardTemplate]
+DisplayName="Разведать место тренировочных учений EXALT"
+RewardDetails="Разблокируйте миссию по краже важных документов во время учений"
+
+[Reward_MOCXAssault X2RewardTemplate]
+DisplayName="Разведать нахождение Штаба EXALT"
+RewardDetails="Разблокируйте миссию, чтобы остановить EXALT раз и навсегда."
+
+[CovertAction_MOCXAssault X2CovertActionTemplate]
+ActionObjective="Разведать нахождение Штаба EXALT"
+
+[CovertAction_MOCXTraining X2CovertActionTemplate]
+ActionObjective="Разведать место тренировочных учений EXALT"
+
+[CovertAction_MOCXOffsite X2CovertActionTemplate]
+ActionObjective="Разведать удаленное предприятие проэкта Аватар"
+
+[CovertAction_MOCXCancelProject X2CovertActionTemplate]
+ActionObjective="Остановить Иследрования EXALT"
+
+[CovertActionNarrative_MOCXOffsite X2CovertActionNarrativeTemplate]
+ActionName="Разведать удаленное предприятие проэкта Аватар"
+ActionPreNarrative="Эта инициатива \"EXALT\" становится проблемой для Сопротивления, и нам нужно работать с фракциями, чтобы победить их. Один из них узнал местонахождение объекта, связанного с проектом «Аватар», отряд EXALT охраняет его, и ему нужна наша помощь в проведении разведки."
+ActionPostNarrative="Мы многое узнали об этом сооружении: теперь у нас есть шанс взять его в свои руки."
+
+[CovertActionNarrative_MOCXTraining X2CovertActionNarrativeTemplate]
+ActionName="Разведать место тренировочных учений EXALT"
+ActionPreNarrative="С нашими недавними победами над EXALT мы должны продолжать наступление на них. Поскольку они проводят крупномасштабные боевые действия в городах, вполне вероятно, что они сохранят локальные копии ценных данных, которые нам нужно получить."
+ActionPostNarrative="Фракция, с которой мы работали, подтвердила наличие ценной информации: мы должны захватить ее, пока еще можем."
+
+[CovertActionNarrative_MOCXAssault X2CovertActionNarrativeTemplate]
+ActionName="Подготовьтесь к атаке на Штаб EXALT"
+ActionPreNarrative="Найденные нами чертежи дали нам ключи к домашней базе EXALT: теперь нам нужно убедиться, что воздушное пространство будет свободным для прибытия Файербранда. После этого X4 в нужном месте должен положить конец этой Инициативе раз и навсегда."
+ActionPostNarrative="Фракция, с которой мы работали, запрещает любую попытку проникновения по воздуху, и все, что нам нужно, это ваше согласие на выполнение миссии, командир."
+
+[CovertActionNarrative_MOCXCancelProject X2CovertActionNarrativeTemplate]
+ActionName="Остановить Иследрования EXALT"
+ActionPreNarrative="Фракции удалось пронюхать о проекте обновления, который EXALT ведет самостоятельно, отдельно от более крупной цепочки подчинения Адвента. Мы должны закрыть его, быстро."
+ActionPostNarrative="Проект успешно остановлен: им понадобится время, чтобы повторить попытку."
+
+[RM_Vanish X2AbilityTemplate]
+LocFriendlyName="Исчезновение"
+LocLongDescription="Солдат прячется от врагов."
+LocHelpText="Солдат прячется от врагов."
+LocFlyOverText="Скрылся!"
+
+[RM_VanishPhantom X2AbilityTemplate]
+LocFriendlyName="Фантом"
+LocLongDescription="Этот солдат начинает скрываться в начале миссии"
+LocHelpText="Этот солдат начинает скрываться в начале миссии"
+LocFlyOverText="Фантом"
+
+
+[RM_VanishReveal X2AbilityTemplate]
+LocFriendlyName="Раскрыт"
+LocFlyOverText="Раскрытый!"
+LocHelpText="Раскрвывет этого юнита врагу. Это происходит автоматически, если действия выполняются при исчезновении."
+LocLongDescription="Раскрвывет этого юнита врагу. Это происходит автоматически, если действия выполняются при исчезновении."
+
+
+[ResAct_MOCXMissionCompleted X2ResistanceActivityTemplate]
+DisplayName="Операция против EXALT завершена:"
+
+[ResAct_MOCXMissionFailed X2ResistanceActivityTemplate]
+DisplayName="Неудачная операция против EXALT:"
+
+
+[FearOfMOCX X2TraitTemplate]
+TraitFriendlyName ="Страх перед EXALT"
+TraitScientificName="Антрофобия"
+TraitDescription ="Шанс запаниковать при встрече с солдатом EXALT."
+TraitQuotes[0]="\"Я подписывался убивать пришельцев, а не людей.\""
+TraitQuotes[1]="\"Они могут найти нас, не важно, куда мы бежим.\""
+TraitQuotes[2]="\"Похоже, они точно знают, как мы работаем..\""
+TraitQuotes[3]="\"Я не хотел, чтобы на моих руках была красная кровь..\""
+TraitQuotes[4]="\"Сколько еще мы можем принять ?!\""
+
+[FearOfMOCXPassive X2AbilityTemplate]
+LocFriendlyName="Страх перед EXALT"
+LocLongDescription="Этот юнит может запаниковать при встрече с EXALT в бою."
+
+
+[MOCXMissions X2EncyclopediaTemplate]
+ListTitle="Остановка EXALT"
+DescriptionTitle="Остановка EXALT"
+DescriptionEntry="Оперативная группа, посвященная их остановке, — это не то, что нужно XCOM, особенно если она опережает ее в технологическом плане и способна выиграть бой на истощение. Их главный штаб в настоящее время непроницаем для нас, но с фракциями и временем мы сможем найти способ остановить их навсегда с помощью Тайных действий."
+
+[MOCXOperations X2EncyclopediaTemplate]
+ListTitle="EXALT"
+DescriptionTitle="EXALT"
+DescriptionEntry="По мере того, как XCOM набирает силу, Коалиция «АДВЕНТ» в конечном итоге отреагирует формированием специализированной «антитеррористической» оперативной группы, известной как EXALT, состоящей из спецподразделений людей. Эти силы могут появляться в миссиях, в которых участвует XCOM, с вероятностью, определяемой тем, сколько миссий XCOM выполнил, не сталкиваясь с ними. Миссия, в которой они появятся, будет обозначена SITREP."
+
+[MOCXProjects X2EncyclopediaTemplate]
+ListTitle="Проэкты EXALT"
+DescriptionTitle="Проэкты EXALT"
+DescriptionEntry="В дополнение к Темным событиям, EXALT может тайно работать над улучшениями самостоятельно. Они более скрытны и скрыты от XCOM: фракции будут единственным способом обнаружить и остановить эти проекты."
+
+[MOCXCaptures X2EncyclopediaTemplate]
+ListTitle="Захват EXALT"
+DescriptionTitle="Захват EXALT"
+DescriptionEntry="Имея доступ к технологиям fulton из других источников, мы потенциально могли бы привлечь солдат EXALT на нашу сторону, если сможем оглушить их и подобраться достаточно близко, чтобы прикрепить к ним fulton. Однако они не всегда переживут это: солдаты более высокого ранга, как правило, получают доступ к таблеткам для самоубийства, хотя нанесение им достаточных травм перед попыткой fulton может помешать солдату использовать их."
+
+
+[Header_MOCX X2EncyclopediaTemplate]
+ListTitle="EXALT"
+
