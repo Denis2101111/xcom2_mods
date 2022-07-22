@@ -1,6 +1,6 @@
 [XGLocalizedData_TacUI]
 CategoryFilterTitle="Категории"
-TechFilterTitle="Тех. уровени"
+TechFilterTitle="Тех. уровни"
 SortTitle="Сортировка"
 
 
@@ -25,7 +25,7 @@ ItemCategorySawedoffshotgun="Обрезы"
 ItemCategoryLWGauntlet="XCOM-перчатки"
 ItemCategoryEmpty="Пустое"
 ItemCategoryUtility="Утилиты"
-ItemCategoryTech="Тех. уровени"
+ItemCategoryTech="Тех. уровни"
 ItemCategoryConventional="Традиционные"
 ItemCategoryPlated="Обшивки"
 ItemCategoryPowered="Силовые"
