@@ -1,0 +1,32 @@
+;Place localized text in this file
+[MZBulletMeister X2SoldierClassTemplate]
+DisplayName = "Мастер пуль"
+ClassSummary = "Мастер пуль использует множество элементарных пулевых искусств с ценными вторичными эффектами."
+AbilityTreeTitles[0]="Сила"
+AbilityTreeTitles[1]="Агония"
+AbilityTreeTitles[2]="Поддержка"
+AbilityTreeTitles[3]="XCom"
+
+RandomNickNames[0]="Artist"
+RandomNickNames[1]="Virtuoso"
+RandomNickNames[2]="Prodigy"
+RandomNickNames[3]="Ace"
+RandomNickNames[4]="Crackerjack"
+RandomNickNames[5]="Hotshot"
+RandomNickNames[6]="Big Cheese"
+RandomNickNames[7]="Bullet Saint"
+RandomNickNames[8]="Meister"
+RandomNickNames[9]="Shark"
+RandomNickNames[10]="Blast Calibre"
+RandomNickNames[11]="Old Hand"
+RandomNickNames[12]="Village Idiot"
+RandomNickNames[13]="Knack"
+
+RandomNickNames_Male[0]="Kingfish"
+
+RandomNickNames_Female[0]="Bullet Angel"
+
+[MZBulletMeisterGTSUnlock X2SoldierAbilityUnlockTemplate]
+DisplayName="Мастер пуль: Разрывные пули"
+Summary="Все пулевые искусства Мастера пуль поражают множество врагов вокруг их основной цели."
+
