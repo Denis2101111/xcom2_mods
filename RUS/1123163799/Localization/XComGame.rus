@@ -1,0 +1,11 @@
+[PreviewLOS X2AbilityTemplate]
+LocFriendlyName="Показать обзор с точки"
+LocHelpText="Используйте курсор для просмотра обзора с текущей клетки."
+
+[PreviewMovement X2AbilityTemplate]
+LocFriendlyName="Показать движения"
+LocHelpText="Используйте для просмотра возможного перемещения вражеского юнита за ход."
+
+[PreviewBodyLocation X2AbilityTemplate]
+LocFriendlyName="Показать трупы"
+LocHelpText="Используйте для показа мест нахождения трупов."
