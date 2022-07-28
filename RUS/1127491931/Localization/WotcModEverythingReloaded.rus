@@ -1,0 +1,5 @@
+[UISL_Armory_WeaponUpgrade]
+m_strCustomizeWeaponName="Наименование оружия"
+
+[UIArmory_EquipmentSelect]
+m_strListTitle="УЛУЧШЕНИЕ ОСНАЩЕНИЯ"
