@@ -1,0 +1,12 @@
+[Infirmary_GeneModdingChamber X2FacilityUpgradeTemplate]
+DisplayName="Камера генетических модификаций"
+FacilityName="Лазарет"
+Summary="Модернизирует Лазарет с помощью камеры генетической модификации, которую можно использовать для неэтичной модификации юнитов на генетическом уровне.."
+
+[GeneModdingChamberSoldierStaffSlot X2StaffSlotTemplate]
+EmptyText="ОТКРЫТО: ТРЕБУЕТСЯ СОЛДАТ"
+BonusEmptyText="Начать Генетическую Модификацию."
+BonusDefaultText="ГЕНЕТИЧЕКАЯ МОДИФИКАЦИЯ"
+BonusText="%SKILL УСТАНОВКА"
+FilledText="%UNITNAME проходит операцию по генетической модификации!"
+LockedText="ЗАБЛОКИРОВАНО: ПОКУПКА ОБНОВЛЕНИЯ"
