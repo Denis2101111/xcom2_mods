@@ -344,6 +344,9 @@ FriendlyName = "Легендарный"
 
 [X2EventListener_TLM]
 strSlotLocked = "ЗАКРЫТО"
+strAmmoEquipped = "Обнаружены служебные боеприпасы"
+strAmmoEquippedMessage = "<WEAPON_NAME> имеет <AMMOUPGRADE_NAME> улучшайте и не наследуйте эффекты боеприпасов от экипированного <AMMO_NAME>. <AMMO_NAME> все равно повлияет на другое оснащенное оружие без обновления боеприпасов."
+strAmmoUpgradeExistMessage = "Экипированный <AMMO_NAME> не будет применять свои эффекты к <WEAPON_NAME> из-за прилагаемых <AMMOUPGRADE_NAME> улучшений."
 
 [X2DownloadableContentInfo_TeslaLootMod]
 
@@ -598,6 +601,7 @@ CatLabels[eCat_SparkShield]="Щит Искры"
 CatLabels[eCat_Canister]="Канистра"
 CatLabels[eCat_Arcthrower]="Дугомет"
 CatLabels[eCat_SawedOffShotgun]="Обрез"
+CatLabels[eCat_HoloTargeter]="Целеуказатель"
 CatLabels[eCat_Armor]="Броня"
 CatLabels[eCat_Medikit]="Аптечка"
 CatLabels[eCat_Rando]="Случаное"
@@ -626,6 +630,7 @@ CatDescriptions[eCat_SparkShield] = "Версия тактического баллистического щита ра
 CatDescriptions[eCat_Canister] = "Топливные баки с большим количеством жидких реагентов."
 CatDescriptions[eCat_Arcthrower] = "Позволяет оглушать врагов на расстоянии."
 CatDescriptions[eCat_SawedOffShotgun] = "Мощное, хотя и малотоннажное, вторичное оружие."
+CatDescriptions[eCat_HoloTargeter] = "Подсвечивает противников, чтобы обеспечить остальным членам отряда бонус к меткости против них."
 CatDescriptions[eCat_Armor] = "Обеспечивает некоторую защиту от оружия пришельцев и инопланетян."
 CatDescriptions[eCat_Medikit] = "Полезный предмет для заживления мелких ран в полевых условиях."
 CatDescriptions[eCat_Rando] = "\n\n\n\n\n\nЯ не хочу выбирать, я хороший. Просто дай мне совершенно случайный предмет."
@@ -652,8 +657,9 @@ CatImages[eCat_CombatKnife]="UILibrary_InvCatImages.Inv_CombatKnife_TLM"			;"Com
 CatImages[eCat_Shield]="UILibrary_InvCatImages.Inv_Shield_TLM"						;"Shield"
 CatImages[eCat_SparkShield]="UILibrary_InvCatImages.Inv_SparkShield_TLM"			;"Spark Shield"
 CatImages[eCat_Canister]="UILibrary_InvCatImages.oInv_Canister_TLM"					;"Canister"
-CatImages[eCat_Arcthrower]="UILibrary_Common.HackReward_unlockDoor"					;"ArcThrower"
-CatImages[eCat_SawedOffShotgun]="UILibrary_Common.HackReward_unlockDoor"			;"Sawed-Off Shotgun"
+CatImages[eCat_Arcthrower]="UILibrary_InvCatImages.Inv_Arcthrower_TLM"				;"ArcThrower"
+CatImages[eCat_SawedOffShotgun]="UILibrary_InvCatImages.Inv_SawedOff_TLM"			;"Sawed-Off Shotgun"
+CatImages[eCat_HoloTargeter]="UILibrary_InvCatImages.Inv_HoloTargeter_TLM"			;"Holotargeter"
 CatImages[eCat_Armor]="UILibrary_InvCatImages.Inv_Armor_TLM"						;"Armor"
 CatImages[eCat_Medikit]="uilibrary_strategyimages.GTS.GTS_StayWithMe"				;"Medikit"
-CatImages[eCat_Rando]="UILibrary_InvCatImages.Inv_Random_TLM"						;"Random"
+CatImages[eCat_Rando]="UILibrary_InvCatImages.zInv_Random_TLM"						;"Random"

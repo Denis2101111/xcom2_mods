@@ -239,4 +239,98 @@ FriendlyNamePlural="Модуль тандемных боеголовок"
 BriefSummary="Ваши гранаты и ракеты наносят полный урон юнитам в максимальной степени их зоны действия."
 TinySummary="нет снижения урона от снарядов"
 
+[TLMUpgrade_Shadowstrike X2WeaponUpgradeTemplate]
+FriendlyName="Модуль теневого шага"
+FriendlyNamePlural="Модули теневого шага"
+BriefSummary="Находясь в укрытии, получайте бонусную меткость и бонусный шанс критического удара при атаке на врагов."
+TinySummary="бонус к точности и к криту под маскировкой"
 
+[TLMUpgrade_Blademaster X2WeaponUpgradeTemplate]
+FriendlyName="Модуль мастера клинка"
+FriendlyNamePlural="Модули мастера клинка"
+BriefSummary="Дополнительный урон и меткость при всех атаках ближнего боя."
+TinySummary="+меткость, +урон"
+
+[TLMUpgrade_Squadsight X2WeaponUpgradeTemplate]
+FriendlyName="Модуль прицеливания отряда"
+FriendlyNamePlural="Модули прицеливания отряда"
+BriefSummary="Вы можете нацеливаться на врагов в пределах видимости товарищей по отряду, при условии, что цель находится в прямой видимости."
+TinySummary="дает прицеливание отряда"
+
+[TLMUpgrade_BetweenTheEyes X2WeaponUpgradeTemplate]
+FriendlyName="Модуль охотника на приведений"
+FriendlyNamePlural="Модули охотника на приведений"
+BriefSummary="Выстрелы против странников гарантированно наносят смертельный урон."
+TinySummary="Убийство странников"
+
+[TLMUpgrade_Execute X2WeaponUpgradeTemplate]
+FriendlyName="Колун добивания"
+FriendlyNamePlural="Колуны добивания"
+BriefSummary="Выполните убийство на соседнем оглушенном враге."
+TinySummary="Убийство оглушенного врага рядом"
+
+[TLMUpgrade_SKV_Flux_Immunity X2WeaponUpgradeTemplate]
+FriendlyName="Защитная обшивка"
+FriendlyNamePlural="Защитные обшивки"
+BriefSummary="Невосприимчивость к Дезориентации, Оглушению и Потере сознания."
+TinySummary="Невосприимчивость к Дезориентации, Оглушению и Потере сознания."
+
+[TLMUpgrade_WOTC_APA_Sedate X2WeaponUpgradeTemplate]
+FriendlyName="Умное седативное"
+FriendlyNamePlural="Умные седативные средства"
+BriefSummary="При использовании Метателя Дуги для оглушения союзника эффект оглушения всегда будет применяться на минимальную продолжительность и не будет применять никаких дополнительных негативных эффектов. Любые активные эффекты контроля сознания на цели будут устранены, когда действие оглушения прекратится."
+TinySummary="оглушение для снятия контроля разума"
+
+[TLMUpgrade_WOTC_APA_AntiVenomStims X2WeaponUpgradeTemplate]
+FriendlyName="Противоядие"
+FriendlyNamePlural="Противоядия"
+BriefSummary="Обеспечивает иммунитет к ядам и устраняет активные эффекты яда у ближайших союзников"
+TinySummary="Иммунитет к ядам, Удаляет яд из ближайших союзников"
+
+[TLMUpgrade_WOTC_APA_CombatStimulants X2WeaponUpgradeTemplate]
+FriendlyName="Боевые Стимуляторы"
+FriendlyNamePlural="Боевые Стимуляторы"
+BriefSummary="Солдат может использовать заряды аптечки для применения Боевого стимулятора, значительно повышающего боевую эффективность союзника на несколько ходов.."
+TinySummary="баффы союзникам"
+
+[TLMUpgrade_WOTC_APA_ProtocolPackages X2WeaponUpgradeTemplate]
+FriendlyName="Протокол ABC"
+FriendlyNamePlural="Протоколы ABC"
+BriefSummary="Набор пакетов протоколов для Gremlin"
+TinySummary="Помощь, Слепота и Боевой протокол"
+
+[TLMUpgrade_WOTC_APA_RemoteRepair X2WeaponUpgradeTemplate]
+FriendlyName="Протокол удаленного восстановления"
+FriendlyNamePlural="Протоколы удаленного восстановления"
+BriefSummary="Отправьте Гремлина починить механического союзника"
+TinySummary="ремонтный механический союзник"
+
+[TLMUpgrade_TLMUpgrade_IRI_Rider_Guard X2WeaponUpgradeTemplate]
+FriendlyName="Защитный модуль"
+FriendlyNamePlural="Защитные модуль"
+BriefSummary="Защититесь от следующей входящей атаки, снижая ее эффективность."
+TinySummary="Снизить эффективность вражеской атаки"
+
+[TLMUpgrade_MusashiCleaveT1 X2WeaponUpgradeTemplate]
+FriendlyName="Модуль разрушения стен"
+FriendlyNamePlural="Модули разрушения стен"
+BriefSummary="Нанесите мощный удар по всем целям в маленьком конусе. Также хорошо подходит для разрушения стен или разрушения покрытия."
+TinySummary="Разрушение стен"
+
+[TLMUpgrade_MusashiLightningAxeStrikeT1 X2WeaponUpgradeTemplate]
+FriendlyName="Модуль быстрого удара"
+FriendlyNamePlural="Модули быстрого удара"
+BriefSummary="Атакуйте любого врага в пределах досягаемости синего движения своим оружием ближнего боя. Эта атака не стоит очка действия."
+TinySummary="Свободная атака в ближнем бою в синем диапазоне"
+
+[TLMUpgrade_MusashiButcher X2WeaponUpgradeTemplate]
+FriendlyName="Модуль Кровожадности"
+FriendlyNamePlural="Модули Кровожадности"
+BriefSummary="Наносит +3 урона органическим врагам"
+TinySummary="+Урон животным"
+
+[TLMUpgrade_MusashiBluescreen X2WeaponUpgradeTemplate]
+FriendlyName="Модуль плазменного лезвия"
+FriendlyNamePlural="Модули плазменного лезвия"
+BriefSummary="Наносит +5 урона роботам-врагам"
+TinySummary="+Урон от роботов-врагов"
