@@ -1,0 +1,21 @@
+[X2Ability_IRI_GeneMods]
+SecondaryHeartTitle="Второе сердце"
+SecondaryHeartFlyover="Восстановление кровотока..."
+SecondaryHeartMessage="Кровоток восстановлен."
+
+CheetahSightRangeBonusTitle="Глаза гепарда"
+CheetahSightRangeBonusDesc="Вливание генов гепарда приводит к тому, что у этого солдата улучшается дальность обзора в течение дня."
+CheetahSightRangePenaltyTitle="Глаза гепарда"
+CheetahSightRangePenaltyDesc="Вливание генов гепарда приводит к тому, что у этого солдата ухудшается дальность обзора ночью."
+
+LizardReflexPenaltyTitle="Хладнокровный"
+LizardReflexPenaltyDesc="Вливание генов саламандры заставляет этого солдата страдать от различных наказаний в холодной или жаркой среде."
+
+[X2Effect_IRI_CheetahGenes_Penalty]
+CheetahRecoveryFlyover="Гены гепарда: "
+CheetahPenaltyFlyover="Гены гепарда: "
+CheetahFullRecoveryFlyover="Хорошо Отдохнувший"
+
+[X2Effect_IRI_CheetahGenes]
+CheetahSightRangePenaltyFlyover="Дальность прицела: -2"
+CheetahSightRangeBonusFlyover"Дальность прицела: +2"
