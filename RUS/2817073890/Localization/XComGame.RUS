@@ -527,49 +527,49 @@ LocHelpText="ВСББ-патроны дают <font color='#5CD16C'>2</font> пробивания брони и
 LocLongDescription="ВСББ-патроны дают <font color='#5CD16C'>2</font> пробивания брони и уменьшают защиту от укрытия на <font color='#5CD16C'>8</font>. Но при этом шанс критического попадания снижается на <font color='#cc2424'>30%</font>, а критический урон - на <font color='#cc2424'>1</font>."
 
 [IgnitionRounds X2AbilityTemplate]
-LocFriendlyName="Ignition Rounds"
-LocHelpText="Ignition rounds cause the target to burn for two damage a turn, however shot damage is reduced by one point."
-LocLongDescription="Ammunition designed Ignite the target on contact, burning for two fire damage a turn. However, shot damage is reduced by one point."
+LocFriendlyName="Патроны зажигания"
+LocHelpText="Зажигательные снаряды заставляют цель гореть на два урона за ход, однако урон от выстрела уменьшается на одно очко."
+LocLongDescription="Боеприпасы, предназначенные для воспламенения цели при попадании, сгорают на два урона от огня за ход. Однако урон от выстрела уменьшается на одно очко."
 
 [HighCalDamage X2AbilityTemplate]
-LocFriendlyName="High Cal Damage"
-LocHelpText="Shots with High Cal Ammo cause substantially more damage proportional to the weapons base damage."
-LocLongDescription="Shots with High Cal Ammo cause substantially more damage proportional to the weapons base damage."
+LocFriendlyName="Патроны крупного калибра"
+LocHelpText="Выстрелы с высококалиберными боеприпасами наносят значительно больший урон, пропорциональный базовому урону оружия."
+LocLongDescription="Выстрелы с высококалиберными боеприпасами наносят значительно больший урон, пропорциональный базовому урону оружия."
 
 [HiCalRecoil X2AbilityTemplate]
-LocFriendlyName="High Caliber Recoil"
-LocHelpText="Each shot after the first each turn suffers a stacking aim penalty. Each shot also drains 1 will."
-LocLongDescription="Each shot after the first each turn suffers a stacking aim penalty. The penalty increases by -20. Each shot also drains 1 will."
+LocFriendlyName="Отдача большого калибра"
+LocHelpText="За каждый выстрел после первого хода начисляется штраф за прицельную стрельбу. Каждый выстрел также истощает 1 волю."
+LocLongDescription="За каждый выстрел после первого хода начисляется штраф за прицельную стрельбу. Штраф увеличивается на -20. Каждый выстрел также истощает 1 волю."
 
 [HEAmmoDamageHeavy X2AbilityTemplate]
-LocFriendlyName="HE Ammo Damage"
-LocHelpText="Adds 1 shred for cannons, Spark autocannons and sniper rifles."
-LocLongDescription="Adds 1 shred for cannons, Spark autocannons and sniper rifles."
+LocFriendlyName="HE патроны"
+LocHelpText="Добавляет 1 осколок для пушек, автоматических пушек Искры и снайперских винтовок."
+LocLongDescription="Добавляет 1 осколок для пушек, автоматических пушек Искры и снайперских винтовок."
 
 [HEAmmoDamageLight X2AbilityTemplate]
-LocFriendlyName="HE Ammo Damage Light Ordinance"
-LocHelpText="Reduces damage by one for pistols and autopistols."
-LocLongDescription="Reduces damage by one for pistols and autopistols."
+LocFriendlyName="HE патроны легкого оружия"
+LocHelpText="Уменьшает урон на единицу для пистолетов и автопистолетов."
+LocLongDescription="Уменьшает урон на единицу для пистолетов и автопистолетов."
 
 [SavStunAmoAbility X2AbilityTemplate]
-LocFriendlyName="X-STUN Ammo"
-LocHelpText="Has a good chance of stunning enemies on a hit."
-LocLongDescription="Attacks with this ammo have a 40% possibly of stunning organics and a 60% chance for stunning mech for 1 AP."
+LocFriendlyName="X-Стан патроны"
+LocHelpText="Имеет хорошие шансы оглушить врагов при попадании."
+LocLongDescription="Атаки с этим боеприпасом имеют 40%-ную вероятность оглушения органики и 60%-ную вероятность оглушения меха на 1 действие."
 
 [AAJAmmoBonus X2AbilityTemplate]
-LocFriendlyName="AA Jacketed Rounds"
-LocHelpText="Increases crit chance and damage, as well as providing armour piercing."
-LocLongDescription="Alien Alloy Jacketed Rounds (AAJ rounds) increase crit chance and damage, as well as providing armour piercing."
+LocFriendlyName="AA пробивные патроны"
+LocHelpText="Увеличивает шанс нанесения крита и урона, а также обеспечивает бронепробиваемость."
+LocLongDescription="Патроны с оболочкой из инопланетного сплава (AAJ-патроны) увеличивают шанс крита и урон, а также обеспечивают бронепробиваемость."
 
 [AAJDEAmmoBonus X2AbilityTemplate]
-LocFriendlyName="AAJDE Rounds"
-LocHelpText="Grants armour shred, crit damage and armour piercing."
-LocLongDescription="Alien Alloy Jacketed, Depleted Elerium Rounds (AJDE rounds) grants armour shred, crit damage and armour piercing. High caliber weapons such as sniper rifles and cannons also gain increased shred"
+LocFriendlyName="AAJDE патроны"
+LocHelpText="Дает разрыв брони, критический урон и пробивание брони."
+LocLongDescription="Снаряды с обедненным элериумом в оболочке из сплава пришельцев (снаряды AJDE) разрушают броню, наносят критический урон и пробивают броню. Крупнокалиберное оружие, такое как снайперские винтовки и пушки, также получает повышенный урон"
 
 [CoverPiercing X2AbilityTemplate]
-LocFriendlyName="Cover Piercing Ammo"
-LocHelpText="These rounds pierce cover and armour effectivly. Targets in Full or Half cover, have their cover bonus reduced. Shots against targets which are in half or no cover will also have bonus AP +1 and +2 respectively. Sniper and Vektor rifles also gain a small +1 bonus to AP."
-LocLongDescription="These rounds pierce cover and armour effectivly. Targets in Full or Half cover, have their cover bonus reduced. Shots against targets which are in half or no cover will also have bonus AP +1 and +2 respectively. Sniper and Vektor rifles also gain a small +1 bonus to AP."
+LocFriendlyName="Бронебойные патроны прикрытия"
+LocHelpText="Эти снаряды эффективно пробивают укрытие и броню. Цели, находящиеся в полном или половинном прикрытии, получают уменьшенный бонус за прикрытие. Выстрелы по целям, которые находятся в половинном укрытии или без него, также будут иметь бонусный AP +1 и +2 соответственно. Снайперские винтовки и винтовки Vektor также получают небольшой бонус +1 к AP."
+LocLongDescription="Эти пули эффективно пробивают укрытия и броню. Цели, находящиеся в полном или половинном прикрытии, получают уменьшенный бонус за прикрытие. Выстрелы по целям, которые находятся в половинном укрытии или без него, также будут иметь бонусный AP +1 и +2 соответственно. Снайперские винтовки и винтовки Vektor также получают небольшой бонус +1 к AP."
 
 [PlasmaBurstDamage X2AbilityTemplate]
 LocFriendlyName="<font color='#00ff0d'>Скоростные бронебойные снаряды</font>"
@@ -577,34 +577,34 @@ LocHelpText="Эти снаряды выпускают взрыв плазмы при попадании в цель, которая ра
 LocLongDescription="Снаряды сдерживания плазмы с питанием от элериума, при ударе сдерживание выходит из строя, высвобождая взрыв плазмы, который разрывает броню и вызывает контузию цель, в результате чего она получает повышенный урон от последующих атак."
 
 [SmartRoundsAutopsy X2AbilityTemplate]
-LocFriendlyName="Anatomical Targeting Data"
-LocHelpText="These rounds will adjust their trajectory to cause maximum damage to autopsied targets."
-LocLongDescription="These rounds will adjust their trajectory to cause maximum damage to autopsied targets. This will cause autopsied targets to be more vulnerable to critical hits and take additional crit damage."
+LocFriendlyName="Патроны анатомического прицеливания"
+LocHelpText="Эти снаряды изменят свою траекторию, чтобы нанести максимальный урон вскрытым целям."
+LocLongDescription="Эти снаряды корректируют свою траекторию, чтобы нанести максимальный урон вскрытым целям. Это приведет к тому, что вскрытые цели станут более уязвимыми для критических попаданий и получат дополнительный критический урон."
 
 [SmartRoundsTargetMarked X2AbilityTemplate]
-LocFriendlyName="TacUplink Target Data"
-LocHelpText="Targets marked with Метка врага тактического сканера will be much easier to hit/crit and will be less likely to dodge."
-LocLongDescription="Targets marked with Метка врага тактического сканера will be much easier to hit/crit and will be less likely to dodge."
+LocFriendlyName="Целевые данные TacUplink"
+LocHelpText="Цели, отмеченные знаком Метка врага тактического сканера, будут намного легче поражаться / критиковаться, и у них будет меньше шансов уклониться."
+LocLongDescription="Цели, отмеченные знаком Метка врага тактического сканера, будут намного легче поражаться / критиковаться, и у них будет меньше шансов уклониться."
 
 [SmartRoundsMarkTargetMarked X2AbilityTemplate]
-LocFriendlyName="TacUplink Target Data"
-LocHelpText="Targets marked with Mark Target will be much easier to hit/crit and will be less likely to dodge."
-LocLongDescription="Targets marked with Mark Target will be much easier to hit/crit and will be less likely to dodge."
+LocFriendlyName="Целевые данные TacUplink"
+LocHelpText="Цели, отмеченные меткой Target, будут намного легче поражаться / критиковаться, и вероятность уклонения будет меньше."
+LocLongDescription="Цели, отмеченные меткой Target, будут намного легче поражаться / критиковаться, и вероятность уклонения будет меньше."
 
 [SmartRoundsTargetHoloMarked X2AbilityTemplate]
-LocFriendlyName="Holotargeting Data"
-LocHelpText="Targets marked with Holo Targeting will be much easier to hit/crit and will be less likely to dodge."
-LocLongDescription="Targets marked with Holo Targeting will be much easier to hit/crit and will be less likely to dodge."
+LocFriendlyName="Данные голографического прицеливания"
+LocHelpText="Цели, отмеченные голографическим наведением, будут намного легче поражаться / критиковаться, и у них будет меньше шансов уклониться."
+LocLongDescription="Цели, отмеченные голографическим наведением, будут намного легче поражаться / критиковаться, и у них будет меньше шансов уклониться."
 
 [SmartRoundsTargetScanned X2AbilityTemplate]
-LocFriendlyName="Hand Scanner Data"
-LocHelpText="Targets scanned with the Proximity or Field scanners will be easier to hit/crit and will be less likely to dodge."
-LocLongDescription="Targets scanned with the Proximity or Field scanners will be easier to hit/crit and will be less likely to dodge."
+LocFriendlyName="Данные ручного сканера"
+LocHelpText="Цели, сканируемые с помощью сканеров приближения или поля, будут легче поражаться / критиковаться и с меньшей вероятностью уклоняться."
+LocLongDescription="Цели, сканируемые с помощью сканеров приближения или поля, будут легче поражаться / критиковаться и с меньшей вероятностью уклоняться."
 
 [SavHotShotBonus X2AbilityTemplate]
-LocFriendlyName="HotShot Bonus"
-LocHelpText="Bonus crit chance and shred but aim is reduced."
-LocLongDescription="Bonus crit chance and shred but aim is reduced."
+LocFriendlyName="Отличный бонус"
+LocHelpText="Бонусный шанс крита и шред, но цель уменьшена."
+LocLongDescription="Бонусный шанс крита и шред, но цель уменьшена."
 
 [ReinforcedVestBonus X2AbilityTemplate]
 LocFriendlyName="Усиленный жилет"
