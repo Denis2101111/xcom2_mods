@@ -1,0 +1,904 @@
+;*****CHRYSSALID HIVE QUEEN*****
+
+[CXQueen X2CharacterTemplate]
+strCharacterName="Chryssalid Hive Queen"
+
+[CXJuvQueenM1 X2CharacterTemplate]
+strCharacterName="Chryssalid Juvenile Hive Queen"
+
+[CXJuvQueenM2 X2CharacterTemplate]
+strCharacterName="Chryssalid Juvenile Hive Queen"
+
+[CXJuvQueenM3 X2CharacterTemplate]
+strCharacterName="Chryssalid Juvenile Hive Queen"
+
+[CorpseCXQueen X2ItemTemplate]
+FriendlyName="Chryssalid Hive Queen Corpse"
+FriendlyNamePlural="Chryssalid Hive Queen Corpses"
+BriefSummary="After closer examination, we can say without a doubt, that this Chryssalid is in fact a very old Queen and may have been the first of her kind."
+
+[AutopsyCXQueen X2TechTemplate]
+DisplayName="Chryssalid Hive Queen Autopsy"
+Summary="The Chryssalid Hive Queen is a massive Chryssalid to say the least. She seems to be very old, if not the oldest of her kind."
+CodeName="Queen Mother"
+LongDescription="This specimen is a massive creature with power we have never seen before Commander. She may have been the first of her kind but we wont know unless we find more like her in size. I sure hope she is the last for all of our sakes.\n\nTesting of her cellular makeup, would suggest that she is at least 10,000 years old. The corpse still emits a small but powerful psionic discharge. Its clear now that this Queen not only had psionic capability but was using such power to block any further control of her mind from those that once held her captive. Knowing that the Elders were using her to breed their own Chryssalid Army, we should be thankful that we found and terminated her when we did. One thing is clear Commander. If there are more like her out there, they will overrun us if left unchecked. R. Tygan."
+
+[CorpseCXJuvQueen X2ItemTemplate]
+FriendlyName="Chryssalid Juvenile Queen Corpse"
+FriendlyNamePlural="Chryssalid Juvenile Queen Corpses"
+BriefSummary="While still quite large for such a young specimen, these young Queens are very fragile, yet very deadly. 
+
+[AutopsyCXJuvQueen X2TechTemplate]
+DisplayName="Chryssalid Juvenile Queen Autopsy"
+Summary="The Chryssalid Juvenile Queen is just as deadly as any Chryssalids we have encountered before her. Their speed, agility and ability to take flight can be very troublesome."
+CodeName="Hive Princess"
+LongDescription="After examination of this Juvenile Queen, it would appear that she was very young. I fear we have not seen the last of these young new Queens. We need to figure out if they are a creation of the Elders or something far worse.\n\nThis corpse is in very bad shape but our techs over in the Proving Grounds may be able to salvage something from it. If we can manage to collect more of these corpses, we should hold them for future projects Commander. R. Tygan."
+
+[QueenSlash X2AbilityTemplate]
+LocFriendlyName="Queen Slash"
+LocLongDescription="Slash an enemy and cause Chryssalid Poisoning."
+LocHelpText="Slash an enemy and cause Chryssalid Poisoning."
+
+[QueenHeal X2AbilityTemplate]
+LocFriendlyName="Hyper Reactive Healing"
+LocLongDescription="The Juvenile Queen has hyper reactive healing. She will heal 2 HP any time she takes damage."
+LocHelpText="The Juvenile Queen has hyper reactive healing. She will heal 2 HP any time she takes damage."
+
+[JuvQueenHeal X2AbilityTemplate]
+LocFriendlyName="Hyper Reactive Healing"
+LocLongDescription="The Juvenile Queen has hyper reactive healing. She will heal 1 HP any time she takes damage."
+LocHelpText="The Juvenile Queen has hyper reactive healing. She will heal 1 HP any time she takes damage."
+
+[QueenMassiveHeal X2AbilityTemplate]
+LocFriendlyName="Regeneration"
+LocLongDescription="The Queen will not only heal a large sum of health, she will also generate 2 armor."
+LocHelpText="The Queen will not only heal a large sum of health, she will also generate 2 armor."
+
+[CallTheHive X2AbilityTemplate]
+LocFriendlyName="Hive Reinforcements"
+LocLongDescription="The Chryssalid Matriarch can call her Hive and Chryssalid reinforcements will come to her aid."
+LocHelpText="The Chryssalid Matriarch can call her Hive and Chryssalid reinforcements will come to her aid."
+LocFlyOverText="Call the hive"
+
+[CallSwarmers X2AbilityTemplate]
+LocFriendlyName="Hive Reinforcements"
+LocLongDescription="The Chryssalid Matriarch can call her Hive and Chryssalid reinforcements will come to her aid."
+LocHelpText="The Chryssalid Matriarch can call her Hive and Chryssalid reinforcements will come to her aid."
+LocFlyOverText="Call the hive"
+
+[CallCXDrone X2AbilityTemplate]
+LocFriendlyName="Call Nearby Hive Drone"
+LocLongDescription="Nearby Chryssalid Hive Drones will come to aid the Hive."
+LocHelpText="Call Nearby Hive Drone."
+
+[CallCXInfector X2AbilityTemplate]
+LocFriendlyName="Call Nearby Chryssalid Infector"
+LocLongDescription="Nearby Chryssalid Infectors will come to aid the Hive."
+LocHelpText="Call Nearby Chryssalid Infector."
+
+[CXQueenImmunities X2AbilityTemplate]
+LocFriendlyName="Hive Queen Immunities"
+LocLongDescription="Immune to all poison, fire and mental."
+LocHelpText="Immune to poison, fire and mental."
+
+[CXQueenDomination X2AbilityTemplate]
+LocFriendlyName="Establish Dominance"
+LocLongDescription="The Hive Queen has grown strong enough to break any control the Elders once had over her Hive. She is the Hive Mind and her children will obey."
+LocHelpText="The Hive Queen has grown strong enough to break any control the Elders once had her Hive. She is the Hive Mind and her children will obey."
+LocFlyOverText="Establish Dominance"
+
+[HiveQueenSpit X2AbilityTemplate]
+LocFriendlyName="Sticky Secretion"
+LocLongDescription="The Hive Queen can spit a glob of sticky secretion that pins the target in place."
+LocHelpText="The Hive Queen can spit a glob of sticky secretion that pins her the target in place."
+
+[JuvQueenSpit X2AbilityTemplate]
+LocFriendlyName="Sticky Secretion"
+LocLongDescription="The Juvenile Queen can spit a glob of sticky secretion that pins the target in place."
+LocHelpText="The Juvenile Queen can spit a glob of sticky secretion that pins the target in place."
+
+[HiveQueenCallForEscape X2AbilityTemplate]
+LocFriendlyName="Escape"
+LocLongDescription="After suffering wounds or eliminating enemies, the Hive Queen may choose to escape the battlefield."
+LocHelpText="Burrow and leave the battlefield."
+LocFlyOverText="Burrow Escape!"
+
+[JuvQueenDiveBombM1 X2AbilityTemplate]
+LocFriendlyName="Dive Bomb"
+LocLongDescription="The Queen's powerful legs and wings allow her to leap high into the air and dive bomb her prey."
+LocHelpText="The Queen's powerful legs and wings allow her to leap high into the air and dive bomb her prey."
+LocFlyOverText="Dive Bomb."
+
+[JuvQueenDiveBombM2 X2AbilityTemplate]
+LocFriendlyName="Dive Bomb"
+LocLongDescription="The Queen's powerful legs and wings allow her to leap high into the air and dive bomb her prey."
+LocHelpText="The Queen's powerful legs and wings allow her to leap high into the air and dive bomb her prey."
+LocFlyOverText="Dive Bomb."
+
+[JuvQueenDiveBombM3 X2AbilityTemplate]
+LocFriendlyName="Dive Bomb"
+LocLongDescription="The Queen's powerful legs and wings allow her to leap high into the air and dive bomb her prey."
+LocHelpText="The Queen's powerful legs and wings allow her to leap high into the air and dive bomb her prey."
+LocFlyOverText="Dive Bomb."
+
+
+;*****CHRYSSALID HIVE GUARD*****
+
+[CXHiveGuard X2CharacterTemplate]
+strCharacterName="Chryssalid Hive Guard"
+
+[CorpseCXHiveGuard X2ItemTemplate]
+FriendlyName="Chryssalid Hive Guard Corpse"
+FriendlyNamePlural="Chryssalid Hive Guard Corpses"
+BriefSummary="While not as common to see on the battlefield, the Hive Guards tend to show up when a Hive Queen is near and or as her personal guard when she decides to take leave from the Hive."
+
+[AutopsyCXHiveGuard X2TechTemplate]
+DisplayName="Chryssalid Hive Guard Autopsy"
+Summary="While not as common to see on the battlefield, the Hive Guards tend to show up when a Hive Queen is near and or as her personal guard when she decides to take leave from the Hive."
+CodeName="Sentry"
+LongDescription="The Chryssalid Hive Guard looks to be the main stop gap between us and the Hive Queen. The Guards are no doubt meant to protect the Hive and its Queen from any and all threats. These beasts are very tough to bring down with their hardened carapace, massive shielded limbs and ability to act as living artillery when it is called for. Through its own mental link the Hive Guard can direct the living symbiotic acid cannon on its back to alter the course of the projectiles in mid trajectory, by moving membranous fins to act as wing flaps or rudders that steer the missiles. As such, Hive Guard need not make direct visual contact with enemy targets to fire upon them. We can not take these Chryssalids lightly. If we can manage to collect more of these corpses, we should hold them for future projects Commander. R. Tygan."
+
+[CXHiveGuardSlash X2AbilityTemplate]
+LocFriendlyName="Hive Guard Slash"
+LocLongDescription="Slash an enemy."
+LocHelpText="Slash an enemy."
+
+[GuardAcidBlob X2AbilityTemplate]
+LocFriendlyName="Hive Guard Acid Cannon"
+LocLongDescription="The Hive Guard can shoot a glob of corrosive acid."
+LocHelpText="The Hive Guard can shoot a glob of corrosive acid."
+LocFlyOverText="Acid Cannon Glob"
+
+[HardenedCarapace X2AbilityTemplate]
+LocFriendlyName="Hardened Carapace"
+LocLongDescription="The Hive Guard has a Hardened Carapace with massive fused plates. Takes 66% less explosive damage."
+LocHelpText="The Hive Guard has a Hardened Carapace with massive fused plates. Takes 66% less explosive damage."
+LocFlyOverText="Hardened Carapace"
+
+[CXHiveGuardImmunities X2AbilityTemplate]
+LocFriendlyName="Hive Guard Immunities"
+LocLongDescription="Immune to all poison, acid and mental."
+LocHelpText="Immune to poison, acid and mental."
+
+[HiveGuardDeflect X2AbilityTemplate]
+LocFriendlyName="Deflect"
+LocLongDescription="The Hive Guard has massive shielded limbs that give it a 25% chance to deflect any incoming attack."
+LocHelpText="The Hive Guard has massive shielded limbs that give it a 25% chance to deflect any incoming attack."
+
+[HiveGuardMeleeResistance X2AbilityTemplate]
+LocFriendlyName="Melee Resistance"
+LocLongDescription="The Hive Guard takes 4 less damage from all melee attacks."
+LocHelpText="The Hive Guard takes 4 less damage from all melee attacks."
+LocFlyOverText="Melee Resistance"
+
+[HiveGuardSpikeDefense X2AbilityTemplate]
+LocFriendlyName="Melee Defense"
+LocLongDescription="If melee attacked, The Hive Guard may deploy its spiked shileds as defense and deal melee damage back to its attacker."
+LocHelpText="The Hive Guard may deal some melee damage back to its attacker when it's attacked in melee."
+
+
+;*****CHRYSSALID HIVE WARRIOR*****
+
+[CXWarrior X2CharacterTemplate]
+strCharacterName="Chryssalid Hive Warrior"
+
+[CorpseCXWarrior X2ItemTemplate]
+FriendlyName="Chryssalid Hive Warrior Corpse"
+FriendlyNamePlural="Chryssalid Hive Warrior Corpses"
+BriefSummary="While not as common as other Chryssalids, the Hive Warrior plays a key role in the function and hierarchy of any hive. They are meant to command."
+
+[AutopsyCXWarrior X2TechTemplate]
+DisplayName="Chryssalid Hive Warrior Autopsy"
+Summary="While not as common as other Chryssalids, the Hive Warrior plays a key role in the function and hierarchy of any hive. They are meant to command the many lesser Chryssalids and keep them moving forward in the engagment."
+CodeName="Knight"
+LongDescription="Whenever a Hive Warrior is on the field, you can expect very bad things to happen. Hive Warriors demand respect and are feared like no other. They are not only strong, quick and deadly but are one of the smartest Chryssalids we have come across to date. I do not like sending our troops into battle against these things Commander. Hearing stories and rumors of these Warriors is bad enough. Seeing one up close, is frightening.\n\nAnd now seeing the video footage our troops brought back of these Warriors in combat, I am certain that the Chryssalids are not only getting smarter but more organized. We will need heavier firepower for sure Commander. R. Tygan."
+
+[CXWarriorSlash X2AbilityTemplate]
+LocFriendlyName="Hive Warrior Slash"
+LocLongDescription="Slash an enemy."
+LocHelpText="Slash an enemy."
+
+[AdrenalRush X2AbilityTemplate]
+LocFriendlyName="Adrenal Rush"
+LocLongDescription="Hive Warriors use their adrenal glands to spray a microbial adrenalin mist into the air. This mist is highly mobile and the smallest particle can be picked up a mile away. This will increase the mobility and offensive capabilities of all hive members in the area. Lasts 2 turns."
+LocHelpText="Hive Warriors use their adrenal glands to spray a microbial adrenalin mist into the air. This mist is highly mobile and the smallest particle can be picked up a mile away. This will increase the mobility and offensive capabilities of all hive members in the area. Lasts 2 turns."
+
+[CXWarriorImmunities X2AbilityTemplate]
+LocFriendlyName="Hive Warrior Immunities"
+LocLongDescription="Immune to poison and fire."
+LocHelpText="Immune to poison and fire."
+
+[HyperReactiveSenses X2AbilityTemplate]
+LocFriendlyName="Hyper Reactive Senses"
+LocLongDescription="Hive Warriors can self stimulate their senses. This will increase their effectiveness to dodge attacks as well as greatly increase their will power. Lasts 2 turns."
+LocHelpText="Hive Warriors can self stimulate their senses. Dodge increased by 10 and will by 20. Lasts 2 turns."
+
+
+;*****CHRYSSALID SHRIEKER*****
+
+[CXShrieker X2CharacterTemplate]
+strCharacterName="Chryssalid Shrieker"
+
+[CXShriekerSlash X2AbilityTemplate]
+LocFriendlyName="Shrieker Slash"
+LocLongDescription="Slash an enemy."
+LocHelpText="Slash an enemy."
+
+[CorpseCXShrieker X2ItemTemplate]
+FriendlyName="Chryssalid Shrieker Corpse"
+FriendlyNamePlural="Chryssalid Shrieker Corpses"
+BriefSummary="The Chryssalid Shrieker is not only a scary sight but the shear sound of it is enough to drove most mad. They will not hesitate to rush you and use their shrieking EMP blast to disable weapons and electronics."
+
+[AutopsyCXShrieker X2TechTemplate]
+DisplayName="Chryssalid Shrieker Autopsy"
+Summary="."
+CodeName="Knight"
+LongDescription="."
+
+[CXShriekerImmunities X2AbilityTemplate]
+LocFriendlyName="Shrieker Immunities"
+LocLongDescription="Immune to poison, stun and mental."
+LocHelpText="Immune to poison, stun and mental."     
+
+[Shrieker_EMP X2AbilityTemplate]
+LocFriendlyName="Shrieker EMP Blast"
+LocLongDescription="EMP blast that disables weapons. Does damage to robotic units only, with a chance to force a shutdown."
+LocHelpText="EMP blast that disables weapons. Does damage to robotic units only, with a chance to force a shutdown."
+LocFlyOverText="Shrieker EMP Blast"
+
+
+;*****CHRYSSALID CHAMELEON*****
+
+[CXChameleon X2CharacterTemplate]
+strCharacterName="Chryssalid Chameleon"
+
+[CXChameleon2 X2CharacterTemplate]
+strCharacterName="Chryssalid Wraith"
+
+[CXChameleon3 X2CharacterTemplate]
+strCharacterName="Chryssalid Mantis"
+
+[CorpseCXChameleon X2ItemTemplate]
+FriendlyName="Chryssalid Chameleon Corpse"
+FriendlyNamePlural="Chryssalid Chameleon Corpses"
+BriefSummary="The Chryssalid Chameleon looks to be a highly evolved form. They are very intelligent and can stay hidden to stalk their prey."
+
+[AutopsyCXChameleon X2TechTemplate]
+DisplayName="Chryssalid Chameleon Autopsy"
+Summary="Able to move swiftly and without sound through even the densest terrain, and concealed by a chameleonic carapace that renders it all but invisible to the naked eye, a Chryssalid Chameleon can remain hidden until it chooses to strike. It can wait motionless for days, unnoticed by its victims, an unseen herald of approaching disaster."
+CodeName="Ghost"
+LongDescription="Chameleons are the hunters of the Chryssalid Hive, roaming ahead of the Hive, seeking out prey and leading the Hive to concentrations of enemies. Chameleons are distinct in appearance from other Chryssalid creatures in a number of ways, such as a pair of long mantis-like claws extending over the creature's shoulders which it can use for shredding its prey. It has enhanced senses, and shimmering chameleonic scales which allow it to hide with ease. A natural predator, the Chameleon is patient and stealthy and can move past even the most alert foes, or spend days hiding immobile, waiting for a chance to strike once its prey's guard is down. This has given the Chameleon an almost mythical reputation amongst the Resistance, as a ghost-like horror which can strike at any time and place, before vanishing into thin air just as easily. We need to find ways to track and hunt them before they hunt us Commander. R. Tygan."
+
+[CXChameleonSlash X2AbilityTemplate]
+LocFriendlyName="Chameleon Slash"
+LocLongDescription="Slash an enemy."
+LocHelpText="Slash an enemy."
+
+[CXChameleonZombieSlash X2AbilityTemplate]
+LocFriendlyName="Chameleon Death Slash"
+LocLongDescription="Slash and infect. Those killed become Infected Zombies. The Chameleon Wraith can also infect those already dead."
+LocHelpText="Slash and infect. Those killed become Infected Zombies. The Chameleon Wraith can also infect those already dead"
+
+[CXChameleon3Slash X2AbilityTemplate]
+LocFriendlyName="Chameleon Slash"
+LocLongDescription="Slash an enemy."
+LocHelpText="Slash an enemy."
+
+[CXChameleonRupture X2AbilityTemplate]
+LocFriendlyName="Rending Claws"
+LocLongDescription="The Rending Claws of the Chameleon will shred 4 armor and add Rupture to the target if hit."
+LocHelpText="The Rending Claws of the Chameleon will shred 4 armor and add Rupture to the target if hit."
+LocFlyOverText="Rending Claws"
+
+[CXChameleonBleed X2AbilityTemplate]
+LocFriendlyName="Ripping Claws"
+LocLongDescription="The Ripping Claws of this Chameleon Wraith will shred 4 armor and add Bleeding to the target if hit."
+LocHelpText="The Ripping Claws of this Chameleon Wraith will shred 4 armor and add Bleeding to the target if hit."
+LocFlyOverText="Ripping Claws"
+
+[CXChameleonAcidSlash X2AbilityTemplate]
+LocFriendlyName="Corrosive Claws"
+LocLongDescription="The Corrosive Claws of this Chameleon Mantis will shred 4 armor and add Acid Burning to the target if hit."
+LocHelpText="The Corrosive Claws of this Chameleon Mantis will shred 4 armor and add Acid Burning to the target if hit."
+LocFlyOverText="Corrosive Claws"
+
+[ChameleonVanish X2AbilityTemplate]
+LocFriendlyName="Vanish"
+LocLongDescription="Vanish to stalk prey. While invisible, Chameleons can still take indirect fire and environmental damage if they can be located."
+LocHelpText="Vanish to stalk prey. While invisible, Chameleons can still take indirect fire and environmental damage if they can be located."
+
+[ChameleonFleetOfClawPassive X2AbilityTemplate]
+LocFriendlyName="Fleet Of Claw"
+LocLongDescription="While Chameleons are very dangerous, they are weak if caught in the open alone. If hurt, they will vanish, scamper and hide. While hurt, the Chameleon's chameleonic carapace will shimmer from time to time giving away its location. Keep a keen eye open."
+LocHelpText="While Chameleons are very dangerous, they are weak if caught in the open alone. If hurt, they will vanish, scamper and hide. While hurt, the Chameleon's chameleonic carapace will shimmer from time to time giving away its location. Keep a keen eye open."
+
+[ChameleonVanishReveal X2AbilityTemplate]
+LocFriendlyName="Reveal"
+LocLongDescription="Reveal to attack prey."
+LocHelpText="Reveal to attack prey."
+
+[CXChameleonImmunities X2AbilityTemplate]
+LocFriendlyName="Chryssalid Chameleon Immunities"
+LocLongDescription="Immune to all poison."
+LocHelpText="Immune to all poison."
+
+[CXChameleon3Immunities X2AbilityTemplate]
+LocFriendlyName="Chryssalid Mantis Immunities"
+LocLongDescription="Immune to all poison and acid."
+LocHelpText="Immune to all poison and acid."
+
+[ShadowStalk X2AbilityTemplate]
+LocFriendlyName="Shadowstalk"
+LocLongDescription="While concealed the Chameleon Wraith gains a +10 bonus aim and +25 bonus critical hit chance when attacking enemies."
+LocHelpText="While concealed the Chameleon Wraith gains a +10 bonus aim and +25 bonus critical hit chance when attacking enemies."
+LocPromotionPopupText="<Bullet/> Shadowstalk bonuses will apply if the Chameleon Wraith re-enters concealment in a mission.<br/>"
+
+
+
+
+;*****CHRYSSALID INFECTOR*****
+
+[CXInfector X2CharacterTemplate]
+strCharacterName="Chryssalid Infector"
+
+[CorpseCXInfector X2ItemTemplate]
+FriendlyName="Chryssalid Infector Corpse"
+FriendlyNamePlural="Chryssalid Infector Corpses"
+BriefSummary="The Chryssalid Infector is the ultimate terror weapon. One is deadly but a small group can bring down a well populated city over night. It's what comes the next morning that will haunt youre dreams."
+
+[AutopsyCXInfector X2TechTemplate]
+DisplayName="Chryssalid Infector Autopsy"
+Summary="The Chryssalid."
+CodeName=""
+LongDescription=""
+
+[CXInfectorImmunities X2AbilityTemplate]
+LocFriendlyName="Chryssalid Infector Immunities"
+LocLongDescription="Immune to all poison."
+LocHelpText="Immune to all poison."     
+
+[ChrysZombieSlash X2AbilityTemplate]
+LocFriendlyName="Infector Slash"
+LocLongDescription="Slash and infect. Those killed become Infected Zombies."
+LocHelpText="Slash and infect. Those killed become Infected Zombies."
+
+
+
+;*****CHRYSSALID HIVE DRONE*****
+
+[CXDrone X2CharacterTemplate]
+strCharacterName="Chryssalid Hive Drone"
+
+[CorpseCXDrone X2ItemTemplate]
+FriendlyName="Chryssalid Hive Drone Corpse"
+FriendlyNamePlural="Chryssalid Hive Drone Corpses"
+BriefSummary="The Chryssalid Hive Drone is very mobile and extremely agile. Advent and our soldiers are having a hard time being able to keep pace with them once encountered. We need to find ways to stop them or better detect them."
+
+[AutopsyCXDrone X2TechTemplate]
+DisplayName="Chryssalid Hive Drone Autopsy"
+Summary="The Chryssalid Hive Drone is very mobile and agile. Its ability to burrow to avoid detection or ambush prey makes it very dangerous."
+CodeName="Pawn"
+LongDescription="This Chryssalid Drone seems to be noting more than a pawn or a worker bug of sorts.  It moves and reacts as if connected and controlled by something else with a much greater mental synapse over them. Even after death, the corpse twitches as if something is trying to control it. These Chryssalid Drones are surely not the last nor the most deadly we will encounter. They are much more coordinated than others we had fought in the first war.\n\nThe autopsy has revealed that they do in fact have a very small but powerful organ that acts like a hive mind synapse node receptor. This node receptor is connected to its sensory nerve, and whatever is transmitting commands can make these things move with extreme purpose and speed. More testing is needed, but I am extremely concerned with what else could be out there that we have not yet seen Commander. R. Tygan."
+
+[CXDroneSlash X2AbilityTemplate]
+LocFriendlyName="Hive Drone Slash"
+LocLongDescription="Slash an enemy."
+LocHelpText="Slash an enemy."
+
+[DroneVanish X2AbilityTemplate]
+LocFriendlyName="Burrow"
+LocLongDescription="Burrow to avoid enemies. Drones can move while burrowed. Will not take any damage from explosives or environmental effects while burrowed."
+LocHelpText="Burrow to avoid enemy. Drones can move while burrowed. Will not take any damage from explosives or environmental effects while burrowed."
+
+[DroneVanishReveal X2AbilityTemplate]
+LocFriendlyName="Surface"
+LocLongDescription="Surface to attack enemy."
+LocHelpText="Surface to attack enemy."
+
+
+
+;*****CHRYSSALID SWARMER*****
+
+[CXSwarmerM1 X2CharacterTemplate]
+strCharacterName="Chryssalid Swarmer"
+
+[CXSwarmerM2 X2CharacterTemplate]
+strCharacterName="Chryssalid Swarmer"
+
+[CXSwarmerM3 X2CharacterTemplate]
+strCharacterName="Chryssalid Swarmer"
+
+[CXSwarmerHealM1 X2AbilityTemplate]
+LocFriendlyName="Healing Secretion"
+LocLongDescription="The Chryssalid Swarmer can spit up a secretion that heals as well as adds a hardening agent to its target, creating a natural armor plating."
+LocHelpText="The Chryssalid Swarmer can spit up a secretion that heals as well as adds a hardening agent to its target, creating a natural armor plating."
+
+[CXSwarmerHealM2 X2AbilityTemplate]
+LocFriendlyName="Healing Secretion"
+LocLongDescription="The Chryssalid Swarmer can spit up a secretion that heals as well as adds a hardening agent to its target, creating a natural armor plating."
+LocHelpText="The Chryssalid Swarmer can spit up a secretion that heals as well as adds a hardening agent to its target, creating a natural armor plating."
+
+[CXSwarmerHealM3 X2AbilityTemplate]
+LocFriendlyName="Healing Secretion"
+LocLongDescription="The Chryssalid Swarmer can spit up a secretion that heals as well as adds a hardening agent to its target, creating a natural armor plating."
+LocHelpText="The Chryssalid Swarmer can spit up a secretion that heals as well as adds a hardening agent to its target, creating a natural armor plating."
+
+[CXSwarmerImmunities X2AbilityTemplate]
+LocFriendlyName="Hive Queen Immunities"
+LocLongDescription="Immune to all poison, frost, stun and disorient."
+LocHelpText="Immune to all poison, frost, stun and disorient."
+
+[CXSwarmerSpit X2AbilityTemplate]
+LocFriendlyName="Sticky Secretion"
+LocLongDescription="The Swarmer can spit a glob of sticky secretion that pins its prey in place."
+LocHelpText="The Swarmer can spit a glob of sticky secretion that pins its prey in place."
+
+
+
+;*****CHRYSSALID RIPPER*****
+
+[CXRipperM1 X2CharacterTemplate]
+strCharacterName="Chryssalid Ripper"
+
+[CXRipperM2 X2CharacterTemplate]
+strCharacterName="Chryssalid Ripper"
+
+[CXRipper X2CharacterTemplate]
+strCharacterName="Chryssalid Ripper"
+
+[CXRipper2 X2CharacterTemplate]
+strCharacterName="Chryssalid Ripper"
+
+[CXRipperXCom X2CharacterTemplate]
+strCharacterName="XCOM Ripper"
+
+[CXRipperNeedleAttack X2AbilityTemplate]
+LocFriendlyName="Ripper Needle Attack"
+LocLongDescription="The Ripper's needle-like projectiles deal -2 mobility for 2 turns."
+LocHelpText="The Ripper's needle-like projectiles deal -2 mobility for 2 turns."
+LocFlyOverText="Needle Attack"
+
+[CXRipperM1Slash X2AbilityTemplate]
+LocFriendlyName="Ripper Slash"
+LocLongDescription="Slash an enemy."
+LocHelpText="Slash an enemy."
+
+[CXRipperM2Slash X2AbilityTemplate]
+LocFriendlyName="Ripper Slash"
+LocLongDescription="Slash an enemy."
+LocHelpText="Slash an enemy."
+
+[CorpseCXRipper X2ItemTemplate]
+FriendlyName="Chryssalid Ripper Corpse"
+FriendlyNamePlural="Chryssalid Ripper Corpses"
+BriefSummary="The Chryssalid Rippers are very mobile and will climb anything to get to to their intended target. Their speed and agility is extremely frightening. Thier desire to rip though their prey is what nightmares are made of."
+
+[AutopsyCXRipper X2TechTemplate]
+DisplayName="Chryssalid Ripper Autopsy"
+Summary="While quite small and very weak, we can not underestimate these Chryssalids. With their number, they can be just as deadly as any other Chryssalid."
+CodeName="Thornback"
+LongDescription="It would appear that these Chryssalids have the capacity to generate a never ending supply of needle-like blades. These needles can be shot at very high velocity and penetrate even the hardest of armors. I may have a use for this ability Commander. R. Tygan."
+
+
+;*****CHRYSSALID SPAWING PIT*****
+[CXSpawnPit X2CharacterTemplate]
+strCharacterName="Gestation Pit"
+
+[SpawnCXWarrior X2AbilityTemplate]
+LocFriendlyName="Gestate Chryssalid"
+LocLongDescription="Chryssalids emerge from tunnels through the Gestation Pit."
+LocHelpText="Gestate Chryssalids from tunnels under ground."
+
+[CXSpawingPitState X2AbilityTemplate]
+LocFriendlyName="Gestation Pit Immunities"
+LocLongDescription="Immune to poison, fire, stun and mental attacks. Weak against explosions. Explosions do double damage."
+LocHelpText="Immune to poison, fire, stun and mental attacks. Weak against explosions. Explosions do double damage."  
+
+
+
+
+;*****BROOD MOTHER*****
+[CXBroodMother X2CharacterTemplate]
+strCharacterName="Chryssalid Brood Mother"
+
+[CorpseCXBroodMother X2ItemTemplate]
+FriendlyName="Chryssalid Brood Mother Corpse"
+FriendlyNamePlural="Chryssalid Brood Mother Corpses"
+BriefSummary="Brood Mother is the name our soldiers call these Chryssalids. They are highly intelligent and can gestate new Chryssalid Rippers."
+
+[AutopsyCXBroodMother X2TechTemplate]
+DisplayName="Chryssalid Brood Mother Autopsy"
+Summary="Brood Mother is the name our soldiers call these Chryssalids. They are highly intelligent and can gestate new Chryssalid Rippers."
+CodeName="Housekeeper"
+LongDescription="The Brood Mother seems to be just that. Their whole existence is to take care of the hive and its inhabitants. They clean up the dead and produce more Rippers. These things are extremely important to the hive and the more we kill, the weaker the hive will become. R. Tygan."
+
+[BroodMotherHeal X2AbilityTemplate]
+LocFriendlyName="Regeneration"
+LocLongDescription="The Brood Mother will heal 2 HP a turn."
+LocHelpText="The Brood Mother will heal 2 HP a turn"
+
+[BreedRippers X2AbilityTemplate]
+LocFriendlyName="Breed Rippers"
+LocLongDescription="As a defensive measure the Brood Mother can both breed Rippers at will or when she takes wounds and is threatened."
+LocHelpText="As a defensive measure the Brood Mother can both breed Rippers at will or when she takes wounds and is threatened."
+
+
+;******INFECTOR ZOMBIE******
+[ChrysZombie X2CharacterTemplate]
+strCharacterName="Infected Zombie" 
+
+[ChrysZombieHuman X2CharacterTemplate]
+strCharacterName="Infected Zombie" 
+
+[CXZombieGestation X2AbilityTemplate]
+LocFriendlyName="Infector Gestation"
+LocLongDescription="The Infected Zombie will gestate a new Infector."
+LocHelpText="The Infected Zombie will gestate a new Infector."
+
+[CXZombieGestation2 X2AbilityTemplate]
+LocFriendlyName="Hybrid Gestation"
+LocLongDescription="The Infected Zombie will gestate a new Chryssalid Hybrid."
+LocHelpText="The Infected Zombie will gestate a new Chryssalid Hybrid."
+
+;******INFECTOR Hybrid******
+[ChrysHybrid X2CharacterTemplate]
+strCharacterName="Chryssalid Hybrid"   
+
+[HybridConsumeSlash X2AbilityTemplate]
+LocFriendlyName="Hybrid Slash"
+LocLongDescription="Slash, consume HP and infect an enemy."
+LocHelpText="Slash, consume HP and infect an enemy."
+
+
+[TheHive X2SitRepTemplate]
+FriendlyName="Feral Hive"
+Description="A Small Feral Chryssalid group has broken away from ADVENT and is located in this area: Reports state this pod is attacking anything in their path. Be on high alert!"
+
+[TheHiveEffect X2SitRepEffect_AddTeam]
+FriendlyName="Feral Hive"
+Description="A Small Feral Chryssalid group has broken away from ADVENT and is located in this area: Reports state this pod is attacking anything in their path. Be on high alert!"
+
+[HiveRoyalty X2SitRepTemplate]
+FriendlyName="Hive Royalty"
+Description="A Small Feral Chryssalid group containing a new Juvenile Queen is reported to be in this area: Reports state She may be heavily guarded and we should proceed with extreme caution Commander!"
+
+[HiveRoyaltyEffect X2SitRepEffect_AddTeam]
+FriendlyName="Hive Royalty"
+Description="A Small Feral Chryssalid group containing a new Juvenile Queen is reported to be in this area: Reports state She may be heavily guarded and we should proceed with extreme caution Commander!"
+
+[AdventHive X2SitRepTemplate]
+FriendlyName="The Hive"
+Description="ADVENT has unleashed new Chryssalids. While ADVENT seems to have them in check, they could revert to their predatory nature at any time."
+
+[AdventHiveEffect X2SitRepEffect_ModifyDefaultEncounterLists]
+FriendlyName="The Hive"
+Description="ADVENT has activated a Chryssalid force in this area. We must do everything in our power to stop these things from spreading. Not sure why ADVENT would want to allow these things to roam in groups. This won't end well for ADVENT or us if we don't take action."
+
+[GreenHell X2SitRepTemplate]
+FriendlyName="Green Hell"
+Description="Something is out there Commander. We are getting reports of a green Chryssalid that spits acid and can become invisible like a Chameleon. Locals are calling it a Chryssalid Mantis."
+
+[GreenHellEffect X2SitRepEffect_ModifyDefaultEncounterLists]
+FriendlyName="Green Hell"
+Description="Something is out there Commander. We are getting reports of a green Chryssalid that spits acid and can become invisible like a Chameleon. Locals are calling it a Chryssalid Mantis."
+
+[HiveVanguard X2SitRepTemplate]
+FriendlyName="The Hive Off The Grid"
+Description="A group of ADVENT controlled Chryssalids has gone off the grid and roaming this area."
+
+[HiveVanguardEffect X2SitRepEffect_ModifyDefaultEncounterLists]
+FriendlyName="The Hive Off The Grid"
+Description="A group of ADVENT controlled Chryssalids has gone off the grid and roaming this area. It would seem that ADVENT has lost control of these Chryssalids. We must put them down!"
+
+[FearOfChryssalids X2TraitTemplate]
+TraitFriendlyName ="Fear of Chryssalids"
+TraitScientificName="XenoEntomophobia"
+TraitDescription ="Chance to panic when encountering a Chryssalid."
+TraitQuotes[0]="\"They came out of the fucking ground! They were everywhere!\""
+TraitQuotes[1]="\"They would not stop coming. I... I just wanted to go home.\""
+TraitQuotes[2]="\"Those things didn't act like no bugs. Those things ain't stupid.\""
+TraitQuotes[3]="\"We better get back, cause it will be dark soon, and they mostly come at night. Mostly.\""
+TraitQuotes[4]="\"Don't go! I have scary dreams.\""
+TraitQuotes[5]="\"Game over man! Game over!.\""
+TraitQuotes[6]="\"I never signed up for this!!.\""
+TraitQuotes[7]="\"I think we found the whole hive. I ain't going back out there man!\""
+TraitQuotes[8]="\"I can't get the sound out of my head. The chattering, the screeching, the screaming. Please make it stop!!\""
+TraitQuotes[9]="\"I know they are bugs, but i felt like something was in my head... Wait! Shush! Did you hear it!!?\""
+TraitQuotes[10]="\"Why did it have to be bugs? Anything but bugs!!\""
+TraitQuotes[11]="\"She's in my head man!! You hear her too right!!? They have a Queen and she's coming for us all!\""
+
+[FearOfChryssalidsPassive X2AbilityTemplate]
+LocFriendlyName="Fear of Chryssalids"
+LocLongDescription="This unit may panic when a Chryssalid is encountered in combat."
+
+
+[HiveQueenArmor X2ArmorTemplate]
+FriendlyName="Hive Queen Armor"
+BriefSummary="The Hive Queen Armor is a light weight Chitin Plate Armor. Parts of the Queen's Exoskeletal structure and other light weight materials have been merged to give the wearer great mobility as well as keeping the natural armor. The Queen's Armor offers substantial HP and armor boosts for its wearer."
+TacticalText="<Bullet/>The Hive Queen Armor is a light weight Chitin Plate Armor. This Armor will offer all the same immunities the Hive Queen once had, and substantial HP and armor boosts for its wearer. 
+
+[QueenArmorClaws X2WeaponTemplate]
+FriendlyName="Hive Armor Rending Claws"
+BriefSummary="We can now add Hive Armor attachments to the Hive Queen Armor. These Rending Claw attachments will shred armor and add Rupture to the target if hit."
+TacticalText="<Bullet/>Shred 4 armor and add Rupture to the target.
+
+[QueenArmorWings X2WeaponTemplate]
+FriendlyName="Hive Armor Wings"
+BriefSummary="We can now add Hive Armor attachments to the Hive Queen Armor. These Wing attachments grant us the ability to quickly get elevated to high ground as well as a powerful dive-bomb attack."
+TacticalText="<Bullet/>Fly to higher ground and dive-bomb enemies dealing moderate damage while shredding some armor and potentially starting targets on fire from the force of impact.
+
+[QueenArmorCannon X2WeaponTemplate]
+FriendlyName="Hive Armor Acid Cannon"
+BriefSummary="We can now add Hive Armor attachments to the Hive Queen Armor. This Acid Cannon allows our soldier in the armor to act as a mobile artillery unit."
+TacticalText="<Bullet/>Brake through walls with the force of a Hive Guard and melt enemies with the Acid Cannon. 
+
+[BroodGauntlet X2WeaponTemplate]
+FriendlyName="Brood Gauntlet"
+BriefSummary="Seeing as how this weapon was not a creation of our doing, its fair to say this may be the only one we get. It seems to work on a symbiotic connection with the gauntlet wearer."
+TacticalText="<Bullet/> The Flamethrower is an area-of-effect weapon that can lay waste to any battlefield.\n<Bullet/> The core of the weapon is alive and the tongue can be used to pull allies up to higher elevation or from harm.\n<Bullet/> The gauntlet has a connection to Rippers and can be used to call on them."
+ 
+
+
+
+[RipperGrenade X2GrenadeTemplate]
+FriendlyName="Ripper Grenade"
+FriendlyNamePlural="Ripper Grenades"
+BriefSummary="The Ripper Grenade is designed to utilize the Ripper's needle attack. The grenade does not do a lot of damage but makes up for it with leathal needles that explode from the grenade and penetrate armor and cover. Perfect for dealing with enemies, without destroying cover you may need yourself."
+TacticalText="<Bullet/> Ripper grenades explode in a 5 tile radius and pierce up to 3 armor.<br><Bullet/> Friendly squad members will be affected if caught in the blast.<br><Bullet/> All targets will receive damage even if behind cover."
+ThrownAbilityName="Throw Ripper Grenade"
+ThrownAbilityHelpText="Deal damage to all targets in the affected area."
+LaunchedAbilityname="Launch Ripper Grenade"
+LaunchedAbilityHelpText="Deal damage to all targets in the affected area."
+
+[GhostGrenade X2GrenadeTemplate]
+FriendlyName="Ghost Grenade"
+FriendlyNamePlural="Ghost Grenades"
+BriefSummary="The Ghost Grenade offers our soldiers another way to conceal and move around undetected. The Ghosting effect has a limited duration but the soldiers will stay in concealment until its broken."
+TacticalText="<Bullet/> Ghost grenades grant concealment.<br><Bullet/> grants a Ghost effect that has a 2 turn duration and removes your detection radius for 2 turns.<br><Bullet/> All targets will stay concealed after the Ghost effect wears off."
+ThrownAbilityName="Throw Ghost Grenade"
+ThrownAbilityHelpText="Conceal and Ghost all targets in the affected area."
+LaunchedAbilityname="Launch Ghost Grenade"
+LaunchedAbilityHelpText="Conceal and Ghost all targets in the affected area."
+
+[RipperBomb X2GrenadeTemplate]
+FriendlyName="Ripper Bomb"
+FriendlyNamePlural="Ripper Bombs"
+BriefSummary="The Ripper Bomb is an upgrade to the Ripper Grenade. The bomb adds more damage and piercing punch to the lethal needles that explode from the bomb to penetrate armor and cover."
+TacticalText="<Bullet/> Ripper Bombs explode in a 5 tile radius and pierce up to 4 armor.<br><Bullet/> Friendly squad members will be affected if caught in the blast.<br><Bullet/> All targets will receive damage even if behind cover."
+ThrownAbilityName="Throw Ripper Bomb"
+ThrownAbilityHelpText="Deal damage to all targets in the affected area."
+LaunchedAbilityname="Launch Ripper Bomb"
+LaunchedAbilityHelpText="Deal damage to all targets in the affected area."     
+
+[LivingRipperGrenade X2GrenadeTemplate]
+FriendlyName="Ripper Mine"
+FriendlyNamePlural="Ripper Mines"
+BriefSummary="Use the Ripper as a living mobile explosive. Much like a Ripper Grenade, the needles will pierce any cover or wall, damaging targets on the other side."
+TacticalText="<Bullet/>Ripper Mines explode in a 5 tile radius and pierce up to 6 armor.<br><Bullet/> Friendly squad members will be affected if caught in the blast.<br><Bullet/> All targets will receive damage even if behind cover."
+
+[LivingRipperExplosion X2AbilityTemplate]
+LocFriendlyName="Needle Explosion"
+LocLongDescription="This Ripper is highly volatile and can be triggered to explode."
+LocHelpText="This Ripper is highly volatile and can be triggered to explode."
+
+[PCSHiveDroneTech X2TechTemplate]
+DisplayName="PCS Hive Drone Tech"
+Summary="Having now seen that these Chryssalids come in many forms, and have changed up their means of attack. We may want to start manufacturing additional PCS."
+CodeName="Bug Zapper"
+LongDescription="We can now construct PCS that will grant our soldiers added defenses against the various threats of The Hive. R. Tygan." 
+
+[PCSHiveWarriorTech X2TechTemplate]
+DisplayName="PCS Hive Warrior Tech"
+Summary="With research done on the Chryssalid Hive Warrior. We can now start manufacturing more advanced PCS."
+CodeName="Big Bug Zapper"
+LongDescription="We can now construct PCS that will grant our soldiers the senses of the Hive Warrior. You may want to build a few for our men and women Commander. R. Tygan." 
+
+[HiveQueenArmorTech X2TechTemplate]
+DisplayName="Hive Armor Tech"
+Summary="Having the Hive Queen's corpse, we need to put it to good use. Our people in the Proving Grounds will know just what to do with this."
+CodeName="Queen Bitch"
+LongDescription="We can now construct a Hive Queen Armor for our soldiers to use in combat. The Queen's corpse was heavily damaged in combat. We can add the needed resources from additional Chryssalid corpses. Hive. R. Tygan." 
+
+[HiveWingTech X2TechTemplate]
+DisplayName="Hive Wing Tech"
+Summary="Using the Juvenile Queen's corpse as well as some other additional resources, we might be able to get something useful out of this corpse as an addition for a future project."
+CodeName="Dragonfly"
+LongDescription="We can now add Hive Armor attachments to the Hive Queen Armor. These Wing attachments grant us the ability to quickly get elevated to high ground as well as a powerful Divebomb attack. Hive. R. Tygan." 
+
+[HiveCannonTech X2TechTemplate]
+DisplayName="Hive Cannon Tech"
+Summary="Using the Hive Guard's corpse as well as some other additional resources, we might be able to get something useful out of this corpse as an addition for a future project."
+CodeName="Sentry"
+LongDescription="We can now add Hive Armor attachments to the Hive Queen Armor. This Acid Cannon allows our soldier in the armor to act as a mobile artillery unit. Hive. R. Tygan." 
+
+[HiveGauntletTech X2TechTemplate]
+DisplayName="Hive Gauntlet Tech"
+Summary="We are not sure what happened but the Chryssalid Brood Mother's tongue detached from the corpse. Well just read for yourself."
+CodeName="Thing"
+LongDescription="Commander, I must say I did not expect this outcome. During the autopsy, the Chryssalid's tongue detached and fell from its maw. One of our soldiers on standby was wearing a prototype wrist weapon and the tongue attached itself to the weapon. It secreted a film around itself and the weapon after the soldier got the item off his arm. The flamethrower is now... Well just see for yourself Commander. Hive. R. Tygan." 
+
+[XCOMAcidBlob X2AbilityTemplate]
+LocFriendlyName="Hive Guard Acid Cannon"
+LocLongDescription="The Hive Armor can shoot a glob of corrosive acid."
+LocHelpText="The Hive Armor can shoot a glob of corrosive acid."
+LocFlyOverText="Acid Cannon Glob"
+
+[HiveArmorRupture X2AbilityTemplate]
+LocFriendlyName="Rending Claws"
+LocLongDescription="The Rending Claws of the Hive Armor will shred 4 armor and add Rupture to the target if hit."
+LocHelpText="The Rending Claws of the Hive Armor will shred 4 armor and add Rupture to the target if hit."
+LocFlyOverText="Rending Claws"
+
+[HiveArmorDiveBomb X2AbilityTemplate]
+LocFriendlyName="Dive Bomb"
+LocLongDescription="The Hive Armor can now utilize wings that allow soldiers to fly up to elevated terrain and or dive bomb their enemies."
+LocHelpText="The Hive Armor can now utilize wings that allow soldiers to fly up to elevated terrain and or dive bomb their enemies."
+LocFlyOverText="Dive Bomb."
+
+[CXJuggernaut X2AbilityTemplate]
+LocFriendlyName="Juggernaut"
+LocLongDescription="Juggernaut can be used to grant the soldier an extra ability point as well as grant wall breaking for that turn. Make your own door or exit while carrying a fellow soldier to safety. Smash though a walls while still maintaining 2 action points."
+LocHelpText="Gain an extra action point and smash though walls while still maintaining 2 action points."
+
+[CallRandomHiveMember X2AbilityTemplate]
+LocFriendlyName="They Follow You"
+LocLongDescription="The Hive Queen's mental link with The Hive is still connected though the DNA within the bio genetics of the armor. Call random Chryssalids to aid you."
+LocHelpText="The Hive Queen's mental link with The Hive is still connected though the DNA within the bio genetics of the armor. Call random Chryssalids to aid you."
+LocFlyOverText="They Follow You"
+
+[PCSTacticalCoverage X2EquipmentTemplate]
+FriendlyName="PCS: Tactical Coverage"
+FriendlyNamePlural="PCS: Tactical Coverage"
+BriefSummary="Grants the user the Covering Fire ability as well as a small defense bonus."
+
+[PCSTacticalSensesOffense X2EquipmentTemplate]
+FriendlyName="PCS: Tactical Senses Offensive"
+FriendlyNamePlural="PCS: Tactical Senses Offensive"
+BriefSummary="Grants a boost to Dodge, Will and Mobility on the soldier for a short time when using Hyper Reactive Senses. Also has a permanent small boost to Mobility and Offense."
+
+[PCSTacticalSensesDefense X2EquipmentTemplate]
+FriendlyName="PCS: Tactical Senses Defensive"
+FriendlyNamePlural="PCS: Tactical Senses Defensive"
+BriefSummary="Grants a boost to Dodge, Will and Mobility on the soldier for a short time when using Hyper Reactive Senses. Also has a permanent small boost to Mobility and Defense."
+
+[XCOMHyperReactiveSenses X2AbilityTemplate]
+LocFriendlyName="Hyper Reactive Senses"
+LocLongDescription="Our Soldiers can now use a combination of the Hive Warrior's Hyper Reactive Senses and Adrenal Rush. This will increase effectiveness to dodge attacks, greatly increase will power and mobility. 1 charge Lasts 2 turns."
+LocHelpText="Our Soldiers can now use Hyper Reactive Senses. Dodge increased by 10, will by 20 and mobility increased by 3. 1 charge Lasts 2 turns."
+
+[PCSTacticalWithdraw X2EquipmentTemplate]
+FriendlyName="PCS: Tactical Withdraw"
+FriendlyNamePlural="PCS: Tactical Withdraw"
+BriefSummary="Grants the user a mobility and dodge bonus as well as the ability, Get To Da Choppa. This ability can only be used in the evac zone and gives all human allies outside the Evac Zone +10 to dodge and +6 to mobility for 1 turn. User must not evac until all allies have taken their turn or the effects will be terminated, Now... GET TO DA CHOPPA!!!"
+
+[GetToDaChoppa X2AbilityTemplate]
+LocFriendlyName="Get To Da Choppa"
+LocLongDescription="Gives all soldiers outside the Evac Zone a friendly reminder to GET TO DA CHOPPA NOW!! Grants extra mobility and dodge to all friendly humans for 1 turn. The caster of this ability must stay in the Evac Zone until all remaining soldiers have used their 1 turn bonus or have evaced."
+LocHelpText="Gives all soldiers outside the Evac Zone a friendly reminder to GET TO DA CHOPPA NOW!! Grants extra mobility and dodge to all friendly humans for 1 turn. The caster of this ability must stay in the Evac Zone until all remaining soldiers have used their 1 turn bonus or have evaced."
+LocFlyOverText="Get To Da Choppa!!"
+
+[CallXComRippers X2AbilityTemplate]
+LocFriendlyName="Explosive Ripper"
+LocLongDescription="The Brood Gauntlet allows the user to call living Rippers that can be used as a scout unit and or a living mobile needle mine."
+LocHelpText="Attack with Ripper or use as living explosives."
+
+
+[PullFromHarm X2AbilityTemplate]
+LocFriendlyName="Tongue Pull"
+LocLongDescription="The Brood Gauntlet is a living organism. Use its Tongue Pull ability to pull allies up to higher elevation or away from enemy advances."
+LocHelpText=" Pull allies up to higher elevation or away from enemy advances."
+
+[WallBreaking X2AbilityTemplate]
+
+[BroodThrower X2AbilityTemplate]
+LocFriendlyName="Flamethrower"
+LocHelpText="Spray flames in a cone-shaped area."
+
+[HiveArmorHelmet_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>Hive Basic Helmet"
+
+[HiveArmorHelmet_Visor_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>Hive Basic Visor Helmet"
+
+[HiveArmorHelmet_Crown_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>Hive Crown Helmet"
+
+[HiveArmorHelmet_Crown_Visor_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>Hive Crown Visor Helmet"
+
+
+[HiveArmorHelmet_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>Hive Basic Helmet"
+
+[HiveArmorHelmet_Visor_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>Hive Basic Visor Helmet"
+
+[HiveArmorHelmet_Crown_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>Hive Crown Helmet"
+
+[HiveArmorHelmet_Crown_Visor_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>Hive Crown Visor Helmet"
+
+[HiveArmorBase_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>Hive Queen Armor"
+
+[HiveArmorBase_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>Hive Queen Armor"
+
+;******Invisible body parts*************
+[HiveQueenArmor_Invisible_Arms_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_Arms_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_Legs_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_Legs_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_RightArm_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_RightArm_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_LeftArm_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_LeftArm_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_TorsoDeco_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_TorsoDeco_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_Shoulder_Left_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_Shoulder_Right_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_Shoulder_Left_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_Shoulder_Right_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_Forearm_Left_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_Forearm_Right_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_Forearm_Left_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenArmor_Invisible_Forearm_Right_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[Cnv_HiveQueenArmor_Invisible_Thighs_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[Cnv_HiveQueenArmor_Invisible_Thighs_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[Cnv_HiveQueenArmor_Invisible_Shin_M X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[Cnv_HiveQueenArmor_Invisible_Shin_F X2BodyPartTemplate]
+DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
+
+[HiveQueenEscapes X2AbilityPointTemplate]
+ActionFriendlyName="when a Ruler Escaped"
+
+
+
+
+
+
+
+
