@@ -1,798 +1,795 @@
 ;*****CHRYSSALID HIVE QUEEN*****
 
 [CXQueen X2CharacterTemplate]
-strCharacterName="Chryssalid Hive Queen"
+strCharacterName="Королева Роя"
 
 [CXJuvQueenM1 X2CharacterTemplate]
-strCharacterName="Chryssalid Juvenile Hive Queen"
+strCharacterName="Незрелая Королева Роя"
 
 [CXJuvQueenM2 X2CharacterTemplate]
-strCharacterName="Chryssalid Juvenile Hive Queen"
+strCharacterName="Незрелая Королева Роя"
 
 [CXJuvQueenM3 X2CharacterTemplate]
-strCharacterName="Chryssalid Juvenile Hive Queen"
+strCharacterName="Незрелая Королева Роя"
 
 [CorpseCXQueen X2ItemTemplate]
-FriendlyName="Chryssalid Hive Queen Corpse"
-FriendlyNamePlural="Chryssalid Hive Queen Corpses"
-BriefSummary="After closer examination, we can say without a doubt, that this Chryssalid is in fact a very old Queen and may have been the first of her kind."
+FriendlyName="Труп Королевы Роя"
+FriendlyNamePlural="Трупы Королевы Роя"
+BriefSummary="После близкого знакомства с этой особью Криссалида мы можем без сомнения сказать, что это невероятно старая Королева Роя - возможно, вообще первая из всего вида."
 
 [AutopsyCXQueen X2TechTemplate]
-DisplayName="Chryssalid Hive Queen Autopsy"
-Summary="The Chryssalid Hive Queen is a massive Chryssalid to say the least. She seems to be very old, if not the oldest of her kind."
-CodeName="Queen Mother"
-LongDescription="This specimen is a massive creature with power we have never seen before Commander. She may have been the first of her kind but we wont know unless we find more like her in size. I sure hope she is the last for all of our sakes.\n\nTesting of her cellular makeup, would suggest that she is at least 10,000 years old. The corpse still emits a small but powerful psionic discharge. Its clear now that this Queen not only had psionic capability but was using such power to block any further control of her mind from those that once held her captive. Knowing that the Elders were using her to breed their own Chryssalid Army, we should be thankful that we found and terminated her when we did. One thing is clear Commander. If there are more like her out there, they will overrun us if left unchecked. R. Tygan."
+DisplayName="Вскрытие Королевы Роя"
+Summary="Королева Роя - это огромный Криссалид (мягко говоря). Она выглядит очень старой, если не вообще старейшей особью этого вида."
+CodeName="Королева-мать"
+LongDescription="Эта особь - огромное существо, обладающее силой, которую мы никогда прежде не видели. Возможно, она была первой в своем роде, но мы не узнаем этого, пока не найдем других подобных ей по размеру. Впрочем, я очень надеюсь, что она была первой и последней.\n\nАнализ клеточного состава позволяет предположить, что особи по меньшей мере 10 000 лет. Труп все еще испускает небольшой, но мощный псионический разряд. Теперь стало ясно, что эта Королева не только обладала псионическими способностями, но и использовала их, чтобы блокировать любой дальнейший контроль над своим разумом от тех, кто когда-то держал ее в плену. Зная, что Старейшины использовали ее, чтобы создать свою собственную армию Криссалидов, мы должны быть благодарны, что все же нашли и уничтожили ее. Ясно одно, Командир. Если там есть еще такие, как она, они захватят нас, если их не остановить. Р. Тайган."
 
 [CorpseCXJuvQueen X2ItemTemplate]
-FriendlyName="Chryssalid Juvenile Queen Corpse"
-FriendlyNamePlural="Chryssalid Juvenile Queen Corpses"
-BriefSummary="While still quite large for such a young specimen, these young Queens are very fragile, yet very deadly. 
+FriendlyName="Труп Незрелой Королевы Роя"
+FriendlyNamePlural="Трупы Незрелой Королевы Роя"
+BriefSummary="Хотя эти незрелые Королевы довольно велики для столь молодого экземпляра, они очень хрупки, но при этом смертоносны." 
 
 [AutopsyCXJuvQueen X2TechTemplate]
-DisplayName="Chryssalid Juvenile Queen Autopsy"
-Summary="The Chryssalid Juvenile Queen is just as deadly as any Chryssalids we have encountered before her. Their speed, agility and ability to take flight can be very troublesome."
-CodeName="Hive Princess"
-LongDescription="After examination of this Juvenile Queen, it would appear that she was very young. I fear we have not seen the last of these young new Queens. We need to figure out if they are a creation of the Elders or something far worse.\n\nThis corpse is in very bad shape but our techs over in the Proving Grounds may be able to salvage something from it. If we can manage to collect more of these corpses, we should hold them for future projects Commander. R. Tygan."
+DisplayName="Вскрытие Незрелой Королевы Роя"
+Summary="Незрелая Королева столь же смертоносна, как и все Криссалиды, с которыми мы сталкивались до нее. Ее скорость, ловкость и способность взлететь могут доставить немало проблем."
+CodeName="Принцесса Роя"
+LongDescription="После осмотра этой незрелой Королевы оказалось, что она очень молода. Боюсь, мы не в последний раз видели этих молодых новых Королев. Нам нужно выяснить, являются ли они творением Старейшин или чем-то гораздо худшим.\n\nЭтот труп находится в очень плохом состоянии, но наши техники в Зоне испытаний могут что-нибудь из него извлечь. Если нам удастся собрать больше таких трупов, то мы должны сохранить их для будущих проектов. Р.Тайган."
 
 [QueenSlash X2AbilityTemplate]
-LocFriendlyName="Queen Slash"
-LocLongDescription="Slash an enemy and cause Chryssalid Poisoning."
-LocHelpText="Slash an enemy and cause Chryssalid Poisoning."
+LocFriendlyName="Удар Королевы"
+LocLongDescription="Наносит удар врагу и впрыскивает яд Криссалида."
+LocHelpText="Наносит удар врагу и впрыскивает яд Криссалида."
 
 [QueenHeal X2AbilityTemplate]
-LocFriendlyName="Hyper Reactive Healing"
-LocLongDescription="The Juvenile Queen has hyper reactive healing. She will heal 2 HP any time she takes damage."
-LocHelpText="The Juvenile Queen has hyper reactive healing. She will heal 2 HP any time she takes damage."
+LocFriendlyName="Сверхбыстрое Исцеление"
+LocLongDescription="Королева Роя обладает сверхбыстрым исцелением. Она восстанавливает 2 единицы здоровья после каждого получения урона."
+LocHelpText="Королева Роя обладает сверхбыстрым исцелением. Она восстанавливает 2 единицы здоровья после каждого получения урона."
 
 [JuvQueenHeal X2AbilityTemplate]
-LocFriendlyName="Hyper Reactive Healing"
-LocLongDescription="The Juvenile Queen has hyper reactive healing. She will heal 1 HP any time she takes damage."
-LocHelpText="The Juvenile Queen has hyper reactive healing. She will heal 1 HP any time she takes damage."
+LocFriendlyName="Сверхбыстрое Исцеление"
+LocLongDescription="Незрелая Королева обладает сверхбыстрым исцелением. Она восстанавливает 1 единицу здоровья после каждого получения урона."
+LocHelpText="Незрелая Королева обладает сверхбыстрым исцелением. Она восстанавливает 1 единицу здоровья после каждого получения урона."
 
 [QueenMassiveHeal X2AbilityTemplate]
-LocFriendlyName="Regeneration"
-LocLongDescription="The Queen will not only heal a large sum of health, she will also generate 2 armor."
-LocHelpText="The Queen will not only heal a large sum of health, she will also generate 2 armor."
+LocFriendlyName="Регенерация"
+LocLongDescription="Королева восстанавливает не только немалую часть здоровья, но и генерирует 2 единцы брони. Способность имеет два заряда."
+LocHelpText="Королева восстанавливает не только немалую часть здоровья, но и генерирует 2 единцы брони. Способность имеет два заряда."
 
 [CallTheHive X2AbilityTemplate]
-LocFriendlyName="Hive Reinforcements"
-LocLongDescription="The Chryssalid Matriarch can call her Hive and Chryssalid reinforcements will come to her aid."
-LocHelpText="The Chryssalid Matriarch can call her Hive and Chryssalid reinforcements will come to her aid."
-LocFlyOverText="Call the hive"
+LocFriendlyName="Подкрепления Роя"
+LocLongDescription="Матриарх Криссалидов может воззвать к своему Рою, и подкрепления Криссалидов не заставят себя ждать."
+LocHelpText="Матриарх Криссалидов может воззвать к своему Рою, и подкрепления Криссалидов не заставят себя ждать."
+LocFlyOverText="Зов Роя"
 
 [CallSwarmers X2AbilityTemplate]
-LocFriendlyName="Hive Reinforcements"
-LocLongDescription="The Chryssalid Matriarch can call her Hive and Chryssalid reinforcements will come to her aid."
-LocHelpText="The Chryssalid Matriarch can call her Hive and Chryssalid reinforcements will come to her aid."
-LocFlyOverText="Call the hive"
+LocFriendlyName="Подкрепления Роя"
+LocLongDescription="Матриарх Криссалидов может воззвать к своему Рою, и подкрепления Криссалидов не заставят себя ждать."
+LocHelpText="Матриарх Криссалидов может воззвать к своему Рою, и подкрепления Криссалидов не заставят себя ждать."
+LocFlyOverText="Зов Роя"
 
 [CallCXDrone X2AbilityTemplate]
-LocFriendlyName="Call Nearby Hive Drone"
-LocLongDescription="Nearby Chryssalid Hive Drones will come to aid the Hive."
-LocHelpText="Call Nearby Hive Drone."
+LocFriendlyName="Вызов ближайшего Трутня"
+LocLongDescription="Ближайший Криссалид-Трутень придет на помощь Рою."
+LocHelpText="Вызов ближайшего Трутня."
 
 [CallCXInfector X2AbilityTemplate]
-LocFriendlyName="Call Nearby Chryssalid Infector"
-LocLongDescription="Nearby Chryssalid Infectors will come to aid the Hive."
-LocHelpText="Call Nearby Chryssalid Infector."
+LocFriendlyName="Вызов ближайшего Инфектора"
+LocLongDescription="Ближайший Криссалид-Инфектор придет на помощь Рою."
+LocHelpText="Вызов ближайшего Инфектора."
 
 [CXQueenImmunities X2AbilityTemplate]
-LocFriendlyName="Hive Queen Immunities"
-LocLongDescription="Immune to all poison, fire and mental."
-LocHelpText="Immune to poison, fire and mental."
+LocFriendlyName="Иммунитет Королевы Роя"
+LocLongDescription="Иммунна к яду, огню и ментальным воздействиям."
+LocHelpText="Иммунна к яду, огню и ментальным воздействиям."
 
 [CXQueenDomination X2AbilityTemplate]
-LocFriendlyName="Establish Dominance"
-LocLongDescription="The Hive Queen has grown strong enough to break any control the Elders once had over her Hive. She is the Hive Mind and her children will obey."
-LocHelpText="The Hive Queen has grown strong enough to break any control the Elders once had her Hive. She is the Hive Mind and her children will obey."
-LocFlyOverText="Establish Dominance"
+LocFriendlyName="Установление господства"
+LocLongDescription="Королева Роя стала достаточно сильной,чтобы разрушить любой контроль Старейшин над ее ульем. Она - Разум Роя, и ее дети будут повиноваться ей."
+LocHelpText="Королева Роя стала достаточно сильной,чтобы разрушить любой контроль Старейшин над ее ульем. Она - Разум Роя, и ее дети будут повиноваться ей."
+LocFlyOverText="Установление господства"
 
 [HiveQueenSpit X2AbilityTemplate]
-LocFriendlyName="Sticky Secretion"
-LocLongDescription="The Hive Queen can spit a glob of sticky secretion that pins the target in place."
-LocHelpText="The Hive Queen can spit a glob of sticky secretion that pins her the target in place."
+LocFriendlyName="Липкая секреция"
+LocLongDescription="Королева способна плюнуть комком липкой секреции, которая приклеит ее добычу к земле."
+LocHelpText="Королева способна плюнуть комком липкой секреции, которая приклеит ее добычу к земле."
 
 [JuvQueenSpit X2AbilityTemplate]
-LocFriendlyName="Sticky Secretion"
-LocLongDescription="The Juvenile Queen can spit a glob of sticky secretion that pins the target in place."
-LocHelpText="The Juvenile Queen can spit a glob of sticky secretion that pins the target in place."
+LocFriendlyName="Липкая Секреция"
+LocLongDescription="Королева способна плюнуть комком липкой секреции, которая приклеит ее добычу к земле."
+LocHelpText="Королева способна плюнуть комком липкой секреции, которая приклеит ее добычу к земле."
 
 [HiveQueenCallForEscape X2AbilityTemplate]
-LocFriendlyName="Escape"
-LocLongDescription="After suffering wounds or eliminating enemies, the Hive Queen may choose to escape the battlefield."
-LocHelpText="Burrow and leave the battlefield."
-LocFlyOverText="Burrow Escape!"
+LocFriendlyName="Побег"
+LocLongDescription="Получив тяжелые ранения или уничтожив врага, Королева Роя может предпочесть исчезнуть с поля боя."
+LocHelpText="Зарыться в землю и покинуть поле боя."
+LocFlyOverText="Побег!"
 
 [JuvQueenDiveBombM1 X2AbilityTemplate]
-LocFriendlyName="Dive Bomb"
-LocLongDescription="The Queen's powerful legs and wings allow her to leap high into the air and dive bomb her prey."
-LocHelpText="The Queen's powerful legs and wings allow her to leap high into the air and dive bomb her prey."
-LocFlyOverText="Dive Bomb."
+LocFriendlyName="Пикирующая бомба"
+LocLongDescription="Мощные ноги и крылья Королевы позволяют ей  подпрыгивать высоко в воздух и устраивать своей жертве бомбардировку в полете."
+LocHelpText="Мощные ноги и крылья Королевы позволяют ей  подпрыгивать высоко в воздух и устраивать своей жертве бомбардировку в полете."
+LocFlyOverText="Пикирующая бомба"
 
 [JuvQueenDiveBombM2 X2AbilityTemplate]
-LocFriendlyName="Dive Bomb"
-LocLongDescription="The Queen's powerful legs and wings allow her to leap high into the air and dive bomb her prey."
-LocHelpText="The Queen's powerful legs and wings allow her to leap high into the air and dive bomb her prey."
-LocFlyOverText="Dive Bomb."
+LocFriendlyName="Пикирующая бомба"
+LocLongDescription="Мощные ноги и крылья Королевы позволяют ей  подпрыгивать высоко в воздух и устраивать своей жертве бомбардировку в полете."
+LocHelpText="Мощные ноги и крылья Королевы позволяют ей  подпрыгивать высоко в воздух и устраивать своей жертве бомбардировку в полете."
+LocFlyOverText="Пикирующая бомба"
 
 [JuvQueenDiveBombM3 X2AbilityTemplate]
-LocFriendlyName="Dive Bomb"
-LocLongDescription="The Queen's powerful legs and wings allow her to leap high into the air and dive bomb her prey."
-LocHelpText="The Queen's powerful legs and wings allow her to leap high into the air and dive bomb her prey."
-LocFlyOverText="Dive Bomb."
+LocFriendlyName="Пикирующая бомба"
+LocLongDescription="Мощные ноги и крылья Королевы позволяют ей  подпрыгивать высоко в воздух и устраивать своей жертве бомбардировку в полете."
+LocHelpText="Мощные ноги и крылья Королевы позволяют ей  подпрыгивать высоко в воздух и устраивать своей жертве бомбардировку в полете."
+LocFlyOverText="Пикирующая бомба"
 
 
 ;*****CHRYSSALID HIVE GUARD*****
 
 [CXHiveGuard X2CharacterTemplate]
-strCharacterName="Chryssalid Hive Guard"
+strCharacterName="Страж Роя"
 
 [CorpseCXHiveGuard X2ItemTemplate]
-FriendlyName="Chryssalid Hive Guard Corpse"
-FriendlyNamePlural="Chryssalid Hive Guard Corpses"
-BriefSummary="While not as common to see on the battlefield, the Hive Guards tend to show up when a Hive Queen is near and or as her personal guard when she decides to take leave from the Hive."
+FriendlyName="Труп Стража Роя"
+FriendlyNamePlural="Трупы Стражей Роя"
+BriefSummary="Стражей нечасто встретишь на поле боя. Как правило, они появляются вместе с Королевой Роя. Возможно, это ее личная охрана в тех случаях, когда она решает уйти из Роя."
 
 [AutopsyCXHiveGuard X2TechTemplate]
-DisplayName="Chryssalid Hive Guard Autopsy"
-Summary="While not as common to see on the battlefield, the Hive Guards tend to show up when a Hive Queen is near and or as her personal guard when she decides to take leave from the Hive."
-CodeName="Sentry"
-LongDescription="The Chryssalid Hive Guard looks to be the main stop gap between us and the Hive Queen. The Guards are no doubt meant to protect the Hive and its Queen from any and all threats. These beasts are very tough to bring down with their hardened carapace, massive shielded limbs and ability to act as living artillery when it is called for. Through its own mental link the Hive Guard can direct the living symbiotic acid cannon on its back to alter the course of the projectiles in mid trajectory, by moving membranous fins to act as wing flaps or rudders that steer the missiles. As such, Hive Guard need not make direct visual contact with enemy targets to fire upon them. We can not take these Chryssalids lightly. If we can manage to collect more of these corpses, we should hold them for future projects Commander. R. Tygan."
+DisplayName="Вскрытие Стража Роя"
+Summary="Стражей нечасто встретишь на поле боя. Как правило, они появляются вместе с Королевой Роя в качестве ее личной охраны."
+CodeName="Почетный Караул"
+LongDescription="Страж Роя, похоже, является главным препятствием между нами и Королевой Роя. Стражи, без сомнения, предназначены для защиты Роя и его Королевы от любых угроз. Этих тварей очень трудно одолеть из-за их прочного панциря, массивных защищенных конечностей и способности действовать как живая артиллерия, когда требуется. Через личную ментальную связь Страж может управлять живой симбиотической кислотной пушкой на спине, а также изменить курс снарядов в середине траектории (перемещая мембранные плавники, которые действуют как закрылки ракет). Поэтому Стражам не нужно вступать в прямой визуальный контакт с вражескими целями, чтобы открыть по ним огонь. Мы не можем относиться к этим Криссалидам легкомысленно. Если нам удастся собрать больше их трупов, то мы должны сохранить их для будущих проектов. Р.Тайган."
 
 [CXHiveGuardSlash X2AbilityTemplate]
-LocFriendlyName="Hive Guard Slash"
-LocLongDescription="Slash an enemy."
-LocHelpText="Slash an enemy."
+LocFriendlyName="Удар Стража"
+LocLongDescription="Удар по врагу."
+LocHelpText="Удар по врагу"
 
 [GuardAcidBlob X2AbilityTemplate]
-LocFriendlyName="Hive Guard Acid Cannon"
-LocLongDescription="The Hive Guard can shoot a glob of corrosive acid."
-LocHelpText="The Hive Guard can shoot a glob of corrosive acid."
-LocFlyOverText="Acid Cannon Glob"
+LocFriendlyName="Кислотная пушка Стража"
+LocLongDescription="Страж Роя способен стрелять разъедающей кислотой."
+LocHelpText="Страж Роя способен стрелять разъедающей кислотой."
+LocFlyOverText="Выстрел кислотной пушки"
 
 [HardenedCarapace X2AbilityTemplate]
-LocFriendlyName="Hardened Carapace"
-LocLongDescription="The Hive Guard has a Hardened Carapace with massive fused plates. Takes 66% less explosive damage."
-LocHelpText="The Hive Guard has a Hardened Carapace with massive fused plates. Takes 66% less explosive damage."
-LocFlyOverText="Hardened Carapace"
+LocFriendlyName="Прочный панцирь"
+LocLongDescription="Страж Роя обладает прочным пацирем из сросшихся чешуй. Получает на 66% меньше урона от взрывов."
+LocHelpText="Страж Роя обладает прочным пацирем из сросшихся чешуй. Получает на 66% меньше урона от взрывов."
+LocFlyOverText="Прочный панцирь"
 
 [CXHiveGuardImmunities X2AbilityTemplate]
-LocFriendlyName="Hive Guard Immunities"
-LocLongDescription="Immune to all poison, acid and mental."
-LocHelpText="Immune to poison, acid and mental."
+LocFriendlyName="Иммунитет Стража"
+LocLongDescription="Иммунитет к яду, кислоте и ментальным воздействиям."
+LocHelpText="Иммунитет к яду, кислоте и ментальным воздействиям."
 
 [HiveGuardDeflect X2AbilityTemplate]
-LocFriendlyName="Deflect"
-LocLongDescription="The Hive Guard has massive shielded limbs that give it a 25% chance to deflect any incoming attack."
-LocHelpText="The Hive Guard has massive shielded limbs that give it a 25% chance to deflect any incoming attack."
+LocFriendlyName="Отразить"
+LocLongDescription="Страж Роя обладает массивными бронированными конечностями, которые имеют 25%-ный шанс отразить любую атаку."
+LocHelpText="Страж Роя обладает массивными бронированными конечностями, которые имеют 25%-ный шанс отразить любую атаку."
 
 [HiveGuardMeleeResistance X2AbilityTemplate]
-LocFriendlyName="Melee Resistance"
-LocLongDescription="The Hive Guard takes 4 less damage from all melee attacks."
-LocHelpText="The Hive Guard takes 4 less damage from all melee attacks."
-LocFlyOverText="Melee Resistance"
+LocFriendlyName="Устойчивость в рукопашной"
+LocLongDescription="Страж Роя получает на 4 меньше урона от всех рукопашных атак."
+LocHelpText="Страж Роя получает на 4 меньше урона от всех рукопашных атак."
+LocFlyOverText="Устойчивость в рукопашной"
 
 [HiveGuardSpikeDefense X2AbilityTemplate]
-LocFriendlyName="Melee Defense"
-LocLongDescription="If melee attacked, The Hive Guard may deploy its spiked shileds as defense and deal melee damage back to its attacker."
-LocHelpText="The Hive Guard may deal some melee damage back to its attacker when it's attacked in melee."
-
+LocFriendlyName="Защита в ближнем бою"
+LocLongDescription="При атаке в ближнем бою Страж Улья может использовать свои шипастые щиты в качестве защиты и наносить атакующему ответный урон в ближнем бою."
+LocHelpText="При атаке в ближнем бою Страж Улья может использовать свои шипастые щиты в качестве защиты и наносить атакующему ответный урон в ближнем бою."
 
 ;*****CHRYSSALID HIVE WARRIOR*****
 
 [CXWarrior X2CharacterTemplate]
-strCharacterName="Chryssalid Hive Warrior"
+strCharacterName="Воин Роя"
 
 [CorpseCXWarrior X2ItemTemplate]
-FriendlyName="Chryssalid Hive Warrior Corpse"
-FriendlyNamePlural="Chryssalid Hive Warrior Corpses"
-BriefSummary="While not as common as other Chryssalids, the Hive Warrior plays a key role in the function and hierarchy of any hive. They are meant to command."
+FriendlyName="Труп Воина Роя"
+FriendlyNamePlural="Трупы Воинов Роя"
+BriefSummary="Хотя он и не столь распространен, как другие Криссалиды, Криссалид-Воин играет ключевую роль в функциях и иерархии Роя. Они предназначены для того, чтобы командовать."
 
 [AutopsyCXWarrior X2TechTemplate]
-DisplayName="Chryssalid Hive Warrior Autopsy"
-Summary="While not as common as other Chryssalids, the Hive Warrior plays a key role in the function and hierarchy of any hive. They are meant to command the many lesser Chryssalids and keep them moving forward in the engagment."
-CodeName="Knight"
-LongDescription="Whenever a Hive Warrior is on the field, you can expect very bad things to happen. Hive Warriors demand respect and are feared like no other. They are not only strong, quick and deadly but are one of the smartest Chryssalids we have come across to date. I do not like sending our troops into battle against these things Commander. Hearing stories and rumors of these Warriors is bad enough. Seeing one up close, is frightening.\n\nAnd now seeing the video footage our troops brought back of these Warriors in combat, I am certain that the Chryssalids are not only getting smarter but more organized. We will need heavier firepower for sure Commander. R. Tygan."
+DisplayName="Вскрытие Воина Роя"
+Summary="Хотя он и не столь распространен, как другие Криссалиды, Криссалид-Воин играет ключевую роль в функциях и иерархии Роя. Они предназначены для того, чтобы командовать более мелкими Криссалидами и улучшать их боевые качества."
+CodeName="Рыцарь"
+LongDescription="Всякий раз, когда Воин Роя находится на поле боя, можно ожидать очень плохих вещей. Воины Роя заслуживают уважения, и их боятся, как никого другого. Они не только сильны, быстры и смертоносны, но и являются одними из самых умных Криссалидов, с которыми мы сталкивались на сегодняшний день. Мне не нравится посылать наши войска в бой против этих тварей, Командир. Слушать россказни солдат о них - уже достаточно плохо. Видеть кого-то из них вблизи - это страшно.\n\nИ теперь, видя видеозаписи, которые наши войска привезли с собой, я уверен, что Криссалиды становятся не только умнее, но и более организованными. Нам точно понадобится более тяжелая огневая мощь. Р. Тайган."
 
 [CXWarriorSlash X2AbilityTemplate]
-LocFriendlyName="Hive Warrior Slash"
-LocLongDescription="Slash an enemy."
-LocHelpText="Slash an enemy."
+LocFriendlyName="Удар Воина Роя"
+LocLongDescription="Удар по врагу."
+LocHelpText="Удар по врагу."
 
 [AdrenalRush X2AbilityTemplate]
-LocFriendlyName="Adrenal Rush"
-LocLongDescription="Hive Warriors use their adrenal glands to spray a microbial adrenalin mist into the air. This mist is highly mobile and the smallest particle can be picked up a mile away. This will increase the mobility and offensive capabilities of all hive members in the area. Lasts 2 turns."
-LocHelpText="Hive Warriors use their adrenal glands to spray a microbial adrenalin mist into the air. This mist is highly mobile and the smallest particle can be picked up a mile away. This will increase the mobility and offensive capabilities of all hive members in the area. Lasts 2 turns."
+LocFriendlyName="Прилив адреналина"
+LocLongDescription="Воины Роя используют особые железы для распыления микробного адреналинового тумана в воздухе. Этот туман мгновенно распространяется, и в минимальных концентрациях обнаруживается на расстоянии до мили вокруг. Он увеличит мобильность и наступательные возможности всех членов Роя в этом районе. Длительность - 2 хода."
+LocHelpText="Воины Роя используют особые железы для распыления микробного адреналинового тумана в воздухе. Этот туман мгновенно распространяется, и в минимальных концентрациях обнаруживается на расстоянии до мили вокруг. Он увеличит мобильность и наступательные возможности всех членов Роя в этом районе. Длительность - 2 хода."
 
 [CXWarriorImmunities X2AbilityTemplate]
-LocFriendlyName="Hive Warrior Immunities"
-LocLongDescription="Immune to poison and fire."
-LocHelpText="Immune to poison and fire."
+LocFriendlyName="Иммунитет Воина Роя"
+LocLongDescription="Иммунитет к яду и огню."
+LocHelpText="Иммунитет к яду и огню."
 
 [HyperReactiveSenses X2AbilityTemplate]
-LocFriendlyName="Hyper Reactive Senses"
-LocLongDescription="Hive Warriors can self stimulate their senses. This will increase their effectiveness to dodge attacks as well as greatly increase their will power. Lasts 2 turns."
-LocHelpText="Hive Warriors can self stimulate their senses. Dodge increased by 10 and will by 20. Lasts 2 turns."
+LocFriendlyName="Реактивное чутье"
+LocLongDescription="Воины Роя обладают способностью стимулировать собственные рефлексы. Это увеличивает их способность уклоняться от атак, а также сильно поднимает силу воли. Длительность - 2 хода."
+LocHelpText="Воины Роя могут стимулировать собственные рефлексы. Уклонение увеличивается на 10, воля на 20. Длительность - 2 хода."
 
 
 ;*****CHRYSSALID SHRIEKER*****
 
 [CXShrieker X2CharacterTemplate]
-strCharacterName="Chryssalid Shrieker"
+strCharacterName="Криссалид-Визгун"
 
 [CXShriekerSlash X2AbilityTemplate]
-LocFriendlyName="Shrieker Slash"
-LocLongDescription="Slash an enemy."
-LocHelpText="Slash an enemy."
+LocFriendlyName="Удар Визгуна"
+LocLongDescription="Удар по врагу."
+LocHelpText="Удар по врагу."
 
 [CorpseCXShrieker X2ItemTemplate]
-FriendlyName="Chryssalid Shrieker Corpse"
-FriendlyNamePlural="Chryssalid Shrieker Corpses"
-BriefSummary="The Chryssalid Shrieker is not only a scary sight but the shear sound of it is enough to drove most mad. They will not hesitate to rush you and use their shrieking EMP blast to disable weapons and electronics."
+FriendlyName="Труп Криссалида-Визгуна"
+FriendlyNamePlural="Трупы Криссалидов-Визгунов"
+BriefSummary="Криссалид-Визгун - это не только страшное зрелище, но и резкий звук. Зачастую его достаточно, чтобы свести с ума человека. Визгуны без колебаний бросятся на вас и используют свой визг как ЭМИ-удар для отключения оружия и электроники."
 
 [AutopsyCXShrieker X2TechTemplate]
-DisplayName="Chryssalid Shrieker Autopsy"
+DisplayName="Вскрытие Криссалида-Визгуна"
 Summary="."
-CodeName="Knight"
+CodeName="Рыцарь"
 LongDescription="."
 
 [CXShriekerImmunities X2AbilityTemplate]
-LocFriendlyName="Shrieker Immunities"
-LocLongDescription="Immune to poison, stun and mental."
-LocHelpText="Immune to poison, stun and mental."     
+LocFriendlyName="Иммунитет Визгуна"
+LocLongDescription="Иммунитет к яду, оглушению и ментальным эффектам."
+LocHelpText="Иммунитет к яду, оглушению и ментальным эффектам."     
 
 [Shrieker_EMP X2AbilityTemplate]
-LocFriendlyName="Shrieker EMP Blast"
-LocLongDescription="EMP blast that disables weapons. Does damage to robotic units only, with a chance to force a shutdown."
-LocHelpText="EMP blast that disables weapons. Does damage to robotic units only, with a chance to force a shutdown."
-LocFlyOverText="Shrieker EMP Blast"
+LocFriendlyName="ЭМИ-удар Визгуна"
+LocLongDescription="ЭМИ-удар, вызывающий поломку оружия. Наносит урон только роботам, с шансом отключения."
+LocHelpText="ЭМИ-удар, вызывающий поломку оружия. Наносит урон только роботам, с шансом отключения."
+LocFlyOverText="ЭМИ-удар Визгуна"
 
 
 ;*****CHRYSSALID CHAMELEON*****
 
 [CXChameleon X2CharacterTemplate]
-strCharacterName="Chryssalid Chameleon"
+strCharacterName="Криссалид-Хамелеон"
 
 [CXChameleon2 X2CharacterTemplate]
-strCharacterName="Chryssalid Wraith"
+strCharacterName="Криссалид-Призрак"
 
 [CXChameleon3 X2CharacterTemplate]
-strCharacterName="Chryssalid Mantis"
+strCharacterName="Криссалид-богомол"
 
 [CorpseCXChameleon X2ItemTemplate]
-FriendlyName="Chryssalid Chameleon Corpse"
-FriendlyNamePlural="Chryssalid Chameleon Corpses"
-BriefSummary="The Chryssalid Chameleon looks to be a highly evolved form. They are very intelligent and can stay hidden to stalk their prey."
+FriendlyName="Труп Криссалида-Хамелеона"
+FriendlyNamePlural="Трупы Криссалидов-Хамелеонов"
+BriefSummary="Хамелеон выглядит как высокоразвитая форма Криссалида. Они очень умны и могут оставаться скрытыми, чтобы преследовать свою добычу."
 
 [AutopsyCXChameleon X2TechTemplate]
-DisplayName="Chryssalid Chameleon Autopsy"
-Summary="Able to move swiftly and without sound through even the densest terrain, and concealed by a chameleonic carapace that renders it all but invisible to the naked eye, a Chryssalid Chameleon can remain hidden until it chooses to strike. It can wait motionless for days, unnoticed by its victims, an unseen herald of approaching disaster."
-CodeName="Ghost"
-LongDescription="Chameleons are the hunters of the Chryssalid Hive, roaming ahead of the Hive, seeking out prey and leading the Hive to concentrations of enemies. Chameleons are distinct in appearance from other Chryssalid creatures in a number of ways, such as a pair of long mantis-like claws extending over the creature's shoulders which it can use for shredding its prey. It has enhanced senses, and shimmering chameleonic scales which allow it to hide with ease. A natural predator, the Chameleon is patient and stealthy and can move past even the most alert foes, or spend days hiding immobile, waiting for a chance to strike once its prey's guard is down. This has given the Chameleon an almost mythical reputation amongst the Resistance, as a ghost-like horror which can strike at any time and place, before vanishing into thin air just as easily. We need to find ways to track and hunt them before they hunt us Commander. R. Tygan."
+DisplayName="Вскрытие Криссалида-Хамелеона"
+Summary="Способный быстро и бесшумно передвигаться даже по самой пересеченной местности, защищенный меняющим цвет панцирем, который делает его почти невидимым для невооруженного глаза, Криссалид-Хамелеон может оставаться скрытым до тех пор, пока не решит нанести удар. Он может ждать неподвижно в течение нескольких дней, незаметно для своих жертв, как невидимый вестник приближающейся катастрофы."
+CodeName="Призрак"
+LongDescription="Хамелеоны - это охотники Роя Криссалидов, которые бродят впереди Роя, выискивая добычу и ведя Рой к скоплению врагов. Хамелеоны отличаются по внешнему виду от других Криссалидов: к них пара длинных когтей над плечами, как у богомолов - их они используют для того, чтобы рвать свою добычу на части. У Хамелеона отличное чутье и меняющие цвет чешуйки, которые позволяют ему легко скрываться на местности. Будучи естественным хищником, Хамелеон терпелив и скрытен, и может пройти мимо даже самых бдительных врагов - или провести дни, прячась неподвижно и ожидая шанса нанести удар, как только его жертва ослабит защиту. Это дало Хамелеону почти мифическую репутацию среди Сопротивления. Его считают призрачным ужасом, который может ударить в любое время и в любом месте, а потом раствориться в воздухе. Нам нужно научиться выслеживать их прежде, чем они смогут выследить нас. Р.Тайган."
 
 [CXChameleonSlash X2AbilityTemplate]
-LocFriendlyName="Chameleon Slash"
-LocLongDescription="Slash an enemy."
-LocHelpText="Slash an enemy."
+LocFriendlyName="Удар Хамелеона"
+LocLongDescription="Удар по врагу."
+LocHelpText="Удар по врагу."
 
 [CXChameleonZombieSlash X2AbilityTemplate]
-LocFriendlyName="Chameleon Death Slash"
-LocLongDescription="Slash and infect. Those killed become Infected Zombies. The Chameleon Wraith can also infect those already dead."
-LocHelpText="Slash and infect. Those killed become Infected Zombies. The Chameleon Wraith can also infect those already dead"
+LocFriendlyName="Смертельный удар Хамелеона"
+LocLongDescription="Бьет и заражает. Те, кто погибают от этого удара, становятся Зараженными зомби. Хамелеон-Призрак может заражать даже трупы."
+LocHelpText="Бьет и заражает. Те, кто погибают от этого удара, становятся Зараженными зомби. Хамелеон-Призрак может заражать даже трупы."
 
 [CXChameleon3Slash X2AbilityTemplate]
-LocFriendlyName="Chameleon Slash"
-LocLongDescription="Slash an enemy."
-LocHelpText="Slash an enemy."
+LocFriendlyName="Косой удар Хамелеона"
+LocLongDescription="Сразите врага."
+LocHelpText="Сразите врага."
 
 [CXChameleonRupture X2AbilityTemplate]
-LocFriendlyName="Rending Claws"
-LocLongDescription="The Rending Claws of the Chameleon will shred 4 armor and add Rupture to the target if hit."
-LocHelpText="The Rending Claws of the Chameleon will shred 4 armor and add Rupture to the target if hit."
-LocFlyOverText="Rending Claws"
+LocFriendlyName="Секущие когти"
+LocLongDescription="Секущие когти Хамелеона уничтожают 4 единицы брони и вешают на цель \"Разрыв\" (уязвимость к следующим ударам)."
+LocHelpText="Секущие когти Хамелеона уничтожают 4 единицы брони и вешают на цель \"Разрыв\" (уязвимость к следующим ударам)."
+LocFlyOverText="Секущие когти"
 
 [CXChameleonBleed X2AbilityTemplate]
-LocFriendlyName="Ripping Claws"
-LocLongDescription="The Ripping Claws of this Chameleon Wraith will shred 4 armor and add Bleeding to the target if hit."
-LocHelpText="The Ripping Claws of this Chameleon Wraith will shred 4 armor and add Bleeding to the target if hit."
-LocFlyOverText="Ripping Claws"
+LocFriendlyName="Рвущие когти"
+LocLongDescription="Рвущие когти Хамелеона-Призрака уничтожают 4 единицы брони и вызывают кровтечение у пораженной цели."
+LocHelpText="Рвущие когти Хамелеона-Призрака уничтожают 4 единицы брони и вызывают кровтечение у пораженной цели."
+LocFlyOverText="Рвущие когти"
 
 [CXChameleonAcidSlash X2AbilityTemplate]
-LocFriendlyName="Corrosive Claws"
-LocLongDescription="The Corrosive Claws of this Chameleon Mantis will shred 4 armor and add Acid Burning to the target if hit."
-LocHelpText="The Corrosive Claws of this Chameleon Mantis will shred 4 armor and add Acid Burning to the target if hit."
-LocFlyOverText="Corrosive Claws"
+LocFriendlyName="Разъедающие Когти"
+LocLongDescription="Разъедающие когти этого богомола-хамелеона разнесут в клочья 4 брони и добавят кислотного ожога цели при попадании."
+LocHelpText="ThРазъедающие когти этого богомола-хамелеона разнесут в клочья 4 брони и добавят кислотного ожога цели при попадании."
+LocFlyOverText="Разъедающие Когти"
 
 [ChameleonVanish X2AbilityTemplate]
-LocFriendlyName="Vanish"
-LocLongDescription="Vanish to stalk prey. While invisible, Chameleons can still take indirect fire and environmental damage if they can be located."
-LocHelpText="Vanish to stalk prey. While invisible, Chameleons can still take indirect fire and environmental damage if they can be located."
+LocFriendlyName="Исчезновение"
+LocLongDescription="Исчезает, чтобы преследовать добычу. Будучи невидимыми, Хамелеоны все еще могут принимать непрямой огонь и получать урон от взрывов предметов окружения."
+LocHelpText="Исчезает, чтобы преследовать добычу. Будучи невидимыми, Хамелеоны все еще могут принимать непрямой огонь и получать урон от взрывов предметов окружения."
 
 [ChameleonFleetOfClawPassive X2AbilityTemplate]
-LocFriendlyName="Fleet Of Claw"
-LocLongDescription="While Chameleons are very dangerous, they are weak if caught in the open alone. If hurt, they will vanish, scamper and hide. While hurt, the Chameleon's chameleonic carapace will shimmer from time to time giving away its location. Keep a keen eye open."
-LocHelpText="While Chameleons are very dangerous, they are weak if caught in the open alone. If hurt, they will vanish, scamper and hide. While hurt, the Chameleon's chameleonic carapace will shimmer from time to time giving away its location. Keep a keen eye open."
+LocFriendlyName="Проворные клешни"
+LocLongDescription="Хотя Хамелеоны очень опасны в целом, они слабы, если их ловят на открытом месте в одиночку. Если их ранить, они исчезнут, отбегут в укрытие и спрячутся. При этом поврежденный защитный панцирь Хамелеона будет время от времени мерцать, выдавая его местоположение. Держите глаза открытыми."
+LocHelpText="Хотя Хамелеоны очень опасны в целом, они слабы, если их ловят на открытом месте в одиночку. Если их ранить, они исчезнут, отбегут в укрытие и спрячутся. При этом поврежденный защитный панцирь Хамелеона будет время от времени мерцать, выдавая его местоположение. Держите глаза открытыми."
 
 [ChameleonVanishReveal X2AbilityTemplate]
-LocFriendlyName="Reveal"
-LocLongDescription="Reveal to attack prey."
-LocHelpText="Reveal to attack prey."
+LocFriendlyName="Появление"
+LocLongDescription="Появиться, чтобы атаковать жертву."
+LocHelpText="Появиться, чтобы атаковать жертву."
 
 [CXChameleonImmunities X2AbilityTemplate]
-LocFriendlyName="Chryssalid Chameleon Immunities"
-LocLongDescription="Immune to all poison."
-LocHelpText="Immune to all poison."
+LocFriendlyName="Иммунитет Хамелеона"
+LocLongDescription="Иммунитет к любому отравлению."
+LocHelpText="Иммунитет к любому отравлению."
 
 [CXChameleon3Immunities X2AbilityTemplate]
-LocFriendlyName="Chryssalid Mantis Immunities"
-LocLongDescription="Immune to all poison and acid."
-LocHelpText="Immune to all poison and acid."
+LocFriendlyName="Иммунитет криссалида-богомола"
+LocLongDescription="Невосприимчивость ко всем ядам и кислотам."
+LocHelpText="Невосприимчивость ко всем ядам и кислотам."
 
 [ShadowStalk X2AbilityTemplate]
-LocFriendlyName="Shadowstalk"
-LocLongDescription="While concealed the Chameleon Wraith gains a +10 bonus aim and +25 bonus critical hit chance when attacking enemies."
-LocHelpText="While concealed the Chameleon Wraith gains a +10 bonus aim and +25 bonus critical hit chance when attacking enemies."
-LocPromotionPopupText="<Bullet/> Shadowstalk bonuses will apply if the Chameleon Wraith re-enters concealment in a mission.<br/>"
-
-
+LocFriendlyName="Крадущийся в тени"
+LocLongDescription="Во время скрытности Хамелеон-Призрак получает бонус +10 к меткости и +25 к шансу на критический удар."
+LocHelpText="Во время скрытности Хамелеон-Призрак получает бонус +10 к меткости и +25 к шансу на критический удар."
+LocPromotionPopupText="<Bullet/> Бонусы \"Крадущегося в тени\" появиятся, если Хамелеон-Призрак снова получит скрытность на миссии.<br/>"
 
 
 ;*****CHRYSSALID INFECTOR*****
 
 [CXInfector X2CharacterTemplate]
-strCharacterName="Chryssalid Infector"
+strCharacterName="Криссалид-Инфектор"
 
 [CorpseCXInfector X2ItemTemplate]
-FriendlyName="Chryssalid Infector Corpse"
-FriendlyNamePlural="Chryssalid Infector Corpses"
-BriefSummary="The Chryssalid Infector is the ultimate terror weapon. One is deadly but a small group can bring down a well populated city over night. It's what comes the next morning that will haunt youre dreams."
+FriendlyName="Труп Криссалида-Инфектора"
+FriendlyNamePlural="Трупы Криссалидов-Инфекторов"
+BriefSummary="Криссалид-Инфектор - это абсолютное оружие террора. Даже в одиночку он смертельно опасен, но несколько этих тварей способны выкосить густонаселенный город за ночь. А то, что ты увидишь там утром, будет преследовать тебя в кошмарах."
 
 [AutopsyCXInfector X2TechTemplate]
-DisplayName="Chryssalid Infector Autopsy"
-Summary="The Chryssalid."
+DisplayName="Вскрытие Криссалида-Инфектора"
+Summary="Криссалид."
 CodeName=""
 LongDescription=""
 
 [CXInfectorImmunities X2AbilityTemplate]
-LocFriendlyName="Chryssalid Infector Immunities"
-LocLongDescription="Immune to all poison."
-LocHelpText="Immune to all poison."     
+LocFriendlyName="Иммунитет Инфектора"
+LocLongDescription="Иммунитет к яду и огню."
+LocHelpText="Иммунитет к яду и огню."     
 
 [ChrysZombieSlash X2AbilityTemplate]
-LocFriendlyName="Infector Slash"
-LocLongDescription="Slash and infect. Those killed become Infected Zombies."
-LocHelpText="Slash and infect. Those killed become Infected Zombies."
+LocFriendlyName="Удар Инфектора"
+LocLongDescription="Наносит урон и заражает. Убитые становятся Зараженными зомби."
+LocHelpText="Наносит урон и заражает. Убитые становятся Зараженными зомби."
 
 
 
 ;*****CHRYSSALID HIVE DRONE*****
 
 [CXDrone X2CharacterTemplate]
-strCharacterName="Chryssalid Hive Drone"
+strCharacterName="Криссалид-Трутень"
 
 [CorpseCXDrone X2ItemTemplate]
-FriendlyName="Chryssalid Hive Drone Corpse"
-FriendlyNamePlural="Chryssalid Hive Drone Corpses"
-BriefSummary="The Chryssalid Hive Drone is very mobile and extremely agile. Advent and our soldiers are having a hard time being able to keep pace with them once encountered. We need to find ways to stop them or better detect them."
+FriendlyName="Труп Криссалида-Трутня"
+FriendlyNamePlural="Трупы Криссалидов-Трутней"
+BriefSummary="Криссалиды-Трутни очень подвижны и проворны. И АДВЕНТ, и наши солдаты не восторге от того, что за этими тварями так сложно угнаться при обнаружении. Мы должны найти способы останавливать или лучше обнаруживать их."
 
 [AutopsyCXDrone X2TechTemplate]
-DisplayName="Chryssalid Hive Drone Autopsy"
-Summary="The Chryssalid Hive Drone is very mobile and agile. Its ability to burrow to avoid detection or ambush prey makes it very dangerous."
-CodeName="Pawn"
-LongDescription="This Chryssalid Drone seems to be noting more than a pawn or a worker bug of sorts.  It moves and reacts as if connected and controlled by something else with a much greater mental synapse over them. Even after death, the corpse twitches as if something is trying to control it. These Chryssalid Drones are surely not the last nor the most deadly we will encounter. They are much more coordinated than others we had fought in the first war.\n\nThe autopsy has revealed that they do in fact have a very small but powerful organ that acts like a hive mind synapse node receptor. This node receptor is connected to its sensory nerve, and whatever is transmitting commands can make these things move with extreme purpose and speed. More testing is needed, but I am extremely concerned with what else could be out there that we have not yet seen Commander. R. Tygan."
+DisplayName="Вскрытие Криссалида-Трутня"
+Summary="Криссалиды-Трутни очень подвижны и проворны. Их способность закапываться, чтобы избежать обнаружения или устроить засаду, делает их весьма опасными."
+CodeName="Пешка"
+LongDescription="Этот Криссалид-трутень, похоже, не более чем пешка или что-то вроде рабочего муравья.  Он двигается и реагирует так, как будто находится под управлением чего-то другого, с гораздо большим ментальным потенциалом. Даже после смерти труп дергается, как будто кто-то пытается его контролировать. Эти Трутни, конечно, не последние и не самые смертоносные твари этого вида, с которыми мы столкнемся. Они гораздо более скоординированы, чем те Криссалиды, с которыми мы сражались в первой войне.\n\nВскрытие показало, что у них действительно есть очень маленький, но мощный орган, который действует как рецептор синапсов коллективного разума Роя. Этот узловой рецептор соединен с его сенсорным нервом, и то, что передает команды, может заставить этих тварей двигаться с чрезвычайной целеустремленностью и скоростью. Необходимы дополнительные исследования, но я крайне обеспокоен тем, что еще может нам открыться. Р.Тайган."
 
 [CXDroneSlash X2AbilityTemplate]
-LocFriendlyName="Hive Drone Slash"
-LocLongDescription="Slash an enemy."
-LocHelpText="Slash an enemy."
+LocFriendlyName="Удар Трутня"
+LocLongDescription="Удар по врагу."
+LocHelpText="Удар по врагу."
 
 [DroneVanish X2AbilityTemplate]
-LocFriendlyName="Burrow"
-LocLongDescription="Burrow to avoid enemies. Drones can move while burrowed. Will not take any damage from explosives or environmental effects while burrowed."
-LocHelpText="Burrow to avoid enemy. Drones can move while burrowed. Will not take any damage from explosives or environmental effects while burrowed."
+LocFriendlyName="Зарыться"
+LocLongDescription="Трутень зарывается в землю, чтобы избежать опасности. Трутни могут двигаться под землей. В этом состоянии они не получают никакого урона от взрывов или разрушений объектов среды."
+LocHelpText="Трутень зарывается в землю, чтобы избежать опасности. Трутни могут двигаться под землей. В этом состоянии они не получают никакого урона от взрывов или разрушений объектов среды."
 
 [DroneVanishReveal X2AbilityTemplate]
-LocFriendlyName="Surface"
-LocLongDescription="Surface to attack enemy."
-LocHelpText="Surface to attack enemy."
+LocFriendlyName="На поверхность"
+LocLongDescription="Выбраться на поверхность для атаки врага."
+LocHelpText="Выбраться на поверхность для атаки врага."
 
 
 
 ;*****CHRYSSALID SWARMER*****
 
+
 [CXSwarmerM1 X2CharacterTemplate]
-strCharacterName="Chryssalid Swarmer"
+strCharacterName="Криссалид-Летун"
 
 [CXSwarmerM2 X2CharacterTemplate]
-strCharacterName="Chryssalid Swarmer"
+strCharacterName="Криссалид-Летун"
 
 [CXSwarmerM3 X2CharacterTemplate]
-strCharacterName="Chryssalid Swarmer"
+strCharacterName="Криссалид-Летун"
 
 [CXSwarmerHealM1 X2AbilityTemplate]
-LocFriendlyName="Healing Secretion"
-LocLongDescription="The Chryssalid Swarmer can spit up a secretion that heals as well as adds a hardening agent to its target, creating a natural armor plating."
-LocHelpText="The Chryssalid Swarmer can spit up a secretion that heals as well as adds a hardening agent to its target, creating a natural armor plating."
+LocFriendlyName="Лечебная секреция"
+LocLongDescription="Криссалид-Летун может выплевывать секрецию, которая лечит союзников. Также она содержит отвердитель, создавая естественное броневое покрытие."
+LocHelpText="Криссалид-Летун может выплевывать секрецию, которая лечит союзников. Также она содержит отвердитель, создавая естественное броневое покрытие."
 
 [CXSwarmerHealM2 X2AbilityTemplate]
-LocFriendlyName="Healing Secretion"
-LocLongDescription="The Chryssalid Swarmer can spit up a secretion that heals as well as adds a hardening agent to its target, creating a natural armor plating."
-LocHelpText="The Chryssalid Swarmer can spit up a secretion that heals as well as adds a hardening agent to its target, creating a natural armor plating."
+LocFriendlyName="Лечебная секреция"
+LocLongDescription="Криссалид-Летун может выплевывать секрецию, которая лечит союзников. Также она содержит отвердитель, создавая естественное броневое покрытие."
+LocHelpText="Криссалид-Летун может выплевывать секрецию, которая лечит союзников. Также она содержит отвердитель, создавая естественное броневое покрытие."
 
 [CXSwarmerHealM3 X2AbilityTemplate]
-LocFriendlyName="Healing Secretion"
-LocLongDescription="The Chryssalid Swarmer can spit up a secretion that heals as well as adds a hardening agent to its target, creating a natural armor plating."
-LocHelpText="The Chryssalid Swarmer can spit up a secretion that heals as well as adds a hardening agent to its target, creating a natural armor plating."
+LocFriendlyName="Лечебная секреция"
+LocLongDescription="Криссалид-Летун может выплевывать секрецию, которая лечит союзников. Также она содержит отвердитель, создавая естественное броневое покрытие."
+LocHelpText="Криссалид-Летун может выплевывать секрецию, которая лечит союзников. Также она содержит отвердитель, создавая естественное броневое покрытие."
 
 [CXSwarmerImmunities X2AbilityTemplate]
-LocFriendlyName="Hive Queen Immunities"
-LocLongDescription="Immune to all poison, frost, stun and disorient."
-LocHelpText="Immune to all poison, frost, stun and disorient."
+LocFriendlyName="Иммунитет Кородевы Роя"
+LocLongDescription="Иммунитет к яду, льду, оглушению и дезориентации."
+LocHelpText="Иммунитет к яду, льду, оглушению и дезориентации."
 
 [CXSwarmerSpit X2AbilityTemplate]
-LocFriendlyName="Sticky Secretion"
-LocLongDescription="The Swarmer can spit a glob of sticky secretion that pins its prey in place."
-LocHelpText="The Swarmer can spit a glob of sticky secretion that pins its prey in place."
+LocFriendlyName="Липкая секреция"
+LocLongDescription="Летун способен плюнуть комком липкой секреции, которая приклеит ее добычу к земле."
+LocHelpText="Летун способен плюнуть комком липкой секреции, которая приклеит ее добычу к земле."
+
 
 
 
 ;*****CHRYSSALID RIPPER*****
 
 [CXRipperM1 X2CharacterTemplate]
-strCharacterName="Chryssalid Ripper"
+strCharacterName="Криссалид-Потрошитель"
 
 [CXRipperM2 X2CharacterTemplate]
-strCharacterName="Chryssalid Ripper"
+strCharacterName="Криссалид-Потрошитель"
 
 [CXRipper X2CharacterTemplate]
-strCharacterName="Chryssalid Ripper"
+strCharacterName="Криссалид-Потрошитель"
 
 [CXRipper2 X2CharacterTemplate]
-strCharacterName="Chryssalid Ripper"
+strCharacterName="Криссалид-Потрошитель"
 
 [CXRipperXCom X2CharacterTemplate]
-strCharacterName="XCOM Ripper"
+strCharacterName="Потрошитель XCOM"
 
 [CXRipperNeedleAttack X2AbilityTemplate]
-LocFriendlyName="Ripper Needle Attack"
-LocLongDescription="The Ripper's needle-like projectiles deal -2 mobility for 2 turns."
-LocHelpText="The Ripper's needle-like projectiles deal -2 mobility for 2 turns."
-LocFlyOverText="Needle Attack"
+LocFriendlyName="Атака иглами Потрошителя"
+LocLongDescription="Иглоподобные снаряды Потрошителя снижают мобильность цели на -2 на 2 хода."
+LocHelpText="Иглоподобные снаряды Потрошителя снижают мобильность цели на -2 на 2 хода."
+LocFlyOverText="Атака иглами"
 
 [CXRipperM1Slash X2AbilityTemplate]
-LocFriendlyName="Ripper Slash"
-LocLongDescription="Slash an enemy."
-LocHelpText="Slash an enemy."
+LocFriendlyName="Удар Потрошителя"
+LocLongDescription="Удар по врагу."
+LocHelpText="Удар по врагу."
 
 [CXRipperM2Slash X2AbilityTemplate]
-LocFriendlyName="Ripper Slash"
-LocLongDescription="Slash an enemy."
-LocHelpText="Slash an enemy."
+LocFriendlyName="Удар Потрошителя"
+LocLongDescription="Удар по врагу."
+LocHelpText="Удар по врагу."
 
 [CorpseCXRipper X2ItemTemplate]
-FriendlyName="Chryssalid Ripper Corpse"
-FriendlyNamePlural="Chryssalid Ripper Corpses"
-BriefSummary="The Chryssalid Rippers are very mobile and will climb anything to get to to their intended target. Their speed and agility is extremely frightening. Thier desire to rip though their prey is what nightmares are made of."
+FriendlyName="Труп Криссалида-Потрошителя"
+FriendlyNamePlural="Трупы Криссалидов-Потрошителей"
+BriefSummary="Криссалиды-Потрошители очень подвижны и готовы взобраться на что угодно, лишь бы добраться до намеченной цели. Их скорость и ловкость чрезвычайно пугают. А их желание разорвать свою добычу на части - это то, из чего сделаны ночные кошмары."
 
 [AutopsyCXRipper X2TechTemplate]
-DisplayName="Chryssalid Ripper Autopsy"
-Summary="While quite small and very weak, we can not underestimate these Chryssalids. With their number, they can be just as deadly as any other Chryssalid."
-CodeName="Thornback"
-LongDescription="It would appear that these Chryssalids have the capacity to generate a never ending supply of needle-like blades. These needles can be shot at very high velocity and penetrate even the hardest of armors. I may have a use for this ability Commander. R. Tygan."
+DisplayName="Вскрытие Криссалида-Потрошителя"
+Summary="Хотя они довольно малы и очень слабы, мы не можем недооценивать этих Криссалидов. Учитывая их количество, они могут быть столь же смертоносны, как и любой другой Криссалид."
+CodeName="Морской еж"
+LongDescription="Похоже, что эти Криссалиды обладают способностью генерировать почти бесконечный запас иглообразных лезвий. Эти иглы могут быть выпущены с очень высокой скоростью и пробивать даже самую прочную броню. У нас может найтись применение для этой способности. Р. Тайган."
 
 
 ;*****CHRYSSALID SPAWING PIT*****
 [CXSpawnPit X2CharacterTemplate]
-strCharacterName="Gestation Pit"
+strCharacterName="Яма размножения"
 
 [SpawnCXWarrior X2AbilityTemplate]
-LocFriendlyName="Gestate Chryssalid"
-LocLongDescription="Chryssalids emerge from tunnels through the Gestation Pit."
-LocHelpText="Gestate Chryssalids from tunnels under ground."
+LocFriendlyName="Вынашивание криссалида"
+LocLongDescription="Криссалиды появляются из туннелей через Яму размножения."
+LocHelpText="Криссалиды размножаются, появляясь через туннели из-под земли."
 
 [CXSpawingPitState X2AbilityTemplate]
-LocFriendlyName="Gestation Pit Immunities"
-LocLongDescription="Immune to poison, fire, stun and mental attacks. Weak against explosions. Explosions do double damage."
-LocHelpText="Immune to poison, fire, stun and mental attacks. Weak against explosions. Explosions do double damage."  
+LocFriendlyName="Иммунитет Ямы размножения"
+LocLongDescription="Иммунитет к яду, огню, оглушению и ментальным атакам. Уязвимость к взрывам - взрывы наносят двойной урон."  
 
 
 
 
 ;*****BROOD MOTHER*****
 [CXBroodMother X2CharacterTemplate]
-strCharacterName="Chryssalid Brood Mother"
+strCharacterName="Хозяйка выводка"
 
 [CorpseCXBroodMother X2ItemTemplate]
-FriendlyName="Chryssalid Brood Mother Corpse"
-FriendlyNamePlural="Chryssalid Brood Mother Corpses"
-BriefSummary="Brood Mother is the name our soldiers call these Chryssalids. They are highly intelligent and can gestate new Chryssalid Rippers."
+FriendlyName="Труп Хозяйки выводка"
+FriendlyNamePlural="Трупы Хозяек выводка"
+BriefSummary="\"Хозяйка выводка\" - это имя, которые наши солдаты дали этому виду Криссалидов. Они довольно умны и могут вынашивать новых Криссалидов-Потрошителей."
 
 [AutopsyCXBroodMother X2TechTemplate]
-DisplayName="Chryssalid Brood Mother Autopsy"
-Summary="Brood Mother is the name our soldiers call these Chryssalids. They are highly intelligent and can gestate new Chryssalid Rippers."
-CodeName="Housekeeper"
-LongDescription="The Brood Mother seems to be just that. Their whole existence is to take care of the hive and its inhabitants. They clean up the dead and produce more Rippers. These things are extremely important to the hive and the more we kill, the weaker the hive will become. R. Tygan."
+DisplayName="Вскрытие Хозяйки выводка"
+Summary="="\"Хозяйка выводка\" - это имя, которые наши солдаты дали этому виду Криссалидов. Они довольно умны и могут вынашивать новых Криссалидов-Потрошителей."
+CodeName="Хранительница очага"
+LongDescription="Похоже, что функции Хозяйки полностью соответствуют названию. Все их существование состоит в том, чтобы заботиться о Рое и его обитателях. Они убирают мертвых и производят новых Потрошителей. Хозяйки выводка чрезвычайно важны для Роя, и чем больше мы их убиваем, тем слабее становится Рой. Р. Тайган."
 
 [BroodMotherHeal X2AbilityTemplate]
-LocFriendlyName="Regeneration"
-LocLongDescription="The Brood Mother will heal 2 HP a turn."
-LocHelpText="The Brood Mother will heal 2 HP a turn"
+LocFriendlyName="Регенерация"
+LocLongDescription="Хозяйка выводка восстанавливает 2 ОЗ за ход."
+LocHelpText="Хозяйка выводка восстанавливает 2 ОЗ за ход."
 
 [BreedRippers X2AbilityTemplate]
-LocFriendlyName="Breed Rippers"
-LocLongDescription="As a defensive measure the Brood Mother can both breed Rippers at will or when she takes wounds and is threatened."
-LocHelpText="As a defensive measure the Brood Mother can both breed Rippers at will or when she takes wounds and is threatened."
+LocFriendlyName="Породить Потрошителя"
+LocLongDescription="В качестве защитной меры Хозяйка выводка может рождать новых Потрошителей - как по своему желанию, так и когда она получает ранение."
+LocHelpText="В качестве защитной меры Хозяйка выводка может порождать новых Потрошителей - как по своему желанию, так и когда она получает ранение."
 
 
 ;******INFECTOR ZOMBIE******
 [ChrysZombie X2CharacterTemplate]
-strCharacterName="Infected Zombie" 
+strCharacterName="Зараженный зомби" 
 
 [ChrysZombieHuman X2CharacterTemplate]
-strCharacterName="Infected Zombie" 
+strCharacterName="Зараженный зомби" 
 
 [CXZombieGestation X2AbilityTemplate]
-LocFriendlyName="Infector Gestation"
-LocLongDescription="The Infected Zombie will gestate a new Infector."
-LocHelpText="The Infected Zombie will gestate a new Infector."
+LocFriendlyName="Вынашивание Инфектора"
+LocLongDescription="Этот Зараженный зомби стал инкубатором для нового Инфектора."
+LocHelpText="Зараженный зомби стал инкубатором для нового Инфектора."
 
 [CXZombieGestation2 X2AbilityTemplate]
-LocFriendlyName="Hybrid Gestation"
-LocLongDescription="The Infected Zombie will gestate a new Chryssalid Hybrid."
-LocHelpText="The Infected Zombie will gestate a new Chryssalid Hybrid."
+LocFriendlyName="Вынашивание Гибрида"
+LocLongDescription="Этот Зараженный зомби стал инкубатором для нового Криссалида-Гибрида."
+LocHelpText="Этот Зараженный зомби стал инкубатором для нового Криссалида-Гибрида."
 
 ;******INFECTOR Hybrid******
 [ChrysHybrid X2CharacterTemplate]
-strCharacterName="Chryssalid Hybrid"   
+strCharacterName="Криссалид-Гибрид"   
 
 [HybridConsumeSlash X2AbilityTemplate]
-LocFriendlyName="Hybrid Slash"
-LocLongDescription="Slash, consume HP and infect an enemy."
-LocHelpText="Slash, consume HP and infect an enemy."
+LocFriendlyName="Удар Гибрида"
+LocLongDescription="Удар, поглощение ОЗ и заражение врага."
+LocHelpText="Удар, поглощение ОЗ и заражение врага."
 
 
 [TheHive X2SitRepTemplate]
-FriendlyName="Feral Hive"
-Description="A Small Feral Chryssalid group has broken away from ADVENT and is located in this area: Reports state this pod is attacking anything in their path. Be on high alert!"
+FriendlyName="Дикий Рой"
+Description="Небольшая группа диких Криссалидов отделилась от АДВЕНТа и находится в этом районе: по сообщениям, эта группа нападает на все, что находится на их пути. Будьте начеку!"
 
 [TheHiveEffect X2SitRepEffect_AddTeam]
-FriendlyName="Feral Hive"
-Description="A Small Feral Chryssalid group has broken away from ADVENT and is located in this area: Reports state this pod is attacking anything in their path. Be on high alert!"
+FriendlyName="Дикий Рой"
+Description="Небольшая группа диких Криссалидов отделилась от АДВЕНТа и находится в этом районе: по сообщениям, эта группа нападает на все, что находится на их пути. Будьте начеку!"
 
 [HiveRoyalty X2SitRepTemplate]
-FriendlyName="Hive Royalty"
-Description="A Small Feral Chryssalid group containing a new Juvenile Queen is reported to be in this area: Reports state She may be heavily guarded and we should proceed with extreme caution Commander!"
+FriendlyName="Принцесса Роя"
+Description="Сообщается, что в этом месте замечена небольшая группа диких Криссалидов, среди которых - новая незрелая Королева Роя. Хотя она и не столь смертоносна, как Королева-матриарх, с которой мы уже сталкивались, мы не можем относиться к этой незрелой Королеве легкомысленно. Она может находиться под усиленной охраной и нам следует действовать крайне осторожно."
 
 [HiveRoyaltyEffect X2SitRepEffect_AddTeam]
-FriendlyName="Hive Royalty"
-Description="A Small Feral Chryssalid group containing a new Juvenile Queen is reported to be in this area: Reports state She may be heavily guarded and we should proceed with extreme caution Commander!"
+FriendlyName="Принцесса Роя"
+Description="Сообщается, что в этом месте замечена небольшая группа диких Криссалидов, среди которых - новая незрелая Королева Роя. Хотя она и не столь смертоносна, как Королева-матриарх, с которой мы уже сталкивались, мы не можем относиться к этой незрелой Королеве легкомысленно. Она может находиться под усиленной охраной и нам следует действовать крайне осторожно!"
 
 [AdventHive X2SitRepTemplate]
-FriendlyName="The Hive"
-Description="ADVENT has unleashed new Chryssalids. While ADVENT seems to have them in check, they could revert to their predatory nature at any time."
+FriendlyName="Рой"
+Description="АДВЕНТ вывел новые виды Криссалидов. И хотя АДВЕНТ, похоже, держит их под контролем, они могут вернуться к своей хищной природе в любое время."
 
 [AdventHiveEffect X2SitRepEffect_ModifyDefaultEncounterLists]
-FriendlyName="The Hive"
-Description="ADVENT has activated a Chryssalid force in this area. We must do everything in our power to stop these things from spreading. Not sure why ADVENT would want to allow these things to roam in groups. This won't end well for ADVENT or us if we don't take action."
+FriendlyName="Рой"
+Description="АДВЕНТ задействовал в этой области Криссалидов. Мы должны сделать все, что в наших силах, чтобы остановить распространение этих тварей. Не знаю, почему АДВЕНТ позволяет этим существам бродить группами. Это не закончится хорошо ни для АДВЕНТа, ни для нас, если мы не примем меры."
 
 [GreenHell X2SitRepTemplate]
-FriendlyName="Green Hell"
-Description="Something is out there Commander. We are getting reports of a green Chryssalid that spits acid and can become invisible like a Chameleon. Locals are calling it a Chryssalid Mantis."
+FriendlyName="Зеленый ад"
+Description="Там что-то есть, командир. Мы получаем сообщения о зеленом Криссалиде, который плюется кислотой и может становиться невидимым, как хамелеон. Местные жители называют его криссалидом-богомолом."
 
 [GreenHellEffect X2SitRepEffect_ModifyDefaultEncounterLists]
-FriendlyName="Green Hell"
-Description="Something is out there Commander. We are getting reports of a green Chryssalid that spits acid and can become invisible like a Chameleon. Locals are calling it a Chryssalid Mantis."
+FriendlyName="Зеленый ад"
+Description="Там что-то есть, командир. Мы получаем сообщения о зеленом Криссалиде, который плюется кислотой и может становиться невидимым, как хамелеон. Местные жители называют его криссалидом-богомолом."
 
 [HiveVanguard X2SitRepTemplate]
-FriendlyName="The Hive Off The Grid"
-Description="A group of ADVENT controlled Chryssalids has gone off the grid and roaming this area."
+FriendlyName="Рой вышел из-под контроля"
+Description="Группа подконтрольных АДВЕНТу Криссалидов вырвалась на свободу и бродит где-то в этой зоне."
 
 [HiveVanguardEffect X2SitRepEffect_ModifyDefaultEncounterLists]
-FriendlyName="The Hive Off The Grid"
-Description="A group of ADVENT controlled Chryssalids has gone off the grid and roaming this area. It would seem that ADVENT has lost control of these Chryssalids. We must put them down!"
+FriendlyName="Рой вышел из-под контроля"
+Description="Группа подконтрольных АДВЕНТу Криссалидов вырвалась на свободу и бродит где-то в этой зоне. Похоже, АДВЕТ не может с ними совладать. Мы должны покончить с ними!"
 
 [FearOfChryssalids X2TraitTemplate]
-TraitFriendlyName ="Fear of Chryssalids"
-TraitScientificName="XenoEntomophobia"
-TraitDescription ="Chance to panic when encountering a Chryssalid."
-TraitQuotes[0]="\"They came out of the fucking ground! They were everywhere!\""
-TraitQuotes[1]="\"They would not stop coming. I... I just wanted to go home.\""
-TraitQuotes[2]="\"Those things didn't act like no bugs. Those things ain't stupid.\""
-TraitQuotes[3]="\"We better get back, cause it will be dark soon, and they mostly come at night. Mostly.\""
-TraitQuotes[4]="\"Don't go! I have scary dreams.\""
-TraitQuotes[5]="\"Game over man! Game over!.\""
-TraitQuotes[6]="\"I never signed up for this!!.\""
-TraitQuotes[7]="\"I think we found the whole hive. I ain't going back out there man!\""
-TraitQuotes[8]="\"I can't get the sound out of my head. The chattering, the screeching, the screaming. Please make it stop!!\""
-TraitQuotes[9]="\"I know they are bugs, but i felt like something was in my head... Wait! Shush! Did you hear it!!?\""
-TraitQuotes[10]="\"Why did it have to be bugs? Anything but bugs!!\""
-TraitQuotes[11]="\"She's in my head man!! You hear her too right!!? They have a Queen and she's coming for us all!\""
+TraitFriendlyName ="Страх криссалидов"
+TraitScientificName="Ксеноэнтомофобия"
+TraitDescription ="Может запаниковать, увидев Криссалида."
+TraitQuotes[0]="\"Они пришли из-под земли! Они были повсюду!\""
+TraitQuotes[1]="\"Он появлялись и появлялись. А я... Я просто хотел домой.\""
+TraitQuotes[2]="\"О, нет, они вовсе не тупые жуки. Эти твари гораздо умнее!\""
+TraitQuotes[3]="\"Лучше нам вернуться, потому что скоро стемнеет. А они обычно приходят по ночам. Обычно.\""
+TraitQuotes[4]="\"Я не пойду никуда. Меня мучают кошмары.\""
+TraitQuotes[5]="\"Все кончено, чувак! Все кончено!\""
+TraitQuotes[6]="\"Я на это больше не подпишусь!!\""
+TraitQuotes[7]="\"Я думаю, мы нашли целый рой. И я туда больше не вернусь!\""
+TraitQuotes[8]="\"Я не могу выбросить эти звуки из головы. Шебуршание, шипение, визг... Пожалуйста, остановите это!!\""
+TraitQuotes[9]="\"Я знаю, они просто жуки, но я чувствую, словно что-то в моей голове...Тихо! Ш-ш! Слышите?!\""
+TraitQuotes[10]="\"Ну почему обязательно насекомые? Что угодно, только не насекомые!\""
 
 [FearOfChryssalidsPassive X2AbilityTemplate]
-LocFriendlyName="Fear of Chryssalids"
-LocLongDescription="This unit may panic when a Chryssalid is encountered in combat."
+LocFriendlyName="Страх криссалидов"
+LocLongDescription="Этот солдат может запаниковать, увидев Криссалида в бою."
 
 
 [HiveQueenArmor X2ArmorTemplate]
-FriendlyName="Hive Queen Armor"
-BriefSummary="The Hive Queen Armor is a light weight Chitin Plate Armor. Parts of the Queen's Exoskeletal structure and other light weight materials have been merged to give the wearer great mobility as well as keeping the natural armor. The Queen's Armor offers substantial HP and armor boosts for its wearer."
-TacticalText="<Bullet/>The Hive Queen Armor is a light weight Chitin Plate Armor. This Armor will offer all the same immunities the Hive Queen once had, and substantial HP and armor boosts for its wearer. 
+FriendlyName="Броня Королевы Роя"
+BriefSummary="Броня Королевы Роя - это легкая хитиновая пластинчатая броня. Части экзоскелета Королевы и другие легкие материалы были объединены, чтобы дать владельцу большую подвижность, сохранив при этом их естественную прочность. Этот бронекостюм значительно увеличивает ОЗ и показатель брони для его владельца."
+TacticalText="<Bullet/>Броня Королевы Роя - это легкая хитиновая пластинчатая броня. Этот бронекостюм дает владельцу иммунитеты Кородевы Роя, а также значительный рост ОЗ и показателя брони."
 
 [QueenArmorClaws X2WeaponTemplate]
-FriendlyName="Hive Armor Rending Claws"
-BriefSummary="We can now add Hive Armor attachments to the Hive Queen Armor. These Rending Claw attachments will shred armor and add Rupture to the target if hit."
-TacticalText="<Bullet/>Shred 4 armor and add Rupture to the target.
+FriendlyName="Секущие когти Роя"
+BriefSummary="Теперь мы можем добавлять улучшения для Брони Королевы Роя. Эти Секущие когти уничтожат вражескую броню и наложат \"Разрыв\" на цель при попадании."
+TacticalText="<Bullet/>Уничтожает 4 брони и накладывает \"Разрыв\" на цель."
 
 [QueenArmorWings X2WeaponTemplate]
-FriendlyName="Hive Armor Wings"
-BriefSummary="We can now add Hive Armor attachments to the Hive Queen Armor. These Wing attachments grant us the ability to quickly get elevated to high ground as well as a powerful dive-bomb attack."
-TacticalText="<Bullet/>Fly to higher ground and dive-bomb enemies dealing moderate damage while shredding some armor and potentially starting targets on fire from the force of impact.
+FriendlyName="Крылья Роя"
+BriefSummary="Теперь мы можем добавлять улучшения для Брони Королевы Роя. Эти Крылья Роя дают способность быстро подниматься на высокие точки, а также мощную атаку \"Пикирующая бомба\"."
+TacticalText="<Bullet/>Перелетайте на высокую позицию и атакуйте врагов \"Пикирующей бомбой\", нанося средний урон, но разрывая броню и имея шанс поджечь цель силой взрыва."
 
 [QueenArmorCannon X2WeaponTemplate]
-FriendlyName="Hive Armor Acid Cannon"
-BriefSummary="We can now add Hive Armor attachments to the Hive Queen Armor. This Acid Cannon allows our soldier in the armor to act as a mobile artillery unit."
-TacticalText="<Bullet/>Brake through walls with the force of a Hive Guard and melt enemies with the Acid Cannon. 
+FriendlyName="Кислотная пушка Роя"
+BriefSummary="Теперь мы можем добавлять улучшения для Брони Королевы Роя. Эта Кислотная пушка превращает нашего солдата в данной броне в какой-то ходячий танк."
+TacticalText="<Bullet/>Пробивайте стены с силой Стража Роя и стреляйте из его кислотной пушки по врагам."
 
 [BroodGauntlet X2WeaponTemplate]
-FriendlyName="Brood Gauntlet"
-BriefSummary="Seeing as how this weapon was not a creation of our doing, its fair to say this may be the only one we get. It seems to work on a symbiotic connection with the gauntlet wearer."
-TacticalText="<Bullet/> The Flamethrower is an area-of-effect weapon that can lay waste to any battlefield.\n<Bullet/> The core of the weapon is alive and the tongue can be used to pull allies up to higher elevation or from harm.\n<Bullet/> The gauntlet has a connection to Rippers and can be used to call on them."
+FriendlyName="Перчатка Хозяйки выводка"
+BriefSummary="Учитывая, что это оружие не было нашей разработкой, справедливо будет сказать, что оно единственное, которое мы получили от врага. Похоже, Перчатка работает с помощью симбиотической связи с тем, кто носит ее на руке."
+TacticalText="<Bullet/> Огнемет - оружие с с зоной поражения, которое бьет по определенной области на поле боя.\n<Bullet/> Ядро этого оружия - живой организм, и вы можете использовать его язык для поднятия союзников на высокие точки или из опасных зон.\n<Bullet/> Перчатка имеет связь с Потрошителями и может быть использована для их призыва."
  
 
 
 
 [RipperGrenade X2GrenadeTemplate]
-FriendlyName="Ripper Grenade"
-FriendlyNamePlural="Ripper Grenades"
-BriefSummary="The Ripper Grenade is designed to utilize the Ripper's needle attack. The grenade does not do a lot of damage but makes up for it with leathal needles that explode from the grenade and penetrate armor and cover. Perfect for dealing with enemies, without destroying cover you may need yourself."
-TacticalText="<Bullet/> Ripper grenades explode in a 5 tile radius and pierce up to 3 armor.<br><Bullet/> Friendly squad members will be affected if caught in the blast.<br><Bullet/> All targets will receive damage even if behind cover."
-ThrownAbilityName="Throw Ripper Grenade"
-ThrownAbilityHelpText="Deal damage to all targets in the affected area."
-LaunchedAbilityname="Launch Ripper Grenade"
-LaunchedAbilityHelpText="Deal damage to all targets in the affected area."
+FriendlyName="Граната \"Потрошитель\""
+FriendlyNamePlural="Гранаты \"Потрошитель\""
+BriefSummary="Граната \"Потрошитель\" предназначена для использования атаки иглами Криссалида-Потрошителя. Она не наносит большого урона, но компенсирует это смертельными иглами, которые разлетаются от гранаты и пробивают броню и укрытия. Идеально подходит для борьбы с врагами, не разрушая укрытий, которые могут понадобиться вам самим."
+TacticalText="<Bullet/> Гранаты \"Потрошитель\" создают взрыв радиусом  5 клеток и пробивают до 3 единиц брони.<br><Bullet/> Союзники также могут пострадать от взрыва.<br><Bullet/> Урон получат все цели в зоне поражения, невзирая на укрытия."
+ThrownAbilityName="Бросить Гранату \"Потрошитель\""
+ThrownAbilityHelpText="Наносит урон всем целям в области поражения."
+LaunchedAbilityname="Выстрел Гранатой \"Потрошитель\""
+LaunchedAbilityHelpText="Наносит урон всем целям в области поражения."
 
 [GhostGrenade X2GrenadeTemplate]
-FriendlyName="Ghost Grenade"
-FriendlyNamePlural="Ghost Grenades"
-BriefSummary="The Ghost Grenade offers our soldiers another way to conceal and move around undetected. The Ghosting effect has a limited duration but the soldiers will stay in concealment until its broken."
-TacticalText="<Bullet/> Ghost grenades grant concealment.<br><Bullet/> grants a Ghost effect that has a 2 turn duration and removes your detection radius for 2 turns.<br><Bullet/> All targets will stay concealed after the Ghost effect wears off."
-ThrownAbilityName="Throw Ghost Grenade"
-ThrownAbilityHelpText="Conceal and Ghost all targets in the affected area."
-LaunchedAbilityname="Launch Ghost Grenade"
-LaunchedAbilityHelpText="Conceal and Ghost all targets in the affected area."
+FriendlyName="Граната \"Призрак\""
+FriendlyNamePlural="Гранаты \"Призрак\""
+BriefSummary="Гранаты \"Призрак\" дают нашим войскам еще одну возможность оставаться незамеченными. Сам призрачный эффект кратковременный, но солдаты могут оставаться скрытыми, пока их не обнаружат."
+TacticalText="<Bullet/> Гранаты \"Призрак\" дают скрытность.<br><Bullet/> Также они дают эффект \"Призрак\" - он снижает до нуля радиус обнаружения бойца на 2 хода.<br><Bullet/> Все цели останутся в скрытности, когда эффект \"Призрак\" закончится."
+ThrownAbilityName="Бросить гранату \"Призрак\""
+ThrownAbilityHelpText="Дает скрытность и эффект \"Призрак\" всем целям в области поражения."
+LaunchedAbilityname="Выстрел гранатой \"Призрак\""
+LaunchedAbilityHelpText="Дает скрытность и эффект \"Призрак\" всем целям в области поражения."
 
 [RipperBomb X2GrenadeTemplate]
-FriendlyName="Ripper Bomb"
-FriendlyNamePlural="Ripper Bombs"
-BriefSummary="The Ripper Bomb is an upgrade to the Ripper Grenade. The bomb adds more damage and piercing punch to the lethal needles that explode from the bomb to penetrate armor and cover."
-TacticalText="<Bullet/> Ripper Bombs explode in a 5 tile radius and pierce up to 4 armor.<br><Bullet/> Friendly squad members will be affected if caught in the blast.<br><Bullet/> All targets will receive damage even if behind cover."
-ThrownAbilityName="Throw Ripper Bomb"
-ThrownAbilityHelpText="Deal damage to all targets in the affected area."
-LaunchedAbilityname="Launch Ripper Bomb"
-LaunchedAbilityHelpText="Deal damage to all targets in the affected area."     
+FriendlyName="Бомба \"Потрошитель\""
+FriendlyNamePlural="Бомбы \"Потрошитель\""
+BriefSummary="Бомба \"Потрошитель\" - это апгрейд Гранаты \"Потрошитель\". Бомба добавляет больше урона и пробивной силы к смертельным иглам, которые разлетаются от нее, пронзая броню и укрытия."
+TacticalText="<Bullet/> Бомбы \"Потрошитель\" создают взрыв радиусом  5 клеток и пробивают до 4 единиц брони.<br><Bullet/> Союзники также могут пострадать от взрыва.<br><Bullet/> Урон получат все цели в зоне поражения, невзирая на укрытия."
+ThrownAbilityName="Бросить Бомбу \"Потрошитель\""
+ThrownAbilityHelpText="Наносит урон всем целям в области поражения."
+LaunchedAbilityname="Выстрел Бомбой \"Потрошитель\""
+LaunchedAbilityHelpText="Наносит урон всем целям в области поражения."     
 
 [LivingRipperGrenade X2GrenadeTemplate]
-FriendlyName="Ripper Mine"
-FriendlyNamePlural="Ripper Mines"
-BriefSummary="Use the Ripper as a living mobile explosive. Much like a Ripper Grenade, the needles will pierce any cover or wall, damaging targets on the other side."
-TacticalText="<Bullet/>Ripper Mines explode in a 5 tile radius and pierce up to 6 armor.<br><Bullet/> Friendly squad members will be affected if caught in the blast.<br><Bullet/> All targets will receive damage even if behind cover."
+FriendlyName="Мина-Потрошитель"
+FriendlyNamePlural="Мины-Потрошитель"
+BriefSummary="Использование Потрошителя в качестве живой мобильной взрывчатки. Иглы пробьют укрытия и стены, повреждая цели за ними - и гораздо сильнее, чем граната \"Потрошитель\"."
+TacticalText="="<Bullet/> Мина-Потрошитель создают взрыв радиусом  5 клеток и пробивают до 6 единиц брони.<br><Bullet/> Союзники также могут пострадать от взрыва.<br><Bullet/> Урон получат все цели в зоне поражения, невзирая на укрытия."
 
 [LivingRipperExplosion X2AbilityTemplate]
-LocFriendlyName="Needle Explosion"
-LocLongDescription="This Ripper is highly volatile and can be triggered to explode."
-LocHelpText="This Ripper is highly volatile and can be triggered to explode."
+LocFriendlyName="Взрыв игл"
+LocLongDescription="Приказать Потрошителю взорваться."
+LocHelpText="Приказать Потрошителю взорваться."
 
 [PCSHiveDroneTech X2TechTemplate]
-DisplayName="PCS Hive Drone Tech"
-Summary="Having now seen that these Chryssalids come in many forms, and have changed up their means of attack. We may want to start manufacturing additional PCS."
-CodeName="Bug Zapper"
-LongDescription="We can now construct PCS that will grant our soldiers added defenses against the various threats of The Hive. R. Tygan." 
+DisplayName="ПБМ: технологии Трутня Роя"
+Summary="Мы видели много новых форм этих Криссалидов. Они изменили свои средства нападения настолько, что нам пора подумать о производстве дополнительных ПБМ."
+CodeName="Дихлофос"
+LongDescription="Теперь мы можем производить дополнительные ПБМ, которые дадут нашим солдатам лучшую защиту против разнообразных созданий Роя. Р. Тайган." 
 
 [PCSHiveWarriorTech X2TechTemplate]
-DisplayName="PCS Hive Warrior Tech"
-Summary="With research done on the Chryssalid Hive Warrior. We can now start manufacturing more advanced PCS."
-CodeName="Big Bug Zapper"
-LongDescription="We can now construct PCS that will grant our soldiers the senses of the Hive Warrior. You may want to build a few for our men and women Commander. R. Tygan." 
+DisplayName="ПБМ: технологии Воина Роя"
+Summary="Мы закончили исследование Криссалида-Воина. Теперь мы можем производить более продвинутые ПБМ."
+CodeName="Инсектицид"
+LongDescription="Теперь мы можем создать ПБМ, которые дадут нашим солдатам чутье Воина Роя. Возможно, вы захотите сделать несколько для наших ребят. Р. Тайган." 
 
 [HiveQueenArmorTech X2TechTemplate]
-DisplayName="Hive Armor Tech"
-Summary="Having the Hive Queen's corpse, we need to put it to good use. Our people in the Proving Grounds will know just what to do with this."
-CodeName="Queen Bitch"
-LongDescription="We can now construct a Hive Queen Armor for our soldiers to use in combat. The Queen's corpse was heavily damaged in combat. We can add the needed resources from additional Chryssalid corpses. Hive. R. Tygan." 
+DisplayName="Технологии: Броня Роя"
+Summary="Имея труп Королевы Роя, мы должны использовать его с пользой. Наши люди в Зоне Испытаний будут точно знать, что с этим делать."
+CodeName="Королевская мантия"
+LongDescription="Теперь мы можем создать броню Королевы Роя для использования в бою. Труп Королевы был сильно поврежден, поэтому мы нуждаемся в дополнительных ресурсах - трупах других Криссалидов Роя. Р. Тайган." 
 
 [HiveWingTech X2TechTemplate]
-DisplayName="Hive Wing Tech"
-Summary="Using the Juvenile Queen's corpse as well as some other additional resources, we might be able to get something useful out of this corpse as an addition for a future project."
-CodeName="Dragonfly"
-LongDescription="We can now add Hive Armor attachments to the Hive Queen Armor. These Wing attachments grant us the ability to quickly get elevated to high ground as well as a powerful Divebomb attack. Hive. R. Tygan." 
+DisplayName="Технология: Крылья Роя"
+Summary="Используя труп незрелой Королевы, а также некоторые другие дополнительные ресурсы, мы могли бы получить что-то полезное из этого трупа в качестве дополнения к будущему проекту."
+CodeName="Стрекоза"
+LongDescription="Теперь мы можем добавлять улучшения для Брони Королевы Роя. Эти Крылья Роя дают способность быстро подниматься на высокие точки, а также мощную атаку \"Пикирующая бомба\".Р. Тайган." 
 
 [HiveCannonTech X2TechTemplate]
-DisplayName="Hive Cannon Tech"
-Summary="Using the Hive Guard's corpse as well as some other additional resources, we might be able to get something useful out of this corpse as an addition for a future project."
-CodeName="Sentry"
-LongDescription="We can now add Hive Armor attachments to the Hive Queen Armor. This Acid Cannon allows our soldier in the armor to act as a mobile artillery unit. Hive. R. Tygan." 
+DisplayName="Технология: Пушка Роя"
+Summary="Используя труп Стража Роя, а также некоторые другие дополнительные ресурсы, мы могли бы получить что-то полезное из этого трупа в качестве дополнения к будущему проекту."
+CodeName="Почетный караул"
+LongDescription="Теперь мы можем добавлять улучшения для Брони Королевы Роя. Эта Кислотная пушка превращает нашего солдата в данной броне в какой-то ходячий танк. Р. Тайган." 
 
 [HiveGauntletTech X2TechTemplate]
-DisplayName="Hive Gauntlet Tech"
-Summary="We are not sure what happened but the Chryssalid Brood Mother's tongue detached from the corpse. Well just read for yourself."
-CodeName="Thing"
-LongDescription="Commander, I must say I did not expect this outcome. During the autopsy, the Chryssalid's tongue detached and fell from its maw. One of our soldiers on standby was wearing a prototype wrist weapon and the tongue attached itself to the weapon. It secreted a film around itself and the weapon after the soldier got the item off his arm. The flamethrower is now... Well just see for yourself Commander. Hive. R. Tygan." 
+DisplayName="Технология: Перчатка Роя"
+Summary="Мы не знаем точно, как это произошло, но язык Хозяйки выводка отделился от ее тела и соединился с оружием."
+CodeName="Эта вещь"
+LongDescription="Командир, должен сказать, что я не ожидал такого результата. Во время вскрытия язык Хозяйки выводка оторвался и выпал из пасти. Один из наших солдат носил наготове прототип наручного огнемета, и язык каким-то образом прикрепился к этому оружию. Оно покрылось странной пленкой после того, как солдат снял предмет с руки. Огнемет теперь... Вам лучше взгляуть самому. Р. Тайган." 
 
 [XCOMAcidBlob X2AbilityTemplate]
-LocFriendlyName="Hive Guard Acid Cannon"
-LocLongDescription="The Hive Armor can shoot a glob of corrosive acid."
-LocHelpText="The Hive Armor can shoot a glob of corrosive acid."
-LocFlyOverText="Acid Cannon Glob"
+LocFriendlyName="Кислотная пушка Стража Роя"
+LocLongDescription="Броня Роя может выпустить заряд разъедающей кислоты."
+LocHelpText="Броня Роя может выпустить заряд разъедающей кислоты."
+LocFlyOverText="Выстрел кислотной пушки"
 
 [HiveArmorRupture X2AbilityTemplate]
-LocFriendlyName="Rending Claws"
-LocLongDescription="The Rending Claws of the Hive Armor will shred 4 armor and add Rupture to the target if hit."
-LocHelpText="The Rending Claws of the Hive Armor will shred 4 armor and add Rupture to the target if hit."
-LocFlyOverText="Rending Claws"
+LocFriendlyName="Секущие когти"
+LocLongDescription="Секущие когти Брони Роя уничтожат 4 единицы  вражеской брони и наложат \"Разрыв\" на цель при попадании."
+LocHelpText="Секущие когти Брони Роя уничтожат 4 единицы  вражеской брони и наложат \"Разрыв\" на цель при попадании."
+LocFlyOverText="Секущие когти"
 
 [HiveArmorDiveBomb X2AbilityTemplate]
-LocFriendlyName="Dive Bomb"
-LocLongDescription="The Hive Armor can now utilize wings that allow soldiers to fly up to elevated terrain and or dive bomb their enemies."
-LocHelpText="The Hive Armor can now utilize wings that allow soldiers to fly up to elevated terrain and or dive bomb their enemies."
-LocFlyOverText="Dive Bomb."
+LocFriendlyName="Пикирующая бомба"
+LocLongDescription="Броня Роя теперь может использовать Крылья, они позволят солдату занимать высокие точки и использовать пикирующую бомбардировку врагов."
+LocHelpText="Броня Роя теперь может использовать Крылья, они позволят солдату занимать высокие точки и использовать пикирующую бомбардировку врагов."
+LocFlyOverText="Пикирующая бомба"
 
 [CXJuggernaut X2AbilityTemplate]
-LocFriendlyName="Juggernaut"
-LocLongDescription="Juggernaut can be used to grant the soldier an extra ability point as well as grant wall breaking for that turn. Make your own door or exit while carrying a fellow soldier to safety. Smash though a walls while still maintaining 2 action points."
-LocHelpText="Gain an extra action point and smash though walls while still maintaining 2 action points."
+LocFriendlyName="Джаггернаут"
+LocLongDescription="Джаггернаут может быть использован для предоставления солдату дополнительного действия, а также для разрушения стены за этот ход. Сделайте свою собственную дверь в стене, неся раненого товарища в безопасное место. Пробивайте стены, сохраняя при этом 2 точки действия."
+LocHelpText="Дает дополнительное действие и позволяет пробивать стены, сохраняя при этом 2 точки действия."
 
 [CallRandomHiveMember X2AbilityTemplate]
-LocFriendlyName="They Follow You"
-LocLongDescription="The Hive Queen's mental link with The Hive is still connected though the DNA within the bio genetics of the armor. Call random Chryssalids to aid you."
-LocHelpText="The Hive Queen's mental link with The Hive is still connected though the DNA within the bio genetics of the armor. Call random Chryssalids to aid you."
-LocFlyOverText="They Follow You"
+LocFriendlyName="Они со мной"
+LocLongDescription="Ментальная связь Королевы с Роем всё еще действует на уровне ДНК внутри биоструктур брони. Вызовите случайных Криссалидов, чтобы помочь вам."
+LocHelpText="Ментальная связь Королевы с Роем всё еще действует на уровне ДНК внутри биоструктур брони. Вызовите случайных Криссалидов, чтобы помочь вам."
+LocFlyOverText="Они со мной"
 
 [PCSTacticalCoverage X2EquipmentTemplate]
-FriendlyName="PCS: Tactical Coverage"
-FriendlyNamePlural="PCS: Tactical Coverage"
-BriefSummary="Grants the user the Covering Fire ability as well as a small defense bonus."
+FriendlyName="ПБМ: Тактическое прикрытие"
+FriendlyNamePlural="ПБМ: Тактическое прикрытие"
+BriefSummary="Дает использующему способность \"Огневая поддержка\", а также небольшой бонус к защите."
 
 [PCSTacticalSensesOffense X2EquipmentTemplate]
-FriendlyName="PCS: Tactical Senses Offensive"
-FriendlyNamePlural="PCS: Tactical Senses Offensive"
-BriefSummary="Grants a boost to Dodge, Will and Mobility on the soldier for a short time when using Hyper Reactive Senses. Also has a permanent small boost to Mobility and Offense."
+FriendlyName="ПБМ: Атакующее чутье"
+FriendlyNamePlural="ПБМ: Атакующее чутье"
+BriefSummary="Дает прирост Уклонения, Воли и Мобильности на короткое время при использовании способности \"Рективное Чутье\". Также дает небольшой постоянный бонус к мобильности и атаке."
 
 [PCSTacticalSensesDefense X2EquipmentTemplate]
-FriendlyName="PCS: Tactical Senses Defensive"
-FriendlyNamePlural="PCS: Tactical Senses Defensive"
-BriefSummary="Grants a boost to Dodge, Will and Mobility on the soldier for a short time when using Hyper Reactive Senses. Also has a permanent small boost to Mobility and Defense."
+FriendlyName="ПБМ: Защитное чутье"
+FriendlyNamePlural="ПБМ: Защитное чутье"
+BriefSummary="Дает прирост Уклонения, Воли и Мобильности на короткое время при использовании способности \"Рективное Чутье\". Также дает небольшой постоянный бонус к мобильности и защите."
 
 [XCOMHyperReactiveSenses X2AbilityTemplate]
-LocFriendlyName="Hyper Reactive Senses"
-LocLongDescription="Our Soldiers can now use a combination of the Hive Warrior's Hyper Reactive Senses and Adrenal Rush. This will increase effectiveness to dodge attacks, greatly increase will power and mobility. 1 charge Lasts 2 turns."
-LocHelpText="Our Soldiers can now use Hyper Reactive Senses. Dodge increased by 10, will by 20 and mobility increased by 3. 1 charge Lasts 2 turns."
+LocFriendlyName="Реактивное чутье"
+LocLongDescription="Наши солдаты теперь могут использовать комбинацию \"Реактивного чутья\" и \"Прилива адреналина\" Воинов Роя. Это улучшает их уклонение, сильно увеличивает силу воли и мобильность. 1 заряд, длительность эффекта - 2 хода."
+LocHelpText="Наши солдаты теперь могут использовать \"Реактивное чутье\". Уклонение увеличится на 10, воля на 20, мобильность - на 3. Один заряд, длительность 2 хода."
 
 [PCSTacticalWithdraw X2EquipmentTemplate]
-FriendlyName="PCS: Tactical Withdraw"
-FriendlyNamePlural="PCS: Tactical Withdraw"
-BriefSummary="Grants the user a mobility and dodge bonus as well as the ability, Get To Da Choppa. This ability can only be used in the evac zone and gives all human allies outside the Evac Zone +10 to dodge and +6 to mobility for 1 turn. User must not evac until all allies have taken their turn or the effects will be terminated, Now... GET TO DA CHOPPA!!!"
+FriendlyName="ПБМ: Тактическое отступление"
+FriendlyNamePlural="ПБМ: Тактическое отступление"
+BriefSummary="Дает использующему бонус к мобильности и уклонению, а также способность \"Тикай з городу!\". Эта способность может быть использована только в зоне эвакуации и дает всем союзникам-людям вне зоны эвакуации +10 к уклонению и +6 к мобильности за 1 ход. Использующий ее не должен эвакуироваться до тех пор, пока все союзники не походят, или эффекты будут прекращены. А сейчас...ТИКАЙ З ГОРОДУ!!!"
 
 [GetToDaChoppa X2AbilityTemplate]
-LocFriendlyName="Get To Da Choppa"
-LocLongDescription="Gives all soldiers outside the Evac Zone a friendly reminder to GET TO DA CHOPPA NOW!! Grants extra mobility and dodge to all friendly humans for 1 turn. The caster of this ability must stay in the Evac Zone until all remaining soldiers have used their 1 turn bonus or have evaced."
-LocHelpText="Gives all soldiers outside the Evac Zone a friendly reminder to GET TO DA CHOPPA NOW!! Grants extra mobility and dodge to all friendly humans for 1 turn. The caster of this ability must stay in the Evac Zone until all remaining soldiers have used their 1 turn bonus or have evaced."
-LocFlyOverText="Get To Da Choppa!!"
+LocFriendlyName="Тикай з городу!"
+LocLongDescription="Дает всем солдатам вне зоны эвакуации дружеское напоминание, что пора ТИКАТЬ З ГОРОДУ прямо сейчас!! Дает дополнительную мобильность и уклонение всем союзникам-людям за 1 ход. Использующий эту способность боец должен оставаться в зоне эвакуации до тех пор, пока все оставшиеся солдаты не используют свой бонус или не эвакуируются."
+LocHelpText="Дает всем солдатам вне зоны эвакуации дружеское напоминание, что пора ТИКАТЬ З ГОРОДУ прямо сейчас!! Дает дополнительную мобильность и уклонение всем союзникам-людям за 1 ход. Использующий эту способность боец должен оставаться в зоне эвакуации до тех пор, пока все оставшиеся солдаты не используют свой бонус или не эвакуируются."
+LocFlyOverText="Тикай з городу!"
 
 [CallXComRippers X2AbilityTemplate]
-LocFriendlyName="Explosive Ripper"
-LocLongDescription="The Brood Gauntlet allows the user to call living Rippers that can be used as a scout unit and or a living mobile needle mine."
-LocHelpText="Attack with Ripper or use as living explosives."
+LocFriendlyName="Взрывающийся Потрошитель"
+LocLongDescription="Перчатка Хозяйки выводка позволяет ее носителю призывать Потрошителей, которые могут разведывать территорию и служить живыми минами."
+LocHelpText="Атакуйте этим Потрошителем или используйте его как живую взрывчатку."
 
 
 [PullFromHarm X2AbilityTemplate]
-LocFriendlyName="Tongue Pull"
-LocLongDescription="The Brood Gauntlet is a living organism. Use its Tongue Pull ability to pull allies up to higher elevation or away from enemy advances."
-LocHelpText=" Pull allies up to higher elevation or away from enemy advances."
+LocFriendlyName="Притягивание Языком"
+LocLongDescription="Перчатка Хозяйки выводка - живой организм. Используйте способность "Притягивание Языком", чтобы притянуть союзников на более высокую точку или вытщить их, чтобы избежать опасности."
+LocHelpText="Притянуть союзников на более высокую точку или вытщить их, чтобы избежать опасности."
 
 [WallBreaking X2AbilityTemplate]
 
 [BroodThrower X2AbilityTemplate]
-LocFriendlyName="Flamethrower"
-LocHelpText="Spray flames in a cone-shaped area."
+LocFriendlyName="Огнемет"
+LocHelpText="Распространяет пламя в конусообразной зоне."
 
 [HiveArmorHelmet_M X2BodyPartTemplate]
 DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>Hive Basic Helmet"
@@ -893,8 +890,7 @@ DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height=
 DisplayName="<img src='img:///UILIB_TheHive.DLC_Icon_TheHive' width='26' height='26' vspace='-4'>HQA No Deco"
 
 [HiveQueenEscapes X2AbilityPointTemplate]
-ActionFriendlyName="when a Ruler Escaped"
-
+ActionFriendlyName="Правитель сбежал"
 
 
 
