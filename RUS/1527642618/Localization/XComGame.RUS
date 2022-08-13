@@ -194,42 +194,42 @@ UnlockedDescription="Т-БМП из сплавов была построена"
 
 
 [ShivHpmodule X2TechTemplate]
-DisplayName="Проект: Прочность"
+DisplayName="Т-БМП: Прочность"
 Summary="Проект позволяет увеличить прочность Т-БМП из сплавов."
 CodeName="Крепость"
 LongDescription="Проект увеличивает здоровье Т-БМП из сплавов, увеличивая здоровье на +4."
 UnlockedDescription="Т-БМП из сплавов повысили свою живучесть."
 
 [ShivAimmodule X2TechTemplate]
-DisplayName="Проект: Автоприцеливание"
+DisplayName="Т-БМП: Автоприцеливание"
 Summary="Проект повышает точность у всех Т-БМП."
 CodeName="Стрелок"
 LongDescription="Проект увеличивает меткость всех Т-БМП на +5." 
 UnlockedDescription="Т-БМП улучшили меткость."
 
 [ShivDodgemodule X2TechTemplate]
-DisplayName="Проект: Уклонение"
+DisplayName="Т-БМП: Уклонение"
 Summary="Проект позволяет легкому Т-БМП лучше уклоняться от атак."
 CodeName="Уклонение"
 LongDescription="Проект улучшает легкие Т-БМП, увеличивая уклонение на +15." 
 UnlockedDescription="Легкие Т-БМП теперь лучше уклоняются от атак."
 
 [ShivSpeedmodule X2TechTemplate]
-DisplayName="Проект: Нитро"
+DisplayName="Т-БМП: Нитро"
 Summary="Проект позволяет легким Т-БМП улучшить перемещения."
 CodeName="Мобильность"
 LongDescription="Проект улучшает легкие Т-БМП, увеличивая мобильность на +2." 
 UnlockedDescription="Легкие Т-БМП повысили свою скоростью."
 
 [ShivShieldmodule X2TechTemplate]
-DisplayName="Проект: Эгида"
+DisplayName="Т-БМП: Эгида"
 Summary="Проект позволяет Т-БМП развертываться с защитным экраном."
 CodeName="Щит"
 LongDescription="Проект Т-БМП дает энергетическую защиту. Т-БМП из сплавов получает больше защиты, чем легкий Т-БМП." 
 UnlockedDescription="Т-БМП получили энергетические щиты."
 
 [ShivArmormodule X2TechTemplate]
-DisplayName="Проект: Тяжелая броня"
+DisplayName="Т-БМП: Тяжелая броня"
 Summary="Проект Т-БМП из сплавов улучшает броню."
 CodeName="Броня"
 LongDescription="Проект улучшает Т-БМП из сплавов, увеличивая броню на +2." 
