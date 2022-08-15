@@ -1,0 +1,45 @@
+;Place localized text in this file
+
+[MZNightblade X2SoldierClassTemplate]
+DisplayName = "Ќочной клинок"
+ClassSummary = "ѕрактикующие древнее и опасное искусство, которое позвол€ет им управл€ть тен€ми бездны, чтобы поражать своих врагов или скрывать их присутствие."
+AbilityTreeTitles[0]="Obtenebration"
+AbilityTreeTitles[1]="Wetwork"
+AbilityTreeTitles[2]="Blood Sword"
+AbilityTreeTitles[3]="XCom"
+
+RandomNickNames[0]="Lasombra"
+RandomNickNames[1]="Vampire"
+RandomNickNames[2]="Deadpan"
+RandomNickNames[3]="Spook"
+RandomNickNames[4]="Butcher"
+RandomNickNames[5]="Knives"
+RandomNickNames[6]="Bloodtrail"
+RandomNickNames[7]="Eclipse"
+RandomNickNames[8]="Ramanga"
+RandomNickNames[9]="Azaneali"
+RandomNickNames[10]="Xi Dundu"
+RandomNickNames[11]="Pride"
+RandomNickNames[12]="Umbra"
+RandomNickNames[13]="Daybreak"
+RandomNickNames[14]="Goth"
+RandomNickNames[15]="Deadstop"
+RandomNickNames[16]="Chainsaw"
+RandomNickNames[17]="Death McKill"
+RandomNickNames[18]="Trenchcoat"
+RandomNickNames[19]="Pockets"
+RandomNickNames[20]="Buzzsaw"
+
+RandomNickNames_Male[0]="Mo Murder"
+RandomNickNames_Male[1]="Edgelord"
+RandomNickNames_Male[2]="Night King"
+RandomNickNames_Male[3]="Dark Prince"
+
+RandomNickNames_Female[0]="Pigeon"
+RandomNickNames_Female[1]="Suicide Girl"
+RandomNickNames_Female[2]="Night Queen"
+RandomNickNames_Female[3]="Dark Princess"
+
+[MZNightblade_GTSUnlock X2SoldierAbilityUnlockTemplate]
+DisplayName="Ќочной клинок:  ровавый саван"
+Summary="ѕосле большого количества пролитой крови Ќочные клинки станов€тс€ более способными восстанавливатьс€ после ран."
