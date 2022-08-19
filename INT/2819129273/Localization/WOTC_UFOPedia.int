@@ -1,0 +1,833 @@
+
+; Welcome to our localization file! In here we will be able to localize
+; both the "Bestiary" elements of the mod, as well as the "UFOpedia".
+
+; First, from the BESTIARY aspect of the mod, the localization of the 
+; screening elements in the Avenger.
+
+;========================================================================================
+;*********************************   BESTIARY RELATED   *********************************
+;========================================================================================
+
+[UIPersonnel_DropDown_Bestiary]
+m_strTitle=BESTIARY
+m_strScientistTab=BESTIARY
+m_strButtonLabels_Name=XCOM DESIGNATION
+m_strButtonLabels_Status=ADVENT CLASSIFICATION
+m_strEmptyListLabels_Bestiary=NO UNIT INFO
+
+[UIPersonnel_DropDown_Bestiary_XCOM]
+m_strTitle=XCOM SOLDIER SCREENING
+m_strScientistTab=XCOM SOLDIER SCREENING
+
+[UIPersonnel_DropDown_Bestiary_Crew]
+m_strTitle=STAFF SCREENING
+m_strScientistTab=STAFF SCREENING
+
+[UISL_AvengerHUD_Shortcuts_Bestiary]
+LabelShortcut_Bestiary=ENEMY Bestiary
+TooltipShortcut_Bestiary="Go to ENEMY Bestiary Menu"
+
+LabelShortcut_BestiaryXCOM=XCOM Screening
+TooltipShortcut_BestiaryXCOM="Go to XCOM Screening Menu"
+
+LabelShortcut_BestiaryCrew=CREW Screening
+TooltipShortcut_BestiaryCrew="Go to CREW Screening Menu"
+
+[UIBestiary_MainMenu]
+m_strNumKilledLabel="TOTAL KILLED"
+m_strShieldsLabel="ABLATIVE/SHIELDS"
+m_strHackDefenseLabel="HACK DEFENSE"
+m_StrNoWeaponName="UNKNOWN MAIN WEAPON"
+m_strFlankingAim="FLANKING AIM BONUS"
+m_strFlankingCrit="FLANKING CRIT BONUS"
+
+m_strDamageType="DAMAGE TYPE"
+m_strType_CV="BALLISTIC"
+m_strType_MG="MAGNETIC"
+m_strType_BM="PLASMA"
+
+RandomAnimButtonLabel="POKE UNIT"
+DismissButtonLabel="ERASE ENTRY"
+DismissButtonText="Erasing the entry for this <XGParam:StrValue0/!UnitName/> will permanently remove the unit data from the Bestiary. Accumulated data, such as Total Killed, will be lost.\n\nDo you want to proceed?"
+
+[UIBestiary_MainMenu_XCOM]
+DismissButtonLabel="DISMISS UNIT"
+DismissButtonText="You cannot dismiss <XGParam:StrValue0/!UnitName/> from the Barracks here.\nPlease return to the Armoury and use the Dismiss function provided there."
+
+[UIBestiary_MainMenu_Crew]
+DismissButtonLabel="DISMISS UNIT"
+DismissButtonText="Are you sure you want to dismiss <XGParam:StrValue0/!UnitName/> from the Avenger?\nThey might find employment elsewhere in the resistance."
+DismissButtonText2="They are currently busy with <XGParam:StrValue1/!Location/>."
+DismissButtonText3="You CAN NOT dismiss Bradford, Shen or Tygan -- please stop trying.\n\nThis action can not be undone. Do you want to proceed?"
+
+[UIListItemAbility_Bestiary]
+strUnknownTitle="ABILITY UNKNOWN"
+
+[X2EventListener_BestiaryBarracks]
+m_strBestiaryBarracksAddedTitle="NEW BESTIARY DATA"
+m_strBestiaryAddedName="The <XGParam:StrValue0/!UnitName/>"
+m_strBestiaryAddedDescription="was added to the Bestiary."
+
+;========================================================================================
+;*********************************   BESTIARY RELATED   *********************************
+;========================================================================================
+
+; ===========================================================================
+;	NEW STRINGS AND NAV HELP BUTTONS
+; ===========================================================================
+
+[UIXComDatabase_UFOPediaCore]
+ToggleAllButtonText="TOGGLE ALL"
+
+[UIXComDatabase_DetailedEntry]
+PrevText="PREVIOUS"
+NextText="NEXT"
+mStrClearUITooltip="TOGGLE SCREENSAVER"
+
+;=========================================
+;   LOCALIZING YOUR UFOpedia Entries
+;=========================================
+
+; Welcome to our UFOpedia Entry localization file! In this section,
+; you will type up the meat of the mod, the detailed description for
+; each entry that appears in-game, for the SECOND section of the mod,
+; the UFOpedia Entries.
+;
+; If you wish to type up the FIRST section, the Brief Blurb Encyclopedia
+; entries, you can do so inside the XComGame.int file.
+;
+;[templatename X2UFOpediaTemplate]	; where 'templatename' will be used for localizing the text. Must match with templatename in XComUFOpedia.ini
+;DescriptionEntry="Text Based Entry"    ; the text that will appear on the text box of the second screen, a detailed entry on the subject.
+;
+; If an entry is not here, or is empty (""), the detailed report will
+; use the text information from the Encyclopedia entry, from the previous
+; screen instead.
+;
+
+[UFOPEDIA X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; ===========================================================================
+; NEW UFOPEDIA ENTRIES
+; ===========================================================================
+; -----------------------------------
+; 1. HISTORY (UFOPEDIA)
+; -----------------------------------
+
+[UFOP_GRT_ACCORD X2UFOpediaTemplate]
+DescriptionEntry="As the true scale of the Two-Month War became apparent, the weight of its ramifications on the sociopolitical institutions of Earth proved to be far beyond their capabilities. While often prepared for all manner of existential threats, and more than capable of covering incursions in a veil of plausible deniability and smokescreens, the arrival of the Elders, and their subsequent occupation, obliterated any and all hope of using these doctrines.\n\nXCOM had become antiquated sooner than anyone aware of the truth could have foreseen. Despite virtually having a blank check from the world's most powerful nations to deal with the invasion, and performing valiantly, the losses were simply too much, and morale imploded worldwide. The aliens were striking directly at the planet's major population centers indiscriminately, instilling as much fear and devastation as possible. As a result, society started falling apart at the seams; the global economy collapsed, supply chains ground to a halt, and the governments' ability to maintain legitimacy and provide relief for their suffering people, dwindled rapidly. If a nation wasn't under martial law by the end of April, it's most likely because it no longer existed. \n\nOn May 3rd, 2015, in an atmosphere of desperation and abject terror, the United Nations revealed XCOM to the world, in a list ditch effort to rally humanity. From then until the end of the war, many among those who could still get updates from the wider world, would wait with bated breath for updates from this mysterious organization. Inadvertently, this reveal had only given more fuel to those who believed that fighting the aliens was not only a lost cause, but an active detriment to the future of humanity as a species. Many of these were covert efforts, spearheaded by the likes of militant transhumanists and UFO cultists. More insidious, however, was a movement that had begun in the backrooms by those in high office. A plot some call opportunistic and cynical. To others, it was a desperate and ultimately misguided attempt to save humanity.\n\nOn the evening of May 15th, the undoing of the Old World had begun. In a secure room below the UN Headquarters, representatives from the nations contributing to the XCOM Project watch in horror as an XCOM strike team was mowed down in an attempt to capture an alien command center. It was hoped that this mission would be a decisive victory, and operation backed with the best intelligence and personnel available. One by one, members of the strike team went offline. The best and brightest of all the world's soldiers were gone. Some wept, some were furious, but most stayed silent. A few, however, saw nothing but a black hole of failure and death, and planned to stop it. Among them, one William Thorne, the USA Ambassador to the United Nations, moved this sentiment into action.\n\nThroughout the rest of the month, millions of people had died or been abducted, as the aliens tightened the noose around Earth's neck. By this point, most had assumed that, if XCOM did exist, it was either gone or ineffective, or worse; another lie to give an illusion of control over an uncontrollable situation. Starting June, whatever people believed ceased to matter. On the 2nd, a direct attack on the organization's Headquarters resulted in its personnel killed, captured, or MIA. Unknown to most, is that the location of the base was disclosed to the aliens by Thorne and his growing cabal of collaborators. The groundwork had been laid, and a plan was in motion.\n\nOn July 1st, 2015, An Ethereal known as \"Angelis\", supposed leader of the invasion force, allegedly met with Thorne in Providence, Rhode Island. An agreement was soon made: Earth's nations were to become a vassal state to the aliens' interstellar empire, and a total surrender of all of its forces against the invasion, in exchange for the means and technology to rebuild and assure humanity's survival. These agreements became what is known today as the \"Great Accord\". The following day saw these documents presented at the General Assembly, with the invaders represented by Angelis and a sole \"Thin Man\". No one knows exactly what happened that led to a unanimous vote to accept these terms, but by that point, it mattered little, just like XCOM's existence. The war was over, and the occupation had begun."
+
+[UFOP_LIFE_AFTER X2UFOpediaTemplate]
+DescriptionEntry="The world in the summer of 2015 was, to put it lightly, a hellscape. There were few places left that were free of the scars of the conflict. The largest cities on Earth were devastated. Many of the more fragile regions of the world had imploded into sectarian violence, lashing out at anyone and everyone to seek some semblance of control in their lives. Even where some were safe from these man-made tragedies, there wasn't enough to go around. Those who thought themselves prepared for collapse found just how unready they were for its realities, and those who never thought these things would come to pass suffered immensely. As the invasion had happened in the main planting season for many regions of the world, it had utterly upended a significant portion of the food supply throughout the Northern Hemisphere in particular. Famine spread, and illnesses preventable just a year ago ravaged the remaining population. Wildfires spread, and scorched away many a safe haven hidden away from the post-invasion world, sending clouds of thick ash into the air, as if the sun itself couldn't bear to shine on a defeated Earth.\n\nWhile reliable estimates remain difficult to obtain on the total casualties resulting from the Two-Month War and its aftermath, the best figures anticipate losses at anywhere between 200 and 370 million persons lost to the invasion and its resulting destabilization of society. The vast majority of losses took place not during the invasion, but in those dark days that followed.\n\nWorse yet, in these first years after the invasion, humanity now had to learn how to adapt and confront the new threats brought to the world by alien life that had begun to plague the world's ecosystems. All those troubles, however, paled in comparison to the Chryssalids. Many of the aliens accounted for during the invasion were at least close enough to sentient to be under some sort of control, but the Chryssalids were practically a stiff breeze away from going feral. Intel suggests that the creatures were meant to serve as some kind of livestock, though quirks of their biology made that prospect beyond untenable. They were voracious, hostile, hard to kill, and reproduced so fast that their arrival would have to be met with the most indiscriminate of scorched earth policies to keep them in check. The invaders knew all too well of this, and often purged any of the surviving Chryssalids they dropped into a population center before that could happen. Some were able to escape it, just out of the way enough to be overlooked until they became a problem.\n\nYet, despite everything, the people of Earth endured. While untold tragedy was the order of the day, episodes of true heroism and humanity shined through. For every attempt at shunning those they viewed as dangerous strangers, just as many old barriers fell. To many, these grudges had failed to matter, and in the wake of such a catastrophic event, it was time to set those petty squabbles aside and band together to defend themselves from the more cruel among their kind. Even where the old world governments were still at least somewhat intact, it wasn't enough to depend upon them, not anymore. In the face of what certainly seemed like extinction, all one could truly rely on was each other. And thus, the first of what became the Havens took form, not in any grand declarations from on high, but in the quiet grace of people helping people.\n\nThe fall of the international system in 2015 opened the door for new and old ways of being to make a return. For the first time in centuries, many indigenous societies were now the linchpin that provided a stable foundation for many of these early Havens. Places like the Amazon, the Great Steppe of Central Asia, the wilds of Alaska, and the Oases of the Sahara offered their own challenges, but for those who could learn and adapt, there was hope. A future. And maybe, just maybe, they could do more than just survive together.\n\nHowever, from the cities, the reanimated corpse of the old order sputtered back to life, not all that much differently from the bodies reanimated by psionic influence. Yet, humanity once again would create its own tormentors, and these new communities would once again face terror not from the aliens, but from their own kin."
+
+[UFOP_OLD_WORLD X2UFOpediaTemplate]
+DescriptionEntry="The newly-minted ADVENT Coalition went forth into a world both in collapse and in recovery. Many were wary of this new organization that claimed to have stepped up where the UN and most nations of the world had failed. But they didn't come to slaughter, or conquer, or even just extort. They brought with them a 'return to normal', a faustian bargain handed to them with an iron fist carefully hidden in a velvet glove. In many cases, no one questioned their arrival. It was as if a horrible nightmare was finally coming to an end, and the proverbial cavalry had arrived in their hour of need. A wise man of the Old World once said 'Those who sacrifice liberty for security, deserve neither'. And indeed, for far too many, they were deprived of both as a result of ADVENT's activities, even from in the early days. Of course, another axiom of the old days was 'the road to hell is paved with good intentions'.\n\nFrom late 2015 until 2020, ADVENT did whatever they could to help people feel like nothing fundamentally had changed. All of the strange new policies, they were just temporary measures. Animal ownership banned? All livestock is now ADVENT property so we can get meat and proteins out to where it's needed while the world recovers. Security checkpoints? There are still warlords, organized crime, and ideological fanatics running rampant, and we need to stop terrorism from taking root any further. Widespread censorship of media? Now isn't the time for debate. Unity and practicality need to take center stage if we want stability to come back. So was the thought process of these people. Besides, you couldn't argue with the medical miracles that came from the first of the Gene Therapy Clinics throughout the first years of the post-invasion world, which opened up in the autumn of 2016 in some of the first cities to be repopulated.\n\nTo the surprise of many of ADVENT's doubters, it all worked. Some of those first Havens closed up before they had time to bloom when ADVENT arrived. Those who weren't ready to embrace a new way of being, were more than happy to return to a simulacrum of the old, even if it came with innumerable prices, when all they could see were the benefits. Over those first years, the megalopoli were reclaimed at speed - and by 2020, the only physical scars of the invasion that remained in the eyes of the select few living safely under ADVENT's ceaseless watch, were the filled-in holes in the earth where the fog pods were, and the empty spaces where buildings obliterated by the violence of the invasion used to be. But you can't fill in the cracks in shattered psyches, or the places a loved one used to live in one's life with a fresh lump of asphalt or new construction. And when a bone tries to heal that isn't set right, it becomes a new kind of burden to bear. And so, the healing of the collective experience of humanity was slowed.\n\nBut only a fraction of the population experienced those early days in the cities after resettlement began. Not everyone wanted to. ADVENT didn't always try to incorporate every group they ran across, and was perfectly happy to leave the Havens to whatever fate befell them. Everything in those days was all purely voluntary. At least, that was the impression they sought to portray. Nominally, ADVENT behaved as if the nations which survived the invasion were still fully sovereign and legitimate entities, and some of the ones that sprung up in the interim were granted recognition as well. This was not out of any sort of real faith in local self-determinism by Thorne's administration, but rather, a practical move to simply allow these autonomous entities to exist until their usefulness was exhausted to ADVENT. The reasons why were numerous: some were political, and Thorne knew not to kick more hornets' nests than he needed. Some were economic, and thus had a bit more weight behind their demands for autonomy. Some simply weren't worth ADVENT's time, too insignificant or in too difficult a place to attempt to incorporate.\n\nCome the summer of 2016, people started seeing different kinds of ADVENT representatives mixed in with the Blue Helmets, ones who were a little more quiet, wearing some kind of more advanced armor, and often with covered faces. Oftentimes, they didn't quite speak a language anyone recognized. Those who lived in areas where the Chryssalids were present saw these quiet ones in armored hazmat suits, traveling with huge armored trucks bearing enormous canisters, filled with some kind of fumigant or pesticide, it was assumed. Wherever they were seen, everyone was quietly escorted away with very little warning. Anyone who stayed behind got to find out that these mysterious crews were the first of the Purifiers, with few living to tell the tale. They had come to erase the places that couldn't, or refused, to be saved. Every so often, they missed a spot, though, and such mistakes would lay the groundwork for ADVENT's descent into true despotism far faster than anyone would have planned for."
+
+[UFOP_LOST_SUMMER X2UFOpediaTemplate]
+DescriptionEntry="In the beginning, ADVENT tried to live up to its promises. A promise of a post-scarcity society backed by an interplanetary empire under de facto demigods, where a society of equals could emerge from the ashes of a world left devastated. Even as living memory of the invasion started to dwindle with the passing of ADVENT's first decade in existence, it seemed that the veneer of progress was slipping fast, revealing all the rotten foundations beneath for all to see. Where once there were price controls and universal access to basic necessities, the end of so-called 'reconstruction' in each region of the world opened the door for the old horrors of neocolonial corporate exploitation. All around the world, a new wave of high-powered laissez-faire ultracapitalists spread like a cancer, making those in their areas of operation dependent and often subservient to their whims.\n\nSure, everyone had a house, a job, and the nutrition needed to get by, but those definitions were exceptionally loose. Whole sprawls of uninspired prefab housing and modular structures cast in drab, often poor-grade cement began emerging across the world, little better than the tent cities they were displacing in quality of life in many cases. Jobs were provided, but a rewarding one was only reserved for the 'fortunate' few salarymen brought into the gilded cages of the ever-growing city centers and their crystalline towers. Food? From what we've recovered over the years, some places gave people those powdered meal replacements pulled straight out of a health food scam from before the invasion. With the resumption of a wage-based economy in much of the world, plenty of people didn't have the means to get better. Seeds and plants still weren't always easy to come by, as access to these basic parts of existence were purposely kept behind high barriers to ownership to strip the working poor of as much autonomy as they could. And what they couldn't steal from you by economic means, they would by good old fashioned police brutality, courtesy of your local ADVENT Peacekeeper.\n\nIt was in this environment of rising discontent that under the hot California sun, an otherwise unknown public health issue led to another near-apocalypse. In 2025, Residents in the poorest parts of the city, usually areas which were heavily bombarded during the invasion by chemical weapons found in the 'Fog Pods', people started developing some curious psychological and medical issues. They would become hydrophobic, start losing much of their bodily fluids, and taking on a somewhat papery appearance. In addition, lesions and growths began appearing on some, containing a sickly greenish hue, that disconcertingly, was sometimes bioluminescent. Diseases introduced by the aliens were a constant worry to be sure, but with the rising access to gene therapy, public health was generally stable, even in the poorest areas of ADVENT cities. This seemed to be resistant to all of that, though. And worse yet, those effected never quite died. Their bodies didn't, anyways. They would slowly lose higher thought, and essentially be rendered feral as their bodies continued to dessicate.\n\nThe first reports of this disease actually show up in the Tony Cross incident of 2023 in the Sonora region. Although, it appears to have mutated by 2025, mostly through the appearance of an alarmingly rapid incubation period which can see the disease spread and manifest within seconds. ADVENT was starting to notice this, but you could typically contain it if caught early. It seemed contained to the dry, hot air of Sonoran summers, so arid regions where combat took place during the invasion were often the only places affected. And then the summer of 2025 happened, one of the worst droughts on record in North America, heat waves spreading across the continent.\n\nThe whole world seemed a bit warm, just by the sheer chance of weather. In other words, it was the perfect breeding ground for this disease. Los Angeles reportedly went dark in a matter of weeks, with quarantine measures simply not working because of all manner of bureaucratic and corporate mismanagement. And yet, this was a disease - you couldn't just go nuclear the way ADVENT chose to in Newfoundland. Instead, they simply thought to contain it and keep the crisis under wraps. At worse, making it a local issue with limited press coverage, would keep it from destabilizing any other areas. Then, an idea - the fog pods were partially sent out to clear the local atmosphere of pathogens that could harm the invaders. ADVENT figured that perhaps, a new, limited round of fog pod bombardment could help clear out this disease, fumigating it and letting the Purifiers come in to clean it up. What they didn't realize, however, was that this would make it so, so much worse. By some unknown means, the chemicals released by the Fog Pod compounds were able to interact with pollutants in the atmosphere, creating the pathogen, and now, supercharging it and spreading it throughout the atmosphere with every bombardment. It had many names, but what stuck around was one, synonymous with the legions of those taken by the disease. The Lost."
+
+[UFOP_BROKEN_MASK X2UFOpediaTemplate]
+DescriptionEntry="By the end of 2025, ADVENT's grip on the world was the loosest it had ever been. The legitimacy of the Coalition was nearly vanished, and the only reason it hadn't collapsed outright was its entrenchment with the post-invasion political and economic establishment that promised that if it failed, the whole system would fall with it. Despite the myriad of cruelties committed by the Coalition, they ultimately did at least try to live up to some of their promises to a portion of the world's population, and they weren't sure if the Elders were simply going to show up and finish the job if ADVENT failed outright. William Thorne, who had led ADVENT since its founding, was thoroughly in crisis mode. He had come to the realization that he couldn't save everyone if he was going to try and save at least some of humanity.\n\nAn enigmatic figure named Gene Brooks, known for both their visionary urban planning and questionable participation in many pre-invasion projects undertaken by South America's military meetings, was brought in by the administration to draft a proposal for how to start pushing back the Lost. Brooks proposed that ADVENT's main mistake was not the failure to contain the disease's spread, but instead, a failure to cut losses and simply focus resources on prevention rather than quarantine. Instead of having measures assume an outward-facing posture, they would instead centralize more resources and attention on a series of geographically isolated zones radiating out from major urban centers, with 16 being established worldwide. Perimeters would be placed around them with no regard to geography or culture, instead being done to ensure maximum physical separation between these zones without losing economic efficiency. Personal travel would be restricted, and the movement of vital materiel between areas would be at least partly nationalized. Surveillance would be stepped up across the board to prevent dissident activity from undermining state efforts to address the wider public health crisis and other existential concerns, and nations would be fully subsumed into a global federalist structure under direct control of the administration.\n\nAll people outside of these security zones were essentially abandoned by ADVENT, given the choice to relocate to within the cordons or be all but abandoned. In essence, they would become considered enemies of the state, as their non-compliance would be treated harshly in the name of keeping resources focused on ensuring public health and ending the massive economic depression that resulted from it. 'Bullets are cheap' was a common maxim in the sessions which shaped this plan. Despite being at the highest levels of control in ADVENT, not even Brooks and Thorne knew the full extent of what would come of this plan.\n\nIt seemed the Elders were becoming tired of Thorne's leadership of ADVENT, and a much smaller contingent closer to the Elders, who to all others remained nonexistent, began to quietly divert experts and resources away from retaking areas from the Lost, Chryssalids, and combating anti-ADVENT human groups towards a whole other enterprise: a mysterious project that was only known through one word - Avatar.\n\nThis was a result of the massive compartmentalization of administrative organs within the Coalition, where people would only be given information that was absolutely necessary to their specific duties. Interests would overlap, both through bureaucratic bloat and deliberate acts of corruption. This allowed for just enough smokescreen for many actors to siphon what they needed away from ADVENT. By the end of 2026, the Elders, in a rare showing to leadership, secretly 'convinced' William Thorne and many of the old guard who were present in the last days of the UN, to step down. It is likely that this was done under no small amount of coercion and mind control. Plenty of them vanished, presumed dead, others were placed in 'gilded cage' roles where, despite their elevated social status, they had utterly no control over their lives, while many more quietly were shuffled into inconsequential roles with no public prestige.\n\nAnd so, the snake devoured its own tail. They came to be replaced with great fanfare by a new class of tyrants - the functionaries and bureaucrats were quietly shoved out into the background, their place taken by sycophants and zealots, all of them young, high-powered, true believers in the nascent worship of the Elders as living gods and of the vicious corporate capitalism that ran their puppet states on Earth. The propaganda too began to change, going from a narrative that the world from before the invasion had simply evolved to one defining a new, ultra-revisionist history that flatly denied the living memories of many. First and foremost among this movement was a figure who some aren't even sure has any real control at all, a man simply known as the Speaker. Meanwhile, Brooks stood in the background, ensuring that despite the fresh coat of paint, nothing would functionally change with their own schemes to have the Coalition reconquer the world. All the while, the iron grip of the Elders was still far from solid. Throughout the late 2020s, reports emerged of whole ADVENT units going dark, patrol routes turning silent, and odd people who didn't quite look human or alien roaming the wilds. It's uncertain when it began, but by 2029, the Skirmishers had become an active force in the global resistance, a sign that something big was coming. And for the last six years, tensions have mounted, more and more small acts of chaos have sundered the percieved invincibility of ADVENT, and now, the flame of rebellion is ready to ignite the whole world."
+
+; ------------------
+; 2. RECENT EVENTS
+; ------------------
+
+[UFOP_GATECRASHER X2UFOpediaTemplate]
+DescriptionEntry="March 1st, 2035, the 20th Anniversary of Unification Day. For the embraced, the celebration of peaceful coexistence. For the forgotten, the reminder that for 20 years, they've seen nothing but smoke, tasted nothing but ash, felt nothing but empty. That ends today. Today is either the beginning of a long fight, or the beginning of the end. But it ends today.\n\nTo the surprise of many, Konstantin Volikov and his Reapers held up their end of the bargain and came through; the location of the asset has been confirmed. Operation: Gatecrasher is to be a two-pronged assault; Central Officer Bradford is to lead his team to secure and extract the asset. Menace 1-5 is to provide the distraction that will garner ADVENT's attention, allowing Central to do so. Chief Engineer Shen confirms the charges are ready, and operative Jane Kelly and her team are standing by.\n\nBlood. Smoke. Ash. There's been too much of it. It's time the aliens know we're serious. Menace 1-5 is to infiltrate the heart of the celebration and send a message no one will soon forget. Blood. Smoke. Ash. It ends today."
+
+[UFOP_COMMANDER X2UFOpediaTemplate]
+DescriptionEntry="No one really knows what to make of the Reapers. They're an elusive group, shrouded in secrecy and uncomfortable rumors. But currently, we simply do not have the means or the numbers to fight back. If this enemy is to be defeated, we're going to need help, and trust needs to be a priority. Their leader Volk has extended an olive branch; if his Reapers are to be believed, they have confirmed the whereabouts of perhaps the most crucial component of the resistance's movement.\n\nAllegedly, they were tipped off by Betos and her Skirmishers, their sworn enemy. That alone is enough to cast doubt, but one of their top operatives, Elena \"Outrider\" Dragunova, has confirmed the intel to be true. If Volk trusts Betos, we can only pay in kind. That they were tipped off in turn by our man inside, makes the situation more palatable.\n\nThe asset is in New Providence. Operation: Gatecrasher is to be a two-pronged assault. Central himself is leading the charge. Once he and Kelly have facilitated Menace 1-5's entrance, they are to rendezvous with Crashers 1 and 2, Peter Osei and Ana Ramírez, who by then should have secured the perimeter. Once inside the Gene Therapy Clinic, they are to locate and extract the asset. This is top priority."
+
+[UFOP_BATTERY X2UFOpediaTemplate]
+DescriptionEntry="Official Records of the Two Month War are almost non-existent. If rumors are to be believed, the military prowess of Earth's combined forces managed to take down only a few UFOs. Among those, a Supply Barge. For reasons unknown to us, the aliens never made any efforts to secure or retrieve the latter, but as the saying goes, one man's trash is another man's treasure.\n\nThat man being former XCOM's Chief of Engineering, Raymond Shen. He had a vision and dedicated his life after the invasion to seeing it come through. His life's work? the Avenger. Without Central, there would be no XCOM. Without Shen, XCOM wouldn't have a base of operations… or a fighting chance.\n\nOur Chief Engineer, An-Yi \"Lily\" Shen, has continued her father's work to this day, getting the place operational. As she's mentioned before, getting our tech to talk to theirs is difficult, but not impossible. But she needs a Power Converter in order to do that, and reach the ship's full capabilities. Resistance reconnaissance has located one in New India. Operative Jane Kelly has expressed her wishes to spearhead this operation and retrieve the Converter safely. Firebrand is standing by."
+
+[UFOP_ALN_BIOTECH X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Alien Biotech."
+
+[UFOP_PSI_NETWORK X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Psionic Network."
+
+[UFOP_ALN_ENCRYPT X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Alien Encryption."
+
+[UFOP_CODEX_DATA X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Codex Data."
+
+[UFOP_PSI_GATE X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Psionic Gateway."
+
+[UFOP_MISSING_HUMANS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Missing Humans."
+
+[UFOP_BLACKSITE X2UFOpediaTemplate]
+DescriptionEntry="Assisted by local resistance, XCOM recently managed to identify the location of this ADVENT Blacksite - and when a squad was deployed to investigate, our fears were confirmed. One of the first observations was made by Central Officer Bradford - ADVENT's immense train network can be seen at almost every city center, and everywhere in between, but sightings of the trains actually loading or unloading cargo are unheard of - except at the Blacksite, which seems to be the end of the line for the entire region. As for their cargo, the trains by the Blacksite, and the shipping/receiving areas by their terminus, were loaded with distinctly alien pods constructed of a thick, translucent green glass. A vague shape is visible beneath the glass in each and every pod - a humanoid shape. The missing civilians. Thus came the obvious conclusion: the aliens never stopped their abductions - if anything, they only ramped it up in scale since the invasion. However, this holocaust had to have purpose, and this purpose was to be found within the sheer black walls of the alien facility. Upon entry, our soldiers found a pool of green liquid, with hundreds of the alien pods submerged into it. Arrays of control panels surrounded the pool, with massive black steel pipes emerging from the depths and moving to some unknown source. And, at the other end of the pool, a single glass vial held in containment. Our current hypothesis, as proposed by Chief Engineer Shen, is that this blacksite is actually a refinery of some kind - processing these abducted innocents into whatever resides inside of the vial. We are more than familiar with the aliens' propensity for genetic manipulation, considering the hordes of human-alien hybrids that make up the vast majority of ADVENT's military forces, but this was something different. Something worse."
+
+[UFOP_BLACKSITE_VIAL X2UFOpediaTemplate]
+DescriptionEntry="The Blacksite Vial, in appearance, is merely a crystal vial enshrouded by a glass and metal case, capped by alien alloy on either end, with a faintly luminescent yellow-green liquid suspended inside. The vial itself is harmless, with no energy or radiation signatures emitted by it - which was what allowed its safe extraction from the ADVENT Blacksite - yet held by ADVENT with the utmost security. In actuality, it is a concentrated solution containing fragments of DNA from over one million humans from the city centers, all bearing markers that would indicate psionic aptitude, and all being traceable to the missing persons reports provided to us by the Spokesman, as well as admission files from the gene therapy clinics. This was the purpose of the Blacksite - the conversion of psionically gifted humans into this solution of genetic material - and no doubt plays a part in the Avatar Project and, subsequently, the aliens' master plan. The gene therapy clinics screened these victims - people who merely needed medical help or held extraneous genetic wishes - extensively, selected the most viable candidates, ripped these people away from their friends and families and subjected them to a gruesome fate, all for this small vial of green liquid. Chief Engineer Shen was able to determine that the intended destination of the Blacksite Vial was a high security ADVENT production facility, veiled in a similar layer of secrecy as the Blacksite itself, dubbed henceforth as 'the Forge'. It is likely that an XCOM investigation of the Forge will lead to answers as to what the Elders are trying to achieve - and, undoubtedly, raise many more questions as well."
+
+[UFOP_FORGE X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Forge Facility, and the secrets uncovered of what exactly goes on in there."
+
+[UFOP_ALN_DYING X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Alien Conundrum, in which the gang learns that the Ethereals are dying."
+
+[UFOP_ETHEREALS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Ethereals, who they are, what they want, and what they seek."
+
+; ----------------------
+; 3. ALIEN ACTIVITIES
+; ----------------------
+
+[UFOP_ALN_MASS_PROD X2UFOpediaTemplate]
+DescriptionEntry="As the invasion ran rampant, we weren't only outmatched, but we were severely outnumbered. It seemed the aliens had an infinite supply of forces and weapons, and no matter how many of them we were able to neutralize, they never stopped coming. We learned throughout the conflict that they kept their numbers healthy through carefully coordinated supply chains. While the origins of the materials they shipped remain unknown to us, logistics would indictate that they had the means of rapid repairs and efficient redeployment from orbit.\n\nDuring ADVENT's tenure, they've relocated these efforts onto the mainland. They no longer ship these from beyond, they build them here. Mechanized Infantry Units, surveillance drones, heavy armor, advanced weaponry; the alien forces and their ADVENT Peacekeepers are infinitely supplied. Within city centers, clandestine warehouses with stockpiles of elerium and alien alloys front as everyday businesses and services, from nightclubs, to clothing stores to car dealerships.\n\nAnd that's just based on what we've confirmed. Rumors indicate the existence of specialized factories, automated mass production facilities, that are scattered around the globe. Through interconnected railway networks, every sector under the Coalition's watch is stocked to the brim. Trying to rid the world of these facilities is simply beyond our reach, but, if carefully planned, we might be able to intercept these supply trains on the move and recover some of their cargo for ourselves."
+
+[UFOP_CHOSEN_TRAINING X2UFOpediaTemplate]
+DescriptionEntry="Decryption of this entry is still ongoing."
+
+[UFOP_CHOSEN_SABOTAGE X2UFOpediaTemplate]
+DescriptionEntry="Decryption of this entry is still ongoing."
+
+[UFOP_CHOSEN_AMBUSH X2UFOpediaTemplate]
+DescriptionEntry="After an action is complete, it is likely to draw the attention of whichever Chosen presides over the territory the action was taken in - the Chosen's territorialism and perceived competition amongst each other means that one will not ambush XCOM in another's territory - and they may choose to attempt to strike at the covert operations team deployed. In our soldiers' experiences, the Chosen tend to not engage XCOM directly in these ambushes - instead delegating the work to lesser ADVENT troops - but that doesn't mean they're not present or responsible. Instead, they target the resistance members accompanying our covert teams, leaving our soldiers alone to fight against their counter-ops forces. Once our troops are isolated and compromised, counter-ops forces are typically called into XCOM's almost exact location, aiming to overwhelm our soldiers with manpower alone. With cautious manoeuvres and well-placed shots, however, this initial group can be eliminated, after which the majority of the threat of the ambush is nullified - as, since the Chosen's troops fan out to try to eliminate any hiding space, they are isolated and thus easy to pick off. Even after a successful exfiltration, however, an ambush from the Chosen will no doubt take a mental toll on our troops, regardless of any physical wounds they may accrue."
+
+[UFOP_CHOSEN_INTERROGATION X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Chosen Interrogation, how they can extract knowledge from our soldiers on the field, as well as kidnap them to extract the knowledge later."
+
+[UFOP_CHOSEN_HAVEN_ATK X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Chosen Terror, how these bastards hunt down and murder civilians."
+
+[UFOP_CHOSEN_AVENGER_ATK X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Chosen Retaliation, how they finally find us, and launch an assault to recapture us, and the ship."
+
+[UFOP_ADV_HAVEN_ATK X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for ADVENT Terror, tired of XCOM's progress, they must send a message. A bloody one for civilian sympathizers."
+
+[UFOP_ADV_AVENGER_ATK X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for ADVENT Retaliation, how  they will land an EMP Spike in an attempt to recapture the Avenger."
+
+[UFOP_DARK_EVENTS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Dark Events, efforts from the Aliens to improve their forces, and sway the battle conditions in their favor."
+
+[UFOP_HUMAN_PROCESS X2UFOpediaTemplate]
+DescriptionEntry="Indoctrination. For many, those who lost their lives during the invasion had it better. For others, things weren't as clear-cut. A distant warrior in the face of a losing battle once said, \"Is submission not preferable to extinction?\" Many agreed with the sentiment.\n\nAfter the aliens invaded, pillaged, and murdered us, they moved in and became our \"friend\". They had all sorts of offerings, and to their credit, they were remarkable: technological wonders we could only dream of, and medical advancements that could only be classified as miracles. Cancer, AIDS, MS, Cerebral Palsy, simply gone one day. It's difficult to pass on the offer to walk again, to see again, feel again. Many who stumbled inside one of these Gene Therapy Clinics, walked out into a new life.\n\nMore did not.\n\nOf all the activities the aliens conduct, none are as insidious and morally devastating as the true nature behind the Gene Therapy Clinics they tout so altruistically."
+
+[UFOP_AVATAR_PROJECT X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Avatar Project, the Aliens' ultimate goal."
+
+; ----------------------
+; 4. XENO-SOCIOLOGY
+; ----------------------
+
+[UFOP_XS_ADV_PROPAGANDA X2UFOpediaTemplate]
+DescriptionEntry="ADVENT's propaganda is built upon a myriad of contradictions. It both presents the Coalition as a an unstoppable force and as being under constant threat, that it is both free and subsidiary to the Elders, that it is both militaristic and peaceful, but perhaps the most glaring contradiction is that it acts as if it is separate from the pre-invasion world, but actually is built on tools of cultural hegemony and epistemic control which would be recognizable to anyone familiar with even recent pre-invasion history.\n\nTo those who live outside of ADVENT's control, encountering life in the cities would first be stricken by the ubiquity of posters, billboards, and AV displays presenting high-contrast, brightly-colored and dynamic imagery. These usually depict scores of ADVENT Peacekeepers adorned in their trademark armor plating, sometimes interacting with photogenic human subjects dressed as corporate neo-yuppies, often set against a backdrop that portrays strength or prosperity, sometimes with a fleet of ATT ships or a sweeping, if generic city skyline. These are perhaps the most base-level, obvious propaganda to even those outside of the cities, and it's no surprise that's the case, as such posters have a long history among Earth's historical autocratic states. Persons with access to archival material from prior to the Two-Month War might recognize these motifs as being reminiscent of imagery found in North Korea, Mao's China, the Soviet Union, or Fascist Italy and Franco's Spain. These are meant to portray ADVENT's idealized vision of itself as youthful, energetic, dynamic, strong, and prosperous.\n\nYet at the same time, these ubiquitous symbols of cultural hegemony are perhaps the least insidious of their tactics to dominate the minds of their viewers. Beyond the posters are the public displays of force employed by the Peacekeeping forces. The vast majority of ADVENT troopers are uninterested in camouflage or subtlety, and there is no difference between dress uniform and combat gear. This in many ways makes them reminiscent of the warriors of the pre-industrial age, where the theatrics of warfare were just as important as tactical skill. Infused with their constant presence in ADVENT's state-sponsored media and their flashy gear that obscures both their body and the majority of their face, imposes not just the idea that they are powerful and dynamic, but also that they could very well be anyone, as many reports from defectors and those who have fled the cities attest to nobody they know being a Peacekeeper themselves.\n\nThis leads to yet another contradiction inherent in ADVENT, that despite their portrayal that they are a fully volunteer force and that new enlistments happen on a regular basis, they instead rely on fostering an atmosphere of secrecy regarding the troopers, making many citizens inherently distrustful of those sharing anti-establishment beliefs for fear that they might secretly be a Peacekeeper, or that they should not share them for fear that they would be reported by a similarly clandestine individual. This serves their greater purpose to dissuade the formation of epistemic resistance and parallel power within areas in ADVENT's direct control. Even still, this is not the most insidious of their means of propaganda.\n\nWhat may be the most dangerous, most hazardous tool of their domination that will affect humanity for decades to come, is their strangling of the human imagination on a massive scale. As a popular anti-authoritarian song of the Old World said, 'they don't have to burn the books, they just remove them'. Education and educational material is promoted and accessible to all in ADVENT's territories, with the only catch that it is highly revisionist and conveniently leaves out any knowledge that might contradict the narrative presented by ADVENT and Elderism as a whole. This ranges from the fairly obvious, such as recontextualizing of historical persons or events to fit the narrative that humanity was in a state of barbarity or universal exploitation without the Elders, to the utter erasure of entire cultures and schools of thought. This subtle propaganda seeks to make people incapable of considering alternatives to life under ADVENT, and takes away the critical thinking tools essential for persons to dictate their own lives and be active participants in their communities.\n\nIt is for this reason that perhaps countering the constant psychological warfare those living under ADVENT deal with, is the main priority for many resistance cells operating on all levels of scale and effectiveness. Reclaiming territory is only the first part of what must happen to truly liberate the Earth. Reclaiming the minds of its people is perhaps going to be an effort that takes generations to accomplish."
+
+[UFOP_XS_ADV_CITIES X2UFOpediaTemplate]
+DescriptionEntry="While one's mind might go to the 'City Centers' when thinking of urban spaces within the administrative zones, ADVENT's cities are much more complex and dynamic entities, much like the pre-invasion cities they often are built upon or meant to replace. No one city is quite the same as another, though thanks to the global influence of the ADVENT Coalition and its corporate partners, there is a considerable degree of uniformity in the innermost cores of these cities' commercial and administrative districts. As a result, most ADVENT cities are defined by immense, albeit compact skylines of corporate arcologies and mallplexes, which often sees residents living in the same buildings owned by the corporations they work for. Such is the case of the biggest players in the global economy. Corporations like SDG, Primanta, NDT Bank, Altracs, all of them corporate entities with extremely close ties to ADVENT and its subsidiary national governments.\n\nThe city centers are largely pedestrian due to the high degree of verticality used in their architecture, with easy access to secure public transportation. These districts are exceedingly safe and often extremely comfortable, with standards of living achieving heights that were only enjoyed by the ultra-wealthy prior to the invasion. However, life here is extremely regimented. The significant sway corporations have over city governments, means constant surveillance by Peacekeeping forces. Not only that, but the cutthroat office politics of the city centers often lead to citizens turning each other over to the Peacekeepers, if it means they'll be able to advance up the economic ladder. These centers can best be thought of as a manifestation of the blatant lies that back ADVENT's domination of Earth's collective imagination - a place where you're in shackles, but ones made out of gold that its residents put on themselves.\n\nOutside of the modern ADVENT city, lies what is alternatively referred to as the outskirts: resettlement areas, historic districts, or more realistically, the Slums. While the City Centers are glistening mazes of sterile glass, alloy, and neon, these places are where you can often still see the festering wounds of not just the abuses of ADVENT, but the failures of the Old World still present. These are places where those who aren't steadfast loyalists or high-powered corporate suits live. Where the people who toil night and day to keep the lie of ADVENT alive reside, as well as the people that the system has utterly failed.\n\nBuildings here are often renovated old-world structures; prefabricated, modular neo-brutalist affairs constructed in the immediate aftermath of the Two-Month War; or storage containers, warehouses, and other detritus of industry turned into a place of residence, work, or otherwise. Unlike in the city centers, smaller businesses are actually able to take root here, as they are often underserved by the major corporations who cater only to people of means. However, it is here that global crime syndicates and the black market thrives, the perfect stopping-point between the affluence of the urban core and the long spaces between free settlements and havens beyond.\n\nResidents in these slums are usually refugees or migrants from places in the so-called 'outer territories', those who have given up on the havens, who slowly trickle in day after day. As a result, ADVENT's security presence here is just as prevalent but, whereas it is often left up to automation deeper in the core, police forces here are much more persistent, and naturally, more prone to overreach and excessive force. All the while, people still get by. Much in the way the working poor have for centuries now, they do the jobs that are at the same time 'essential' and 'unskilled', depending on what the propaganda and corporate interests need to sell the common rabble on to keep their own pockets fattened.\n\nMany people grow their own food and carry on traditions that are being rapidly abandoned in the city centers. Oftentimes, they are greater places of creative expression as a result of the much more communal lifestyles necessary to resist being crushed under the jackboot of the state, and the unflinching capitalist death machine of ADVENT's economy. All the same, the dissent is often manufactured here, with ploys established by agent-provocateurs on the behest of the powers that be to keep the workers from truly posing a threat to them. Yet, their minds are more open, more capable of seeing past the lies, and more willing to risk themselves to share the truth, as is evident by the street art and resistance propaganda sharing the same wall space as the wind-battered and faded remains of ADVENT recruitment posters from years past."
+
+[UFOP_XS_CHOSEN_PURPOSE X2UFOpediaTemplate]
+DescriptionEntry="That ADVENT fails to address the issues of their administration is concerning. They either don't see them, which is unlikely given their 'Big Brother' approach to governance, or they don't care, believing they can out-force any issues that might arise. And therein lies the problem - conflict escalation. Unruly civilians? Stricter curfews and checkpoints. Havens training a militia? Triple the Peacekeepers' count. City Centers being attacked? Hit the Havens, leave no survivors. And now, while the resistance continues to struggle to organize as a united force, they've at least done well enough to see the rise of three separate, prominent threats against ADVENT.\n\nTheir response? The creation of three 'supreme beings', tasked with eradicating each faction. In line with the Elder's self-aggrandizement, they are designated 'The Chosen', and they have each been conceived, equipped, and armed with the factions' weaknesses in mind. For years now, if the factions are to be believed, they have been butchering their people efficiently, methodically, and mercilessly.\n\nRescuing the Commander, though, seems to have thrown a wrench in their plans, and with that, a new directive has been given to their 'Children'. They are to refocus all efforts on the capture and return of the Commander to the Elders' grasp at once. All other priorities are secondary. That is their directive. They are as relentless as they are tireless and will not stop until their mission is complete."
+
+[UFOP_XS_ADV_FACILITIES X2UFOpediaTemplate]
+DescriptionEntry="ADVENT has hundreds of these secluded facilities all over the planet - and whilst their purpose may vary, one constant is that the ADVENT administration takes great care to shelter them from the public eye. And with resistance forces now having looked inside some of them, it's very easy to pinpoint why. While the contents of each facility varies, almost all dabble in the aliens' macabre science to a degree that would occlude any civilian from knowing of their existence. Whether the facilities maintain a frighteningly detailed record of the genome of every civilian marked as 'missing' by the Spokesman's leaked files, produce technology usable only to kill and maim in the most horrible ways, or infuse their creations with human DNA, the average citizen of ADVENT would not be able to withstand their truths in a vacuum. Almost all of these ADVENT facilities connect to the ADVENT worldwide train system, though the facilities incorporate the vast majority of known places where these trains are actually loaded and unloaded. The resources required to maintain the facilities, and their subsequent produce if applicable, flow in and out with clockwork efficiency, with this clandestine web just under the surface of ADVENT society running at all hours of day and night as a well-oiled machine - given the state of some of ADVENT's population centers, it's abundantly clear where their true priorities lie to anyone who knows of the facilities' existence. Many of these facilities bear the symbol and label of the aliens' Avatar Project - and those that do should warrant extreme caution considering the secrecy of the project as their security will undoubtedly be greater than most, although they pose a much greater reward for their destruction. Such an act may be one of the few ways the doomsday timer that the project poses can be set back. In addition to these 'generic' facilities, there are some noted as being especially important in their specific regions - one of which being the so-called ADVENT Blacksite, the end destination for many of the ADVENT supply lines. A full investigation of the Blacksite should be in order at the soonest opportunity - after which the archives will be updated with whatever new information our soldiers glean."
+
+[UFOP_XS_ADV_CLINICS X2UFOpediaTemplate]
+DescriptionEntry="Decryption of this entry is still ongoing."
+
+[UFOP_XS_TREATMENT X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Refining Treatment, and our understanding of how their screening process works, that they're looking for Psionic aptitude in our genetic markers."
+
+[UFOP_XS_ALN_AGENDA_2 X2UFOpediaTemplate]
+DescriptionEntry="If we are to free our people, we must first come to understand how our enemy operates, and what drives them to do so. For the greater half of the past century, they've researched us from afar, studied us, abducted us, harvested us. We paid no mind, we did nothing.\n\nThen they arrived.\n\nThey terrorized and infiltrated us, and once they settled in, they secured their supply chains and built their bases of operation. ADVENT came to be, and with it, came the Gene Therapy Clinics. We now know what really happens in them, but, even with Earth's brightest minds and the best intel gathered, we could never figure out why. Why do this? What's their endgame? What motivates such callous and egregious disregard for human life? Today we got an answer to these questions.\n\nUnder different circumstances, this would be good news, but that is not the case. The Ethereals are dying, and unfortunately for us, that means they're more than willing to do anything to prevent that from happening."
+
+; ----------------------
+; 5. XENO-TECHNOLOGY
+; ----------------------
+
+[UFOP_XT_DNA_REC X2UFOpediaTemplate]
+DescriptionEntry="Within the first few days of their arrival, the aliens proved to be a species who firmly subscribe to the idea that \"the end justifies the means.\" While we still have a lot of work ahead of us in discovering what their means are, we've seen what they are capable of, and more importantly, what they are willing to do. We're very well aware of the Genetic Engineering prowess the Elders possess, in large part due to what they can do at their Gene Therapy Clinics, but that is on the constructive end of the spectrum.\n\nOn the destructive end of it, the Elders don't seem to have any ethical or moral qualms about the lives they destroy or tamper with, in pursuit of their grander schemes. We first saw it during the invasion. Old Autopsy reports informed us of beings wholly created by the manipulation of different species' DNA combined into one, such as the creature referred to as the \"Floater.\" Equally concerning, the reports found the exact same DNA strands replicated in every single one they faced. The Elders aren't just capable of cloning, it seems like process is easy for them.\n\nIn the 20 years since then, we can only presume they have refined and perfected their methods. Now, with our human DNA at their disposal, the aliens have started infusing their troops with our genetics, improving them in numerous and terrifying ways."
+
+[UFOP_XT_ALLOYS X2UFOpediaTemplate]
+DescriptionEntry="Strictly from a metallurgy perspective, these alloys are magnificent. They are light, durable, ductile and through the proper application of electro-magnetic processes, highly malleable. While Earth-based alloys offer less electrical conductivity than raw metals, these foreign ones preserve a significant amount. With such an impressive resume of attributes, these alloys are suitable for a vast array of manufacturing operations, engineering practices and thermodynamics.\n\nThroughout the 20 years of alien occupation, our visitors never stopped transporting the material to our planet. Still, most if not all of its stockpiles are used for the betterment of ADVENT's armies, and the improvement of City Centers, leaving anyone outside these 'city walls' in scarcity. While there is a small degree of abundance of the alloys, the demand exceeded the supplies. This resulted in the material finding a permanent spot on the black market.\n\nUnfortunately, the chemical compounds needed for its synthetization do not exist on our planet, and thus, cannot be reproduced. Thankfully we have a secure connection to the black market. Otherwise, any additional stockpiles we can get our hands on, will most likely be by force."
+
+[UFOP_XT_ELERIUM X2UFOpediaTemplate]
+DescriptionEntry="Initial observations of element-115, or Elerium, indicate that it is used by the alien forces, and to a lesser extent, ADVENT, to generate huge amounts of power. The unusual atomic structure of this substance responds to direct bombardment from accelerated particles, resulting in an astonishing release of anti-matter energy, as well as gravitational waves, making space travel possible.\n\nThe element provides a never-before-seen level of energy efficiency, requiring small amounts of Elerium to produce vast amounts of power. This efficiency provides the aliens with a nearly inexhaustible source of power generation. Although the potential applications for this element are nearly unlimited, the aliens seem to have focused their efforts on power generation and propulsion schemes, both for transport and weaponry.\n\nWe must do the same if we are to level the battlefield when facing this enemy. Unfortunately, the element does not occur naturally within our solar system and is unable to be synthesized on Earth. Thus, we must be careful when managing our available supply."
+
+[UFOP_XT_ELERIUM_CORES X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Elerium Cores, a refined application of the element, more readily available and easier to apply."
+
+[UFOP_XT_MAG_WPNS X2UFOpediaTemplate]
+DescriptionEntry="The use of alien alloys' inherent magnetic properties as an amplifier of sorts to the wire coils surrounding the barrel allows for a lightning fast projectile velocity. Even with the heavy rounds utilised by ADVENT, and advanced miniaturisation technology developed by the aliens allows for a much smaller capacitor bank, capable of fully charging and discharging seven times a second for the standard rifle, even faster for the specialised rifles used by Priests, and being operable for up to four thousand rounds before the battery needs to be replaced. All these factors combine to make the ADVENT magnetic rifle a highly versatile weapon - albeit one rather susceptible to overheating if fired too much in a short time span, a likely reason for Troopers being trained to fire in bursts.\n\nIn addition to the advanced components that make up the ADVENT magnetic rifle, each of ADVENT's magnetic weapons is fitted with genetic verification technology imprinted into the weapon's grip. The sensors search for hybrid and alien genetic markers, and the safety is only disabled when the prerequisite genetic markers are detected. If the weapon's trigger is pulled without these genetic markers' presence, the charge accumulated by the capacitor banks is discharged directly into the grip. This sudden burst of electricity is almost instantly fatal to humans, preventing ADVENT weaponry from being used by resistance. Dataminers have observed that there are also reports of ADVENT troopers being killed by accidental discharges due to this system, but the reports are dismissed by ADVENT High Command on every occasion, indicating that the average Trooper and its weaponry are expendable.\n\nHowever, using ADVENT's rifles as a baseline, we can manufacture our own. XCOM's magnetic weaponry, as developed by Dr. Tygan and Dr. Shen, derives significantly from the ADVENT designs that our forces have recovered in the field. The capacitor banks in particular are taken directly from recovered ADVENT weapons, as there is no facility on the Avenger capable of creating the components with the required precision. Other components use alien alloys that the Avenger has stockpiled from supply raid missions, steel, copper, and hardened polymers.\n\nLab tests of the prototype XCOM magnetic rifle can achieve projectile speeds of up to 3,200 metres per second, using the standard ADVENT round, at a rate of fire of up to 440 rounds per minute. Since ADVENT's munitions stockpiles do not have the same genetic locks as their weapons, we can freely make use of ammunition we recover, so running out of ammunition for our magnetic weapons will not be a problem.\n\nHowever, XCOM doesn't just field assault rifles, and specialised ADVENT weaponry is much harder to find than their standard rifle, so much of the more varied magnetic arsenal developed by Tygan and Shen had to be done almost from scratch.\n\nProbably the easiest weapon in the XCOM arsenal besides the rifle to adapt to magnetic weapons technology was the shotgun. The Shard Gun works on a similar principle to the rifle, with the main challenge to overcome being the delivery of multi-projectile shot shells. The solution used was to use a small amount of gunpowder in the centre of the shell to open the sealed shell and allow the numerous sharp alloy shards inside to be projected out of the barrel and accelerated forward by the coils. The weapon loses its lethality after a short distance, but luckily our Rangers have no qualms in getting up close.\n\nA much harder weapon to adapt was the sniper rifle, as the capacitors in the standard ADVENT rifle on their own are not sufficiently powerful to project a heavier round at a sufficient velocity. However, the aliens' miniaturisation technology makes such a task at the very least feasible, and components manufactured this way produce a consistent simulated muzzle velocity of 5,000 metres per second, albeit with an extended charge time, and the projectile design should allow for the Gauss Rifle to retain lethality at an extended range in comparison to our standard sniper rifles with minimal projectile drop.\n\nHardest of all was adapting magnetic weapons technology to the cannons used by our Grenadiers. As mentioned earlier, firing ADVENT magnetic rifles in full auto heats up the weapon significantly, with potential faults ranging from capacitor failure to the weapon tearing itself apart risked by holding down the trigger. Unfortunately, a cooling system was not entirely viable, so instead the barrels themselves were made of alien alloys for durability's sake and a protective cage was built around the barrels of the cannon, to keep the weapon from suffering catastrophic damage from the intense thermal and kinetic force imparted on it while firing. It still runs considerably hot, but our Grenadiers don't seem to mind."
+
+[UFOP_XT_BEAM_WPNS X2UFOpediaTemplate]
+DescriptionEntry="The plasma weapons' power isn't without compromise, however, as our tests indicate that the weapons are just as dangerous to the user as they are to their targets - the power distribution systems for these rifles are incredibly complex, scarcely shielded and worryingly fragile, and even slight damage to any of the components within could result in a collapse of the containing magnetic field, or in layman's terms: the gun blows itself up, and in all likelihood the operator with it. Yet more evidence that the Elders consider their pawns expendable, and a very strong reason for our soldiers to not attempt to use captured alien weaponry.\n\nOne of the biggest challenges in creating XCOM's own plasma weapons was overcoming such instability - because no matter how powerful it is, one of these weapons suffering a critical failure that robs the life of one of XCOM's higher ranked soldiers would be catastrophic to our operations. The new XCOM Plasma Rifles, as approved for production by Dr. Tygan and Dr. Shen, use an innovative, safe 'blue plasma' that is just as potent when weaponised, but requires much less fragile circuitry to maintain and allows for the weapons to withstand much more roughhousing than the alien counterparts - which, knowing our soldiers, is worth its weight in gold.\n\nCompared to the conventional and magnetic weapons that XCOM has developed previously, it's night and day, with the Plasma Rifle outperforming the preceding Magnetic Rifle in almost all metrics. The plasma rifle's beam imparts a kinetic force of 40kJ on impact, over an order of magnitude greater than that delivered by a 7.62x51mm conventional round - and that's not taking into account the thermal energy delivered in addition, which can melt through an alarming thickness of steel as if it weren't even there, and also being able to penetrate 70 to 90 millimetres of pure alien alloy, dependent on distance and environmental factors.\n\nWhilst most of the weapon's function is powered by the elerium nodes within, the crystals require a slight jump-start by conventional electrical means - for which disposable batteries are loaded into the weapon like a magazine would, typically storing enough charge to enable the weapon to fire four times before needing replacement, though expanded versions can be fielded if needed. In addition, these batteries can store a limited amount of material to inject into the plasma beam, providing a similar effect to the specialised ammunition types developed in the Proving Ground for our projectile weapons."
+
+[UFOP_XT_PSIONICS X2UFOpediaTemplate]
+DescriptionEntry="What are psionics?\n\nI genuinely want you to think. What is it that allows the human mind (or Hybrid, or Sectoid, or Ethereal, etc.) to quite literally force its will on the physical world and affect things at the molecular, if not subatomic, level. Hard to figure, isn't it? The short answer? Nobody knows whatsoever.\n\nBut, that's not entirely accurate. The long answer is that there are a lot of different ways to try and explain this nascent science. There's a few dimensions I think are important to consider when we think about why this stuff even works in the first place. For some reason, the Elders are convinced that we have something unique about us that allows humanity to use the tech as we do. While I worked in the biotech industry, there were a few things we were able to lock down as to why we could interface with psionics - our genes; neural architecture; and our psychology.\n\nThe first is pretty obvious, considering how genetic engineering is a cornerstone of pretty much all of what ADVENT does. For whatever reason it never seemed to work out with any of our alien counterpart. Ever notice how the only ones you see slinging psionics around have a good dose of human genes in them? Now, that isn't to say that not all life is capable of being affected by it, but we can confidently say that not all life is capable of actively using it. That is where the neural architecture comes in. Right in the center of your head, assuming you're a human, there's a little thing called the Pineal Gland. Almost all vertebrates have it, but there's a unique thing about how it works in humans we haven't quite figured out yet.\n\nAnd boy are the Elders very interested in that. Up until recently, we only knew that it was mostly in charge of handling melatonin - that's the chemical that helps your body regulate sleep patterns. It makes your brain produce these certain frequencies of bioelectrical waves that alters your consciousness. There's alpha, beta, gamma, and delta, those are all part of the rest cycle. But we discovered among those who showed psionic aptitude, they produce this whole other kind of wave. We'll call it Psi, just for clarity's sake. And somehow, some way, that's something you can consciously take advantage of, you can pretty much send it out of your brain and into the world. On its own, it doesn't do much. Just kind of enhances your perception, makes you seem more charismatic, things like that. That's pretty much what the neural hardware hooked up to the Psinet is built around - manipulating this 'Psi wave'.\n\nEveryone can be susceptible to it, but again, not everyone can activate it within themselves. But when you do, and you have the right tech, you can affect the world on the molecular level. Now, I'm gonna leave the actual mechanics to the folks who are a little better at explaining that end of things, but in very, very broad strokes, everyone alters reality by perceiving it. I know it sounds weird, but stay with me. Psionics, it's basically that, but instead of just altering the world by interpreting your sensory input, which by the way is tailored pretty much just to your mind, you actively force your perception to change the world through using psionics. You make atoms jitter in just the right way that you can make a nice little purple ray of 'screw you' and aim it at some Peacekeeper. Or, maybe you excite the molecules in your morning tea to get it to warm up. Point is, your imagination quite often is the only limit to what might be possible through the application of psionics.\n\nAs for why humans are so good at it? Our studies suggest it has something to do with how we as humans think. We imagine. We adapt. We have to be clever as hell, and we had to be since we first came into this world on the plains of Africa hundreds of thousands of years ago. We went into altered states of consciousness to try and make sense, impose some meaning on our chaotic worlds, and sometimes, we broke ourselves in just the right way that we got to understand something we couldn't grapple with. We also gathered together, made communities, formed relationships. We're social animals, at the end of the day. And if you ask me, I think we're all a little psionic to be able to cobble together such sophisticated systems of kinship and cooperation as we do. And it nudged our evolution to be better at all of this. So over thousands of years, you wind up with an animal with just the right gray matter to make the world around it match the complex hyperreality it thrives in. And that, Commander, is what I think Psionics are all about, and why the Elders are so keen on messing with humanity."
+
+; ----------------------
+; 6. XENO-BIOLOGY
+; ----------------------
+
+[UFOP_XB_ADV_TROOPER X2UFOpediaTemplate]
+DescriptionEntry="These troopers comprise the bulk of the ADVENT fighting forces. Primarily employed in the field as the armed police forces of territories under ADVENT control. The most public face of ADVENT security, the standard ADVENT Trooper serves in a first-response role in areas of high public exposure. The massive propaganda campaigns and actual recruitment centers, as well as the accounts of many human defectors within the resistance, would indicate that these are human volunteers. The general public certainly seems to believe so, and while initial autopsy reports indicate this was once true, the reality is that is no longer the case. We've recently confirmed that they are in fact the product of a human-alien hybrid development, manufactured and mass-produced at undisclosed facilities well hidden in the outskirts of city centers and other populated areas. We fear what this means for those misguided enough that seek actual recruitment, but we can only hope.\n\nTroopers utilize a sturdy combat suit composed of a kevlar weave bodysuit under a set of body armor over key parts of their anatomy, primarily built of a multi-layered ceramic plating overlaid by a top layer of the novel alloy utilized in alien metallurgy. On top of providing considerable defense against conventional small-arms fire, the alloy plating projects a subtle magnetic field which affords additional protection against electromagnetically-propelled sabots commonly fired from Gauss weaponry. \n\n The helmet, which is the defining feature of their combat armor, hosts a suite of tactical computer hardware and integrated psionic communications technology that link directly to their implanted neurochips, allowing a greater degree of squad coordination than would be possible without such augmentations. Their weapon is a Gauss Rifle - an improvement over traditional ballistics, are made doubly potent by the biometric lock that prevents capture of such armaments, often proving fatal to the would-be user."
+
+[UFOP_XB_ADV_OFFICER X2UFOpediaTemplate]
+DescriptionEntry="Officers are another mainstay of the conventional ground forces fielded by ADVENT. The vast majority of their hardware is similar to their subordinates in design and layout, though they benefit from additional plating on their upper body and legs. The helmet is enlarged in part due to their role in the battlefield, as it contains a miniaturized psionic transmitter which interfaces directly with their neural implant, which feeds into a larger system utilized by the ADVENT military that coordinates troop movements.\n\nDespite this, Officers are afforded a degree of operational flexibility in the field, having the freedom to set priorities which their subordinates are compelled to obey to the letter through their implanted neurochips and intense regimen of psychological conditioning. Interestingly, this reveals that the ADVENT military is not entirely dominated from a singular command point, but rather that there is at least some form of a meritocracy within ADVENT forces. The Officers most commonly encountered in the field, denoted by their striking red body armor, hold the rank of 'Captain'. Their authority in the field is absolute, as when they mark a target to focus fire upon, subordinates will almost always focus solely on that target if it lies within line of sight."
+
+[UFOP_XB_ADV_STUNLANCER X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Blue ADVENT grunt."
+
+[UFOP_XB_ADV_SHIELDBEARER X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for White ADVENT grunt."
+
+[UFOP_XB_ADV_PURIFIER X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Yellow ADVENT grunt."
+
+[UFOP_XB_ADV_PRIEST X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for White ADVENT grunt, but with Purple Space Magic Fairy Dust."
+
+[UFOP_XB_ADV_MEC X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Beep Boop grunt."
+
+[UFOP_XB_ADV_TURRET X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Pew Pew grunt."
+
+[UFOP_XB_SECTOID X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Sectoids."
+
+[UFOP_XB_VIPER X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_FACELESS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_MUTON X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_BERSERKER X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_CODEX X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_SPECTRE X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_ARCHON X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_CHRYSSALID X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_ANDROMEDON X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_SECTOPOD X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_GATEKEEPER X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_AVATAR X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_LOST X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_VIPER_KING X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_BERSERKER_QUEEN X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_ARCHON_KING X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_CHOSEN_ASSASSIN X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_CHOSEN_HUNTER X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+[UFOP_XB_CHOSEN_WARLOCK X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for"
+
+; ----------------------
+; 7. XCOM TECHNOLOGY
+; ----------------------
+
+[UFOP_XCT_AVENGER X2UFOpediaTemplate]
+DescriptionEntry="Having one singular, stationary headquarters for all of XCOM's resistance activities would be a death sentence, considering the almost omniscient surveillance systems ADVENT employs in their hunt for dissident resistance cells. Luckily, however, we were able to recover an abandonded alien supply vessel which, thanks to the work done by the late Dr. Raymond Shen, can serve as XCOM's mobile headquarters.\n\nPowered by a massive Elerium reactor by Dr. Tygan's laboratory, the Avenger has all the space XCOM requires and then some, though many rooms are filled with defunct alien machinery and supplies which will need to be cleared out by our engineers before they can be used. This is in addition to being extremely fast, nearly undetectable to alien scanners, and surprisingly comfortable compared to the conditions in many resistance havens.\n\nIt is, however, not a flying fortress by any means. The lack of external armaments on the Avenger make contact with alien vessels a necessary avoidance."
+
+[UFOP_XCT_RES_COMMS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Resistance Communications, and how we must expand."
+
+[UFOP_XCT_RES_RADIO X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Resistance Radio, and how it helps organize the resistance."
+
+[UFOP_XCT_SKULLJACK X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Skulljack, and how we can hack the Psionic Network by perforating their stupid heads."
+
+[UFOP_XCT_PCS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for PCS Chips, and how they can improve our soldiers."
+
+[UFOP_XCT_SPARKS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for SPARKS, Raymond Shen's last project."
+
+[UFOP_XCT_SHAD_CHAMBER X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Shadow Chamber Encryption, and how it proves useful to us in the battlefield."
+
+[UFOP_XCT_PSIONICS X2UFOpediaTemplate]
+DescriptionEntry="There is psionic energy which flows through the Earth, through all living things and connects each and every organism. Such is one of the first assumptions one makes as an adherent to the Ordo Templar. While we have come to observe this is the case through our own experiences, very few, we find, are imbued with the ability to actively project their own will through this energy. There are many ways to accomplish this, often rooted in the entry into altered states of consciousness through rigorous cycles of meditation and sensory deprivation. This process takes a considerable length of time to accomplish.\n\nYour predecessors, I am told, were attempting to bring forth latent psionic potential through this, the 'Lilley Method', as it were, named for the 20th-Century psychonaut who made the first serious forays into applied psionics. Candidates were given a cocktail of psychedelic substances, primarily derived from Psilocybin mushrooms and Ayahuasca's core ingredients, and essentially left in total sensory deprivation for hours at a time over a period of several days.\n\nIt is not an easy process, to be sure, but with the right guidance for the candidate, you can avoid most of the worst outcomes associated with such self-exploration. Hence why ancient peoples needed shamans and medicine men for their journeys into the depths of their mind, and why my people have developed such a strong canon of rituals and practices that foster positive self-exploration into the bioelectrical frontier. Granted, this is not quite what suits our needs in the short-term, for our war against the occupation. While it pains me to cut corners, as psionics is an art and a skill that requires considerable dedication, I understand that one must put aside faith and principle for pragmatic concerns in order to ensure that future generations will have the time to engage themselves as such.\n\nThus, the 'Gollop Method', a system that was built on the prototypes envisioned by one of the foremost researchers on the topic within the Old XCOM prior to Geist's Revelation. Unlike the Lilley Method, this is a process that supplements a much shorter period of sensory deprivation with the installation of mechanical augmentations into the nervous system. From there, there are varying levels of augmentation which one could take part in. Your movement generally seeks non-invasive procedures, and while usually I would suggest simply working within the constraints of the Lilley method, it is possible to bypass some of that by installing a psionic amplification device into the brain, not all that dissimilar to the control chips utilized by the ADVENT military.\n\nThe main use of the chip is to stimulate the Endocrine System and Pineal Gland in order to enhance the production of psi-Waves from the brain, which are then focused and transferred through the chip into an amplification device. The form and function of the device is irrelevant, so long as it has a medium for excited particles to take shape in with the help of additional wave emitters. For instance, you have in your possession the 'modular amplifiers', which relies on psi-waves in conjunction with an electrical field which is manipulated by the psion.\n\nWe Templars instead use devices which are, yes, a bit more invasive in comparison to your system, but accomplishes many of the same things your devices do in a different way. Whereas your amplifiers use electrical fields, we use what is commonly referred to as 'hard light', which you commonly see in the form of our holy blades. Unlike the modular amplifiers in XCOM, however, the direct link to the entire central nervous system allows our already-capable psions of not just accomplishing similar feats to your own, but grants them access to a greater reservoir of bioelectrical potential resulting in far more powerful manifestations.\n\nYou may have also noticed a series of one or more tubes which connect to the helmets our psions wear - this is linked to an air supply system that both filters out contaminants in the air, as well as providing a steady dose of psychoactive inhalants similar to what is used in the Lilley Method. The 'focus' that emerges as a result allows the psion to create a pool of psychokinetic potential energy which can thus be expended on techniques which grant them additional potency. Though, naturally, such a substance ought be reserved only for those who have trained with it in mind, as it may cause undue psychological stress onto the uninitiated.\n\nOf course, you have to remember that each device has to be built for the purpose it is meant to. This is how, in the case of your amplifiers, there is a bit of a tradeoff compared against our own sacred augmentations. That being, the modular amplifier has a wider range of applications simply by the virtue of it being intended for general use. Our gauntlets are specifically tools of battle, whereas your amplifiers can be picked up without need for extensive training and conditioning.\n\nIn a sense, I can see how that ethos could lead to a burst in creativity in what could be possible with psionics. Needless to say, I feel like your applications may be better suited to a world that comes after the occupation. For that, your program has my respect."
+
+; ------------------------
+; 8. PERSONS OF INTEREST
+; ------------------------
+
+[UFOP_POI_BRADFORD X2UFOpediaTemplate]
+DescriptionEntry="XCOM PERSONNEL LOG No. 001 - BRADFORD, JOHN\n\n[BEGIN TRANSCRIPT]\n\nYou want to know about me, huh? What's there to say. I was born in a world that stopped existing before the Aliens even showed up. Military family out in Kansas, real Norman Rockwell-type stuff. Football, family, barbecues, the works. Dad worked the missile base not too far away from the Air Force, back when they thought the Russians were gonna blow up the world. Came real close a couple times, apparently. Never minced words about it, even when I was a kid in the 80s. I had nightmares for years. He was kinda lost after that stopped being a threat after '91. His world ended, in a sense. The work just started drying up, the place was due to be decommissioned, and by the time I was out of high school, I had just enough smarts for Uncle Sam to decide I could join Army Intelligence.\n\nCall it a little bit of youthful rebellion, I went there instead of the USAF like the old man did. I know you probably don't remember them, but the branches all had that kind of rivalry. Real dumb stuff, if we're being honest. But that's how soldiers are, there's easy lines - us and them. Guess that's why fighting this war's been so damn hard...\n\n[Bradford is silent for several seconds]\n\nBut... here we are. I was just an NCO with the 116th in Fort Gordon when some aliens tried attacking Earth the first time around. This was way under wraps, I only barely knew something screwy was up because my group was Aerial Intel. Higher-ups knew most of the details, and I think that was the first place I heard the word 'XCOM' from somebody. Wasn't my job to know, I just kept watching the monitors and keeping my eyes up. Apparently was the only guy in the room who spotted a UFO headed in a beeline towards Atlanta. Moved everyone in my group fast enough that those old XCOM folks were able to intercept it and knock it down in the sea before it got over land. I wonder sometimes what would have happened if they didn't, if it would have made that war go hot like it did when me and the Commander were in charge.\n\nAnyways, I thought that whole deal was gonna get my ass in deep with the officers, but turned out, it was a hell of a move. They started shuffling me up the ranks a little faster, gave me some more training, and made me some kind of a 'special attache' to the old UN. The office that was dealing with outer space. I think you know where this is going. But, honestly it wasn't all that much of a job, not before '15. Had a few conversations with some troops who were shacked up on Mars of all places, but that was when they shut the place down when the economy took a nosedive and they were transferring everyone planetside again because they couldn't afford to keep up the secret launches while they had to bail out those damn banks. Still not sure if that was a mistake, what good would Cydonia have done anyways? Delay things for a couple weeks? A day or two? Five minutes?\n\n[Bradford once again gets silent.]\n\nThis is always the hard part to talk about. Not really anyone around who's seen this all play out from day zero like I did. Was at HQ before most of the staff even heard of XCOM, was just me and the Captain for a day or so. Then Vahlen and Shen rolled in, and we were non-stop. We had enough old-timers who dealt with aliens in the past around, they knew what we were in for. I still remember what one of the vets said, this big Mexican guy - 'take your worst nightmare, and double it. Then double it again. Then maybe you'll have an idea of what you'll be up against this time tomorrow.' I need to make something clear before we go on. We knew exactly what we were up against. Delta Team was supposed to be the guys who came back to verify our suspicions, our A-team. But then only half of them did. Every single damn op, for every step forward you take two back, they just keep coming and all the training and technology and preparation in the world and it - \n\n[Bradford goes into a long string of profanities that lacks any discernable substance. Section omitted for clarity. He leans over the table, letting out a number of heaving, distressed breaths and vocalizations before quickly composing himself, still clearly shaken.]\n\nI'm sorry. You just... you don't forget things like I've seen. You don't talk about it because you want to shove those memories, those names and faces, so far down into whatever hole you can that you just lose yourself in the process. I don't have room in my soul for hate, the liquor drowned that out over the years. I keep fighting because somebody has to. The past is never coming back, no matter how much it follows you. But there sure as hell ain't gonna be a future if I don't keep my eyes on the present.\n[END TRANSCRIPT]"
+
+[UFOP_POI_TYGAN X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for burger fan Tygan."
+
+[UFOP_POI_SHEN_L X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for honorable but pervy Lily."
+
+[UFOP_POI_COUNCIL_SPK X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Cinema Sins."
+
+[UFOP_POI_ADV_SPK X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Thin Man Garrus."
+
+[UFOP_POI_VOLK X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for try-hard Volk."
+
+[UFOP_POI_BETOS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for lame Betos."
+
+[UFOP_POI_GEIST X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for psycho Geist."
+
+[UFOP_POI_MOX X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for pathetic, weakling Mox."
+
+[UFOP_POI_DRAGUNOVA X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for crazy Elena."
+
+[UFOP_POI_KELLY X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[UFOP_POI_OSEI X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for good ol' Osei"
+
+[UFOP_POI_RAMIREZ X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for intense Ana Ramirez."
+
+[UFOP_POI_DENMOTHER X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Haven's Denmother character."
+
+; ------------------------
+; 9. GROUPS OF INTEREST
+; ------------------------
+
+[UFOP_GOI_XCOM3 X2UFOpediaTemplate]
+DescriptionEntry="From the writings of Jane Kelly:\n\nWhat is XCOM?\n\nYou are. I am. Everyone who sees the jackboot of ADVENT and the Elders, and when offered with comfortable compliance, says 'no', they are XCOM too. Yes, there is a wider Resistance movement across the world, and they have their own names, means, and goals. The thing is, they are XCOM as well, even if they say otherwise. We're more than an organization, more than an army, more than anyone at HQ. XCOM is an idea. If you need XCOM to be a well-oiled fighting force straight out of the Old-world movies? It can be that. Maybe you need it to be a shadow in the dark, only making its face known to make a message before vanishing into the night. It can do that too. Sometimes it just needs to be a rumor, a ghost of times gone that continues to inspire the revolutionary spirit. I'm sure you can fill in the blank there.\n\nWhy is that?\n\nBecause we're all of those, and none of them. We're Schrodinger's Cat, you don't know if we're around or not until you go looking. And what you find, well, it's different depending on what angle you see it from. And that's precisely the point. We're individuals, working together for a common cause - warriors, scientists, technicians, artists, provisioners, cooks, whatever. We can't afford to simply be one or the other, not when we're fighting for the continued survival of life on Earth for all we know.\n\nThe enemy is by definition obsessed with stability - they're a monolith. All their troopers look the same, and they hide their faces. Their cities are doing their damnedest to look the same too. They take the human imagination and probably all the other client species they dragged here, and shove it into as tiny a box as they can find. That's exactly why an idea like XCOM is impossible for this monster to eat up. It can't think creatively. It can't change its tactics. It's got a lot of weight to it, but it's slower and more cautious than a bus trying to drive through Derry in the 1970s.\n\nXCOM used to be like that too, and that's why we're in the mess we're in. They had all the resources you could ask for, the whole global economy at their back, and a limitless supply of the best-trained and smartest people the Old World could find. They put their bases in the most remote, secure places in the world. And they had the resources to shoot a UFO right out of the sky if they acted quick enough. They failed because they were playing by the rules of the invaders, of empires. Go and ask Central, I'm sure he'll say just about the same thing. You can have your pick of the litter of all mankind, but it doesn't count for much when you can't mobilize your people and change plans on a dime. That's why after HQ fell, what was left became something very different. He saw what the old XCOM was, and tossed aside what didn't work, focusing on what did.\n\nAnd what did work? People being allowed to be their best. Bring their wisdom and expertise, and put it into play as they knew how to do it. Nobody's going to tell you to show restraint here, nobody's breathing down your neck. You have to know in the field, in the heat of the moment, if or not to take the shot, to move out of cover, to put that poster on the wall of the petrol station. You owe it to your friends, your families, all the folks you care about and the ones you've never even seen, to be responsible for yourselves in and out of the field. Because nobody is gonna replace you if you drop. Someone else might get deployed in your place, sure, but we're individuals here, people working together. Not faceless, lifeless drones like the regime. Your experience, your skill, your know-how, it all matters in this fight. The idea of XCOM might be bulletproof, but it's only going to keep spreading around if there's folks like you and me to carry it with us. You are important. You matter. Every life saved, every death. It counts in this war for the soul of the Earth.\n\nVigilo Confido means \"I guard and I trust.\" We guard the Earth, but we have to guard ourselves, everyone around us, and what makes us who we are. We have to trust ourselves, each other, and the reason why we fight. We are not an organization. We are not an army. We are everyone, and we are no one at all. We are the eyes, and we are the shield. We are the resistance condensed into its rawest form. We are XCOM."
+
+[UFOP_GOI_ADV_GOVT X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the ADVENT Coalition."
+
+[UFOP_GOI_ADV_MIL X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the ADVENT Peacekeepers."
+
+[UFOP_GOI_RESISTANCE X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Resistance."
+
+[UFOP_GOI_REAPERS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Reapers."
+
+[UFOP_GOI_SKIRMISHERS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Skirmishers."
+
+[UFOP_GOI_TEMPLARS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Templars."
+
+[UFOP_GOI_ELDERS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for The Elders."
+
+[UFOP_GOI_BLACK_MARKET X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Black Market."
+
+; ----------------------------
+; 10. MISCELLANEOUS CONCEPTS
+; ----------------------------
+
+[UFOP_MISC_XCOM_PROPAGANDA X2UFOpediaTemplate]
+DescriptionEntry="While XCOM's agitprop effort to counter the ADVENT narrative about the past and present is not as well-heeled or widespread as ADVENT's constant barrage of psychological warfare tossed at the people of Earth, it doesn't need to be everywhere to be effective. Those who live outside of ADVENT control know them as nothing more than aggressive alien thugs, a new breed of the old scourge of authoritarian ideological fanaticism, an extension of the all-consuming death machine of pre-invasion hegemonic neoliberal capitalism, or a combination of all of the above. Those inside the cities aren't raised with that same level of critical thought or deep-seeded mistrust of authority, especially for those who were born not just after the invasion, but those without personal memory of the Chryssalid and Lost infestations of the early 2020s.\n\nAs a result, XCOM and its allies in the Resistance have to struggle against the epistemic inertia imposed by ADVENT - they have to provide stark, compelling, and provocative counters to break the hold on their minds. Like ADVENT's propaganda effort, it is a multi-dimensional one that happens from several angles, and unlike ADVENT, is much more actively tailored to fit the culture and conditions of people's lives as opposed to a uniform message spread globally from a single source.\n\nThe first and best example of the difference between propaganda used is that while ADVENT relies on sweeping, albeit uniform landscapes and the inundation of monolithic imagery among their media and even their uniforms, the wider resistance prefers to give their message a face. Even despite the obvious risk to the personal safety due to being an actual, identifiable person, it in itself is a dare to the supporters of the regime to 'find them.' They go from simply being a person within the Resistance to becoming a symbol unto themselves, an idea. And as an old-world piece of popular political literature put it, 'ideas are bulletproof'.\n\nConsider how XCOM and most of the Resistance at large does not have a true uniform for its personnel and fighting forces, and unlike conventional militaries, encourages personal relationships and an egalitarian means of arranging fireteams in recognition of these relationships. It provides an atmosphere that encourages those taking part in the movement to develop one's self as a person. As in the prevailing philosophy that lays of the foundation for the Resistance, this personal and interpersonal development inevitably leads to a stronger, more personal investment in the battlefield. Individual expression is not prohibited, but generally is only limited by the practical and material constraints of each given community within the Resistance. This in itself too is a dare to those within the ADVENT system to question the merits of their rigid social-political arrangement against the looser, more personalized world in which those outside of it take part in.\n\nLastly, consider how provocative imagery is used. A keen propagandist uses visceral, often upsetting imagery (i.e. the burning remains of a recently-attacked Haven, pictures taken in the battlefield, corpses of regime agents and even those being actively neutralized, or pictures of secret facilities or detention centers operated by the regime where some of the more unsavory activities are hidden away) serves a number of purposes. To the individual, it shows the capability of the soldier, showing the resistance member as inherently strong and personally responsible. They do not hide behind a uniform or a mask (unless it serves to enhance their personal expression), and also that the secret, most secure places ran by the regime are not as inaccessible as it is made out to be.\n\nIt is here that the main purpose of XCOM's propaganda effort lies - to show the cracks in the public perception and claims of ADVENT and encourage those who examine the propaganda to be able to make up their own mind, and to stir them to peeling back the veneer of a peaceful, prosperous society as opposed to accepting it as a given."
+
+[UFOP_MISC_ACHILDREN X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry explaining the dire situation XCOM finds itself, and being forced into recruiting just about any schmuck who can hold a gun."
+
+[UFOP_MISC_VAHLENS_WORK X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for how Vahlen fell from grace, breaking her hippocratic oath in the pursue of furthering her experiments."
+
+[UFOP_MISC_VK_NEST X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Operation: Regal Beast, in which we find the Viper King's Nest, and the ill-fated creations of Dr. Vahlen."
+
+[UFOP_MISC_SHEN_LOST_TOWER X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Shen's investigation on the distress signal, that takes her to her father's last project."
+
+[UFOP_MISC_SITREPS X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for Situation Reports, and how they can alter the conditions of the battlefield."
+
+; ----------------------
+; 11. RUMORS
+; ----------------------
+
+[UFOP_RMR_AVENGER_HEIST X2UFOpediaTemplate]
+DescriptionEntry="This will be the fully detailed entry for the Avenger Heist."
+
+
+; ===========================================================================
+; BASE WOTC GAME ENTRIES
+; ===========================================================================
+
+; -----------------------------------
+; HISTORY (BASE-GAME)
+; -----------------------------------
+
+[Propaganda X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[NetworkTower X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PublicRecord X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[XCOMrecord X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; ARMORY
+; -----------------------------------
+
+[Memorial X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[SoldierCustomization X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Recruitment X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[WeaponCustomization X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; BRIDGE
+; -----------------------------------
+
+[Geoscape X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Scanning X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[MissionSelection X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[AvatarProgress X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; COMMANDERS QUARTERS - EDITED CATEGORY
+; -----------------------------------
+
+[AvengerReport X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Objectives X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[ArchiveAccess X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; ENGINEERING
+; -----------------------------------
+
+[BuildingFacilities X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[BuildingItems X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Excavation X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[StaffingEngineers X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Inventory X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; FACILITY DATA
+; -----------------------------------
+
+[Workshop X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Laboratory X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[GTS X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PowerRelay X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[ShadowChamber X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[ProvingGround X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[ResistanceComms X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[DefenseMatrix X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PsiLab X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[AWC X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[ResistanceRing X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[TrainingCenter X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; GTS
+; -----------------------------------
+
+[CombatTactics X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[TrainingRookies X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; PERSONNEL FILES
+; -----------------------------------
+
+[PersonnelBradford X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PersonnelShenL X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PersonnelTygan X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PersonnelSpokesman X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PersonnelVahlen X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PersonnelShenR X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PersonnelVolk X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PersonnelBetos X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PersonnelGeist X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; RESISTANCE OPERATIONS
+; -----------------------------------
+
+[EstablishingContact X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[BuildingOutposts X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[ResistanceResearch X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[RadioRelays X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[GuerrillaOps X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; RESEARCH LAB
+; -----------------------------------
+
+[Autopsies X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[ConductingResearch X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[ScientistStaffing X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Breakthroughs X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Inspirations X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; STRATEGIC CONCEPTS
+; -----------------------------------
+
+[AlienArtifacts X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Promotions X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Staffing X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Resources X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[AvengerDefense X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PowerMangement X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Retaliation X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[BlackMarket X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[CouncilMissions X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[ContinentBonus X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Avenger X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[SoldierBonds X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[AbilityPoints X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[CombatIntelligence X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[SoldierWill X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; TACTICAL CONCEPTS
+; -----------------------------------
+
+[CarryingBodies X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Concealment X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[EVAC X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Loot X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Overwatch X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[VIPS X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[SITREPs X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[TheLost X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Grenadier X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Ranger X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Specialist X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Sharpshooter X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[PsiOperative X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[GREMLIN X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Reaper X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Skirmisher X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[Templar X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; RESISTANCE FACTIONS
+; -----------------------------------
+
+[FactionReapers X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[FactionSkirmishers X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[FactionTemplars X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[CovertActions X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[ResistanceOrders X2UFOpediaTemplate]
+DescriptionEntry=""
+
+; -----------------------------------
+; CHOSEN
+; -----------------------------------
+
+[ChosenAssassin X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[ChosenHunter X2UFOpediaTemplate]
+DescriptionEntry=""
+
+[ChosenWarlock X2UFOpediaTemplate]
+DescriptionEntry=""
+
+
+
+
