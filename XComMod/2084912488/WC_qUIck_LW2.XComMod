@@ -1,0 +1,5 @@
+﻿[mod]
+publishedFileId=0
+Title=WC_qUIck_LW2
+Description=Various UI components are enhanced to provide faster on-screen detection of gameplay features or contexts.
+RequiresXPACK=true

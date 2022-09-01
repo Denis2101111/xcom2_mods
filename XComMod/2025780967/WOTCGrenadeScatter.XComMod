@@ -1,0 +1,7 @@
+[mod]
+publishedFileId=0
+Title=WOTCGrenadeScatter
+Description=Makes grenades no longer pin-point accurate.
+
+tags= War Of The Chosen, Gameplay, Scatter
+RequiresXPACK=true

@@ -1,0 +1,7 @@
+﻿[mod]
+publishedFileId=1733477929
+Title=WOTCFirstAid
+Description=Adds a First Aid ability which can be used to extend the bleedout timer of a fellow soldier.
+
+tags= war of the chosen, gameplay
+RequiresXPACK=true

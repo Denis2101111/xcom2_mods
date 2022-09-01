@@ -1,0 +1,9 @@
+[mod]
+publishedFileId=0
+Title=AIActivations
+Description=Uses incoming alert data to activate two AI pods or groups on different teams that are outside the vision of XCom.  In Vanilla XCom this only can happen if both groups or pods are within vision of an XCom soldier.  The activations can come from sight, taking fire, or taking damage.
+RequiresXPACK=true
+tags= Gameplay, War of the Chosen
+contentImage=
+
+

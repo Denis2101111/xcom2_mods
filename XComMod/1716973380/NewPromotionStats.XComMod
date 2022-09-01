@@ -1,0 +1,5 @@
+﻿[mod]
+publishedFileId=1716973380
+Title=NewPromotionStats
+Description=Shows soldier stats on new promotion screen
+RequiresXPACK=true

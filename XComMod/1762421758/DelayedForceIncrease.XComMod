@@ -1,0 +1,10 @@
+﻿[mod]
+publishedFileId=0
+Title=Delayed Force Increase
+Description=Delays the increase in ADVENT's Force Level.
+
+Rookie = 15 days +/- 1 day variance
+Veteran = 15 days +/- 1 day variance
+Commander = 15 days +/- 1 day variance
+Legendary = 22 days +/- 1 day variance
+RequiresXPACK=true

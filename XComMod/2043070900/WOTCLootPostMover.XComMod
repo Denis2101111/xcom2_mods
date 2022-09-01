@@ -1,0 +1,5 @@
+﻿[mod]
+publishedFileId=2043070900
+Title=WOTCLootPostMover
+Description=The aim of this mod is to split the loot drop posts from the center of the drop zone to the fore and aft edges, so that should you get a Psi/Focus Loot in the same spot as a Vulture/Timed Loot, both are easily visable.
+RequiresXPACK=true

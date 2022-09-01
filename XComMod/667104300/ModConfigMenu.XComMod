@@ -1,0 +1,7 @@
+﻿[mod]
+publishedFileId=667104300
+Title=Mod Config Menu
+Description=This mod (MCM) is an optional prerequisite for certain mods that enable in-game config options.
+
+For full details on using this mod, troubleshooting, or even building your own mods to use this menu, visit: https://github.com/andrewgu/ModConfigMenu
+RequiresXPACK=true

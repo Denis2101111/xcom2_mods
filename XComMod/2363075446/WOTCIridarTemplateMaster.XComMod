@@ -1,0 +1,7 @@
+[mod]
+publishedFileId=0
+Title=WOTCIridarTemplateMaster
+Description=A tool for creating and modifying templates.
+
+tags= war of the chosen, template master
+RequiresXPACK=true

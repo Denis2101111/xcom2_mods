@@ -1,0 +1,16 @@
+﻿[mod]
+publishedFileId=2094355561
+Title=Chimera Squad Ability Icons
+Description=Chimera Squad has a pile of cool new icons that'd be great for abilities - except for the problem that they're set up all wrong for how XCom 2 uses them.
+
+specifically, Chimera Squad are 64x64 white icons on transparent backgrounds.
+XCom 2 uses 32x32 transparent cutouts on black background.
+
+This pack contains 276 icons that have been converted so they can be used for XCom2 abilities.
+
+The process isn't difficult, but it does become time consuming in large quantities. Other modders are welcome to reuse the icons (or leverage this as a requirement), provided credit is given for the conversion work.
+
+The exact same UPK is present in Mitzruti Perk Pack, so if you're already using that you won't also need this.
+
+tags= war of the chosen, ui
+RequiresXPACK=true

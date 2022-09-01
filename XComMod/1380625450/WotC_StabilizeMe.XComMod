@@ -1,0 +1,5 @@
+﻿[mod]
+publishedFileId=1380625450
+Title=WotC_StabilizeMe
+Description=Allows stabilization of a soldier that's bleeding out by any other soldier, provided that the soldier that's bleeding out has a Medkit.
+RequiresXPACK=true

@@ -1,0 +1,7 @@
+﻿[mod]
+publishedFileId=2483377808
+Title=1EX_ArmorDamage
+Description=This small mod changes the mechanics of armor granted HP and wounds so that damage taken doesn't incur wound times when it's below that of HP granted by armor or vests, as it was in XCOM EU.
+
+tags= war of the chosen, gameplay
+RequiresXPACK=true

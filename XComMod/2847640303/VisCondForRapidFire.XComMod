@@ -1,0 +1,7 @@
+﻿[mod]
+publishedFileId=2847640303
+Title=Vis Cond For Rapid Fire
+Description=Adds a visibility condition to RapidFire2 to help with lag in high-population maps.
+
+tags= war of the chosen, this is a bandaid solution
+RequiresXPACK=true

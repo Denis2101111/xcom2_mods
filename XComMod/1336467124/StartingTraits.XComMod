@@ -1,0 +1,5 @@
+﻿[mod]
+publishedFileId=1336467124
+Title=Starting Traits
+Description=Soldiers now have a chance of spawning with already active traits.
+RequiresXPACK=true

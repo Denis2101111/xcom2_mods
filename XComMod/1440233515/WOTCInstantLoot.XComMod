@@ -1,0 +1,6 @@
+﻿[mod]
+publishedFileId=1440233515
+Title=WOTCInstantLoot
+Description=Removes popup and animations on loot pick ups.
+RequiresXPACK=true
+tags= ui, wotc, war of the chosen

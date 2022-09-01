@@ -1,0 +1,5 @@
+﻿[mod]
+publishedFileId=2011007357
+Title=CooldownBondmateAbilities
+Description=The Teamwork ability now operates on a cooldown.
+RequiresXPACK=true

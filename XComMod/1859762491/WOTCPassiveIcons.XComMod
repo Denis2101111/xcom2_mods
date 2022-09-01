@@ -1,0 +1,43 @@
+﻿[mod]
+publishedFileId=1859762491
+Title=WOTC Passive Icons
+Description=This is a cannibilized version of ADVENT Avengers Ability Tweaks mod, taking just the Passive Vest/Item Icons code. Made with permission.
+
+Includes icons for;
+Stasis Vest, Hellweave Vest, Hazmat Vest, Passive Wall Phasing, Mindshield, Medikits, NanoMedikits, SkullMine, Low Visibility, Melee Resistance, Sustaining Sphere
+
+Includes icons for 'popular' mods, should functionally be no different than the mod item.. however in a few places I added a thematically appropriate immunity;
+ADVENT Drones Anti-Stun Vest, Flame Viper Vest, Bio Division Vests, CX Frost Vest, CX Wraith vest, Advanced Mindshield, BioMedikits, Refraction Field, Metal over Flesh Shields, Holy Warrior Colour Override
+
+For the mod added item icons I did not seek permission from the original mod creators, if any mod creator wishes for me to remove a passive icon for your item please let me know.
+
+On a similar note if anyone has a mod added item that grants a passive ability/immunity that does not have an icon, please let me know and I'll try to add one in.
+
+[b]Bonus[/b]; Changes Hellweave to deal fire damage and exposes the damage values in the .ini. By Default it does 4-5 fire damage, 1 less to any enemy with armour. 
+This can be completely disabled in the config by setting bPI_DAMAGECHANGE_HELLWEAVE to false.
+
+[b][i]Compatibility[/i][/b]
+Includes config options to turn off any icon/code changes, this can be helpful if you use a mod that also adds icons to avoid getting duplicates. (Such as ADVENT Avengers Ability Tweaks).
+Should work fine mid campaign, but maybe not mid-tactical.
+
+[b]Based on ADVENT Avengers Ability Tweaks/ Passive Icons Mods found here;[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=1133528728 WOTC Ability Tweaks
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=703302332 Vanilla Medikit Icons
+https://steamcommunity.com/sharedfiles/filedetails/?id=693520794 Vanilla Vest Icons
+https://steamcommunity.com/sharedfiles/filedetails/?id=860681435 Vanilla LW2 Icons
+
+[b]Modded vest/items sources;[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=1564970426 ADVENT Drones
+https://steamcommunity.com/sharedfiles/filedetails/?id=1160638944 Flame Viper
+https://steamcommunity.com/sharedfiles/filedetails/?id=1731235406 Bio Division 2.0
+https://steamcommunity.com/sharedfiles/filedetails/?id=1309465679 Psi Ops
+https://steamcommunity.com/sharedfiles/filedetails/?id=1750763930 Spectre Revamp
+https://steamcommunity.com/sharedfiles/filedetails/?id=1125117203 Metal Over Flesh
+https://steamcommunity.com/sharedfiles/filedetails/?id=1125183947 Archons
+https://steamcommunity.com/sharedfiles/filedetails/?id=1347419249 Children of the King
+
+~ Enjoy
+
+tags= War Of The Chosen, ui, gameplay
+RequiresXPACK=true

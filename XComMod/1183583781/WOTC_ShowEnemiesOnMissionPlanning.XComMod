@@ -1,0 +1,91 @@
+﻿[mod]
+publishedFileId=1183583781
+Title=WOTC_ShowEnemiesOnMissionPlanning
+Description=[h1][b]WOTC Show Enemies and Terrain on Mission Planning[/b][/h1]
+
+[b]--------------------------Quick note about updating enemy groups and icons--------------------------[/b]
+I think I've set up most of enemy groups added by main enemies mods around.
+I won't be adding them endlessly for each new mod out there, so if you REALLY want that new mod enemy to have its Icon, or to have an already present Icon, please tell mod Author to contact me and send me its 'Character Group Name'
+[b]--------------------------Quick note about updating enemy groups and icons--------------------------[/b]
+
+
+[h1][b]MOD DESCRIPTION[/b][/h1]
+[list]
+[*]This mod shows the enemy types and quantity that have been detected by the Shadow Chamber in the Mission Planning screen.
+It saves you from having to remember it or to go back to the Geo screen to examine the expected enemies.
+It will only show the information if you have the Shadow Chamber constructed - But you can also choose to show enemies without Shadow Chamber in MCM Otptions!
+
+[*]You can also choose to display Chosen if detected by enabling it in MCM Options. I assume this also shows the Rulers, but I still haven't had the time to test it ingame.
+
+[*]You can also display Enemy Icons (toggable in MCM)
+Actual Enemy Icon will show only if you already met this enemy, otherwise it will display an undiscovered Icon. 
+You also get a ToolTip Text when hovering the mouse over the Icon List, so no need to display the Enemies List!
+[*]You can display the terrain information about mission to come in MCM Options.
+
+Terrain information is divided into Plot Type and Biome Type.
+The Plot type is the location where you're going to, and the Biome Type is related to the kind of vegetation you will encounter, so there are Plot Types that do not have any suitable Biome Type (for example Sewers)
+[/list]
+
+[h1][b]TEXT OPTIONS[/b][/h1]
+[list]
+[*]You can toggle Enemies List ON/OFF in MCM Options.
+[*]You can display Estimated Time of Arrival on Mission Site, so you know if Mission's gonna be at night or day.
+[*]Plot Text / Biome Text / Time are toggable in MCM.
+[*]Text Color can be set in MCM.
+[*]Anchor for Enemy List is settable in MCM Options (can be TopLeft or TopRight), position is determined in function of selected Anchor
+[/list]
+
+[h1][b]PANELS OPTIONS[/b][/h1]
+[list]
+[*]You can display panels under text in MCM Options.
+[*]Panels get 3 Types (Simple / Panel / Faded) settable in MCM Options.
+[*]Panles size now depends on Icon Size, and text size is fixed
+[/list]
+
+[h1][b]ICON DISPLAY COMPATIBILTY[/b][/h1]
+[list]
+[*]Enemies Icons Display Compatible with ABA / ABC+ and other mods that add Enemies using game's base Group Name
+[*]Compatible with ADVENT Warlock / Flame Viper
+[*]Compatible with World War L
+[*]Compatible with all Bio Mods
+[*]Compatible with Celatids Mod
+[*]Compatible with MOCX Initiative
+[*]Compatible with Valentine's Viper
+[*]Compatible with Shadow79's Archons
+[*]Compatible with ADVENT SNiper
+[*]Compatible with ADVENT Pathfinder
+[*]NOT compatible with other mod adding custom Enemy Group Name, so an error message will appear instead of an Icon
+[/list]
+
+[h1][b]GENERAL COMPATIBILTY[/b][/h1]
+[list]
+[*]This mod is compatible with other mods that use UIScreenListener to affect the UISquadSelect screen (like ShowMeTheSkills) as well as mods that extend UISquadSelect directly (like LWS Toolbox or Robojumper's Squad Select).
+[/list]
+
+[h1][b]LOCALIZATION[/b][/h1]
+
+Localization files are located here:
+SteamLibrary\SteamApps\workshop\content\268500\1183583781\Localization
+
+There you can modifiy the values to match your language.
+Note for translators: You can wether link your modified loc file so I can download them, or copy/paste the content of modified loc file into steam commentary section, linked topic Localization.
+Thank you.
+
+
+[h1][b]CREDITS[/b][/h1]
+[list]
+[*]Thanks to original Mod Creator: AlexF
+[*]Thanks to Robojumper's for his advice to set bAnimateOnInit=False, so the display is now immediate.
+[*]Huge thanks to Zyxpsilon for his time and explanations on how to treat images to be displayed on the UI, and icons of his courtesy :-)
+Thanks to him, you can now choose to display Plot/Biome Text only, Plot/Biome Icon only, or both of them!
+He also provided all Icons used to display Enemies Icons!
+[/list]
+
+[h1][b]My Other Mods[/b][/h1]
+[list]
+[*]In conjuction wtih Mr .Nice, [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1183444470]WOTC - Extended Information![/url], an enhanced, rewritten version of Perfect Information. Includes full list of enemy abilities as well as a stat list, as well as the classic features of the "shot bar" and stats in flyovers.
+[*]In conjuction wtih Zyxpsilon, [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1200482815]WC_PhotoReBooth[/url], a nice Mod to allow for cooler posters, Custom Solo/Duo/Squad flavour Lines with Icons!
+[/list]
+
+Mod ID = 1183583781
+RequiresXPACK=true

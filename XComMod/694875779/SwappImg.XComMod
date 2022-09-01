@@ -1,0 +1,4 @@
+﻿[mod]
+publishedFileId=694875779
+Title=SwappImg
+Description=Allows some indirect "TexMod" capabilities via MC-Hooks defined by pathing Extension(s) declared in any given external UIListener(s) Script

@@ -1,0 +1,7 @@
+﻿[mod]
+publishedFileId=0
+Title=WOTCNoReactionFireSlomo
+Description=Removes cinematic slow motion during reaction fire shots.
+
+tags= war of the chosen
+RequiresXPACK=true

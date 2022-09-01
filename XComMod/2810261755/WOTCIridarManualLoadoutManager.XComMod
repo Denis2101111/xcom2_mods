@@ -1,0 +1,5 @@
+[mod]
+publishedFileId=0
+Title=WOTCIridarManualLoadoutManager
+Description=Allows to save and load equipment combinations (loadouts) for soldiers.
+RequiresXPACK=true

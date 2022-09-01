@@ -1,0 +1,5 @@
+[mod]
+publishedFileId=0
+Title=WOTCIridarTemplarParryRework
+Description=Reworks Templars' Parry ability so it creates a persistent psionic shield.
+RequiresXPACK=true

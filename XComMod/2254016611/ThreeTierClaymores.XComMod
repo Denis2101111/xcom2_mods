@@ -1,0 +1,7 @@
+﻿[mod]
+publishedFileId=2254016611
+Title=Three Tier Claymores
+Description=Splits the claymore into three tiers, so thier effectiveness scales in the same manner as regular weapons.
+
+tags= war of the chosen, weapon
+RequiresXPACK=true

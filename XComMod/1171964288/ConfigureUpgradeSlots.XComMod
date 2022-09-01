@@ -1,0 +1,7 @@
+﻿[mod]
+publishedFileId=1171964288
+Title=Configure Upgrade Slots
+Description=Lets you configure upgrade slots for all weapons (Including DLC and XPACK weapons)
+
+tags= weapon, item, war of the chosen, upgrade slots
+RequiresXPACK=true

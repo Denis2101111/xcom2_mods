@@ -1,0 +1,18 @@
+﻿[mod]
+publishedFileId=1561030099
+Title=Mitzruti Perk Pack
+Description=Contains all the perks I've built. Combination of things built on vanilla perks, ports of grimy's perks and some new ones using what I've learned from other perkwork.
+
+50ish Grimy Perks to support porting his 4 very cool classes.
+A pile of psionic powers built by cloning vanilla abilities and tweaking them.
+passives that add status effects when suppressing enemies.
+and other various abilities.
+
+Full list is in the conviently named PerkList.txt
+
+I do intend to add more, eventually.
+
+GrimyBunyip is the original author of the Grimy perks. there are also a few effects using modified code from other modders.
+
+tags= war of the chosen, perks, gene mod
+RequiresXPACK=true

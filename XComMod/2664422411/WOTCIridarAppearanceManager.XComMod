@@ -1,0 +1,5 @@
+[mod]
+publishedFileId=0
+Title=WOTCIridarAppearanceManager
+Description=Expands Character Pool functionality. Allows copying entire or partial unit appearance. Integrated Uniform Manager.
+RequiresXPACK=true

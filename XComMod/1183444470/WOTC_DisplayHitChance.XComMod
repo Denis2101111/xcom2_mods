@@ -1,0 +1,83 @@
+﻿[mod]
+publishedFileId=1183444470
+Title=WOTC_DisplayHitChance
+Description=[h1][b]WOTC - Extended Information![/b][/h1]
+
+[b]After a lot of work, we are happy to bring you a WOTC enhanced and rewritten version of Perfect Information![/b]
+
+So, the aim of this mod is to provide you with the maximum details and information about what's happening on the battlefield.
+
+[h1][b]FEATURES[/b][/h1]
+
+[b]General[/b]
+[list]
+[*]Aim Assist display everywhere
+[*]Show Miss Chance instead of Hit Chance everywhere
+[/list]
+[b]Flyovers[/b]
+[list]
+[*]Display Hit/Crit/Dodge Chances in Damages Flyovers during Battle (works with all types of direct damages)
+[*]HitChance is now displayed in Flyovers for non-damaging Abilities like Mind Control, Mind Spin and Mind Scorch!
+[/list]
+[b]ShotBar[/b]
+[list]
+[*]Display Grimy Shotbar
+[/list]
+[b]ShotHUD[/b]
+[list]
+[*]Display Graze Chances and Crit Damage
+[*]Preview Minimum Damage in TacticalUI when aiming at an enemy
+[*]Preview Hacking in TacticalShotHUD when aiming at Haywire-able Enemy, or Hackable Objective/Item*Configurable by MCM
+[/list]
+[b]ShotWings[/b]
+[list]
+[*]Crit Damages Details in Right Wing and Damages Bonus Details in Left Wing
+[/list]
+[b]Tooltips[/b]
+[list]
+[*]Reworked Soldier Info Stats List Tooltip shows when hovering mouse over Soldier Name
+[*]Reworked Soldier Buffs / Debuffs Tooltip shows when hovering mouse over Soldier Buff/Debuff
+[*]New Enemy Stats / Abilities / Buffs / Debuffs Tooltip shows when hovering mouse over enemy HUD Icon (little Heads over tactical HUD when enemy is in line of sight)
+[*]Reworked Weapon Tooltip shows when hovering mouse over Weapon Icon
+[*]Reworked Ability Tooltip shows when hovering mouse over Ability Icon
+[/list]
+
+[h1][b]LOCALIZATION[/b][/h1]
+
+We also added localization integration, so you can translate the little damage Strings into your language.
+Feel free to do so.
+You can find those files under <Steam install>\SteamApps\workshop\content\268500\1183444470\Localization.
+
+[h1][b]LIMITATIONS & CONFLICTS[/b][/h1]
+
+[b]***!!! Please Unsubscribe from these mods as they will conflict each others !!!***[/b]
+[list]
+[*]Perfect Information
+[*]Tactical HUD Shot Bar
+[/list]
+[b]***!!! Please Unsubscribe from these mods as they will conflict each others !!!***[/b]
+
+[h1][b]OVERRIDES[/b][/h1]
+[list]
+[*]X2Action_ApplyWeaponDamageToUnit
+[*]UITacticalHUD_ShotHUD
+[*]UITacticalHUD_ShotWings
+[*]UITacticalHUD_Tooltips
+[*]UITacticalHUD_Enemies
+[/list]
+
+[h1][b]My Other Mods[/b][/h1]
+[list]
+[*][url=http://steamcommunity.com/sharedfiles/filedetails/?id=1183583781]WOTC - Show Enemies and Terrain on Mission Planning[/url], an enhanced, rewritten version of Vanilla 'Show Enemies on Mission Planning, featuring new Icons display, Tooltip containing Enemy List when hovering Icons, Terrain information (Plot/Biome)
+[*]In conjuction wtih Zyxpsilon, [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1200482815]WC_PhotoReBooth[/url], a nice Mod to allow for cooler posters, Custom Solo/Duo/Squad flavour Lines with Icons!
+[/list]
+
+[h1][b]CREDITS[/b][/h1]
+[list]
+[*]Credits to original author Andy_Bell101 for Damage Display.
+[*]Credits to Grimy and TJnome for Perfect Information.
+[*]Credits to Rilne for the port of GrimyShotbar to WoTC.
+[*]Credits to Robojumper and InternetExploder for having helped us out.
+[*]Credits to Zyxpsilon for having provided damage Icon in flyover.
+[/list]
+RequiresXPACK=true

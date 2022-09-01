@@ -1,0 +1,7 @@
+﻿[mod]
+publishedFileId=1513282047
+Title=WOTCAutopistolRebalance
+Description=Changes Autopistols to deal slightly more damage, but have negative armor penetration.
+
+tags= war of the chosen, weapon, gameplay
+RequiresXPACK=true

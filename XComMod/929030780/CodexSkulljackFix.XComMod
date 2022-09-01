@@ -1,0 +1,5 @@
+﻿[mod]
+publishedFileId=929030780
+Title=Codex Skulljack Fix
+Description=Fixes the condition for plot skulljacks so they work on mod versions of Codices.
+tags= bugfix

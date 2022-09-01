@@ -1,0 +1,18 @@
+[mod]
+publishedFileId=1281427768
+Title=UI Modification WOTC
+Description=Mods the UI to show some useful (at least to me) information.
+
+- If you have equipment or an ability that boosts or penalizes your (normally hidden) Defense stat, it will appear. This also shows the Defense stat for SPARKs.
+- If you're using a katana or other secondary weapon that grants a mobility bonus, you will see the mobility bonus.
+- If you're using a mod that lets other classes carry a Psi Amp, you'll see a Psi stat even if you aren't a Psi Op.
+
+Also, if you're using a melee weapon from a mod and getting a false +20 or so aim bonus and it doesn't seem like the modder is going to fix it properly, you can set HideAimBonusesFromSwords to true in XComUIModification.ini and it will go away.
+
+Important notes:
+- This mod overrides UISoldierHeader so will probably break if something else does also.
+- I don't have wotc but from what I have been told it is compatible.
+RequiresXPACK=true
+tags=ui,qol
+contentImage=
+

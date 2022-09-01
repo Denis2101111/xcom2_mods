@@ -1,0 +1,5 @@
+﻿[mod]
+publishedFileId=2251956528
+Title=WOTC_AugmentsStatusDisplay
+Description=Changes the display readout in the barracks for someone that needs an augmentation
+RequiresXPACK=true
