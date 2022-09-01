@@ -1089,11 +1089,11 @@ Summary=" With a better understanding of the aliens' use of plasma, comes a bett
 ===AMods===
 
 [PlatedAModMFG X2TechTemplate]
-DisplayName="Plated Armor Mod Изготовление"
+DisplayName="Мод на покрытие брони Изготовление"
 Summary="With the recent completion of research on Plated Armor, a variety of new armor concepts are now available. One of these options is to try our hand at an Armor Modification that takes advantage of the materials and technology we have recently developed. This project will produce one random Plated AMod."
 
 [PoweredAModMFG X2TechTemplate]
-DisplayName="Powered Armor Mod Изготовление"
+DisplayName="Покрытие силовой брони Изготовление"
 Summary="Our advances in personal armor technology have brought us far, and we now have the option of incorporating powered systems in our designs. We recommend attempting the manufacture of a powered Armor Modification. This project will produce one random Powered AMod."
 
 [TranquilityGenMFG X2TechTemplate]

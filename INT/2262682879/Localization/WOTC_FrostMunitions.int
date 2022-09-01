@@ -1,0 +1,7 @@
+[X2Effect_Chilled]
+ChilledTitle="Chilled"
+ChilledFriendlyName="Chilled"
+ChilledFriendlyDesc="Suffering movement and dodge penalties."
+ChilledEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is chilled."
+ChilledEffectTickedString="<XGParam:StrValue0/!UnitName/> is still chilled."
+ChilledEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer chilled."
