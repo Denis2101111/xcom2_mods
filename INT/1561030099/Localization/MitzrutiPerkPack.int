@@ -172,6 +172,19 @@ BloodCurseEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is cursed."
 BloodCurseEffectTickedString="<XGParam:StrValue0/!UnitName/> is still cursed."
 BloodCurseEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer cursed."
 
+[MZ_Effect_Provoke]
+EffectFriendlyName="Provoked"
+EffectLostFriendlyName="Provoke Removed"
+EffectFriendlyDesc="Provoked! This unit is focused on a single target."
+EffectFailedFriendlyName="Provocation resisted."
+EffectAcquiredString="<XGParam:StrValue0/!UnitName/> is provoked."
+EffectTickedString="<XGParam:StrValue0/!UnitName/> is still provoked."
+EffectLostString="<XGParam:StrValue0/!UnitName/> is no longer provoked."
+
 [MZ_Effect_Zombify]
 ZombifyEffectName="Zombified"
 ZombifyEffectDesc="Vulnerable to effects that would normally only work on undead targets."
+
+[MZ_StrategyElement_MZAuxSlot]
+AuxSlotDisplayName="Specialty"
+AuxSlotDisplayLetter="S"

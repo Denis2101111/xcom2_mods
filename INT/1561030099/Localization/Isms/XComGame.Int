@@ -24,7 +24,7 @@ LocPromotionPopupText="<Bullet/> 2 Round Cooldown <br/><Bullet/> Cost no ammo <b
 [IsmsRogueSap X2AbilityTemplate]
 LocFriendlyName="Sap"
 LocLongDescription="Fire a concussive blast with your pistol for a chance to stun. Retain Stealth. Costs two charges. "
-LocHelpText="Has a chance to disorient or stun the enemy. Scales with level. Enemies with high wills can resist. Retains stealth."
+LocHelpText="Has a chance to disorient or stun the enemy. Scales with level. Enemies with high wills can resist. Retains stealth, but costs two charges."
 LocFlyOverText="Sap" 
 LocPromotionPopupText="<Bullet/> 2 Round Cooldown <br/><Bullet/> Cost no ammo <br/><Bullet/>  Shares charges with Concussive Shot <br/><Bullet/> Bigger brains are harder to rattle... <br/><Bullet/> "
 

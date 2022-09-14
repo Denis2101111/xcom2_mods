@@ -1,2 +1,13 @@
 [X2Item_AdvWarlockUtilityItems]
 ZombieDamageBonusLabel = "BONUS ZOMBIE DAMAGE"
+
+[X2Ability_AdvWarlock]
+AshRisen = "Risen"
+
+[X2StatusEffects_AshAdvWarlock]
+locAshBurnTheWitchFriendlyName="Burn the Witch"
+locAshBurnTheWitchFriendlyDesc= "<bullet/>Units engulfed by the psionic conflagration suffer damage each turn."
+locAshBurnTheWitchRemovedName="The psionic conflagration has died down."
+locAshBurnTheWitchAcquiredString="<XGParam:StrValue0/!UnitName/> is engulfed in a psionic conflagration."
+locAshBurnTheWitchTickedString="<XGParam:StrValue0/!UnitName/> is still engulfed."
+locAshBurnTheWitchRemovedString="<XGParam:StrValue0/!UnitName/> is no longer engulfed."
