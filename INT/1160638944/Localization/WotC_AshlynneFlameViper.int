@@ -1,0 +1,7 @@
+[X2Ability_AshFlameViper]
+
+locAshSeethingAquiredFlyOverText = "Seething"
+locAshSeethingRemovedFlyOverText = "Seething Faded"
+locAshSeethingBannerTitle = "Seething"
+locAshSeethingAcquiredBannerString = "<XGParam:StrValue0/!UnitName/> enters a Seething rage."
+locAshSeethingRemovedBannerString = "<XGParam:StrValue0/!UnitName/> is no longer Seething."
