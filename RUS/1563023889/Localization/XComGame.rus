@@ -1,0 +1,129 @@
+[CorpseMutonElite X2ItemTemplate]
+FriendlyName="Muton Elite Corpse"
+FriendlyNamePlural="Muton Elite Corpses"
+BriefSummary="Hidden beneath their battle armor, intricate tattoos and ritualized scarring make clear the Muton's continuing dedication to their tribal hierarchy." 
+
+[MutonElite X2CharacterTemplate]
+strCharacterName="Muton Elite"
+strAcquiredText="Muton Elite carry a personal shield generator." 
+
+
+[MutonElite_PersonalShield X2AbilityTemplate]
+LocFriendlyName="Personal Shield"
+LocFlyOverText="Personal Shieldgenerator"
+LocHelpText="Grants 4 points of ablative armor."
+LocLongDescription="Grants 4 points of ablative armor."
+LocPromotionPopupText="<Bullet/> Grants 4 points of ablative armor.<br/><Bullet/> Uses one action; does not end turn.<br/>"
+
+[PersonalShield_Xcom X2AbilityTemplate]
+LocFriendlyName="Personal Shield"
+LocFlyOverText="Personal Shield Generator"
+LocHelpText="Grants 3 points of ablative armor."
+LocLongDescription="Grants 3 points of ablative armor."
+LocPromotionPopupText="<Bullet/> Grants 3 points of ablative armor.<br/><Bullet/> It is a free action.<br/>"
+
+
+[MutonElite_WPN X2WeaponTemplate]
+FriendlyName="Muton Elite Cannon"
+FriendlyNamePlural="Muton Elite Cannons"
+BriefSummary="Muton Elite came up with a cannon of their own."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/>"
+
+[MutonEliteGrenade X2CharacterTemplate]
+FriendlyName="Muton Elite Grenade"
+FriendlyNamePlural="Muton Elite Grenades"
+BriefSummary="Muton Elite came up with a hand grenade of their own."
+TacticalText="<Bullet/> Throwing a grenade does not ends the soldier's turn.\n<Bullet/>"
+
+
+[MutonElite_MeleeAttack X2WeaponTemplate]
+FriendlyName="Muton Elite Bayonet"
+FriendlyNamePlural="Muton Elite Bayonets"
+BriefSummary="Muton Elite came up with a bayonet of their own."
+TacticalText="<Bullet/> Using thebayonet always ends the soldier's turn.\n<Bullet/>"
+
+[PersonalShield_Xcom X2EquipmentTemplate]
+FriendlyName="Personal shield Vest"
+FriendlyNamePlural="Personal shield Vest"
+BriefSummary="By reinforcing the Nanoscale Vest with the muton elite materials, soldiers gain an additional health boost and the ability to gain a bonus of ablative armor for one turn."
+TacticalText="<Bullet/> Grants 3 points of ablative armor.<br/><Bullet/> It is a free action.<br/><Bullet/> Only last 1 turn.<br/><Bullet/> Start with 2 charges.<br/>"
+
+[AutopsyMutonElite X2TechTemplate]
+DisplayName="Muton Elite Autopsy"
+Summary="This behemoth is different enough from other Mutons that it merits a specific investigation."
+CodeName="Bluton"
+LongDescription="Central Officer Bradford has indicated that X-COM had intelligence reports of an elite form of muton that served as a guardian to the Elders. This creature appears to be that form. The genetic enhancements extend into the creature's brain, suggesting it is more able to recognize complex patterns and process information quickly in combat situations. R. Tygan."
+AlertString="Muton"
+
+[ViperElite X2CharacterTemplate]
+strCharacterName="Viper Elite"
+strAcquiredText="Viper Elite" 
+
+[PoisonSpitElite X2AbilityTemplate]
+LocFriendlyName="Poison Spit"
+LocLongDescription="A Viper can project a blast of venom at long range that explodes into a toxic cloud that disorients."
+LocHelpText="Spit deadly poison at an area."
+LocFlyOverText="Poison Spit"
+
+[BlackSplitGlob X2GrenadeTemplate]
+FriendlyName="Poison Spit"
+FriendlyNamePlural="Poison Spit"
+BriefSummary="A Viper can project a blast of venom at long range that explodes into a toxic cloud that disorients."
+TacticalText="<Bullet/> Spit deadly poison at an area."
+
+[ViperElite_WPN X2WeaponTemplate]
+FriendlyName="Beam Rifle"
+FriendlyNamePlural="Beam Rifles"
+BriefSummary="XCOM has managed to salvage a variety of standard infantry small arms; this is the most common variety, similar to the rifle used twenty years before. While decidedly inferior to ADVENT magnetic technology, it can at least be upgraded using additional weapons salvage, once a standard technical approach is discovered."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn\n<Bullet/> If the soldier fires with both actions available, three shots will be taken at reduced accuracy, but overall increased efficiency\n<Bullet/> Use upgrades looted from enemies to improve assault rifle tactical effectiveness."
+
+[Viper_Tongue_Elite_WPN X2WeaponTemplate]
+FriendlyName="Viper Tongue"
+FriendlyNamePlural="Viper Tongues"
+BriefSummary="XCOM has managed to salvage a variety of standard infantry small arms; this is the most common variety, similar to the rifle used twenty years before. While decidedly inferior to ADVENT magnetic technology, it can at least be upgraded using additional weapons salvage, once a standard technical approach is discovered."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn\n<Bullet/> If the soldier fires with both actions available, three shots will be taken at reduced accuracy, but overall increased efficiency\n<Bullet/> Use upgrades looted from enemies to improve assault rifle tactical effectiveness."
+
+[GetOverHereElite X2AbilityTemplate]
+LocFriendlyName="Tongue Pull"
+LocLongDescription="A Viper's tongue and neck are immensely strong, and can yank an adult human into its coils from far away."
+LocHelpText="Grab a target with your tongue and pull them to melee range. Only humanoid targets can be pulled."
+LocFlyOverText="Tongue Grab"
+LocMissMessage="Grab Failed!"
+
+[BindElite X2AbilityTemplate]
+LocFriendlyName="Bind and Crush"
+LocLongDescription="The coils of a Viper are inhumanly strong, and can bind and crush an adjacent humanoid enemy."
+LocHelpText="Bind and crush an adjacent humanoid enemy."
+LocFlyOverText="Bind"
+LocMissMessage="Bind Failed!"
+
+[SectoidCommander X2CharacterTemplate]
+strCharacterName="Sectoid Commander"
+strAcquiredText="Sectoid Commander with a aoe CC ability." 
+
+[VortexMindspin X2AbilityTemplate]
+LocFriendlyName="MindSpin Vortex"
+LocFlyOverText="MindSpin Vortex"
+LocLongDescription="Debilitating telepathic attack that inflicts different negative conditions, including mental control. Create a vortex around the target that can inflict same effects and do 2 damage"
+LocHelpText="Launch a debilitating Psionic attack against a target that can inflict different negative conditions, including mental control and  create a vortex around the target that can inflict same effects and do 2 damage."
+LocMissMessage="Mindspin resisted!"
+
+[VortexMindspinTwo X2AbilityTemplate]
+LocFriendlyName="MindSpin Vortex"
+LocFlyOverText="MindSpin Vortex"
+LocLongDescription="Debilitating telepathic attack that inflicts different negative conditions, including mental control. Create a vortex around the target that can inflict same effects and do 2 damage"
+LocHelpText="Launch a debilitating Psionic attack against a target that can inflict different negative conditions, including mental control and  create a vortex around the target that can inflict same effects and do 2 damage."
+;LocMissMessage="Mindspin resisted!"
+
+[MassReanimation_LW X2AbilityTemplate]
+LocFriendlyName="Mass Reanimate"
+LocFlyOverText="Mass Reanimate"
+LocHelpText="Reanimate all nearby dead organics, turning them into zombies."
+LocLongDescription="Reanimate all nearby dead organics, turning them into zombies."
+LocPromotionPopupText="<Bullet/> Reanimate all nearby dead organics, turning them into zombies."
+
+[SectoidCommander_WPN X2WeaponTemplate]
+FriendlyName="Sectoid Commander pistol"
+FriendlyNamePlural="Sectoid Commander pistols"
+BriefSummary="Sectoid Commander came up with a pistol of their own."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/>"

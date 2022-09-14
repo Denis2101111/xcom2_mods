@@ -1,0 +1,80 @@
+[UIFacility_GeneModChamberSlot]
+m_strWarnFirstTimeGeneModDialogTitle=GENE MOD OPERATION
+m_strWarnFirstTimeGeneModDialogText=Congrats, Commander! You are about to cross the line of unethical medical practices known as GENEtic MODding. Before going under the knife, there a few rules to follow:<ul><li><b>GENE MODS ARE PERMANENT!</b></li><li>You can cancel the project anytime, but the resources that went into this project will be wasted, and the soldier that was assigned to the slot will have a negative ability perk that is permanent until the next successful Gene Mod operation.</li><li>Some Gene mods require prerequisites.</li><li>Not all Gene Mods can be installed at once. Some types are incompatible with others.</li><li>Most Gene Mods cost Will.</li></ul>\n\nHave fun opening Pandora's Box!
+m_strWarnStopGeneModDialogTitle=STOP GENE MODIFICATION
+m_strWarnStopGeneModNegEnabledDialogText=If you stop %UNITNAME from undergoing genetic modifications, %GENDER will acquire a negative trait that cannot be removed until the next successful genetic modification operation! Not only that, the resources that went into this project will be wasted! Are you sure you still want to stop the project?
+m_strWarnStopGeneModNegDisabledDialogText=If you stop %UNITNAME from undergoing genetic modifications, the resources that went into this project will be wasted! Are you sure you still want to stop the project?
+
+m_strSoldiersAvailableTooltip=Assign a soldier to modify their genes to become more powerful.
+m_strOKDisable="DO NOT SHOW ME THIS AGAIN"
+
+[UICommodity_GeneModUpgrade]
+m_strTitle=GENETIC MODIFICATIONS
+m_strSubTitle=STAT ADJUSTMENT
+m_strInventoryLabel=Available Modifications
+m_strBuy=BEGIN MODIFICATION
+m_strRestricted=[RESTRICTED]
+m_strTotalLabel=No Refunds
+m_strGMDialogNegDisabledTitle=ATTENTION
+m_strGMDialogNegDisabledText=Are you absolutely sure you want to modify this soldier's genes?
+m_strGMDialogNegEnabledTitle=ATTENTION
+m_strGMDialogNegEnabledText=Are you absolutely sure you want to modify this soldier's genes? If you accept, then cancel the project later on, there will be unintended consequences!
+m_strGMCat1 = BRAIN
+m_strGMCat2 = EYES
+m_strGMCat3 = CHEST
+m_strGMCat4 = SKIN
+m_strGMCat5 = LEGS
+m_strGMCat6 = ARMS
+m_strGMCat7 = MISC
+m_strSoldierStatus = %SKILL Operation
+
+[X2GeneModTemplate]
+m_str_GMPrevented_ByAugmentation_Eyes="This soldier's Eyes are augmented and cannot be genetically modified."
+m_str_GMPrevented_ByAugmentation_Torso="This soldier's Torso is augmented and cannot be genetically modified."
+m_str_GMPrevented_ByAugmentation_Arms="This soldier's Arms are augmented and cannot be genetically modified."
+m_str_GMPrevented_ByAugmentation_Legs="This soldier's Legs are augmented and cannot be genetically modified."
+m_str_GMPrevented_ByAugmentation_Skin="More than 50% of this soldier's body is augmented, their skin cannot be genetically modified."
+
+m_strCanBeDisabledByAugment_Eyes="Augmenting this soldier's Head will disable their Eyes Gene Mod."
+m_strCanBeDisabledByAugment_Torso="Augmenting this soldier's Torso will disable their Chest Gene Mod."
+m_strCanBeDisabledByAugment_Arms="Augmenting this soldier's Arms will disable their Arms Gene Mod."
+m_strCanBeDisabledByAugment_Legs="Augmenting this soldier's Legs will disable their Legs Gene Mod."
+m_strCanBeDisabledByAugment_Skin="Equipping this soldier with more than 2 Augments will disable their Skin Gene Mod."
+
+m_strHasBeenDisabledByWound_Eyes="Due to a grave wound sustained by this soldier, their Genetically Modified Eyes have been damaged beyond repair, and now must be replaced by Head Augmentation."
+m_strHasBeenDisabledByWound_Torso="Due to a grave wound sustained by this soldier, their Genetically Modified Chest has been damaged beyond repair, and now must be replaced by Torso Augmentation."
+m_strHasBeenDisabledByWound_Arms="Due to a grave wound sustained by this soldier, their Genetically Modified Arms have been damaged beyond repair, and now must be replaced by Arms Augmentation."
+m_strHasBeenDisabledByWound_Legs="Due to a grave wound sustained by this soldier, their Genetically Modified Legs have been damaged beyond repair, and now must be replaced by Legs Augmentation."
+m_strHasBeenDisabledByWound_Skin="Due to a grave wound sustained by this soldier, their Genetically Modified Skin has been damaged beyond repair, and now must be replaced by Augmentation."
+
+m_strHasBeenDisabledByAugment_Eyes="This soldier's Genetically Modified Eyes have been replaced by Head Augmentation."
+m_strHasBeenDisabledByAugment_Torso="This soldier's Genetically Modified Chest has been replaced by Torso Augmentation."
+m_strHasBeenDisabledByAugment_Arms="This soldier's Genetically Modified Arms have been replaced by Arms Augmentation."
+m_strHasBeenDisabledByAugment_Legs="This soldier's Genetically Modified Legs have been replaced by Legs Augmentation."
+m_strHasBeenDisabledByAugment_Skin="This soldier's Genetically Modified Skin has been replaced by Augmented body parts."
+
+[UIAlert_GeneMod]
+m_strNewGMAvailable=<XGParam:StrValue0/!TechName/>: New Gene Mod Available
+m_strSoldierGMHeader=ATTENTION
+m_strTitleLabelComplete=GENE MODIFICATION COMPLETE
+m_strTitleLabelNegativeAbility=GENE MODIFICATION CANCELED
+m_strTitleLabelNewGeneModAvailable="NEW GENE MODIFICATION AVAILABLE"
+m_strGoToAWC=View Infirmary
+m_strGrantsAbility="GRANTS ABILITY"
+
+[X2DownloadableContentInfo_WotC_GeneModdingFacility]
+GeneModEventLabel="%CLASSNAME GENE MOD:"
+
+str_SWO_OnlyMutant_Description="Only A Mutant: losing a Gene Modded limb due to a Grave Wound will disable that Gene Mod."
+str_SWO_OnlyMutant_Tooltip="Losing a Gene Modded limb due to a Grave Wound will disable that Gene Mod. Lost limbs must be restored with Augmentation or another Gene Mod (Requires Macrophagial Transgenesis SWO)."
+str_SWO_MutagenicGrowth_Description="Macrophagial Transgenesis: soldiers can be Gene Modded even while wounded."
+str_SWO_MutagenicGrowth_Tooltip="Soldiers can be Gene Modded even while wounded. Wounded soldiers recover missing health once Gene Modding is complete. If Augments mod is enabled, Gene Mods can be used to restore lost limbs instead of Augments."
+str_SWO_Biosynthesis_Description="Biosynthesis: Augmented limbs can be Gene Modded."
+str_SWO_Biosynthesis_Tooltip="Augmented limbs can be Gene Modded. Gene Mods are no longer removed by Augmenting the Gene Modded limb."
+
+[UIScreenListener_AugmentGeneMod]
+sWarnTitle="ATTENTION"
+
+[XComGameState_ShownGeneModPopups]
+ProjectCompleteNotification="REHABILITATION COMPLETE"
+ProjectCompleteSubTitle="All negative traits removed!"

@@ -1,0 +1,24 @@
+[MicroGrenadeLauncher_CV X2GrenadeLauncherTemplate]
+FriendlyName="Micro-Grenade Launcher"
+FriendlyNamePlural="Micro-Grenade Launchers"
+BriefSummary="This grenade launcher variant fires smaller grenades with more grenade capacity."
+TacticalText="<Bullet/> The micro-grenade launcher is the Anarchist's specialty weapon.\n<Bullet/> It has a substantially increased range relative to throwing."
+AbilityDescName="Micro-Grenade Launcher"
+
+[MicroGrenadeLauncher_MG X2GrenadeLauncherTemplate]
+FriendlyName="Advanced Micro-Grenade Launcher"
+FriendlyNamePlural="Advanced Micro-Grenade Launchers"
+BriefSummary="This grenade launcher variant fires smaller grenades with more grenade capacity."
+TacticalText="<Bullet/> The Advanced Micro-Grenade Launcher has an increased range and explosive radius over the standard Micro-Grenade Launcher.\n."
+AbilityDescName="Advanced Micro-Grenade Launcher"
+
+[PrimaryLightOrdnance X2AbilityTemplate]
+LocFriendlyName="Light Ordnance"
+LocHelpText="Increase grenade capacity by 2 in each slot, but decrease grenade damage by 50%."
+LocLongDescription="Increase grenade capacity by 2 in each slot, but decrease grenade damage by 50%."
+
+[MicroGrenadeLauncher_BM X2GrenadeLauncherTemplate]
+FriendlyName="Beam Micro-Grenade Launcher"
+FriendlyNamePlural="Beam Micro-Grenade Launchers"
+BriefSummary="The Beam Micro-Grenade Launcher combines our latest breakthroughs in beam technology-based propulsion and AI-assisted targeting systems to deliver payloads with unprecedented precision."
+TacticalText="<Bullet/> The Beam Grenade Launcher transforms any grenade into an autonomous projectile that can navigate around obstacles with ease."

@@ -1,0 +1,89 @@
+;Place localized text in this file
+
+[SPARK_InfernoCannon X2WeaponTemplate]
+FriendlyName="Inferno Cannon"
+FriendlyNamePlural="Inferno Cannons"
+BriefSummary="A powerful fire based weapon system for SPARKs capable of 3 different fire modes, flamethrower, heat beam and flame bomb"
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/>"
+AbilityDescName="Spark Flamethrower"
+
+[SPARK_FlamestormCannon X2WeaponTemplate]
+FriendlyName="Flamestorm Cannon"
+FriendlyNamePlural="Flamestorm Cannons"
+BriefSummary="A powerful fire based weapon system for SPARKs capable of 3 different fire modes, flamethrower, heat beam and flame bomb"
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/>"
+AbilityDescName="Spark Flamethrower"
+
+[SPARK_ApocalypseCannon X2WeaponTemplate]
+FriendlyName="Apocalypse Cannon"
+FriendlyNamePlural="Apocalypse Cannons"
+BriefSummary="The pinnacle of our fire based weapon system for SPARKs, capable of 3 different fire modes, flamethrower, heat beam and flame bomb"
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/>"
+AbilityDescName="Spark Flamethrower"
+
+[InfernoCannon X2TechTemplate]
+DisplayName="SPARK Flamethrower Research"
+Summary="Commander, after completing our research on the ADVENT Purifier i believe it is possible to further study how their weapon system operates in order to create a superior fire based weapon system."
+CodeName="Candlelight"
+LongDescription="Commander, while our initial intent was to create a plan for a flamethrower weapon system for our troops to use, our study of the Purifier's equipment has yielded far more exciting results. Instead of creating a more conventional flamethrower for our troops the staff here has come up with a plan to create a far more destructive weapon system for our SPARKs. \n\n This device nicknamed \"Inferno Cannon\" by my colleagues is first and foremost a \"SPARK sized flamethrower\" capable of unleashing a monstrous amount of flame, however we have also come up with two additional fire modes. First, the device has the ability of concentrating fuel into a sphere, the fuel is then fired and ignited as it leaves the barrel of the weapon and will explode on impact. Secondly, by igniting the fuel within the weapon, and rapidly cycling it through a series of chambers before firing it in rapid continuous bursts, the weapon is capable of firing a \"heat beam\" that should be powerful enough to not only bypass armor, but even destroy some in the process. Because of these fire modes the weapon is not suitable for a human operator, but it makes for a formidable weapon system in the hands of our mechanized troopers.  \n\n Unfortunately, while we did create a prototype here in the research laboratory, i do not believe it to be suitable for field use, it is somewhat unstable and prone to failure, therefore the device will have to be further fine tuned, and finally, manufactured by Shen and the engineering team in the proving grounds. \n\n R. Tygan."
+AlertString="Inferno Cannon"
+
+[Inferno X2TechTemplate]
+DisplayName="Inferno Cannon"
+Summary="The SPARK Inferno Cannon concept created by Tygan and the science team proved to be quite interesting, and a challenge to manufacture for our engineers. This monster of a gun is capable of three fire modes, making it an incredibly powerful and versatile weapon. L. Shen." 
+
+[Flamestorm X2TechTemplate]
+DisplayName="Flamestorm Cannon"
+Summary="The Flamestorm Cannon is an upgraded variant of the Inferno Cannon, the fuel now incorporates traces of elerium, and magnetic technology is used to stabilize, and compress the fuel, and even keep the elerium within the weapon at all times to act as a catalyst for the fuel. L. Shen." 
+
+[Apocalypse X2TechTemplate]
+DisplayName="Apocalypse Cannon"
+Summary="The pinnacle in our \"SPARK Flamethrower\" technology, the Apocalypse Cannon is in reality a Plasma weapon. Instead of trying to contain the Plasma into the shape of a beam, this device simply directs the \"raw\" Plasma into a violent stream to act as a flamethrower. The biggest hurdle was recreating the \"bomb\" with Plasma, which we achieved by interweaving hundreds of layers of plasma with magnetic fields before firing the projectile, the projectile decays as it leaves the cannon but it will explode with inmense force on impact. L. Shen." 
+
+[SPARK_INFERNO X2AbilityTemplate]
+LocFriendlyName="Fire Inferno Cannon"
+LocHelpText="Fire a large amount of fire in a cone-shaped area."
+
+[SPARK_FLAMESTORM X2AbilityTemplate]
+LocFriendlyName="Fire Flamestorm Cannon"
+LocHelpText="Launch a storm of flame in a cone-shaped area."
+
+[SPARK_APOCALYPSE X2AbilityTemplate]
+LocFriendlyName="Fire Apocalypse Cannon"
+LocHelpText="Unleash a monstruous amount of plasma fire in a cone-shaped area."
+
+[SPARK_INFERNOBOMB X2AbilityTemplate]
+LocFriendlyName="Inferno Bomb"
+LocLongDescription="The Inferno Cannon fires an ignited glob of fuel which explodes in fire on impact."
+LocHelpText="Launch a fiery projectile at an area"
+LocFlyOverText="Inferno Bomb"
+
+[SPARK_FLAMESTORMBOMB X2AbilityTemplate]
+LocFriendlyName="Flamestorm Bomb"
+LocLongDescription="The Flamestorm Cannon fires two ignited glob of volatile fuel that violently on impact."
+LocHelpText="Launch a fiery projectile at an area"
+LocFlyOverText="Flamestorm Bomb"
+
+[SPARK_APOCALYPSEBOMB X2AbilityTemplate]
+LocFriendlyName="Apocalypse Bomb"
+LocLongDescription="The Apocalypse Cannon launches a devastating plasma projectile which explodes on impact."
+LocHelpText="Launch a fiery projectile at an area"
+LocFlyOverText="Flamestorm Bomb"
+
+[SPARK_INFERNOBEAM X2AbilityTemplate]
+LocFriendlyName="Inferno Heat Beam"
+LocLongDescription="The Inferno Cannon project a heat beam over a short range capable of dealing fire damage through armor."
+LocHelpText="Project a beam of heat capable of bypassing and shredding armor."
+LocFlyOverText="Inferno Heat Beam"
+
+[SPARK_FLAMESTORMBEAM X2AbilityTemplate]
+LocFriendlyName="Flamestorm Heat Beam"
+LocLongDescription="The Flamestorm Cannon project two beam over a short range capable of dealing great fire damage through armor."
+LocHelpText="Project a beam of heat capable of bypassing and shredding armor."
+LocFlyOverText="Flamestorm Heat Beam"
+
+[SPARK_APOCALYPSEBEAM X2AbilityTemplate]
+LocFriendlyName="Apocalypse Heat Beam"
+LocLongDescription="The Apocalypse Cannon uses plasma to project a heat beam over a short range capable of dealing immense fire damage through armor."
+LocHelpText="Project a beam of heat capable of bypassing and shredding armor."
+LocFlyOverText="Apocalypse Heat Beam"
