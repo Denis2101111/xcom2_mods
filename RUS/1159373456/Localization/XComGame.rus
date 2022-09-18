@@ -1,0 +1,66 @@
+;Weapon Upgrades localization
+
+[CritUpgrade_Prt X2WeaponUpgradeTemplate]
+FriendlyName="Prototype Laser Sight"
+FriendlyNamePlural="Prototype Laser Sights"
+BriefSummary="Increase critical hit chance by +<Ability:CRITINCREASE/>%, improving more with proximity to target.\n<Bullet/> User may mark target."
+TinySummary="Increased Crit Chance"
+LootTooltip="This weapon upgrade will increase the critical hit chance of any weapon it is attached to."
+
+[LaserSight_Prt X2AbilityTemplate]
+LocFriendlyName="Prototype Laser Sight"
+LocHelpText="Improves critical hit chance with proximity to target."
+
+[LaserSight_BonusSkill X2AbilityTemplate]
+LocFriendlyName="Laser Pointer"
+LocLongDescription="Adds +<Ability:MARKTARGETAIMBONUS/> hit for any unit marked by this Laser Sight."
+LocHelpText="Marked"
+LocFlyOverText="Marked Target"
+
+[AimUpgrade_Prt X2WeaponUpgradeTemplate]
+FriendlyName="Prototype Scope"
+FriendlyNamePlural="Prototype Scopes"
+BriefSummary="Increase aim by +<Ability:SCOPEAIMINCREASE/>%.\n<Bullet/> User may fire a shot that will always crit."
+TinySummary="Increased Aim"
+LootTooltip="This weapon upgrade will add an aim bonus to any weapon it is attached to."
+
+[Scope_BonusSkill X2AbilityTemplate]
+LocFriendlyName="Headshot"
+LocLongDescription="The Soldier lines up a shot, focusing on vital organs or critical systems for increased damage."
+LocHelpText="Takes a shot that is guaranteed to crit."
+LocFlyOverText="Headshot"
+
+[ClipSizeUpgrade_Prt X2WeaponUpgradeTemplate]
+FriendlyName="Prototype Expanded Magazine"
+FriendlyNamePlural="Prototype Expanded Magazines"
+BriefSummary="Clip size is increased by <Ability:EXPMAGINCREASE/>.\n<Bullet/> User may fire a shot guaranteed to hit."
+TinySummary="Increased Clip Size"
+LootTooltip="This weapon upgrade will increase the ammunition count of any weapon it is attached to."
+
+[FreeFireUpgrade_Prt X2WeaponUpgradeTemplate]
+FriendlyName="Prototype Hair Trigger"
+FriendlyNamePlural="Prototype Hair Triggers"
+BriefSummary="When firing, the soldier has a <Ability:HAIRTRIGGERCHANCE/>% chance that the shot will not cost an action for the active turn.\n<Bullet/> User may fire a rapid volley of shots."
+TinySummary="Bonus Action Chance"
+LootTooltip="This weapon upgrade, when installed, adds a small chance that any shot taken will not cost an action."
+
+[ReloadUpgrade_Prt X2WeaponUpgradeTemplate]
+FriendlyName="Prototype Auto-Loader"
+FriendlyNamePlural="Prototype Auto-Loaders"
+BriefSummary="Reloads do not cost an action."
+TinySummary="Free Reloads"
+LootTooltip="This weapon upgrade will grant unlimited free reloads to any weapon it is attached to."
+
+[MissDamageUpgrade_Prt X2WeaponUpgradeTemplate]
+FriendlyName="Prototype Stock"
+FriendlyNamePlural="Prototype Stocks"
+BriefSummary="Missed shots still deal <Ability:MISSDAMAGEAMT/> damage to the target.\n<Bullet/> Automatically enter overwatch if no action taken."
+TinySummary="Missed Shots Do Damage"
+LootTooltip="This weapon upgrade, when installed, will guarantee that even missed shots will do a small amount of damage."
+
+[FreeKillUpgrade_Prt X2WeaponUpgradeTemplate]
+FriendlyName="Prototype Repeater"
+FriendlyNamePlural="Prototype Repeaters"
+BriefSummary="A <Ability:FREEKILLCHANCE/>% chance to instantly kill any target when you damage them.\n<Bullet/> User may take free shot sometimes."
+TinySummary="Free Instant Kills"
+LootTooltip="This weapon upgrade, when installed, adds a small chance that any successful shot will instantly kill the target, regardless of the target's remaining HP."
