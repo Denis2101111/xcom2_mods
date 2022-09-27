@@ -1,7 +1,9 @@
-﻿[mod]
+[mod]
 publishedFileId=2280597326
-Title=WotC_AshlynneBlackIceCodex
+Title=Black ICE Codex - WotC
 Description=Description of My XCOM 2 Mod.
 
 tags=war of the chosen,item,alien,gameplay
 RequiresXPACK=true
+contentImage=
+
