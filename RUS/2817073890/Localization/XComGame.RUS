@@ -501,9 +501,9 @@ TacticalText="<Bullet/> Солдат, несущий Щит Анимы, невосприимчив к любым негатив
 
 ===ABILITY===
 [БроситьExplosiveCharge X2AbilityTemplate]
-LocFriendlyName="Бросить an Explosive Charge"
-LocHelpText="Бросить an Explosive Charge."
-LocLongDescription="Бросить an Explosive Charge."
+LocFriendlyName="Бросить заряд "
+LocHelpText="Броситьзаряд ."
+LocLongDescription="Бросить заряд ."
 
 [HollowPoint X2AbilityTemplate]
 LocFriendlyName="Полые патроны"
