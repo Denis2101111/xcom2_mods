@@ -1,0 +1,23 @@
+[X2StatusEffects_AshBlackIceCodex]
+locBlackIceProtocolTitle="Black ICE Quarantine"
+locBlackIceProtocolFriendlyName="Black ICE Quarantine"
+locBlackIceProtocolRemovedName="Quarantine Lifted"
+locBlackIceProtocolAcquiredString="<XGParam:StrValue0/!UnitName/> has been quarantined."
+locBlackIceProtocolRemovedString="<XGParam:StrValue0/!UnitName/> is no longer quarantined."
+
+locInfectedFriendlyName="Infected"
+locInfectedTitle="Infected"
+locInfectedFriendlyDesc="<bullet/> Infected units suffer damage each turn.\n<bullet/> Infected Black ICE Codex units will malfunction when attempting to Teleport or Shoot after being damaged."
+locInfectedRemovedName="Infection Quarantined"
+locInfectedAcquiredString="<XGParam:StrValue0/!UnitName/> is Infected."
+locInfectedTickedString="<XGParam:StrValue0/!UnitName/> is still Infected."
+locInfectedRemovedString="<XGParam:StrValue0/!UnitName/> is no longer Infected."
+
+[X2Ability_AshBlackIceCodex]
+locNetworkFirewallRemovedName="Network Firewall Crash"
+locDistortionFieldAquiredString="Distortion Field"
+
+[X2Effect_AshReboot]
+locRebootTickedString="Rebooting"
+
+

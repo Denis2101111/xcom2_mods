@@ -1,0 +1,272 @@
+;A configuration File
+[XV_Pinpoint X2AbilityTemplate]
+LocFriendlyName="Pinpoint"
+LocLongDescription="Use all available action points to aim a precision shot. Extra aim contributes to the chance of landing a deadly critical hit."
+LocHelpText="Fire a shot with increased aim and critical chance for each action point consumed."
+LocFlyOverText="Pinpoint"
+LocPromotionPopupText="<Bullet/> Additional aim over 100 is added to critical hit rate.<br/><Bullet/> Pinpoint also provides <Ability:PinpointPiercing/> armor piercing and +<Ability:PinpointCritBonus/>% critical damage."
+
+[XV_PinpointDamage X2AbilityTemplate]
+LocFriendlyName="Pinpoint"
+LocLongDescription="Use all available action points to aim a precision shot. Extra aim contributes to the chance of landing a deadly critical hit."
+LocHelpText="Fire a shot with increased aim and critical chance for each action point consumed."
+LocFlyOverText="Pinpoint"
+
+[XV_DeathAdder X2AbilityTemplate]
+LocFriendlyName="Death Adder"
+LocLongDescription="Perform a decisive shot that deals additional damage to damaged enemies."
+LocHelpText="Death Adder shots deal additional damage equal to half the target's missing HP."
+LocPromotionPopupText="<Bullet/>Bonus damage from Death Adder is capped at <Ability:DeathAdderCap/>% of the Viper Rifle's normal damage."
+LocFlyOverText="Death Adder"
+
+[XV_DeathPlus X2AbilityTemplate]
+LocFriendlyName="Death Adder"
+LocLongDescription="Perform a decisive shot that deals additional damage to injured enemies."
+LocHelpText="Deal additional damage to an injured enemy."
+LocPromotionPopupText="<Bullet/> Death Adder shots deal additional damage equal to half the target's missing HP."
+LocFlyOverText="Death Adder"
+
+[XV_Sidewinder X2AbilityTemplate]
+LocFriendlyName="Sidewinder"
+LocLongDescription="If the Viper would be hit by a direct enemy attack, evade the attack and immediately move to a better position. 3 turn recharge."
+LocLongDescription="If the Viper would be hit by direct enemy attack, evade the attack and immediately move to a better position. 3 turn recharge."
+LocHelpText="If the Viper would be hit by direct enemy attack, evade the attack and immediately move to a better position."
+LocFlyOverText="Sidewinder"
+LocPromotionPopupText="<Bullet/> Sidewinder will not activate if the Viper is currently binding a target.<br/><Bullet/> Sidewinder does not trigger against enemy reaction fire.<br/><Bullet/> Indiscrimate attacks over an area may still injure the Viper.
+
+[XV_SidewinderDodge X2AbilityTemplate]
+LocFriendlyName="Sidewinder"
+LocLongDescription="The Viper needs some rest before it can evade another attack."
+LocHelpText="The Viper needs some rest before it can evade another attack."
+
+; Basically copies of XV_SidewinderDodge
+; These exists to catch fringe cases with XV_SidewinderDodge
+[XV_SidewinderMove X2AbilityTemplate]
+LocFriendlyName="Sidewinder"
+LocLongDescription="The Viper needs some rest before it can evade another attack."
+LocHelpText="The Viper needs some rest before it can evade another attack."
+
+[XV_SidewinderCooldown X2AbilityTemplate]
+LocFriendlyName="Sidewinder"
+LocLongDescription="The Viper needs some rest before it can evade another attack."
+LocHelpText="The Viper needs some rest before it can evade another attack."
+
+[XV_Snakebite X2AbilityTemplate]
+LocFriendlyName="Snakebite"
+LocLongDescription="Inject a dose of venom when binding a target."
+LocHelpText="Poison a bound target."
+LocFlyOverText="Snakebite"
+LocPromotionPopupText="<Bullet/> Snakebite will reflect any damaging upgrades to the Viper's poison spit ability."
+
+[XV_Entwine X2AbilityTemplate]
+LocFriendlyName="Entwine"
+LocLongDescription="Tightly wrap a bound target, increasing the Viper's defense and binding damage."
+LocHelpText="Gives a +<Ability:EntwineDefense/> bonus to defense while bound and increases tongue pull aim by <Ability:EntwineAim/>."
+LocFlyOverText="Entwine"
+LocPromotionPopupText="<Bullet/> Entwine increases the base damage of Bind and Crush by <Ability:EntwineDamage/>, and provides <Ability:EntwineDefense/> Defense while binding a target.<br><Bullet/> The Viper's Tongue Pull ability will gain a bonus of <Ability:EntwineAim/> Aim."
+
+[XV_Frostbite X2AbilityTemplate]
+LocFriendlyName="Frost Breath"
+LocLongDescription="Expel a cloud of icy gas, freezing targets in an area."
+LocHelpText="Freezes targets in a circular area."
+LocFlyOverText="Frost Breath"
+LocPromotionPopupText="<Bullet/> Frostbite has a <Ability:SelfCooldown/>-turn cooldown.<br><Bullet/> Frostbite shares a cooldown timer with Poison Spit."
+
+[XV_Ambush X2AbilityTemplate]
+LocFriendlyName="Ambush"
+LocLongDescription="Immediately enter Overwatch when revealed from concealment."
+LocHelpText="Immediately enter Overwatch when revealed from concealment."
+LocFlyOverText="Ambush"
+LocPromotionPopupText="<Bullet/> Ambush shots are not fired from stealth and still subject to reaction fire aim penalties."
+
+[XV_Ambush_CF X2AbilityTemplate]
+LocFriendlyName="Ambush"
+LocLongDescription="Gain an immediate reaction shot against an enemy when this unit is revealed from concealment."
+LocHelpText="Gain an immediate reaction shot against an enemy when this unit is revealed from containment."
+LocFlyOverText="Ambush"
+LocPromotionPopupText="<Bullet/> Ambush shots are still subject to reaction fire aim penalties. <br/>"
+
+[XV_Rattle X2AbilityTemplate]
+LocFriendlyName="Rattle"
+LocLongDescription="Enemies may panic upon hearing the Viper reveal itself from concealment."
+LocHelpText="Enemies may panic upon hearing the Viper reveal itself from concealment."
+LocFlyOverText="Rattle"
+LocPromotionPopupText="<Bullet/> Non-robotic enemies in line of sight have a <Ability:RattlePanicChance/>% chance to panic when the Viper is revealed."
+
+[XV_RattlePanic X2AbilityTemplate]
+LocFriendlyName="Rattle"
+LocLongDescription="Enemies may panic upon hearing the Viper reveal itself from concealment."
+LocHelpText="Enemies may panic upon hearing the Viper reveal itself from concealment."
+LocFlyOverText="Rattle"
+LocPromotionPopupText="<Bullet/> Non-robotic enemies in line of sight have a <Ability:RattlePanicChance/>% chance to panic when the Viper is revealed."
+
+[XV_ViperCoil X2AbilityTemplate]
+LocFriendlyName="Coil"
+LocLongDescription="The Viper coils its body tightly, gaining <Ability:CoilDefense/> defense while behind cover and striking with an extra action on the following turn."
+LocHelpText="Get a defense bonus while in cover, then start the next turn with an additional action."
+LocPromotionPopupText="<Bullet/> The first Viper Rifle shot taken on the following turn will not end the Viper's turn."
+
+[XV_Crypsis X2AbilityTemplate]
+LocFriendlyName="Crypsis"
+LocLongDescription="Act normal ... As long as nobody looks too closely, you can sneak around near enemy troops"
+LocHelpText="Immediately enter concealment when not in direct contact with enemy troops."
+LocFlyOverText="Crypsis"
+LocPromotionPopupText="<Bullet/> Crypsis will not be effective if the Viper is in the heat of battle.<br><Bullet/> Concealment will be lost after spending <Ability:CrypsisTime/> turns in enemy presence."
+
+[XV_ThermalSense X2AbilityTemplate]
+LocFriendlyName="Thermal Sense"
+LocLongDescription="A Viper can detect the heat signatures of enemy soldiers, giving it improved aim through enemy cover or armor."
+LocHelpText="Enemy cover provides reduced bonuses against a Viper's attacks."
+LocFlyOverText="Thermal Sense"
+
+[XV_PoisonSpit X2AbilityTemplate]
+LocFriendlyName="Poison Spit"
+LocLongDescription="A Viper can project a blast of venom at long range that explodes into a toxic cloud."
+LocHelpText="Spit deadly poison at an area."
+LocFlyOverText="Poison Spit"
+LocPromotionPopupText="<Bullet/> Spit a cloud of poison, dealing 3 damage<br/><Bullet/> Wears off after 1-5 turns.<br/>"
+
+
+[X2Effect_ViperFreeze]
+LargeUnitFreezeLostFly="Thawed: Lost Action Points"
+
+[ViperThermalSenseUnlock X2SoldierAbilityUnlockTemplate]
+DisplayName = "Viper: Thermal Sense"
+Summary = "Enemy cover and armor have reduced effectiveness against Vipers."
+
+
+[BreakthroughViperRifleDamage X2TechTemplate]
+DisplayName="Improved Viper Rifles"
+Summary="New understanding of beam focusing has enabled us to reduce Viper Rifle plasma scattering, improving damage output by +1."
+
+[BreakthroughViperRifleWeaponUpgrade X2TechTemplate]
+DisplayName="Modular Viper Rifles"
+Summary="A breakthrough in our understanding of alien technology has allowed us to safely customize Viper Rifles with an additional upgrade slot."
+
+
+; -------------------------------------
+; Playable Advent localization override
+; -------------------------------------
+; Snake references yo
+
+[X2AbilitySet_Aliens.PA_EnhancedSpit X2AbilityTemplate] [PA_EnhancedSpit X2AbilityTemplate]
++LocFriendlyName="Neurotoxin"
+
+
+; -------------------------------------
+; Viper class titles
+; -------------------------------------
+;
+; Alternate unit/class description?
+; "These rebel Vipers excel in rapid neutralization of hostile enemy targets using their innate biological weaponry. We can also direct them in an infiltration role to deliver deadly ambushes from behind enemy lines."
+
+[ViperClass2 X2SoldierClassTemplate]
++DisplayName = "Viper"
++ClassSummary= "The Viper is an agile and lethal alien unit, generally fit for hit-and-run tactics. Vipers can use their Tongue Pull ability to yank units out of cover, and then use Bind and Crush to incapacitate them."
++LeftAbilityTreeTitle = "Striker"
++RightAbilityTreeTitle = "Predator"
+AbilityTreeTitles[0]="Striker"
+AbilityTreeTitles[1]="Predator"
+AbilityTreeTitles[2]="XCOM"
+;ALPHABETICAL ORDER
+RandomNickNames[0]="Apex"
+RandomNickNames[1]="Ace"
+RandomNickNames[2]="Aftermath"
+RandomNickNames[3]="Alpha"
+RandomNickNames[4]="Blackjack"
+RandomNickNames[5]="Bullseye"
+RandomNickNames[6]="Bolt"
+RandomNickNames[7]="Big Shot"
+RandomNickNames[8]="Big Sleep"
+RandomNickNames[9]="Big Time"
+RandomNickNames[10]="Boss"
+RandomNickNames[11]="Bullseye"
+RandomNickNames[12]="Checkmate"
+RandomNickNames[13]="Chief"
+RandomNickNames[14]="Colt"
+RandomNickNames[15]="Dallas"
+RandomNickNames[16]="Deadbolt"
+RandomNickNames[17]="Deadeye"
+RandomNickNames[18]="Deadlock"
+RandomNickNames[19]="Deadwood"
+RandomNickNames[20]="D.O.A."
+RandomNickNames[21]="Eagle Eye"
+RandomNickNames[22]="Eight Ball"
+RandomNickNames[23]="Flatline"
+RandomNickNames[24]="Game Time"
+RandomNickNames[25]="Gangster"
+RandomNickNames[26]="Grave Digger"
+RandomNickNames[27]="Hat Trick"
+RandomNickNames[28]="Hawkeye"
+RandomNickNames[29]="Heater"
+RandomNickNames[30]="High Noon"
+RandomNickNames[31]="Hitman"
+RandomNickNames[32]="Hollywood"
+RandomNickNames[33]="Hype"
+RandomNickNames[34]="Icon"
+RandomNickNames[35]="Jackal"
+RandomNickNames[36]="Judge"
+RandomNickNames[37]="Lights Out"
+RandomNickNames[38]="Lockdown"
+RandomNickNames[39]="Long Shot"
+RandomNickNames[40]="Longwalker"
+RandomNickNames[41]="Needle"
+RandomNickNames[42]="Pale Rider"
+RandomNickNames[43]="Huntsman"
+RandomNickNames[44]="Scratch"
+RandomNickNames[45]="Serial"
+RandomNickNames[46]="Sheriff"
+RandomNickNames[47]="Shooter"
+RandomNickNames[48]="Showtime"
+RandomNickNames[49]="Slick"
+RandomNickNames[50]="Slinger"
+RandomNickNames[51]="Stonecold"
+RandomNickNames[52]="The Cleaner"
+RandomNickNames[53]="The Kid"
+RandomNickNames[54]="The Truth"
+RandomNickNames[55]="Tombstone"
+RandomNickNames[56]="Top Notch"
+RandomNickNames[57]="Top Shelf"
+RandomNickNames[58]="Two Tap"
+RandomNickNames[59]="Undertaker"
+RandomNickNames[60]="Valentine"
+
+RandomNickNames_Female[0]="Baroness"
+RandomNickNames_Female[1]="Black Widow"
+RandomNicknames_Female[2]="Calamity"
+RandomNicknames_Female[3]="Queen Bee"
+RandomNicknames_Female[4]="Temptress"
+RandomNicknames_Female[5]="Snek"
+RandomNicknames_Female[6]="Silence"
+RandomNicknames_Female[7]="Tranq"
+RandomNicknames_Female[8]="Naga"
+RandomNicknames_Female[9]="Lamia"
+RandomNicknames_Female[10]="Toxic"
+RandomNicknames_Female[11]="Stalker"
+RandomNicknames_Female[12]="Caress"
+RandomNicknames_Female[13]="Fang"
+RandomNicknames_Female[14]="Venom"
+RandomNicknames_Female[15]="Bliss"
+RandomNicknames_Female[16]="Ice Cold"
+RandomNicknames_Female[17]="Killer Queen"
+RandomNicknames_Female[18]="Breathless"
+RandomNicknames_Female[19]="Dragon"
+RandomNicknames_Female[20]="Hydra"
+RandomNicknames_Female[21]="Huntress"
+RandomNicknames_Female[22]="Trapper"
+
+PhotoboothSoloBLines_Female[0]="Death From Afar"
+PhotoboothSoloBLines_Female[1]="Go Ahead and Run. You'll Just Die Tired."
+PhotoboothSoloBLines_Female[2]="Queen of Killshots"
+PhotoboothSoloBLines_Female[3]="Right Between Their Eyes"
+PhotoboothSoloBLines_Female[4]="The Only Thing She Feels is Recoil"
+PhotoboothSoloBLines_Female[5]="One shot, one kill."
+PhotoboothSoloBLines_Female[6]="One shot, one kill. No luck, all skill."
+PhotoboothSoloBLines_Female[7]="Patience is bitter, but its fruit is sweet."
+PhotoboothSoloBLines_Female[8]="Guaranteed delivery."
+PhotoboothSoloBLines_Female[9]="Save bullets.  Use a Viper."
+PhotoboothSoloBLines_Female[10]="Be the weapon."
+
+[X2Photobooth]
++m_arrAnimationPoses=(AnimationDisplayName="Viper 1")
++m_arrAnimationPoses=(AnimationDisplayName="Bared Fangs")

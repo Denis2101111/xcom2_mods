@@ -1,0 +1,11 @@
+[RM_Sectoid AU_X2SpeciesTemplate_Tuple]
+SpeciesName="Sectoids"
+ShortDesc="A species that has been genetically engineered by the Elders for millenia (and orignially resembling the old "Greys" aliens rumoured to have been on Earth pre-invasion), the recent incorporation of human DNA has caused some of them to grown rebellious."
+
+[RM_Muton AU_X2SpeciesTemplate_Tuple]
+SpeciesName="Mutons"
+ShortDesc="A tribalistic species used by the Elders as their main groundforces, the recent incorporation of human DNA has caused some of them to grown rebellious."
+
+[RM_Viper AU_X2SpeciesTemplate_Tuple]
+SpeciesName="Vipers"
+ShortDesc="The species used for infiltration of new "recruits" to the Elders' armada, some Vipers have gone native during their time on Earth."
