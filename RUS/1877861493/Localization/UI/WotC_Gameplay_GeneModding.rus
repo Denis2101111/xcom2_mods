@@ -29,29 +29,29 @@ m_strGMCat7 = MISC
 m_strSoldierStatus = %SKILL Operation
 
 [X2GeneModTemplate]
-m_str_GMPrevented_ByAugmentation_Eyes="This soldier's Eyes are augmented and cannot be genetically modified."
-m_str_GMPrevented_ByAugmentation_Torso="This soldier's Torso is augmented and cannot be genetically modified."
-m_str_GMPrevented_ByAugmentation_Arms="This soldier's Arms are augmented and cannot be genetically modified."
-m_str_GMPrevented_ByAugmentation_Legs="This soldier's Legs are augmented and cannot be genetically modified."
-m_str_GMPrevented_ByAugmentation_Skin="More than 50% of this soldier's body is augmented, their skin cannot be genetically modified."
+m_str_GMPrevented_ByAugmentation_Eyes="Глаза этого солдата увеличены и не могут быть генетически модифицированы."
+m_str_GMPrevented_ByAugmentation_Torso="Торс этого солдата увеличены и не могут быть генетически модифицированы."
+m_str_GMPrevented_ByAugmentation_Arms="Руки этого солдата увеличены и не могут быть генетически модифицированы."
+m_str_GMPrevented_ByAugmentation_Legs="Ноги этого солдата увеличены и не могут быть генетически модифицированы."
+m_str_GMPrevented_ByAugmentation_Skin="Более 50% тела этого солдата увеличено, их кожа не может быть генетически модифицирована."
 
-m_strCanBeDisabledByAugment_Eyes="Augmenting this soldier's Head will disable their Eyes Gene Mod."
-m_strCanBeDisabledByAugment_Torso="Augmenting this soldier's Torso will disable their Chest Gene Mod."
-m_strCanBeDisabledByAugment_Arms="Augmenting this soldier's Arms will disable their Arms Gene Mod."
-m_strCanBeDisabledByAugment_Legs="Augmenting this soldier's Legs will disable their Legs Gene Mod."
-m_strCanBeDisabledByAugment_Skin="Equipping this soldier with more than 2 Augments will disable their Skin Gene Mod."
+m_strCanBeDisabledByAugment_Eyes="Аугументация головы заменит генетическую модифицикацию глаз."
+m_strCanBeDisabledByAugment_Torso="Аугументация торса заменит генетическую модифицикацию торса."
+m_strCanBeDisabledByAugment_Arms="Аугументация рук заменит генетическую модифицикацию рук."
+m_strCanBeDisabledByAugment_Legs="Аугументация ног заменит генетическую модифицикацию ног."
+m_strCanBeDisabledByAugment_Skin="Оснащение этого солдата более чем 2-мя аугментами отключит их ген-мод кожи."
 
-m_strHasBeenDisabledByWound_Eyes="Due to a grave wound sustained by this soldier, their Genetically Modified Eyes have been damaged beyond repair, and now must be replaced by Head Augmentation."
-m_strHasBeenDisabledByWound_Torso="Due to a grave wound sustained by this soldier, their Genetically Modified Chest has been damaged beyond repair, and now must be replaced by Torso Augmentation."
-m_strHasBeenDisabledByWound_Arms="Due to a grave wound sustained by this soldier, their Genetically Modified Arms have been damaged beyond repair, and now must be replaced by Arms Augmentation."
-m_strHasBeenDisabledByWound_Legs="Due to a grave wound sustained by this soldier, their Genetically Modified Legs have been damaged beyond repair, and now must be replaced by Legs Augmentation."
-m_strHasBeenDisabledByWound_Skin="Due to a grave wound sustained by this soldier, their Genetically Modified Skin has been damaged beyond repair, and now must be replaced by Augmentation."
+m_strHasBeenDisabledByWound_Eyes="Из-за серьезной раны, полученной этим солдатом, их Генетически модифицированные Глаза были повреждены без возможности восстановления и теперь должны быть заменены увеличением головы."
+m_strHasBeenDisabledByWound_Torso="Из-за серьезной раны, полученной этим солдатом, их Генетически модифицированная грудная клетка была повреждена без возможности восстановления и теперь должна быть заменена увеличением туловища."
+m_strHasBeenDisabledByWound_Arms="Из-за серьезной раны, полученной этим солдатом, их Генетически Модифицированные Руки были повреждены без возможности восстановления и теперь должны быть заменены на Увеличение рук."
+m_strHasBeenDisabledByWound_Legs="Из-за серьезной раны, полученной этим солдатом, их Генетически Модифицированные Ноги были повреждены без возможности восстановления и теперь должны быть заменены увеличением ног."
+m_strHasBeenDisabledByWound_Skin="Из-за серьезной раны, полученной этим солдатом, их Генетически Модифицированная Кожа была повреждена без возможности восстановления и теперь должна быть заменена Аугментацией."
 
-m_strHasBeenDisabledByAugment_Eyes="This soldier's Genetically Modified Eyes have been replaced by Head Augmentation."
-m_strHasBeenDisabledByAugment_Torso="This soldier's Genetically Modified Chest has been replaced by Torso Augmentation."
-m_strHasBeenDisabledByAugment_Arms="This soldier's Genetically Modified Arms have been replaced by Arms Augmentation."
-m_strHasBeenDisabledByAugment_Legs="This soldier's Genetically Modified Legs have been replaced by Legs Augmentation."
-m_strHasBeenDisabledByAugment_Skin="This soldier's Genetically Modified Skin has been replaced by Augmented body parts."
+m_strHasBeenDisabledByAugment_Eyes="Генетически модифицированные глаза этого солдата были заменены аугументацией головы."
+m_strHasBeenDisabledByAugment_Torso="Генетически модифицированный торс этого солдата был заменен аугументацией торса."
+m_strHasBeenDisabledByAugment_Arms="Генетически модифицированные руки этого солдата были заменены аугументацией рук."
+m_strHasBeenDisabledByAugment_Legs="Генетически модифицированные ноги этого солдата были заменены аугументацией ног."
+m_strHasBeenDisabledByAugment_Skin="Генетически модифицированная кожа этого солдата была заменена аугументацией частей тела."
 
 [UIAlert_GeneMod]
 m_strNewGMAvailable=<XGParam:StrValue0/!TechName/>: New Gene Mod Available
@@ -65,16 +65,16 @@ m_strGrantsAbility="GRANTS ABILITY"
 [X2DownloadableContentInfo_WotC_GeneModdingFacility]
 GeneModEventLabel="%CLASSNAME GENE MOD:"
 
-str_SWO_OnlyMutant_Description="Only A Mutant: losing a Gene Modded limb due to a Grave Wound will disable that Gene Mod."
-str_SWO_OnlyMutant_Tooltip="Losing a Gene Modded limb due to a Grave Wound will disable that Gene Mod. Lost limbs must be restored with Augmentation or another Gene Mod (Requires Macrophagial Transgenesis SWO)."
-str_SWO_MutagenicGrowth_Description="Macrophagial Transgenesis: soldiers can be Gene Modded even while wounded."
-str_SWO_MutagenicGrowth_Tooltip="Soldiers can be Gene Modded even while wounded. Wounded soldiers recover missing health once Gene Modding is complete. If Augments mod is enabled, Gene Mods can be used to restore lost limbs instead of Augments."
-str_SWO_Biosynthesis_Description="Biosynthesis: Augmented limbs can be Gene Modded."
-str_SWO_Biosynthesis_Tooltip="Augmented limbs can be Gene Modded. Gene Mods are no longer removed by Augmenting the Gene Modded limb."
+str_SWO_OnlyMutant_Description="Только мутант: потеря генетических модификаций конечности из-за Серьезной раны отключит этот Генный мод."
+str_SWO_OnlyMutant_Tooltip="Потеря генетически модифицированной конечности из-за Серьезной раны выведет мод из строя. Потерянные конечности должны быть восстановлены с помощью Аугментации или другой модификации гена (требуется Макрофагальный трансгенез SWO)."
+str_SWO_MutagenicGrowth_Description="Макрофагальный трансгенез: солдаты могут подвергаться генной модификации даже будучи ранеными."
+str_SWO_MutagenicGrowth_Tooltip="Солдаты могут быть генетически модифицированы, даже будучи ранеными. Раненые солдаты восстанавливают недостающее здоровье после завершения генной модификации. Если включен мод Аугментов, Генные моды можно использовать для восстановления утраченных конечностей вместо Аугментов."
+str_SWO_Biosynthesis_Description="Биосинтез: Бионические конечности могут быть модифицированы генами."
+str_SWO_Biosynthesis_Tooltip="Бионические конечности могут быть модифицированы генетически. Генные модификации больше не удаляются путем при бионических модификациях."
 
 [UIScreenListener_AugmentGeneMod]
-sWarnTitle="ATTENTION"
+sWarnTitle="ВНИМАНИЕ"
 
 [XComGameState_ShownGeneModPopups]
-ProjectCompleteNotification="REHABILITATION COMPLETE"
-ProjectCompleteSubTitle="All negative traits removed!"
+ProjectCompleteNotification="РЕАБИЛИТАЦИЯ ЗАВЕРШЕНА"
+ProjectCompleteSubTitle="Все отрицательные черты удалены!"

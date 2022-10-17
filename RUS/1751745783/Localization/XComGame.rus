@@ -1,0 +1,23 @@
+[IRI_Melee_Ability X2AbilityTemplate]
+LocFriendlyName="Рукопашная атака"
+LocHelpText="Вступить с врагом в рукопашный бой, имея шанс нанести ему урон."
+LocLongDescription="Вступить с врагом в рукопашный бой, имея шанс нанести ему урон. Урон увеличивается с повышением ранга солдата."
+LocFlyOverText="Рукопашный бой"
+
+[IRI_Punch_Ability X2AbilityTemplate]
+LocFriendlyName="Удар кулаком"
+LocHelpText="Ударить противника по голове, уменьшая его меткость."
+LocLongDescription="Ударить противника по голове, уменьшая его меткость. Урон увеличивается с повышением ранга солдата."
+LocFlyOverText="Удар"
+
+[IRI_Kick_Ability X2AbilityTemplate]
+LocFriendlyName="Kick"
+LocHelpText="Ударьте врага ниже пояса, уменьшая его подвижность."
+LocLongDescription="Ударьте врага ниже пояса, уменьшая его подвижность. Урон увеличивается с повышением ранга солдата."
+LocFlyOverText="Kick"
+
+[IRI_Stockstrike_Ability X2AbilityTemplate]
+LocFriendlyName="Удар прикладом"
+LocHelpText="Ударить противника прикладом оружия, дезориентируя его."
+LocLongDescription="Ударить противника прикладом оружия, дезориентируя его. Урон увеличивается с повышением ранга солдата."
+LocFlyOverText="Удар прикладом"

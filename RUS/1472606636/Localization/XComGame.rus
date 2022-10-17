@@ -1,0 +1,39 @@
+[OmegaWarCry X2AbilityTemplate]
+LocFriendlyName="Omega War Cry"
+LocLongDescription="The Berserker Omega's War Cry will buff all Berserkers and Mutons around her. Grants +10 Offense, +20 Defense and +2 Mobility. Lasts 2 turns"
+LocHelpText="The Berserker Omega's War Cry will buff all Berserkers and Mutons around her. Grants +10 Offense, +20 Defense and +2 Mobility. Lasts 2 turns."
+LocFlyOverText="Omega War Cry"
+
+[OmegaRush X2AbilityTemplate]
+LocFriendlyName="Omega Aggression"
+LocLongDescription="The Berserker Omega will take an extra aggresive action any time she is damaged by an offensive attack."
+LocHelpText="The Berserker Omega will take an extra aggresive action any time she is damaged by an offensive attack."
+LocFlyOverText="Omega Aggression"
+
+[OmegaRushPassive X2AbilityTemplate]
+LocFriendlyName="Omega Aggression"
+LocLongDescription="The Berserker Omega will take an extra aggresive action any time she is damaged by an offensive attack."
+LocHelpText="The Berserker Omega will take an extra aggresive action any time she is damaged by an offensive attack."
+LocFlyOverText="Omega Aggression"
+
+[PlasmaQuake X2AbilityTemplate]
+LocFriendlyName="Plasma Quake"
+LocLongDescription="Plasma Quake is a devastating ability in which the Omega heats the area around her by slamming her Omega Maces into the ground. This sets the area on fire dealing both explosion and fire damge to anyone caught in the blast."
+LocHelpText="Plasma Quake is a devastating ability in which the Omega heats the area around her by slamming her Omega Maces into the ground. This sets the area on fire dealing both explosion and fire damge to anyone caught in the blast."
+LocFlyOverText="Plasma Quake"
+
+[OmegaDevastatingPunch X2AbilityTemplate]
+LocFriendlyName="Omega Devastating Punch"
+LocLongDescription="A Berserker Omega's strength is multiplied be her deadly Omega Mace Weapons. This attack can stun or disorient the target as well as shread armor."
+LocHelpText="Attack a melee target, shredding armor and potentially stunning them."
+LocFlyOverText="Omega Devastating Punch"
+
+[OmegaMeleeResistance X2AbilityTemplate]
+LocFriendlyName="Melee Resistance"
+LocLongDescription="The Berserker Omega takes 4 less damage from all melee attacks."
+LocHelpText="Reduced damage from melee."
+LocFlyOverText="Melee Resistance"
+
+[BerserkerOmega X2CharacterTemplate]
+strCharacterName="Berserker Omega"
+strAcquiredText="Berserker Omegas are powerhouse beasts created to destroy anything in their patch. They have the ability to level large areas in a mater of seconds." 
