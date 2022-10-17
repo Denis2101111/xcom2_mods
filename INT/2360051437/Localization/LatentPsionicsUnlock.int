@@ -1,0 +1,33 @@
+;*********************************************************
+;Changing the Latent Psionics Psions to match this class
+;*********************************************************
+
+[LPUtilities]
+
+;re-arranged to match the class abilities
+PsionRankIcons[0]= "UILibrary_Common.psirank_initiate"
+PsionRankIcons[1]= "UILibrary_Common.psirank_acolyte"
+PsionRankIcons[2]= "UILibrary_Common.psirank_adept"
+PsionRankIcons[3]= "UILibrary_Common.psirank_disciple"
+PsionRankIcons[4]= "UILibrary_Common.psirank_mystic"
+PsionRankIcons[5]= "UILibrary_Common.psirank_warlock"
+PsionRankIcons[6]= "UILibrary_Common.psirank_magus"
+PsionRankIcons[7]= "UILibrary_PsionIcons.psirank_master"
+
+PsionRankNames[0]="Initiate"
+PsionRankNames[1]="Adept"
+PsionRankNames[2]="Acolyte"
+PsionRankNames[3]="Mystic"
+PsionRankNames[4]="Disciple"
+PsionRankNames[5]="Seraphim"
+PsionRankNames[6]="Magus"
+PsionRankNames[7]="Void"
+
+PsionShortNames[0]="Int."
+PsionShortNames[1]="Adp."
+PsionShortNames[2]="Acl."
+PsionShortNames[3]="Mys."
+PsionShortNames[4]="Dis."
+PsionShortNames[5]="Ser."
+PsionShortNames[6]="Mag."
+PsionShortNames[7]="Vd."
