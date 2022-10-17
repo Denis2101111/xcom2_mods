@@ -1,0 +1,166 @@
+;***************************************
+;New Ability Descriptions
+;***************************************
+
+[RustyPanacea X2AbilityTemplate]
+LocFriendlyName="Исцеление разума"
+LocLongDescription="Исцелите разум союзника псионической силой."
+LocHelpText="Исцелите разум союзника псионической силой."
+LocFlyOverText="Исцеление разума"
+LocPromotionPopupText="<Bullet/>Исцелите тело и разум союзника псионической силой. Устраняет большинство негативных воздействий..<br/><Bullet/>Предоставляет <Ability:PANACEA_APGRANTED/> стандартные действия.<br/><Bullet/> Использует <Ability:PANACEA_COST_AP/> AP.<br/><Bullet/> Имеет <Ability:PANACEA_COST_COOLDOWN/> перезарядку.<br/><Bullet/> Является бесплатным действием :<Ability:PANACEA_COST_FREE/>.<br/><Bullet/> Заканчивается ли ход : <Ability:PANACEA_COST_TURNENDING/>"
+
+[RustyPsiHeal X2AbilityTemplate]
+LocFriendlyName="Исцеление"
+LocLongDescription="Исцелите союзника псионической силой."
+LocHelpText="Исцелите союзника псионической силой."
+LocFlyOverText="Исцеление"
+LocPromotionPopupText="<Bullet/>Исцелите союзника псионической силой. Действует так же, как аптечка <Ability:ClassName/>.<br/><Bullet/>Использует <Ability:PSIHEAL_COST_AP/> AP.<br/><Bullet/> Имеет <Ability:PSIHEAL_COST_COOLDOWN/> перезарядку.<br/><Bullet/> Является бесплатным действием :<Ability:PSIHEAL_COST_FREE/>.<br/><Bullet/> Заканчивается ли ход : <Ability:PSIHEAL_COST_TURNENDING/>"
+
+[RustySixthSense X2AbilityTemplate]
+LocFriendlyName="Шестое чувство"
+LocLongDescription="Способен предсказывать атаки. Получите <Ability:SSDODGE/> уклонение за <Ability:SSTURN/> после раскрытия."
+LocHelpText="Получите <Ability:SSDODGE/> уклонение за <Ability:SSTURN/> после раскрытия."
+LocFlyOverText="Шестое чувство"
+
+[SixthSense_Passive X2AbilityTemplate]
+LocFriendlyName="Шестое чувство"
+LocLongDescription="Способен предсказывать атаки. Получите <Ability:SSDODGE/> уклонение за <Ability:SSTURN/> после раскрытия."
+LocHelpText="Получите <Ability:SSDODGE/> уклонение за <Ability:SSTURN/> после раскрытия. Может повторяться в каждой миссии."
+LocFlyOverText="Шестое чувство"
+
+[SixthSense_Stealth X2AbilityTemplate]
+LocFriendlyName="Тень шестого чувства"
+LocLongDescription="Немедленно войдите в режим скрытности."
+LocHelpText="Немедленно войдите в режим скрытности."
+LocFlyOverText="Тень шестого чувства"
+LocPromotionPopupText="<Bullet/> Маскировка может быть задействована в любом месте, но вне радиусов обнаружения ближайших врагов <Ability:ClassName/> будет раскрыт, если обойти с фланга.<br/>"
+
+;***************************************
+;GTS - DEFAULT UNLOCK AT RANK 4
+;***************************************
+
+[Rusty_SixthSenseUnlock X2SoldierAbilityUnlockTemplate]
+DisplayName="Псионик: Шестое чувство"
+Summary="Получает уклонение после раскрытия."
+
+;****************************************************
+;	PSIONCS CLASS LOCALISATION
+;****************************************************
+
+;*** Encyclopedia Entry ***
+[RustyPsionic X2EncyclopediaTemplate]
+ListTitle = "Пси оперативники"
+DescriptionTitle = "Пси оперативники"
+DescriptionEntry = "Новая область исследований для XCOM, псионики используют свои ментальные способности с большим эффектом, чтобы усилить своих союзников и подавить волю врагов."
+
+[RustyPsionic X2SoldierClassTemplate]
+DisplayName="Псионик"
+ClassSummary="Псионики используют свои ментальные способности с большим эффектом, чтобы усилить своих союзников и подавить волю врагов."
+
+;old tree style
+LeftAbilityTreeTitle="Телепат"
+RightAbilityTreeTitle="Резонант"
+
+;npsbd tree style
+AbilityTreeTitles[0]="Телепат"
+AbilityTreeTitles[1]="Резонант"
+AbilityTreeTitles[2]="Иридиан"
+AbilityTreeTitles[3]="XCOM"
+
+;ALPHABETICAL NICKNAMES OR THEY DONT WORK !
+RandomNickNames[0]="Crow"
+RandomNickNames[1]="Demon"
+RandomNickNames[2]="Dirge"
+RandomNickNames[3]="Dread"
+RandomNickNames[4]="Druid"
+RandomNickNames[5]="Dusk "
+RandomNickNames[6]="Echo"
+RandomNickNames[7]="Esto "
+RandomNickNames[8]="Firefly"
+RandomNickNames[9]="Freak"
+RandomNickNames[10]="Ghoul"
+RandomNickNames[11]="Grim"
+RandomNickNames[12]="Haze"
+RandomNickNames[13]="Hellion"
+RandomNickNames[14]="Hex"
+RandomNickNames[15]="Judge"
+RandomNickNames[16]="Midnight"
+RandomNickNames[17]="Nightmare"
+RandomNickNames[18]="Null"
+RandomNickNames[19]="Ouija"
+RandomNickNames[20]="Omega"
+RandomNickNames[21]="Omen"
+RandomNickNames[22]="Oz"
+RandomNickNames[23]="Phoenix"
+RandomNickNames[24]="Prophet"
+RandomNickNames[25]="Psycho"
+RandomNickNames[26]="Raven"
+RandomNickNames[27]="Scarecrow"
+RandomNickNames[28]="Shriek"
+RandomNickNames[29]="Spook"
+RandomNickNames[30]="Syndrome"
+RandomNickNames[31]="Thriller"
+RandomNickNames[32]="Twitch"
+RandomNickNames[33]="Vader"
+RandomNickNames[34]="Vampire"
+RandomNickNames[35]="Viper"
+RandomNickNames[36]="Voodoo"
+RandomNickNames[37]="Warlock"
+RandomNickNames[38]="Werewolf"
+RandomNickNames[39]="Witchy"
+RandomNickNames[40]="Wiz"
+RandomNickNames[41]="Xeno"
+RandomNickNames[42]="Zen"
+RandomNickNames[43]="Zero"
+RandomNickNames[44]="Zombie"
+
+RandomNickNames_Male[0]="Loki"
+RandomNicknames_Male[1]="Merlin"
+RandomNickNames_Male[2]="Pharoah"
+RandomNicknames_Male[3]="Preacher"
+
+RandomNicknames_Female[0]="Аврора"
+RandomNicknames_Female[1]="Банши"
+RandomNickNames_Female[2]="Леди Грей"
+RandomNicknames_Female[3]="Тайная"
+RandomNicknames_Female[4]="Морриган"
+RandomNicknames_Female[5]="Оракул"
+RandomNicknames_Female[6]="Фея"
+RandomNicknames_Female[7]="Фиалка"
+
+; RANK NAMES AND ICONS
+RankNames[0]="Новобранец"
+RankNames[1]="Ученик"
+RankNames[2]="Пробудившийся"
+RankNames[3]="Осознавший"
+RankNames[4]="Талант"
+RankNames[5]="Адепт"
+RankNames[6]="Трансцендент"
+RankNames[7]="Псион"
+RankNames[8]="Магистр"
+
+ShortNames[0]="Нов."
+ShortNames[1]="Учн."
+ShortNames[2]="Прб."
+ShortNames[3]="Осз."
+ShortNames[4]="Тал."
+ShortNames[5]="Адп."
+ShortNames[6]="Трн."
+ShortNames[7]="Псн."
+ShortNames[8]="Маг."
+
+;re-arranged to better match the ranks abilities
+RankIcons[0]= "UILibrary_Common.rank_rookie"
+RankIcons[1]= "UILibrary_Common.psirank_initiate"
+RankIcons[2]= "UILibrary_Common.psirank_adept"
+RankIcons[3]= "UILibrary_Common.psirank_acolyte"
+RankIcons[4]= "UILibrary_Common.psirank_mystic"
+RankIcons[5]= "UILibrary_Common.psirank_disciple"
+RankIcons[6]= "UILibrary_Common.psirank_warlock"
+RankIcons[7]= "UILibrary_Common.psirank_magus"
+RankIcons[8]= "UILibrary_LW_PerkPack.psirank_Master"
+
+;PHOTOBOTH QUOTES
+PhotoboothSoloBLines_Male[0]="Его величайшее оружие ... ЭТО ЕГО РАЗУМ!"
+PhotoboothSoloBLines_Female[0]="Её величайшее оружие ... ЭТО ЕЁ РАЗУМ!"
+
