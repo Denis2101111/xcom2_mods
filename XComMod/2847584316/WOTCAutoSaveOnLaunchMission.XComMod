@@ -1,0 +1,7 @@
+﻿[mod]
+publishedFileId=2847584316
+Title=WOTCAutoSaveOnLaunchMission
+Description=Automatically creates a quick save when you click the "Launch Mission" button.
+
+tags= war of the chosen
+RequiresXPACK=true

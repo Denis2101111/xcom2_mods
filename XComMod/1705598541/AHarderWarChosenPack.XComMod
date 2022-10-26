@@ -1,0 +1,17 @@
+﻿[mod]
+publishedFileId=1705598541
+Title=AHarderWar Chosen Pack
+Description=What's New, Summarized: Evolving Chosen Ability Sets, Chosen Equipment Changes, New Chosen AI.
+
+Compatibility Warning: This mod may or may not be compatible with other Chosen altering Mods. It is not compatible with any mods that alters the Textures, AI, or Animations of the Chosen.
+
+Dread March: With each time the Chosen level up, they gain access to more abilities, becoming increasingly dangerous over the course of the campaign.
+
+The Training Wheels Come Off: After the first Chosen level up, the Automatic Bleedout is removed, and the Chosen gain the ability to kill.
+
+The Aliens Stole My Cheese:The Chosen are now well trained and well equipped to counter certain cheese strategies. In other news, all cheeses, other than ADVENT Certified Cheeses, are now illegal and will be confiscated by the nearest ADVENT Officer.
+
+A Little Trooper Told Me: Every Weapon obtained by defeating the Chosen will now grant its wielder a bonus ability.
+
+A big thanks to MrShadowCX, Σ3245, and Musashi for their help with squashing bugs.
+RequiresXPACK=true

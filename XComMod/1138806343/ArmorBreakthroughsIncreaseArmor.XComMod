@@ -1,0 +1,5 @@
+﻿[mod]
+publishedFileId=1138806343
+Title=Armor Breakthroughs Increase Armor
+Description=Armor breakthroughs now increase armor by 1 instead of HP to make them more valuable when they show up late in the game.
+RequiresXPACK=true
