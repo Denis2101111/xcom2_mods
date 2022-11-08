@@ -1,0 +1,272 @@
+;A configuration File
+[XV_Pinpoint X2AbilityTemplate]
+LocFriendlyName="Точечный выстрел"
+LocLongDescription="Используйте все доступные очки действия, чтобы сделать прицельно точный выстрел. Избыточная меткость повышает шанс критического попадания."
+LocHelpText="Выстрел с бонусом к меткости и шансу критического попадания, за каждое потраченное очко действия."
+LocFlyOverText="Точечный выстрел"
+LocPromotionPopupText="<Bullet/> Избыточная меткость свыше 100%, добавляется к шансу критического попадания.<br/><Bullet/> Также, предоставляет <Ability:PinpointPiercing/> ед. пробивания брони и  +<Ability:PinpointCritBonus/>% ед. дополнительного критического урона."
+
+[XV_PinpointDamage X2AbilityTemplate]
+LocFriendlyName="Точечный выстрел"
+LocLongDescription="Используйте все доступные очки действия, чтобы сделать прицельно точный выстрел. Избыточная меткость повышает шанс критического попадания."
+LocHelpText="Выстрел с бонусом к меткости и шансу критического попадания, за каждое потраченное очко действия."
+LocFlyOverText="Точечный выстрел"
+
+[XV_DeathAdder X2AbilityTemplate]
+LocFriendlyName="Смертоносная змея"
+LocLongDescription="Решающий выстрел, который наносит дополнительный урон раненым врагам."
+LocHelpText="Выстрел \"Смертоносной змеи\" наносит дополнительный урон, равный 50% от недостающего здоровья цели."
+LocPromotionPopupText="<Bullet/> Дополнительный урон от способности \"Смертоносная змея\" ограничен <Ability:DeathAdderCap/>% от стандартного урона винтовки вайпера."
+LocFlyOverText="Смертоносная змея"
+
+[XV_DeathPlus X2AbilityTemplate]
+LocFriendlyName="Смертоносная змея"
+LocLongDescription="Решающий выстрел, который наносит дополнительный урон раненым врагам."
+LocHelpText="Наносит дополнительный урон раненым целям."
+LocPromotionPopupText="<Bullet/> Выстрел \"Смертоносной змеи\" наносит дополнительный урон, равный 50% от недостающего здоровья цели."
+LocFlyOverText="Смертоносная змея"
+
+[XV_Sidewinder X2AbilityTemplate]
+LocFriendlyName="Гремучая змея"
+LocLongDescription="Если вайпер будет поражен прямой атакой, уклонитесь от атаки и смените позицию на более лучшую. Перезарядка 3 хода."
+LocLongDescription="Если вайпер будет поражен прямой атакой, уклонитесь от атаки и смените позицию на более лучшую. Перезарядка 3 хода."
+LocHelpText="Если вайпер будет поражен прямой атакой, уклонитесь от атаки и смените позицию на более лучшую."
+LocFlyOverText="Гремучая змея"
+LocPromotionPopupText="<Bullet/> Способность \"Гремучая змея\" не активируется, если во время атаки врага, вайпер опутывает цель.<br/><Bullet/> Способность \"Гремучая змея\" не работает против ответного огня врага.<br/><Bullet/> Атаки по области, все еще могут ранить вайпера."
+
+[XV_SidewinderDodge X2AbilityTemplate]
+LocFriendlyName="Гремучая змея"
+LocLongDescription="Вайперу нужен отдых, прежде чем он сможет уклониться от следующей атаки."
+LocHelpText="Вайперу нужен отдых, прежде чем он сможет уклониться от следующей атаки."
+
+; Basically copies of XV_SidewinderDodge
+; These exists to catch fringe cases with XV_SidewinderDodge
+[XV_SidewinderMove X2AbilityTemplate]
+LocFriendlyName="Гремучая змея"
+LocLongDescription="Вайперу нужен отдых, прежде чем он сможет уклониться от следующей атаки."
+LocHelpText="Вайперу нужен отдых, прежде чем он сможет уклониться от следующей атаки."
+
+[XV_SidewinderCooldown X2AbilityTemplate]
+LocFriendlyName="Гремучая змея"
+LocLongDescription="Вайперу нужен отдых, прежде чем он сможет уклониться от следующей атаки."
+LocHelpText="Вайперу нужен отдых, прежде чем он сможет уклониться от следующей атаки."
+
+[XV_Snakebite X2AbilityTemplate]
+LocFriendlyName="Змеиный укус"
+LocLongDescription="Введите дозу яда, при опутывании врага."
+LocHelpText="Отравите опутанную цель."
+LocFlyOverText="Змеиный укус"
+LocPromotionPopupText="<Bullet/> Способность \"Змеиный укус\", применяет все улучшения способности \"Ядовитый плевок\"."
+
+[XV_Entwine X2AbilityTemplate]
+LocFriendlyName="Сжимание"
+LocLongDescription="Плотно окутывает опутанную цель, повышает защиту вайпера и наносимый урон от сдавливания."
+LocHelpText="Предоставляет бонус +<Ability:EntwineDefense/> к защите во время опутывания, а также, способность \"Притягивание языком\" получает бонус <Ability:EntwineAim/> к меткости."
+LocFlyOverText="Сжимание"
+LocPromotionPopupText="<Bullet/> Способность \"Сжимание\" увеличивает сдавливающий урон способности \"Опутывание и раздавливание\" на <Ability:EntwineDamage/> ед. и предоставляет +<Ability:EntwineDefense/> к защите, при опутывании цели.<br><Bullet/> Способность \"Притягивание языком\" получает бонус +<Ability:EntwineAim/> к меткости."
+
+[XV_Frostbite X2AbilityTemplate]
+LocFriendlyName="Морозное дыхание"
+LocLongDescription="Выпустить облако ледяного газа, замораживающего цели в круговой области."
+LocHelpText="Замораживает все цели в круговой области."
+LocFlyOverText="Морозное дыхание"
+LocPromotionPopupText="<Bullet/> Перезарядка <Ability:SelfCooldown/> ход(а).<br><Bullet/> Способность \"Морозное дыхание\" имеет общий таймер перезарядки со способностью \"Ядовитый плевок\"."
+
+[XV_Ambush X2AbilityTemplate]
+LocFriendlyName="Засада"
+LocLongDescription="Немедленно войдите в режим \"наблюдения\", после раскрытия вашей маскировки."
+LocHelpText="Немедленно войдите в режим \"наблюдения\", после раскрытия вашей маскировки."
+LocFlyOverText="Засада"
+LocPromotionPopupText="<Bullet/> Выстрелы \"Засады\" не производятся в маскировке и подлежат штрафам, как и другие ответные выстрелы."
+
+[XV_Ambush_CF X2AbilityTemplate]
+LocFriendlyName="Засада"
+LocLongDescription="Получите мгновенный ответный выстрел, когда враг нарушает вашу маскировку."
+LocHelpText="Получите мгновенный ответный выстрел, когда враг нарушает вашу маскировку."
+LocFlyOverText="Засада"
+LocPromotionPopupText="<Bullet/> Выстрелы \"Засады\" не производятся в маскировке и подлежат штрафам, как и другие ответные выстрелы."
+
+[XV_Rattle X2AbilityTemplate]
+LocFriendlyName="Змеиный стрекот"
+LocLongDescription="Враги могут запаниковать, услышав как вайпер выходит из маскировки."
+LocHelpText="Враги могут запаниковать, услышав как вайпер выходит из маскировки."
+LocFlyOverText="Змеиный стрекот"
+LocPromotionPopupText="<Bullet/> Биологические враги имеют <Ability:RattlePanicChance/>% шанс запаниковать, при обнаружении вайпера."
+
+[XV_RattlePanic X2AbilityTemplate]
+LocFriendlyName="Змеиный стрекот"
+LocLongDescription="Враги могут запаниковать, услышав как вайпер выходит из маскировки."
+LocHelpText="Враги могут запаниковать, услышав как вайпер выходит из маскировки."
+LocFlyOverText="Змеиный стрекот"
+LocPromotionPopupText="<Bullet/> Биологические враги имеют <Ability:RattlePanicChance/>% шанс запаниковать, при обнаружении вайпера."
+
+[XV_ViperCoil X2AbilityTemplate]
+LocFriendlyName="Змеевик"
+LocLongDescription="Вайпер сворачивает свое тело в кольцо, получая <Ability:CoilDefense/> к защите, находясь за укрытием и дополнительное очко действия на следующий ход."
+LocHelpText="Получите бонус к защите, находясь за укрытием и дополнительное очко действия на следующий ход."
+LocPromotionPopupText="<Bullet/> Первый выстрел из винтовки вайпера, сделанный на следующем ходу, не завершает ход."
+
+[XV_Crypsis X2AbilityTemplate]
+LocFriendlyName="Криптическая окраска"
+LocLongDescription="Ведите себя спокойно... Пока никто не вас не замечает, вы можете пробираться рядом с вражескими войсками"
+LocHelpText="Немедленно войти в режим маскировки, если нет прямого контакта с вражескими войсками."
+LocFlyOverText="Криптическая окраска"
+LocPromotionPopupText="<Bullet/> Способность \"Криптическая окраска\" не работает, если вайпер находится в разгаре битвы.<br><Bullet/> Маскировка будет потеряна после <Ability:CrypsisTime/> ходов, проведенных в присутствии врага."
+
+[XV_ThermalSense X2AbilityTemplate]
+LocFriendlyName="Термальное зрение"
+LocLongDescription="Вайпер обнаруживает тепловые сигнатуры вражеских солдат, улучшая меткость против врагов в укрытии и сквозь броню."
+LocHelpText="Снижает эффективность укрытий, против атак вайпера."
+LocFlyOverText="Термальное зрение"
+
+[XV_PoisonSpit X2AbilityTemplate]
+LocFriendlyName="Ядовитый плевок"
+LocLongDescription="Вайпер плюется сгустками яда на расстоянии, которые взрываются ядовитым облаком."
+LocHelpText="Плюнуть ядовитое облако в указанную область."
+LocFlyOverText="Ядовитый плевок"
+LocPromotionPopupText="<Bullet/> Выплюнуть облако яда, наносящее 3 ед. урона.\n<Bullet/> Длиться от 1 до 5 ходов.<br/>"
+
+
+[X2Effect_ViperFreeze]
+LargeUnitFreezeLostFly="Оттаял: потеряны очки действий"
+
+[ViperThermalSenseUnlock X2SoldierAbilityUnlockTemplate]
+DisplayName = "Вайпер: термальное зрение"
+Summary = "Эффективность укрытий и брони снижена против атак вайпера."
+
+
+[BreakthroughViperRifleDamage X2TechTemplate]
+DisplayName="Улучшенные винтовки вайпера"
+Summary="Новое понимание фокусировки луча позволило нам уменьшить рассеивание плазмы от винтовки вайпера, повысив наносимый урон на +1 ед."
+
+[BreakthroughViperRifleWeaponUpgrade X2TechTemplate]
+DisplayName="Модульные винтовки вайпера"
+Summary="Прорыв в понимании технологий пришельцев позволил нам добавить ячейку улучшения для всех винтовок вайпера без ущерба для баланса и огневой мощи."
+
+
+; -------------------------------------
+; Playable Advent localization override
+; -------------------------------------
+; Snake references yo
+
+[X2AbilitySet_Aliens.PA_EnhancedSpit X2AbilityTemplate] [PA_EnhancedSpit X2AbilityTemplate]
++LocFriendlyName="Нейротоксин"
+
+
+; -------------------------------------
+; Viper class titles
+; -------------------------------------
+;
+; Alternate unit/class description?
+; "These rebel Vipers excel in rapid neutralization of hostile enemy targets using their innate biological weaponry. We can also direct them in an infiltration role to deliver deadly ambushes from behind enemy lines."
+
+[ViperClass2 X2SoldierClassTemplate]
++DisplayName = "Вайпер"
++ClassSummary= "Вайпер - проворный и смертоносный инопланетный юнит, обычно пригодный для тактики \"ударил и убежал\". Они могут использовать свою способность \"Притягивание языком\", чтобы вытаскивать врагов из укрытий, а затем использовать \"опутывание и раздавливание\", чтобы вывести их из строя"
++LeftAbilityTreeTitle = "Ударник"
++RightAbilityTreeTitle = "Хищник"
+AbilityTreeTitles[0]="Ударник"
+AbilityTreeTitles[1]="Хищник"
+AbilityTreeTitles[2]="XCOM"
+;ALPHABETICAL ORDER
+RandomNickNames[0]="Апекс"
+RandomNickNames[1]="Эйс"
+RandomNickNames[2]="Послесловие"
+RandomNickNames[3]="Альфа"
+RandomNickNames[4]="Блэкджек"
+RandomNickNames[5]="Мишень"
+RandomNickNames[6]="Болт"
+RandomNickNames[7]="Большой выстрел"
+RandomNickNames[8]="Большой сон"
+RandomNickNames[9]="Большое время"
+RandomNickNames[10]="Босс"
+RandomNickNames[11]="Мишень"
+RandomNickNames[12]="Шах-и-мат"
+RandomNickNames[13]="Вождь"
+RandomNickNames[14]="Кольт"
+RandomNickNames[15]="Даллас"
+RandomNickNames[16]="Патрон"
+RandomNickNames[17]="Мертвый глаз"
+RandomNickNames[18]="Тупик"
+RandomNickNames[19]="Дедвуд"
+RandomNickNames[20]="Мертвец-по-прибытии"
+RandomNickNames[21]="Орлиный глаз"
+RandomNickNames[22]="Восьмой шар"
+RandomNickNames[23]="Прямая линия"
+RandomNickNames[24]="Время игры"
+RandomNickNames[25]="Гангстер"
+RandomNickNames[26]="Могильщик"
+RandomNickNames[27]="Хет-трик"
+RandomNickNames[28]="Ястребиный глаз"
+RandomNickNames[29]="Нагреватель"
+RandomNickNames[30]="Высокий полдень"
+RandomNickNames[31]="Хитман"
+RandomNickNames[32]="Голливуд"
+RandomNickNames[33]="Хайп"
+RandomNickNames[34]="Икона"
+RandomNickNames[35]="Шакал"
+RandomNickNames[36]="Судья"
+RandomNickNames[37]="Выключить свет"
+RandomNickNames[38]="Локдаун"
+RandomNickNames[39]="Дальний выстрел"
+RandomNickNames[40]="Дальний ходок"
+RandomNickNames[41]="Игла"
+RandomNickNames[42]="Бледный всадник"
+RandomNickNames[43]="Псарь"
+RandomNickNames[44]="Царапина"
+RandomNickNames[45]="Серийный"
+RandomNickNames[46]="Шериф"
+RandomNickNames[47]="Стрелок"
+RandomNickNames[48]="Шоу тайм"
+RandomNickNames[49]="Пленка"
+RandomNickNames[50]="Стропальщик"
+RandomNickNames[51]="Каменный холод"
+RandomNickNames[52]="Чистильщик"
+RandomNickNames[53]="Малыш"
+RandomNickNames[54]="Правда"
+RandomNickNames[55]="Надгробие"
+RandomNickNames[56]="Высший класс"
+RandomNickNames[57]="Верхняя полка"
+RandomNickNames[58]="Два спуска"
+RandomNickNames[59]="Гробовщик"
+RandomNickNames[60]="Валентин"
+
+RandomNickNames_Female[0]="Баронесса"
+RandomNickNames_Female[1]="Черная вдова"
+RandomNicknames_Female[2]="Каламити"
+RandomNicknames_Female[3]="Королева пчела"
+RandomNicknames_Female[4]="Соблазнительница"
+RandomNicknames_Female[5]="Снек"
+RandomNicknames_Female[6]="Тишина"
+RandomNicknames_Female[7]="Транкью"
+RandomNicknames_Female[8]="Нага"
+RandomNicknames_Female[9]="Ламия"
+RandomNicknames_Female[10]="Токсик"
+RandomNicknames_Female[11]="Сталкер"
+RandomNicknames_Female[12]="Ласка"
+RandomNicknames_Female[13]="Клык"
+RandomNicknames_Female[14]="Веном"
+RandomNicknames_Female[15]="Блаженство"
+RandomNicknames_Female[16]="Ледяной холод"
+RandomNicknames_Female[17]="Королева убийц"
+RandomNicknames_Female[18]="Затаившаяся"
+RandomNicknames_Female[19]="Дракон"
+RandomNicknames_Female[20]="Гидра"
+RandomNicknames_Female[21]="Охотница"
+RandomNicknames_Female[22]="Ловец"
+
+PhotoboothSoloBLines_Female[0]="Смерть издалека"
+PhotoboothSoloBLines_Female[1]="Давай, беги. Ты просто умрешь уставшим."
+PhotoboothSoloBLines_Female[2]="Королева смертоубийств"
+PhotoboothSoloBLines_Female[3]="Ровно между инопланетных ушей"
+PhotoboothSoloBLines_Female[4]="Она чувствует разве что отдачу"
+PhotoboothSoloBLines_Female[5]="Один выстрел - один труп."
+PhotoboothSoloBLines_Female[6]="Дело мастера боится."
+PhotoboothSoloBLines_Female[7]="Сладки плоды терпения."
+PhotoboothSoloBLines_Female[8]="Результат гарантирован."
+PhotoboothSoloBLines_Female[9]="Экономьте пули, дайте работать вайперу."
+PhotoboothSoloBLines_Female[10]="Будь оружием."
+
+[X2Photobooth]
++m_arrAnimationPoses=(AnimationDisplayName="Вайпер 1")
++m_arrAnimationPoses=(AnimationDisplayName="Обнаженные клыки")
