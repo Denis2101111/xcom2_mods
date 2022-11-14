@@ -1,0 +1,14 @@
+[UISL_WeaponUpgradeListener]
+m_strStripUpgrades=ДЕЛАЕТ ОБНОВЛЕНИЯ ДОСТУПНЫМИ
+m_strStripUpgradesTooltip=Удалить все улучшения оружия из основного оружия, которым не оснащены солдаты, выбранные для выполнения текущей миссии.
+m_strStripUpgradesConfirm=ПОДТВЕРЖДЕНИЕ НАЛИЧИЯ ОБНОВЛЕНИЙ ОРУЖИЯ
+m_strStripUpgradesConfirmDesc=Подтвердите удаление всех улучшений оружия из всех основных видов оружия, не оснащенных солдатами для выполнения текущей миссии. Эти улучшения оружия станут доступны немедленно.
+
+[NewWeapUpgradeItem]
+m_strDropUpgrade=Убрать улучшение
+m_strCannotDropUpgrade=Исследование взаимозаменяемых улучшений, необходимых для удаления улучшений оружия
+m_strError=ERROR
+
+[UISL_ImplantsRemoval]
+mStr_RemoveImplantLabel=Убрать PCS
+mStr_NeedBreakthrough=Требуется исследование адаптивных персональных боевых PCS

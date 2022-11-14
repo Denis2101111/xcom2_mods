@@ -1,0 +1,47 @@
+[SectoidAbjurer_M1 X2CharacterTemplate]
+strCharacterName="<font color='#cf5cd1'>Сектоид-отступник</font>"
+strAcquiredText="<font color='#cf5cd1'>Сектоиды-отступники</font> используют вспомогательные пси-способности, а также бросают светошумовые гранаты."
+
+[SectoidAbjurer_M2 X2CharacterTemplate]
+strCharacterName="<font color='#cf5cd1'>Сектоид-отступник Адепт</font>"
+strAcquiredText="<font color='#cf5cd1'>Сектоиды-отступники</font> используют вспомогательные пси-способности, а также бросают светошумовые гранаты."
+
+[SectoidAbjurer_M3 X2CharacterTemplate]
+strCharacterName="<font color='#cf5cd1'>Сектоид-отступник Магистр</font>"
+strAcquiredText="<font color='#cf5cd1'>Сектоиды-отступники</font> используют вспомогательные пси-способности, а также бросают светошумовые гранаты."
+
+[SectoidAbjurerGunM1 X2WeaponTemplate]
+FriendlyName="Бластер Сектоида-отступника"
+TacticalText = "<bullet/> Стрельба из основного оружия всегда завершает ход."
+BriefSummary = "Стандартный бластер для сектоида-отступника. Это предназначено просто как резервное оружие, если он не сможет использовать свои пси-способности."
+AbilityDescName="бластер"
+
+[SectoidAbjurerGunM2 X2WeaponTemplate]
+FriendlyName="Бластер Сектоида-отступника"
+TacticalText = "<bullet/> Стрельба из основного оружия всегда завершает ход."
+BriefSummary = "Стандартный бластер для сектоида-отступника. Это предназначено просто как резервное оружие, если он не сможет использовать свои пси-способности."
+AbilityDescName="бластер"
+
+[SectoidAbjurerGunM3 X2WeaponTemplate]
+FriendlyName="Бластер Сектоида-отступника"
+TacticalText = "<bullet/> Стрельба из основного оружия всегда завершает ход."
+BriefSummary = "Стандартный бластер для сектоида-отступника. Это предназначено просто как резервное оружие, если он не сможет использовать свои пси-способности."
+AbilityDescName="бластер"
+
+[SectoidAbjurer_Amp_M1 X2WeaponTemplate]
+FriendlyName="Пси-усилитель Сектоида-отступника"
+TacticalText = "<bullet/> По сути действует как книга заклинаний Сектоида-отступника. Не повышает Пси-силы, а только дает способности."
+BriefSummary = "По сути действует как книга заклинаний Сектоида-отступника. Не повышает Пси-силы, а только дает способности."
+AbilityDescName="пси-усилитель"
+
+[SectoidAbjurer_Amp_M2 X2WeaponTemplate]
+FriendlyName="Пси-усилитель Сектоида-отступника"
+TacticalText = "<bullet/> По сути действует как книга заклинаний Сектоида-отступника. Не повышает Пси-силы, а только дает способности."
+BriefSummary = "По сути действует как книга заклинаний Сектоида-отступника. Не повышает Пси-силы, а только дает способности."
+AbilityDescName="пси-усилитель"
+
+[SectoidAbjurer_Amp_M3 X2WeaponTemplate]
+FriendlyName="Пси-усилитель Сектоида-отступника"
+TacticalText = "<bullet/> По сути действует как книга заклинаний Сектоида-отступника. Не повышает Пси-силы, а только дает способности."
+BriefSummary = "По сути действует как книга заклинаний Сектоида-отступника. Не повышает Пси-силы, а только дает способности."
+AbilityDescName="пси-усилитель"
