@@ -1,0 +1,12 @@
+[mod]
+publishedFileId=1676935138
+Title=Configurable Chosen Weapons Upgrades
+Description=This mod lets you configure which weapon upgrade to attach to the Chosen Weapons.
+
+The only default change I made here is for the Sniper. Instead of a Stock I have put the Expanded Magazine.
+
+Changes are made in GameData_WeaponData.ini
+RequiresXPACK=true
+tags= Gameplay, War Of The Chosen
+contentImage=
+

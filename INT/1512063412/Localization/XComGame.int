@@ -1,0 +1,26 @@
+[BeowulfRifle_CV X2WeaponTemplate]
+FriendlyName="Beowulf Rifle"
+FriendlyNamePlural="Beowulf Rifles"
+BriefSummary="A standard Assault Rifle converted to chamber .50 Beowulf cartridges, it deals significantly more damage and has excellent anti-armor properties, but this comes at a cost to magazine capacity and effective range."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Beowulf Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[BeowulfRifle_MG X2WeaponTemplate]
+FriendlyName="Mag Beowulf Rifle"
+FriendlyNamePlural="Mag Beowulf Rifles"
+BriefSummary="A high caliber variant of our standard Magnetic Rifle. It is supplied with extra magnetic coils and anti-armor tungsten slugs. Higher power draw from extra coils means the weapon must be reloaded more often, and anti-aerodynamic shape of the slugs reduces the effective range."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Beowulf Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[BeowulfRifle_BM X2WeaponTemplate]
+FriendlyName="Beam Beowulf Rifle"
+FriendlyNamePlural="Beam Beowulf Rifles"
+BriefSummary="An overclocked variant of our standard Plasma Rifle, it draws additional power from the alien power source to forcibly supercool the plasma projection chamber, allowing it to operate at clock rates that would be otherwise beyond tolerance levels of the alien alloy casing. Additional power draw requires more frequent battery replacements, and supercharged plasma remains stable for a shorter amount of time, resulting in reduced effective range."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Beowulf Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[BeowulfPlasmaDischarge X2AbilityTemplate]
+LocFriendlyName="Plasma Discharge"
+LocHelpText="Fire a superheated plasma beam to damage enemies in a line and destroy their cover. This ability can miss."
+LocLongDescriptionWhenConcealed="Fire a superheated plasma beam to damage enemies in a line and destroy their cover. This ability can miss."
+LocFlyOverText="Plasma Discharge"

@@ -1,0 +1,10 @@
+[UIScreenlistenerMCM_LEBLGSR]
+strModTitle="LEB's Lategame Enemies"
+strPageTitle="LEB's Lategame Enemies"
+strSettingsTitle="General Settings"
+strMCMVenator="Enable Venator"
+strMCMRiftkeeper="Enable Riftkeeper"
+strMCMTT="Already spawned missions may not be affected by changes to this setting."
+strMCMSitRep="Enable SitRep \"The Hunt\""
+strMCMSchedule="Enable additional pods on story missions"
+strMCMScheduleTT="Needs a game restart for changes to take effect"
