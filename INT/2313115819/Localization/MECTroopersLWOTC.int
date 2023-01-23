@@ -19,7 +19,7 @@ m_strEmptyListLabels[eUIPersonnel_Soldiers]="NO AUGMENTATION CANDIDATES"
 
 [UIFacility_MecAugmentationSlot]
 m_strAugmentSoldierDialogTitle="AUGMENT SOLDIER"
-m_strAugmentSoldierDialogText="<XGParam:StrValue0/!UnitName/> can undergo specialized surgery to become a MEC Trooper, replacing their previous class at the cost of <XGParam:IntValue0/> supplies and <XGParam:IntValue1/> elerium core(s). This process is irreversible once started. Do you wish to proceed?"
+m_strAugmentSoldierDialogText="<XGParam:StrValue0/!UnitName/> can undergo specialized surgery to become a MEC Trooper, replacing their previous class at the cost of <XGParam:IntValue0/> supplies, <XGParam:IntValue1/> elerium core(s), and <XGParam:IntValue2/> crystallized meld. This process is irreversible once started. Do you wish to proceed?"
 m_strNoSoldiersTooltip="There are no soldiers available for MEC Trooper Augmentation"
 m_strSoldiersAvailableTooltip="Augment a soldier to become a MEC Trooper"
 

@@ -148,6 +148,9 @@ TransposeDefenseEffectName="Switch Gaurd"
 TransposeDefenseEffectDesc="Gain <Ability:MZTransposeDefenseBonus/> Defense until the start of the next turn."
 SocialDynamoEffectName="Social Dynamo"
 
+[X2DownloadableContentInfo_MitzrutiPerkPack]
+sNotEnoughHP="Not enough health."
+
 [MZZFocus_AbilitySet]
 FlameFocus_Label = "Flame Mana"
 FlameFocus_Tooltip = "Gained by killing foes with abilities that do not cost Mana."

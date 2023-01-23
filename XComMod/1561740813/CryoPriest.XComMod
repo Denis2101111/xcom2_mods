@@ -2,6 +2,23 @@
 publishedFileId=1561740813
 Title=CryoPriest
 Description=Adds the Cryo Priest enemy from A Better DLC as a standalone unit, it does not depend on A Better Advent like the original mod does. (Although that doesn't mean you can't use it alonside this mod)
+
+It still has the Better AI changes from the original mod and is not scaled down to "vanilla" levels.
+
+Lore: 
+
+tags=
+contentImage=
+[code] "The Cryo Priest, this is what happens to the standard ADVENT Priest when, for whatever reason, they lose their psionic powers. They are given special Flamethrowers that have the standard incendiary fuel replaced with a type of mysterious chemical that's so cold that it burns and causes the ground to burst into flames. Anyone that gets frozen by one of these will be riddled with frostbite and will quickly need medical treatment before the effects get more severe. Trust me, I've seen what happens to people who don't receive treatment, and it's probably worse than just getting shot and killed by an ADVENT Trooper’s Mag Rifle. The Cryo Priests are also armed with the standard ADVENT pistol and frost bombs that I suspect our own was designed after. As for their role in the ADVENT Coalition overall? To either keep enemies frozen while other units execute them or to immobilize them for capture, although the latter behavior is much more rare and unlikely to be seen in combat."[/code]
+
+
+I would like to thank the following people who helped me out on my journy for creating this port including:
+Original author: DerBK
+Σ3245
+Robojumper
+NotSoLoneWolf
+bloodsplatBOOM: Lore tab inprovements
+
 tags= Alien, War of the Chosen
 RequiresXPACK=true
 

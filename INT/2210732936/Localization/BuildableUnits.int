@@ -69,3 +69,7 @@ ResistanceMecLastNamePrefix="000"
 [XGCharacterGenerator_MilitaryGatlingMec]
 ResistanceMecFirstName="OMEGA-"
 ResistanceMecLastNamePrefix="000"
+
+[XGCharacterGenerator_ChryssalidHound]
+ResistanceMecFirstName="FENRIR-"
+ResistanceMecLastNamePrefix="000"
