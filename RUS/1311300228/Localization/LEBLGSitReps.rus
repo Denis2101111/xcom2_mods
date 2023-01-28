@@ -1,0 +1,11 @@
+[UIScreenlistenerMCM_LEBLGSR]
+strModTitle="LEB's Lategame Enemies"
+strPageTitle="LEB's Lategame Enemies"
+strSettingsTitle="Основные настройки"
+strMCMVenator="Включить Венаторов"
+strMCMRiftkeeper="Включить Хранителя врат"
+strMCMTT="Изменение этого параметра не может повлиять на уже активные миссии."
+strMCMSitRep="Включить ситреп \"Охота\""
+strMCMSchedule="Активировать дополнительных врагов в сюжетных миссиях"
+strMCMScheduleTT="Требуется перезайти в игру, что бы изменения вступили в силу"
+
