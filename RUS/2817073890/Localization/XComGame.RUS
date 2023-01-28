@@ -65,11 +65,52 @@ UnknownWeaponCategory="Аэрозоль"
 BriefSummary="Выпускает небольшой конус легколетучего газа, который имеет высокий шанс вывести цель из строя на ход."
 TacticalText="<Bullet/> Выпускает небольшой конус легколетучего газа, который имеет высокий шанс вывести цель из строя на ход. \n<Bullet/> Заряды: <font color='#5CD16C'>3</font>.\n<Bullet/> Не может оглушить механические цели.\n<Bullet/> Эффективность: <font color='#ff9100'>80%</font>."
 
+
+[SavHandFlamer X2WeaponTemplate]
+FriendlyName="Ручной огнемет"
+FriendlyNamePlural="Ручные огнеметы"
+UnknownUtilityCategory="Распылитель"
+UnknownWeaponCategory="Распылитель"
+BriefSummary="Выбрасывает небольшой конус пламени, который сжигает целевую область и поджигает врагов в целевой области."
+TacticalText="<Bullet/> Выбрасывает небольшой конус пламени, который сжигает целевую область и поджигает врагов в целевой области."
+
+[SavSkunkSpray X2WeaponTemplate]
+FriendlyName="Скунс-спрей"
+FriendlyNamePlural="Скунс-спреи"
+UnknownUtilityCategory="Распылитель"
+UnknownWeaponCategory="Распылитель"
+BriefSummary="Аэрозоли скрывают облако токсичного газа, который отравит и дезориентирует врагов в намеченной области. Ядовитое облако сохранится в течение некоторого времени."
+TacticalText="<Bullet/> Спреи скрывают облако токсичного газа, который отравит и дезориентирует врагов в намеченной области. \n<Bullet/> Ядовитое облако сохранится в течение некоторого времени.\n<Bullet/> Дезориентирующий имеет эффективность в 35%."
+
+[SavAcidJet X2WeaponTemplate]
+FriendlyName="Ядовитый спрей"
+FriendlyNamePlural="Ядовитые спреи"
+UnknownUtilityCategory="Распылитель"
+UnknownWeaponCategory="Распылитель"
+BriefSummary="Распыляет узкую коническую струю едкой кислоты, загрязняет пораженную область, вызывая разрывы и кислотный ожог пораженных целей.."
+TacticalText="<Bullet/> Распыляет узкую коническую струю едкой кислоты, загрязняет пораженную область, вызывая разрывы и кислотный ожог пораженных целей.."
+
+[SavStimGun X2WeaponTemplate]
+FriendlyName="Боевые стимуляторы"
+FriendlyNamePlural="Боевые стимуляторы"
+UnknownUtilityCategory="Медицина"
+UnknownWeaponCategory="Медицина"
+BriefSummary="Вводит мощный коктейль лекарств, который может быть использован для усиления решимости солдата. Частое использование может привести к ухудшению состояния в долгосрочной перспективе."
+TacticalText="<Bullet/> Стреляет дротиком, заряженным мощным коктейлем боевых наркотиков, увеличивает скорость передвижения и шанс критического удара\n<Bullet/> Восстанавливает волю и избавляет от боевого безумия и контроля над разумом. \n<Bullet/> Восстанавливает волю и избавляет от боевого безумия и контроля над разумом.\n<Bullet/> Снижается воля на пункт у бойца (эффект постоянный)."
+
+[SavStimGun2 X2WeaponTemplate]
+FriendlyName="Боевые стимуляторы продвинутые"
+FriendlyNamePlural="Боевые стимуляторы продвинутые"
+UnknownUtilityCategory="Медицина"
+UnknownWeaponCategory="Медицина"
+BriefSummary="Улучшенная версия наших боевых стимуляторов, может похвастаться дополнительным баком стима, улучшенной дальностью стрельбы и точностью. Прививает цель улучшенным коктейлем лекарств, которые могут быть использованы для усиления решимости биологической единицы. Частое использование может привести к ухудшению состояния в долгосрочной перспективе."
+TacticalText="<Bullet/> Стреляет дротиком, заряженным улучшенным коктейлем боевых лекарств, с большим и более длительным усилением движения и шанса на критический удар.\n<Bullet/> Восстанавливает больше воли и избавляет от боевого безумия и контроля над разумом.\n<Bullet/> Увеличенный радиус действия и дополнительный заряд.\n<Bullet/> Восстанавливает волю и избавляет от боевого безумия и контроля над разумом.\n<Bullet/> Снижается воля на пункт у бойца (эффект постоянный)."
+
 [TacticalUplinkScanner X2WeaponTemplate]
-FriendlyName="<font color='#5cd1d1'>ТВЛС-сканер</font>"
-FriendlyNamePlural="<font color='#5cd1d1'>ТВЛС-сканеры</font>"
-BriefSummary="Тактический сканер восходящей линии связи(ТВЛС-сканер), когда он развернут, сканирует непосредственную область, помечая союзников и врагов. Собранные данные немедленно загружаются на сервера Мстителя через передающие антенны Подстрекателя. Эта подробная тактическая информация бесценна как для войск, так и для командного состава, улучшая защиту союзников и уменьшая ее для врагов."
-TacticalText="<Bullet/>"Тактический сканер восходящей линии связи, когда он развернут, сканирует непосредственную область, помечая союзников и врагов."\n<Bullet/>Эффект от пометки зависит от того, является ли помеченный субьект другом или врагом и длится <font color='#ff9100'>2</font> хода.\n<Bullet/>По союзникам становится труднее попасть врагам и нанести критический урон.\n<Bullet/>По противникам стало легче попасть и наносить критический урон."
+FriendlyName="<font color='#5cd1d1'>Сканер так.-сети</font>"
+FriendlyNamePlural="<font color='#5cd1d1'>Сканеры тактической сети</font>"
+BriefSummary="Сканер тактической сети, когда развернут сканирует непосредственную область, помечая союзников и врагов. Собранные данные немедленно загружаются на сервера Мстителя через передающие антенны Подстрекателя. Эта подробная тактическая информация бесценна как для войск, так и для командного состава, улучшая защиту союзников и уменьшая ее для врагов."
+TacticalText="<Bullet/>"Сканер тактической сети, когда развернут сканирует непосредственную область, помечая союзников и врагов."\n<Bullet/>Эффект от пометки зависит от того, является ли помеченный субьект другом или врагом и длится <font color='#ff9100'>2</font> хода.\n<Bullet/>По союзникам становится труднее попасть врагам и нанести критический урон.\n<Bullet/>По противникам стало легче попасть и наносить критический урон."
 
 [CommandDesignator_CV X2WeaponTemplate]
 FriendlyName="<font color='#5cd1d1'>Целеуказатель</font>"
@@ -338,8 +379,8 @@ BriefSummary="Позволяет оперативнику носить тяжелое тяжелое оружие, механически 
 TacticalText="<Bullet/> Предоставляет тяжелое оружие за счет <font color='#cc2424'>-10%</font> мобильности.\n<Bullet/>Это тяжелое оружие можно носить в дополнение к любому другому тяжелому оружию, предоставленному броней или навыками.\n<Bullet/>При использовании RPGO эта модификация брони будет уменьшить штрафы за ношение пушки в качестве основного оружия.\n<Bullet/> Одновременно может быть надет только один элемент Модульной Брони."
 
 [TacUplinkOverlay X2EquipmentTemplate]
-FriendlyName="<font color='#5cd1cd'>МодБ: Тактический канал связи</font>"
-FriendlyNamePlural="<font color='#5cd1cd'>МодыБ: Тактических каналов связи</font>"
+FriendlyName="<font color='#5cd1cd'>МодБ: Канал тактической сети</font>"
+FriendlyNamePlural="<font color='#5cd1cd'>МодыБ: Канал тактической сети</font>"
 UnknownUtilityCategory="bplating"
 BriefSummary="Эта модификация брони включает в себя ряд модулей слежения за целями и каналы связи, позволяющие пользователю отмечать своих и чужих на поле боя"
 TacticalText="<Bullet/> Обеспечивает возможность многоразового тактического сканирования за счет некоторой мобильности, уклонения и скрытности.\n<Bullet/> Одновременно может быть надет только один элемент Модульной Брони."
@@ -499,6 +540,22 @@ FriendlyNamePlural="Анима Щит"
 BriefSummary="Как и Щит Разума, Щит Анимы делает владельца полностью невосприимчивым к любым негативным психическим состояниям, включая панику, контроль сознания, оглушение и дезориентацию. Кроме того, Анима-щит настраивает и усиливает Псионическое поле владельца, повышая его псионическую атаку и давая ему 3 HP Щита."
 TacticalText="<Bullet/> Солдат, несущий Щит Анимы, невосприимчив к любым негативным психическим эффектам, таким как дезориентация, оглушение, паника и контроль над разумом.\n<Bullet/> Анима-щит усиливает Псионическую атаку владельца и обеспечивает 3 HP Щита.\n<Bullet/> Обратите внимание, что любые псионические атаки, наносящие прямой урон, не блокируются Анима-щитом."
 
+[SavRationBar X2WeaponTemplate]
+FriendlyName="Ration Bars"
+FriendlyNamePlural="Ration Bars"
+UnknownUtilityCategory="пайки"
+UnknownWeaponCategory="пайки"
+BriefSummary="Хотя наш персонал в значительной степени сыт по горло однообразием употребления этих блюд. Хотя вкус и текстура оставляют желать лучшего, они обеспечивают наших солдат всем необходимым для продолжения боевых действий, особенно при длительном развертывании. Употребление одного из них во время миссии обеспечит небольшой прирост производительности и немного восстановит здоровье в течение нескольких ходов."
+TacticalText="<Bullet/> Мнгновенно восстанавливает 3 воли.\n<Bullet/> Восстанавливает 1 HP за ход и и повышет волю, уклонение, мобильность на 3 хода.\n<Bullet/> Бесплатное действие с перезарядкой в 2 хода, хотя эффекты складываются.\n<Bullet/> Начинка, если немного картона, как."
+
+[SavCOREBar X2WeaponTemplate]
+FriendlyName="CORE Bars"
+FriendlyNamePlural="CORE Bars"
+UnknownUtilityCategory="пайки"
+UnknownWeaponCategory="пайки"
+BriefSummary="В раннюю эпоху после вторжения огромное количество людей нуждалось в источнике пищи, поскольку захватчики переделывали мировую экономику. ЯДРО было вездесущим продуктом питания этой первой волны адвентистского производства. Предположительно, он включает в себя все, что нужно организму, и был популярной частью диеты после вторжения. Употребление одного из них во время миссии повысит производительность и немного восстановит здоровье в течение нескольких ходов, с вероятностью некоторых побочных эффектов."
+TacticalText="<Bullet/> Мнгновенно восстанавливает 5 воли.\n<Bullet/> Восстанавливает 1 HP за ход и и повышет волю, уклонение, мобильность на 4 хода. Уменьшает беспокойство (и воля персонажа остается) постоянно.\n<Bullet/> Бесплатное действие с перезарядкой в 2 хода, хотя эффекты складываются.\n<Bullet/> Для тех, кто вырос на нем, это комфортная еда, для посторонних - инструмент контроля над рождаемостью."
+
 ===ABILITY===
 [БроситьExplosiveCharge X2AbilityTemplate]
 LocFriendlyName="Бросить заряд "
@@ -582,24 +639,24 @@ LocHelpText="Эти снаряды изменят свою траекторию, чтобы нанести максимальный уро
 LocLongDescription="Эти снаряды корректируют свою траекторию, чтобы нанести максимальный урон вскрытым целям. Это приведет к тому, что вскрытые цели станут более уязвимыми для критических попаданий и получат дополнительный критический урон."
 
 [SmartRoundsTargetMarked X2AbilityTemplate]
-LocFriendlyName="Целевые данные TacUplink"
-LocHelpText="Цели, отмеченные знаком Метка врага тактического сканера, будут намного легче поражаться / критиковаться, и у них будет меньше шансов уклониться."
-LocLongDescription="Цели, отмеченные знаком Метка врага тактического сканера, будут намного легче поражаться / критиковаться, и у них будет меньше шансов уклониться."
+LocFriendlyName="Метки тактической сети"
+LocHelpText="Цели, отмеченные знаком врага тактического сканера, будут намного легче поражаться / больше шанс критического удара и у них будет меньше шансов уклониться."
+LocLongDescription="Цели, отмеченные знаком врага тактического сканера, будут намного легче поражаться / больше шанс критического удара и у них будет меньше шансов уклониться."
 
 [SmartRoundsMarkTargetMarked X2AbilityTemplate]
-LocFriendlyName="Целевые данные TacUplink"
-LocHelpText="Цели, отмеченные меткой Target, будут намного легче поражаться / критиковаться, и вероятность уклонения будет меньше."
-LocLongDescription="Цели, отмеченные меткой Target, будут намного легче поражаться / критиковаться, и вероятность уклонения будет меньше."
+LocFriendlyName="Метки тактической сети"
+LocHelpText="Цели, отмеченные меткой тактической сети, будут намного легче поражаться / больше шанс критического удара, и вероятность уклонения будет меньше."
+LocLongDescription="Цели, отмеченные тактической сети, будут намного легче поражаться / больше шанс критического удара, и вероятность уклонения будет меньше."
 
 [SmartRoundsTargetHoloMarked X2AbilityTemplate]
 LocFriendlyName="Данные голографического прицеливания"
-LocHelpText="Цели, отмеченные голографическим наведением, будут намного легче поражаться / критиковаться, и у них будет меньше шансов уклониться."
-LocLongDescription="Цели, отмеченные голографическим наведением, будут намного легче поражаться / критиковаться, и у них будет меньше шансов уклониться."
+LocHelpText="Цели, отмеченные голографическим наведением, будут намного легче поражаться / больше шанс критического удара, и у них будет меньше шансов уклониться."
+LocLongDescription="Цели, отмеченные голографическим наведением, будут намного легче поражаться / больше шанс критического удара, и у них будет меньше шансов уклониться."
 
 [SmartRoundsTargetScanned X2AbilityTemplate]
 LocFriendlyName="Данные ручного сканера"
-LocHelpText="Цели, сканируемые с помощью сканеров приближения или поля, будут легче поражаться / критиковаться и с меньшей вероятностью уклоняться."
-LocLongDescription="Цели, сканируемые с помощью сканеров приближения или поля, будут легче поражаться / критиковаться и с меньшей вероятностью уклоняться."
+LocHelpText="Цели, сканируемые с помощью сканеров приближения или поля, будут легче поражаться / больше шанс критического удара и с меньшей вероятностью уклоняться."
+LocLongDescription="Цели, сканируемые с помощью сканеров приближения или поля, будут легче поражаться / больше шанс критического удара и с меньшей вероятностью уклоняться."
 
 [SavHotShotBonus X2AbilityTemplate]
 LocFriendlyName="Отличный бонус"
@@ -622,74 +679,74 @@ LocHelpText="Добавляет <font color='#5CD16C'>2</font> ОЗ владельцу."
 LocLongDescription="Добавляет <font color='#5CD16C'>2</font> ОЗ владельцу."
 
 [AModBonusSlotBlocker X2AbilityTemplate]
-LocFriendlyName="СлотМодовБрони"
+LocFriendlyName="Жилет-разгрузка"
 LocHelpText="Предоставляет дополнительный слот, в который можно экипировать большинство служебных предметов"
 LocLongDescription="Предоставляет дополнительный слот, в который можно экипировать большинство служебных предметов"
 
 [CeramicBolsterPlatingBonus X2AbilityTemplate]
-LocFriendlyName="Ceramic Plating"
-LocHelpText="Adds 2 Armour and 1 HP at the cost of mobility, dodge and detection radius."
-LocLongDescription="Adds 2 Armour and 1 HP at the cost of mobility, dodge and detection radius."
+LocFriendlyName="Керамическое покрытие"
+LocHelpText="Добавляет 2 брони и 1 HP за счет мобильности, уклонения и радиуса обнаружения."
+LocLongDescription="Добавляет 2 брони и 1 HP за счет мобильности, уклонения и радиуса обнаружения."
 
 [ArmourModXheavy X2AbilityTemplate]
-LocFriendlyName="Extremely Heavy Armour Mod"
-LocHelpText="This armour Mod is extremely heavy and substantialy reduces mobility and dodge while dramaticaly increasing the distance at which the soldier can be spoted."
-LocLongDescription="This armour Mod is extremely heavy and substantialy reduces mobility and dodge while dramaticaly increasing the distance at which the soldier can be spoted."
+LocFriendlyName="МодБ: Сверх тяжелая броня"
+LocHelpText="Этот мод брони чрезвычайно тяжелый и существенно снижает мобильность и уклонение, в то же время значительно увеличивая расстояние, на которое солдат может быть поражен."
+LocLongDescription="Этот мод брони чрезвычайно тяжелый и существенно снижает мобильность и уклонение, в то же время значительно увеличивая расстояние, на которое солдат может быть поражен."
 
 [ArmourModVheavy X2AbilityTemplate]
-LocFriendlyName="Very Heavy Armour Mod"
-LocHelpText="This armour Mod is very heavy and noticably reduces mobility and dodge while further increasing the distance at which the soldier can be spoted."
-LocLongDescription="This armour Mod is very heavy and noticably reduces mobility and dodge while further increasing the distance at which the soldier can be spoted."
+LocFriendlyName="МодБ: Сверх тяжелая броня"
+LocHelpText="Этот мод брони очень тяжелый и заметно снижает мобильность и уклонение, одновременно увеличивая расстояние, на которое солдат может быть поражен."
+LocLongDescription="Этот мод брони очень тяжелый и заметно снижает мобильность и уклонение, одновременно увеличивая расстояние, на которое солдат может быть поражен."
 
 [ArmourModHeavy X2AbilityTemplate]
-LocFriendlyName="Heavy Armour Mod"
-LocHelpText="This armour Mod is heavy and reduces mobility and dodge while increasing the distance at which the soldier can be spoted."
-LocLongDescription="This armour Mod is heavy and reduces mobility and dodge while increasing the distance at which the soldier can be spoted."
+LocFriendlyName="МодБ: Тяжелая броня"
+LocHelpText="Этот мод брони тяжелый и уменьшает мобильность и уклонение, одновременно увеличивая расстояние, на котором солдат может быть поражен."
+LocLongDescription="Этот мод брони тяжелый и уменьшает мобильность и уклонение, одновременно увеличивая расстояние, на котором солдат может быть поражен."
 
 [ArmourModCumbersome X2AbilityTemplate]
-LocFriendlyName="Cumbersome Armour Mod"
-LocHelpText="This armour Mod is bulky and reduces dodge while slightly increasing the distance at which the soldier can be spoted."
-LocLongDescription="This armour Mod is bulky and reduces dodge while slightly increasing the distance at which the soldier can be spoted."
+LocFriendlyName="МодБ: Тяжелая броня"
+LocHelpText="Этот мод брони громоздкий и уменьшает уклонение, немного увеличивая расстояние, на котором солдат может быть поражен."
+LocLongDescription="Этот мод брони громоздкий и уменьшает уклонение, немного увеличивая расстояние, на котором солдат может быть поражен."
 
 [ArmourModLight X2AbilityTemplate]
-LocFriendlyName="Lightweight Armour Mod"
-LocHelpText="Streamlines the armour of the wearer, increasing thier mobility and dodge, while reducing the distance at which the soldier can be spotted. However this comes at the cost of one utility slot."
-LocLongDescription="Streamlines the armour of the wearer, increasing thier mobility and dodge, while reducing the distance at which the soldier can be spotted. However this comes at the cost of one utility slot."
+LocFriendlyName="МодБ: Легкая броня"
+LocHelpText="Упрощает доспехи владельца, увеличивая его мобильность и уклоняемость, одновременно уменьшая расстояние, на котором солдат может быть замечен. Однако это происходит за счет одного служебного слота."
+LocLongDescription="Упрощает доспехи владельца, увеличивая его мобильность и уклоняемость, одновременно уменьшая расстояние, на котором солдат может быть замечен. Однако это происходит за счет одного служебного слота."
 
 [WebbingOverlayBonus X2AbilityTemplate]
-LocFriendlyName="Expanded Webbing"
-LocHelpText="Grants an extra Utility slot at the cost of 2 mobility and 5 defence."
-LocLongDescription="Grants an extra Utility slot at the cost of 2 mobility and 5 defence."
+LocFriendlyName="МодБ: Расширение разгрузки"
+LocHelpText="Предоставляет дополнительный слот за счет 2 мобильности и 5 защиты."
+LocLongDescription="Предоставляет дополнительный слот за счет 2 мобильности и 5 защиты."
 
 [GBandolierBonus X2AbilityTemplate]
-LocFriendlyName="Grenade Bandolier"
-LocHelpText="Provides an extra use of frag, alien, smoke, underbarrel, AP, molotov and flash grenades and an extra frag grenade, at the cost of some mobility and dodge."
-LocLongDescription="Provides an extra use of frag, alien, smoke, underbarrel, AP, molotov and flash grenades and an extra frag grenade, at the cost of some mobility and dodge."
+LocFriendlyName="МодБ: Патронташ для гранаты"
+LocHelpText="Обеспечивает дополнительное использование осколочных, чужеродных, дымовых, подствольных, АП, гранат Молотова и светошумовых гранат, а также дополнительной осколочной гранаты за счет некоторой мобильности и уклонения.."
+LocLongDescription="Обеспечивает дополнительное использование осколочных, чужеродных, дымовых, подствольных, АП, гранат Молотова и светошумовых гранат, а также дополнительной осколочной гранаты за счет некоторой мобильности и уклонения.."
 
 [AssaultOverlayBonus X2AbilityTemplate]
-LocFriendlyName="Assault Gear"
-LocHelpText="Provides 4 ablative HP armour and 15% crit resistance. Provides an extra flashbang for each one carried."
-LocLongDescription="Provides 4 ablative HP armour and 15% crit resistance. Provides an extra flashbang for each one carried."
+LocFriendlyName="МодБ: Штурмовое снаряжение"
+LocHelpText="Добавляет 4 щита и 15% сопротивления критическому урону. Добавляет светошумовую гранату."
+LocLongDescription="Добавляет 4 щита и 15% сопротивления критическому урону. Добавляет светошумовую гранату."
 
 [MedicalOverlayBonus X2AbilityTemplate]
-LocFriendlyName="Медицинский Gear"
-LocHelpText="Provides an extra utility slot for medical equipment and an extra use of Medpack, Medkit, or NanoMedkit for each one carried."
-LocLongDescription="Provides an extra utility slot for medical equipment and an extra use of Medpack, Medkit, or NanoMedkit for each one carried."
+LocFriendlyName="МодБ: Мед-снаряжение"
+LocHelpText="Обеспечивает дополнительный отсек для медицинского оборудования и дополнительное использование медицинского предмета."
+LocLongDescription="Обеспечивает дополнительный отсек для медицинского оборудования и дополнительное использование медицинского предмета."
 
 [EngeneeringAModBonus X2AbilityTemplate]
-LocFriendlyName="Engineering Gear"
-LocHelpText="The Engineering Armor Mod provides an operative with extra space for demolitions and repair equipment. Gain an extra charge for each Claymore, Proximity Mine, Explosive Charge and C4 for each of these items carried."
-LocLongDescription="The Engineering Armor Mod provides an operative with extra space for demolitions and repair equipment. Gain an extra charge for each Claymore, Proximity Mine, Explosive Charge and C4 for each of these items carried."
+LocFriendlyName="МодБ: Инженерное снаряжение"
+LocHelpText="Мод "Инженерная броня" предоставляет оперативнику дополнительное пространство для подрывов и ремонта оборудования. Получите дополнительный заряд за каждый Клеймор, бесконтактную мину, заряд взрывчатки и С4 за каждый из этих перевозимых предметов."
+LocLongDescription="Мод "Инженерная броня" предоставляет оперативнику дополнительное пространство для подрывов и ремонта оборудования. Получите дополнительный заряд за каждый Клеймор, бесконтактную мину, заряд взрывчатки и С4 за каждый из этих перевозимых предметов."
 
 [HazmatAModBonus X2AbilityTemplate]
-LocFriendlyName="Sealed Armor"
-LocHelpText="This AMod grants 2HP and provides immunity to fire, acid and all types of poison."
-LocLongDescription="This AMod grants 2HP and provides immunity to fire, acid and all types of poison."
+LocFriendlyName="МодБ: Защитное снаряжение"
+LocHelpText="Этот мод дает 2 HP и обеспечивает невосприимчивость к огню, кислоте и всем видам яда.."
+LocLongDescription="Этот мод дает 2 HP и обеспечивает невосприимчивость к огню, кислоте и всем видам яда.."
 
 [AlloyOverlayBonus X2AbilityTemplate]
-LocFriendlyName="Alloy Plating"
-LocHelpText="Adds 2 Armour and 2 HP."
-LocLongDescription="Adds 2 Armour and 2 HP."
+LocFriendlyName="МодБ: Подкладка из сплава"
+LocHelpText="Добавляет 2 брони и 2 HP."
+LocLongDescription="Добавляет 2 брони и 2 HP."
 
 [WalkerServoOverlayBonus X2AbilityTemplate]
 LocFriendlyName="Сервоприводы для ног"
@@ -702,165 +759,173 @@ LocHelpText="Дает <font color='#5CD16C'>1</font> очко действия только для движен
 LocLongDescription="Дает <font color='#5CD16C'>1</font> очко действия только для движения. Свободное действие. Перезарядка: <font color='#ff9100'>3</font> хода."
 
 [DevistatorOverlayBonus X2AbilityTemplate]
-LocFriendlyName="Devistator Armature"
-LocHelpText="Grants an additional Heavy Weapon slot."
-LocLongDescription="Grants an additional Heavy Weapon slot."
+LocFriendlyName="Крепление для тяжелого оружия"
+LocHelpText="Добавляет слот для тяжелого оружия."
+LocLongDescription="Добавляет слот для тяжелого оружия."
 
 [MagazineCarrierBonus X2AbilityTemplate]
-LocFriendlyName="More Magazines"
-LocHelpText="Each additional magazine you carry is doubled!"
-LocLongDescription="Each additional magazine you carry is doubled!"
+LocFriendlyName="Больше магазинов"
+LocHelpText="Количество носимой дополнительной обоймы удваивается!"
+LocLongDescription="Количество носимой дополнительной обоймы удваивается!"
 
 [TacuplinkMark X2AbilityTemplate]
-LocFriendlyName="TacUplink Mark"
-LocHelpText="Mark friendly or enemy units for with your Tactical Uplink Module."
-LocLongDescription="Mark friendly or enemy units for with your Tactical Uplink Module."
-LocFlyOverText="TacUplink" 
+LocFriendlyName="Метка тактической сети"
+LocHelpText="Помечает дружественные и вражеские цели с помощью модуля тактической сети."
+LocLongDescription="Помечает дружественные и вражеские цели с помощью модуля тактической сети."
+LocFlyOverText="Так-Сеть" 
 
 [MunitionsCarrierFreeload X2AbilityTemplate]
-LocFriendlyName="Rapid Reload"
-LocHelpText="Free reload of primary weapon."
-LocLongDescription="Free reload of primary weapon."
-LocFlyOverText="Rapid Reload" 
+LocFriendlyName="Быстрая перезарядка"
+LocHelpText="Бесплатная перезарядка основного оружия."
+LocLongDescription="Бесплатная перезарядка основного оружия."
+LocFlyOverText="Быстрая перезарядка" 
 
 [MunitionsCarrierBonus X2AbilityTemplate]
 LocFriendlyName="Munitions Storage"
-LocHelpText="Grants one additional use of most granades, explosives and heavy weapons."
-LocLongDescription="Grants one additional use of most granades, explosives and heavy weapons."
+LocHelpText="Дает одно дополнительное применение большинству гранат, взрывчатых веществ и тяжелого оружия."
+LocLongDescription="Дает одно дополнительное применение большинству гранат, взрывчатых веществ и тяжелого оружия."
 
 [PoweredOverlayBonus X2AbilityTemplate]
-LocFriendlyName="Powered Plating"
-LocHelpText="Adds 2 Armour and 3 HP."
-LocLongDescription="Adds 2 Armour and 3 HP."
+LocFriendlyName="МодБ: Силовое снаряжение"
+LocHelpText="Добавляет 2 брони и 3 HP."
+LocLongDescription="Добавляет 2 брони и 3 HP."
 
 [PoweredMeleeAModBonus X2AbilityTemplate]
-LocFriendlyName="Synthetic Exo-Musculature"
-LocHelpText="The Skullcrusher armor mod allows the wearer to exert a huge ammount of force in close combat. Melee attacks by the wearer now pierce 1 armor, have increased critical damage and critical chance and are harder to dodge. Conversely melee attacks against the wearer are less likely to crit and more likely to be dodged."
-LocLongDescription="The Skullcrusher armor mod allows the wearer to exert a huge ammount of force in close combat. Melee attacks by the wearer now pierce 1 armor, have increased critical damage and critical chance and are harder to dodge. Conversely melee attacks against the wearer are less likely to crit and more likely to be dodged."
+LocFriendlyName="МодБ: Синтетическая экзомускулатура"
+LocHelpText="Мод на броню позволяет владельцу применять огромное количество силы в ближнем бою. Атаки владельца в ближнем бою теперь пробивают 1 броню, увеличивают критический урон и критический шанс, и от них труднее уклоняться. И наоборот, атаки ближнего боя против владельца с меньшей вероятностью нанесут критический удар и с большей вероятностью будут отклонены."
+LocLongDescription="Мод на броню позволяет владельцу применять огромное количество силы в ближнем бою. Атаки владельца в ближнем бою теперь пробивают 1 броню, увеличивают критический урон и критический шанс, и от них труднее уклоняться. И наоборот, атаки ближнего боя против владельца с меньшей вероятностью нанесут критический удар и с большей вероятностью будут отклонены."
 
 [SavSkullcrusher X2AbilityTemplate]
 LocFriendlyName="Дробилка черепов"
-LocHelpText="Run at the target and deliver a crushing blow that will shred armor. Critical hits will substantially increase damage. The ability is free to use and has a three turn cooldown."
-LocLongDescription="Run at the target and deliver a crushing blow that will shred armor. Critical hits will substantially increase damage. The ability is free to use and has a three turn cooldown."
+LocHelpText="Бегите к цели и нанесите сокрушительный удар, который разнесет броню в клочья. Критические попадания существенно увеличат урон. Способность бесплатна в использовании и имеет время перезарядки в три хода."
+LocLongDescription="Бегите к цели и нанесите сокрушительный удар, который разнесет броню в клочья. Критические попадания существенно увеличат урон. Способность бесплатна в использовании и имеет время перезарядки в три хода."
 
 [SkullCrushingStrength X2AbilityTemplate]
-LocFriendlyName="Crushing Strength"
-LocHelpText="The wearer has their strength stat doubled."
-LocLongDescription="The wearer has their strength stat doubled."
+LocFriendlyName="Сила крушителя"
+LocHelpText="Удваивается показатель силы."
+LocLongDescription="Удваивается показатель силы."
 
 [SavReflexAccuracy X2AbilityTemplate]
-LocFriendlyName="Augmented reflexes"
-LocHelpText="The wearer has hightened reflexes and can hit reaction attacks more frequently."
-LocLongDescription="The wearer has hightened reflexes and can hit reaction attacks more frequently."
+LocFriendlyName="Усиленные рефлексы"
+LocHelpText="Владелец обладает повышенными рефлексами и может чаще наносить ответные удары."
+LocLongDescription="Владелец обладает повышенными рефлексами и может чаще наносить ответные удары."
 
 [SavReflexInterrupt X2AbilityTemplate]
-LocFriendlyName="Reflexive Interrupt"
-LocLongDescription="A powerful form of Overwatch. Instead of firing automatically, perform any single action. Requires 2 charges to use. Using this ability doesn't cost will but the unit must have more than 10 will to use it"
-LocHelpText="A powerful form of Overwatch. Instead of firing automatically, perform any single action. Requires 2 charges to use. Using this ability doesn't cost will but the unit must have more than 10 will to use it."
+LocFriendlyName="Рефлексы прерывания"
+LocLongDescription="Мощная форма режима наблюдения. Вместо автоматического срабатывания выполните любое одиночное действие. Для использования требуется 2 заряда. Использование этой способности не требует воли, но у юнита должно быть более 10 воли, чтобы использовать ее"
+LocHelpText="Мощная форма режима наблюдения. Вместо автоматического срабатывания выполните любое одиночное действие. Для использования требуется 2 заряда. Использование этой способности не требует воли, но у юнита должно быть более 10 воли, чтобы использовать ее."
 LocFlyOverText="Interrupt"
-LocPromotionPopupText="<Bullet/> Some actions are not available during Interrupt, like Overwatch.<br/><Bullet/> Using this ability does not drain will, but requires at least 10 will to use.<br/>"
+LocPromotionPopupText="<Bullet/> Некоторые действия недоступны во время прерывания, например, наблюдение.<br/><Bullet/> Использование этой способности не истощает волю, но требует, по крайней мере, 10 воли для использования.<br/>"
 
 [SavReflexInterruptInput X2AbilityTemplate]
-LocFriendlyName="Reflexive Interrupt"
-LocLongDescription="A powerful form of Overwatch. Instead of firing automatically, perform any single action. Requires 2 charges to use. Using this ability doesn't cost will but the unit must have more than 10 will to use it"
-LocHelpText="A powerful form of Overwatch. Instead of firing automatically, perform any single action. Requires 2 charges to use. Using this ability doesn't cost will but the unit must have more than 10 will to use it."
+LocFriendlyName="Рефлексы прерывания"
+LocLongDescription="Мощная форма режима наблюдения. Вместо автоматического срабатывания выполните любое одиночное действие. Для использования требуется 2 заряда. Использование этой способности не требует воли, но у юнита должно быть более 10 воли, чтобы использовать ее"
+LocHelpText="Мощная форма режима наблюдения. Вместо автоматического срабатывания выполните любое одиночное действие. Для использования требуется 2 заряда. Использование этой способности не требует воли, но у юнита должно быть более 10 воли, чтобы использовать ее."
 LocFlyOverText="Interrupt"
-LocPromotionPopupText="<Bullet/> Some actions are not available during Interrupt, like Overwatch.<br/><Bullet/> Using this ability does not drain will, but requires at least 10 will to use.<br/>"
+LocPromotionPopupText="<Bullet/> Некоторые действия недоступны во время прерывания, например, наблюдение.<br/><Bullet/> Использование этой способности не истощает волю, но требует, по крайней мере, 10 воли для использования.<br/>"
 
 [SavReflexiveAction X2AbilityTemplate]
-LocFriendlyName="Reflexive Action"
-LocLongDescription="Take an action after dashing. Requires 3 charges to use. Using this ability will cost 8 will and can not be used with less than 8 will."
-LocHelpText="Take an action after dashing. Requires 3 charges to use. Using this ability will cost 8 will and can not be used with less than 8 will."
-LocFlyOverText="Reflexive Action"
-LocPromotionPopupText="<Bullet/>Take an action after dashing. Requires 3 charges to use.<br/><Bullet/> Reflexive Action has a 1 turn cooldown.<br/><Bullet/>Using this ability will cost 8 will and can not be used with less than 8 will.<br/>"
+LocFriendlyName="Действие на рефлексах"
+LocLongDescription="Совершите действие после броска. Для использования требуется 3 заряда. Использование этой способности будет стоить 8 уилл и не может быть использовано менее чем с 8 воли."
+LocHelpText="Совершите действие после броска. Для использования требуется 3 заряда. Использование этой способности будет стоить 8 уилл и не может быть использовано менее чем с 8 воли."
+LocFlyOverText="Действие на рефлексах"
+LocPromotionPopupText="<Bullet/>Совершите действие после броска. Для использования требуется 3 заряда.<br/><Bullet/> Рефлексивное действие восстанавливается на 1 ход.<br/><Bullet/>Использование этой способности будет стоить 8 воли и не может быть использовано менее чем с 8 волей.<br/>"
 
 [SavReflexCharges X2AbilityTemplate]
-LocFriendlyName="Synthetic Twitch Muscle Fibres"
-LocHelpText="Generates a charge each turn shared by Reflexive Interrupt & Reflexive Action. Both abilities can be used for two charges. A maximum of 3 charges can be stored."
-LocLongDescription="Generates a charge each turn shared by Reflexive Interrupt & Reflexive Action. Both abilities can be used for two charges. A maximum of 3 charges can be stored."
+LocFriendlyName="Синтетические рефлексивные мышечные волокна"
+LocHelpText="Генерирует заряд каждый ход, разделяемый рефлексивным прерыванием и рефлексивным действием. Обе способности могут быть использованы для двух зарядов. Можно хранить максимум 3 заряда."
+LocLongDescription="Генерирует заряд каждый ход, разделяемый рефлексивным прерыванием и рефлексивным действием. Обе способности могут быть использованы для двух зарядов. Можно хранить максимум 3 заряда."
 
 [SavTeleportCharges X2AbilityTemplate]
-LocFriendlyName="Teleport Charges"
-LocHelpText="A charge generates every turn. Up to four charges can be stored at a time."
-LocLongDescription="A charge generates every turn. Up to four charges can be stored at a time."
+LocFriendlyName="Заряды телепорта"
+LocHelpText="Заряд генерируется на каждом ходу. Одновременно можно хранить до четырех зарядов."
+LocLongDescription="Заряд генерируется на каждом ходу. Одновременно можно хранить до четырех зарядов."
 
 [TeleportWillLoss X2AbilityTemplate]
-LocFriendlyName="Teleport Sickness"
-LocHelpText="Will is drained each time a unit uses the Portable Teleport AMod."
-LocLongDescription="Will is drained each time a unit uses the Portable Teleport AMod."
+LocFriendlyName="Болезнь телепортации"
+LocHelpText="Воля истощается каждый раз, когда юнит использует портативный телепортационный АМод."
+LocLongDescription="Воля истощается каждый раз, когда юнит использует портативный телепортационный АМод."
 
 [SavTeleportAbility X2AbilityTemplate]
-LocFriendlyName="Teleport"
-LocHelpText="Teleport to the target location. Uses 2 charges each time, 1 charge generates every two turns."
-LocLongDescription="Teleport to the target location. Uses 2 charges each time, 1 charge generates every two turns."
+LocFriendlyName="Телепорт"
+LocHelpText="Телепортируйтесь в целевое местоположение. Использует 2 заряда каждый раз, 1 заряд генерируется каждые два оборота."
+LocLongDescription="Телепортируйтесь в целевое местоположение. Использует 2 заряда каждый раз, 1 заряд генерируется каждые два оборота."
 
 [DreadnaughtOverlayBonus X2AbilityTemplate]
-LocFriendlyName="Dreadnaught Plating"
-LocHelpText="Grants 50% crit chance resistance, 4 Armour and 6 HP. Defence from cover is reduced by 75%."
-LocLongDescription="Grants 50% crit chance resistance, 4 Armour and 6 HP. Defence from cover is reduced by 75%."
+LocFriendlyName="МодБ: Покрытие дредноута"
+LocHelpText="Дает 50%-ное сопротивление шансу крита, 4 брони и 6 HP. Защита из укрытия уменьшена на 75%."
+LocLongDescription="Дает 50%-ное сопротивление шансу крита, 4 брони и 6 HP. Защита из укрытия уменьшена на 75%."
 
 [HeavyWeaponOverlayDebuff X2AbilityTemplate]
-LocFriendlyName="Heavy Weapon Augment"
-LocHelpText="The weight of the heavy weapon reduces mobility by 10%."
-LocLongDescription="The weight of the heavy weapon reduces mobility by 10%."
+LocFriendlyName="Вес тяжелого оружия"
+LocHelpText="Вес тяжелого оружия снижает мобильность на 10%."
+LocLongDescription="Вес тяжелого оружия снижает мобильность на 10%."
 
 [WraithOverlayBonus X2AbilityTemplate]
-LocFriendlyName="Wraith Phase Generator"
-LocHelpText="The Wraith Phase generator allows a trooper in wraith to move faster, and be harder to hit and even see while they are Phased. Activating Wraith will drain 5 will."
-LocLongDescription="The Wraith Phase generator allows a trooper in wraith to move faster, and be harder to hit and even see while they are Phased. Provides a percentage boost to mobilityand stealth, as well as 30 dodge while wraith is active. Activating Wraith will drain 5 will."
-LocFlyOverText="Enhanced Dimentional Phase" 
+LocFriendlyName="Генератор призрачной фазы"
+LocHelpText="Генератор фазы призрака позволяет солдату двигаться быстрее, его труднее поразить и даже увидеть, пока он находится в фазе. Активация фазы истощит 5 воли."
+LocLongDescription="Генератор фазы призрака позволяет солдату двигаться быстрее, его труднее поразить и даже увидеть, пока он находится в фазе. Активация фазы истощит 5 воли."
+LocFlyOverText="Расширенная фаза" 
 
 [ShieldOverShieldHP X2AbilityTemplate]
-LocFriendlyName="Shield Bolster"
-LocHelpText="Whenever the user activates the full cover generator abilities of either, the W.A.R. suit, or of their Balistic Shield they gain 3 temporary shield points until the beginning of the following turn."
-LocLongDescription="Whenever the user activates the full cover generator abilities of either, the W.A.R. suit, or of their Balistic Shield they gain 3 temporary shield points until the beginning of the following turn."
+LocFriendlyName="Подставка для щита"
+LocHelpText="Всякий раз, когда пользователь активирует способности генератора полного покрытия либо костюма W.A.R., либо своего Балистического щита, он получает 3 временных очка щита до начала следующего хода."
+LocLongDescription="Всякий раз, когда пользователь активирует способности генератора полного покрытия либо костюма W.A.R., либо своего Балистического щита, он получает 3 временных очка щита до начала следующего хода."
 
 [ShieldOverlayBonus X2AbilityTemplate]
-LocFriendlyName="Defence Field Source"
-LocHelpText="A Large backpack that allows an operative to Provide a boost to defence and damage reduction for nearby units, while providing and crit resistance and reducing defence for the user."
-LocLongDescription="Triggering the Defence Field provides 30 defence and 2 damage reduction to units within 8 tiles and -30 defence and 50% reduced crit vulnerability to the user, but the mental strain will slightly drian the user's will."
-LocFlyOverText="Defence Field" 
+LocFriendlyName="МодБ: Генератор защитного поля"
+LocHelpText="Большой рюкзак, который позволяет оперативнику повысить защиту и уменьшить урон для ближайших юнитов, обеспечивая при этом сопротивление криту и уменьшая защиту для пользователя."
+LocLongDescription="Большой рюкзак, который позволяет оперативнику повысить защиту и уменьшить урон для ближайших юнитов, обеспечивая при этом сопротивление криту и уменьшая защиту для пользователя."
+LocFlyOverText="Защитное поле" 
 
 [DefFieldOvelay X2AbilityTemplate]
-LocFriendlyName="Defence Field"
-LocHelpText="The Defence Field Generator extends a Defence Field to cover nearby units, units within 8 tiles gain 30 defence and 2 damage reduction for one turn."
-LocLongDescription="The Defence Field Generator extends a Defence Field to cover nearby units, units within 8 tiles gain 30 defence and 2 damage reduction for one turn."
-LocFlyOverText="Defence Field" 
+LocFriendlyName="Защитное поле"
+LocHelpText="Генератор защитного поля расширяет Защитное поле, чтобы охватить близлежащих юнитов, юниты в пределах 8 плиток получают 30 единиц защиты и 2 единицы уменьшения урона за один ход."
+LocLongDescription="Генератор защитного поля расширяет Защитное поле, чтобы охватить близлежащих юнитов, юниты в пределах 8 плиток получают 30 единиц защиты и 2 единицы уменьшения урона за один ход."
+LocFlyOverText="Защитное поле" 
 
 [SavTranquility X2AbilityTemplate]
-LocFriendlyName="Tranquility Generator"
-LocLongDescription="Makes the wearer immune to poison, bleed and negative mental states and emits a Tranquility Field. The wearer will loose 1 Will per turn and half their psi offense due to the stress of maintaining the field."
-LocHelpText="Makes the wearer immune to poison, bleed and negative mental states and emits a Tranquility Field. The wearer will loose 1 Will per turn and half their psi offense due to the stress of maintaining the field.
+LocFriendlyName="Генератор спокойствия"
+LocLongDescription="Делает владельца невосприимчивым к ядам, кровотечениям и негативным психическим состояниям и излучает поле спокойствия. Владелец потеряет 1 Волю за ход и половину своего пси-нападения из-за стресса, связанного с поддержанием поля."
+LocHelpText="Делает владельца невосприимчивым к ядам, кровотечениям и негативным психическим состояниям и излучает поле спокойствия. Владелец потеряет 1 Волю за ход и половину своего пси-нападения из-за стресса, связанного с поддержанием поля.
 
 [SavTranquilityClense X2AbilityTemplate]
-LocFriendlyName="Tranquility Field"
-LocLongDescription="Clears nearby units of negative mental effects, mind control and heals them of poison and bleeding, in addition 1 HP will be regenerated each turn."
-LocHelpText="Clears nearby units of negative mental effects, mind control and heals them of poison and bleeding, in addition 1 HP will be regenerated each turn."
+LocFriendlyName="Поле спокойствия"
+LocLongDescription="Очищает близлежащие юниты от негативных ментальных эффектов, контроля разума и исцеляет их от яда и кровотечения, кроме того, 1 HP будет восстанавливаться каждый ход."
+LocHelpText="Очищает близлежащие юниты от негативных ментальных эффектов, контроля разума и исцеляет их от яда и кровотечения, кроме того, 1 HP будет восстанавливаться каждый ход."
 
 [SavTranquilityPsiDrain X2AbilityTemplate]
-LocFriendlyName="Tranquility Field Mental Drain"
-LocLongDescription="Maintaining the Tranquility Field comes at a cost to the wearer, they will slowly loose will every turn and their Psi Offense is halved."
-LocHelpText="Maintaining the Tranquility Field comes at a cost to the wearer, they will slowly loose will every turn and their Psi Offense is halved."
+LocFriendlyName="Поле спокойствия Ментальная утечка"
+LocLongDescription="Поддержание поля Спокойствия обходится владельцу дорого, они будут медленно терять волю с каждым ходом, и их пси-атака уменьшается вдвое."
+LocHelpText="Поддержание поля Спокойствия обходится владельцу дорого, они будут медленно терять волю с каждым ходом, и их пси-атака уменьшается вдвое."
 
 [ActiveCamoStealth X2AbilityTemplate]
-LocFriendlyName="Active Camoflage"
-LocLongDescription="If there are no nearby enemies, immediately enter concealment once per mission."
-LocHelpText="If there are no nearby enemies, immediately enter concealment once per mission."
-LocFlyOverText="Active Camoflage"
+LocFriendlyName="Активный камуфляж"
+LocLongDescription="Если поблизости нет врагов, немедленно войдите в укрытие один раз за миссию."
+LocHelpText="Если поблизости нет врагов, немедленно войдите в укрытие один раз за миссию."
+LocFlyOverText="Активный камуфляж"
 
 [ActiveOptiCam X2AbilityTemplate]
-LocFriendlyName="Active Optical Camoflage"
-LocLongDescription="The shifting ghost like surface of the active camoflage system grants 10 defence and makes the wearer harder to spot while in stealth."
-LocHelpText="The shifting ghost like surface of the active camoflage system grants 10 defence and makes the wearer harder to spot while in stealth."
+LocFriendlyName="Активный оптический камуфляж"
+LocLongDescription="Подвижная призрачная поверхность активной камуфляжной системы обеспечивает защиту на 10 и затрудняет обнаружение владельца в режиме скрытности."
+LocHelpText="Подвижная призрачная поверхность активной камуфляжной системы обеспечивает защиту на 10 и затрудняет обнаружение владельца в режиме скрытности."
+
+[SavAdministerStims X2AbilityTemplate]
+LocFriendlyName="Управляемые боевые стимуляторы"
+LocHelpText="Травмы и исцеления на 1 л.с. Восстанавливает будет немедленно. Увеличивает шанс крита и мобильность на 3 хода. Очищает негативные психические состояния. Постоянно уменьшает волю на 1."
+
+[SavAdministerAdvStims X2AbilityTemplate]
+LocFriendlyName="Управляемые расширенные боевые стимуляторы"
+LocHelpText="Травмы и исцеления на 1 л.с. Восстанавливает будет немедленно. Увеличивает шанс крита и мобильность на 4 хода. Очищает негативные психические состояния. Постоянно уменьшает волю на 1."
 
 [MedipackHeal X2AbilityTemplate]
-LocFriendlyName="Medipack Heal"
-LocHelpText="Heal up to <Ability:MEDIPACK_PERUSEHP/> HP. Does not affect robotic allies.\n"
+LocFriendlyName="Мед-пакет исцеления"
+LocHelpText="Исцелить на <Ability:MEDIPACK_PERUSEHP/> HP. Не действует на роботов.\n"
 
 [MedipackStabilize X2AbilityTemplate]
-LocFriendlyName="Stabilize"
-LocHelpText="Stop a soldier from bleeding out."
-LocFlyOverText="Stabilized"
+LocFriendlyName="Стабилизировать"
+LocHelpText="Останавливает кровотечение"
+LocFlyOverText="Стабилизировано"
 
 [SavRegenSpray X2AbilityTemplate]
 LocFriendlyName="<font color='#ffffff'>Регенерирующий спрей</font>"
@@ -899,6 +964,18 @@ LocHelpText="Временно повышает способность цели к взлому. Можно несколько ссылок
 LocFriendlyName="Оглушающий Аэрозоль"
 LocHelpText="Временно оглушает органических противников в области действия."
 
+[SavHandFlamerAbility X2AbilityTemplate]
+LocFriendlyName="Ручной огнемет"
+LocHelpText="Поджигает целевую область и поджигает врагов, оказавшихся в зоне действия."
+
+[SavSkunkSprayAbility X2AbilityTemplate]
+LocFriendlyName="Спрей скунса"
+LocHelpText="Распылить облако ядовитого газа, которое загрязняет местность, отравляя и, возможно, дезориентируя все, что попадает в зону воздействия.."
+
+[SavAcidJetAbility X2AbilityTemplate]
+LocFriendlyName="Кислотная струя"
+LocHelpText="Выстрелите струей кислоты в область цели, распространяя кислоту и вызывая ожоги от клочьев и кислоты на всем, что попало в область цели."
+
 [TacticalScanner X2AbilityTemplate]
 LocFriendlyName="Развертывание ТВЛС-сканер"
 LocHelpText="Разверните тактический сканер восходящей линии связи, по союзникам с эффектом будет труднее попасть и нанести критический урон, а по врагам с эффектом будет легче. Эффект длится <font color='#ff9100'>два</font> хода."
@@ -923,7 +1000,7 @@ LocHelpText="Разверните беспилотник-охотник-убийца, чтобы найти и уничтожить цел
 LocFriendlyName="Метка командной тактической связи"
 LocHelpText="Пометьте дружественные или вражеские подразделения своим командным указателем."
 LocLongDescription="Отмечайте дружественные или вражеские подразделения своим командным указателем."
-LocFlyOverText="TacUplink"
+LocFlyOverText="Так-Сеть"
 
 [ComDesiMoveIt X2AbilityTemplate]
 LocFriendlyName="Двигайся!"
@@ -991,6 +1068,16 @@ LocHelpText="Партизанский АМод хорошо подходит для использования ножей в ближнем
 LocLongDescription="Партизанский АМод хорошо подходит для использования ножей в ближнем бою. Боевые ножи, Режущие ножи и Скрытые лезвия увеличили вероятность крита и урона. Модификации брони также защищают владельца от атак ближнего боя, обеспечивая 25% уклонения от ближнего боя"
 
 
+[SavEatRations X2AbilityTemplate]
+LocFriendlyName="Употребить батончик"
+LocHelpText="Борьба за свободу человеческой расы - это голодная работа. Восстановите волю. За 3 хода восстанавливайте HP и повышайте силу воли, уклонение и мобильность. Бесплатное действие с перезарядкой в 2 хода."
+LocLongDescription="Борьба за свободу человеческой расы - это голодная работа. Восстановите волю. За 3 хода восстанавливайте HP и повышайте силу воли, уклонение и мобильность. Бесплатное действие с перезарядкой в 2 хода."
+
+[SavEatCOREBar X2AbilityTemplate]
+LocFriendlyName="Употребить батончик"
+LocHelpText="Борьба за свободу человеческой расы - это голодная работа. Восстановите волю. За 4 хода восстанавливайте HP и повышайте HP, волю, уклонение и мобильность. Бесплатное действие с перезарядкой в 2 хода. Может надолго ослабить волю."
+LocLongDescription="Борьба за свободу человеческой расы - это голодная работа. Восстановите волю. За 4 хода восстанавливайте HP и повышайте HP, волю, уклонение и мобильность. Бесплатное действие с перезарядкой в 2 хода. Может надолго ослабить волю."
+
 +++++++++++++++++++++++++++++++++++++++
 ===========TECH AND PROJECTS===========
 +++++++++++++++++++++++++++++++++++++++
@@ -999,7 +1086,7 @@ LocLongDescription="Партизанский АМод хорошо подходит для использования ножей в 
 [TechPsionicFieldTheory X2TechTemplate]
 DisplayName="Теория псионического поля"
 Summary="Наши продолжающиеся исследования в развивающейся области псионики привели нас к новой теории, среди прочего, сознания, псионической энергии и того, что мы называем псионическими полями. Эта захватывающая новая область исследований таит в себе неисчислимые возможности и может революционизировать наше понимание самих себя и наших врагов."
-CodeName="Rorschach"
+CodeName="Роршах"
 LongDescription="[TechPsionicFieldTheory X2TechTemplate]
 DisplayName="Теория псионического поля"
 Резюме="Наши продолжающиеся исследования в развивающейся области псионики привели нас к новой теории, среди прочего, сознания, псионической энергии и того, что мы называем псионическими полями. Эта захватывающая новая область исследований таит в себе неисчислимые возможности и может революционизировать наше понимание самих себя и наших врагов".
@@ -1009,7 +1096,7 @@ DisplayName="Теория псионического поля"
 [AdvancedExperimentalAmmunitionConcepts X2TechTemplate]
 DisplayName="Усовершенствованные экспериментальные концепции боеприпасов"
 Summary="С недавним открытием технологии elerium мы считаем, что должна появиться возможность разработать новую линейку усовершенствованных типов боеприпасов. Хотя результаты этих исследований неопределенны, в результате мы, вероятно, увидим повышение эффективности оружия XCOM."
-CodeName="Bodkin"
+CodeName="Бодкин"
 LongDescription="Как гласит старая военная аксиома, лучшая защита - это сильное нападение. Это подтвердилось, и в тактических отчетах указывается, что быстрая и эффективная ликвидация вражеских комбатантов - это единственное, что имеет наибольшее значение для сокращения потерь наших сил. Хотя на данный момент у нас есть ряд усовершенствованных типов боеприпасов, к которым можно обратиться, как отмечалось ранее, использование технологии elerium открывает возможности для некоторых "существующих" разработок, которые ранее были вне нашей досягаемости. Хотя еще слишком рано говорить о том, какие дальнейшие успехи будут достигнуты, предлагается ряд многообещающих идей. Однако все, кроме одного, потребует Прорыва, чтобы полностью реализовать его как нечто, что мы действительно можем загрузить в оружие. Единственным исключением является патрон с оболочкой из сплава AAJ или Alien. Плазменные печи, работающие на элериуме, позволяют нам выплавлять Инопланетный сплав достаточно эффективно, чтобы его можно было использовать в производстве боеприпасов. Патроны AAJ теперь доступны для производства на Испытательном полигоне им. Р. Тигана."
 
 ===Breakthroughs===
@@ -1038,26 +1125,26 @@ Summary="Этот прорыв позволит производить усовершенствованные боеприпасы на Испы
 ===AMods===
 
 [BreakthroughTranquilityGen X2TechTemplate]
-DisplayName="Psionic Field Generators"
-Summary="With access to a sufficiently potent power supply this breakthrough will allow a Psionic Field Generator Armor Mod to be manufactured in the Proving Grounds."
+DisplayName="Генераторы псионического поля"
+Summary="Имея доступ к достаточно мощному источнику питания, этот прорыв позволит изготовить мод брони с генератором псионического поля на испытательных полигонах."
 
 [BreakthroughDefenceFieldGen X2TechTemplate]
-DisplayName="Psionic Field Generators"
-Summary="With access to a sufficiently potent power supply this breakthrough will allow a Psionic Field Generator Armor Mod to be manufactured in the Proving Grounds.”
+DisplayName="Генераторы псионического поля"
+Summary="Имея доступ к достаточно мощному источнику питания, этот прорыв позволит изготовить мод брони с генератором псионического поля на испытательных полигонах.”
 
 [BreakthroughWraithGen X2TechTemplate]
-DisplayName="Psionic Field Generators"
-Summary="With access to a sufficiently potent power supply this breakthrough will allow a Psionic Field Generator Armor Mod to be manufactured in the Proving Grounds.”
+DisplayName="Генераторы псионического поля"
+Summary="Имея доступ к достаточно мощному источнику питания, этот прорыв позволит изготовить мод брони с генератором псионического поля на испытательных полигонах.”
 
 ===Misc===
 
 [BreakthroughAdvancedHandScanners X2TechTemplate]
-DisplayName="Advanced Scanning Technology"
-Summary="This breakthrough will allow us to improve our hand scanner technology."
+DisplayName="Передовая технология сканирования"
+Summary="Этот прорыв позволит нам усовершенствовать нашу технологию ручного сканера."
 
 [BreakthroughAdvancedSensorySystems X2TechTemplate]
-DisplayName="Advanced Sensory Systems"
-Summary="This breakthrough will allow us to improve upon our wearable sensory enhancement technology."
+DisplayName="Продвинутые сенсорные системы"
+Summary="Этот прорыв позволит нам усовершенствовать нашу носимую технологию сенсорного усиления."
 
 ===New Proving Grounds Projects===
 ===Ammo===
@@ -1176,6 +1263,12 @@ Summary="Хотя Призрак остается загадкой, у нас есть основания полагать, что даль
 CodeName="Месть"
 LongDescription="Изучение останков Призрака, извлеченных с поля боя, оставило у нас много вопросов об истинной природе Призрака. Дальнейшее расследование прояснило многие из них, и, короче говоря, это командир наномашин, но очень продвинутых. Некоторые методы, используемые при их создании и программировании, могут быть воспроизведены, однако в каждом наните есть ядро, которое бросает вызов известной физике. Я с уверенностью могу сказать, что производство этих нанитовых сердечников еще долгое время будет оставаться недоступным для человеческих технологий. Конечно, это ограничивает нас запасами, которые мы можем получить с поля. Возможность будущего применения этой нанотехнологии на основе Спектра неопределенна, и нам понадобятся дальнейшие прорывы в нашем понимании для разработки тактических приложений. Тем не менее, мы добились определенного прогресса в внедрении этой технологии в полевых условиях. Схемы для изготовления улучшенной версии SKULLJACK ожидают вашего рассмотрения на Испытательном полигоне им. Р. Тигана."
 
+[SavTechXenoSerumSynthesis X2TechTemplate]
+DisplayName="Ситнетическая ксено сывортка"
+Summary="We have known about the Elders ability with biotechnology since shortly after the invasion began. They have clearly found the key to manipulating any species they encounter on the hormonal and genetic levels. Our recent success in developing the Overdrive Serum opens up the possibility of developing more of these Serums."
+CodeName="Rainbow"
+LongDescription="Further investigation into the Berserker genetic code and the structures analogous to the endocrine system have yielded results. The mysterious кристаллизованного наносплава substance was found, in addition to sections of clearly foreign or engineered DNA. Chemical compounds are also fed to the Berserker to further stabilise or enhance these changes. Essentially the aliens have created a super soldier serum out of a cocktail of drugs, alien hormones and engineered retroviruses cut with кристаллизованного наносплава. Looking back on previously examined alien and hybrid autopsy results, we found examples of similar, albeit less radical manipulations. Armed with this knowledge we have begun work on a series of Serums to enhance our troops combat abilities. These Serums are likely to be imperfect and as with the Overdrive Serum, may well have side effects. Further research into alien biology may also lead to Breakthroughs, expanding the range of Serums available. R. Tygan."
+
 ;Breakthroughs
 [BreakthroughThinkingMicroMachines X2TechTemplate]
 DisplayName="Нанотехнологическая война"
@@ -1188,6 +1281,18 @@ Summary="Этот прорыв позволит изготовить передовое нанотехнологическое изделие н
 [BreakthroughNanoReactiveAMod X2TechTemplate]
 DisplayName="Нанотехнологическая война"
 Summary="Этот прорыв позволит изготовить передовое нанотехнологическое изделие на испытательных полигонах."
+
+[BreakthroughSerumVIOLET X2TechTemplate]
+DisplayName="Ситнетическая ксено сывортка"
+Summary="Этот прорыв позволит синтезировать новую сыворотку."
+
+[BreakthroughSerumORANGE X2TechTemplate]
+DisplayName="Ситнетическая ксено сывортка"
+Summary="Этот прорыв позволит синтезировать новую сыворотку."
+
+[BreakthroughSerumGREEN X2TechTemplate]
+DisplayName="Ситнетическая ксено сывортка"
+Summary="Этот прорыв позволит синтезировать новую сыворотку."
 
 ;New Proving Grounds Projects
 [NANOJACKMFG X2TechTemplate]
@@ -1204,14 +1309,14 @@ Summary="Недавний прорыв в технологии наномашин Spectre вдохновил на очевидное п
 
 [NanoReactiveAModMFG X2TechTemplate]
 DisplayName="Изготовление: Реактивное нанопокрытие AMod"
-Summary="A recent breakthrough in Spectre based nanotech has opened up a new way to further protect our troops. We are now able to program a millimetre thick film like mesh of nanomachines harden in response to attack. Though it should be noted that this can lead to a degree of locking up of armor suits when hit, reducing mobility and flexability. Furthermore, preliminary tests indicate that a Spectre should have extreme difficulty with it's so called 'Shadow Bind' mode of attack, since the nanomachine mesh actively resists intrusion from 'foreign' nanomachines. All this comes at neglegable extra weight, making this one of our most versatile and effective means of protecting our troops in the field. Produces one Реактивное нанопокрытие AMod."
+Summary="Недавний прорыв в области нанотехнологий на основе Спектра открыл новый способ дальнейшей защиты наших войск. Теперь мы можем запрограммировать пленку толщиной в миллиметр, подобную сетке наномашин, которая затвердевает в ответ на атаку. Хотя следует отметить, что это может привести к некоторой блокировке бронекостюмов при попадании, снижая мобильность и гибкость. Кроме того, предварительные тесты показывают, что Spectre должен испытывать крайние трудности с его так называемым режимом атаки "Shadow Bind", поскольку сетка наномашин активно сопротивляется вторжению "чужих" наномашин. Все это имеет незначительный дополнительный вес, что делает его одним из наших самых универсальных и эффективных средств защиты наших войск в полевых условиях."
 
 ;Items
 [SAVNanoSKULLJACK X2WeaponTemplate]
 FriendlyName="НаноДжек Модуль"
 FriendlyNamePlural="НаноДжек Модули"
 BriefSummary="Увеличивает способность цели к взлому на 25 и обеспечивает 2 дополнительных использования шахты Черепа."
-TacticalText="<Bullet/>Boosts the target's hacking by 25.<Bullet/>Provides 2 additional uses of Skullmine."
+TacticalText="<Bullet/>Увеличивает способность цели к взлому на 25.<Bullet/>Предоставляет 2 дополнительных варианта использования черепной мины."
 
 [NanoHackTool X2WeaponTemplate]
 FriendlyName="Наносинаптический инструмент для взлома"
@@ -1235,7 +1340,78 @@ FriendlyNamePlural="МодБ: Реактивное нанопокрытие"
 BriefSummary="Этот нанотехнологический мод брони способен противостоять входящему урону и реагировать на него, обеспечивая превосходную защиту, однако реактивное усиление также временно снижает мобильность, уклонение и скрытность. Кроме того, нанопокрытие обеспечивает улучшенную скрытность и невосприимчивость к способности Призрака связываться с Тенью."
 TacticalText="<Bullet/>Дает 1 очко брони и улучшенная скрытность.<Bullet/>Попадание в цель даст временные щиты и дополнительное очко брони, но уменьшит мобильность, уклонение и скрытность.<Bullet/>Устройство также невосприимчиво к способности Теневого связывания.<Bullet/>Одновременно может быть оснащен только один мод A."
 
+
+[SavSerumBlue X2WeaponTemplate]
+FriendlyName="Сыворотка ГОЛУБАЯ"
+FriendlyNamePlural="Сыворотка BLUE"
+UnknownUtilityCategory="сыворотки"
+UnknownWeaponCategory="сыворотки"
+BriefSummary="Мощный коктейль из лекарств, чужеродных гормонов и сконструированных ретровирусов, вырезанных с помощью кристаллизованного наносплава. Эта формулировка повысит чувствительность и точность пользователя, однако, вероятно, у ее использования будут и недостатки. Использование солдата с этой сывороткой в инвентаре будет иметь некоторые ограниченные эффекты. Использование сыворотки в бою будет иметь более существенные эффекты, немедленно повышая восприятие и оставляя более существенные постоянные эффекты."
+TacticalText="<Bullet/>Пассивно имеет шанс постоянно увеличивать атаку и радиус прицела, возможно, уменьшая волю и HP. Это также повышает прицельность и бронепробиваемость при атаках.<Bullet/>Использование предмета усилит эти постоянные изменения характеристик и даст одно бонусное очко действия. При дальнейшем повышении прицельности и бронепробиваемости на короткое время.\n<Bullet/> Using this item comes with a risk of becoming Obsessed.\n<Bullet/>Использование этой активной способности предмета приведет к потреблению самого предмета."
+
+[SavSerumRed X2WeaponTemplate]
+FriendlyName="Сыворотка КРАСНАЯ"
+FriendlyNamePlural="Сыворотка КРАСНАЯ"
+UnknownUtilityCategory="сыворотки"
+UnknownWeaponCategory="сыворотки"
+BriefSummary="Мощный коктейль из лекарств, чужеродных гормонов и сконструированных ретровирусов, вырезанных с помощью кристаллизованного наносплава. Эта формулировка повысит агрессивность и скорость пользователей, однако, вероятно, у ее использования будут недостатки. Использование солдата с этой сывороткой в инвентаре будет иметь некоторые ограниченные эффекты. Использование сыворотки в бою будет иметь более существенные эффекты, немедленно усиливая агрессию и оставляя более существенные постоянные эффекты."
+TacticalText="<Bullet/>Пассивно имеет шанс постоянно повышать критичность и мобильность, возможно, уменьшая волю и защиту. Это также повышает шанс нанесения крита ближайшим врагам.<Bullet/>Использование предмета усилит эти постоянные изменения характеристик и даст два бонусных очка действия. Одновременно повышая вероятность критического удара и нанося урон ближайшим врагам.\n<Bullet/>Использование этого предмета сопряжено с риском впасть в неистовство.\n<Bullet/>Использование этой активной способности предмета приведет к потреблению самого предмета."
+
+[SavSerumYellow X2WeaponTemplate]
+FriendlyName="Сыворотка ЖЕЛТАЯ"
+FriendlyNamePlural="Сыворотка ЖЕЛТАЯ"
+UnknownUtilityCategory="сыворотки"
+UnknownWeaponCategory="сыворотки"
+BriefSummary="Мощный коктейль из лекарств, чужеродных гормонов и сконструированных ретровирусов, вырезанных с помощью кристаллизованного наносплава. Этот состав повысит прочность пользователя и устойчивость к повреждениям, однако, вероятно, у его использования будут и недостатки. Использование солдата с этой сывороткой в инвентаре будет иметь некоторые ограниченные эффекты. Использование сыворотки в бою будет иметь более существенные эффекты, немедленно повышая выносливость и оставляя более существенные постоянные эффекты.."
+TacticalText="<Bullet/>Пассивно имеет шанс постоянно увеличивать HP и броню, возможно, уменьшая волю и мобильность. Это также немного повышает броню и HP.<Bullet/>Использование предмета усилит эти постоянные изменения характеристик и даст одно бонусное очко действия. Предоставляя броню, HP, уменьшенную защиту и регенерацию на короткое время.\n<Bullet/> Использование этого предмета сопряжено с риском потери ориентации.\n<Bullet/>Использование этой активной способности предмета приведет к потреблению самого предмета."
+
+[SavSerumViolet X2WeaponTemplate]
+FriendlyName="Сыворотка ФИОЛЕТОВАЯ"
+FriendlyNamePlural="Сыворотка ФИОЛЕТОВАЯ"
+UnknownUtilityCategory="сыворотки"
+UnknownWeaponCategory="сыворотки"
+BriefSummary="Мощный коктейль из лекарств, чужеродных гормонов и сконструированных ретровирусов, вырезанных с помощью кристаллизованного наносплава. Эта формулировка существенно повысит псионические способности пользователей. Однако это приведет к напряжению собственной психической защиты пользователя, и, вероятно, у этого использования будут и другие недостатки. Использование солдата с этой сывороткой в инвентаре будет иметь некоторые ограниченные эффекты. Использование сыворотки в бою будет иметь более существенные эффекты, немедленно усиливая псионическую атаку, предоставляя псионическую атаку, делая многие псионические способности невозвратными и оставляя более существенные постоянные эффекты."
+TacticalText="<Bullet/>Пассивно имеет шанс постоянно повышать псионическую атаку и волю, возможно, уменьшая HP и защиту. Это также усиливает псионическую атаку за счет небольшого снижения воли.<Bullet/>Использование предмета усилит эти постоянные и пассивные изменения характеристик и даст три заряда Сокрушения разума, а также сделает многие псионические способности нескончаемыми.\n<Bullet/> Использование этого предмета сопряжено с риском быть оглушенным и начать обильно кровоточить.\n<Bullet/>Использование этой активной способности предмета приведет к потреблению самого предмета."
+
+[SavSerumOrange X2WeaponTemplate]
+FriendlyName="Сыворотка ОРАНЖЕВАЯ"
+FriendlyNamePlural="Сыворотка ОРАНЖЕВАЯ"
+UnknownUtilityCategory="сыворотки"
+UnknownWeaponCategory="сыворотки"
+BriefSummary="Мощный коктейль из лекарств, чужеродных гормонов и сконструированных ретровирусов, вырезанных с помощью кристаллизованного наносплава. Эта формулировка существенно повысит общие боевые характеристики пользователей. Однако, вероятно, у этого использования есть свои недостатки. Использование солдата с этой сывороткой в инвентаре будет иметь некоторые ограниченные эффекты. Использование сыворотки в бою будет иметь более существенные эффекты, немедленно повышая HP щита, мобильность и уклонение, предоставляя бонусное очко действия, делая некоторые стандартные способности не зависящими от хода и оставляя более существенные постоянные эффекты."
+TacticalText="<Bullet/>Пассивно имеет шанс постоянно повышать HP и мобильность, возможно, уменьшая радиус прицела и волю. Это также пассивно повышает HP щита, мобильность и уклонение.<Bullet/>Использование предмета усилит эти постоянные и пассивные изменения характеристик и даст два бонусных очка действия, а также сделает некоторые стандартные способности не завершающимися в течение нескольких ходов.\n<Bullet/> Using this item comes with a risk of entering a Berserk state.\n<Bullet/>Использование этой активной способности предмета приведет к потреблению самого предмета."
+
+[SavSerumGreen X2WeaponTemplate]
+FriendlyName="Сыворотка ЗЕЛЕНАЯ"
+FriendlyNamePlural="Сыворотка ЗЕЛЕНАЯ"
+UnknownUtilityCategory="сыворотки"
+UnknownWeaponCategory="сыворотки"
+BriefSummary="Мощный коктейль из лекарств, чужеродных гормонов и сконструированных ретровирусов, вырезанных с помощью кристаллизованного наносплава. Этот состав обеспечит пользователю иммунитет ко всем видам ядов и химикатов, обеспечит им ограниченную регенерацию и приведет к превращению жидкостей их организма в едкие токсичные химикаты. Однако, вероятно, у этого использования есть свои недостатки. Использование солдата с этой сывороткой в инвентаре будет иметь некоторые ограниченные эффекты. Использование сыворотки в бою будет иметь более существенные эффекты, ускоряя их немедленное исцеление, предоставляя бонусное очко действия, 3 использования ядовитого плевка и временно увеличивая их уклонение и регенерацию, оставляя более существенные постоянные эффекты."
+TacticalText="<Bullet/>Пассивный игрок имеет шанс постоянно уклоняться и атаковать, возможно, снижая мобильность и шанс критического удара. Это также пассивно обеспечивает иммунитет к ядам, кислотам и партеногенным ядам, регенерацию и летучую кровь.<Bullet/>Использование предмета усилит эти постоянные и пассивные изменения характеристик и даст бонусное очко действия, а также исцелит юнита, улучшит уклонение и регенерацию, устранит кровотечение, оглушит, дезориентирует и ослепит..\n<Bullet/> Юнит также получает три заряда ядовитой слюны, аналогичной способности, используемой Гадюками.\n<Bullet/> Использование этого предмета сопряжено с риском впасть в состояние одержимости.\n<Bullet/>Использование этой активной способности предмета приведет к потреблению самого предмета."
+
+[SavComDrug_Raptor X2WeaponTemplate]
+FriendlyName="Хищник"
+FriendlyNamePlural="Хищник"
+BriefSummary="Раптор является одним из ряда запрещенных препаратов, запрещенных администрацией США для "защиты общественного здоровья и благополучия". Что ж, они правы, побочные эффекты препарата серьезны, но некоторые утверждают, что в перестрелке преимущество в концентрации и агрессии, которое дает Raptor, стоит ущерба здоровью пользователя в долгосрочной перспективе. Хроническое употребление приводит к неконтролируемой дрожи и психозу."
+TacticalText="<Bullet/>Раптор всегда принимают до того, как в нем возникнет необходимость, поскольку для достижения полного эффекта требуется время.\n<Bullet/> Преимущества заключаются в увеличении прицела и шанса крита на протяжении всей миссии, побочными эффектами являются уменьшение текущей общей воли и вероятность постоянной потери прицела и / или состояния воли.\n<Bullet/>Raptor в дефиците, и есть вероятность, что товар будет израсходован после каждого развертывания."
+
+[SavComDrug_Turbo X2WeaponTemplate]
+FriendlyName="Турбо"
+FriendlyNamePlural="Турбо"
+BriefSummary="Одним из немногих запрещенных рекреационных наркотиков, который попал как в танцевальные залы трущоб, так и на поле боя, является Турбо. Это позволяет пользователю толкать свое тело сильнее, чем это разумно, что часто приводит к травмам, которые в то время не замечаются. Для тех, кому нужно веселиться вовсю или бороться усерднее, это может иметь огромное значение. Долгосрочный ущерб при продолжительном использовании значителен, однако психические заболевания и снижение скорости реакции часто встречаются у обычных пользователей."
+TacticalText="<Bullet/>Турбо всегда принимается до того, как в нем возникнет необходимость, поскольку для достижения полного эффекта требуется время.\n<Bullet/> Пользователь получит выгоду от повышенной мобильности и уклонения на время миссии и последующей вечеринки, если это применимо. Однако они будут ранены после миссии, и они, вероятно, будут страдать от постоянного снижения характеристик воли и уклонения.\n<Bullet/>Турбо в дефиците, и есть вероятность, что товар будет израсходован после каждого развертывания"
+
+[SavComDrug_Klarity X2WeaponTemplate]
+FriendlyName="Кларити"
+FriendlyNamePlural="Кларити"
+BriefSummary="Многие люди скажут вам, что ясность - это замечательная вещь, они делают так, чтобы это звучало как религиозный опыт. Полностью запрещенный АДВЕНТОМ, этот препарат имеет что-то вроде культа последователей. Легко понять, почему в эти неспокойные времена чувство расслабленного контроля и ясности ума может вызывать привыкание. Хотя положительные эффекты полностью подлинны, часто замалчиваемый долгосрочный эффект заключается в постепенном ухудшении психического и физического состояния пользователя до такой степени, что его функционирование зависит от него."
+TacticalText="<Bullet/>Ясность всегда достигается до того, как она понадобится, поскольку для достижения полного эффекта требуется время.\n<Bullet/> Это существенно повысит волю и даст небольшой толчок как цели, так и защите, а негативные психические состояния будут очень недолговечными в течение миссии. Однако после выполнения миссии пользователь получит травму и скорее всего навсегда потеряет атаку и защиту и или потеряет статистику.\n<Bullet/>Ясности не хватает, и есть вероятность, что элемент будет потребляться после каждого развертывания"
+
 ;Abilities
+[X2Ability_SavItemAbilities_Core]
+SavCombatStimBonusName="Боевые стимуляторы"
+SavCombatStimBonusDesc="Бонусная мобильность и шанс крита, восстанавливает волю и устраняет негативные ментальные эффекты. Не используйте на войсках с 1 HP."
+
 [SAVNanoIntruderHackBonus X2AbilityTemplate]
 LocFriendlyName="Модуль НАНОДЖЕК"
 LocHelpText="Повышает навык взлома пользователей на <font color='#5CD16C'>25</font>. Предоставляет <font color='#5CD16C'>2</font> дополнительных использования <font color='#5cd1cd'>Черепной мины</font>."
@@ -1260,4 +1436,288 @@ LocHelpText="Дает <font color='#d1cb5c'>1</font> броню, уменьшенный радиус обнар
 LocFriendlyName="Реактивная наноброня"
 LocHelpText="Получение удара привело к тому, что вокруг оперативника образовалось защитное поле. Временно получает броню и щиты, но реактивное усиление снижает мобильность, уклонение и незаметность. Длительность: <font color='#ff9100'>2</font> хода и может суммироваться несколько раз."
 
+
+[SavODSerumAdaptation X2AbilityTemplate]
+LocFriendlyName="Overdrive Serum Adaptation"
+LocHelpText="Using Overdrive serum drains 5 Will and has a high chance to permenantly boost mobility, but also a likely chance to decrease HP."
+LocLongDescription="Using Overdrive serum drains 5 Will and has a high chance to permenantly boost mobility, but also a likely chance to decrease HP."
+
+[SavSerumRedExposure X2AbilityTemplate]
+LocFriendlyName="Serum RED Exposure"
+LocHelpText="This unit has been pre-dosed with Serum RED. Crit chance against nearby enemies will be increased. A small amount of Will will be drained. The unit has a chance to permenantly gain Critical hit chance and Mobility, but may lose Will and Defence."
+LocLongDescription="This unit has been pre-dosed with Serum RED. Crit chance against nearby enemies will be increased. A small amount of Will will be drained. The unit has a chance to permenantly gain Critical hit chance and Mobility, but may lose Will and Defence."
+
+[SavAdministerSerumRed X2AbilityTemplate]
+LocFriendlyName="Administer Serum RED"
+LocHelpText="WARNING, Consumes this item. Imediately gain 2 Action points and drains Will with a chance to go Berserk. This unit will gain bonus crit chance and crit damage against nearby enemies. The unit has a high chance to permenantly gain Critical hit chance and Mobility, but is likely to looe Will and Defence."
+LocLongDescription="WARNING, Consumes this item. Imediately gain 2 Action points and drains Will with a chance to go Berserk. This unit will gain bonus crit chance and crit damage against nearby enemies. The unit has a high chance to permenantly gain Critical hit chance and Mobility, but is likely to looe Will and Defence."
+
+[SavSerumBlueExposure X2AbilityTemplate]
+LocFriendlyName="Serum BLUE Exposure"
+LocHelpText="This unit has been pre-dosed with Serum BLUE. Armor piercing and Aim will be increased. A small amount of Will will be drained. The unit has a chance to permenantly gain Offence and Sight Radius, but may lose Will and HP."
+LocLongDescription="This unit has been pre-dosed with Serum BLUE. Armor piercing and Aim will be increased. A small amount of Will will be drained. The unit has a chance to permenantly gain Offence and Sight Radius, but may lose Will and HP."
+
+[SavAdministerSerumBlue X2AbilityTemplate]
+LocFriendlyName="Administer Serum BLUE"
+LocHelpText="WARNING, Consumes this item. Grants one bonus action point. Drains Will with a chance to become Obsessed. Additionally gains Armor Piercing and increased aim for the next 4 turns. The unit has a high chance to permenantly gain Offence and Sight Radius, is likely to lose Will and HP."
+LocLongDescription="WARNING, Consumes this item. Grants one bonus action point. Drains Will with a chance to become Obsessed. Additionally gains Armor Piercing and increased aim for the next 4 turns. The unit has a high chance to permenantly gain Offence and Sight Radius, is likely to lose Will and HP."
+
+[SavSerumYellowExposure X2AbilityTemplate]
+LocFriendlyName="Serum YELLOW Exposure"
+LocHelpText="This unit has been pre-dosed with Serum YELLOW. HP and Armor will be increased. A small amount of Will will be drained. The unit has a chance to permenantly gain HP and Armor, but may lose Will and Mobility."
+LocLongDescription="This unit has been pre-dosed with Serum YELLOW. HP and Armor will be increased. A small amount of Will will be drained. The unit has a chance to permenantly gain HP and Armor, but may lose Will and Mobility."
+
+[SavAdministerSerumYellow X2AbilityTemplate]
+LocFriendlyName="Administer Serum YELLOW"
+LocHelpText="WARNING, Consumes this item. Grants one bonus action point. Drains Will with a chance to become Disoriented. Gain Armor, Shield HP and Regen for the next 4 turns, but also loose some Defence. The unit has a high chance to permenantly gain HP and Armor, but is likely to lose Will and Mobility."
+LocLongDescription="WARNING, Consumes this item. Grants one bonus action point. Drains Will with a chance to become Disoriented. Gain Armor, Shield HP and Regen for the next 4 turns, but also loose some Defence. The unit has a high chance to permenantly gain HP and Armor, but is likely to lose Will and Mobility."
+
+[SavSerumVioletExposure X2AbilityTemplate]
+LocFriendlyName="Serum VIOLET Exposure"
+LocHelpText="This unit has been pre-dosed with Serum VIOLET. Psi Offence will be increased but Will will be reduced. A small amount of Will will be drained. The unit has a chance to permenantly gain Psionic Offence and Will, but may lose HP and Defence."
+LocLongDescription="This unit has been pre-dosed with Serum VIOLET. Psi Offence will be increased but Will will be reduced. A small amount of Will will be drained. The unit has a chance to permenantly gain Psionic Offence and Will, but may lose HP and Defence."
+
+[SavAdministerSerumViolet X2AbilityTemplate]
+LocFriendlyName="Administer Serum VIOLET"
+LocHelpText="WARNING, Consumes this item. Drains Will with a chance to be stunned and begin bleeding profusely. Gain 3 charges for the psionic Mind Crush ability. Gain Psi Offence, lose Will and a wide range of psionic abilities will be non-turn-ending for the next 4 turns. The unit has a high chance to permenantly gain Psi Offence and Will, but is likely to lose HP and Defence."
+LocLongDescription="WARNING, Consumes this item. Drains Will with a chance to be stunned and begin bleeding profusely. Gain 3 charges for the psionic Mind Crush ability. Gain Psi Offence, lose Will and a wide range of psionic abilities will be non-turn-ending for the next 4 turns. The unit has a high chance to permenantly gain Psi Offence and Will, but is likely to lose HP and Defence."
+
+[SAVMindCrush X2AbilityTemplate]
+LocFriendlyName="Mind Crush"
+LocHelpText="Reach out with your mind and crush the will of your enemies in a small AOE. Causes limited damage but can disorient, reduce will and even panic targeted enemies. Can not target Robotic enemies, hit chance depends on attackers Psi Offence compared to the target's Will."
+LocLongDescription="Reach out with your mind and crush the will of your enemies in a small AOE. Causes limited damage but can disorient, reduce will and even panic targeted enemies. Can not target Robotic enemies, hit chance depends on attackers Psi Offence compared to the target's Will."
+
+[SavSerumOrangeExposure X2AbilityTemplate]
+LocFriendlyName="Serum ORANGE Exposure"
+LocHelpText="This unit has been pre-dosed with Serum ORANGE. Mobility, Dodge and Shield HP will be increased. A small amount of Will will be drained. The unit has a chance to permenantly gain HP and Mobility, but may lose Sight Radius and Will."
+LocLongDescription="This unit has been pre-dosed with Serum ORANGE. Mobility, Dodge and Shield HP will be increased. A small amount of Will will be drained. The unit has a chance to permenantly gain HP and Mobility, but may lose Sight Radius and Will."
+
+[SavAdministerSerumOrange X2AbilityTemplate]
+LocFriendlyName="Administer Serum ORANGE"
+LocHelpText="WARNING, Consumes this item. Drains Will with a chance to go Berserk. Imedieately gain 2 action points. Gain Mobility, Dodge and Shield HP and a range of Standard Shot and Melee attacks, reload and grenade use will be non-turn-ending for the next 4 turns. The unit has a high chance to permenantly gain HP and Mobility, but is likely to lose Sight Radius and Will."
+LocLongDescription="WARNING, Consumes this item. Drains Will with a chance to go Berserk. Imedieately gain 2 action points. Gain Mobility, Dodge and Shield HP and a range of Standard Shot and Melee attacks, reload and grenade use will be non-turn-ending for the next 4 turns. The unit has a high chance to permenantly gain HP and Mobility, but is likely to lose Sight Radius and Will."
+
+[SavSerumGreenExposure X2AbilityTemplate]
+LocFriendlyName="Serum GREEN Exposure"
+LocHelpText="This unit has been pre-dosed with Serum GREEN. This unit will be immune to Poisons and Acid and it is capable of slowly regenerating. The unit now posesses volatile acidic blood which will burn melee attackers. A small amount of Will will be drained. The unit has a chance to permenantly gain Dodge and Offence, but may lose Mobility and Crit Chance."
+LocLongDescription="This unit has been pre-dosed with Serum GREEN. This unit will be immune to Poisons and Acid and it is capable of slowly regenerating. The unit now posesses volatile acidic blood which will burn melee attackers. A small amount of Will will be drained. The unit has a chance to permenantly gain Dodge and Offence, but may lose Mobility and Crit Chance."
+
+[SAVSerumGreenAcidBlood X2AbilityTemplate]
+LocFriendlyName="Volatile Blood"
+LocHelpText="This unit has volatile blood, melee attacks against it will cause the attakcer to be burned by acid."
+LocLongDescription="This unit has volatile blood, melee attacks against it will cause the attakcer to be burned by acid."
+
+[SavAdministerSerumGreen X2AbilityTemplate]
+LocFriendlyName="Administer Serum GREEN"
+LocHelpText="WARNING, Consumes this item. Drains Will with a chance to become Obsessed. Imedieately gain 1 action point and heal 6 HP, bleeding, stun, disorientation and blindness will be removed. Gain 3 charges for the Poison Spit ability. Dodge will be substantially boosted and the unit will regenerate 2 HP a turn for the next 4 turns. The unit has a high chance to permenantly gain Dodge and Offence, but is likely to lose Mobility and Crit Chance."
+LocLongDescription="WARNING, Consumes this item. Drains Will with a chance to become Obsessed. Imedieately gain 1 action point and heal 6 HP, bleeding, stun, disorientation and blindness will be removed. Gain 3 charges for the Poison Spit ability. Dodge will be substantially boosted and the unit will regenerate 2 HP a turn for the next 4 turns. The unit has a high chance to permenantly gain Dodge and Offence, but is likely to lose Mobility and Crit Chance."
+
+[SAVSerumGreenPoisonSpit X2AbilityTemplate]
+LocFriendlyName="Poison Spit"
+LocHelpText="Spit a gob of poison at the target area, causing poison damage, poisoning the target and spreding poison in the target area. Consumes 1 charge, 1 turn cooldown."
+LocLongDescription="Spit a gob of poison at the target area, causing poison damage, poisoning the target and spreding poison in the target area. Consumes 1 charge, 1 turn cooldown."
+
+[SavCombatDrug_Raptor X2AbilityTemplate]
+LocFriendlyName="Raptor Dose"
+LocHelpText="This unit took a dose of Raptor before entering combat. They will benefit from increased Aim and Crit Chance for the rest of the mission. They will lose current will at the start of the mission. They may permenantly lose Will and Offence stat."
+LocLongDescription="This unit took a dose of Raptor before entering combat. They will benefit from increased Aim and Crit Chance for the rest of the mission. They will lose current will at the start of the mission. They may permenantly lose Will and Offence stat."
+
+[SavCombatDrug_Turbo X2AbilityTemplate]
+LocFriendlyName="Turbo Dose"
+LocHelpText="This unit took a dose of Turbo before entering combat. They will benefit from increased Mobility and Dodge for the rest of the mission. They will be injured after the mission and they may permenantly lose Dodge and Will stat. May be susceptable to becoming distracted by sick beats."
+LocLongDescription="This unit took a dose of Turbo before entering combat. They will benefit from increased Mobility and Dodge for the rest of the mission. They will be injured after the mission and they may permenantly lose Dodge and Will stat. May be susceptable to becoming distracted by sick beats."
+
+[SavCombatDrug_Klarity X2AbilityTemplate]
+LocFriendlyName="Klarity Dose"
+LocHelpText="This unit took a dose of Klarity before entering combat. They will benefit from increased Will, Defence and Offence for the rest of the mission. They will be injured after the mission and they may permenantly lose Will, Defence and Offence stat."
+LocLongDescription="This unit took a dose of Klarity before entering combat. They will benefit from increased Will, Defence and Offence for the rest of the mission. They will be injured after the mission and they may permenantly lose Will, Defence and Offence stat."
+
+[SavKlarityClense X2AbilityTemplate]
+LocFriendlyName="Klear Headed"
+LocHelpText="Since they are dosed with Klarity, this unit will only suffer from negative mental effects until thier next end of turn. This does not include mind control."
+LocLongDescription="Since they are dosed with Klarity, this unit will only suffer from negative mental effects until thier next end of turn. This does not include mind control."
+
+[SavItemsPassiveConsumption1 X2AbilityTemplate]
+LocFriendlyName="Limited Supply"
+LocHelpText="There is a limited supply of this item. There is a chance it will be used up on this operation."
+LocLongDescription="There is a limited supply of this item. There is a chance it will be used up on this operation."
+
+[SavItemsPassiveConsumption2 X2AbilityTemplate]
+LocFriendlyName="Limited Supply"
+LocHelpText="There is a limited supply of this item. There is a chance it will be used up on this operation."
+LocLongDescription="There is a limited supply of this item. There is a chance it will be used up on this operation."
+
+[X2Item_SavageStockWeapons]
+COREBlackMarketTexts="Don't get hooked on this stuff OK?'"
+
+;===================HUDSONSAVAGESTUFFENDS=========================
+;===================HUDSONSAVAGESTUFFENDS=========================
+;===================HUDSONSAVAGESTUFFENDS=========================
+;===================HUDSONSAVAGESTUFFENDS=========================
+
+;LEY SHADEs Additions, below items are for tesla loot mod purposes.
+;============================================
+; AMMO UPGRADES - BASIC
+;============================================
+
+[TLMUpgrade_SAVHollowPointRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Hollow Point Rounds"
+FriendlyNamePlural="Hollow Point Rounds"
+BriefSummary="Designed to expand inside the target, this specialized ammo adds +15 Crit Chance and +1 Crit Damage. Poor penetration for these rounds reduces their effectiveness against targets that are armored or in cover."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+[TLMUpgrade_DumbTracerRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Dumb Tracer Rounds"
+FriendlyNamePlural="Dumb Tracer Rounds"
+BriefSummary="A bright chemical flare in the tip of the round clearly indicates the trajectory of shots taken, this improves aim especially for weapons that fire a burst of shots, unfortunatley this clearly marks the shooter, as well as the target's possitions."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+[TLMUpgrade_HighVelocityAP X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="High Velocity AP Rounds"
+FriendlyNamePlural="High Velocity AP Rounds"
+BriefSummary="Ammunition designed to punch through armour and cover with ease, the drawback however, is that the small dense round passes though targets reducing the likelyhood of causing critical damage significantly."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+[TLMUpgrade_IgnitionRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Ignition Rounds"
+FriendlyNamePlural="Ignition Rounds"
+BriefSummary="Ammunition designed Ignite the target on contact, the initial impact of the round is reduced, however the target will be rapidly consumed by flames."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+[TLMUpgrade_HighCalRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="High Calibre Rounds"
+FriendlyNamePlural="High Calibre Rounds"
+BriefSummary="A few simple pre-mission modifications to XCOM's arsenal allow the use of this High Caliber ammunition, granting 25% +1 bonus damage and AP, however, the magazine size is reduced and the brutal recoil reduces accuracy on consecutive shots."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+[TLMUpgrade_ExplosiveRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="HE Rounds"
+FriendlyNamePlural="HE Rounds"
+BriefSummary="These rounds have a high explosive charge in the tip, on hitting the target the charge detonates rupturing the target and with heavier weapons, shredding its armor. The bigger the weapon this ammo is loaded in to, the more powerful this explosive effect is."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+[TLMUpgrade_SavStunRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="XStun Rounds"
+FriendlyNamePlural="XStun Rounds"
+BriefSummary="Rounds modified to expend a powerful electrical charge on impact, possibly stunning the target for one action point. Damage is reduced against organics but mechanical enemies take extra damage."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+[TLMUpgrade_AAJRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Alloy Jacketed Rounds"
+FriendlyNamePlural="Alloy Jacketed Rounds"
+BriefSummary="While Alien Alloy is notoriously difficult to machine it provides superb armour penetration. These rounds add +10 Crit Chance and +1 Crit Damage and +2 armour piercing when equipped. They also have the cover piercing property improving performance against targets in cover."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+[TLMUpgrade_AAJDERounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="AAJDE Rounds"
+FriendlyNamePlural="AAJDE Rounds"
+BriefSummary="Alien Alloy Jacketed Depleted Elerium rounds improve uppon the armour penetrating performance of our previous designs, by incorporating a super high density depleted elerium core. Grants +4 Armour piercing and 1 armour shread when equipped. They also have the cover piercing property improving performance against targets in cover."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+[TLMUpgrade_PlasmaBurstRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Plasma Burst Rounds"
+FriendlyNamePlural="Plasma Burst Rounds"
+BriefSummary="Elerium powered plasma containment rounds, on impact the containment fails unleashing a blast of plasma which shreds armor and ruptures the target causing it to take increased damage from subsiquent attacks."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+[TLMUpgrade_DisruptorRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Disruptor Rounds"
+FriendlyNamePlural="Disruptor Rounds"
+BriefSummary="These rounds eject a directed cognitive disruption beam, which severly impairs the target's mental state, stunning, disorienting and draining will, or hack defence on impact."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+[TLMUpgrade_SmartSeekerRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Smart Seeker Rounds"
+FriendlyNamePlural="Smart Seeker Rounds"
+BriefSummary="These rounds lock on to targets and seek out thier weak points. However, without targeting data they are no better than normal ammunition. Autopsied targets will take addidtional damage and targets which are marked with certain effects will be easier to hit."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+[TLMUpgrade_HotshotRounds X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="HotShot Rounds"
+FriendlyNamePlural="HotShot Rounds"
+BriefSummary="These rounds contain a caustic chemical warhead which ignites on contact with the air causing the target to be engulfed in flame while being burned by the acidic mixture. Bonus crit chance and shred, but the ammunition quickly ablates on contact with air reducing accuracy."
+TinySummary="+ Бонус патронов, - Размер обоймы"
+
+;============================================
+; AMMO UPGRADES - ADVANCED
+;============================================
+
+[TLMUpgrade_SAVHollowPointRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Hollow Point Rounds"
+FriendlyNamePlural="Hollow Point Rounds"
+BriefSummary="Designed to expand inside the target, this specialized ammo adds +15 Crit Chance and +1 Crit Damage. Poor penetration for these rounds reduces their effectiveness against targets that are armored or in cover."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+
+[TLMUpgrade_DumbTracerRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Dumb Tracer Rounds"
+FriendlyNamePlural="Dumb Tracer Rounds"
+BriefSummary="A bright chemical flare in the tip of the round clearly indicates the trajectory of shots taken, this improves aim especially for weapons that fire a burst of shots, unfortunatley this clearly marks the shooter, as well as the target's possitions."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+
+[TLMUpgrade_HighVelocityAPAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="High Velocity AP Rounds"
+FriendlyNamePlural="High Velocity AP Rounds"
+BriefSummary="Ammunition designed to punch through armour and cover with ease, the drawback however, is that the small dense round passes though targets reducing the likelyhood of causing critical damage significantly."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+
+[TLMUpgrade_IgnitionRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Ignition Rounds"
+FriendlyNamePlural="Ignition Rounds"
+BriefSummary="Ammunition designed Ignite the target on contact, the initial impact of the round is reduced, however the target will be rapidly consumed by flames."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+
+[TLMUpgrade_HighCalRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="High Calibre Rounds"
+FriendlyNamePlural="High Calibre Rounds"
+BriefSummary="A few simple pre-mission modifications to XCOM's arsenal allow the use of this High Caliber ammunition, granting 25% +1 bonus damage and AP, however, the magazine size is reduced and the brutal recoil reduces accuracy on consecutive shots."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+
+[TLMUpgrade_ExplosiveRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="HE Rounds"
+FriendlyNamePlural="HE Rounds"
+BriefSummary="These rounds have a high explosive charge in the tip, on hitting the target the charge detonates rupturing the target and with heavier weapons, shredding its armor. The bigger the weapon this ammo is loaded in to, the more powerful this explosive effect is."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+
+[TLMUpgrade_SavStunRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="XStun Rounds"
+FriendlyNamePlural="XStun Rounds"
+BriefSummary="Rounds modified to expend a powerful electrical charge on impact, possibly stunning the target for one action point. Damage is reduced against organics but mechanical enemies take extra damage."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+
+[TLMUpgrade_AAJRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Alloy Jacketed Rounds"
+FriendlyNamePlural="Alloy Jacketed Rounds"
+BriefSummary="While Alien Alloy is notoriously difficult to machine it provides superb armour penetration. These rounds add +10 Crit Chance and +1 Crit Damage and +2 armour piercing when equipped. They also have the cover piercing property improving performance against targets in cover."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+
+[TLMUpgrade_AAJDERoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="AAJDE Rounds"
+FriendlyNamePlural="AAJDE Rounds"
+BriefSummary="Alien Alloy Jacketed Depleted Elerium rounds improve uppon the armour penetrating performance of our previous designs, by incorporating a super high density depleted elerium core. Grants +4 Armour piercing and 1 armour shread when equipped. They also have the cover piercing property improving performance against targets in cover."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+
+[TLMUpgrade_PlasmaBurstRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Plasma Burst Rounds"
+FriendlyNamePlural="Plasma Burst Rounds"
+BriefSummary="Elerium powered plasma containment rounds, on impact the containment fails unleashing a blast of plasma which shreds armor and ruptures the target causing it to take increased damage from subsiquent attacks."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+
+[TLMUpgrade_DisruptorRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Disruptor Rounds"
+FriendlyNamePlural="Disruptor Rounds"
+BriefSummary="These rounds eject a directed cognitive disruption beam, which severly impairs the target's mental state, stunning, disorienting and draining will, or hack defence on impact."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+
+[TLMUpgrade_SmartSeekerRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="Smart Seeker Rounds"
+FriendlyNamePlural="Smart Seeker Rounds"
+BriefSummary="These rounds lock on to targets and seek out thier weak points. However, without targeting data they are no better than normal ammunition. Autopsied targets will take addidtional damage and targets which are marked with certain effects will be easier to hit."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+
+[TLMUpgrade_HotshotRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
+FriendlyName="HotShot Rounds"
+FriendlyNamePlural="HotShot Rounds"
+BriefSummary="These rounds contain a caustic chemical warhead which ignites on contact with the air causing the target to be engulfed in flame while being burned by the acidic mixture. Bonus crit chance and shred, but the ammunition quickly ablates on contact with air reducing accuracy."
+TinySummary="+ Бонус патронов, + Размер обоймы"
+;============================================
 
