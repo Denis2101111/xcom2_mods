@@ -1,0 +1,10 @@
+﻿[mod]
+publishedFileId=616359783
+Title=Free Camera Rotation
+Description=A quick and simple rework of my similar mod for EU/EW.
+
+Enables free camera rotation while holding down Q and E keys. Pressing Q or E once or using corresponding UI icons rotates camera by 45 degrees.
+
+Also enables free camera zoom while holding down T and G keys. Pressing T or G once zooms camera one step same as vanilla.
+
+Free rotation speed, zoom speed and fixed rotation angle are configurable via XComTacticalInput_FreeCameraRotation.ini.

@@ -1,0 +1,5 @@
+﻿[mod]
+publishedFileId=0
+Title=Tower Detection Fix WOTC
+Description=Scanning towers lose their detection radius when destroyed.
+RequiresXPACK=true
