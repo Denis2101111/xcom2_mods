@@ -1249,8 +1249,8 @@ strCharacterName="Decoy Beacon"
 +++++++++++++++++++++++++++++++++++++
 [XComGame.UIArmory_Loadout]
 [UIArmory_Loadout]
-m_strInventoryLabels[eInvSlot_ArmorMod]=ARMOR MOD
-m_strInventoryLabels[eInvSlot_AModMedical]=MEDICAL
+m_strInventoryLabels[eInvSlot_ArmorMod]=Мод брони
+m_strInventoryLabels[eInvSlot_AModMedical]=МЕДИЦИНА
 
 +++++++++++++++++++++++++++++++++++++
 =============NANOWARFARE=============
