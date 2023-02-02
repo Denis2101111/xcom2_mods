@@ -1,0 +1,5 @@
+[UIScreen_Fuller_Override_ResistanceManagementScreen]
+m_strMecManagmentTitle = "Resistance Mec Management"
+m_strNoMecsStr = "No mecs in this outpost!"
+m_strResistanceMecNumber = "Resistance MECs: <XGParam:IntValue0/>"
+m_strResistanceMecname = "Mec Type:"
