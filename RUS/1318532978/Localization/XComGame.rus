@@ -1,0 +1,70 @@
+
+; Utility Items
+
+[LW2WOTC_CeramicPlating X2EquipmentTemplate]
+FriendlyName="Керамическое покрытие"
+FriendlyNamePlural="Керамическое покрытие"
+UnknownUtilityCategory="Покрытия"
+BriefSummary="Дает <Ability:CERAMIC_PLATING_HP> единиц щита."
+TacticalText="<Bullet/> Дает <Ability:CERAMIC_PLATING_HP> единиц щита.<br/><Bullet/> Эти хит-пойнты, однажды потерянные, не могут быть восстановлены до конца миссии.<br/><Bullet/> Потеря единицы щита не увеличивает время ранения.\n<Bullet/> Только один жилет может быть надет."
+
+[LW2WOTC_AlloyPlating X2EquipmentTemplate]
+FriendlyName="Покрытие из инопланетных сплавов"
+FriendlyNamePlural="Покрытие из инопланетных сплавов"
+UnknownUtilityCategory="Покрытия"
+BriefSummary="Дает <Ability:ALLOY_PLATING_HP> единиц щита."
+TacticalText="<Bullet/> Дает <Ability:ALLOY_PLATING_HP> единиц щита.<br/><Bullet/> Эти хит-пойнты, однажды потерянные, не могут быть восстановлены до конца миссии.<br/><Bullet/> Потеря единицы щита не увеличивает время ранения.\n<Bullet/> Только один жилет может быть надет."
+
+[LW2WOTC_ChitinPlating X2EquipmentTemplate]
+FriendlyName="Хитиновое покрытие"
+FriendlyNamePlural="Хитиновое покрытие"
+UnknownUtilityCategory="Покрытия"
+BriefSummary="Дает <Ability:CHITIN_PLATING_HP> единиц щита."
+TacticalText="<Bullet/> Дает <Ability:CHITIN_PLATING_HP> единиц щита.<br/><Bullet/> Эти хит-пойнты, однажды потерянные, не могут быть восстановлены до конца миссии.<br/><Bullet/> Потеря единицы щита не увеличивает время ранения.\n<Bullet/> Только один жилет может быть надет."
+
+[LW2WOTC_CarapacePlating X2EquipmentTemplate]
+FriendlyName="Панцирное покрытие"
+FriendlyNamePlural="Панцирное покрытие"
+UnknownUtilityCategory="Покрытия"
+BriefSummary="Дает <Ability:CARAPACE_PLATING_HP> единиц щита."
+TacticalText="<Bullet/> Дает <Ability:CARAPACE_PLATING_HP> единиц щита.<br/><Bullet/> Эти хит-пойнты, однажды потерянные, не могут быть восстановлены до конца миссии.<br/><Bullet/> Потеря единицы щита не увеличивает время ранения.\n<Bullet/> Только один жилет может быть надет."
+
+; Abilities
+
+[LW2WOTC_CeramicPlating_Ability X2AbilityTemplate]
+LocFriendlyName="Керамическое покрытие"
+LocFlyOverText="Керамическое покрытие"
+LocLongDescription="Вы получаете <Ability:CERAMIC_PLATING_HP> единиц щита."
+LocHelpText="Вы получаете <Ability:CERAMIC_PLATING_HP> единиц щита."
+
+[LW2WOTC_AlloyPlating_Ability X2AbilityTemplate]
+LocFriendlyName="Покрытие из инопланетных сплавов"
+LocFlyOverText="Покрытие из инопланетных сплавов"
+LocLongDescription="Вы получаете <Ability:ALLOY_PLATING_HP> единиц щита."
+LocHelpText="Вы получаете <Ability:ALLOY_PLATING_HP> единиц щита."
+
+[LW2WOTC_ChitinPlating_Ability X2AbilityTemplate]
+LocFriendlyName="Хитиновое покрытие"
+LocFlyOverText="Хитиновое покрытие"
+LocLongDescription="Вы получаете <Ability:CHITIN_PLATING_HP> единиц щита."
+LocHelpText="Вы получаете <Ability:CHITIN_PLATING_HP> единиц щита."
+
+[LW2WOTC__CarapacePlating_Ability X2AbilityTemplate]
+LocFriendlyName="Панцирное покрытие"
+LocFlyOverText="Панцирное покрытие"
+LocLongDescription="Вы получаете <Ability:CARAPACE_PLATING_HP> единиц щита."
+LocHelpText="Вы получаете <Ability:CARAPACE_PLATING_HP> единиц щита."
+
+; Proving Grounds Techs
+
+[LW2WOTC_AlloyPlating_Foundry X2TechTemplate]
+DisplayName="Покрытие из инопланетных сплавов"
+Summary="Это усовершенствование нашего керамического покрытия должно обеспечить дополнительную абляционную защиту для наших солдат."
+
+[LW2WOTC_ChitinPlating_Foundry X2TechTemplate]
+DisplayName="Хитиновое покрытие"
+Summary="После изучения подразделения пришельцев "Криссалид террор" мы считаем, что можем использовать материалы из их экзоскелета для создания невероятно прочного набора брони, который смогут носить наши войска."
+
+[LW2WOTC_CarapacePlating_Foundry X2TechTemplate]
+DisplayName="Панцирное покрытие"
+Summary="Этот модернизированный комплект обшивки заимствован из некоторых старых разработок XCOM, чтобы обеспечить значительную абляционную защиту войск."
