@@ -1645,37 +1645,37 @@ TinySummary="+ Бонус патронов, - Размер обоймы"
 [TLMUpgrade_SAVHollowPointRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
 FriendlyName="Пули с полым наконечником"
 FriendlyNamePlural="Пули с полым наконечником"
-BriefSummary="Разработанный для расширения внутри цели, этот специализированный боеприпас добавляет +15 к шансу крита и +1 к урону от крита. Низкая пробиваемость этих снарядов снижает их эффективность против целей, которые бронированы или находятся в укрытии."
+BriefSummary="Designed to expand inside the target, this specialized ammo adds +15 Crit Chance and +1 Crit Damage. Poor penetration for these rounds reduces their effectiveness against targets that are armored or in cover."
 TinySummary="+ Бонус патронов, + Размер обоймы"
 
 [TLMUpgrade_DumbTracerRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
 FriendlyName="Тупые трассирующие пули"
 FriendlyNamePlural="Тупые трассирующие пули"
-BriefSummary="Яркая химическая вспышка на кончике патрона четко указывает траекторию произведенных выстрелов, это улучшает прицеливание, особенно для оружия, которое производит серию выстрелов, к сожалению, это четко указывает на стрелка, а также на положение цели."
+BriefSummary="A bright chemical flare in the tip of the round clearly indicates the trajectory of shots taken, this improves aim especially for weapons that fire a burst of shots, unfortunatley this clearly marks the shooter, as well as the target's possitions."
 TinySummary="+ Бонус патронов, + Размер обоймы"
 
 [TLMUpgrade_HighVelocityAPAdv X2WeaponUpgradeTemplate_TLMAmmo]
 FriendlyName="Высокоскоростные снаряды AP"
 FriendlyNamePlural="Высокоскоростные снаряды AP"
-BriefSummary="Боеприпасы, предназначенные для легкого пробивания брони и укрытий, недостатком, однако, является то, что небольшой плотный снаряд проходит сквозь цели, значительно снижая вероятность нанесения критического урона."
+BriefSummary="Ammunition designed to punch through armour and cover with ease, the drawback however, is that the small dense round passes though targets reducing the likelyhood of causing critical damage significantly."
 TinySummary="+ Бонус патронов, + Размер обоймы"
 
 [TLMUpgrade_IgnitionRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
 FriendlyName="Патроны для воспламенения"
 FriendlyNamePlural="Патроны для воспламенения"
-BriefSummary="Боеприпасы, предназначенные для воспламенения цели при попадании, уменьшают первоначальную отдачу снаряда, однако цель будет быстро охвачена пламенем."
+BriefSummary="Ammunition designed Ignite the target on contact, the initial impact of the round is reduced, however the target will be rapidly consumed by flames."
 TinySummary="+ Бонус патронов, + Размер обоймы"
 
 [TLMUpgrade_HighCalRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
 FriendlyName="Патроны большого калибра"
 FriendlyNamePlural="Патроны большого калибра"
-BriefSummary="Несколько простых модификаций, внесенных в арсенал XCOM перед миссией, позволяют использовать эти боеприпасы высокого калибра, дающие 25% + 1 бонус к урону и AP, однако размер магазина уменьшается, а жестокая отдача снижает точность при последовательных выстрелах."
+BriefSummary="A few simple pre-mission modifications to XCOM's arsenal allow the use of this High Caliber ammunition, granting 25% +1 bonus damage and AP, however, the magazine size is reduced and the brutal recoil reduces accuracy on consecutive shots."
 TinySummary="+ Бонус патронов, + Размер обоймы"
 
 [TLMUpgrade_ExplosiveRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
 FriendlyName="Патроны HE"
 FriendlyNamePlural="Патроны HE"
-BriefSummary="Эти снаряды имеют в наконечнике заряд фугаса, при попадании в цель заряд детонирует, разрывая цель, а при использовании более тяжелого оружия - разрушая ее броню. Чем больше оружие, в которое заряжены эти боеприпасы, тем мощнее этот взрывной эффект."
+BriefSummary="These rounds have a high explosive charge in the tip, on hitting the target the charge detonates rupturing the target and with heavier weapons, shredding its armor. The bigger the weapon this ammo is loaded in to, the more powerful this explosive effect is."
 TinySummary="+ Бонус патронов, + Размер обоймы"
 
 [TLMUpgrade_SavStunRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
@@ -1687,37 +1687,37 @@ TinySummary="+ Бонус патронов, + Размер обоймы"
 [TLMUpgrade_AAJRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
 FriendlyName="Патроны в легкосплавных оболочках"
 FriendlyNamePlural="Патроны в легкосплавных оболочках"
-BriefSummary="Хотя сплав Alien, как известно, трудно поддается механической обработке, он обеспечивает превосходную бронепробиваемость. Эти раунды добавляют +10 к шансу крита, +1 к урону от крита и +2 к бронепробиваемости при снаряжении. Они также обладают свойством пробивать укрытия, повышающим эффективность борьбы с целями в укрытии."
+BriefSummary="While Alien Alloy is notoriously difficult to machine it provides superb armour penetration. These rounds add +10 Crit Chance and +1 Crit Damage and +2 armour piercing when equipped. They also have the cover piercing property improving performance against targets in cover."
 TinySummary="+ Бонус патронов, + Размер обоймы"
 
 [TLMUpgrade_AAJDERoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
 FriendlyName="Патроны AAJDE"
 FriendlyNamePlural="Патроны AAJDE"
-BriefSummary="Снаряды с обедненным элерием в оболочке из чужеродного сплава улучшают бронепробиваемость наших предыдущих разработок за счет использования сердечника с обедненным элерием сверхвысокой плотности. Дает +4 бронебойных пробития и 1 осколок брони при снаряжении. Они также обладают свойством пробивать укрытия, повышающим эффективность борьбы с целями в укрытии."
+BriefSummary="Alien Alloy Jacketed Depleted Elerium rounds improve uppon the armour penetrating performance of our previous designs, by incorporating a super high density depleted elerium core. Grants +4 Armour piercing and 1 armour shread when equipped. They also have the cover piercing property improving performance against targets in cover."
 TinySummary="+ Бонус патронов, + Размер обоймы"
 
 [TLMUpgrade_PlasmaBurstRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
 FriendlyName="Плазменные разрывные снаряды"
 FriendlyNamePlural="Плазменные разрывные снаряды"
-BriefSummary="Плазменные сдерживающие снаряды, работающие на элериуме, при попадании разрушают защитную оболочку, высвобождая поток плазмы, который разносит в клочья броню и разрывает цель, нанося ей повышенный урон от слабых атак."
+BriefSummary="Elerium powered plasma containment rounds, on impact the containment fails unleashing a blast of plasma which shreds armor and ruptures the target causing it to take increased damage from subsiquent attacks."
 TinySummary="+ Бонус патронов, + Размер обоймы"
 
 [TLMUpgrade_DisruptorRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
-FriendlyName="Патроны разрушения"
-FriendlyNamePlural="Патроны разрушения"
-BriefSummary="Эти снаряды испускают направленный когнитивный разрушающий луч, который серьезно ухудшает психическое состояние цели, оглушая, дезориентируя и истощая волю, или взламывает защиту при ударе."
+FriendlyName="Disruptor Rounds"
+FriendlyNamePlural="Disruptor Rounds"
+BriefSummary="These rounds eject a directed cognitive disruption beam, which severly impairs the target's mental state, stunning, disorienting and draining will, or hack defence on impact."
 TinySummary="+ Бонус патронов, + Размер обоймы"
 
 [TLMUpgrade_SmartSeekerRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
 FriendlyName="Умные патроны-ищейки"
 FriendlyNamePlural="Умные патроны-ищейки"
-BriefSummary="Эти выстрелы нацеливаются на цели и выискивают их слабые места. Однако без данных о прицеливании они ничем не лучше обычных боеприпасов. Вскрытые цели получат дополнительный урон, а по целям, отмеченным определенными эффектами, будет легче попасть."
+BriefSummary="These rounds lock on to targets and seek out thier weak points. However, without targeting data they are no better than normal ammunition. Autopsied targets will take addidtional damage and targets which are marked with certain effects will be easier to hit."
 TinySummary="+ Бонус патронов, + Размер обоймы"
 
 [TLMUpgrade_HotshotRoundsAdv X2WeaponUpgradeTemplate_TLMAmmo]
 FriendlyName="Горячие патроны"
 FriendlyNamePlural="Горячие патроны"
-BriefSummary="Эти снаряды содержат едкую химическую боеголовку, которая воспламеняется при контакте с воздухом, в результате чего цель охвачена пламенем при сжигании кислотной смесью. Дополнительный шанс нанесения критического удара и разрушения, но боеприпасы быстро разрушаются при соприкосновении с воздухом, снижая точность."
+BriefSummary="These rounds contain a caustic chemical warhead which ignites on contact with the air causing the target to be engulfed in flame while being burned by the acidic mixture. Bonus crit chance and shred, but the ammunition quickly ablates on contact with air reducing accuracy."
 TinySummary="+ Бонус патронов, + Размер обоймы"
 ;============================================
 
