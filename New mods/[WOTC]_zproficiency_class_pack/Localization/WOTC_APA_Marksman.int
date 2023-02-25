@@ -1,0 +1,14 @@
+
+[X2Ability_WOTC_APA_MarksmanAbilitySet]
+
+;  -- Localized Strings for Assault Infantry Abilities --
+;  ------------------------------------------------------
+
+strPrecisionTargeting1Name = "Precision Targeting I"
+strPrecisionTargeting1Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/>Gain the following bonuses while Braced:<br/><Bullet/> Reduce Aim penalties due to Squadsight range by <font color='#3ABD23'><Ability:PRECISION_TARGETING_SQUADSIGHT_PENALTY_NEGATED_1/>%</font>.<br/><Bullet/> Reduce target's chance to Dodge by <font color='#3ABD23'><Ability:PRECISION_TARGETING_ENEMY_DODGE_NEGATED_1/>%</font>.<br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:PRECISION_TARGETING_COVER_CRIT_BONUS_1/>%</font> chance to Crit targets that are in cover or cannot be flanked."
+
+strPrecisionTargeting2Name = "Precision Targeting II"
+strPrecisionTargeting2Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL II</font><br/>Gain the following bonuses while Braced:<br/><Bullet/> Reduce Aim penalties due to Squadsight range by <font color='#3ABD23'><Ability:PRECISION_TARGETING_SQUADSIGHT_PENALTY_NEGATED_2/>%</font>.<br/><Bullet/> Reduce target's chance to Dodge by <font color='#3ABD23'><Ability:PRECISION_TARGETING_ENEMY_DODGE_NEGATED_2/>%</font>.<br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:PRECISION_TARGETING_COVER_CRIT_BONUS_2/>%</font> chance to Crit targets that are in cover or cannot be flanked."
+
+strPrecisionTargeting3Name = "Precision Targeting III"
+strPrecisionTargeting3Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL III</font><br/>Gain the following bonuses while Braced:<br/><Bullet/> Reduce Aim penalties due to Squadsight range by <font color='#3ABD23'><Ability:PRECISION_TARGETING_SQUADSIGHT_PENALTY_NEGATED_3/>%</font>.<br/><Bullet/> Reduce target's chance to Dodge by <font color='#3ABD23'><Ability:PRECISION_TARGETING_ENEMY_DODGE_NEGATED_3/>%</font>.<br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:PRECISION_TARGETING_COVER_CRIT_BONUS_3/>%</font> chance to Crit targets that are in cover or cannot be flanked."

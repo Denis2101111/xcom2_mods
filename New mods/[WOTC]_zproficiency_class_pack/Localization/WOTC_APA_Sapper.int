@@ -1,0 +1,18 @@
+
+[X2Ability_WOTC_APA_SapperAbilitySet]
+
+;  -- Localized Strings for Assault Infantry Abilities --
+;  ------------------------------------------------------
+
+strExplosiveOrdnance1Name = "Explosive Ordnance I"
+strExplosiveOrdnance1Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/><Bullet/> Gain a Grenade Pocket, allowing the <Ability:ClassName/> to equip a second Grenade.<br/><Bullet/> Grenades and Rockets that damage the environment deal <font color='#3ABD23'>+<Ability:EXPLOSIVE_ORDNANCE_BONUS_ENVIRONMENT_DAMAGE/></font> additional environmental Damage."
+
+strExplosiveOrdnance2Name = "Explosive Ordnance II"
+strExplosiveOrdnance2Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL II</font><br/><Bullet/> Gain a Grenade Pocket and <font color='#3ABD23'>+<Ability:EXPLOSIVE_ORDNANCE_BONUS_GRENADE_POCKET_CHARGE_2/></font> charge to the Grenade equipped within (excludes unique grenades, like the Frost Bomb).<br/><Bullet/> Grenades and Rockets deal <font color='#3ABD23'>+<Ability:EXPLOSIVE_ORDNANCE_BONUS_ENVIRONMENT_DAMAGE/></font> additional environmental Damage.<br/><Bullet/> Grenades and Rockets gain <font color='#3ABD23'><Ability:EXPLOSIVE_ORDNANCE_EXPLOSIVE_CRIT_CHANCE/>%</font> chance to Critically Hit, dealing <font color='#3ABD23'>+<Ability:EXPLOSIVE_ORDNANCE_EXPLOSIVE_CRIT_DAMAGE/></font> Damage. Maximum scatter when firing Rocket-Propelled Grenades is reduced."
+
+strExplosiveOrdnance3Name = "Explosive Ordnance III"
+strExplosiveOrdnance3Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL III</font><br/><Bullet/> Gain a Grenade Pocket and <font color='#3ABD23'>+<Ability:EXPLOSIVE_ORDNANCE_BONUS_GRENADE_POCKET_CHARGE_3_TOTAL/></font> charges to the Grenade equipped within (excludes unique grenades, like the Frost Bomb).<br/><Bullet/> Grenades and Rockets deal <font color='#3ABD23'>+<Ability:EXPLOSIVE_ORDNANCE_BONUS_ENVIRONMENT_DAMAGE/></font> additional environmental Damage.<br/><Bullet/> Grenades and Rockets gain <font color='#3ABD23'><Ability:EXPLOSIVE_ORDNANCE_EXPLOSIVE_CRIT_CHANCE/>%</font> chance to Critically Hit, dealing <font color='#3ABD23'>+<Ability:EXPLOSIVE_ORDNANCE_EXPLOSIVE_CRIT_DAMAGE/></font> Damage.<br/><Bullet/> 'Standard' explosive Grenades and Rockets deal an additional <font color='#3ABD23'>+<Ability:EXPLOSIVE_ORDNANCE_STANDARD_EXPLOSIVE_ENVIRONMENT_DAMAGE/></font> environmental Damage, <font color='#3ABD23'>+<Ability:EXPLOSIVE_ORDNANCE_STANDARD_EXPLOSIVE_BASE_DAMAGE/></font> base Damage, and <font color='#3ABD23'>+<Ability:EXPLOSIVE_ORDNANCE_STANDARD_EXPLOSIVE_CRIT_DAMAGE/></font> Damage on Critical Hits. Maximum scatter when firing Rocket-Propelled Grenades is significantly reduced."
+
+
+[X2Effect_WOTC_APA_ChemicalWarfare]
+strChemicalWarfareFlyover = "Chemical Warfare:  Gasping!"

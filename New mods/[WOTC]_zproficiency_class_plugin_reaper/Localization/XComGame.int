@@ -1,0 +1,219 @@
+
+
+;  ////////////////////////////////////
+;  // Changes to Base-Game Abilities //
+;  ////////////////////////////////////
+
+
+
+
+;  ////////////////////////////////
+;  // Changes to Items & Weapons //
+;  ////////////////////////////////
+
+
+
+;  ////////////
+;  // Reaper //
+;  ////////////
+
+[Reaper X2EncyclopediaTemplate]
+ListTitle = "Reaper Class"
+DescriptionTitle = "Reaper Class"
+DescriptionEntry = "Reapers use an advanced form of concealment called \"Shadow Meld\", which builds up over time, granting more powerful bonuses and effects as the Reaper accumulates \"Shadow Stacks\" (their Focus Mechanic). While concealed, Reapers gain increased Critical Hit chance and a reduced detection radius based on their current Shadow Stacks, but killing shots from concealment will consume Shadow Stacks to keep the Reaper from being revealed.<br/><br/>Other class abilities may grant additional benefits that build on the Shadow Stack mechanic."
+
+[XLocalizedData]
+ReaperTutorialTitle = "Reaper Shadow Meld"
+ReaperTutorialText = "Reapers use an advanced form of concealment called \"Shadow Meld\", which builds up over time, granting more powerful bonuses and effects as the Reaper accumulates \"Shadow Stacks\" (their Focus Mechanic). While concealed, Reapers gain increased Critical Hit chance and a reduced detection radius based on their current Shadow Stacks, but killing shots from concealment will consume Shadow Stacks to keep the Reaper from being revealed."
+
+[Reaper X2SoldierClassTemplate]
+DisplayName = "Reaper"
+ClassSummary = "The Reaper specializes in slipping through, and striking from, the shadows.<br/><br/><font color='#CA7200'>Can use Vektor Rifles and Pistols.</font>"
+AbilityTreeTitles[0] = "Operative"
+AbilityTreeTitles[1] = "Wraith"
+AbilityTreeTitles[2] = "Predator"
+AbilityTreeTitles[3] = "XCOM"
+
+;+RankIcons[0]="UILibrary_Common.rank_rookie"
+;+RankIcons[1]="UILibrary_WOTC_APA_Reaper.ranks_Squaddie_Level1"
+;+RankIcons[2]="UILibrary_WOTC_APA_Reaper.ranks_Corporal_Level1"
+;+RankIcons[3]="UILibrary_WOTC_APA_Reaper.ranks_Sergeant_Level2"
+;+RankIcons[4]="UILibrary_WOTC_APA_Reaper.ranks_Lieutenant_Level2"
+;+RankIcons[5]="UILibrary_WOTC_APA_Reaper.ranks_Captain_Level2"
+;+RankIcons[6]="UILibrary_WOTC_APA_Reaper.ranks_Major_Level3"
+;+RankIcons[7]="UILibrary_WOTC_APA_Reaper.ranks_Colonel_Level3"
+;+RankIcons[8]="UILibrary_WOTC_APA_Class_Pack.ranks_Brigadier_Level3"
+
+[WOTC_APA_ReaperAgent X2SoldierClassTemplate]
+DisplayName = "Reaper Agent"
+ClassSummary = "The Reaper specializes in slipping through, and striking from, the shadows.<br/><br/><font color='#CA7200'>Can use Vektor Rifles and Pistols.</font>"
+AbilityTreeTitles[0] = "Operative"
+AbilityTreeTitles[1] = "Wraith"
+AbilityTreeTitles[2] = "Predator"
+AbilityTreeTitles[3] = "XCOM"
+
+!RankIcons=()
++RankIcons[0]="UILibrary_Common.rank_rookie"
++RankIcons[1]="UILibrary_WOTC_APA_Class_Pack.ranks_Squaddie_Level1"
++RankIcons[2]="UILibrary_WOTC_APA_Class_Pack.ranks_Corporal_Level1"
++RankIcons[3]="UILibrary_WOTC_APA_Class_Pack.ranks_Sergeant_Level2"
++RankIcons[4]="UILibrary_WOTC_APA_Class_Pack.ranks_Lieutenant_Level2"
++RankIcons[5]="UILibrary_WOTC_APA_Class_Pack.ranks_Captain_Level2"
++RankIcons[6]="UILibrary_WOTC_APA_Class_Pack.ranks_Major_Level3"
++RankIcons[7]="UILibrary_WOTC_APA_Class_Pack.ranks_Colonel_Level3"
+
+RandomNickNames[0]="Shadow"
+RandomNickNames[1]="Ghost"
+RandomNickNames[2]="Stalker"
+RandomNickNames[3]="Haunt"
+RandomNickNames[4]="Wraith"
+RandomNickNames[5]="Raven"
+RandomNickNames[6]="Scythe"
+RandomNickNames[7]="Bones"
+RandomNickNames[8]="Stiletto"
+RandomNickNames[9]="Nightwalker"
+RandomNickNames[10]="Final"
+
+RandomNickNames_Male[0]="Sandman"
+
+RandomNickNames_Female[0]="Valkyrie"
+
+PhotoboothSoloBLines_Male[0]="Shadow stalker.  Death dealer."
+PhotoboothSoloBLines_Male[1]="From the shadows... he STRIKES!"
+PhotoboothSoloBLines_Male[2]="Stay out of the shadows.  They can be DEADLY."
+PhotoboothSoloBLines_Male[3]="Death from the darkness."
+PhotoboothSoloBLines_Male[4]="In the shadows, no one will hear your scream..."
+PhotoboothSoloBLines_Male[5]="Hunter. Killer."
+PhotoboothSoloBLines_Male[6]="Master of Shadows"
+PhotoboothSoloBLines_Male[7]="The Darkness is His Domain"
+PhotoboothSoloBLines_Male[8]="When Darkness Falls, So Will His Enemies!"
+PhotoboothSoloBLines_Male[9]="Fear the Reaper."
+PhotoboothSoloBLines_Male[10]="Even death fears him."
+PhotoboothSoloBLines_Male[11]="First he'll kill them.  Then he'll eat them."
+PhotoboothSoloBLines_Male[12]="You can't kill what you can't see."
+PhotoboothSoloBLines_Male[13]="\"We do not fear the night, for we are the shadow.\""
+PhotoboothSoloBLines_Male[14]="He's the last thing you'll never see."
+PhotoboothSoloBLines_Male[15]="If death takes a vacation, he'll pick up the slack."
+
+PhotoboothSoloBLines_Female[0]="Shadow stalker.  Death dealer."
+PhotoboothSoloBLines_Female[1]="From the shadows... she STRIKES!"
+PhotoboothSoloBLines_Female[2]="Stay out of the shadows.  They can be DEADLY."
+PhotoboothSoloBLines_Female[3]="Death from the darkness."
+PhotoboothSoloBLines_Female[4]="In the shadows, no one will hear your scream..."
+PhotoboothSoloBLines_Female[5]="Hunter. Killer."
+PhotoboothSoloBLines_Female[6]="Master of Shadows"
+PhotoboothSoloBLines_Female[7]="Queen of Shadows"
+PhotoboothSoloBLines_Female[8]="The Darkness is Her Domain"
+PhotoboothSoloBLines_Female[9]="When Darkness Falls, So Will Her Enemies!"
+PhotoboothSoloBLines_Female[10]="Even death fears her."
+PhotoboothSoloBLines_Female[11]="First she'll kill them.  Then she'll eat them."
+PhotoboothSoloBLines_Female[12]="You can't kill what you can't see."
+PhotoboothSoloBLines_Female[13]="\"We do not fear the night, for we are the shadow.\""
+PhotoboothSoloBLines_Female[14]="She's the last thing you'll never see."
+PhotoboothSoloBLines_Female[15]="If death takes a vacation, she'll pick up the slack."
+
+
+; - GTS Unlocks -
+
+[WOTC_APA_ReaperUnlock1 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Reaper: Shadow Walker I"
+Summary = "All Reapers' Shadow Meld proficiency will now start at level 2, regardless of rank. You may train one non-faction soldier as a Reaper Agent."
+
+[WOTC_APA_ReaperUnlock2 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Reaper: Shadow Walker II"
+Summary = "All Reapers' Shadow Meld proficiency will now start at level 3, regardless of rank. You may train one additional non-faction soldier as a Reaper Agent.<br/><br/><font color='#CA7200'>Requires Shadow Walker I</font>"
+
+; - Ability Templates -
+
+[WOTC_APA_Shadow X2AbilityTemplate]
+LocFriendlyName = "Shadow Meld"
+LocLongDescription = "The <Ability:ClassName/>'s ability to slip through, and strike from, the shadows increases with experience."
+LocPromotionPopupText = "<font color='#CA7200'>FOCUS MECHANIC:</font> Build up Shadow Stacks while concealed to enhance bonuses to Detection Radius and Critical Hit chance. Other <Ability:ClassName/> abilities can grant additional benefits based on active Shadow Stacks.<br/><Bullet/> Detection Radius is decreased by <font color='#3ABD23'><Ability:SHADOW_STACK_VARIABLE_DETECTION_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> Critical Hit chance is increased by <font color='#3ABD23'>+<Ability:SHADOW_STACK_CRIT_CHANCE_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> At the beginning of each turn, if concealed, gain <font color='#3ABD23'>+<Ability:SHADOW_STACK_GAIN_PER_TURN/></font> Shadow Stack. Gain <font color='#3ABD23'>+<Ability:SHADOW_STACK_GAIN_HUNKER/></font> additional Shadow Stack if you<br/>  Hunkered Down and were concealed the previous turn.<br/><Bullet/> Attacks that do not break concealment through Silent Killer consume Shadow Stacks.<br/><br/><font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> The <Ability:ClassName/> can attempt to hack into adjacent ADVENT security towers using their XPAD.<br/><Bullet/> Gain Ambush, an ability that allows toggling whether or not to take overwatch shots while concealed.<br/><Bullet/> Begin missions concealed with <font color='#3ABD23'><Ability:SHADOW_STACK_START_I/></font> active Shadow Stack.  Initial maximum is <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_I/></font> Shadow Stacks.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Begin missions concealed with <font color='#3ABD23'><Ability:SHADOW_STACK_START_II/></font> active Shadow Stacks.  Maximum is increased to <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_II/></font> Shadow Stacks.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6])<br/><Bullet/> Begin missions concealed with <font color='#3ABD23'><Ability:SHADOW_STACK_START_III/></font> active Shadow Stacks.  Maximum is increased to <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_III/></font> Shadow Stacks."
+
+[WOTC_APA_Fade X2AbilityTemplate]
+LocFriendlyName = "Fade"
+LocFlyOverText = "Fade"
+LocHelpText = "At the beginning of your turn, if no active enemies can see the <Ability:ClassName/>, re-enter concealment."
+LocLongDescription = "At the beginning of your turn, if no active enemies can see the <Ability:ClassName/>, re-enter concealment."
+LocPromotionPopupText = "At the beginning of your turn, if no active enemies can see the <Ability:ClassName/>, re-enter concealment.<br/><br/><Bullet/> Enemies that are stunned, unconscious, bleeding out, or in stasis do not count as active enemies and will not prevent the <Ability:ClassName/> from re-entering concealment.<br/><Bullet/> You will not receive the start-of-turn Shadow Stack increase on the same turn you reconceal with Fade."
+
+[WOTC_APA_SilentKiller X2AbilityTemplate]
+LocFriendlyName = "Silent Killer"
+LocFlyOverText = "Silent Killer"
+LocHelpText = "When concealed, kills with your primary weapon and pistols do not break concealment if you have enough active Shadow Stacks."
+LocLongDescription = "When concealed, kills with your primary weapon and pistols do not break concealment if you have enough active Shadow Stacks. Consumes Shadow Stacks each time Silent Killer retains concealments: <font color='#CA7200'><Ability:SHADOW_STACK_PRIMARY_ATTACK_COST/></font> for Primary Weapon attacks and <font color='#CA7200'><Ability:SHADOW_STACK_SECONDARY_ATTACK_COST/></font> for Secondary Weapon attacks."
+LocPromotionPopupText = "When concealed, kills with your primary weapon and pistols do not break concealment if you have enough active Shadow Stacks.<br/><br/><Bullet/> Each attack that retains concealment through Silent Killer will consume Shadow Stacks: <font color='#CA7200'><Ability:SHADOW_STACK_PRIMARY_ATTACK_COST/></font> from Primary Weapon attacks and <font color='#CA7200'><Ability:SHADOW_STACK_SECONDARY_ATTACK_COST/></font> from Secondary Weapon attacks.<br/><Bullet/> If the <Ability:ClassName/> does not have the required active Shadow Stacks, Silent Killer will not trigger, revealing them.<br/><Bullet/> Some special multi-shot and multi-target attacks (like Banish, Faceoff, etc.) are not eligible for Silent Killer and will always break the <Ability:ClassName/>'s concealemnt.<br/><Bullet/> Destructible objects whose health is reduced to zero count as a kill for Silent Killer."
+
+[WOTC_APA_ReaperHack X2AbilityTemplate]
+LocFriendlyName="Hack Advent Security Tower"
+LocHelpText="Attempt to breach security on an adjacent Advent security tower."
+LocFlyOverText="Hacking"
+
+[WOTC_APA_Infiltration X2AbilityTemplate]
+LocFriendlyName = "Infiltration"
+LocFlyOverText = "Infiltration"
+LocHelpText = "Increases the <Ability:ClassName/>'s hacking skill by <font color='#3ABD23'>+<Ability:INFILTRATION_HACK_BONUS/></font> and ADVENT security towers can no longer detect this unit when concealed. Immediately start with <font color='#3ABD23'><Ability:INFILTRATION_RECONCEAL_SHADOW_STACKS/></font> Shadow Stacks each time you reconceal."
+LocLongDescription = "Increases the <Ability:ClassName/>'s hacking skill by <font color='#3ABD23'>+<Ability:INFILTRATION_HACK_BONUS/></font> and ADVENT security towers can no longer detect this unit when concealed. Immediately start with <font color='#3ABD23'><Ability:INFILTRATION_RECONCEAL_SHADOW_STACKS/></font> Shadow Stacks each time you reconceal."
+LocPromotionPopupText = "Increases the <Ability:ClassName/>'s hacking skill by <font color='#3ABD23'>+<Ability:INFILTRATION_HACK_BONUS/></font> and ADVENT security towers can no longer detect this unit when concealed. Immediately start with <font color='#3ABD23'><Ability:INFILTRATION_RECONCEAL_SHADOW_STACKS/></font> Shadow Stacks each time you reconceal.<br/><br/><Bullet/> "
+
+[WOTC_APA_Phase X2AbilityTemplate]
+LocFriendlyName = "Phase"
+LocFlyOverText = "Phase"
+LocHelpText = "Gain the Shadowstep and Reposition abilities."
+LocLongDescription = "Gain the Shadowstep (does not trigger reaction fire) and Reposition (partial movement action after hitting a turn-ending flanking shot) abilities."
+LocPromotionPopupText = "Gain the Shadowstep and Reposition abilities.<br/><br/><Bullet/> Shadowstep makes the <Ability:ClassName/> immune to triggering enemy reaction fire.<br/><Bullet/> Reposition gives the <Ability:ClassName/> a move with reduced Mobility to reposition after hitting a turn-ending shot against a flanked, exposed, or uncovered target."
+
+[WOTC_APA_Vanish X2AbilityTemplate]
+LocFriendlyName = "Vanish"
+LocFlyOverText = "Vanish"
+LocHelpText = "At both the beginning AND end of your turn, if no active enemies can see the <Ability:ClassName/>, re-enter concealment."
+LocLongDescription = "Fade can now attempt to re-conceal the <Ability:ClassName/> at both the beginning AND the end of your turn. Gain a charge of free re-concealment."
+LocPromotionPopupText = "Fade can now attempt to re-conceal the <Ability:ClassName/> at both the beginning AND the end of your turn. Gain a charge of free re-concealment.<br/><br/><Bullet/> Re-entering concealment at the end of your turn allows you to more effectively control when the <Ability:ClassName/> is able to re-conceal before enemy forces reposition or reinforcements arrive.<br/><Bullet/> When reconcealing on the end of your turn with Vanish, you will be eligible to receive the start-of-turn Shadow Stack increase on the beginning of your next turn.<br/><Bullet/> Use the <Ability:ClassName/>'s Ambush ability to overwatch when you don't want re-entering concealment to prevent them from firing during the enemies turn."
+
+[WOTC_APA_Haunt X2AbilityTemplate]
+LocFriendlyName = "Haunt"
+LocFlyOverText = "Haunt"
+LocHelpText = "Deal <font color='#3ABD23'>+<Ability:HAUNT_DAMAGE_BONUS/></font> additional damage to targets that have already been wounded this turn and gain a <font color='#3ABD23'><Ability:HAUNT_PANIC_CHANCE/>%</font> chance to panic nearby enemies (within <font color='#3ABD23'><Ability:HAUNT_PANIC_RANGE/></font> Tiles) each time you break concealment."
+LocLongDescription = "Deal <font color='#3ABD23'>+<Ability:HAUNT_DAMAGE_BONUS/></font> additional damage to targets that have already been wounded this turn and gain a <font color='#3ABD23'><Ability:HAUNT_PANIC_CHANCE/>%</font> chance to panic nearby enemies (within <font color='#3ABD23'><Ability:HAUNT_PANIC_RANGE/></font> Tiles) each time you break concealment."
+LocPromotionPopupText = "Deal <font color='#3ABD23'>+<Ability:HAUNT_DAMAGE_BONUS/></font> additional damage to targets that have already been wounded this turn and gain a <font color='#3ABD23'><Ability:HAUNT_PANIC_CHANCE/>%</font> chance to panic nearby enemies (within <font color='#3ABD23'><Ability:HAUNT_PANIC_RANGE/></font> Tiles) each time you break concealment."
+
+[WOTC_APA_BeastHunter X2AbilityTemplate]
+LocFriendlyName = "Xenovore"
+LocFlyOverText = "Xenovore"
+LocHelpText = "Deal <font color='#3ABD23'>+<Ability:BEAST_HUNTER_DAMAGE_BONUS/></font> damage and receive <font color='#3ABD23'>x<Ability:BEAST_HUNTER_SHADOW_CRIT_CHANCE_MOD/></font> Critical Hit Chance bonuses from Shadow Stacks against savage enemies."
+LocLongDescription = "Deal <font color='#3ABD23'>+<Ability:BEAST_HUNTER_DAMAGE_BONUS/></font> damage and receive <font color='#3ABD23'>x<Ability:BEAST_HUNTER_SHADOW_CRIT_CHANCE_MOD/></font> Critical Hit Chance bonuses from Shadow Stacks against savage enemies."
+LocPromotionPopupText = "Deal <font color='#3ABD23'>+<Ability:BEAST_HUNTER_DAMAGE_BONUS/></font> damage and receive <font color='#3ABD23'>x<Ability:BEAST_HUNTER_SHADOW_CRIT_CHANCE_MOD/></font> Critical Hit Chance bonuses from Shadow Stacks against savage enemies.<br/><br/><Bullet/> Savage enemies include, Chryssalids, Faceless, Berserkers, Zombies, and the Lost."
+
+[WOTC_APA_Weakpoint X2AbilityTemplate]
+LocFriendlyName = "Weakpoint"
+LocFlyOverText = "Weakpoint"
+LocHelpText = "Shots with your <Ability:SecondaryWeaponName/> pierce armor based on the number of active Shadow Stacks:<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_I/></font>:  <font color='#3ABD23'>+<Ability:WEAKPOINT_ARMOR_PIERCE_I/></font> Armor Pierce<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_II/></font>:  <font color='#3ABD23'>+<Ability:WEAKPOINT_ARMOR_PIERCE_II/></font> Armor Pierce<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_III/></font>:  <font color='#3ABD23'>+<Ability:WEAKPOINT_ARMOR_PIERCE_III/></font> Armor Pierce"
+LocLongDescription = "Shots with your secondary weapon pierce armor based on the number of active Shadow Stacks:<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_I/></font>:  <font color='#3ABD23'>+<Ability:WEAKPOINT_ARMOR_PIERCE_I/></font> Armor Pierce<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_II/></font>:  <font color='#3ABD23'>+<Ability:WEAKPOINT_ARMOR_PIERCE_II/></font> Armor Pierce<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_III/></font>:  <font color='#3ABD23'>+<Ability:WEAKPOINT_ARMOR_PIERCE_III/></font> Armor Pierce"
+LocPromotionPopupText = "Shots with your <Ability:SecondaryWeaponName/> pierce armor based on the number of active Shadow Stacks:<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_I/></font>:  <font color='#3ABD23'>+<Ability:WEAKPOINT_ARMOR_PIERCE_I/></font> Armor Pierce<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_II/></font>:  <font color='#3ABD23'>+<Ability:WEAKPOINT_ARMOR_PIERCE_II/></font> Armor Pierce<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_III/></font>:  <font color='#3ABD23'>+<Ability:WEAKPOINT_ARMOR_PIERCE_III/></font> Armor Pierce"
+
+[WOTC_APA_Hound X2AbilityTemplate]
+LocFriendlyName = "Hound"
+LocFlyOverText = "Hound"
+LocHelpText = "Gain bonus Mobility based on the number of active Shadow Stacks:<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_I/></font>:  <font color='#3ABD23'>+<Ability:HOUND_MOBILITY_BONUS_I/></font> Mobility<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_II/></font>:  <font color='#3ABD23'>+<Ability:HOUND_MOBILITY_BONUS_II/></font> Mobility<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_III/></font>:  <font color='#3ABD23'>+<Ability:HOUND_MOBILITY_BONUS_III/></font> Mobility"
+LocLongDescription = "Gain bonus Mobility based on the number of active Shadow Stacks:<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_I/></font>:  <font color='#3ABD23'>+<Ability:HOUND_MOBILITY_BONUS_I/></font> Mobility<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_II/></font>:  <font color='#3ABD23'>+<Ability:HOUND_MOBILITY_BONUS_II/></font> Mobility<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_III/></font>:  <font color='#3ABD23'>+<Ability:HOUND_MOBILITY_BONUS_III/></font> Mobility"
+LocPromotionPopupText = "Gain bonus Mobility based on the number of active Shadow Stacks:<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_I/></font>:  <font color='#3ABD23'>+<Ability:HOUND_MOBILITY_BONUS_I/></font> Mobility<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_II/></font>:  <font color='#3ABD23'>+<Ability:HOUND_MOBILITY_BONUS_II/></font> Mobility<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_III/></font>:  <font color='#3ABD23'>+<Ability:HOUND_MOBILITY_BONUS_III/></font> Mobility"
+
+[WOTC_APA_PreciseStrike X2AbilityTemplate]
+LocFriendlyName = "Precise Strike"
+LocFlyOverText = "Precise Strike"
+LocHelpText = "Gain increased chance to hit and crit targets behind cover based on the number of Shadow Stacks:<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_I/></font>:  <font color='#3ABD23'>+<Ability:PRECISE_STRIKE_COVER_AIM_BONUS_I/>%</font>   Chance to Hit/Crit<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_II/></font>:  <font color='#3ABD23'>+<Ability:PRECISE_STRIKE_COVER_AIM_BONUS_II/>%</font> Chance to Hit/Crit<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_III/></font>:  <font color='#3ABD23'>+<Ability:PRECISE_STRIKE_COVER_AIM_BONUS_III/>%</font> Chance to Hit/Crit"
+LocLongDescription = "Gain increased chance to hit and crit targets behind cover based on the number of Shadow Stacks:<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_I/></font>:  <font color='#3ABD23'>+<Ability:PRECISE_STRIKE_COVER_AIM_BONUS_I/>%</font>   Chance to Hit/Crit<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_II/></font>:  <font color='#3ABD23'>+<Ability:PRECISE_STRIKE_COVER_AIM_BONUS_II/>%</font> Chance to Hit/Crit<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_III/></font>:  <font color='#3ABD23'>+<Ability:PRECISE_STRIKE_COVER_AIM_BONUS_III/>%</font> Chance to Hit/Crit"
+LocPromotionPopupText = "Gain increased chance to hit and crit targets behind cover based on the number of Shadow Stacks:<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_I/></font>:  <font color='#3ABD23'>+<Ability:PRECISE_STRIKE_COVER_AIM_BONUS_I/>%</font>   Chance to Hit/Crit<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_II/></font>:  <font color='#3ABD23'>+<Ability:PRECISE_STRIKE_COVER_AIM_BONUS_II/>%</font> Chance to Hit/Crit<br/>    <font color='#CA7200'><Ability:SHADOW_VALUE_THRESHOLD_III/></font>:  <font color='#3ABD23'>+<Ability:PRECISE_STRIKE_COVER_AIM_BONUS_III/>%</font> Chance to Hit/Crit"
+
+[WOTC_APA_Undermine X2AbilityTemplate]
+LocFriendlyName = "Undermine"
+LocFlyOverText = "Undermine"
+LocHelpText = "Attacks with your <Ability:SecondaryWeaponName/> no longer require a kill to trigger Silent Killer and will rupture the target(s), causing them to take <font color='#3ABD23'>+<Ability:UNDERMINE_RUPTURE_DAMAGE/></font> additional Damage on all subsequent attacks."
+LocLongDescription = "Attacks with your <Ability:SecondaryWeaponName/> no longer require a kill to trigger Silent Killer and will rupture the target(s), causing them to take <font color='#3ABD23'>+<Ability:UNDERMINE_RUPTURE_DAMAGE/></font> additional Damage on all subsequent attacks."
+LocPromotionPopupText = "Attacks with your <Ability:SecondaryWeaponName/> no longer require a kill to trigger Silent Killer and will rupture the target(s), causing them to take <font color='#3ABD23'>+<Ability:UNDERMINE_RUPTURE_DAMAGE/></font> additional Damage on all subsequent attacks.<br/><br/><Bullet/> Undermine will not prevent breaking concealment on any attacks that are not eligible for Silent Killer to begin with (Faceoff, Fanfire, etc.).<br/><Bullet/> Other conditions for Silent Killer, such as required Shadow Stacks, will still apply."
+
+[WOTC_APA_Annihilation X2AbilityTemplate]
+LocFriendlyName = "Annihilation"
+LocFlyOverText = "Annihilation"
+LocLongDescription = "When you kill a target with Banish, you will continue firing at another enemy until you run out of ammo. Banish can now be used <font color='#3ABD23'>+<Ability:ANNIHILATION_CHARGE_BONUS/></font> additional time per mission."
+LocPromotionPopupText = "When you kill a target with Banish, you will continue firing at another enemy until you run out of ammo. Banish can now be used <font color='#3ABD23'>+<Ability:ANNIHILATION_CHARGE_BONUS/></font> additional time per mission.<br/><br/><Bullet/> Banish will have a <font color='#3ABD23'><Ability:ANNIHILATION_BANISH_COOLDOWN/></font> turn cooldown between uses."

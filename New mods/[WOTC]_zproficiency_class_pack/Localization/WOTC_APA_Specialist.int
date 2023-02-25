@@ -1,0 +1,52 @@
+
+[X2Ability_WOTC_APA_SpecialistAbilitySet]
+
+;  -- Localized Strings for Tech. Specialist Abilities --
+;  ------------------------------------------------------
+
+strProtocolPackages1Name = "Protocol Packages I"
+strProtocolPackages1Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/><Bullet/> Gain the base ABC Protocol abilities:<br/>   - Aid Protocol<br/>   - Blinding Protocol<br/>   - Combat Protocol<br/><Bullet/> ABC Protocols will slowly recharge after all initial charges are depleted."
+
+strProtocolPackages2Name = "Protocol Packages II"
+strProtocolPackages2Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL II</font><br/><Bullet/> Gain the base ABC Protocol abilities.<br/><Bullet/> Gain the Haywire Protocol ability.<br/><Bullet/> Gain the Repair Protocol ability.<br/><Bullet/> Gremlin Protocol abilities no longer consume all remaining actions."
+
+strProtocolPackages3Name = "Protocol Packages III"
+strProtocolPackages3Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL III</font><br/><Bullet/> Gain the base ABC Protocol abilities.<br/><Bullet/> Gain the Haywire Protocol ability.<br/><Bullet/> Gain the Repair Protocol ability.<br/><Bullet/> Gremlin Protocol abilities no longer consume all remaining actions.<br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:PP_III_ABC_PROTOCOL_CHARGE_BONUS/></font> initial ABC Protocol charges and ABC Protocols will now recharge <font color='#3ABD23'><Ability:PP_III_ABC_PROTOCOL_RECHARGE_BONUS/></font> turns faster after all initial charges are depleted."
+
+
+strProtocolSquadConcealmentBrokenFlyover = "Squad Concealment Removed!"
+
+strAidProtocolDefenseEffectName = "Aid Protocol""
+strAidProtocolDefenseEffectDesc = "+Defense"
+
+strNeutralizingAgentsEffectName = "Neutralizing Agents: Immunities"
+strNeutralizingAgentsEffectDesc = "Neutralizing Agents in the Aid Protocol smoke cloud remove active effects and provide immunity against acid, burning, and poison"
+
+[X2Effect_WOTC_APA_Failsafe]
+strFailsafeTriggeredFlyover = "Failsafe: Negative effects neutralized"
+
+[X2Effect_WOTC_APA_DisruptionField]
+strDisruptionFieldFlyover = "Disruption Field:  Gauranteed Miss!"
+
+[X2Effect_WOTC_APA_RemoteRepair]
+strRepairedMessage="+<HealMod/> Damage Repaired"
+
+[X2Effect_WOTC_APA_ApplyAidProtocolSmokeToWorld]
+strEffectName="Aid Protocol: Defensive Smoke"
+strEffectDesc="While in a cloud of Neutralizing Agents, this unit will be immune to Burning and Acid damage."
+
+[X2Effect_WOTC_APA_ApplyNeutralizingAgentsSmokeToWorld]
+strEffectName="Neutralizing Agents: Damage Immunity"
+strEffectDesc="While in a cloud of Neutralizing Agents, this unit will be immune to Burning and Acid damage."
+
+[X2Effect_WOTC_APA_AdvancedArmorRepair]
+strAdvancedArmorRepairMsg="Armor Mending: +<HealMod/> Armor Restored"
+
+[X2Effect_WOTC_APA_ReduceActionsAfterHack]
+strReduceActionsAfterHackFlyover = "Electronic Warfare:  Limited Actions!"
+
+[X2Effect_WOTC_APA_ExtendedShutdownTurns]
+strExtendedShutdownTurnsFlyover = "Electronic Warfare:  Shutdown Duration Extended!"
+
+[X2Effect_WOTC_APA_SetProtocolRechargeCooldown]
+strProtocolRechargeFlyover = "...Protocol Recharging"

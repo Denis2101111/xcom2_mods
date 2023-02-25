@@ -1,0 +1,182 @@
+;============================================================================================================
+;     Isms ROGUE
+;============================================================================================================
+
+[IsmsBlazeOfGlory X2AbilityTemplate]
+LocFriendlyName="Blaze of Glory"
+LocHelpText="Take a final stand. Strike at every enemy in range before going out in a Blaze of Glory. But are you really dead?"
+LocLongDescription="Take a final stand. Strike at every enemy before going out in a Blaze of Glory. But are you really dead?"
+LocPromotionPopupText="<Bullet/> 8 turn cooldown.<br/> <Bullet/> Strike once at each enemy in weapon range before feigning your own death for two turns. <br/> <Bullet/> Slight aim bonus if not in cover.<br/> <Bullet/>Save/Reload to fix any visuals bug. "
+
+[IsmsBlindside X2AbilityTemplate]
+LocFriendlyName="Blindside"
+LocLongDescription="Flanking shots with Bullpups or Vektors add 1 extra damage. This damage bonus scales +1 every 2 ranks. (1,1,2,2,3,3,4)"
+LocHelpText="Flanking shots with Bullpups or Vektors add 1-4 extra damage."
+LocFlyOverText="Blindside" 
+LocPromotionPopupText="<Bullet/> Flanking shots with Bullpups, SMG or Vektor Rifles add 1 extra damage. <br/><Bullet/>This damage bonus scales +1 every 2 ranks. (1,1,2,2,3,3,4) "
+
+[IsmsConcussiveShot X2AbilityTemplate]
+LocFriendlyName="Concussive Shot"
+LocLongDescription="Fire a concussive blast with your pistol for a chance to stun. Sap can be used from stealth, retaining concealment."
+LocHelpText="Has a chance to disorient or stun the enemy. Scales with level. Enemies with high wills can resist."
+LocFlyOverText="Concussive Shot" 
+LocPromotionPopupText="<Bullet/> 2 Round Cooldown <br/><Bullet/> Cost no ammo <br/><Bullet/> <Ability:SelfCharges/> Charges per mission <br/><Bullet/> Bigger brains are harder to rattle... <br/><Bullet/> Sap costs double charges."
+[IsmsRogueSap X2AbilityTemplate]
+LocFriendlyName="Sap"
+LocLongDescription="Fire a concussive blast with your pistol for a chance to stun. Retain Stealth. Costs two charges. "
+LocHelpText="Has a chance to disorient or stun the enemy. Scales with level. Enemies with high wills can resist. Retains stealth, but costs two charges."
+LocFlyOverText="Sap" 
+LocPromotionPopupText="<Bullet/> 2 Round Cooldown <br/><Bullet/> Cost no ammo <br/><Bullet/>  Shares charges with Concussive Shot <br/><Bullet/> Bigger brains are harder to rattle... <br/><Bullet/> "
+
+[IsmsFlush X2AbilityTemplate]
+LocFriendlyName="Flush"
+LocLongDescription="Fire a shot that encourages enemies to move. The shot is easy to hit with (+30 aim), but does reduced damage (-50% base weapon damage). Uses 2 ammo."
+LocHelpText="Fire a shot that encourages enemies to move. +30 aim. -50% base weapon damage. Uses 2 ammo."
+LocFlyOverText="Flush"
+LocPromotionPopupText="<Bullet/> +30 aim.<br/><Bullet/> -50% base weapon damage.<br/><Bullet/> Costs 2 ammo.<br/><Bullet/> Causes enemies to move.<br/>"
+[IsmsFlushDamage X2AbilityTemplate]
+LocFriendlyName="Flush"
+ 
+[IsmsGhostPack X2AbilityTemplate]
+LocFriendlyName="Ghost Pack"
+LocLongDescription="Gain both the 'Conceal' and 'Phantom' perks, but take 15% more damage from all sources."
+LocHelpText="Gain both the 'Conceal' and 'Phantom' perks, but take 15% more damage from all sources."
+LocFlyOverText="Ghost Pack"
+LocPromotionPopupText="<Bullet/> Gain both the 'Conceal' and 'Phantom' perks, but take 15% more damage from all sources."
+
+[IsmsInfiltrator X2AbilityTemplate]
+LocFriendlyName="Infiltrator"
+LocLongDescription="Gain Lightning Reflexes and +40 hacking."
+LocHelpText="Gain Lightning Reflexes and +40 hacking."
+LocFlyOverText="Infiltrator"
+LocPromotionPopupText="Gain Lightning Reflexes and +40 hacking."
+
+[IsmsLastWish X2AbilityTemplate]
+LocFriendlyName="Last Wish"
+LocLongDescription="Once per mission, upon receiving Lethal damage, feign your death for two turns and heal 5 hp. Try and reconceal upon awaking."
+LocHelpText="Once per mission, upon receiving Lethal damage, feign your death for two turns and heal 5 hp. Try and reconceal upon awaking."
+LocFlyOverText="Last Wish"
+LocPromotionPopupText="<Bullet/> Triggers once per mission <br/> <Bullet/> Enter concealment if possible upon awaking. <br/> <Bullet/> Save/Reload if you ever get visual bug."
+
+[IsmsLoneWolf X2AbilityTemplate]
+LocFriendlyName="Lone Wolf Pack"
+LocLongDescription="The Lone Wolf gains 20 defense when alone. Allies within 5 tiles disable this bonus."
+LocHelpText="The Lone Wolf gains 20 defense when alone. Allies within 5 tiles disable this bonus."
+LocFlyOverText="Lone Wolf Pack"
+LocPromotionPopupText="<Bullet/> The Lone Wolf gains 20 defense going rogue. <br/> <Bullet/> Allies within 5 tiles disable this bonus. <br/><Bullet/> Also gain +2 vision for safer flanks."
+
+[IsmsKeepYourHeadDown X2AbilityTemplate]
+LocFriendlyName="Keep Your Head Down"
+LocHelpText="Makes half cover count as full cover at the expense of slightly reduced accuracy."
+LocLongDescription="Makes half cover count as full cover at the expense of -5 accuracy."
+LocPromotionPopupText="Makes half cover count as full cover at the expense of slightly reduced accuracy."
+
+[IsmsNaturalBornKiller X2AbilityTemplate]
+LocFriendlyName="Battle Focus"
+LocLongDescription="Focus: Build 1 focus per turn. Accumulated focus boosts mobility (max 5). Also adds 'Grand Finale' Ability."
+LocHelpText="Focus: Build 1 focus per turn. Accumulated focus boosts mobility (max 5). Also adds 'Grand Finale' Ability."
+LocFlyOverText="Battle Focus"
+LocPromotionPopupText="<Bullet/> Build 1 focus each turn. Focus adds 1 Mobility (max 5) <br/> <Bullet/> 'Grand Finale' - Consume up to 5 points of focus to deal 1-5 bonus damage in one shot."
+[IsmsNBKGrandFinale X2AbilityTemplate]
+LocFriendlyName="Grand Finale"
+LocLongDescription="Release your built up focus, dealing 1 point of bonus flanking damage per point in a single shot (max 5)."
+LocHelpText="Release your built up focus, dealing 1 point of bonus flanking damage per point in a single shot (max 5)."
+LocFlyOverText="Grand Finale"
+LocPromotionPopupText="<Bullet/> Release your built up focus, dealing 1 point of bonus damage per point in a single shot (max 5)."
+
+[IsmsOnTheMove X2AbilityTemplate]
+LocFriendlyName="On The Move"
+LocLongDescription="Gain an extra starting action point each turn, but lose 6 mobility."
+LocHelpText="Gain an extra starting action point each turn, but lose 6 mobility."
+LocFlyOverText="On The Move"
+LocPromotionPopupText="<Bullet/> Gain an extra starting action point each turn, but lose 6 mobility."
+
+[IsmsRecon X2AbilityTemplate]
+LocFriendlyName="Recon"
+LocHelpText="Scout the area, Marking all enemies in a large cone. Marked enemies take 10-20% more damage and lose 5 defense. Retains stealth."
+LocLongDescription="Scout the area, Marking all hostiles in a large cone, while remaining hidden. Marked targets take 10-20% more damage. Ends turn."
+LocPromotionPopupText="Marks all targets for +5% aim and +10-20% more damage from your squad for 2 turn. <br/>"
+
+[IsmsRelocate X2AbilityTemplate]
+LocFriendlyName="Reposition"
+LocLongDescription="All allies gain complete invisibility for one turn, but can only use movement commands. Allies return to previous state after one turn."
+LocHelpText="All allies gain complete invisibility for one turn, but can only use movement commands. Allies return to previous state after one turn."
+LocFlyOverText="Reposition"
+LocPromotionPopupText="<Bullet/> All allies gain complete invisibility for one turn, but can only use movement commands. Allies return to previous state after one turn. <br/><Bullet/> 10 turn cooldown."
+
+[IsmsRiposte X2AbilityTemplate]
+LocFriendlyName="Riposte"
+LocHelpText="Taunt the enemy, preparing to parry the next attack against you with your pistol. Deflect the attacker and leave them exposed if the shot lands."
+LocLongDescription="Taunt the enemy. Prepare to parry the next attack against you with your pistol. Deflect the attacker and leave them exposed if the shot lands."
+LocPromotionPopupText="<Bullet/> Riposte will taunt the next attacker, deflecting, stunning, and leaving the attacker exposed if the shot lands.<br/><Bullet/> 2 turn cooldown. <br/><Bullet/> Very small chance to not stun enemies with high will."
+
+[IsmsRogueAndGun X2AbilityTemplate]
+LocFriendlyName="Gun and Run"
+LocLongDescription="Gain 1 standard move after firing your primary weapon IF the shot lands. Can be used after moving once."
+LocHelpText="Gain 1 standard move after firing your primary weapon IF the shot lands. Can be used after moving once."
+LocFlyOverText="Gun and Run"
+LocPromotionPopupText="<Bullet/> Gain 1 standard move after firing your primary weapon IF the shot lands. Can be used after moving once. <br/> <Bullet/> 2 turn cooldown. <br/> <Bullet/>  Great for stepping out for better shots. Just make sure you don't miss."
+[IsmsRogueAndGunMomentum X2AbilityTemplate]
+LocFriendlyName="Time to Run"
+LocFlyOverText="Time to Run"
+
+[IsmsRushOfBattle X2AbilityTemplate]
+LocFriendlyName="Rush Of Battle"
+LocLongDescription="Focus: Build adrenaline when enemies are killed. Accumulated adrenaline grants a bonus to dodge (max 30). Also adds 'Cool Off' Ability."
+LocHelpText="Focus: Build adrenaline when enemies are killed. Accumulated adrenaline grants a bonus to dodge (max 30). Also adds 'Cool Off' Ability."
+LocFlyOverText="Rush Of Battle"
+LocPromotionPopupText="<Bullet/> Gain 3 points of adrenaline per kill <br/> <Bullet/> Gain 1 point of adrenaline every kill your teammates make. <br/> <Bullet/> 'Cool Off' - Consume up to 18 points of adrenaline to heal 5% missing hp per point. <br/> <Bullet/> Each point of adrenaline grants 1-2 dodge (max 30 at 18 adrenaline)."
+[IsmsCoolOff X2AbilityTemplate]
+LocFriendlyName="Cool Off"
+LocLongDescription="Cool off, consuming all your adrenaline and healing 5% missing hp per point consumed."
+LocHelpText="Cool off, consuming all your adrenaline and healing 5% missing hp per point consumed."
+LocFlyOverText="Cool Off"
+LocPromotionPopupText="<Bullet/> Cool off, consuming all your adrenaline and healing 5% missing hp per point consumed."
+
+[IsmsScoutingReport X2AbilityTemplate]
+LocFriendlyName="Scouting Report"
+LocLongDescription="Focus: Collect 1 intelligence each turn. Intelligence provides offense and defense to all allies (max 5). Also adds 'Decisive Action' Ability."
+LocHelpText="Focus: Collect 1 intelligence each turn. Intelligence provides offense and defense to all allies (max 5). Also adds 'Decisive Action' Ability."
+LocFlyOverText="Scouting Report"
+LocPromotionPopupText="<Bullet/> Collect 1 intelligence each turn. Intelligence adds 1 offense and defense to all allies (max 5). <br/><Bullet/> 'Decisive Action' - Spend 5 intelligence to fully restore one ally's action points up to 2."
+[IsmsDecisiveAction X2AbilityTemplate]
+LocFriendlyName="Decisive Action"
+LocLongDescription="Expend 5 intelligence to fully restore one ally's action points to 2."
+LocHelpText="Expend 5 intelligence to fully restore one ally's action points to 2."
+LocFlyOverText="Decisive Action" 
+LocPromotionPopupText="Expend 5 intelligence to fully restore one ally's action points to 2."
+
+[IsmsScoutPack X2AbilityTemplate]
+LocFriendlyName="Scout Pack"
+LocLongDescription="Convert to a Scout. Gain improved vision, a free battlescanner, and changes blindside to reward high ground instead of flanking."
+LocHelpText="Convert to a Scout. Gain improved vision, a free battlescanner, and changes blindside to reward high ground instead of flanking."
+LocFlyOverText="Scout Pack"
+LocPromotionPopupText="<Bullet/> Blindside converted to 'Upside' - gain bonus damage from high ground instead of flanking. <br/> <Bullet/> +6 improved vision and weapon range. <br/> <Bullet/> +1 Battle Scanner charge if equipped."
+
+[IsmsScoutsOverwatch X2AbilityTemplate]
+LocFriendlyName="Scout's Watch"
+LocLongDescription="The Rogue no longer has reaction fire penalties with overwatch and can crit, but can only watch over small regions."
+LocHelpText="The Rogue no longer has reaction fire penalties with overwatch and can crit, but can only watch over small regions."
+LocFlyOverText="Scout's Watch"
+LocPromotionPopupText="<Bullet/> Overwatch replaced with Scout's Watch <br/><Bullet/> Scout's Watch - Overwatch over a small cone.<br/><Bullet/> Can reactively fire upon movement.<br/><Bullet/> Can crit and doesn't suffer from reaction fire penalties."
+
+[IsmsScoutVision X2AbilityTemplate]
+LocFriendlyName="Wary Scout"
+LocLongDescription="Gain improved vision radius and a free battlescanner."
+LocHelpText="Gain improved vision radius and a free battlescanner."
+LocFlyOverText="Wary Scout"
+LocPromotionPopupText="<Bullet/> +6 improved vision and weapon range. <br/><Bullet/> +1 Battle Scanner charge if equipped."
+
+[IsmsShadowborn X2AbilityTemplate]
+LocFriendlyName="Shadowborn"
+LocLongDescription="The Rogue is much more difficult to detect while concealed. Also, small bonuses to aim and crit while in concealment."
+LocHelpText="-33% detection radius while concealed. +15% aim and crit with all shots from concealment."
+LocFlyOverText="Shadowborn" 
+LocPromotionPopupText="<Bullet/> -33% detection radius. <br/> <Bullet/>+15% Crit and Aim from stealth"
+
+[IsmsUpside X2AbilityTemplate]
+LocFriendlyName="Upside"
+LocLongDescription="Shots with Bullpups or Vektors do 1 extra damage to targets at a lower elevation. This damage bonus scales +1 every 2 ranks. (1,1,2,2,3,3,4)"
+LocHelpText="Shots with Bullpups or Vektors do 1-4 extra damage to targets at a lower elevation."
+LocFlyOverText="Blindside" 
+LocPromotionPopupText="<Bullet/> Flanking shots with Bullpups, SMG or Vektor Rifles add 1 extra damage. <br/><Bullet/> This damage bonus scales +1 every 2 ranks. (1,1,2,2,3,3,4)"

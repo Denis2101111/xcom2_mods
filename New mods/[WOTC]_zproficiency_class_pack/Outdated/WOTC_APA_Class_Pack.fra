@@ -1,0 +1,15 @@
+
+[X2AbilityTag_WOTC_APA_Class_Pack]
+
+;  -- Localized Strings for Ability Tags --
+;  ----------------------------------------
+
+; // Generic Tags
+strGenericClassName="soldat"
+
+; // Medic Ability Tags
+strBurstFireName="Feu nourri"
+strSteadiedBurstFireName="Feu nourri stable" ;Also set in WOTC_APA_Medic.int due to order of compiling
+strStrategyBurstFireDesc="Tirez une rafale sur une cible avec une chance de les toucher deux fois. Requière <font color='#CA7200'><Ability:BURST_FIRE_AMMO_COST/></font> munitions et a un temps de rechargement de <font color='#CA7200'><Ability:BURST_FIRE_COOLDOWN/></font> tours."
+strTacticalBurstFireDesc="Tirez une rafale sur une cible avec une chance de les toucher deux fois avec une pénalité de <font color='#CA7200'><Ability:BURST_FIRE_AIM_PENALTY/></font> Visée.<br/>Requière <font color='#CA7200'><Ability:BURST_FIRE_AMMO_COST/></font> munitions et a un temps de rechargement de <font color='#CA7200'><Ability:BURST_FIRE_COOLDOWN/></font> tours."
+strTacticalSteadiedBurstFireDesc="Tirer une rafale stables sur la cible avec une chance de les toucher deux fois. Le Feu nourri stable n'a AUCUNE pénalité de Visée.<br/>Requière <font color='#CA7200'><Ability:BURST_FIRE_AMMO_COST/></font> munitions et a un temps de rechargement de <font color='#CA7200'><Ability:BURST_FIRE_COOLDOWN/></font> tours."

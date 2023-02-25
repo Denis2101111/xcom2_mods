@@ -1,0 +1,14 @@
+
+[X2Ability_WOTC_APA_MarineAbilitySet]
+
+;  -- Localized Strings for Marine Abilities --
+;  --------------------------------------------
+
+strFireDiscipline1Name="Fire Discipline I"
+strFireDiscipline1Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/><Bullet/> Reaction shots can Critically Hit and <Ability:FIRE_DISCIPLINE_REACTION_FIRE_BONUS_TYPE/> have <font color='#3ABD23'>+<Ability:FIRE_DISCIPLINE_REACTION_FIRE_AIM_BONUS_1/>%</font> chance to hit."
+
+strFireDiscipline2Name="Fire Discipline II"
+strFireDiscipline2Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL II</font><br/><Bullet/> Reaction shots can Critically Hit and <Ability:FIRE_DISCIPLINE_REACTION_FIRE_BONUS_TYPE/> have <font color='#3ABD23'>+<Ability:FIRE_DISCIPLINE_REACTION_FIRE_AIM_BONUS_2/>%</font> chance to hit.<br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:FIRE_DISCIPLINE_AMMO_BONUS/></font> round of ammunition in each magazine."
+
+strFireDiscipline3Name="Fire Discipline III"
+strFireDiscipline3Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL III</font><br/><Bullet/> Reaction shots can Critically Hit and <Ability:FIRE_DISCIPLINE_REACTION_FIRE_BONUS_TYPE/> have <font color='#3ABD23'>+<Ability:FIRE_DISCIPLINE_REACTION_FIRE_AIM_BONUS_3/>%</font> chance to hit.<br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:FIRE_DISCIPLINE_AMMO_BONUS/></font> round of ammunition in each magazine."

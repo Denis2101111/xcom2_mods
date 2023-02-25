@@ -1,0 +1,24 @@
+
+[X2Ability_WOTC_APA_MedicAbilitySet]
+
+;  -- Localized Strings for Medic Abilities --
+;  -------------------------------------------
+
+strMedicalSpecialistHealModMsg="Medical Specialist: Healed <HealMod/> extra HP"
+
+strMedicalSpecialist1Name="Medical Specialist I"
+strMedicalSpecialist1Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/><Bullet/> <font color='#3ABD23'>+<Ability:MED_I_FREE_MEDKITS/></font> free medkit charges.<br/><Bullet/> Equipped medkits have <font color='#3ABD23'>+<Ability:MED_I_EQUIPPED_MEDKITS_BONUS/></font> charges."
+
+strMedicalSpecialist2Name="Medical Specialist II"
+strMedicalSpecialist2Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL II</font><br/><Bullet/> <font color='#3ABD23'>+<Ability:MED_I_FREE_MEDKITS/></font> free medkit charges.<br/><Bullet/> Equipped medkits have <font color='#3ABD23'>+<Ability:MED_I_EQUIPPED_MEDKITS_BONUS/></font> charges.<br/><Bullet/> Healing abilities heal <font color='#3ABD23'>+<Ability:MED_II_MEDKIT_HEAL_BONUS/></font> hitpoints.<br/><Bullet/> <font color='#3ABD23'>+<Ability:MED_II_REVIVE_CHARGE_BONUS/></font> Revive charges."
+
+strMedicalSpecialist3Name="Medical Specialist III"
+strMedicalSpecialist3Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL III</font><br/><Bullet/> <font color='#3ABD23'>+<Ability:MED_III_FREE_MEDKITS_TOTAL/></font> free medkit charges.<br/><Bullet/> Equipped medkits have <font color='#3ABD23'>+<Ability:MED_I_EQUIPPED_MEDKITS_BONUS/></font> charges.<br/><Bullet/> Healing abilities heal <font color='#3ABD23'>+<Ability:MED_III_MEDKIT_HEAL_BONUS_TOTAL/></font> hitpoints.<br/><Bullet/> <font color='#3ABD23'>+<Ability:MED_II_REVIVE_CHARGE_BONUS/></font> Revive charges."
+
+strAdrenalineRushPenaltyDesc="The draining after-effects of an Adrenaline Rush impart a <font color='#CA7200'>-<Ability:ADRENALINE_RUSH_DAMAGE_PENALTY/>%</font> damage penalty until the beginning of the next turn."
+strAdvTraumaKitsReviveHealFlyover="Advanced Trauma Kits: Healed <HealMod/> extra HP"
+strSteadiedBurstFireName="Steadied Burst-Fire" ;Also set in WOTC_APA_Class_Pack.int due to order of compiling
+strSuppressionAimPenaltyName="Suppressed"
+strCombatStimulantsTickedFlyover="Combat Stimulant: <Duration/> turns remaining"
+strCombatStimulantsRemovedFlyover="Combat Stimulant Wore Off - Unit lost <Will/> Will!"
+;strCombatStimulantsRemovedFlyover="Combat Stimulant Wore Off - Unit lost <HP/> HP and <Will/> Will!"

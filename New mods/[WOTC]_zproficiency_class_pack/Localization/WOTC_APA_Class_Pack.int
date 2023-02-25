@@ -1,0 +1,71 @@
+
+[X2DownloadableContentInfo_WOTC_APA_Class_Pack]
+
+;  -- Localized Strings for New AbilityAvailabilityCodes --
+;  --------------------------------------------------------
+
++NewAbilityAvailabilityStrings[0] = "Unit has an excluding effect."
++NewAbilityAvailabilityStrings[1] = "Unit has an excluding ability."
++NewAbilityAvailabilityStrings[2] = "A required ability is missing."
++NewAbilityAvailabilityStrings[3] = "Unit must be Braced."
++NewAbilityAvailabilityStrings[4] = "Unit is already Braced."
+
+
+
+[X2AbilityTag_WOTC_APA_Class_Pack]
+
+;  -- Localized Strings for Ability Tags --
+;  ----------------------------------------
+
+; // Generic Tags
+strGenericClassName="soldier"
+strOnce = "Once"
+strUpTo = "Up to"
+strTimes = "times"
+strTiles = "tiles"
+
+strNaturalLeaderSpecializationDesc = " and they will receive one additional command specialization when leading missions"
+
+
+; // Medic Ability Tags
+strBurstFireName = "Burst-Fire"
+strSteadiedBurstFireName = "Steadied Burst-Fire" ;Also set in WOTC_APA_Medic.int due to order of compiling
+strStrategyBurstFireDesc = "Fire a series of bursts at a target, with the chance to hit them twice. Requires <font color='#CA7200'><Ability:BURST_FIRE_AMMO_COST/></font> ammo and has a <font color='#CA7200'><Ability:BURST_FIRE_COOLDOWN/></font> turn cooldown."
+strTacticalBurstFireDesc = "Fire a quick series of bursts at the target, with the chance to hit them twice at a <font color='#CA7200'><Ability:BURST_FIRE_AIM_PENALTY/></font> aim penalty.<br/>Requires <font color='#CA7200'><Ability:BURST_FIRE_AMMO_COST/></font> ammo and has a <font color='#CA7200'><Ability:BURST_FIRE_COOLDOWN/></font> turn cooldown."
+strTacticalSteadiedBurstFireDesc = "Fire a steadied series of bursts at the target, with the chance to hit them twice. A steadied Burst-Fire has NO aim penalties.<br/>Requires <font color='#CA7200'><Ability:BURST_FIRE_AMMO_COST/></font> ammo and has a <font color='#CA7200'><Ability:BURST_FIRE_COOLDOWN/></font> turn cooldown."
+
+
+; // Specialist Ability Tags
+strAidProtocolRechargeDesc = "(Recharge Time:  <font color='#CA7200'><Ability:AID_PROTOCOL_RECHARGE_TURNS/></font> turns)"
+strBlindProtocolRechargeDesc = "(Recharge Time:  <font color='#CA7200'><Ability:BLIND_PROTOCOL_RECHARGE_TURNS/></font> turns)"
+strCombatProtocolRechargeDesc = "(Recharge Time:  <font color='#CA7200'><Ability:COMBAT_PROTOCOL_RECHARGE_TURNS/></font> turns)"
+
+strAidProtocolRadiusStrategy = ". More advanced Gremlins increase the radius of the smoke cloud"
+strAidProtocolRadiusTactical = " a <Radius/> tile radius"
+
+strBlindProtocolRadiusStrategy = ". More advanced Gremlins increase the radius of the flashbang"
+strBlindProtocolRadiusTactical = " a <Radius/> tile radius"
+
+strCombatProtocolBaseDamageStrategy = "a small amount of"
+strCombatProtocolDamageDescStrategy = "Deals <font color='#3ABD23'>+<Ability:COMBAT_PROTOCOL_MECH_DAMAGE_MULTIPLIER/>%</font> damage to mechanical units. More advanced Gremlins increase the amount of damage done"
+strCombatProtocolDamageDesc = "Deals <font color='#3ABD23'>+<Ability:COMBAT_PROTOCOL_MECH_DAMAGE_MULTIPLIER/>%</font> damage to mechanical units"
+strCombatProtocolOverloadDamageDesc = "Deals <font color='#3ABD23'>+<Ability:OVERLOAD_NON_MECH_DAMAGE_BONUS/></font> additional base damage to organic units and <font color='#3ABD23'>+<Ability:OVERLOAD_MECH_DAMAGE_MULTIPLIER/>%</font> damage to mechanical units (boosted by Overload)"
+
+strBreaksSquadConcealmentWarning = "<br/><br/><font color='#c10f0f'>Warning:</font> Breaks Squad Concealment!"
+strRemoteRepairBaseHealthStrategy = "a small amount of HP"
+strRemoteRepairHealthStrategyDesc = "More advanced Gremlins increase the amount of HP restored."
+
+strFailsafeActionFreeDesc = "Has <Amount/> Free activation from Electronic Warfare"
+strFailsafeActionCostDesc = "Costs 1 action to activate"
+
+
+; // Assault Ability Tags
+strConcussionGrenadesDisorientAlliesTrue = "The disorienting concussion effect DOES affect allies (unlike default flashbangs)"
+strConcussionGrenadesDisorientAlliesFalse = "The disorienting concussion effect does NOT affect allies (like default flashbangs)"
+
+strSlipIntoPositionDesc = " The radius in which enemies will detect you is decreased by"
+
+
+; // Marine Ability Tags
+strFireDisciplineReactionBonusRifle = "all reaction shots (Rifle)"
+strFireDisciplineReactionBonusCannon = "suppression reaction shots (Cannon)"

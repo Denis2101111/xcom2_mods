@@ -1,0 +1,21 @@
+
+[X2Ability_WOTC_APA_MedicAbilitySet]
+
+;  -- Localized Strings for Medic Abilities --
+;  -------------------------------------------
+
+strMedicalSpecialistHealModMsg="Spécialiste médical : Soigne <HealMod/> PV supplémentaires"
+
+strMedicalSpecialist1Name="Spécialiste médical I"
+strMedicalSpecialist1Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/><Bullet/> <font color='#3ABD23'>+<Ability:MED_I_FREE_MEDKITS/></font> charge de médikit gratuite.<br/><Bullet/> Les médikits équipés ont <font color='#3ABD23'>+<Ability:MED_I_EQUIPPED_MEDKITS_BONUS/></font> charges supplémentaires."
+
+strMedicalSpecialist2Name="Spécialiste médical II"
+strMedicalSpecialist2Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL II</font><br/><Bullet/> <font color='#3ABD23'>+<Ability:MED_I_FREE_MEDKITS/></font> charge de médikit gratuite.<br/><Bullet/> Les médikits équipés ont <font color='#3ABD23'>+<Ability:MED_II_EQUIPPED_MEDKITS_BONUS_TOTAL/></font> charges supplémentaires.<br/><Bullet/> Les capacités de guérison soigne <font color='#3ABD23'>+<Ability:MED_II_MEDKIT_HEAL_BONUS/></font> PV.<br/><Bullet/> <font color='#3ABD23'>+<Ability:MED_II_REVIVE_CHARGE_BONUS/></font> charges de Rétablissement."
+
+strMedicalSpecialist3Name="Spécialiste médical III"
+strMedicalSpecialist3Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL III</font><br/><Bullet/> <font color='#3ABD23'>+<Ability:MED_III_FREE_MEDKITS_TOTAL/></font> charge de médikit gratuite.<br/><Bullet/> Les médikits équipés ont <font color='#3ABD23'>+<Ability:MED_III_EQUIPPED_MEDKITS_BONUS_TOTAL/></font> charges supplémentaires.<br/><Bullet/> Les capacités de guérison soigne <font color='#3ABD23'>+<Ability:MED_III_MEDKIT_HEAL_BONUS_TOTAL/></font> PV.<br/><Bullet/> <font color='#3ABD23'>+<Ability:MED_III_REVIVE_CHARGE_BONUS_TOTAL/></font> charges de Rétablissement."
+
+strAdrenalineRushPenaltyDesc="Les effets drainants de Poussée d'adrénaline provoquent une pénalité de dégâts de <font color='#CA7200'>-<Ability:ADRENALINE_RUSH_DAMAGE_PENALTY/>%</font> jusqu'au début du tour suivant."
+strSteadiedBurstFireName="Feu nourri stable" ;Also set in WOTC_APA_Class_Pack.int due to order of compiling
+strSuppressionAimPenaltyName="Unité en Suppression"
+strAdvTraumaKitsReviveHealFlyover="Kits de trauma avancée : Soigne <HealMod/> PV supplémentaires"

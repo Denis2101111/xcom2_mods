@@ -1,0 +1,194 @@
+﻿
+[WOTC_APA_HoldPosition X2AbilityTemplate]
+LocFriendlyName = "Держать позицию"
+LocFlyOverText = "Держать позицию"
+LocHelpText = "<Ability:ClassName/> перезарядит свое оружие перед задействованием специального \"наблюдения\", стреляя в каждую цель в радиусе видимости, которая перемещается (или атакует, со способностью \"Огневая поддержка\") пока не закончатся патроны. Активируется только в полном укрытии."
+
+==================
+
+[WOTC_APA_Unbreakable X2AbilityTemplate]
+LocFriendlyName = "Неуязвимый"
+LocFlyOverText = "Неуязвимый"
+LocHelpText = "<Ability:ClassName/> получает неуязвимость к панике, оглушению и контролю разума."
+==================
+
+[WOTC_APA_HeavyHardpoints X2AbilityTemplate]
+LocFriendlyName = "Тяжёлый обвес"
+LocHelpText = "<Ability:ClassName/> получает дополнительную ячейку для гранаты и может переносить тяжёлое оружие, вне зависимости от экипированной брони."
+LocLongDescription = "<Ability:ClassName/> получает дополнительную ячейку для гранаты и может переносить тяжёлое оружие, вне зависимости от экипированной брони."
+==================
+
+[WOTC_APA_SupportGrenadier X2AbilityTemplate]
+LocFriendlyName = "Гранатометчик поддержки"
+LocFlyOverText = "Гранатометчик поддержки"
+LocHelpText = "Даёт дополнительную ячейку для гранаты и броски гранат поддержки больше не заканчивают ход оперативника."
+LocPromotionPopupText = "Даёт дополнительную ячейку для гранаты и броски гранат поддержки больше не заканчивают ход оперативника.<br/><br/><Bullet/> Применяется к дымовым и свето-шумовым гранатам, боевым сканерам, маякам-имитаторам, ультразвуковым приманкам, и морозной бомбе."
+==================
+
+[WOTC_APA_Overload X2AbilityTemplate]
+LocFriendlyName = "Перегруз"
+LocFlyOverText = "Перегруз"
+LocHelpText = "\"Протокол нападения\" теперь наносит <font color='#3ABD23'>+<Ability:OVERLOAD_MECH_DAMAGE_MULTIPLIER/>%</font> урона механическим врагам и <font color='#3ABD23'>+<Ability:OVERLOAD_NON_MECH_DAMAGE_BONUS/></font> добавочного к базовому урона не механическим врагам. Время перезарядки \"Протокола нападения\" возросло на <font color='#CA7200'><Ability:OVERLOAD_RECHARGE_TURN_PENALTY/></font> хода."
+
+==================
+
+==================
+
+==================
+
+==================
+[WOTC_APA_PrepForEntry X2AbilityTemplate]
+LocFriendlyName = "Подготовка удара"
+LocFlyOverText = "Подготовка удара"LocHelpText = "После активации способности следующий бросок гранаты не будет требовать действия, но радиус броска снижается на <font color='#CA7200'><Ability:PREP_FOR_ENTRY_RANGE_MULTIPLIER/>%</font>."
+LocLongDescription = "Активируйте способность и следующий бросок гранаты не будет требовать действия, но радиус броска снижается на <font color='#CA7200'><Ability:PREP_FOR_ENTRY_RANGE_MULTIPLIER/>%</font>."
+LocPromotionPopupText = "После активации способности следующий бросок гранаты не будет требовать действия, но радиус броска снижается на <font color='#CA7200'><Ability:PREP_FOR_ENTRY_RANGE_MULTIPLIER/>%</font>.<br/><Bullet/> Перезаряжается <font color='#CA7200'><Ability:PREP_FOR_ENTRY_COOLDOWN/></font> хода."
+==================
+
+[WOTC_APA_RapidDeployment X2AbilityTemplate]
+LocFriendlyName = "Быстрое развертывание"
+LocFlyOverText = "Быстрое развертывание"
+LocHelpText = "Активируйте эту способность перед броском или выстрелом гранатой поддержки, и вы не потратите на это действие."
+=================
+
+[WOTC_APA_HonedEdge X2AbilityTemplate]
+LocFriendlyName = "Заточенное лезвие"
+LocHelpText = "Дополнительно <font color='#3ABD23'>+<Ability:HONED_EDGE_BONUS_AIM/>%</font> к меткости и <font color='#3ABD23'>+<Ability:HONED_EDGE_BONUS_CRIT/>%</font> к шансу критического урона для всех атак в ближнем бою."
+=================
+
+[WOTC_APA_ConcussionGrenades X2AbilityTemplate]
+LocFriendlyName = "Травмирующие гранаты"
+LocFlyOverText = "Травмирующие гранаты"
+LocHelpText = "Дополнительно предоставляет ячейку для гранат. Экипированные светошумовые гранаты получают <font color='#3ABD23'>+<Ability:CONCUSSION_GRENADES_CHARGE_BONUS/></font> заряд и большинство гранат дезориентируют противника при взрыве."
+=================
+
+[WOTC_APA_Relentless X2AbilityTemplate]
+LocFriendlyName = "Неостановимый"
+LocFlyOverText = "Неостановимый"
+LocHelpText = "<Ability:NON_MOVE_ACTION_ACTIVATION_LIMIT/> раз в ход дает дополнительный ход-действие после убийства врага заканчивающей ход атакой в ближнем бою."
+=================
+
+[WOTC_APA_BurstFire X2AbilityTemplate]
+LocFriendlyName = "Стрельба очередями"
+LocFlyOverText = "<Ability:BURST_FIRE_NAME/>"
+LocHelpText = "<Ability:BURST_FIRE_DESCRIPTION/>"
+LocLongDescription = "<Ability:BURST_FIRE_DESCRIPTION/>"
+LocPromotionPopupText = "<Ability:BURST_FIRE_DESCRIPTION/><br/><br/><Bullet/> \"Стрельба очередями\" требует одно действие и заканчивает ход. Если при использовании способности доступно более чем одно действие, будет получен дополнительный эффект \"Стрельба с упора\".<br/><Bullet/> Оба выстрела из \"Стрельбы очередями\" происходят с минусом <font color='#CA7200'><Ability:BURST_FIRE_AIM_PENALTY/></font> к меткости.<br/><Bullet/> При \"Стрельбе с упора\" выстрелы не страдают от потери меткости."
+
+=================
+
+[WOTC_APA_AppliedKnowledge X2AbilityTemplate]
+LocFriendlyName = "Прикладные знания"
+LocFlyOverText = "Прикладные знания"
+LocHelpText = "Дополнительно <font color='#3ABD23'>+<Ability:APPLIED_KNOWLEDGE_CRIT_CHANCE_BONUS/>%</font> к шансу на критический урон и <font color='#3ABD23'>+<Ability:APPLIED_KNOWLEDGE_CRIT_DAMAGE_BONUS/>%</font> к критическому урону против органических целей, которые Xcom уже исследовал."
+
+=================
+[WOTC_APA_ArmedIntervention X2AbilityTemplate]
+LocFriendlyName = "Вооруженное вмешательство"
+LocFlyOverText = "Вооруженное вмешательство"
+LocHelpText = "Войдите в специальную форму \"наблюдения\" стреляя по любому противнику в зоне видимости перед тем, как тот предпримет враждебные действия, дезориентируя его. Перезарядка <font color='#CA7200'><Ability:ARMED_INTERVENTION_COOLDOWN/></font> хода."
+LocLongDescription = "Войдите в специальную форму \"наблюдения\", <Ability:ClassName/> будет стрелять по любому противнику в зоне видимости перед тем, как тот предпримет враждебные действия, дезориентируя врагов."
+LocPromotionPopupText = "Войдите в специальную форму \"наблюдения\", <Ability:ClassName/> будет стрелять по любому противнику в зоне видимости перед тем, как тот предпримет враждебные действия, дезориентируя врагов.<br/><br/><Bullet/> Количество выстрелов зависит только от наличия патронов, но <Ability:ClassName/> не будет стрелять во врагов, которые перемещаются и предпринимают защитные действия.<br/><Bullet/> Перезарядка <font color='#CA7200'><Ability:ARMED_INTERVENTION_COOLDOWN/></font> хода."
+=================
+
+[WOTC_APA_Medivac X2AbilityTemplate]
+LocFriendlyName = "Перевозка пострадавших"
+LocFlyOverText = "Перевозка пострадавших"
+LocHelpText = "Дает <font color='#3ABD23'>+<Ability:MEDIVAC_BONUS_HEAL_CHARGES/></font> зарядов для лечения солдат после миссии, вне зависимости от количества оставшихся аптечек."
+LocLongDescription = "Дает <font color='#3ABD23'>+<Ability:MEDIVAC_BONUS_HEAL_CHARGES/></font> зарядов для лечения солдат после миссии, вне зависимости от количества оставшихся аптечек.."
+LocPromotionPopupText = "Дает <font color='#3ABD23'>+<Ability:MEDIVAC_BONUS_HEAL_CHARGES/></font> зарядов для лечения солдат после миссии, не важно сколько <Ability:ClassName/> израсходовал зарядов аптечки."
+
+=================
+[WOTC_APA_CannonUpgunned X2AbilityTemplate]
+LocFriendlyName = "Пушка/пулемет: вес"
+LocFlyOverText = "Пушка/пулемет: вес"
+LocHelpText = "Пушка/пулемет более тяжелые чем ружье снижают мобильность на <font color='#CA7200'>-<Ability:MARINE_CANNON_MOBILITY_PENALTY/></font>."
+LocLongDescription = "<Ability:ClassName/> может использовать большое оружие, как пушка или пулемет. Но больший вес, по сравнению с винтовкой, снижает мобильность на <font color='#CA7200'>-<Ability:MARINE_CANNON_MOBILITY_PENALTY/></font>."
+LocPromotionPopupText = "The <Ability:ClassName/> может использовать большое оружие, как пушка или пулемет. Но больший вес, по сравнению с винтовкой, снижает мобильность на <font color='#CA7200'>-<Ability:MARINE_CANNON_MOBILITY_PENALTY/></font>."
+
+=================
+[WOTC_APA_PinEmDown X2AbilityTemplate]
+LocFriendlyName = "Прибить их"
+LocFlyOverText = "Прибить их"
+LocHelpText = "Способности подавления теперь дезориентируют цели в зоне подавления или дают <font color='#CA7200'><Ability:PIN_DOWN_MOBILITY_PENALTY/>%</font> пенальти к мобильности целям, не подверженным к дезориентации, которое действует до конца их хода."
+LocLongDescription = "Способности подавления теперь дезориентируют цели в зоне подавления или дают <font color='#CA7200'><Ability:PIN_DOWN_MOBILITY_PENALTY/>%</font> пенальти к мобильности целям, не подверженным к дезориентации, которое действует до конца их хода."
+
+=================
+[WOTC_APA_NoMansLand X2AbilityTemplate]
+LocFriendlyName = "Пустошь"
+LocFlyOverText = "Пустошь"
+LocHelpText = "Позволяет выстрелить по любой цели не под подавлением, которая пересекает область подавления."
+LocLongDescription = "Позволяет выстрелить по любой цели не под подавлением, которая пересекает область подавления."
+LocPromotionPopupText = "Позволяет выстрелить по любой цели не под подавлением, которая пересекает область подавления.<br/><br/><Bullet/> Цели, оказавшиеся в зоне подавления, но не попавшие под воздействие (линия видимости и другие причины), как и цели пересекающие зону подавления будут обстреляны.<br/><Bullet/> \"Пустошь\" получает другие бонусы от способностей солдата к подавлению."
+
+=================
+[WOTC_APA_WitheringBarrage X2AbilityTemplate]
+LocFriendlyName = "Испепеляющий барьер"
+LocFlyOverText = "Испепеляющий барьер"
+LocHelpText = "Способности подавления получают <font color='#3ABD23'><Ability:WITHERING_BARRAGE_TRIGGER_CHANCE/>%</font> шанс нанести царапину при применении."
+LocLongDescription = "Способности подавления получают <font color='#3ABD23'><Ability:WITHERING_BARRAGE_TRIGGER_CHANCE/>%</font> шанс нанести царапину при применении."
+LocPromotionPopupText = "Способности подавления получают <font color='#3ABD23'><Ability:WITHERING_BARRAGE_TRIGGER_CHANCE/>%</font> шанс нанести царапину при применении.<br/><br/><Bullet/> Урон от царапин при активации способностей подавления не расходует патроны."
+
+=================
+[WOTC_APA_TacticalSense X2AbilityTemplate]
+LocFriendlyName = "Тактическое чутье"
+LocFlyOverText = "Тактическое чутье"
+LocHelpText = "Дает дополнительную защиту за каждого врага в зоне видимости. Дополнительно <font color='#3ABD23'>+<Ability:TACTICAL_SENSE_DEFENSE_PER_ENEMY/>%</font> за каждого врага, максимум <font color='#3ABD23'>+<Ability:TACTICAL_SENSE_DEFENSE_CAP/>%</font> защиты."
+
+=================
+[WOTC_APA_Aggression X2AbilityTemplate]
+LocFriendlyName = "Растущая агрессия"
+LocFlyOverText = "Растущая агрессия"
+LocHelpText = "Дает дополнительный шанс на критический урон за каждого врага в зоне видимости. Дополнительно <font color='#3ABD23'>+<Ability:AGGRESSION_CRIT_CHANCE_PER_ENEMY/>%</font> за каждого врага, максимум <font color='#3ABD23'>+<Ability:AGGRESSION_CRIT_CHANCE_CAP/>%</font> к шансу на критический урон."
+
+=================
+[WOTC_APA_ImpressiveStrength X2AbilityTemplate]
+LocFriendlyName = "Впечатляющая сила"
+LocFlyOverText = "Впечатляющая сила"
+LocHelpText = "Дает <font color='#3ABD23'>+<Ability:IMPRESSIVE_STRENGTH_HP_BONUS/> здоровья</font> и солдат может бросать гранаты на <font color='#3ABD23'>+<Ability:IMPRESSIVE_STRENGTH_THROW_RANGE_MODIFIER/>%</font> дальше."
+LocLongDescription = "Ваша впечатляющая сила дает <font color='#3ABD23'>+<Ability:IMPRESSIVE_STRENGTH_HP_BONUS/> здоровья</font> и вы можете бросать гранаты на <font color='#3ABD23'>+<Ability:IMPRESSIVE_STRENGTH_THROW_RANGE_MODIFIER/>%</font> дальше."
+LocPromotionPopupText = "Ваша впечатляющая сила дает <font color='#3ABD23'>+<Ability:IMPRESSIVE_STRENGTH_HP_BONUS/> здоровья</font> и вы можете бросать гранаты на <font color='#3ABD23'>+<Ability:IMPRESSIVE_STRENGTH_THROW_RANGE_MODIFIER/>%</font> дальше."
+
+=================
+[WOTC_APA_LockedOn X2AbilityTemplate]
+LocFriendlyName = "Пристрелка"
+LocFlyOverText = "Пристрелка"
+LocHelpText = "Повторные выстрелы в тот же ход против той же цели имеют дополнительно <font color='#3ABD23'>+<Ability:LOCKEDON_AIM_BONUS/>%</font> к точности и <font color='#3ABD23'>+<Ability:LOCKEDON_CRIT_BONUS/>%</font> к шансу на критический урон."
+LocLongDescription = "Повторные выстрелы в тот же ход против той же цели имеют дополнительно <font color='#3ABD23'>+<Ability:LOCKEDON_AIM_BONUS/>%</font> к точности и <font color='#3ABD23'>+<Ability:LOCKEDON_CRIT_BONUS/>%</font> к шансу на критический урон."
+LocPromotionPopupText = "Повторные выстрелы в тот же ход против той же цели имеют дополнительно <font color='#3ABD23'>+<Ability:LOCKEDON_AIM_BONUS/>%</font> к точности и <font color='#3ABD23'>+<Ability:LOCKEDON_CRIT_BONUS/>%</font> к шансу на критический урон.<br/><br/><Bullet/> Не применятся к ответным выстрелам во время вражеского хода."
+
+=================
+[WOTC_APA_TraverseFire X2AbilityTemplate] (для пулемета)
+LocFriendlyName = "Кинжальный огонь"
+LocFlyOverText = "Кинжальный огонь"
+LocHelpText = "Обычный выстрел больше не заканчивает ход, но любые оставшиеся действия будут ограничены ТОЛЬКО базовыми атаками/подавлением, или перезарядки."
+LocLongDescription = "Обычный выстрел больше не заканчивает ход, но любые оставшиеся действия будут ограничены ТОЛЬКО базовыми атаками/подавлением, или перезарядки. Движение и специальные атаки не доступны."
+LocPromotionPopupText = "Обычный выстрел больше не заканчивает ход, но любые оставшиеся действия будут ограничены ТОЛЬКО базовыми атаками/подавлением, или перезарядки. Движение и специальные атаки не доступны."
+
+=================
+[WOTC_APA_OnTarget X2AbilityTemplate]
+LocFriendlyName = "На цели"
+LocFlyOverText = "На цели"
+LocHelpText = "Снижает на <font color='#3ABD23'><Ability:ON_TARGET_DODGE_REDUCTION/>%</font> возможность врагов уклониться от атаки. В случае промаха атаки по цели получают <font color='#3ABD23'><Ability:ON_TARGET_TRIGGER_CHANCE/>%</font> шанс стать царапиной."
+LocLongDescription = "Снижает на <font color='#3ABD23'><Ability:ON_TARGET_DODGE_REDUCTION/>%</font> возможность врагов уклониться от атаки. В случае промаха атаки по цели получают <font color='#3ABD23'><Ability:ON_TARGET_TRIGGER_CHANCE/>%</font> шанс стать царапиной."
+LocPromotionPopupText = "Снижает на <font color='#3ABD23'><Ability:ON_TARGET_DODGE_REDUCTION/>%</font> возможность врагов уклониться от атаки. В случае промаха атаки по цели получают <font color='#3ABD23'><Ability:ON_TARGET_TRIGGER_CHANCE/>%</font> шанс стать царапиной.<br/><br/><Bullet/> Эта способность не действует на \"ответные выстрелы\"."
+
+;MARINE																
+[WOTC_APA_SustainedFire X2AbilityTemplate]
+LocFriendlyName = "Непрерывный огонь"
+LocFlyOverText = "Непрерывный огонь"
+LocHelpText = "Обычный выстрел больше не заканчивает ход, но любые оставшиеся действия будут ограничены ТОЛЬКО наблюдением/подавлением или перезарядкой."
+LocLongDescription = "Обычный выстрел больше не заканчивает ход, но любые оставшиеся действия будут ограничены ТОЛЬКО наблюдением/подавлением или перезарядкой. Передвижение и использование специальных атак невозможны."
+LocPromotionPopupText = "Обычный выстрел больше не заканчивает ход, но любые оставшиеся действия будут ограничены ТОЛЬКО наблюдением/подавлением или перезарядкой. Передвижение и использование специальных атак невозможны."
+
+=================
+
+=================
+
+=================
+
+
+=================
+
+=================
+
+=================

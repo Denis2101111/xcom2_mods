@@ -1,0 +1,23 @@
+[X2AbilityTag_WOTC_APA_Reaper]
+
+;  -- Localized Strings for Ability Tags --
+;  ----------------------------------------
+
+; // Generic Tags
+strOnce = "Once"
+strUpTo = "Up to"
+strTimes = "times"
+strTiles = "tiles"
+
+
+[X2Ability_WOTC_APA_ReaperAbilitySet]
+
+strShadow1Name = "Shadow Meld I"
+strShadow1Desc = "<font color='#CA7200'>FOCUS MECHANIC:</font><br/><Bullet/> Detection Radius is decreased by <font color='#3ABD23'><Ability:SHADOW_STACK_VARIABLE_DETECTION_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> Critical Hit chance is increased by <font color='#3ABD23'>+<Ability:SHADOW_STACK_CRIT_CHANCE_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> Gain up to a maximum of <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_I/></font> Shadow Stacks."
+strShadow2Name = "Shadow Meld II"
+strShadow2Desc = "<font color='#CA7200'>FOCUS MECHANIC:</font><br/><Bullet/> Detection Radius is decreased by <font color='#3ABD23'><Ability:SHADOW_STACK_VARIABLE_DETECTION_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> Critical Hit chance is increased by <font color='#3ABD23'>+<Ability:SHADOW_STACK_CRIT_CHANCE_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> Gain up to a maximum of <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_II/></font> Shadow Stacks."
+strShadow3Name = "Shadow Meld III"
+strShadow3Desc = "<font color='#CA7200'>FOCUS MECHANIC:</font><br/><Bullet/> Detection Radius is decreased by <font color='#3ABD23'><Ability:SHADOW_STACK_VARIABLE_DETECTION_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> Critical Hit chance is increased by <font color='#3ABD23'>+<Ability:SHADOW_STACK_CRIT_CHANCE_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> Gain up to a maximum of <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_III/></font> Shadow Stacks."
+
+strShadowStackName = "Shadow Stacks"
+strShadowStackDesc = "The level the Reaper has infiltrated into their environment."
