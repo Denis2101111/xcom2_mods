@@ -1,0 +1,72 @@
+[X2StrategyElement_PsiAmpSlot]
+strPsiAmpFirstLetter=P
+
+[UIArmory_PromotionPsion]
+m_strInventoryTitle=PSIONICS
+
+[UIFacility_PsionLabSlot]
+m_strPsiTrainingDialogTitle="TRAIN PSIONIC ABILITIES"
+m_strPsiTrainingDialogText="<XGParam:StrValue0/!UnitName/> can undergo specialized training to unlock their Psionic potential and gain Psionic abilities, but they will be unavailable for combat for <XGParam:IntValue0/!DaysToTrain/> days during the training process. Do you want to proceed?"
+m_strStopPsiTrainingDialogTitle="STOP PSIONIC TRAINING?"
+m_strStopPsiTrainingDialogText="Do you want to stop %UNITNAME from training as a psion?\n\nWARNING: All training progress will be lost."
+m_strPauseAbilityTrainingDialogTitle="PAUSE PSI ABILITY TRAINING?"
+m_strPauseAbilityTrainingDialogText="Do you want to pause %UNITNAME's Psionic ability training?\n\nNOTE: Training progress will be saved."
+m_strNoSoldiersTooltip="There are no soldiers with the latent ability to use psionics available for training."
+m_strSoldiersAvailableTooltip="Assign a latent psionic to learn new psionic abilities."
+
+[UIChoosePsionAbility]
+m_strTitle="Psionic Training"
+m_strInventoryLabel="Available Abilities:"
+m_strBuy="BEGIN TRAINING"
+m_strPaused="[PAUSED]"
+m_strResume="Resume Training"
+
+[UIAlert_IsPsionic]
+m_strPsionicSoldierHeader="ATTENTION"
+m_strPsionicSoldierTitle="SOLDIER HAS PSIONIC POTENTIAL"
+m_strSoldierIsPsionic="Can begin training psionic abilities"
+m_strSoldierPsionicHelp="Soldiers with the rare latent gift to use psionics can learn to harness them to devastating effect on the battlefield."
+
+[UISL_Armory_MainMenu_Psion]
+strPsionMenuOption="Psion Abilities"
+PsionListItemDescription=View already trained Psion Abilities.
+
+[LPUtilities]
+PsionTitle="Psion"
+PsionDescription="Mutare ad Custodiam. A latent psionic that we have discovered within our own troops, they wield the alien's greatest powers against them."
+
+PsionRankIcons[0]="UILibrary_Common.psirank_initiate"
+PsionRankIcons[1]="UILibrary_Common.psirank_acolyte"
+PsionRankIcons[2]="UILibrary_Common.psirank_adept"
+PsionRankIcons[3]="UILibrary_Common.psirank_disciple"
+PsionRankIcons[4]="UILibrary_Common.psirank_mystic"
+PsionRankIcons[5]="UILibrary_Common.psirank_warlock"
+PsionRankIcons[6]="UILibrary_Common.psirank_magus"
+PsionRankIcons[7]="UILibrary_PsionIcons.psirank_Master"
+
+PsionRankNames[0]="Initiate"
+PsionRankNames[1]="Acolyte"
+PsionRankNames[2]="Adept"
+PsionRankNames[3]="Disciple"
+PsionRankNames[4]="Mystic"
+PsionRankNames[5]="Warlock"
+PsionRankNames[6]="Magus"
+PsionRankNames[7]="Master"
+
+PsionShortNames[0]="Int."
+PsionShortNames[1]="Acl."
+PsionShortNames[2]="Adp."
+PsionShortNames[3]="Dsc."
+PsionShortNames[4]="Mys."
+PsionShortNames[5]="War."
+PsionShortNames[6]="Mag."
+PsionShortNames[7]="Mas."
+
+[UIArmory_PromotionPsion]
+m_strPsiOffenseLabel="PSI OFFENSE:"
+m_strNextSoldierRankLabel="REQ. RANK:"
+
+
+[X2DownloadableContentInfo_LatentPsionicsUnlock]
+strNoUnitSelected="No unit selected!"
+soldierNotAPsion="Selected unit is not a Psion!"
