@@ -1561,8 +1561,8 @@ TacticalText="\n<Bullet/>Инъекция препарата приведет к тому, что пользователь не
 [SavComDrug_Psiko X2WeaponTemplate]
 FriendlyName="Психо"
 FriendlyNamePlural="Психо"
-BriefSummary="Предположительно, изготовленный из экстрактов аналога шишковидной железы сектоидов, этот препарат пользуется популярностью у тех, кто хочет пробудить свой псионический потенциал. Хотя препарат действительно помогает добиться этого, особенно в краткосрочной перспективе, известно, что при частом применении он наносит психологический ущерб. Пользователи смогут издавать Психотический крик, который также временно повышает их псионические способности. Прием этого препарата сопряжен с существенными опасностями, а ограниченный запас означает, что его можно употреблять сразу после употребления."
-TacticalText="<Bullet/>Инъекция препарата приведет к тому, что юнит станет психотиком и предоставит им возможность использовать способность психо-крика.\n<Bullet/>Когда юнит становится Психотиком, он получает дополнительный импульс к псионическому нападению на оставшуюся часть миссии, но воля истощается каждый раз.\n<Bullet/>Психо крик также запускает Psikotik  при каждом использовании, усиливая эффект.\n<Bullet/>При использовании препарата у пользователя также будет шанс надолго обрести псионическую силу, хотя также существует риск постоянной потери воли.\n<Bullet/>Психо в дефиците, и есть вероятность, что продукт будет израсходован после его введения."
+BriefSummary="Предположительно, изготовленный из экстрактов аналога шишковидной железы сектоидов, этот препарат пользуется популярностью у тех, кто хочет пробудить свой псионический потенциал. Хотя препарат действительно помогает добиться этого, особенно в краткосрочной перспективе, известно, что при частом применении он наносит психологический ущерб. Пользователи смогут издавать псикотический крик, который также временно повышает их псионические способности. Прием этого препарата сопряжен с существенными опасностями, а ограниченный запас означает, что его можно употреблять сразу после употребления."
+TacticalText="<Bullet/>Инъекция препарата приведет к тому, что юнит станет психотиком и предоставит им возможность использовать способность психо-крика.\n<Bullet/>Когда юнит становится Псикотиком, он получает дополнительный импульс к псионическому нападению на оставшуюся часть миссии, но воля истощается каждый раз.\n<Bullet/>Психо крик также запускает Psikotik  при каждом использовании, усиливая эффект.\n<Bullet/>При использовании препарата у пользователя также будет шанс надолго обрести псионическую силу, хотя также существует риск постоянной потери воли.\n<Bullet/>Психо в дефиците, и есть вероятность, что продукт будет израсходован после его введения."
 
 [SavComDrug_Liston X2WeaponTemplate]
 FriendlyName="Листон"
@@ -1889,34 +1889,34 @@ LocHelpText="Поскольку они дозированы с помощью Кларити, этот юнит будет страдат
 LocLongDescription="Поскольку они дозированы с помощью Кларити, этот юнит будет страдать от негативных ментальных эффектов только до следующего конца хода. Это не включает в себя контроль над разумом."
 
 [SAVInjectRedHaze X2AbilityTemplate]
-LocFriendlyName="Ввести красную дымку"
-LocHelpText="Введите Красную дымку и войдите в состояние Красной дымки, подобное берсерку. ПРЕДУПРЕЖДЕНИЕ в этом состоянии боец будет атаковать союзные подразделения, если врагов не осталось. После инъекции устройство может по желанию входить в эту красную дымку. Дренажи вызовут и могут вызвать кровотечение. Имеет шанс израсходовать товар и / или начнется постоянное сокращение."
-LocLongDescription="Введите Красную дымку и войдите в состояние Красной дымки, подобное берсерку. ПРЕДУПРЕЖДЕНИЕ в этом состоянии боец будет атаковать союзные подразделения, если врагов не осталось. После инъекции устройство может по желанию входить в эту красную дымку. Дренажи вызовут и могут вызвать кровотечение. Имеет шанс использовать предмет и / или навсегда уменьшить показатель воли."
+LocFriendlyName="Inject Red Haze"
+LocHelpText="Inject Red Haze and enter a Berserker like Red Haze state. WARNING in this state the fighter will attack allied units if there are no enemies left. Once injected, the unit can enter this Red Haze at will. Drains will and can cause bleeding. Has a chance to consume the item and/or permenantly reduce Will stat."
+LocLongDescription="Inject Red Haze and enter a Berserker like Red Haze state. WARNING in this state the fighter will attack allied units if there are no enemies left. Once injected, the unit can enter this Red Haze at will. Drains will and can cause bleeding. Has a chance to consume the item and/or permenantly reduce Will stat."
 
 [SAVRedHazeGetMad X2AbilityTemplate]
-LocFriendlyName="Злость"
-LocHelpText="Переходит в состояние красной дымки. ПРЕДУПРЕЖДЕНИЕ в этом состоянии боец будет атаковать союзные подразделения, если врагов не осталось. У устройства есть шанс истечь кровью, и из него будет слито 2 Will."
-LocLongDescription="Переходит в состояние красной дымки. ПРЕДУПРЕЖДЕНИЕ в этом состоянии боец будет атаковать союзные подразделения, если врагов не осталось. У устройства есть шанс истечь кровью, и из него будет слито 2 Will."
+LocFriendlyName="Get Mad"
+LocHelpText="Enters a Red Haze state. WARNING in this state the fighter will attack allied units if there are no enemies left. The unit has a chance to bleed and will have 2 Will drained."
+LocLongDescription="Enters a Red Haze state. WARNING in this state the fighter will attack allied units if there are no enemies left. The unit has a chance to bleed and will have 2 Will drained."
 
 [SAVInjectPsiko X2AbilityTemplate]
-LocFriendlyName="Ввести Психо"
-LocHelpText="Ввод Психо. Начисляются сборы за Психический крик. Запускает Go Psikotik, получая дополнительный бонус к характеристикам псионического нападения на оставшуюся часть миссии, но истощая волю. Имеет шанс запаниковать и шанс навсегда потерять волю и / или получить статистику Пси-атак."
-LocLongDescription="Ввод Психо. Начисляются сборы за Психический крик. Запускает Go Psikotik, получая дополнительный бонус к характеристикам псионического нападения на оставшуюся часть миссии, но истощая волю. Имеет шанс запаниковать и шанс навсегда потерять волю и / или получить статистику Пси-атак."
+LocFriendlyName="Inject Psiko"
+LocHelpText="Inject Psiko. Gain charges for Psikotik Scream. Trigger Go Psikotik, gaining a stacking Psionic Offence stat bonus for the rest of the mission, but draining Will. Has a chance to panic, and a chance to permenently lose Will and/or gain Psi Offence stats."
+LocLongDescription="Inject Psiko. Gain charges for Psikotik Scream. Trigger Go Psikotik, gaining a stacking Psionic Offence stat bonus for the rest of the mission, but draining Will. Has a chance to panic, and a chance to permenently lose Will and/or gain Psi Offence stats."
 
 [SAVPsikotik X2AbilityTemplate]
-LocFriendlyName="Запустить Психотик"
-LocHelpText="Срабатывает, когда пользователь активирует способность Inject Psiko, или Психический крик. Дает дополнительный бонус к характеристике псионического нападения на оставшуюся часть миссии, но каждый раз истощает его."
-LocLongDescription="Срабатывает, когда пользователь активирует способность Inject Psiko, или Психический крик. Дает дополнительный бонус к характеристике псионического нападения на оставшуюся часть миссии, но каждый раз истощает его."
+LocFriendlyName="Go Psikotik"
+LocHelpText="Triggers when the user activates the Inject Psiko, or Psikotik Scream abilities. Gives a stacking Psionic Offence stat bonus for the rest of the mission, but drains Will each time."
+LocLongDescription="Triggers when the user activates the Inject Psiko, or Psikotik Scream abilities. Gives a stacking Psionic Offence stat bonus for the rest of the mission, but drains Will each time."
 
 [SAVPsikotikScream X2AbilityTemplate]
-LocFriendlyName="Психический крик"
-LocHelpText="Высвободите разум пользователя в результате псионической атаки conal, которая может дезориентировать или вызвать панику у целей во время взрыва. Также запускает Go Psikotik, усиливая псионическую атаку, но истощая волю."
-LocLongDescription="Высвободите разум пользователя в результате псионической атаки conal, которая может дезориентировать или вызвать панику у целей во время взрыва. Также запускает Go Psikotik, усиливая псионическую атаку, но истощая волю."
+LocFriendlyName="Psikotik Scream"
+LocHelpText="Unleash the users mind in a conal psionic attack which can disorient or panic targets in the blast. Also triggers Go Psikotik, boosting Psionic Offence, but draining Will."
+LocLongDescription="Unleash the users mind in a conal psionic attack which can disorient or panic targets in the blast. Also triggers Go Psikotik, boosting Psionic Offence, but draining Will."
 
 [SAVInjectListon X2AbilityTemplate]
-LocFriendlyName="Ввести Листон"
-LocHelpText="Вводите Листон, дающий значительно повышенную подвижность, силу и урон в ближнем бою на несколько ходов. Получите несколько применений Smash Down, атаки ближнего боя, которая наносит больше вреда в зависимости от относительной силы. Юнит пострадает, истощится, и у него есть шанс быть оглушенным и / или набраться сил, но потерять волю навсегда."
-LocLongDescription="Вводите Листон, дающий значительно повышенную мобильность, силу и урон в ближнем бою. Получите несколько применений Smash Down, атаки ближнего боя, которая наносит больше вреда в зависимости от относительной силы. Юнит пострадает, истощится, и у него есть шанс быть оглушенным и / или набраться сил, но потерять волю навсегда."
+LocFriendlyName="Inject Liston"
+LocHelpText="Inject the Liston, granting greatly boosted Mobility, Strength and melee damage for a few turns. Gain several uses of Smash Down, a melee attack that causes more harm depending on relative strength. The unit will suffer Will drain, and has a chance to be stunned and/or gain Strength but lose Will permenently."
+LocLongDescription="Inject the Liston, granting greatly boosted Mobility, Strength and melee damage. Gain several uses of Smash Down, a melee attack that causes more harm depending on relative strength. The unit will suffer Will drain, and has a chance to be stunned and/or gain Strength but lose Will permenently."
 
 [SavListonSmash X2AbilityTemplate]
 LocFriendlyName="Разбить вдребезги"
