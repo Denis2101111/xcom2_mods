@@ -1,0 +1,134 @@
+;ABILITY CONVERTED ARMOR MODS - ITEM TEMPLATES
+
+[TRArmorUpgrade_ArmourModLight X2ArmorUpgradeTemplate]
+FriendlyName="Lightweight Armour Mod"
+FriendlyNamePlural="Lightweight Armour Mods"
+BriefSummary="Streamlines the armour of the wearer, increasing their mobility and dodge, while reducing the distance at which the soldier can be spotted."
+TinySummary="+Utility Bonus"
+LootTooltip="Streamlines the armour of the wearer, increasing their mobility and dodge, while reducing the distance at which the soldier can be spotted."
+
+[TRArmorUpgrade_WebbingOverlayBonus X2ArmorUpgradeTemplate]
+FriendlyName="Expanded Webbing Armour Mod"
+FriendlyNamePlural="Expanded Webbing Armour Mods"
+BriefSummary="Grants an extra Utility slot."
+TinySummary="+Utility Bonus"
+LootTooltip="Grants an extra Utility slot."
+
+[TRArmorUpgrade_CeramicPlatingUpgradeBonus X2ArmorUpgradeTemplate]
+FriendlyName="Ceramic Plating Armour Mod"
+FriendlyNamePlural="Ceramic Plating Armour Mods"
+BriefSummary="Adds 2 Armour and 1 HP. Reduces Mobility, Dodge and stealth."
+TinySummary="+Utility Bonus"
+LootTooltip="Adds 2 Armour and 1 HP. Reduces Mobility, Dodge and stealth."
+
+[TRArmorUpgrade_GBandolierBonus X2ArmorUpgradeTemplate]
+FriendlyName="Grenade Bandolier Armour Mod"
+FriendlyNamePlural="Grenade Bandolier Armour Mods"
+BriefSummary="Provides an extra use of frag, alien, smoke, underbarrel, AP, molotov and flash grenades and an extra frag grenade."
+TinySummary="+Utility Bonus"
+LootTooltip="Provides an extra use of frag, alien, smoke, underbarrel, AP, molotov and flash grenades and an extra frag grenade."
+
+[TRArmorUpgrade_AssaultOverlayBonus X2ArmorUpgradeTemplate]
+FriendlyName="Assault Gear Armour Mod"
+FriendlyNamePlural="Assault Gear Armour Mods"
+BriefSummary="Provides 4 ablative HP armour and 15% crit resistance. Provides an extra flashbang for each one carried."
+TinySummary="+Utility Bonus"
+LootTooltip="Provides 4 ablative HP armour and 15% crit resistance. Provides an extra flashbang for each one carried."
+
+[TRArmorUpgrade_MedicalOverlayBonus X2ArmorUpgradeTemplate]
+FriendlyName="Medical Gear Armour Mod"
+FriendlyNamePlural="Medical Gear Armour Mods"
+BriefSummary="Provides an extra utility slot for medical equipment and an extra use of Medpack, Medkits, CombatStims, Stimulator and Regen for each one carried."
+TinySummary="+Utility Bonus"
+LootTooltip="Provides an extra utility slot for medical equipment and an extra use of Medpack, Medkits, CombatStims, Stimulator and Regen for each one carried."
+
+[TRArmorUpgrade_HazmatAModBonus X2ArmorUpgradeTemplate]
+FriendlyName="Sealed Armour Mod"
+FriendlyNamePlural="Sealed Armour Mods"
+BriefSummary="This AMod grants 2HP and provides immunity to fire, acid and all types of poison."
+TinySummary="+Utility Bonus"
+LootTooltip="This AMod grants 2HP and provides immunity to fire, acid and all types of poison."
+
+[TRArmorUpgrade_EngeneeringAModBonus X2ArmorUpgradeTemplate]
+FriendlyName="Engineering Gear Armour Mod"
+FriendlyNamePlural="Engineering Gear Armour Mods"
+BriefSummary="Gain an extra charge for each Claymore, Proximity Mine, Explosive Charge and C4 for each of these items carried."
+TinySummary="+Utility Bonus"
+LootTooltip="Gain an extra charge for each Claymore, Proximity Mine, Explosive Charge and C4 for each of these items carried."
+
+[TRArmorUpgrade_BundleofBladesBonusCharges X2ArmorUpgradeTemplate]
+FriendlyName="Bundle of Blades Armour Mod"
+FriendlyNamePlural="Bundle of Blades Armour Mods"
+BriefSummary="Grants extra uses of Hidden Blades when some are being carried."
+TinySummary="+Utility Bonus"
+LootTooltip="Grants extra uses of Hidden Blades when some are being carried."
+
+[TRArmorUpgrade_AlloyPlatingUpgradeBonus X2ArmorUpgradeTemplate]
+FriendlyName="Alloy Plating Armour Mod"
+FriendlyNamePlural="Alloy Plating Armour Mods"
+BriefSummary="Adds 2 Armour and 2 HP. Reduces Mobility, Dodge and stealth."
+TinySummary="+Utility Bonus"
+LootTooltip="Adds 2 Armour and 2 HP. Reduces Mobility, Dodge and stealth."
+
+[TRArmorUpgrade_WalkerServoOverdrive X2ArmorUpgradeTemplate]
+FriendlyName="Leg Assist Servos Armour Mod"
+FriendlyNamePlural="Leg Assist Servos Armour Mods"
+BriefSummary="Provides a free action, which grants 1 move only action point. Has a three turn cooldown."
+TinySummary="+Utility Bonus"
+LootTooltip="Provides a free action, which grants 1 move only action point. Has a three turn cooldown."
+
+[TRArmorUpgrade_MunitionsCarrierUpgradeBonus X2ArmorUpgradeTemplate]
+FriendlyName="Munitions Storage Armour Mod"
+FriendlyNamePlural="Munitions Storage Armour Mods"
+BriefSummary="Grants one additional use of most grenades, explosives and heavy weapons. Reduces Mobility, Dodge and stealth."
+TinySummary="+Utility Bonus"
+LootTooltip="Grants one additional use of most grenades, explosives and heavy weapons. Reduces Mobility, Dodge and stealth."
+
+[TRArmorUpgrade_QuickLoadFreeload X2ArmorUpgradeTemplate]
+FriendlyName="Freeloader Pouches"
+FriendlyNamePlural="Freeloader Pouches"
+BriefSummary="Grants 3 uses of an ability which reloads the primary weapon without using an action point."
+TinySummary="+Utility Bonus"
+LootTooltip="Grants 3 uses of an ability which reloads the primary weapon without using an action point."
+
+[TRArmorUpgrade_MediPackSatchel X2ArmorUpgradeTemplate]
+FriendlyName="Medipack Holster"
+FriendlyNamePlural="Medipack Holsters"
+BriefSummary="Grants a free Medipack."
+TinySummary="+Utility Bonus"
+LootTooltip="Grants a free Medipack."
+
+[TRArmorUpgrade_HEChargeSatchel X2ArmorUpgradeTemplate]
+FriendlyName="HE Charge Satchel"
+FriendlyNamePlural="HE Charge Satchels"
+BriefSummary="Grants a free HE Charge."
+TinySummary="+Utility Bonus"
+LootTooltip="Grants a free HE Charge."
+
+[TRArmorUpgrade_FireRetardantLayerAbility X2ArmorUpgradeTemplate]
+FriendlyName="Fire Retardant Layer"
+FriendlyNamePlural="Fire Retardant Layers"
+BriefSummary="Provides Fire immunity."
+TinySummary="+Utility Bonus"
+LootTooltip="Provides Fire immunity."
+
+[TRArmorUpgrade_PathogenBarrierLayerAbility X2ArmorUpgradeTemplate]
+FriendlyName="Pathogen Barrier Layer"
+FriendlyNamePlural="Pathogen Barrier Layers"
+BriefSummary="Provides Poison and Parthenogenic Poison immunity."
+TinySummary="+Utility Bonus"
+LootTooltip="Provides Poison and Parthenogenic Poison immunity."
+
+[TRArmorUpgrade_ChemicalBarrierLayerAbility X2ArmorUpgradeTemplate]
+FriendlyName="Chemical Neutralising Layer"
+FriendlyNamePlural="Chemical Neutralising Layers"
+BriefSummary="Provides Acid immunity."
+TinySummary="+Utility Bonus"
+LootTooltip="Provides Acid immunity."
+
+[TRArmorUpgrade_MuleUpgradeAbility X2ArmorUpgradeTemplate]
+FriendlyName="Mule Pack Upgrade"
+FriendlyNamePlural="Mule Pack Upgrades"
+BriefSummary="Provides 2 additional utility slots. The upgrade is heavy and will reduce the user's Mobility, Dodge and Stealth."
+TinySummary="+Utility Bonus"
+LootTooltip="Provides 2 additional utility slots. The upgrade is heavy and will reduce the user's Mobility, Dodge and Stealth."

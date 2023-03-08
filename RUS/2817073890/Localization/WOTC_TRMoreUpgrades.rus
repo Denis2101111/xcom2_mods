@@ -1,0 +1,134 @@
+;ABILITY CONVERTED ARMOR MODS - ITEM TEMPLATES
+
+[TRArmorUpgrade_ArmourModLight X2ArmorUpgradeTemplate]
+FriendlyName="МодБ: Облегченная броня"
+FriendlyNamePlural="МодБ: Облегченная броня"
+BriefSummary="Упрощает доспехи владельца, повышая его мобильность и способность уклоняться, одновременно уменьшая расстояние, с которого солдата можно заметить."
+TinySummary="+Полезность"
+LootTooltip="Упрощает доспехи владельца, повышая его мобильность и способность уклоняться, одновременно уменьшая расстояние, с которого солдата можно заметить."
+
+[TRArmorUpgrade_WebbingOverlayBonus X2ArmorUpgradeTemplate]
+FriendlyName="МодБ: Расширенная разгрузка"
+FriendlyNamePlural="МодБ: Расширенная разгрузка"
+BriefSummary="Предоставляет дополнительный служебный слот."
+TinySummary="+Полезность"
+LootTooltip="Предоставляет дополнительный служебный слот."
+
+[TRArmorUpgrade_CeramicPlatingUpgradeBonus X2ArmorUpgradeTemplate]
+FriendlyName="МодБ: Керамическое покрытие"
+FriendlyNamePlural="МодБ: Керамическое покрытие"
+BriefSummary="Добавляет 2 брони и 1 HP. Снижает мобильность, уклонение и скрытность."
+TinySummary="+Полезность"
+LootTooltip="Добавляет 2 брони и 1 HP. Снижает мобильность, уклонение и скрытность."
+
+[TRArmorUpgrade_GBandolierBonus X2ArmorUpgradeTemplate]
+FriendlyName="МодБ: Патронташ для гранаты"
+FriendlyNamePlural="МодБ: Патронташ для гранаты"
+BriefSummary="Обеспечивает дополнительное использование осколочных, чужеродных, дымовых, подствольных, AP, гранат Молотова и светошумовых гранат, а также дополнительной осколочной гранаты."
+TinySummary="+Полезность"
+LootTooltip="Обеспечивает дополнительное использование осколочных, чужеродных, дымовых, подствольных, AP, гранат Молотова и светошумовых гранат, а также дополнительной осколочной гранаты."
+
+[TRArmorUpgrade_AssaultOverlayBonus X2ArmorUpgradeTemplate]
+FriendlyName="МодБ: Штурмовое снаряжение"
+FriendlyNamePlural="МодБ: Штурмовое снаряжение"
+BriefSummary="Обеспечивает 4 абляционных HP брони и 15% сопротивления криту. Обеспечивает дополнительную вспышку для каждого переносимого."
+TinySummary="+Полезность"
+LootTooltip="Обеспечивает 4 абляционных HP брони и 15% сопротивления криту. Обеспечивает дополнительную вспышку для каждого переносимого."
+
+[TRArmorUpgrade_MedicalOverlayBonus X2ArmorUpgradeTemplate]
+FriendlyName="МодБ: Медицинское снаряжение"
+FriendlyNamePlural="МодБ: Медицинское снаряжение"
+BriefSummary="Обеспечивает дополнительный отсек для медицинского оборудования и дополнительное использование медпакета, аптечек, боевых стимуляторов, стимулятора и регенерации для каждого переносимого."
+TinySummary="+Полезность"
+LootTooltip="Обеспечивает дополнительный отсек для медицинского оборудования и дополнительное использование медпакета, аптечек, боевых стимуляторов, стимулятора и регенерации для каждого переносимого.."
+
+[TRArmorUpgrade_HazmatAModBonus X2ArmorUpgradeTemplate]
+FriendlyName="МодБ: Герметичность"
+FriendlyNamePlural="МодБ: Герметичность"
+BriefSummary="Этот мод дает 2 HP и обеспечивает невосприимчивость к огню, кислоте и всем видам яда.."
+TinySummary="+Полезность"
+LootTooltip="Этот мод дает 2 HP и обеспечивает невосприимчивость к огню, кислоте и всем видам яда.."
+
+[TRArmorUpgrade_EngeneeringAModBonus X2ArmorUpgradeTemplate]
+FriendlyName="МодБ: Инженерное снаряжение"
+FriendlyNamePlural="МодБ: Инженерное снаряжение"
+BriefSummary="Получите дополнительный заряд за каждый Клеймор, бесконтактную мину, заряд взрывчатки и C4 за каждый из этих перевозимых предметов."
+TinySummary="+Полезность"
+LootTooltip="Получите дополнительный заряд за каждый Клеймор, бесконтактную мину, заряд взрывчатки и C4 за каждый из этих перевозимых предметов."
+
+[TRArmorUpgrade_BundleofBladesBonusCharges X2ArmorUpgradeTemplate]
+FriendlyName="МодБ: Набор лезвий"
+FriendlyNamePlural="МодБ: Набор лезвий"
+BriefSummary="Предоставляет дополнительное использование скрытых лезвий при переноске некоторых из них."
+TinySummary="+Полезность"
+LootTooltip="Предоставляет дополнительное использование скрытых лезвий при переноске некоторых из них."
+
+[TRArmorUpgrade_AlloyPlatingUpgradeBonus X2ArmorUpgradeTemplate]
+FriendlyName="МодБ: Покрытие из сплавов"
+FriendlyNamePlural="МодБ: Покрытие из сплавов"
+BriefSummary="Добавляет 2 брони и 2 HP. Снижает мобильность, уклонение и скрытность."
+TinySummary="+Полезность"
+LootTooltip="Добавляет 2 брони и 2 HP. Снижает мобильность, уклонение и скрытность."
+
+[TRArmorUpgrade_WalkerServoOverdrive X2ArmorUpgradeTemplate]
+FriendlyName="МодБ: Сервоприводы ног"
+FriendlyNamePlural="МодБ: Сервоприводы ног"
+BriefSummary="Предоставляет бесплатное действие, которое дает очко действия только за 1 ход. Имеет время перезарядки в три хода."
+TinySummary="+Полезность"
+LootTooltip="Предоставляет бесплатное действие, которое дает очко действия только за 1 ход. Имеет время перезарядки в три хода."
+
+[TRArmorUpgrade_MunitionsCarrierUpgradeBonus X2ArmorUpgradeTemplate]
+FriendlyName="МодБ: Хранилище боеприпасов"
+FriendlyNamePlural="МодБ: Хранилище боеприпасов"
+BriefSummary="Дает одно дополнительное применение большинству гранат, взрывчатых веществ и тяжелого оружия. Снижает мобильность, уклонение и скрытность."
+TinySummary="+Полезность"
+LootTooltip="Дает одно дополнительное применение большинству гранат, взрывчатых веществ и тяжелого оружия. Снижает мобильность, уклонение и скрытность."
+
+[TRArmorUpgrade_QuickLoadFreeload X2ArmorUpgradeTemplate]
+FriendlyName="Запас быстрых перезарядок"
+FriendlyNamePlural="Запасы быстрых перезарядок"
+BriefSummary="Дает 3 использования способности, которая перезаряжает основное оружие без использования основной перезарядки"
+TinySummary="+Бонус предмета"
+LootTooltip="Дает 3 использования способности, которая перезаряжает основное оружие без использования основной перезарядки"
+
+[TRArmorUpgrade_MediPackSatchel X2ArmorUpgradeTemplate]
+FriendlyName="Запас мед-пакета"
+FriendlyNamePlural="Запасы мед-пакета"
+BriefSummary="Дает бесплатное использование мед-пакета."
+TinySummary="+Бонус предмета"
+LootTooltip="Дает бесплатное использование мед-пакета."
+
+[TRArmorUpgrade_HEChargeSatchel X2ArmorUpgradeTemplate]
+FriendlyName="Заряд взрывчатки HE"
+FriendlyNamePlural="Заряды взрывчатки HE"
+BriefSummary="Дает заряд взрывчатки HE."
+TinySummary="+Бонус предмета"
+LootTooltip="Дает заряд взрывчатки HE."
+
+[TRArmorUpgrade_FireRetardantLayerAbility X2ArmorUpgradeTemplate]
+FriendlyName="Огнезащитный слой"
+FriendlyNamePlural="Огнезащитные слои"
+BriefSummary="Обеспечивает огнестойкость."
+TinySummary="+Бонус предмета"
+LootTooltip="Обеспечивает огнестойкость."
+
+[TRArmorUpgrade_PathogenBarrierLayerAbility X2ArmorUpgradeTemplate]
+FriendlyName="Барьерный слой от патогенов"
+FriendlyNamePlural="Барьерные слои от патогенов"
+BriefSummary="Обеспечивает иммунитет к ядам и партеногенным отравлениям."
+TinySummary="+Бонус предмета"
+LootTooltip="Обеспечивает иммунитет к ядам и партеногенным отравлениям."
+
+[TRArmorUpgrade_ChemicalBarrierLayerAbility X2ArmorUpgradeTemplate]
+FriendlyName="Химически нейтрализующий слой"
+FriendlyNamePlural="Химически нейтрализующий слои"
+BriefSummary="Обеспечивает устойчивость к кислотам."
+TinySummary="+Бонус предмета"
+LootTooltip="Обеспечивает устойчивость к кислотам."
+
+[TRArmorUpgrade_MuleUpgradeAbility X2ArmorUpgradeTemplate]
+FriendlyName="Улучшение разгрузки мула"
+FriendlyNamePlural="Улучшения разгрузки мула"
+BriefSummary="Предоставляет 2 дополнительных слота для утилит. Обновление является тяжелым и снизит мобильность пользователя, уклонение и скрытность."
+TinySummary="+Бонус предмета"
+LootTooltip="Предоставляет 2 дополнительных слота для утилит. Обновление является тяжелым и снизит мобильность пользователя, уклонение и скрытность."

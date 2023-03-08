@@ -1159,6 +1159,42 @@ LocFriendlyName="Употребить батончик"
 LocHelpText="Борьба за свободу человеческой расы - это голодная работа. Восстановите волю. За 4 хода восстанавливайте HP и повышайте HP, волю, уклонение и мобильность. Бесплатное действие с перезарядкой в 2 хода. Может надолго ослабить волю."
 LocLongDescription="Борьба за свободу человеческой расы - это голодная работа. Восстановите волю. За 4 хода восстанавливайте HP и повышайте HP, волю, уклонение и мобильность. Бесплатное действие с перезарядкой в 2 хода. Может надолго ослабить волю."
 
+[QuickLoadFreeload X2AbilityTemplate]
+LocFriendlyName="Мешки быстрых перезарядок"
+LocHelpText="Дает 3 использования способности, которая перезаряжает основное оружие без использования основной перезарядки"
+LocLongDescription="Дает 3 использования способности, которая перезаряжает основное оружие без использования основной перезарядки"
+
+[MediPackSatchel X2AbilityTemplate]
+LocFriendlyName="Medipack Holster"
+LocHelpText="Grants a free Medipack."
+LocLongDescription="Grants a free Medipack."
+
+[HEChargeSatchel X2AbilityTemplate]
+LocFriendlyName="HE Charge Satchel"
+LocHelpText="Grants a free HE Charge."
+LocLongDescription="Grants a free HE Charge."
+
+[FireRetardantLayerAbility X2AbilityTemplate]
+LocFriendlyName="Fire Retardant Layer"
+LocHelpText="Provides Fire immunity."
+LocLongDescription="Provides Fire immunity."
+
+[PathogenBarrierLayerAbility X2AbilityTemplate]
+LocFriendlyName="Pathogen Barrier Layer"
+LocHelpText="Provides Poison and Parthenogenic Poison immunity."
+LocLongDescription="Provides Poison and Parthenogenic Poison immunity."
+
+[ChemicalBarrierLayerAbility X2AbilityTemplate]
+LocFriendlyName="Chemical Neutralising Layer"
+LocHelpText="Provides Acid immunity."
+LocLongDescription="Provides Acid immunity."
+
+[MuleUpgradeAbility X2AbilityTemplate]
+LocFriendlyName="Mule Pack Upgrade"
+LocHelpText="Provides 2 additional utility slots. The upgrade is heavy and will reduce the user's Mobility, Dodge and Stealth."
+LocLongDescription="Provides 2 additional utility slots. The upgrade is heavy and will reduce the user's Mobility, Dodge and Stealth."
+
+
 +++++++++++++++++++++++++++++++++++++++
 ===========TECH AND PROJECTS===========
 +++++++++++++++++++++++++++++++++++++++
@@ -2320,3 +2356,53 @@ FriendlyNamePlural="МодБ: Хранилище боеприпасов"
 BriefSummary="Дает одно дополнительное применение большинству гранат, взрывчатых веществ и тяжелого оружия. Снижает мобильность, уклонение и скрытность."
 TinySummary="+Полезность"
 LootTooltip="Дает одно дополнительное применение большинству гранат, взрывчатых веществ и тяжелого оружия. Снижает мобильность, уклонение и скрытность."
+
+
+[TRArmorUpgrade_QuickLoadFreeload X2ArmorUpgradeTemplate]
+FriendlyName="Запас быстрых перезарядок"
+FriendlyNamePlural="Запасы быстрых перезарядок"
+BriefSummary="Дает 3 использования способности, которая перезаряжает основное оружие без использования основной перезарядки"
+TinySummary="+Бонус предмета"
+LootTooltip="Дает 3 использования способности, которая перезаряжает основное оружие без использования основной перезарядки"
+
+[TRArmorUpgrade_MediPackSatchel X2ArmorUpgradeTemplate]
+FriendlyName="Запас мед-пакета"
+FriendlyNamePlural="Запасы мед-пакета"
+BriefSummary="Дает бесплатное использование мед-пакета."
+TinySummary="+Бонус предмета"
+LootTooltip="Дает бесплатное использование мед-пакета."
+
+[TRArmorUpgrade_HEChargeSatchel X2ArmorUpgradeTemplate]
+FriendlyName="Заряд взрывчатки HE"
+FriendlyNamePlural="Заряды взрывчатки HE"
+BriefSummary="Дает заряд взрывчатки HE."
+TinySummary="+Бонус предмета"
+LootTooltip="Дает заряд взрывчатки HE."
+
+[TRArmorUpgrade_FireRetardantLayerAbility X2ArmorUpgradeTemplate]
+FriendlyName="Огнезащитный слой"
+FriendlyNamePlural="Огнезащитные слои"
+BriefSummary="Обеспечивает огнестойкость."
+TinySummary="+Бонус предмета"
+LootTooltip="Обеспечивает огнестойкость."
+
+[TRArmorUpgrade_PathogenBarrierLayerAbility X2ArmorUpgradeTemplate]
+FriendlyName="Барьерный слой от патогенов"
+FriendlyNamePlural="Барьерные слои от патогенов"
+BriefSummary="Обеспечивает иммунитет к ядам и партеногенным отравлениям."
+TinySummary="+Бонус предмета"
+LootTooltip="Обеспечивает иммунитет к ядам и партеногенным отравлениям."
+
+[TRArmorUpgrade_ChemicalBarrierLayerAbility X2ArmorUpgradeTemplate]
+FriendlyName="Химически нейтрализующий слой"
+FriendlyNamePlural="Химически нейтрализующий слои"
+BriefSummary="Обеспечивает устойчивость к кислотам."
+TinySummary="+Бонус предмета"
+LootTooltip="Обеспечивает устойчивость к кислотам."
+
+[TRArmorUpgrade_MuleUpgradeAbility X2ArmorUpgradeTemplate]
+FriendlyName="Улучшение разгрузки мула"
+FriendlyNamePlural="Улучшения разгрузки мула"
+BriefSummary="Предоставляет 2 дополнительных слота для утилит. Обновление является тяжелым и снизит мобильность пользователя, уклонение и скрытность."
+TinySummary="+Бонус предмета"
+LootTooltip="Предоставляет 2 дополнительных слота для утилит. Обновление является тяжелым и снизит мобильность пользователя, уклонение и скрытность."
